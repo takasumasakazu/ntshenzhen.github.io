@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>                                                 | Takasu Articles</title>
+<meta name="keywords" content="">
+<meta name="description" content="ムーアの法則とハードウェアスタートアップ &mdash; &mdash; オープンソースハードウェアの時代はこれから来る
+::: {.section .p-summary field=&ldquo;subtitle&rdquo;}
+2018/11/08 07:30
+:::
+::: {.section .e-content field=&ldquo;body&rdquo;}
+::: {.section .section .section&ndash;body .section&ndash;first name=&ldquo;21e7&rdquo;}
+::: {.section-divider}
+
+:::
+::: {.section-content}
+::: {.section-inner .sectionLayout&ndash;insetColumn}
+ムーアの法則とハードウェアスタートアップ &mdash; &mdash; オープンソースハードウェアの時代はこれから来る
+2018/11/08 07:30
+
+{.graf-image}
+MITの「深センの男」であり、ハードウェアスタートアップアクセラレーターHAXのメンターでもある&quot;バニー&quot;ファンが自らの体験を語りつくした「ハードウェアハッカー～新しいモノをつくる破壊と創造の冒険」{.markup&ndash;anchor
+.markup&ndash;p-anchor}（技術評論社）が2018年10月19日に発売された。fabcross読者の興味に合うテーマだと思われるので、書籍と連動した記事を3本連続で掲載する。
+「18カ月ごとに半導体の集積度が倍になる」というムーアの法則により、年々CPUは速くなりメモリーの価格は下落している。独自のハードウェアを開発するスタートアップにとってこれは、自前で開発するよりも座って待っている人の方が良いハードウェアを得られる厳しい世界だ。ところが近年半導体の集積度の向上（プロセスの微細化）に限界が見られ、ムーアの法則は終わりに近づいている。ハードウェアハッカーの第一人者バニー・ファンが考える、オープンソースハードウェアの黄金時代とは。
+:::
+:::
+:::
+::: {.section .section .section&ndash;body .section&ndash;last name=&ldquo;d9fd&rdquo;}
+::: {.section-divider}
+
+:::
+::: {.section-content}
+::: {.section-inner .sectionLayout&ndash;insetColumn}
+新しいモノを作るか、座って待っているか
+「iPhone 3G」「iPhone 3GS」「iPhone 4」「iPhone
+4S」と続いたiPhoneの進化はめざましいもので、遅かった動作はキビキビするようになり、ストレージ容量は増え、画面もきれいになった。2008～2010年頃のiPhoneの進化はムーアの法則に後押しされていた。もしこの時代にとあるスタートアップがスマートフォンを作ったとすると、少なくとも1～2年ごとに性能を倍増させた新製品を出さないと見劣りしただろう。
+製品はそのとき普及している技術レベルの影響をどうしても受ける。たとえば通信が遅くて高ければクラウドよりもローカルに保存するようにするし、メモリーが高かった頃のAppleのポータブル音楽プレーヤー「iPod」は小型のハードディスクを使用し、大きなバッテリーを積んでいた。そのころのiPodと現在の「iPod
+Touch」はまったく別の製品になっている。">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/archive/2025-03-24_-------------------------------------------------1936363bc6f1/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/archive/2025-03-24_-------------------------------------------------1936363bc6f1/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Takasu Articles (Alt + H)">Takasu Articles</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+                                                      
+    </h1>
+    <div class="post-meta"><span title='2025-03-24 00:00:00 +0000 UTC'>March 24, 2025</span>
+
+</div>
+  </header> 
+  <div class="post-content"><h1 id="ムーアの法則とハードウェアスタートアップ-オープンソースハードウェアの時代はこれから来る" class="p-name">ムーアの法則とハードウェアスタートアップ &mdash; &mdash; オープンソースハードウェアの時代はこれから来る<a hidden class="anchor" aria-hidden="true" href="#ムーアの法則とハードウェアスタートアップ-オープンソースハードウェアの時代はこれから来る">#</a></h1>
+<p>::: {.section .p-summary field=&ldquo;subtitle&rdquo;}
+2018/11/08 07:30
+:::</p>
+<p>::: {.section .e-content field=&ldquo;body&rdquo;}
+::: {.section .section .section&ndash;body .section&ndash;first name=&ldquo;21e7&rdquo;}
+::: {.section-divider}</p>
+<hr>
+<p>:::</p>
+<p>::: {.section-content}
+::: {.section-inner .sectionLayout&ndash;insetColumn}</p>
+<h3 id="3e42" class="graf graf--h3 graf--leading graf--title" name="3e42">ムーアの法則とハードウェアスタートアップ &mdash; &mdash; オープンソースハードウェアの時代はこれから来る<a hidden class="anchor" aria-hidden="true" href="#3e42">#</a></h3>
+<p>2018/11/08 07:30</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*wxoigGyaMb9bvrUix44tNQ.jpeg" alt="シンガポールのカンファレンスでオープンソースハードウェアについて語るバニー・ファン。" loading="lazy" />
+{.graf-image}</p>
+<p>MITの「深センの男」であり、ハードウェアスタートアップアクセラレーターHAXのメンターでもある&quot;バニー&quot;ファンが自らの体験を語りつくした<a href="https://gihyo.jp/book/2018/978-4-297-10106-0"><strong>「ハードウェアハッカー～新しいモノをつくる破壊と創造の冒険」</strong></a>{.markup&ndash;anchor
+.markup&ndash;p-anchor}（技術評論社）が2018年10月19日に発売された。fabcross読者の興味に合うテーマだと思われるので、書籍と連動した記事を3本連続で掲載する。</p>
+<p>「18カ月ごとに半導体の集積度が倍になる」というムーアの法則により、年々CPUは速くなりメモリーの価格は下落している。独自のハードウェアを開発するスタートアップにとってこれは、自前で開発するよりも座って待っている人の方が良いハードウェアを得られる厳しい世界だ。ところが近年半導体の集積度の向上（プロセスの微細化）に限界が見られ、ムーアの法則は終わりに近づいている。ハードウェアハッカーの第一人者バニー・ファンが考える、オープンソースハードウェアの黄金時代とは。
+:::
+:::
+:::</p>
+<p>::: {.section .section .section&ndash;body .section&ndash;last name=&ldquo;d9fd&rdquo;}
+::: {.section-divider}</p>
+<hr>
+<p>:::</p>
+<p>::: {.section-content}
+::: {.section-inner .sectionLayout&ndash;insetColumn}</p>
+<h3 id="8276" class="graf graf--h3 graf--leading" name="8276">新しいモノを作るか、座って待っているか<a hidden class="anchor" aria-hidden="true" href="#8276">#</a></h3>
+<p>「iPhone 3G」「iPhone 3GS」「iPhone 4」「iPhone
+4S」と続いたiPhoneの進化はめざましいもので、遅かった動作はキビキビするようになり、ストレージ容量は増え、画面もきれいになった。2008～2010年頃のiPhoneの進化はムーアの法則に後押しされていた。もしこの時代にとあるスタートアップがスマートフォンを作ったとすると、少なくとも1～2年ごとに性能を倍増させた新製品を出さないと見劣りしただろう。</p>
+<p>製品はそのとき普及している技術レベルの影響をどうしても受ける。たとえば通信が遅くて高ければクラウドよりもローカルに保存するようにするし、メモリーが高かった頃のAppleのポータブル音楽プレーヤー「iPod」は小型のハードディスクを使用し、大きなバッテリーを積んでいた。そのころのiPodと現在の「iPod
+Touch」はまったく別の製品になっている。</p>
+<p>一つの開発チームが、自分の製品の性能を1年間に75％上げられるとする。その75％成長と、ムーアの法則を比べるとこうなる。</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*INfTHOYc0n00J1DpYQlZ-w.jpeg" alt="ムーアの法則と比べると、年75％の割合で製品を改善しても、あっという間に抜き返され、グレーで表示されている「ムーアの法則を上回っている瞬間」はすごく少ない。（「ハードウェアハッカー～新しいモノをつくる破壊と創造の冒険」{.markup&ndash;anchor .markup&ndash;figure-anchor}P238）" loading="lazy" />
+{.graf-image}</p>
+<p>Appleのような大企業は複数の研究開発ラインを用意して、1年後の製品、3年後の製品、5年後の製品を平行して開発することができる。先ほどの例なら、ハードディスク版のiPodの開発を続けながらiPod
+Touchの開発ができる。ムーアの法則に付いていく勢いの開発が可能だ。ところが少人数のスタートアップではそうした開発は難しく、製品はすぐ時代遅れになってしまう。</p>
+<h3 id="bd19" class="graf graf--h3 graf-after--p" name="bd19">スタートアップとムーアの法則<a hidden class="anchor" aria-hidden="true" href="#bd19">#</a></h3>
+<p>2006年に発表された、インターネットに常時接続された目覚まし時計「chumby」は、枕元で常時接続されてTwitterや天気予報などをいつでも見られる、今の画面付きスマートスピーカーやスマートフォンを先取りするような製品だった。開発していたのはハードウェアスタートアップの草分けと言えるChumby
+Industries。一つ目の製品「chumby
+classic」の発売は2008年、価格を半分にした改良版の「chumby
+One」は2009年の年末に販売が始まった。</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*34UY4mLy7CdqugM9gv6GGw.jpeg" alt="左がchumby Classic, 右がchumby
+One。使い勝手は同じだがCPUや設計等ハードウェアのプラットホームは異なり、価格も半分になっている。" loading="lazy" />
+{.graf-image}</p>
+<p>残念ながら2006年には革新的に見えたchumbyは、すさまじい勢いで進化していくスマートフォンに比べると、2010年頃には時代遅れに見えるようになってきた。コンセプトそのものは最近の画面付きスマートスピーカー、Google
+HomeやAlexaに見られるように今も通用するものだが、ハードウェアとしてのアップグレードを、AppleやSamsungといったスマートフォン業界の大企業と同じサイクルで行っていくのは難しく、2012年の4月には資金が尽きて廃業することになった。</p>
+<p>chumbyの事例はハードウェアスタートアップ業界でさまざまに研究され、今ではスタートアップが手がけるハードウェアは、よりニッチなものやハードウェアの絶対的な性能に大きく左右されないもの、シンプルなハードウェアを中心にしたものが多くなってきている。ソフトウェアの世界ではスタートアップが大企業と同じフィールドで勝負をしにいく例が見られるが、ハードウェアではそれが難しいようだ。</p>
+<h3 id="7b2d" class="graf graf--h3 graf-after--p" name="7b2d">オープンソースハードウェアの時代はこの後に来る<a hidden class="anchor" aria-hidden="true" href="#7b2d">#</a></h3>
+<p>ここ数回の記事で紹介している「ハードウェアハッカー」の著者バニー・ファンは、2005年のChumby
+Industries参画からずっとハードウェア担当副社長としてすべてに携わっていた。彼はこのムーアの法則との戦いについてさらに先のビジョンを持っている。ムーアの法則を支えるプロセスの微細化については物理的な限界が近づき、チップメーカーはコアを複数積むなど、別の方法で性能を上げているが、これまでに比べると性能向上は遅くなっている。最近のスマートフォンの新モデルは、一つ前に比べて、それほど劇的に優れているわけではない。ムーアの法則の速度が減衰するにつれて、スタートアップでもついて行けるような開発が可能になる。</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*_b-c65cLoadpR7zFLZaMyw.jpeg" alt="ムーアの法則が減速した世界の図。先ほどの図に比べて、スタートアップが活躍できるグレーの部分が広がっている。（「ハードウェアハッカー」P241
+先ほどの図と違い縦軸が対数になっている）" loading="lazy" />
+{.graf-image}</p>
+<p>ムーアの法則が支配的な世界では複数の開発ラインに大量のリソースを投入し、成果をなるべく自社で囲い込んでアドバンテージを保っていくやりかたが中心になり、それは大企業には向いているがスタートアップには難しい。一方でムーアの法則があまり影響しない世界では別の種類の開発モデルが成り立つ。例えば性能向上があまり激しくないArduinoベースの世界では、小企業や個人のイノベーターが存在感を出している。また、オープンソースハードウェアの世界はコンピューター用CPUやメモリー、スマートフォンなどの世界に比べて、Intelなどの大企業の存在感が小さい。</p>
+<p>もちろんそれらの市場が小さすぎてそもそも大企業が相手にしていない、という可能性はあるだろうが、これまでよりも小規模なイノベーターの活躍できる余地は広がっていくだろう。</p>
+<p>今回のムーアの法則と個人イノベーターについては、12月1日、2日に開催される大垣ミニメイカーフェアにて、「ハードウェアハッカー」の翻訳を担当した僕と金沢大学の秋田純一教授でトークセッションを行う予定だ。ぜひ大垣でお会いしましょう！
+:::
+:::
+:::
+:::</p>
+<p>By <a href="https://medium.com/@tks">TAKASU Masakazu/高須正和</a>{.p-author
+.h-card} on <a href="https://medium.com/p/1936363bc6f1">March 24, 2025</a>.</p>
+<p><a href="https://medium.com/@tks/20181108-1936363bc6f1">Canonical
+link</a>{.p-canonical}</p>
+<p>Exported from <a href="https://medium.com">Medium</a> on February 6, 2026.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Takasu Articles</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

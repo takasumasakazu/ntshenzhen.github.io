@@ -1,0 +1,159 @@
+---
+title: "          Maker         AkiParty          "
+date: 2025-03-21
+---
+
+日本発で海外に広がるMaker向けクラブイベントAkiPartyとニコニコ技術部東京 {#日本発で海外に広がるmaker向けクラブイベントakipartyとニコニコ技術部東京 .p-name}
+=======================================================================
+
+::: {.section .p-summary field="subtitle"}
+2016/08/16 08:00
+:::
+
+::: {.section .e-content field="body"}
+::: {.section .section .section--body .section--first name="627b"}
+::: {.section-divider}
+
+------------------------------------------------------------------------
+:::
+
+::: {.section-content}
+::: {.section-inner .sectionLayout--insetColumn}
+### 日本発で海外に広がるMaker向けクラブイベントAkiPartyとニコニコ技術部東京 {#493a .graf .graf--h3 .graf--leading .graf--title name="493a"}
+
+2016/08/16 08:00
+
+![](https://cdn-images-1.medium.com/max/800/1*IwA0RZo-Sc-K1n0lviMNOw.jpeg){.graf-image}
+:::
+:::
+:::
+
+::: {.section .section .section--body name="1d9c"}
+::: {.section-divider}
+
+------------------------------------------------------------------------
+:::
+
+::: {.section-content}
+::: {.section-inner .sectionLayout--insetColumn}
+Maker Faire Tokyo
+2016の終了直後から秋葉原のダンスクラブにて、クラブイベントと展示イベントを同時開催する形でニコニコ技術部の展示イベントNT東京が行われた。会場では、テクノロジーでウケを取りにいくニコニコ技術部ならではのインパクトの強い展示や、クラブイベントと同時開催ということでパーティー向けの工作など、通常のイベントでは見られない作品が見られ、新たなジャンルの誕生を感じさせた。NT東京の出展作品についてレポートする。
+:::
+:::
+:::
+
+::: {.section .section .section--body name="7703"}
+::: {.section-divider}
+
+------------------------------------------------------------------------
+:::
+
+::: {.section-content}
+::: {.section-inner .sectionLayout--insetColumn}
+### NT東京は、ニコニコ技術部のオフ会 {#6291 .graf .graf--h3 .graf--leading name="6291"}
+
+8月7日の日曜日、Maker Faire Tokyo 2016
+の終了と同時の18時に、ダンスクラブ[**秋葉原MOGRA**](http://club-mogra.jp/){.markup--anchor
+.markup--p-anchor}にて、展示イベントのNT東京が開催された。NTはニコニコ技術部の英語名Nico-Techの頭文字を取ったもので、ニコニコ技術部のオフ会はNT＋地名と評している。
+
+筆者は、「ギークのギークによるギークのためのダンスパーティー」をスローガンにする、ダンスパーティーAkiPartyを主催している。今年会場に選んだダンスクラブMOGRAの1Fに作品出展も可能なフロアが増設されたため、地下のダンスフロアに加えて地上階を展示フロアとし、さらにウェアラブルな展示物の持ち込みを歓迎した形でNT東京は行われた。
+
+![「ギークのギークによるギークのためのダンスパーティ」 \#AkiParty
+が行われた秋葉原MOGRA。（撮影：timbotu）](https://cdn-images-1.medium.com/max/800/1*lbLNTrLtCJ9HHAznK-aA-w.jpeg){.graf-image}
+
+### NTならではの意表を突かれる展示物 {#2a00 .graf .graf--h3 .graf-after--figure name="2a00"}
+
+ニコニコ技術部はテクノロジーを用いてウケを取りにいくことを目的にする人たち、ひいてはテクノロジーを楽しむ人たちだ。発想、技術、作り込みといったどの部分も、ネタとして活用される。
+
+インパクト抜群の工作で注目を集めたのは、マンスーン氏の作品「目から火花が飛び散るメガネ」だ。
+
+![目から火花が飛び散るメガネ。](https://cdn-images-1.medium.com/max/800/1*IZ6LCjt5UMQxmY47O2te3Q.jpeg){.graf-image}
+
+「マンガで、ライバル同士の目から火が出る状況をホントにやってみたかった」というきっかけで作った作品は、バチバチ火花が出るオモチャのピストルから取った部品にモーターを付け、メガネに装着したもの。写真で見るようにかなりの激しさで、顔の前5cm以上も火花が飛ぶ。
+
+マンスーンさんは他にも、「虚無僧をサラリーマンが取り囲む」「サラリーマンがヤクザに取り囲まれる」など、シュールなシーンを再現したスノーボールなど、一風変わった作品を持ち込んでいた。
+
+![シュールな光景を再現したスノーボール。](https://cdn-images-1.medium.com/max/800/1*gbCIYAzqBWfe-TswiLawBQ.jpeg){.graf-image}
+
+同じくインパクト抜群だったのが、 \@yumu19
+氏の[**cyberkeyboard**](http://yumulog.hatenablog.com/entry/2016/03/05/212815){.markup--anchor
+.markup--p-anchor}。キーボートにプロジェクションし、打ったキーから文字が光って消えていく作品で、最初のツイートは2万RTを超え、その後テレビなどにも取り上げられている。
+
+NT東京の会場はクラブイベントという性質上、照明が暗めに抑えられているので、キーの文字がより鮮烈に見える。
+
+cyberkeyborad（\@yumu19氏がアップした動画）。
+:::
+:::
+:::
+
+::: {.section .section .section--body .section--last name="244f"}
+::: {.section-divider}
+
+------------------------------------------------------------------------
+:::
+
+::: {.section-content}
+::: {.section-inner .sectionLayout--insetColumn}
+### ダンスクラブならではのパーティー向け作品 {#44f8 .graf .graf--h3 .graf--leading name="44f8"}
+
+ダンスパーティーと同時開催なイベントだけあり、クラブを想定した出品も多い。テクノコスプレ研究会は、FPGAによって個別制御されたフルカラーLEDでスカートを作り、スカートがそのままディスプレイになるテクノコスプレを出品。
+
+細かいグラデーションを出したり文字を出すなど、普通にパソコンのディスプレイのような表示ができる、ステージ映えする作品だ。
+
+![テクノコスプレ研究会。モデルはほわいともかさん。](https://cdn-images-1.medium.com/max/800/1*NQN5yZv9LYjjvGRPfXyTHA.jpeg){.graf-image}
+
+このテクノコスプレ研究会は、筑波大学の助教／学生で結成したサークルSRSIVの電飾コスプレが下地になっている。今回のイベントにはSRSIVも電飾コスプレ衣装を出展し、2世代の衣装がそろい踏みした。
+
+電飾コスプレ衣装は文字を出すなどの個別LED制御はできないが、衣服全体にLEDが配置されていて見た目のインパクトは大きく、ダンスフロアにそろい踏みした時は観客から歓声が沸いた。
+
+![SRSIVの発起人くとのぷれある氏を囲んで、電飾コスプレとテクノコスプレ研究会、2世代の衣装がそろい踏み。](https://cdn-images-1.medium.com/max/800/1*SFW5DzYd_1CQX8ONLeQutQ.jpeg){.graf-image}
+
+「GPSと連動し、目的地を設定するとその方向に倒れる傘」[**カサネタリウム**](http://kasanetarium.web.fc2.com/){.markup--anchor
+.markup--p-anchor}を作っているホリ氏もウェアラブル出展。代表作のカサネタリウムに、今回のパーティー仕様でLEDを内蔵し、光る傘にして出品。
+
+![光るカサネタリウム。LEDの光がビニール傘でうまい具合に拡散してとても美しい。](https://cdn-images-1.medium.com/max/800/1*TkSc6i_wMMR2UDi63FDZcA.jpeg){.graf-image}
+
+### ぐんぐん増えてくる持ち込み作品 {#9b06 .graf .graf--h3 .graf-after--figure name="9b06"}
+
+NT東京は、テーブルの確保には出展申し込みが必要だが、ウェアラブルな作品なら登録なしでいきなり持ち込めるようになっている。いきなり持ち込まれた中で会場の爆笑を誘っていたのは、この人間ラジコン。
+
+コントローラからの情報が、作者の後頭部にあるボックスに伝わってボックスが振動する。その振動に従って作者が動くことで、人間をラジコンで操作しているような感覚が得られる。リモコンとボタンはすごく目立つように作られているので、まわりから見ているとそのシュールな光景がより目立つ。
+
+![作者がコントローラ通りに動いてくれる人間ラジコン。](https://cdn-images-1.medium.com/max/800/1*jdHxdeDO2b6LV6Xa398zrQ.jpeg){.graf-image}
+
+今回スポンサーとして参加した[**GUGEN
+2016**](https://gugen.jp/){.markup--anchor
+.markup--p-anchor}（毎年実施している、自作ハードウェアコンテスト）は、クラブ向けのハードウェアを開発した過去の参加者に呼び掛けを行い、まさにクラブ向けのガジェットである小型レーザープロジェクタ、[**Projection
+Ball**](https://gugen.jp/entry2015/004){.markup--anchor
+.markup--p-anchor}が持ち込み展示されていた。2015年の出展時よりさらに進化したバージョンのプロジェクタは、なんと手持ち展示。会場の壁に星やスマイルマークなどを描いていた。
+
+![小型／安価で、モバイルバッテリーで駆動させることもできるProjection
+Ball。](https://cdn-images-1.medium.com/max/800/1*n21S7-g6dtuKxpxXEv9RKQ.jpeg){.graf-image}
+
+![さらに進化したバージョンのProjection
+Ballを手持ち展示。](https://cdn-images-1.medium.com/max/800/1*f0oGyHBExH2C6Vo0Ih3qIw.jpeg){.graf-image}
+
+GUGENのブースは時間がたつごとに持ち込み出展が増え、作品で埋め尽くされていた。
+
+![どんどん作品が増えてくるGUGENブース。](https://cdn-images-1.medium.com/max/800/1*MQAsScCMTAIMbpq7kptlOg.jpeg){.graf-image}
+
+### "作ってみた"が実感できる {#99ca .graf .graf--h3 .graf--startsWithDoubleQuote .graf-after--figure name="99ca"}
+
+ニコニコ技術部のスローガンの一つになっているのが、「つくってみた」だ。イベント当日に家にあった作品を、時にはパーティー仕様に臨時改造し、持ち込んで見せ合い、コメントし合う様子はDIYの喜びに満ちていた。クラブイベントと同時開催という特殊な環境も、それに合った方向性の作品が集まり、他のイベントでは魅力が出しにくい作品が集まる効果があるように思えた。Maker
+Faire
+Tokyoとはまた違った色合いの作品が集まることは、全体としてはより多様性が見られる世界につながる。加えて、普段クラブに来ない人々とDIYに触れていない人のクロスオーバーも見られた。
+
+来年以降も、今回のようなAkiPartyと同時開催するNT東京は行われる見込みだ。AkiPartyはMaker
+Faire深圳／成都などから開催依頼を受けており、日本のDIY界から生まれた一つのフォーマットとして、海外に伝わっていくかもしれない。
+:::
+:::
+:::
+:::
+
+By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
+.h-card} on [March 21, 2025](https://medium.com/p/e3a1d7217a53).
+
+[Canonical
+link](https://medium.com/@tks/20160816-e3a1d7217a53){.p-canonical}
+
+Exported from [Medium](https://medium.com) on February 6, 2026.

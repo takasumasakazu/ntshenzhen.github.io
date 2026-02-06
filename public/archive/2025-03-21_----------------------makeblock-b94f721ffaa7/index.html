@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>                      Makeblock | Takasu Articles</title>
+<meta name="keywords" content="">
+<meta name="description" content="ロボティクス教育のための最後のピースを埋めるMakeblock
+::: {.section .p-summary field=&ldquo;subtitle&rdquo;}
+2016/05/27 08:00
+:::
+::: {.section .e-content field=&ldquo;body&rdquo;}
+::: {.section .section .section&ndash;body .section&ndash;first name=&ldquo;4f8d&rdquo;}
+::: {.section-divider}
+
+:::
+::: {.section-content}
+::: {.section-inner .sectionLayout&ndash;insetColumn}
+ロボティクス教育のための最後のピースを埋めるMakeblock
+2016/05/27 08:00
+深センのShenzhen Maker Works
+Technologyは、誰でもロボティクスが学べるツール、21世紀の大人のためのレゴとして、Makeblockという製品を開発した。2012年に5人で創業した彼らは、2016年5月現在で社員200人を超える大手企業に急成長し、さらに子ども向けのロボティクス教育ツールを開発している。
+
+{.graf-image}
+ロボティクス教育のための最後のピース
+:::
+:::
+:::
+::: {.section .section .section&ndash;body name=&ldquo;047b&rdquo;}
+::: {.section-divider}
+
+:::
+::: {.section-content}
+::: {.section-inner .sectionLayout&ndash;insetColumn}
+下の画像は彼らが創業当時のプロモーションビデオ{.markup&ndash;anchor
+.markup&ndash;p-anchor}にあるものだ。ロボティクス、ロボット技術を学ぶためには、プログラミングと電子回路（マイクロコントローラ）に加えて、メカニクスを学ぶ必要がある。
+
+{.graf-image}
+Arduinoのようなマイコンを使って、ラジコンカーを作ることを考えて見よう。まず、制御するソフトウェアを書く必要がある。例えば「前」のボタンを押したときラジコンカーが前に進むためには、そのようにソフトウェアがつくられていないとならない。
+電子回路がないとソフトウェアで制御できるラジコンカーはできない。前に進むためにはモーターを回す必要がある。マイクロコントローラにソフトウェアを書いたとして、電子回路を通じてモーターに決められた電力を供給しなければならない。
+最後のメカニクスは前に進む仕組みのことだ。ラジコンカーならモーターにタイヤをつければ前に進むかもしれない。では、歩くとしたら？
+どういう機構があれば右足と左足がかわるがわる前に出るんだろう？
+モノをつかむとしたら？
+関節は何個必要で、強すぎも弱すぎもしない力でモノをつかむためにはどういう機構がいるんだろう？
+
+{.graf-image}">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/archive/2025-03-21_----------------------makeblock-b94f721ffaa7/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/archive/2025-03-21_----------------------makeblock-b94f721ffaa7/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Takasu Articles (Alt + H)">Takasu Articles</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+                            Makeblock
+    </h1>
+    <div class="post-meta"><span title='2025-03-21 00:00:00 +0000 UTC'>March 21, 2025</span>
+
+</div>
+  </header> 
+  <div class="post-content"><h1 id="ロボティクス教育のための最後のピースを埋めるmakeblock" class="p-name">ロボティクス教育のための最後のピースを埋めるMakeblock<a hidden class="anchor" aria-hidden="true" href="#ロボティクス教育のための最後のピースを埋めるmakeblock">#</a></h1>
+<p>::: {.section .p-summary field=&ldquo;subtitle&rdquo;}
+2016/05/27 08:00
+:::</p>
+<p>::: {.section .e-content field=&ldquo;body&rdquo;}
+::: {.section .section .section&ndash;body .section&ndash;first name=&ldquo;4f8d&rdquo;}
+::: {.section-divider}</p>
+<hr>
+<p>:::</p>
+<p>::: {.section-content}
+::: {.section-inner .sectionLayout&ndash;insetColumn}</p>
+<h3 id="b5a6" class="graf graf--h3 graf--leading graf--title" name="b5a6">ロボティクス教育のための最後のピースを埋めるMakeblock<a hidden class="anchor" aria-hidden="true" href="#b5a6">#</a></h3>
+<p>2016/05/27 08:00</p>
+<p>深センのShenzhen Maker Works
+Technologyは、誰でもロボティクスが学べるツール、21世紀の大人のためのレゴとして、Makeblockという製品を開発した。2012年に5人で創業した彼らは、2016年5月現在で社員200人を超える大手企業に急成長し、さらに子ども向けのロボティクス教育ツールを開発している。</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*Ir50oCVt_y4UNT1eRS_d4Q.jpeg" alt="" loading="lazy" />
+{.graf-image}</p>
+<p>ロボティクス教育のための最後のピース
+:::
+:::
+:::</p>
+<p>::: {.section .section .section&ndash;body name=&ldquo;047b&rdquo;}
+::: {.section-divider}</p>
+<hr>
+<p>:::</p>
+<p>::: {.section-content}
+::: {.section-inner .sectionLayout&ndash;insetColumn}
+下の画像は彼らが創業当時の<a href="https://www.kickstarter.com/projects/1397854503/makeblock-next-generation-of-construct-platform/description"><strong>プロモーションビデオ</strong></a>{.markup&ndash;anchor
+.markup&ndash;p-anchor}にあるものだ。ロボティクス、ロボット技術を学ぶためには、プログラミングと電子回路（マイクロコントローラ）に加えて、メカニクスを学ぶ必要がある。</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*3vAFmSfHlHWPrshiMdx9jA.jpeg" alt="初期のMakeblock。" loading="lazy" />
+{.graf-image}</p>
+<p>Arduinoのようなマイコンを使って、ラジコンカーを作ることを考えて見よう。まず、制御するソフトウェアを書く必要がある。例えば「前」のボタンを押したときラジコンカーが前に進むためには、そのようにソフトウェアがつくられていないとならない。</p>
+<p>電子回路がないとソフトウェアで制御できるラジコンカーはできない。前に進むためにはモーターを回す必要がある。マイクロコントローラにソフトウェアを書いたとして、電子回路を通じてモーターに決められた電力を供給しなければならない。</p>
+<p>最後のメカニクスは前に進む仕組みのことだ。ラジコンカーならモーターにタイヤをつければ前に進むかもしれない。では、歩くとしたら？
+どういう機構があれば右足と左足がかわるがわる前に出るんだろう？
+モノをつかむとしたら？
+関節は何個必要で、強すぎも弱すぎもしない力でモノをつかむためにはどういう機構がいるんだろう？</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*F857A9NEj-0bMUGCHAVIFg.jpeg" alt="Makeblockキットを構成するアルミのパーツ類。" loading="lazy" />
+{.graf-image}</p>
+<p>Makeblockはこの機構の部分を学ぶためのツール、または楽しむためのオモチャだ。丁寧に面取りされたアルミ押し出し材で作られたパーツは堅牢で、簡単にはゆがまず、精度の高いものが作れる。等間隔に開いているネジ穴の他に中心部の溝にもネジ山が切ってあって、任意の位置に他のパーツを固定できる。基本のアルミパーツの他にジョイントやさまざまなモーターなど、機構を実現するパーツ類があり、さまざまなロボットを作ることができる。</p>
+<h3 id="66e5" class="graf graf--h3 graf-after--p" name="66e5">さまざまなキット<a hidden class="anchor" aria-hidden="true" href="#66e5">#</a></h3>
+<p>パーツをバラバラに買うこともできるが、さまざまなロボットを実現するためのキットが何種類も販売されている。</p>
+<p>キットの中心になるマイクロコントローラはどれも共通で、Arduino
+Unoと互換性がある。キットを想定通りに組みあげたら、キットごとに用意されている製品Wikiからソフトをダウンロードすれば、プログラミングができない人でもロボットを組み上げ、思い通りに動かす遊びが出来る。パーツの一つ一つは汎用のレールやギヤなので、そこでおぼえた知識は自分でロボットを思いつく発明のときに役立つ。キットの部材がアルミでできていて頑丈なこと、それぞれの部品はシンプルで何にでも使えるギヤやジョイントなどであることが応用範囲を大きく広げている。頑丈でないものでロボットキットを作ろうとすると、本体の部材があまり堅牢ではないため、多くの専用部品を使わなければならない。</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*GDMfE8gnwXLck4Z-Nphd7Q.jpeg" alt="「XY Plotter Robot Kit」と「Ultimate Robot
+Kit-Blue」。" loading="lazy" />
+{.graf-image}</p>
+<p>例えば、この<a href="http://makeblock.com/xy-plotter-robot-kit"><strong>「XY Plotter Robot
+Kit」</strong></a>{.markup&ndash;anchor
+.markup&ndash;p-anchor}
+の二次元（縦横）上で思い通りの位置に移動する仕組みと、<a href="http://makeblock.com/ultimate-robot-kit-blue"><strong>「Ultimate
+Robot
+Kit-Blue」</strong></a>{.markup&ndash;anchor
+.markup&ndash;p-anchor}の何かをつかむ機構をクレーンでつり下げたら、UFOキャッチャーのようなものを作ることができる。作ったことがある機構、どうやって実現できるかの仕組みが作り手に蓄積されるたびにできることが広がっていく。</p>
+<h3 id="992e" class="graf graf--h3 graf-after--p" name="992e">新しいキットを生み出すハッカソン<a hidden class="anchor" aria-hidden="true" href="#992e">#</a></h3>
+<p>Makeblockでは、Makeblockを用いたハッカソンを頻繁に行っている。下の動画は連載の第一回で触れた<a href="https://fabcross.jp/topics/tks/20160223_tks_01.html"><strong>Seeed</strong></a>{.markup&ndash;anchor
+.markup&ndash;p-anchor}のエンジニアと一緒に行ったハッカソンで、36時間で「実用的なもの（pragmatism）」を作るのがテーマだ。テーマは「アート」「楽器」などそのたびに変わる。
+:::
+:::
+:::</p>
+<p>::: {.section .section .section&ndash;body name=&ldquo;ba88&rdquo;}
+::: {.section-divider}</p>
+<hr>
+<p>:::</p>
+<p>::: {.section-content}
+::: {.section-inner .sectionLayout&ndash;insetColumn}
+36時間ハッカソン。このときは「実用的なもの（pragmatism）」がテーマ。
+:::
+:::
+:::</p>
+<p>::: {.section .section .section&ndash;body name=&ldquo;9d37&rdquo;}
+::: {.section-divider}</p>
+<hr>
+<p>:::</p>
+<p>::: {.section-content}
+::: {.section-inner .sectionLayout&ndash;insetColumn}
+ハッカソンは審査員もいる真剣なものだ。僕は何度か審査員を務めたことがあるが、みな楽しみながらも本気でモノを作っていた。ギーク好みのガジェットが賞品になることも多い。Makeblockの社員の多くがエンジニアで、いつもオフィスは何かを作っている途中のMakeblockであふれている。</p>
+<p>こうしたハッカソンから、新しいキットが派生することが多くある。この<a href="http://makeblock.com/music-robot-kit-v2-0-with-electronics"><strong>「Makeblock
+Music Robot Kit
+V2.0」</strong></a>{.markup&ndash;anchor
+.markup&ndash;p-anchor}はハッカソンからの派生だそうだ。</p>
+<p>鉄筋をたたく「Makeblock Music Robot Kit V2.0」。</p>
+<h3 id="7b69" class="graf graf--h3 graf-after--figure" name="7b69">出世作の「mBot」をきっかけに、より子ども向けに<a hidden class="anchor" aria-hidden="true" href="#7b69">#</a></h3>
+<p>Makeblockは大学でロボティクスを学んだJasen
+Wangたち5人が起業した会社だ。Wangはいまも、なるべく長い時間オフィスにいて、新たなMakeblockの機構を考えている。主力製品のギヤと履帯がかみあう機構などは社長の彼が自らデザインしている。</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*ojYsFkav_xO-endc9t0mDQ.jpeg" alt="Makeblockオフィスを訪ねたときの筆者とWang。" loading="lazy" />
+{.graf-image}</p>
+<p>ロボット好きが集まって成り立つ企業だけに、さらに機能を増やして何でもできる方向にキットを増やしていたが、2015年に発表した<a href="https://fabcross.jp/news/2015/04/20150413_mbot.html"><strong>「mBot」</strong></a>{.markup&ndash;anchor
+.markup&ndash;p-anchor}は、新しい方向のプロダクトだ。</p>
+<p>もともとロボティクス教育を意図して開発されたMakeblockシリーズは、堅牢さと自由度の高さから大人がプロトタイピングツールとして使うことも多く、キットもどんどん高性能なものが出てきていたが、世界的なSTEM教育の流れの中でさらに低年齢の子供でも扱えるキットが必要になってきた。<a href="http://makeblock.com/mbot-stem-educational-robot-kit-for-kids"><strong>mBot</strong></a>{.markup&ndash;anchor
+.markup&ndash;p-anchor}はクルマとしての機能だけに絞り込み、$74.99（約8200円）という低価格で販売しているキットだ。
+:::
+:::
+:::</p>
+<p>::: {.section .section .section&ndash;body name=&ldquo;825a&rdquo;}
+::: {.section-divider}</p>
+<hr>
+<p>:::</p>
+<p>::: {.section-content}
+::: {.section-inner .sectionLayout&ndash;insetColumn}
+よりビギナー向け製品のmBot。
+:::
+:::
+:::</p>
+<p>::: {.section .section .section&ndash;body name=&ldquo;c0b6&rdquo;}
+::: {.section-divider}</p>
+<hr>
+<p>:::</p>
+<p>::: {.section-content}
+::: {.section-inner .sectionLayout&ndash;insetColumn}
+ライントレースや超音波センサなどのセンサ類は豊富で、スマートフォンとBluetooth経由で接続でき、ビジュアルプログラミング言語のScratchをもとにした言語でプログラムできるなど、ソフトウェアから工夫できる部分は多いが、メカはこれまでのキットに比べてぐっとシンプルになっている。そして、このmBotはMakeblock最大のヒット商品となり、今はmBotにも派生製品がでてきた。</p>
+<p>創業当時のMakeblockはソフトウェアを専門にするエンジニアがいなかった。当初のMakeblockも、赤外線で操作できたが、Bluetoothでスマートフォンをコントローラにしてラジコンのように動かせるのは、スマートフォンのアプリが書けるエンジニアが入社してきてからだ。</p>
+<h3 id="b003" class="graf graf--h3 graf-after--p" name="b003">完全にコンシューマー向けのmBot<a hidden class="anchor" aria-hidden="true" href="#b003">#</a></h3>
+<p>そして今年Makeblockは、さらにコンシューマ向けの製品として<a href="http://www.codeybot.com/"><strong>「CodeyBot」</strong></a>{.markup&ndash;anchor
+.markup&ndash;p-anchor}をリリースした。
+:::
+:::
+:::</p>
+<p>::: {.section .section .section&ndash;body name=&ldquo;9c04&rdquo;}
+::: {.section-divider}</p>
+<hr>
+<p>:::</p>
+<p>::: {.section-content}
+::: {.section-inner .sectionLayout&ndash;insetColumn}
+これまでのMakeblockとはまったく見た目の違う「CodeyBot」
+:::
+:::
+:::</p>
+<p>::: {.section .section .section&ndash;body .section&ndash;last name=&ldquo;38a9&rdquo;}
+::: {.section-divider}</p>
+<hr>
+<p>:::</p>
+<p>::: {.section-content}
+::: {.section-inner .sectionLayout&ndash;insetColumn}
+この5月にちょうど<a href="https://fabcross.jp/news/2016/04/20160401_codeybot.html"><strong>クラウドファンディング</strong></a>{.markup&ndash;anchor
+.markup&ndash;p-anchor}が終わったばかりのこの製品は、アルミフレームで作られているこれまでのMakeblockとは見た目がまったく違う。PCとUSBでつないでファームウェアを書き込むのではなく、タブレットやスマートホンのアプリ上でプログラミングを行う。「これはMakeblockとは違う新しい製品ラインで、よりコンシューマー向けのものだ」と、オフィスを訪ねたときに社長のWangは語った。</p>
+<p>CodeyBotはラジコンカーのように扱えるし、タブレットから顔の部分のLEDをデザインすることもできる。MP3を再生させて踊るスピーカーとしても使える。より「オモチャ」としての魅力もあり、これまでロボットにもプログラムにも無縁だった子どもへの最初の一歩を提供することを意図している。</p>
+<h3 id="6243" class="graf graf--h3 graf-after--p" name="6243">高速でプロトタイピングする姿勢が進化を後押ししている<a hidden class="anchor" aria-hidden="true" href="#6243">#</a></h3>
+<p>4月に僕が彼らのオフィスを訪ねたときは、社内ハッカソンの最中で、その場で週末に再訪して審査員に加わることになった。</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*9PcbxxaU6Ut34Y919qj4JQ.jpeg" alt="社内ハッカソンの決勝。中央の箱をどれだけ自分の陣地に集めたかで勝敗が決まるロボコン的なもの。" loading="lazy" />
+{.graf-image}</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*RZOp0bVdaF8EG7wItrDtnA.jpeg" alt="オフィスはいつも、Makeblockを使って何かを作る社員であふれている。床にはライントレース用の線が引かれては消える。" loading="lazy" />
+{.graf-image}</p>
+<p>休日にもかかわらず半数近くの社員が出社してきていて、子どもを連れてきている社員もいる。4～5人で1チームをつくり、チームごとにMakeblockを使ってロボットを作る。オフィスに転がる多くの部品や床に引かれたライントレース用のテープが、Makeblockが引き続きMakerたちの会社であることを物語る。</p>
+<p>役員以外では初めての従業員Aliceは、いつも忙しそうに働いている。疲れていないか尋ねると、「この4年間で、アメリカにも日本にもヨーロッパにも行けたし、会社がみるみる大きくなって、自分たちの製品を使ってくれるファンにたくさん会えて、世界中に友達ができた。そういう経験はなかなかできない」と語ってくれた。</p>
+<p>深センの市内を歩くと、Makeblockのコピー品が見つかる。深センは世界の製造業の中心であると同時に、劣化コピー品のメッカでもある。Aliceにコピー品について危惧していないか訪ねると、「Makeblockが深センに本拠を置く意味はいくつもあるけど、ここだととにかく作る、売る、試すの距離が最も短くなるのがいい。このエコシステムがあるからMakeblockはスピードを持って開発ができる。コピーする会社を見てもしょうがない。もっと速く新しい製品を作り続けることに意味がある」と一蹴された。</p>
+<p>より家電に近いCodeyBotが、市場にどう受け入れられるかは分からない。Kickstarterは大成功しているけど、まだ子供が実際に使っている段階ではないし、Kickstarterで買っている人はたいてい大人で、自分で使うためだろう。</p>
+<p>おそらくMakeblockは今年のMaker Faire
+Tokyoにもやってくるだろう。日本でCodeyBotに触れられるのはそのときが最初になるはずだ。新しい製品ラインをぜひ体験してみてもらいたい。
+:::
+:::
+:::
+:::</p>
+<p>By <a href="https://medium.com/@tks">TAKASU Masakazu/高須正和</a>{.p-author
+.h-card} on <a href="https://medium.com/p/b94f721ffaa7">March 21, 2025</a>.</p>
+<p><a href="https://medium.com/@tks/20160527-b94f721ffaa7">Canonical
+link</a>{.p-canonical}</p>
+<p>Exported from <a href="https://medium.com">Medium</a> on February 6, 2026.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Takasu Articles</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

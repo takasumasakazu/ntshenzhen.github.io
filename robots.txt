@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://takasumasakazu.github.io/sitemap.xml

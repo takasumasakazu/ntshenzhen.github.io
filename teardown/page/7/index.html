@@ -1,0 +1,273 @@
+<!doctype html><html lang=en dir=auto data-theme=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Teardown | ニコ技深セン / Nico-Tech Shenzhen website</title>
+<meta name=keywords content><meta name=description content="Reverse engineering, teardowns, chip decap notes."><meta name=author content><link rel=canonical href=https://takasumasakazu.github.io/teardown/><link crossorigin=anonymous href=https://takasumasakazu.github.io/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css integrity="sha256-2jIR5e+Ge/K3X9WmUVz+1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as=style><link rel=icon href=https://takasumasakazu.github.io/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://takasumasakazu.github.io/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://takasumasakazu.github.io/favicon-32x32.png><link rel=apple-touch-icon href=https://takasumasakazu.github.io/apple-touch-icon.png><link rel=mask-icon href=https://takasumasakazu.github.io/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate type=application/rss+xml href=https://takasumasakazu.github.io/teardown/index.xml title=rss><link rel=alternate hreflang=en href=https://takasumasakazu.github.io/teardown/><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--code-block-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51);color-scheme:dark}.list{background:var(--theme)}.toc{background:var(--entry)}}@media(prefers-color-scheme:light){.list::-webkit-scrollbar-thumb{border-color:var(--code-bg)}}</style></noscript><script>localStorage.getItem("pref-theme")==="dark"?document.querySelector("html").dataset.theme="dark":localStorage.getItem("pref-theme")==="light"?document.querySelector("html").dataset.theme="light":window.matchMedia("(prefers-color-scheme: dark)").matches?document.querySelector("html").dataset.theme="dark":document.querySelector("html").dataset.theme="light"</script><meta property="og:url" content="https://takasumasakazu.github.io/teardown/"><meta property="og:site_name" content="ニコ技深セン / Nico-Tech Shenzhen website"><meta property="og:title" content="Teardown"><meta property="og:description" content="Reverse engineering, teardowns, chip decap notes."><meta property="og:locale" content="en"><meta property="og:type" content="website"><meta name=twitter:card content="summary"><meta name=twitter:title content="Teardown"><meta name=twitter:description content><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Teardown","item":"https://takasumasakazu.github.io/teardown/"}]}</script></head><body class=list id=top><header class=header><nav class=nav><div class=logo><a href=https://takasumasakazu.github.io/ accesskey=h title="ニコ技深セン / Nico-Tech Shenzhen website (Alt + H)">ニコ技深セン / Nico-Tech Shenzhen website</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)" aria-label="Toggle theme"><svg id="moon" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu><li><a href=https://takasumasakazu.github.io/teardown/ title=Teardown><span class=active>Teardown</span></a></li><li><a href=https://takasumasakazu.github.io/shenzhen/ title=Shenzhen><span>Shenzhen</span></a></li><li><a href=https://takasumasakazu.github.io/years/ title=Years><span>Years</span></a></li></ul></nav></header><main class=main><header class=page-header><div class=breadcrumbs><a href=https://takasumasakazu.github.io/>Home</a></div><h1>Teardown</h1></header><div class=post-content><p>Reverse engineering, teardowns, chip decap notes.</p></div><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://cdn-images-1.medium.com/max/800/1*4izCuR-37RuroU5KguGe8A.jpeg alt></figure><header class=entry-header><h2 class=entry-hint-parent>\#分解のススメ テカナリエレポートの個人購読が始まりました</h2></header><div class=entry-content><p>一昨日6/13の#分解のススメ (オンライン）第2回 テカナリエ清水洋治代表 講演はすばらしいイベントでした。今も新たにYoutube動画の感想がSNSに上がりつづけています。
+6/13の #分解のススメ (オンライン）第2回 テカナリエ清水洋治代表 講演{.markup–anchor .markup–p-anchor}はすばらしいイベントでした。今も新たにYoutube動画{.markup–anchor .markup–p-anchor}の感想がSNSに上がりつづけています。法人のみのテカナリエレポートを個人でも読める{.markup–anchor .markup–p-anchor}試みが始まりました。
+テカナリエレポートの個人購読(法人向けのコンサルティングは含まない） 講演後の6月15日月曜日、お礼に伺ったなかで、今後も何かできないか話したなかで、これまで法人でしか購読できなかったテカナリエレポートの、個人購読{.markup–anchor .markup–p-anchor}を広めていくことにしました。
+基本的にはテカナリエレポートは、
+-法人向け
+-購読開始時に法人宛の面談（清水さん側で、ニーズを把握）
+-レポート購読法人からのコンサルティング,依頼によるカスタム解析
+という条件で発行されているものです。清水さんのメインビジネスはIoT開発や解析の法人向けコンサルティングですが、先に法人購読をする中で仕事が始まっているそうです。僕自身もスイッチサイエンスでの法人購読として2年前から読んでいます。
+今回の個人購読は、その中でレポートの配信のみ（質問等は含まれない）として切り出して試験的に行うものです。内容への質問などはできませんが、前回の講演{.markup–anchor .markup–p-anchor}で見られるように、レポート購読だけでも充分意味があることだと思います。申し込みはこちら。 テカナリエ清水さんと僕らニコニコ技術部の関係は、2018年9月に僕が分解つながりでハードウェアハッカー{.markup–anchor .markup–p-anchor}の献本を申し出てから続いています。そのなかで「メンバーをニコ技側でとりまとめて、それまで企業向け限定（価格応相談）のテカナリエ分解レポートを、個人でも読めるようにする」という試みで、試験的に20名ほどのメンバーが購読していました。
+これを正式に始めることにして、年間3.8万円(バックナンバー含む。学生は2.6万円）で広く受け付けるようにします。事務はEdelworksの五味さんが担当しています。（試行錯誤しながら始まってるので、金額等の仕組みが変わることはありえます。詳細はリンク先のフォームが最新です。）
+https://forms.gle/HWgLqhiG7Tr2YJLk6
+**年間100レポート8000ページ、**この講演を超える情報量が毎週届く この講演は101ページのスライドで構成されています。チップ写真ぼかし入り、解説は基本EETimesの連載などで発表済みのものとして、初心者向けに改めて作ってもらったものです。
+が、テカナリエレポートでは毎週2本、合計80ページほどのレポート(チップ写真ぼかしナシ、最新の解説つき)が届きます。つまりこの講演並みの情報量が、上回る質で毎週届きます。
+たとえば2019年10月のある週では
+-338号Apple A13バイオニック分解特集（1本44ページまるごと）
+-339号RockchipRK1808AIプロセッサ,中華ゲーム機RETRO600,HUAWEI LTEルータの3つ分解で1本（39ページ）
+の2本が届きました。
+僕は136号からスイッチサイエンスの法人契約で購読していますが、正月とお盆以外は毎週2本、年間100本のレポート,8000ページが届けられています。毎週、あの講演と同じ情報量に触れて、かつ新製品が出たときの差分を受け取ることができるのです。（個人的に、Apple製品とDJI製品のメジャーアップデートのたびの進化は面白いし、貿易戦争後にHuaweiが部品を中華チップ一色にしたのも面白かった）
+購読者のみのfacebookグループ 僕自身は半導体のプロではなく、レポートについていけてないため、前述の試験購読メンバーとFacebookグループ上に非公開（レポート購読してる人だけ）のグループを作って、内容の意見交換をしていました。
+これは勝手に始めたのですが清水さんから見ても面白かったようで、こちらも個人購読の人たちは誰でも入れるようにして、コミュニティを大きくしたいと思っています。（清水さん本人が毎回出てくるわけではなく、読者間のコミュニティです。また、法人で購読してる方も、一回僕らからテカナリエ側に問い合わせの後加入することができます。）
+購読者に向けたイベントをやります 「そのグループで個別に質問したりはしないけど、個人購読者に限定して年に1–2回セミナー+交流会を開催したい」とアイデアをいただきました。会場費や交通費は発生するかもしれませんが基本ノンプロフィットでやるとのこと。中国の春節の時期(毎年2月)と、メイカーフェアの時期あたりを想定しています。こちらは、まだ決まっていないことが多いです。
+あの講演はイントロダクション オフィスでは2時間半ぐらいお話をいただいたのですが、あの講演はたしかに、「昔書いたこと限定」のイントロダクションにすぎないもので、最近の話を含めると解像度がまったく違ったことが驚きでした。
+中国製の高級機器(DJIとか）との比較はどうか、Appleの製品はいつからエレガントになったのか、前回の講演ではほとんど話されなかった「製品の中でなく、製品そのものの方向性」（すごい会社はコンセプトも設計も自社製半導体もすごい）など、ベースキャンプまで登ったら遙か向こうにもっと高いところが見えた感じです。
+でも、登らなければそれすら見えない。登り続けるのはきわめて楽しく、それこそが分解のススメです。レポート購読お待ちしています。
+なお、僕は今回の話はニコ技深圳同様ボランティアで、面白いものを仲間ともっと見たくてこういう行動をしています。
+テカナリエオフィスでうかがった中で印象に残った言葉が、**好きなことで金を稼ぐのが仕事、使うのが趣味。**土曜日の講演でも、調べないと好奇心でお腹が痛くなるなど、企業講演では出づらそうな言葉が人気でしたし、ニコ技向けの講演も同様にやりたいと思っています。
+https://forms.gle/HWgLqhiG7Tr2YJLk6 イベント録画 #分解のススメ 第2回 テカナリエ清水洋治代表 講演 「見て考えるべし 見てない人は妄想が多い」
+分解、リバースエンジニアリングの文化を広める #分解のススメ イベント、5月21日に開かれた第1回は大成功に終わりました。
+第1回分解のススメの録画・資料まとめmedium.com{.markup–anchor .markup–mixtapeEmbed-anchor} By TAKASU Masakazu/高須正和{.p-author .h-card} on June 19, 2020.
+Canonical link Exported from Medium on February 6, 2026.
+...</p></div><footer class=entry-footer><span title='2020-06-19 00:00:00 +0000 UTC'>June 19, 2020</span>&nbsp;·&nbsp;<span>1 min</span></footer><a class=entry-link aria-label="post link to \#分解のススメ テカナリエレポートの個人購読が始まりました" href=https://takasumasakazu.github.io/teardown/post/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://cdn-images-1.medium.com/max/800/1*b5BcU4INY3PsLXv0e7CtCg.jpeg alt></figure><header class=entry-header><h2 class=entry-hint-parent>イベント録画 \#分解のススメ 第2回 テカナリエ清水洋治代表 講演 「見て考えるべし 見てない人は妄想が多い」</h2></header><div class=entry-content><p>分解、リバースエンジニアリングの文化を広める #分解のススメ イベント、5月21日に開かれた第1回は大成功に終わりました。 第1回分解のススメの録画・資料まとめ
+ハードウェアハッカー～新しいモノをつくる破壊と創造の冒険
+*Amazonでアンドリュー"バニー"ファン, 高須 正和, 山形…*www.amazon.co.jp{.markup–anchor .markup–mixtapeEmbed-anchor} 分解、リバースエンジニアリングの文化を広める #分解のススメ イベント、5月21日に開かれた第1回は大成功に終わりました。
+第1回分解のススメの録画・資料まとめ 第2回は、「ブラックボックスにしない、という文化をつくりたい」という志の元、おそらく世界一多くのICT製品と半導体チップを分解し「テカナリエレポート」を発行している株式会社テカナリエ{.markup–anchor .markup–p-anchor}清水洋治代表からご講演頂きました。
+清水さんは年間500の製品、1000のICチップを分解してレポートを発行するほか、様々なメディアに製品分解から見た知見を発表しています。僕は「ハードウェアハッカー」のバニー・ファンと一緒にテカナリエレポートを見たとき、日本語のレポートなのにバニーがパソコンの前から動かなくなり、「これは自分にとってポルノのようなものだ。読むのをやめられないし、なんでこんなに綺麗にチップの写真が撮れるのかすごく知りたい」と話したのを今もおぼえています。
+清水さんの連載：この10年で起こったこと、次の10年で起こること Chapters: 00:00{.markup–anchor .markup–p-anchor} 自己紹介
+05:00{.markup–anchor .markup–p-anchor} スーパーコンピュータからマイニングマシンまで 18:00{.markup–anchor .markup–p-anchor} 破壊的イノベーションと落ちた天使 23:20{.markup–anchor .markup–p-anchor} 日中カーナビ設計の違い 31:10{.markup–anchor .markup–p-anchor} ハイエンド製品にも使われる中国チップGIGADEVICE 40:00{.markup–anchor .markup–p-anchor} 翻訳機の基板はガラケーの焼き直し 43:30{.markup–anchor .markup–p-anchor} PC-8001が今や3チップに 50:35{.markup–anchor .markup–p-anchor} チップはMCUを取り込んで進化していく 57:20{.markup–anchor .markup–p-anchor} スマホも自動車もコンピュータ 1:05:20{.markup–anchor .markup–p-anchor} シリコンを見ないとわからない事 1:12:50{.markup–anchor .markup–p-anchor} 気に入ったものは調べないと好奇心でお腹が痛くなる 1:15:30{.markup–anchor .markup–p-anchor} EOS-1 DX MARKIIIの分解はスポーツ この設計は必要なのか 1:22:00{.markup–anchor .markup–p-anchor} Surface Pro X (Arm) の分解 Armでもトランジスタ数は変わらない 1:28:38{.markup–anchor .markup–p-anchor} 休憩～ちょっと雑談 1:31:00{.markup–anchor .markup–p-anchor} Appleの中身は見とかなきゃ Apple Watch 1:37:00{.markup–anchor .markup–p-anchor} 片耳に22個のチップ AirPods Pro 1:46:30{.markup–anchor .markup–p-anchor} iPhone SE 2 は成功体験の集大成 1:50:00{.markup–anchor .markup–p-anchor} ノイズ低減を実現するSilicon Passive 1:56:00{.markup–anchor .markup–p-anchor} 2020年の主な分解～HIKVISION サーモカメラ 2:00:00{.markup–anchor .markup–p-anchor} 結論とメッセージ Innovation の大きさは自由の大きさに定義される
+...</p></div><footer class=entry-footer><span title='2020-06-13 00:00:00 +0000 UTC'>June 13, 2020</span>&nbsp;·&nbsp;<span>2 min</span></footer><a class=entry-link aria-label="post link to イベント録画 \#分解のススメ 第2回 テカナリエ清水洋治代表 講演 「見て考えるべし 見てない人は妄想が多い」" href=https://takasumasakazu.github.io/teardown/2/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://cdn-images-1.medium.com/max/800/1*H1mBfIwPamlgI4WxTquAkw.jpeg alt></figure><header class=entry-header><h2 class=entry-hint-parent>JENESIS藤岡さんオンライン 6/13に開催 ニコ技深センコミュニティ＆インターネットプラス研究所の月次報告 2020年06月</h2></header><div class=entry-content><p>■6/10にJENESIS藤岡さんのオンライントーク
+JENESIS藤岡さんオンライン 6/13に開催 ニコ技深センコミュニティ＆インターネットプラス研究所の月次報告 2020年06月6 ■6/10にJENESIS藤岡さんのオンライントーク
+月1で行われていたニコ技深センコミュニティのミートアップも、新型コロナウィルスのため日中の行き来ができなくなり、昨年12月を最後に休止しています。（例年、繁忙期の1月はやらない）
+5月に何度かオンラインでミートアップをやったところ悪くなかったので、今回ニコ技深センコミュニティ共同創業者の藤岡淳一さんから、JENESISの近況含めた報告をします。JENESIS深センは完全に業務再開をし、金型製造などに業務拡大をしています。
+https://jenesis02.peatix.com/
+■技術をブラックブラックボックスにしない文化をつくる 分解のススメイベント
+昨年出版した「ハードウェアハッカー」が好調なこともあり、リバースエンジニアリング・分解についてのオンラインイベントを開催したところ非常に好評でした。
+イベント録画
+https://medium.com/ecosystembymakers/bunkai01-249ee7f3b9e6
+テカナリエ清水さん、MIT中垣さん、プロダクトデザイナーの檜垣さんなどから協力の申し出をいただき、第2回・第3回の分解イベントを行います。
+分解のススメ第2回 テカナリエ清水さん講演
+https://bunkai02.peatix.com/
+分解のススメ第3回 メカ・機構・プロダクトデザイン編
+https://bunkai03.peatix.com/
+■6/6 1万円以下でAIが楽しめるお手軽AIボードイベント
+1万円以下でカメラモジュールもついていてオールインワンでAI・エッジIoTを使って楽しめるボードが増えてきています。
+こうしたおてがるなAIボードは、これまでのセンサー類を置き換えて、電子工作を簡単に一歩先のレベルに上げてくれる可能性があります。
+https://otegaruaiboard.peatix.com/
+■noteで内輪向けのコラムを書いています。
+スマホで撮ったフォトリポートをnoteで出していたのですが、5月にシンガポールの情報を更新して、以後しばらく海外は遠のくと思います。内輪向けのコラムをいくつか書いていくつもりです。
+https://note.com/takasu/m/m55763d81ba8e
+残念ながら世界中で多くのイベントが中止や延期に見舞われていますが、来月以降は、このようなイベントに参加する予定です。同じイベントにいらっしゃるなら、ぜひお会いしましょう！
+8月
+1~2 COSCUP Taipei (Welcome Party 7/31)
+8 SITCON Taipei
+10月 October
+2–3 Maker Faire Tokyo
+17–18 Maker Carnival Shanghai
+11月 November
+5–6 STEM Coneference Singapore
+the other, Taipei,Roma,Bangkok,Hongkong, Seoul, Shanghai and of cource Shenzhen.
+Maker Faire around the world…
+...</p></div><footer class=entry-footer><span title='2020-05-31 00:00:00 +0000 UTC'>May 31, 2020</span>&nbsp;·&nbsp;<span>2 min</span></footer><a class=entry-link aria-label="post link to JENESIS藤岡さんオンライン 6/13に開催 ニコ技深センコミュニティ＆インターネットプラス研究所の月次報告 2020年06月" href=https://takasumasakazu.github.io/teardown/jenesis-6-13-2020-06-84ef3ed1da2/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://cdn-images-1.medium.com/max/800/1*mJ50i29KkoICEY5CjMaioQ.jpeg alt></figure><header class=entry-header><h2 class=entry-hint-parent>イベント:分解のススメ 第1回 録画＆資料アーカイブ \#分解のススメ</h2></header><div class=entry-content><p>分解、リバースエンジニアリングの面白さと意義を共有しあうオンラインイベントを開催しました。 当日のTwitterまとめでアツさが伺えます。
+分解、リバースエンジニアリングの面白さと意義を共有しあうオンラインイベントを開催しました。
+当日のTwitterまとめでアツさが伺えます。
+#分解のススメ ガジェット分解のイベントまとめ
+*ガジェット分解のイベント #分解のススメ のまとめですライブ動画（2:01ぐらいから開始）登壇者と講演内容高須正和 @tks スイッチサイエンス / Nico-Tech Shenzhen 「ハード..*togetter.com{.markup–anchor .markup–mixtapeEmbed-anchor}
+6/13第2回の告知{.markup–anchor .markup–h3-anchor}も始まりました！ #分解のススメ (オンライン）第2回
+*Youtube Liveでも配信します。http://www.youtube.com/c/TAKASUvideo質問は、このSli.doを優先してまとめますhttps://app.… powered by Peatix : More…*bunkai02.peatix.com{.markup–anchor .markup–mixtapeEmbed-anchor}
+登壇者と講演内容 高須正和 @tks{.markup–anchor .markup–p-anchor} スイッチサイエンス / Nico-Tech Shenzhen
+「ハードウェアハッカー{.markup–anchor .markup–p-anchor}」に見る分解のススメ
+書籍ハードウェアハッカーの中にある分解例とTipsを、書籍を読んでない人を対象に紹介します。
+ハードウェアハッカー～新しいモノをつくる破壊と創造の冒険
+*Amazonでアンドリュー"バニー"ファン, 高須 正和, 山形…*amzn.to{.markup–anchor .markup–mixtapeEmbed-anchor} 秋田純一 @akita11{.markup–anchor .markup–p-anchor}
+揚げて炙ってわかる半導体 資料ダウンロード{.markup–anchor .markup–p-anchor}
+「どこのご家庭にもある」道具で半導体チップを取り出し、顕微鏡で解析することを通して、ムーアの法則について考察したいと思います。
+山崎雅夫 (ThousanDIY) @tomorrow56{.markup–anchor .markup–p-anchor}
+100均ガジェット分解のススメ 資料ダウンロード{.markup–anchor .markup–p-anchor}
+100均で見つけたデジタルガジェットを分解して「個人でも手の届く機材」を使って解析する方法を紹介します。
+鈴木涼太 @JA1TYE{.markup–anchor .markup–p-anchor}
+中華ガジェットの中身を「読む」 資料ダウンロード{.markup–anchor .markup–p-anchor}
+アクションカム数機種の分解・比較を中心にガジェットの分解・解析の楽しさについて紹介します。
+QAセッション
+ハードウェアハッカー～新しいモノをつくる破壊と創造の冒険
+*Amazonでアンドリュー"バニー"ファン, 高須 正和, 山形…*amzn.to{.markup–anchor .markup–mixtapeEmbed-anchor} By TAKASU Masakazu/高須正和{.p-author .h-card} on May 22, 2020.
+...</p></div><footer class=entry-footer><span title='2020-05-22 00:00:00 +0000 UTC'>May 22, 2020</span>&nbsp;·&nbsp;<span>1 min</span></footer><a class=entry-link aria-label="post link to イベント:分解のススメ 第1回 録画＆資料アーカイブ \#分解のススメ" href=https://takasumasakazu.github.io/teardown/1/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://jphardwarestartup2020.peatix.com/ alt></figure><header class=entry-header><h2 class=entry-hint-parent>1月31日 六本木にてイノベーションとスタートアップのイベント開催 ニコ技深圳コミュニティ＆インターネットプラス研究所の月次報告 2020年01月</h2></header><div class=entry-content><p>今年はアメリカで行われる家電ショーのCESに参加するため、ラスベガスにいます。
+今年はアメリカで行われる家電ショーのCESに参加するため、ラスベガスにいます。CES後、イギリスのSTEM教育トレードショーBETTに参加して日本に向かいます。
+2月頭からの早稲田大学講義他、いくつかのイベントに向けて準備をすすめています。
+1/31–2/17まで日本で、東京、長岡、大阪などでイベントをやります。
+（大阪の詳細は来月のメールになりそう）お時間ありましたらぜひお会いしましょう。
+**■1月31日六本木 Japanese Hardware Startup Night
+**書籍「ハードウェアのシリコンバレー深圳に学ぶ」の大ヒットほか、2019年WIRED Audiイノベーションアワードにも選ばれたJENESISの藤岡淳一さん（ニコ技深圳コミュニティ共同代表）は、Bitkeyほか様々な日本産ハードウェアスタートアップのサポート、翻訳機POCKETALKや日本交通のドライブレコーダー他、日本の事業会社やハードウェアスタートアップを助けています。
+日本でスタートアップ支援のメイカースペースを運営するガレージスミダの小若さんと、ウイングアーク1stのオオカワマサシさんの登壇を含め、昨年大好評だったJapanese Hardware Startup Nightを行います。https://jphardwarestartup2020.peatix.com{.markup–anchor .markup–p-anchor}/
+**■メール報告がちょっと変わりました。
+**これまでのメール配信に使っていたwebサービスが1/31で終了してしまうため、
+今回のメールからmailchimpというサービスを使って配信しています。少し「メルマガっぽい」見た目になっています。
+**■深圳は春節に入るため、次回のミートアップは2月後半以降
+**1月は春節前の繁忙期で、今年は1/18–2/1などで電気街も閉鎖され、僕たちのメンバーも多くが深圳を離れます。次回のミートアップはおそらく2月後半～3月になります。
+次回のメールにて報告させてください。
+また、深圳のインキュベータ/メイカースペース iMakerBaseが2月に来日します。リコー/早稲田大学/東京大学/つくば市などと連携しているメイカースペースで、僕はここでメンターをしています。東京のメイカースペースやインキュベータとの連携を考えていて、まずは関係を広げたいので、ご興味ある方からのご連絡をお待ちしています。
+来月以降は、このようなイベントに参加します。同じイベントにいらっしゃるなら、ぜひお会いしましょう！
+2020年
+1月1–10日 CES 2020（プレスデイから参加）
+1月18–19日 Maker Faire Bangkok
+1月22–25日 BETT2020 London,UK
+1月31日 Japanese Hardware Startup Summit
+2月1日 メイカーズながおかにて講演
+2月4日 日本商工会で講演
+2月6日 STEP!デロイトスタートアップ講座
+2月5–12日 早稲田大学非常勤講師
+2月13日 立命館大学大阪キャンパスにて講演京都にて講演 (詳細調整中）
+2月15–16日 Mini Maker Faire Tsukuba/同人ハードウェアフェス
+2月17–19日 深圳無人販売機展
+3月14日 Open Source Hardware Summit (New York)
+4月11–14 Global Source Hongkong
+4月25–27 Chongjin STEAM EXPO
+5月2–3 Maker Faire Kyoto
+Maker Faire around the world…
+...</p></div><footer class=entry-footer><span title='2020-01-04 00:00:00 +0000 UTC'>January 4, 2020</span>&nbsp;·&nbsp;<span>2 min</span></footer><a class=entry-link aria-label="post link to 1月31日 六本木にてイノベーションとスタートアップのイベント開催 ニコ技深圳コミュニティ＆インターネットプラス研究所の月次報告 2020年01月" href=https://takasumasakazu.github.io/teardown/1-31-2020-01/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://cdn-images-1.medium.com/max/800/1*szW_wF4nAU9y9xV-GkShbw.jpeg alt></figure><header class=entry-header><h2 class=entry-hint-parent>藤岡淳一WIRED Audi イノベーションアワード受賞、新書籍発売、高須の2月度来日 ニコ技深圳コミュニティ＆インターネットプラス研究所の月次報告 2019年12月</h2></header><div class=entry-content><p>メイカーフェア深圳、100名近く日本からの来場者があり、今年も大盛り上がりでした。
+メイカーフェア深圳、100名近く日本からの来場者があり、今年も大盛り上がりでした。
+ありがとうございます。
+年末が近づき、今月のメールは告知が多くなりました。
+■藤岡さんWIRED Audi INNOVATION AWARDを受賞
+まず、ニコ技深圳コミュニティの共同発起人、ジェネシス代表取締役社長の藤岡淳一が
+WIRED Audi INNOVATION AWARDを受賞しました。
+深圳コミュニティと日本のスタートアップとの結びつきがこう評価されたのは
+ありがたいことです。
+すでに受賞インタビューが公開されています。
+https://wired.jp/waia/2019/13_junichi-fujioka/
+12月1月と春節前の追い込みで、JENESISでのミートアップは来年2月以降となりますが、
+ミートアップで藤岡さん含めて皆さんとお会いできるのを楽しみにしています。
+末尾に告知ありますが、JENESIS東京オフィス・深圳オフィスでは全分野で人財採用しています。
+■年末ミートアップ
+深圳の製造業はCESと春節前の追い込みで、会社訪問には向かない季節ですが、電気街や
+ショッピングモールは通常営業していますし、冬休みで深圳に来る人が多いと思います。
+12月28日、29日にミートアップを実施します。
+28日ニコ技深圳コミュニティ 12月度Meetup with iMakerBase
+宝安区のインキュベータ、iMakerBaseをみんなで訪問します。
+https://www.facebook.com/events/440790480154081/
+29日 2019 冬休みBeer Meetup ニコ技深圳コミュニティ
+今年最後のビール会です。
+https://www.facebook.com/events/537257093524101/
+■新しい書籍が出ます「東アジアのイノベーション：企業成長を支え、起業を生むエコシステム」
+第4回、第5回と観察会に参加されて、ニコ技深圳コミュニティとガチ中国研究者のブリッジに
+なってくれた木村公一郎博士が編集した書籍が出ます。
+伊藤 亜聖, 木村 公一朗, 牧 兼充 ほか、このコミュニティと関わり深い人々が執筆しています。
+僕もオープンソースハードウェアについて一章寄稿しています。
+早稲田大学ビジネススクールでの講義や、JST Science Portal Chinaでの連載は、
+この研究プロジェクトがきっかけになって生まれたものです。
+https://www.amazon.co.jp/dp/4861827833/hirayasutakas-22
+来月以降は、このようなイベントに参加します。来る方ぜひお会いしましょう。
+Next My Trip on 2019
+12月7–8日 ChangMai Maker Party
+12月12日 HAX Demo Day
+12月12–15日 上海国際STEAM EXPO
+...</p></div><footer class=entry-footer><span title='2019-12-01 00:00:00 +0000 UTC'>December 1, 2019</span>&nbsp;·&nbsp;<span>2 min</span></footer><a class=entry-link aria-label="post link to 藤岡淳一WIRED Audi イノベーションアワード受賞、新書籍発売、高須の2月度来日 ニコ技深圳コミュニティ＆インターネットプラス研究所の月次報告 2019年12月" href=https://takasumasakazu.github.io/teardown/wired-audi-2-2019-12/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://cdn-images-1.medium.com/max/800/1*pIPDFUww4pw0mJlLN_etDA.jpeg alt></figure><header class=entry-header><h2 class=entry-hint-parent>読書録：「メイカーとスタートアップのための量産入門」（と「ハードウェアハッカー」との対比-メチャメチャ面白いのでどちらも読もう）</h2></header><div class=entry-content><p>おそらくこの本を読む人の多くがバニー・ファンの「ハードウェアハッカー」（拙訳、山形浩生監訳）をあわせて読むと思う。結論を先にいうと、片方を読んだならどちらも楽しめるのは間違いない。と感じた。…
+おそらくこの本を読む人の多くがバニー・ファンの「ハードウェアハッカー」（拙訳、山形浩生監訳）をあわせて読むと思う。結論を先にいうと、**片方を読んだならどちらも楽しめるのは間違いない。**と感じた。
+少なくとも僕はこの本を心待ちにして発売日に買った。それどころか、僕は先行販売のメイカーフェア東京で出展者として開場前にいて、レジが開くと同時に買ったので、ひょっとするとお金を出して買った一号読者かもしれない。感想を書くのは今になってしまったが、期待を上回る面白さだった。
+■モノづくりの職人が蓄積された経験を正しく記述したもの 「メイカーとハードウェアスタートアップのための量産入門{.markup–anchor .markup–p-anchor}」は、様々なハードウェア開発をしてきた小美濃さんの経験が丁寧な編集で正しく記述されている本だ。
+メイカーとスタートアップのための量産入門 ―200万円、1500個からはじめる少量生産のすべて (Make: Japan Books)
+*Amazonで小美濃 芳喜のメイカーとスタートアップのための量産入門 ―200万円、1500個からはじめる少量生産のすべて (Make: Japan Books)。アマゾンならポイント還元本が多数。小美濃…*www.amazon.co.jp{.markup–anchor .markup–mixtapeEmbed-anchor} 製品企画、電気まわりと機構まわりの設計、見積もりや外注先のコントロール、販売に至るまでの全体を、豊富な経験と具体的なスケッチをもとにして説明しているこの本は、「量産するとはどういうことか」についての全体像を見通すよいガイドブックになっている。
+サマリとして抽象的にまとめられているわけではなく、それぞれのトピックで語られる内容は、この図で見るとおりきわめて具体的なものだ。
+バニー・ファンはハードウェアを学ぶことについて、「ハードウェアでは知識が正しく蓄積されていく。僕は高校の頃に習ったファラデーの法則、子供の頃に学んだハンダづけ、大学で学んだマクスウェル方程式、他に基板デザインのAtriumや3D CADのソリッドワークスなどでいまも仕事をしているが、ソフトウェアだとその間だけで出てきて消えた技術の、名前だけをおぼえるだけでも大変だ。」と講演で語っている。ソフトウェアの世界では昔のスタンダードを持ち出すとしばしば老害になるが、物理現象を相手にするハードウェアでは、経験が積み重なっていくことを説いた言葉だ。
+同じことがこの本にも言える。書いてある事例は数十年前のオモチャから、現在のMicro:Bitでコントロールするガジェットまで出てくる。そのすべてがハードウェアで、同じ物理法則で成り立っている。つまり、この分野では知識は正しく積み重なる。
+■「ハードウェアハッカー」は様々な寄り道が魅力 ハードウェアハッカー ~新しいモノをつくる破壊と創造の冒険
+*Amazonでアンドリュー"バニー"ファン, 山形 浩生, 高須 正和のハードウェアハッカー ~新しいモノをつくる破壊と創造の冒険。アマゾンならポイント還元本が多数。アンドリュー"バニー"ファン, 山形 浩生, 高須…*www.amazon.co.jp{.markup–anchor .markup–mixtapeEmbed-anchor} ハードウェアハッカーはこの本の倍近くのボリュームがある大著で、かつハッカーで研究者でもあるバニー・ファンの興味はより多岐にわたっている。たとえば中国のコピー製品「山寨」がどういう経済システムや知財に関する詳細な考察が行われ、著者のバニーがガジェットchumbyの部品であるSDカードを掴まされたことをきっかけに、深圳の電気街でニセモノSDカードを買い集め、チップを開封して顕微鏡で製造工程を検証し、KingstonやSandisk,Samsungといったメモリカード製造業者のエコシステムと中間業者がニセモノを混入させるまでのエコシステムに潜っていく。
+あるいは、ソフトウェア的に難しいセキュリティ破りが、ハードウェアも手段として備えることでコロンブスの卵的にハックできることを証明するために、マイコンを物理的に開封してセキュリティビットに紫外線をあて、チップ内の情報を読み出したりする。そうした「ハックのためのハック」、融通無碍なハードウェアいじりの知的好奇心と優れたスキルは「ハードウェアハッカー」の一つの魅力だ。電子回路、射出成形、木材を組み合わせて丈夫な材料を作る技術、知的財産、資金繰り、果ては遺伝子工学まで好奇心の赴くままハックするバニーのバイタリティと、「どんなことか深く知りたい」という知的好奇心は多くの読者の共感を呼んでいる。
+ハードウェアハッカー感想の多くが「これ、自分は（一部）わかるしメチャメチャ面白いけど、読んでわかる人は少ないんじゃないか」というものだ。それはそのとおりではある。しかしバニーの感じている知的好奇心や興奮は、面白がって本を読むような人がみな備えているようなものだ。そして著者の社会や人間性含めて徹底的に考察していく透徹した姿勢は、このブログのように中国社会に関心がある人からも多くの関心を集めている。
+【読書録】ハードウェアハッカー - 黒色中国BLOG
+*やっと苦労して手に入れた『ハードウェアハッカー』。日々の仕事の合間に少しづつ読み進めています。私は電子製品の開発・生産などとは全く無関係の門外漢だけど、読んでいて非常に面白い...エキサイティングな本です。…*bci.hatenablog.com{.markup–anchor .markup–mixtapeEmbed-anchor} ハードウェアハッカーはその意味で著者バニーが面白がるものが様々に詰め込まれたオモチャ箱のような本で、一貫した「ハードウェアハック」というテーマはあるものの、全ページを細かく理解することは難しいし、そうした本ではないだろう。「よくわかんないし、無関係に思えるテーマも多くてきちんとわからない（ので読む気がしない）」という感想も多く、僕は同意しないけど理解はできる。
+■「メイカーとスタートアップのための量産入門」実務家としての魅力 ハードウェアハッカーはそうした、バニーの経験や思考をぶちまけた雑多さが魅力でもとっつきにくさでもあるが、「メイカーとスタートアップのための量産入門」にそういった雑多さの対極にある、量産についての仕事一覧を丁寧にまとめた、よく整理された本だ。ハードウェアの製造に関わる仕事はとても多岐にわたるので、限られた紙幅で説明し切れているかどうかはともかく、すっきりと全体を読むことができるし、「どこからどこまでが仕事なのか」「どういうプレイヤーがどういう役割で関わっているのか」「予算やタイムスケジュール」などが把握できる。
+こうした簡潔な記述は実務家らしいスタイルだと感じる。同じテッキーなエンジニアであるバニーと違い、この本は寄り道をしない。
+著者の小美濃さんは大変な経験をもち人間的にも魅力ある人なので、本の端々にでてくる具体的なエピソード、たとえば「中国の取引先との宴席にはどういう人が出てきて、席ではどう振る舞うべきか」などはことごとく面白い。またそのトピックの多くが一般的に言われてる中国にたいしての聞きかじりとは真逆の、実際に体験した人でないと出てこない深みがある。「日本の工場との取引は中国に対するよりも現場合わせがしづらく、事前に厳密に決めておく必要がある。そのわりに約束事に対して曖昧なところがあり、何でも納期とコストのトレードオフになりやすい。中国の工場のほうが’一緒に良いものを作りましょう’というパートナーになりやすい」という記述なんかは、これだけでまるまる1章ぶんのブログになりそうなテーマではあるが、本では上記ぐらいであっさり終わってしまう。「東莞は深圳よりさらに南」（実際は北。海から遠いせいか、たしかに深圳より暑い気はする）という記述があるなど、実務と関係ない部分は極力刈り込まれている。個人的はそういう部分もメチャメチャ面白いので、できれば続編なりスピンアウトなりで、もう一冊書いてほしい。
+その意味でタイトル通り「メイカーとスタートアップのための量産入門」としてキッチリと具体的にまとまっている。経験則と数式や物性で説明できるところは分けて、専門用語やベースになっている理論の説明などもわかりやすい。「わかりにくい幅広いことを、実際にやったことある人がわかりやすく説明した」という点ですばらしい。
+小美濃さんとの初対面は、日本での学研本社だった。二人で深圳の話で盛り上がり、時間を超過して雑誌の付録などを見せてもらいながら半日ぐらい一緒にいた気がする。たぶんおぼえていないだろうけど、「なかなか、そういう裏方のモノづくりの話を面白がってくれる人がいなくて。。」という話を受けて、「ハードウェアハッカー」を翻訳中だったことや、「体験を伝えるために本を書いてほしいなあ」と話したことがある。
+次にお会いした時は、小美濃さんが射出成形工場に出張するときに同行した東莞市だった。工場でのやりとりも宴席でも、終始話が面白くてとても勉強になった。メイカーフェア東京での講演も非常に面白かったし、今後の活動を楽しみにしている。
+そして、「実際にこういうことをやった、これは成功してこれはうまくいかなかった」ということを語る人たちがもっともっと出てきてほしい。
+By TAKASU Masakazu/高須正和{.p-author .h-card} on September 2, 2019.
+Canonical link Exported from Medium on February 6, 2026.
+...</p></div><footer class=entry-footer><span title='2019-09-02 00:00:00 +0000 UTC'>September 2, 2019</span>&nbsp;·&nbsp;<span>1 min</span></footer><a class=entry-link aria-label="post link to 読書録：「メイカーとスタートアップのための量産入門」（と「ハードウェアハッカー」との対比-メチャメチャ面白いのでどちらも読もう）" href=https://takasumasakazu.github.io/teardown/post/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://cdn-images-1.medium.com/max/800/1*BYDcRkG5TNQPyrrrmoLjmQ.jpeg alt></figure><header class=entry-header><h2 class=entry-hint-parent>講演動画：ニコ技深圳コミュニティ5年間の活動紹介 2014--2019</h2></header><div class=entry-content><p>伊藤亜聖先生のプロデュースで、以下のイベントに登壇しました。
+東大 福武ホールでの登壇
+深圳ブームは中国・欧米・日本でそれぞれ別にあった 深圳は、経済特区であり世界の工場としての注目を集めていましたが、イノベーションハブと見なされるようになったのは最近です。
+2008年創業のSeeedほか、面白いメイカーたちは以前からいたのですが、中国政府が深圳やメイカーズに注目を始めたのは、2015年からの、「大衆創業・万衆創新」を掲げた一連の政策が始まってからです。
+2014年にスタートしたニコ技深圳コミュニティは、中国人からも海外からも注目されない「メイカーの街深圳」に面白みを感じてスタートし、メイカーフェア深圳の運営チームと協力して、メイカー先進国である日本メイカーたちといくつも共同でイベントを（主に日本で）行いました。
+「大衆創業・万衆創新」公布後、2015年、中国のインターネット流行語№1が「創客(メイカーの中国語）」になるほどのメイカーブームが起こり、中国全土にメイカーイベントが拡散しました。ニコ技深圳コミュニティは、メイカーフェア深圳の運営チームと協力し、深圳続いて西安、成都などのメイカーフェアに協力し、中国各地でイベントを行いました。
+WIREDがきっかけの、海外での深圳ブーム 2016年2月の「メイカーズのエコシステム{.markup–anchor .markup–p-anchor}」刊行時は、「深圳なんて誰も知らないから、書名に入れない方がいい」と言われたものでした。が、この本をきっかけに、2016年は多くの中国専門家、経済研究者などが深圳コミュニティにジョインしてきました。
+2016年6月のWIRED Future Cityビデオで、欧米圏での深圳ブームが起こりました。
+2016年のWIRED Future Cityビデオ（埋め込んだのは2018年公開の日本語字幕付き）
+2017年からの日本メディアでの深圳ブーム 日本でのブーム開始は、2017年からと言えるでしょう。僕にダイヤモンド・オンラインからお声がかかって「知られざる深圳」シリーズが始まったのは2017年1月、東洋経済の深圳特集が2017年3月。そのころから深圳が日本でも「なんとなくみんなが知っていて惹かれる場所」になった気がしています。
+ニコ技深圳コミュニティの中国研究者やライターたちは多くの情報を供給し、特に2017年の1年間を深圳で過ごしてニコ技深圳コミュニティの深圳オフィスに毎日何組もの来客を受け入れた伊藤亜聖先生の活動は、多くのメディアに取りあげられました。
+僕は2017年転職活動などもあってそれほどアクティブでなく、コミュニティだと相互補完できることを感じました。
+そして、深圳情報の集大成として2017年11月に藤岡さんの「ハードウェアのシリコンバレー深圳に学ぶ」が出版され、それまでニコ技深圳観察会という名前で活動していた我々は、ニコ技深圳コミュニティと名称を変更しました。
+「ハードウェアのシリコンバレー深セン」に学ぶ−これからの製造のトレンドとエコシステム (NextPublishing)
+*Amazonで藤岡 淳一の「ハードウェアのシリコンバレー深セン」に学ぶ−これからの製造のトレンドとエコシステム (NextPublishing)。アマゾンならポイント還元本が多数。藤岡…*www.amazon.co.jp{.markup–anchor .markup–mixtapeEmbed-anchor}
+深圳のメイカーコミュニティとして、ビジネス含めた活動をしていく ここまで書いてきたとおり、僕たちは深圳に注目が集まる前から、深圳のメイカーたちと活動してきました。「深圳が注目されているから集まった」のではありません。
+共同創業者の藤岡さんは、もう16年も深圳で活動しています。
+今は藤岡さんのように深圳を舞台にビジネスをしているメンバーも増え、僕の本業（開発製品の輸入代理業、ビジネス開発）もコミュニティの活動と密接に絡んだものとなりました。
+2018年以降、僕たちのコミュニティはそうした企業間提携やadvocate活動を一緒になって行うことが中心になり、「深圳という街」から、さらに具体的なものにフォーカスしています。
+これからも深圳と日本のメイカーと共に活動していきます。
+伊藤亜聖先生のプロデュースで、以下のイベントに登壇しました。
+ニコ技深圳コミュニティはギークの集まりから、中国研究者が加わり、その後起業家なども加わってきて、深圳と共に成長してきました。そういうことについて話しました。
+シリコンバレー×深圳 グローバルイノベーションの最前線とコミュニティ
+*16:40-16:50 休憩 16:50-17:05 コメント１ 山形浩生17:05-17:20 コメント２ 宮下正己 17:20-18:00 全体パネルディスカッション 登壇者１：森 俊彦 2003年松下電器産業（現Panasonic）…*dlab-and-nicotechsz-2019.peatix.com{.markup–anchor .markup–mixtapeEmbed-anchor} シリコンバレー×深圳 グローバルイノベーションの最前線とコミュニティ
+～シリコンバレーD-Lab x ニコ技深圳コミュニティコラボワークショップ～
+イベント概要
+世界的イノベーションの拠点であるシリコンバレーと、新興都市として注目を集める中国の深圳市。現地動向の解説を超えて、現場で活動している人に話を聞きたい、そう考えている人は多いはずだ。シリコンバレーの直近の技術動向や本質を、特にモビリティとイノベーションの面から発信してきたシリコンバレーD-Labの発起人の1人である森 俊彦氏から、そして深圳の動向を現地に日中＋MITやサンフランシスコなどの多国籍でユニークなコミュニティをつくりあげている高須正和氏に解説いただく。D-Labとニコ技深圳は成り立ちは異なるものの、それぞれ自発的に生まれた未知の現象を把握しようとする取り組みだ。なにが現地で生じ、その背景にどのようなメカニズムがあるのだろうか。多様なメンバーでアプローチすることにどのような意味があるのだろうか。グローバルな動きをこの二都市から読み取るのみならず、日本の企業、政策、社会に何を活かせるのだろうか。これらの論点を議論する場としたい。
+By TAKASU Masakazu/高須正和{.p-author .h-card} on August 8, 2019.
+Canonical link Exported from Medium on February 6, 2026.
+...</p></div><footer class=entry-footer><span title='2019-08-08 00:00:00 +0000 UTC'>August 8, 2019</span>&nbsp;·&nbsp;<span>1 min</span></footer><a class=entry-link aria-label="post link to 講演動画：ニコ技深圳コミュニティ5年間の活動紹介 2014--2019" href=https://takasumasakazu.github.io/teardown/5-2014-2019/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://cdn-images-1.medium.com/max/800/1*J-LT1DX5iwvUprpUbsDLXA.jpeg alt></figure><header class=entry-header><h2 class=entry-hint-parent>サンフランシスコ中心部のバーガーキング、衝撃的な貧困さ</h2></header><div class=entry-content><p>すごいなアメリカ サンフランシスコのど真ん中、市庁舎の前の目抜き通り(UberやTwitterの本社まで徒歩5分)であり、かつ低所得地区テンダーロインのバーガーキング、
+サンフランシスコ中心部のバーガーキング、衝撃的な貧困さ
+すごいなアメリカ
+サンフランシスコのど真ん中、市庁舎の前の目抜き通り(UberやTwitterの本社まで徒歩5分)であり、かつ低所得地区テンダーロインのバーガーキング、
+1.カウンター3人のうちオペレーションできるのが一人しかいない
+1人は業務あまり理解してないしもうひとりはレシートが逆さになってると数字が読めない
+2.客がキレてカウンターに腕突っ込んでケチャップ持ち出したり食って掛かる。もちろん客もここ以外に入れる店がなさそうなヘンなのが多い（たまにスーツ族も混じってるけど）
+3.二人は注文の中で「理解できるやつ」だけ袋に詰めるので、前の注文でもずっと出てこないものがいくつもある。98番が呼ばれても75番が残ってたりしてる。30分近くたっている。
+4.しょうがないから拳銃持って常駐してる警備員までたまにカウンター内に入って、客のレシート呼んであげてオペレーションの指示出してる。そこにも、「そのピストルを店員に突きつけて急げって言ってやってくれよ旦那」みたいに話しかける、パッと見でホームレスぽい人がいる（この人がカウンターに手を突っ込んでソース持ち出して警備員に怒られてた）
+5.オペレーションができない2人のできないレベルは、
+A.たとえばナゲット買った人にソースつけることがわからないというレイヤーでダメ
+B.「なんの作業をする人か」がそもそもわかってなさそうな人
+の2名。 Bは、レシートの数字が何を意味してるかわかってなさそうだし、レシートが逆さになると数字も読めてなさそう（文字が読めない人なのか、メチャメチャとろい人なのかわからない感じ）
+6.広い店らしいんだけど、管理しきれなさそうなので2Fと地下、つまりほとんどの席は閉鎖。
+7.もちろん、ゴミ箱の写真にあるとおり、リサイクル可能か不可能か、客も店もわかってなさそう。
+同じ市内にプラスティックストローやめてる店いっぱいあるのにね、、
+8.そりゃあ「監視カメラ24時間稼働中」を出す。なお、店は夜になると閉める。徒歩10分のほかのバーガーキングより営業時間短い。
+場所はサンフランシスコのど真ん中。周りのどこで食べても$13ぐらいの中、このバーガーキングだけ$5とかなので、こうなってるのかな？不謹慎だけど、こういう光景は目に焼き付く。ナゲット10個で$2とか、大バーガー+ポテト+コーラ+でかいビスケット2枚で$5とか（セットメニューなので安い。他のバーガーキングにもあるよ。サイネージのセールコーナーなので見落とすかもしれないけど）なので、手段を選ばず低コストで満腹になるならここなんだろうなぁ。（同じ通りの安いカレー屋は税込チップ抜き$14で飲み物なし、とか）
+僕このバーガーキング、貧乏なのとフィールドワーク的な興味でここ数年に渡って毎年メイカーフェアの時期に来てる（このテンダーロインエリアは中心部なのにホテルがやすい）んだけど、店も周辺も年々ひどくなる気がしてる。
+バーガーキング
+1200 Market St, San Francisco, CA 94102 アメリカ合衆国
++1 415-255-1900
+https://maps.app.goo.gl/TVaqF43PK2rspwus8
+去年は周辺で生まれてはじめて「女性の立ちション」を見た。単に野外でオシッコするんじゃなくて、立ってる状態から前屈して後ろに噴射するやつ。
+シリコンバレー視察団はぜひここも見に来るといいと思う
+「クルーグマン教授の経済入門」で、生産性の章（所得格差についても書いてある）や、 山形浩生さん訳のサマーズの話を読んだのでめちゃめちゃ考えさせられた。
+景気の回復が感じられないのはなぜかー長期停滞論争
+*Amazonでローレンス・サマーズ, ベン・バーナンキ, ポール・クルーグマン, アルヴィン・ハンセン, 山形 浩生の景気の回復が感じられないのはなぜかー長期停滞論争。アマゾンならポイント還元本が多数。ローレンス・サマーズ…*www.amazon.co.jp{.markup–anchor .markup–mixtapeEmbed-anchor} クルーグマン教授の経済入門 (ちくま学芸文庫)
+*Amazonでポール クルーグマン, Paul Krugman, 山形 浩生のクルーグマン教授の経済入門 (ちくま学芸文庫)。アマゾンならポイント還元本が多数。ポール クルーグマン, Paul Krugman, 山形…*www.amazon.co.jp{.markup–anchor .markup–mixtapeEmbed-anchor} この2冊にあるとおり、アメリカの経済は全体では伸びてるけど、その勢い以上に格差は拡大している。当代一流の経済学者が考えても特効薬は見つかっていない。景気を良くすると全体は良くなるけど、格差はもちろん広がる、（でも、僕はそれでも最低層が’去年よりマシな暮らし’になる方がいいと思うけど）
+最低賃金を上げたり高所得者への高い税金は、全体の勢いが下がって貧困層がもっと貧しくなることがある、、、
+リフレ派が言うように、例えば教育とかにたくさんお金を使うのはいいことだと思うけど、それがこういう自体の解決に何年かかるかはわからないし、オペレーションしてる人たちはたぶん25歳とかの移民だろうから今の教育テコ入れどうかとは別の話だ。（それでも、「その国の教育ない状態で暮らすとはどういうことか」がわかるケースでもある。）そういう移民でも、もとの国にいるよりはいいから来てるんだろうし、、、、、
+By TAKASU Masakazu/高須正和{.p-author .h-card} on May 21, 2019.
+...</p></div><footer class=entry-footer><span title='2019-05-21 00:00:00 +0000 UTC'>May 21, 2019</span>&nbsp;·&nbsp;<span>1 min</span></footer><a class=entry-link aria-label="post link to サンフランシスコ中心部のバーガーキング、衝撃的な貧困さ" href=https://takasumasakazu.github.io/teardown/post/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://cdn-images-1.medium.com/max/800/1*mjADrNV22P8j-FDuQfWsYA.jpeg alt></figure><header class=entry-header><h2 class=entry-hint-parent>zGlue、カスタムSoCを安価で早く作るベンチャー企業</h2></header><div class=entry-content><p>シリコンバレーの会社zGlue、上海,深圳にもオフィスあり、2019年1月のCESでブースを見かけて気になった。 まだローンチ前のサービスで、利用者のリテラシーも要求するので、とりあえず僕がwechatでユーザーグループを作っている。 グループで深圳オフィス訪問もした。
+シリコンバレーの会社zGlue、上海,深圳にもオフィスあり、2019年1月のCESでブースを見かけて気になった。
+まだローンチ前のサービスで、利用者のリテラシーも要求するので、とりあえず僕がwechatでユーザーグループを作っている。
+グループで深圳オフィス訪問もした。
+プレゼンされたzGlue概要
+コミュニティの中心秋田先生が、Facebookで解説{.markup–anchor .markup–p-anchor}を書いている。
+「カスタムSoCを1週間1000ドルで」というキャッチフレーズのzGlue ( zglue.com{.markup–anchor .markup–blockquote-anchor} )を先日訪問してきました。
+SoCとは、System on a Chipの略で、プロセッサとメモリ、無線通信などの、システムの構成要素（のほとんど）を一つのチップに載せてしまった半導体チップのことです。
+最近はスマホやタブレットの中心部品として多用されるだけでなく、RaspberryPiのプロセッサやESP8266/32もSoCです。
+一般にSoCは、その性格から、用途ごとのカスタム品になります。また半導体チップの性質として、設計のイニシャルコスト（時間と費用）が高額（ただし量産すればチップの単価はすごく安い）、という特徴あります。そのため、すでに流通しているSoCを製品開発に使うことは普通ですが、SoCを新規に（自分の目的のために）開発する、のは、あまりありません。多くのSoCは、大量生産が見込める製品向けに開発されることが多く、少ロットの製品、スタートアップ企業が成功の可否が確証できない製品のために、新規にSoCを設計することは、技術的には可能ですが商業的には現実的ではありません（またはリスクが大きすぎる）。
+zGlueは、SmartFabricと呼ぶチップがコア技術で、この上にChipletと呼ぶCSP/BGAパッケージのICを載せてカスタムSoCをつくります。その意味で、SoCというよりSiP (Silicon in Package)の一種のCoC (Chip on Chip)に近いといえます。
+SmartFabricは、表面に0.1mm間隔でChipletを載せるパッド(バンプ)が並んでいて、パッド間の配線をFPGAのように動的構成可能(プログラム可能)で、UARTやI2C等の汎用的な回路も載っている、それ自体がLSIです。いわば、FPGAの配線が上にも出ている、つまり、FPGA内の論理ブロックが、チップの外（Chiplet）にあり、そこへの配線端子が上に並んでいる、ような構造です。
+SmartFabric自体が一種のSoC、と考えることもできますが、SmartFabricは、zGlueで作るカスタムチップのどれでも使いますので、量産のコスト効果があります。一般にカスタムLSIはイニシャルコストが高く単価は安いので、このように同じチップをプログラムで機能を変えていろいろ使えるのは、コスト的なメリットが大きいのです。つまり、汎用品を組み合わせて少量多品種を実現する、P.ドラッカーの呼ぶ「新型の大量生産」をカスタムLSIで実現する方策と言えます。
+もちろん配線遅延はSoCよりも大きく、高速信号伝送はには向かないのですが、そこはSoCと明らかにコストとTTM (Time to Market)が違うので棲み分けはできます。なおSmartFabric内の配線ルートは、高速のデジタル系と、低抵抗のアナログ系の二系統あるそうです。
+SoCでは設計コストも大きいのですが、zGlueではChipBuilderというWebベースの設計ツールを提供しており、Chipletの配置は手動なので設計者のスキルがある程度もとめられるのですが、、配線は自動化されているので、設計の工数が抑えられます。使うマイコンにあわせたSDKもそこから生成され、ソフトウエア開発へシームレスにつながります。
+一言でまとめると、
+あ た ま い い
+CTOの話す技術詳細
+By TAKASU Masakazu/高須正和{.p-author .h-card} on March 16, 2019.
+Canonical link Exported from Medium on February 6, 2026.</p></div><footer class=entry-footer><span title='2019-03-16 00:00:00 +0000 UTC'>March 16, 2019</span>&nbsp;·&nbsp;<span>1 min</span></footer><a class=entry-link aria-label="post link to zGlue、カスタムSoCを安価で早く作るベンチャー企業" href=https://takasumasakazu.github.io/teardown/zglue-soc/></a></article><footer class=page-footer><nav class=pagination><a class=prev href=https://takasumasakazu.github.io/teardown/page/6/>«&nbsp;Prev&nbsp;
+</a><a class=next href=https://takasumasakazu.github.io/teardown/page/8/>Next&nbsp;&nbsp;»</a></nav></footer></main><footer class=footer><span>&copy; 2026 <a href=https://takasumasakazu.github.io/>ニコ技深セン / Nico-Tech Shenzhen website</a></span> ·
+<span>Powered by
+<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
+        <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
+</a><script>let menu=document.getElementById("menu");if(menu){const e=localStorage.getItem("menu-scroll-position");e&&(menu.scrollLeft=parseInt(e,10)),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}}document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{const e=document.querySelector("html");e.dataset.theme==="dark"?(e.dataset.theme="light",localStorage.setItem("pref-theme","light")):(e.dataset.theme="dark",localStorage.setItem("pref-theme","dark"))})</script></body></html>

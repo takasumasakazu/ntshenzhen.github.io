@@ -1,5 +1,8 @@
 ---
 title: "Top picks at the Singapore Biennale"
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*3KHuUBNii7W6JOrFhD1oVw.jpeg"
+  relative: false
 aliases: ["/2013/10/top-picks-at-the-singapore-biennale/"]
 slug: top-picks-at-the-singapore-biennale
 date: 2013-10-28
@@ -26,7 +29,7 @@ endless group of traditional musicians and dancers, holograms that react
 to your presence via motion sensors as you tentatively walk around and
 immerse yourself in its uplifting, celebratory vibe.
 
-![](https://cdn-images-1.medium.com/max/800/1*3KHuUBNii7W6JOrFhD1oVw.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*3KHuUBNii7W6JOrFhD1oVw.jpeg)
 
 
 ------------------------------------------------------------------------

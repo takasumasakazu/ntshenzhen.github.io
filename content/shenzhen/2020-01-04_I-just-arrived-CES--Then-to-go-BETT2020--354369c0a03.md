@@ -1,5 +1,8 @@
 ---
 title: "I just arrived CES  Then to go BETT2020  354369c0a03"
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*x9oBn2qhdvtPXmc-nDXNtQ.jpeg"
+  relative: false
 aliases: ["/2020/01/i-just-arrived-ces-then-to-go-bett2020-354369c0a03/"]
 slug: i-just-arrived-ces-then-to-go-bett2020-354369c0a03
 date: 2020-01-04
@@ -19,7 +22,7 @@ Jan. If you also come to CES, please say hi.
 I just arrived in Las Vegas airport for CES 2020. I \`m here until 10th
 Jan. If you also come to CES, please say hi.
 
-![](https://cdn-images-1.medium.com/max/800/1*x9oBn2qhdvtPXmc-nDXNtQ.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*x9oBn2qhdvtPXmc-nDXNtQ.jpeg)
 
 After CES, I will be Maker Faire Bangkok on 18th-19th Jan. Then to go
 other event on UK, BETT 2020.\

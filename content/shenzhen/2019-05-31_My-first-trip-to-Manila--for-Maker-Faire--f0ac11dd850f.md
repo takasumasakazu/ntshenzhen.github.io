@@ -1,5 +1,8 @@
 ---
 title: "My first trip to Manila  for Maker Faire "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*TUb3r57zaWzZ9d5DOddxXQ.jpeg"
+  relative: false
 aliases: ["/2019/05/my-first-trip-to-manila-for-maker-faire/"]
 slug: my-first-trip-to-manila-for-maker-faire
 date: 2019-05-31
@@ -71,7 +74,7 @@ Next My Trip on 2019
 Maker Faire around the world...
 
 ![I met again Eric! long time
-no see!](https://cdn-images-1.medium.com/max/800/1*TUb3r57zaWzZ9d5DOddxXQ.jpeg){.graf-image}
+no see!](https://cdn-images-1.medium.com/max/800/1*TUb3r57zaWzZ9d5DOddxXQ.jpeg)
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [May 31, 2019](https://medium.com/p/f0ac11dd850f).

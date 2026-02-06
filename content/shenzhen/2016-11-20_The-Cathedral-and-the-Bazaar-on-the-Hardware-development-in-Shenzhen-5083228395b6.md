@@ -1,5 +1,8 @@
 ---
 title: "The Cathedral and the Bazaar on the Hardware development in Shenzhen"
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*5KRk0XwVLx4hsjNRQPu2Hw.jpeg"
+  relative: false
 aliases: ["/2016/11/the-cathedral-and-the-bazaar-on-the-hardware-development-in-shenzhen/"]
 slug: the-cathedral-and-the-bazaar-on-the-hardware-development-in-shenzhen
 date: 2016-11-20
@@ -114,7 +117,7 @@ thought, it is very similar in reality.
 
 ![Too many of these hardware invented in Shenzhen are invented, no one
 knows which is the original and which is the copy
-/ branch.](https://cdn-images-1.medium.com/max/800/1*5KRk0XwVLx4hsjNRQPu2Hw.jpeg){.graf-image}
+/ branch.](https://cdn-images-1.medium.com/max/800/1*5KRk0XwVLx4hsjNRQPu2Hw.jpeg)
 
 **The bazaar style hardware development by GongBang and GongMo**
 
@@ -146,7 +149,7 @@ accumulation of small evolution yields new products.
 
 ![Products like this radio cassette are 'tablets with large speakers'.
 It may be that the tablet body entered the Bluetooth
-speaker.](https://cdn-images-1.medium.com/max/800/1*KnA-5aMUiEf8Y74pzGxYoQ.jpeg){.graf-image}
+speaker.](https://cdn-images-1.medium.com/max/800/1*KnA-5aMUiEf8Y74pzGxYoQ.jpeg)
 
 This is a nice solution to listen to music on Google Music and Youtube,
 Bluetooth speakers make it hard to let smart phones do other work while
@@ -156,7 +159,7 @@ It is not as revolutionary as the iPod, but it is a product of a new
 genre.
 
 ![One
-Wheeler](https://cdn-images-1.medium.com/max/800/1*WnHzJsQPc75KLiLP2XUq2g.png){.graf-image}
+Wheeler](https://cdn-images-1.medium.com/max/800/1*WnHzJsQPc75KLiLP2XUq2g.png)
 
 I think that the motorized unicycle is originated from the United
 States, but I see the most in Shenzhen. Remodeling such as turning on
@@ -169,7 +172,7 @@ been born.
 **The Bazaar method, invention without inventor**
 
 ![You can find a lot in Shenzhen, an on-screen mirror and an
-Android monitor.](https://cdn-images-1.medium.com/max/800/1*C5z8GOWvcdOrBubC1SGX6Q.png){.graf-image}
+Android monitor.](https://cdn-images-1.medium.com/max/800/1*C5z8GOWvcdOrBubC1SGX6Q.png)
 
 In the rearview monitor charged with a monitor on the rearview mirror of
 this car, invented items of the witting artist are accumulated and
@@ -191,7 +194,7 @@ interface for its Android rearview mirror.
 
 ![The interface where the car navigation is displayed on the rearview
 mirror is born from a large
-company AutoMap.](https://cdn-images-1.medium.com/max/800/1*Mdwyt5niaueA09F7l_35dg.png){.graf-image}
+company AutoMap.](https://cdn-images-1.medium.com/max/800/1*Mdwyt5niaueA09F7l_35dg.png)
 
 The on-board navigation system in cooperation with Android has been
 realized with "inventorless invention". Automap is a service used by
@@ -228,7 +231,7 @@ like Redhat on Linux.
 
 ![RePhone, Open source kit for anyone to make mobile phones,
 by [Seeed](https://www.seeedstudio.com/){.markup--anchor
-.markup--figure-anchor}](https://cdn-images-1.medium.com/max/800/1*uudi1VGfF0nv7ibFZGtGmw.jpeg){.graf-image}
+.markup--figure-anchor}](https://cdn-images-1.medium.com/max/800/1*uudi1VGfF0nv7ibFZGtGmw.jpeg)
 
 Since 17 years since 'The Cathedral and the Bazaar', 'MAKERS' is
 published in 2012, it has been only four years ago.\

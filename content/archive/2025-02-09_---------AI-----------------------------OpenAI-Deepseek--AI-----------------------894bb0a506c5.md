@@ -1,5 +1,8 @@
 ---
 title: "         AI                             OpenAI Deepseek  AI                      "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/0*ktt_6UyAd1E-BQXu.jpeg"
+  relative: false
 aliases: ["/2025/02/ai-openai-deepseek-ai/"]
 slug: ai-openai-deepseek-ai
 date: 2025-02-09
@@ -15,7 +18,7 @@ date: 2025-02-09
 
 ### 真のオープンソースAI社会,多くの人が透明に開発に参加することによる安全を望む：OpenAIとDeepseek, AIのオープンソースに対する開源社からのコメント {#392d .graf .graf--h3 .graf--leading .graf--title name="392d"}
 
-![](https://cdn-images-1.medium.com/max/800/0*ktt_6UyAd1E-BQXu.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/0*ktt_6UyAd1E-BQXu.jpeg)
 
 ### アルトマンは、オープンソース戦略について間違っていたと語った。DeepseekはOpenAIの優位性を低下させ、次はGPT-5になるだろう。 {#28bf .graf .graf--h3 .graf-after--figure name="28bf"}
 

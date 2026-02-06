@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Teardown | ニコ技深セン / Nico-Tech Shenzhen website</title>
+<meta name="keywords" content="">
+<meta name="description" content="Reverse engineering, teardowns, chip decap notes.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/teardown/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/teardown/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body class="list" id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="ニコ技深セン / Nico-Tech Shenzhen website (Alt + H)">ニコ技深セン / Nico-Tech Shenzhen website</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/teardown/" title="Teardown">
+                    <span class="active">Teardown</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/shenzhen/" title="Shenzhen">
+                    <span>Shenzhen</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/fabcross/" title="Fabcross">
+                    <span>Fabcross</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archive/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header">
+  <h1>
+    Teardown
+  </h1>
+</header>
+<div class="post-content"><p>Reverse engineering, teardowns, chip decap notes.</p>
+
+
+</div>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">                                                   2022 03 
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>中国のオープンソースについて神戸大学現代中国研究拠点と合同イベント ニコ技深センコミュニティ月次報告 2022年03月 ■中国のオープンソースムーブメント：その現状と可能性 3月15日19時オンライン 山形浩生/八田真行/伊藤亜聖/牧兼充/梶谷懐/高須正和 主催：神戸大学現代中国研究拠点
+中国のオープンソースについて神戸大学現代中国研究拠点と合同イベント ニコ技深センコミュニティ月次報告 2022年03月 ■中国のオープンソースムーブメント：その現状と可能性 3月15日19時オンライン 山形浩生/八田真行/伊藤亜聖/牧兼充/梶谷懐/高須正和 主催：神戸大学現代中国研究拠点
+↓録画公開しました こちらをどうぞ
+録画 #中国オープンソース ムーブメント：その現状と可能性 山形浩生/八田真行/伊藤亜聖/牧兼充/梶谷懐/高須正和 主催：神戸大学現代中国研究拠点
+イベント録画公開します Bilibiliもあるよmedium.com{.markup–anchor .markup–mixtapeEmbed-anchor}{.js-mixtapeImage .mixtapeImage .u-ignoreBlock}
+2，3年、中国におけるオープンソースムーブメントが活発化しています。もともと、中国では、知的財産権の重要性が社会や企業で十分に理解されていないまま、既存の製品やアイディアなどのコピーを繰り返すことで事実上「共有」し、新製品の開発にかかるコストを大幅に節約する、という状況が広く見られました。ハードウェアハッカーのバニー・ファンはこの自然発生した知識共有を、「公开GongKai」と呼んでいます。
+しかし、近年では、多くの中国企業が、知的財産権の重要性をきちんと理解したうえで、企業戦略としてオープンソースに注力するようになっています。また、政府もオープンソースのライセンスの法的整備を進めたり、オープンソースムーブメントに関する公的な財団を設立したりして、中国発のOSSライセンスが世界標準となることを支援する姿勢を明確にしています。その結果、中国では特に、オープンソース文化に憧れる若者が急速に増えており、GitHubの利用をみても、中国からの利用者は米国に次ぐ規模となっています。
+また、米中間の貿易摩擦が激化して以降、中国では政府による輸出規制に左右されないオープンソース開発に注目が集まっているという背景もあります。オープンソースムーブメントは国家間の政治的対立を相対化しつつ、グローバルなイノベーションを促進する可能性を持っているのです。
+残念ながらこういった動きは日本国内ではほとんど知られておらず、日本の企業や技術者がどのような形で関与できるのか、という議論も行われていないのが現状です。
+今回のイベントでは、オープンソースムーブメントおよび中国のイノベーションに精通した識者の方々にお声掛けして、いま中国とオープンソースムーブメントに何が起きているのか？日本に住む私たちにとってどんなインパクトがあるのか？といったことをじっくり議論したいと思っています。
+https://chinaoss0315.peatix.com/
+■プロトタイプシティ ラジオの公開収録イベントを行います
+「イノベーターのためのサイエンスとテクノロジーの経営学」ゲスト：牧兼充
+https://amzn.to/3hn6eIl
+現在、米国を中心に世界では「イノベーションの経済学・経営学」に関する研究が盛んである。起業家はいかにしてどこから生まれるのか、なぜ起業家は特定の地域に集積するのか、科学技術はベンチャー企業の育成にいかにして役立つのか、といった実務に役立つ疑問について、さまざまな研究成果が生まれている。本書では、特に科学技術による新事業創造について多く扱うが、それは日本企業が、以前ほど科学技術を儲けに結びつけられなくなってきているという問題意識がある。
+本書では、シリコンバレー型にとどまらない先端的なイノベーションや起業の研究について、32本の海外の学術論文(定量論文)を具体的に読み解きながら、そのエッセンスを紹介していく。ビジネスの現場では、アカデミックな知見とエビデンスを実務にどう役立てるのかという「科学的思考法」がますます重視されてきている。論文の探し方から情報の読み解き方までを学ぶ一冊としても有用である。
+https://prototypecityradio10.peatix.com/
+【ポッドキャスト番組 】
+プロトタイプシティから1年経過し、共著者の高口さんとpodcast番組をはじめました。
+Apple, Google, Spotifyなどのポッドキャストでプロトタイプシティと入れていただければ見つかるはずです。
+プロトタイプシティ・ラジオ（高口康太/高須正和）
+https://anchor.fm/takasu-masakazu
+■加速世界深センマガジン
+よりライブ的な深セン情報として、「街を歩いていて面白いものを見つけたらスマホで撮ってそのままアップする」「評価の定まってないことを限られた人向けに書く」という
+noteマガジンもやっています。
+例：Stay Hungry, Stay Foolishへのよくある誤解と、ジョブズのキャリアから僕たちが本当に学ぶべきこと
+https://note.mu/takasu/m/m55763d81ba8e
+■今月のアウトプット
+ブログでも確認できます。
+https://medium.com/ecosystembymakers/{.markup–anchor .markup–p-anchor}
+— — -報告（ブログ書いた、記事書いた、本だしたなど。） — — — -
+高口康太
+「北京五輪のグロテスク」
+『文藝春秋』2022年3月特別号
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-05-02 00:00:00 +0000 UTC'>May 2, 2022</span></footer>
+  <a class="entry-link" aria-label="post link to                                                    2022 03 " href="http://localhost:1313/teardown/2022/05/2022-03/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">   GDP                                   2022 05 
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>日本のGDPを上げるためにコミュニティの活用を ニコ技深センコミュニティ月次報告 2022年05月 4月21日に出版された『遠くへ行きたければ、みんなで行け 「ビジネス」「ブランド」「チーム」を変革するコミュニティの原則』（ジョノ・ベーコン…
+日本のGDPを上げるためにコミュニティの活用を ニコ技深センコミュニティ月次報告 2022年05月 4月21日に出版された『遠くへ行きたければ、みんなで行け 「ビジネス」「ブランド」「チーム」を変革するコミュニティの原則』（ジョノ・ベーコン 著、高須正和翻訳、山形浩生監訳、関治之解説）は、日本の大企業や組織に欠けているコミュニティ、ひいてはオープンイノベーションについて明確なガイドラインを提供しています。
+https://amzn.to/3kBMBhb
+先週の4月29日には、山形浩生/関治之/高須の3名で、Code for Japan他の日本でのコミュニティ活動を含めて語るオンラインイベントを行いました。
+https://note.com/takasu/n/n268aef0fc7e6
+今後も、この本の内容を広めるために、ここ数ヶ月連続でイベントを行っていきます。
+https://note.com/takasu/n/nabe43efcdc43
+【ポッドキャスト番組 】
+プロトタイプシティから1年経過し、共著者の高口さんとpodcast番組をはじめました。
+Apple, Google, Spotifyなどのポッドキャストでプロトタイプシティと入れていただければ見つかるはずです。
+プロトタイプシティ・ラジオ（高口康太/高須正和）
+https://anchor.fm/takasu-masakazu
+■今月のアウトプット
+ブログでも確認できます。
+https://medium.com/ecosystembymakers/{.markup–anchor .markup–p-anchor}
+— — -報告（ブログ書いた、記事書いた、本だしたなど。） — — — -
+■高口康太
+特集：本当に日本人が知らない世界のニュース50｜ニューズウィーク日本版 オフィシャルサイト https://www.newsweekjapan.jp/magazine/384129.php
+「共産党大会、注目は次の次」
+「共産党vs.腐女子の戦史」
+「酒井法子が今も中国で人気」
+「中国EVは「車いす」発祥」
+海外展開が困難に？ 中国企業が抱える大きな難題 WEDGE Infinity(ウェッジ) https://wedge.ismedia.jp/articles/-/26374
+警察出身の剛腕・李次期香港行政長官はどんな人物か WEDGE Infinity(ウェッジ) https://wedge.ismedia.jp/articles/-/26393
+中国の投資マネーが「日本の不動産」に流れる日 ｜楽待不動産投資新聞 https://www.rakumachi.jp/news/column/290585
+【バカ売れ】新興メーカーが「激安EV」に苦戦するワケ https://newspicks.com/news/6908503
+【革命】エクセルとファックスを捨てたらユニコーンが生まれた https://newspicks.com/news/6937285
+【大乱戦】昨日の味方は今日の敵、IT規制が生んだリストラ旋風 https://newspicks.com/news/6964306
+【ロックダウン】上海で役に立ったEC、役に立たなかったEC https://newspicks.com/news/6994810
+コロナ禍の中国を悩ますトリレンマ https://newspicks.com/topics/china/posts/12
+「中華セラーが楽天に侵攻」「上海ロックダウンとiPhone減産」 https://newspicks.com/topics/china/posts/13
+■山崎雅夫/ThousanDIY(tomorrow56)
+1. 月刊I/O 2022年5月号 「100円ショップガジェット分解」(連載)
+ダイソーの「オートディスペンサー」
+http://www.kohgakusha.co.jp/books/detail/4715
+2. i:Engineerで分解記事掲載
+3種のワイヤレスイヤホンを分解！ 20倍の価格差の裏にあった、作り手のこだわり・思想の違い
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-05-02 00:00:00 +0000 UTC'>May 2, 2022</span></footer>
+  <a class="entry-link" aria-label="post link to    GDP                                   2022 05 " href="http://localhost:1313/teardown/2022/05/gdp-2022-05/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/0*G4y4NwaP6e538zmw" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">1 4  Podcast                      2022 01 
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>1月4日にPodcast公開収録 ニコ技深センコミュニティ月次報告 2022年01月 ■1月4日にPodcast公開収録
+1月4日にPodcast公開収録 ニコ技深センコミュニティ月次報告 2022年01月 ■1月4日にPodcast公開収録
+プロトタイプシティ ラジオの公開収録イベントを行います
+今回のテーマ：最近の折りたたみスマホや電子ペーパースマホ
+バブル経済でありイノベーション大国である中国では冒険的な機能のスマホがたくさん出てきています。
+深セン在住の高須はメイン機がXiaomiの折りたたみスマホ、サブがHisenseの電子ペーパースマホ。
+同じくたくさんスマホを持っている @Shaoさんと、ガジェット好きの高口と一緒に「キワモノスマホの普段遣いはどうよ」について語ります。
+また、高口さんの新刊『中国「コロナ封じ」 の虚実』が12/9に発売になりました。テクノロジーと政府規制だけでなく、マルチ商法やアイドルなど、市民生活から商習慣、変わる庶民の文化などの様々な側面に現在の中国の姿が現れる快著です。
+スマホほかのデジタル化が中国社会をどう変えたかについても語ります。
+https://prototypecityradio08.peatix.com/
+■フジテレビ ザ・ノンフィクションに出演
+12/19に深センを扱った会があり、現地で働く日本人として少し出演しました。出演時の反応やレスへの回答はここにまとめてあります。
+https://togetter.com/li/1818741
+【ポッドキャスト番組 】
+プロトタイプシティから1年経過し、共著者の高口さんとpodcast番組をはじめました。
+Apple, Google, Spotifyなどのポッドキャストでプロトタイプシティと入れていただければ見つかるはずです。
+プロトタイプシティ・ラジオ（高口康太/高須正和）
+https://anchor.fm/takasu-masakazu
+■加速世界深センマガジン
+よりライブ的な深セン情報として、「街を歩いていて面白いものを見つけたらスマホで撮ってそのままアップする」「評価の定まってないことを限られた人向けに書く」という
+noteマガジンもやっています。
+例：Stay Hungry, Stay Foolishへのよくある誤解と、ジョブズのキャリアから僕たちが本当に学ぶべきこと
+https://note.mu/takasu/m/m55763d81ba8e
+■今月のアウトプット
+ブログでも確認できます。
+https://medium.com/ecosystembymakers/{.markup–anchor .markup–p-anchor}
+— — -報告（ブログ書いた、記事書いた、本だしたなど。） — — — -
+【山崎雅夫/ThousanDIY(tomorrow56)】
+1. 月刊I/O 2022年1月号「100円ショップガジェット分解」記事掲載
+今月はダイソーの「ステレオ対応Bluetooth Speaker」です。1個でモノラル、2個同時に使うことで完全ワイヤレスステレオ(TWS)のスピーカーになります。筒型リチウムイオン電池(18650)を使用、オーディオアンプはD級という構成です。
+http://www.kohgakusha.co.jp/books/detail/4695
+2. noteの「100円ショップのガジェットを分解してみる」12月の更新は1本です。
+[ダイソーの「円筒型 Bluetooth スピーカー」メタル調で洒落た外観、スピーカまわりもきちんとしているのですが、外部出力がモノラル・LiPoの充電回路がNGと、個人的には中途半端な仕様の代表例だと感じました。]{#9f2c} https://note.com/tomorrow56/n/nc15b34d51331
+「100円ショップのガジェットを分解してみる」のマガジン(過去記事、無料)
+https://note.com/tomorrow56/m/ma0073059b5ac
+【荒木大地】
+■ 日本人のための深セン情報サイト(shenzhen-fan.com{.markup–anchor .markup–p-anchor}) 深セン ファン
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-05-02 00:00:00 +0000 UTC'>May 2, 2022</span></footer>
+  <a class="entry-link" aria-label="post link to 1 4  Podcast                      2022 01 " href="http://localhost:1313/teardown/2022/05/1-4-podcast-2022-01/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">        13                           
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>#分解のススメ 13回 テカナリエ清水さん講演 広がり続けるダークシリコン 開催した記録としてページ作成 アーカイブ動画公開はテカナリエのチャンネルで3月頃公開予定
+#分解のススメ 13回 テカナリエ清水さん講演 広がり続けるダークシリコン 開催した記録としてページ作成 アーカイブ動画公開はテカナリエのチャンネルで3月頃公開予定
+[INTEL]{#60e8} [2021 CHINA]{#2c77} [1987年 35年前]{#b6ba} [2021 日本製品]{#48db} [2021 TESLAなど]{#14d0} [やっぱApple見ておかなきゃ]{#a285} [今日お伝えしたいこと]{#e5d6} #分解のススメ 13回 テカナリエ清水さん講演 広がり続けるダークシリコン
+*1.INTEL2.2021 CHINA3.1987年 35年前4.2021 日本製品5.2021 TESLAなど6.やっぱApple見ておかなきゃ7.今日お伝えしたいことテカナリエレポート個人購読..*togetter.com{.markup–anchor .markup–mixtapeEmbed-anchor}{.js-mixtapeImage .mixtapeImage .u-ignoreBlock}
+テカナリエレポート個人購読 #分解のススメ テカナリエレポートの個人購読が始まりました
+*一昨日6/13の#分解のススメ (オンライン）第2回 テカナリエ清水洋治代表 講演はすばらしいイベントでした。今も新たにYoutube動画の感想がSNSに上がりつづけています。*medium.com{.markup–anchor .markup–mixtapeEmbed-anchor}{.js-mixtapeImage .mixtapeImage .u-ignoreBlock}
+By TAKASU Masakazu/高須正和{.p-author .h-card} on February 6, 2022.
+Canonical link{.p-canonical}
+Exported from Medium on February 6, 2026.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-02-06 00:00:00 +0000 UTC'>February 6, 2022</span></footer>
+  <a class="entry-link" aria-label="post link to         13                           " href="http://localhost:1313/teardown/2022/02/13/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/1*FWnLypyIe-4j7vbPvakJgw.jpeg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">        12        100                             L           
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>#分解のススメ 12回 動画まとめ 100均分解 スイカ爆発 波平 正気に帰る前にやり遂げる 逆再生Lチカ とにかく数こなす イベントtwitterまとめ
+#分解のススメ 12回 動画まとめ 100均分解 スイカ爆発 波平 正気に帰る前にやり遂げる 逆再生Lチカ とにかく数こなす イベントtwitterまとめ #分解のススメ 12回 100均分解 スイカ爆発 波平 正気に帰る前にやり遂げる 逆再生Lチカ とにかく数こなす
+PJ動画山崎資料秋田資料ともん資料高須 書籍の資料togetter.com{.markup–anchor .markup–mixtapeEmbed-anchor}{.js-mixtapeImage .mixtapeImage .u-ignoreBlock}
+PJさん高電圧スイカ割り 秋田純一 @akita11 CH551/2/8/9を炙ってみた ともん @tomonnn1 スマホ充電器つけっぱなしでもリチウムイオン電池を長持ちさせる充電システムを作ってみた [**スマホ充電器つけっぱなしでも電池に優しい充電タイマーを手はんだで製造、コミケ等で頒布します～
+Qiita**
+*Why not register and get more from Qiita?*qiita.com](https://qiita.com/tomonnn1/items/3f25b935ad51b58580de “https://qiita.com/tomonnn1/items/3f25b935ad51b58580de&#34;){.markup--anchor .markup–mixtapeEmbed-anchor}{.js-mixtapeImage .mixtapeImage .u-ignoreBlock} #分解のススメ 12回 電子部品の墓場・スワトウ贵屿鎮行ってきた2021 高須正和 @tks #分解のススメ 12回 ギャル電きょうこ ストリート(100均)電子工作の始め方 thousanDIY Tomorrow56 100均分解のススメ Part3 https://bunkai13.peatix.com/
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-01-30 00:00:00 +0000 UTC'>January 30, 2022</span></footer>
+  <a class="entry-link" aria-label="post link to         12        100                             L           " href="http://localhost:1313/teardown/2022/01/12-100-l/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/0*Bnljt2at_QfgWs6x.jpg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">                                                            2016 09 30  
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>深セン、シンガポール、シリコンバレー、東京 (都市は人類最高の発明である 著：エドワード・グレイザー 訳：山形浩生) (2016年09月30日） 結論：外国に出ることが一回でもあるなら、ぜひ読んだことが良いぐらい必須の知識や考え方が豊富な実例とともに実証されている本。
+深セン、シンガポール、シリコンバレー、東京 (都市は人類最高の発明である 著：エドワード・グレイザー 訳：山形浩生) (2016年09月30日） 結論：外国に出ることが一回でもあるなら、ぜひ読んだことが良いぐらい必須の知識や考え方が豊富な実例とともに実証されている本。
+都市は人類最高の発明である{.markup–anchor .markup–p-anchor}
+posted with amazlet{.markup–anchor .markup–p-anchor} at 16.09.30
+エドワード・グレイザー
+エヌティティ出版
+売り上げランキング: 175,834
+Amazon.co.jpで詳細を見る{.markup–anchor .markup–p-anchor}
+絶版なんだけど、このツイート{.markup–anchor .markup–p-anchor}を見るといいことがあるかもしれない。山形浩生さんのいる方角に足を向けて寝ないように。
+本書の主張はかなりシンプルだ。
+・人間は集まると知識の交換・協力・競争が行われて生産性が上がる
+・集まると、劇場や遊園地のコストを割り勘できるから、都市のほうがエンターテイメントも教育も進化しやすい、距離が近いから
+・もちろん、多様性を確保しながらマネジメントするのは大変だけど、農村全部を衛生的で便利で安全にするより、都市だけやるほうが楽なことが多い
+・移動手段、産業、行政などあらゆるものが都市の成り立ち・衰退に作用するが、一回都市になって優秀な人たちが集まるようになると、状況が変わってもナントカうまく対処できる
+・逆に、知識の交換・協力・競争が行われないような都市は都市の意味がないので寂れる。
+とにかく都市最高。人間が人間たり得るのは集まったからという明快で説得力ある主張を、きわめて豊富な事例でいろいろな角度から検証し、よく聴かれる懸念に反証していく。
+たとえば「ITにより都市の近接性がそんなに重要じゃなくなってる」については、
+-スタンフォードもMITもハーバードも、学生が来なくなって先生とビデオで話すなどはやってない
+-特許は、「距離的に近くて時代的に近い」 ほうがよく引用される
+-電子コミュニケーションは近接コミュニケーションと対立するのでなくて補完する。普段会ってる同士のほうがチャットで話す
+「都市が環境破壊や貧富の差を生んでる」については、集まって暮らしてる方がエコ（ニューヨークはアメリカで二番目に一人あたりエネルギー消費が少ない）だし、都市の貧乏人はその国の農村の貧乏人よりだいぶマシで、だから中国やインドやブラジルの農村からみんな都市のまわりに集まる、みたいな感じで。
+それぞれの指標は明快で矛盾もしておらず、かつ面白いものが多いのに、「都合の良い事実だけ集めた」感はそんなにしない。（アメリカ学会の大権威らしいらしいので、そこまでいい加減なことはできないだろう）
+あらゆる都市を褒めてるわけじゃなくて、住民運動やそれによる規制などで新しい高層ビルが建てられなくなり、人の流入が止まったり利便性が下がってる街（パリ、ムンバイなど）は懸念されている。
+寂れた都市としてデトロイトやリバプールが挙げられている。特にデトロイトは、人が集まって工業都市になったのはいいけど、自動車産業がビッグスリーの寡占に終わって競争がなくなり、階層が固定化されてイノベーションもなくなり、組合活動などで一時的に待遇が底上げされても、イノベーションを産まなくなった街になって寂れたことが詳細にレポートされている。
+競争がなくなる、格差が固定化される、変化がなくなるとイノベーションがなくなって都市が寂れる（というか、人々の暮らしが斜陽産業になる）
+ニューヨークやボストンといった都市が、なぜ誕生し、時代によって役割を変えながら今も魅力的な都市でありつづけているかという分析はメチャメチャ面白い。
+僕の馴染みのある以下の都市はこのように紹介されている。
+シンガポール
+この本の中でシンガポールはメチャメチャ褒められている。市場の高度なダイナミズムと、ｘ快適でみんながうらやむ環境を両立させ、それによって世界の才能を引きつける都市を造ったことによって。ダイナミズム（自由が大事）と快適な環境（統制が大事）という両立の難しい要素を両立させたことによって。
+たとえばシリコンバレーがシンガポールより移住しづらくコストが高い街なのはメチャメチャに高い不動産価格によるのだけど、それは高層ビル建設を許さない市民の反対による。シンガポールは国の人気が上がったら断固として高層ビルを建てて住める・働ける人を増やす。人口550万人（僕みたいな期間限定ビザの労働者含む。シンガポールのパスポーターは330万人だ）のシンガポールの高層ビルは、パリやロンドンの三倍以上多い。
+僕がこの本の主張に則って思う懸念はシンガポールの街のサイズだ。これ以上シンガポールを大きくすることは市民が許さないだろう。与党はやる気で、そのための手も打っているけど、それはあとせいぜい市民をあと100万人を増やせるかどうかという話で、シンガポールが2倍３倍のサイズになることはあり得ない。
+この本の主張に則ると、世界にはますますメガシティが誕生し、そこは大きいが故にあらゆるものの中心になる。上海や東京(どっちも、周辺含めると2000万人を超えてる)の30%ぐらいの規模しかないシンガポールは、うまくキャラクターを出して、「この分野ならベスト＆ブライテストの人たちが集まる場所」でありつづけていけるだろうか。今シンガポールに集まっている人たちが優秀で、これからも優秀な人たちが集まりつづけそうなことは間違いないけど、、、
+シリコンバレー
+この本だとシリコンバレーは土地の特殊性（一戸建てが中心でみんな車で移動し、あんまり近接してない）とその理由について多くが割かれている。今後の先行きについては、IT産業しかないから、デトロイトの轍を踏む心配がなくはないが、デトロイトがビッグスリーの凋落と心中したのに対し、シリコンバレーは会社がいっぱいあるし、賢い人たちも流入し続けていて、変化に強そうだ。
+何でその特殊性が生まれたかは山形さんのブログ{.markup–anchor .markup–p-anchor}にある。
+深圳
+この本には深センは出てこない。本で紹介されてるいくつかの例になぞらえて紹介すると、深センは香港の隣という地理と中国の政策的なサポートで労働者の流入が集まったので、西側への窓口、本書で言うゲートウェイとして発展し始めた。
+このゲートウェイは、先進国への出口でもあるし発展途上国への入り口でもある。
+本書ではゲートウェイの例としてインドのバンガロールが挙げられていて、
+-外資の会社に務める
+-ファンディングする
+-自分の会社を売って別の起業をする
+-世界をマーケットにする
+ようなことが、インドの農村ではできないけどバンガロールに来ればできたとして、農村からバンガロールに来た様々な成功者の例を上げる。無論失敗者はさらに多いが、農村にいるとチャンスはそもそもない。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-09-03 00:00:00 +0000 UTC'>September 3, 2021</span></footer>
+  <a class="entry-link" aria-label="post link to                                                             2016 09 30  " href="http://localhost:1313/teardown/2021/09/2016-09-30/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/0*3Krqp__ZuNkVLQ8j.jpg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">                                             2016 09 28    
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>等身大の中国を見る目（なぜ、習近平は激怒したのか 人気漫画家が亡命した理由 高口康太） (2016年09月28日記事) なぜ、習近平は激怒したのか 人気漫画家が亡命した理由(祥伝社新書)
+等身大の中国を見る目（なぜ、習近平は激怒したのか 人気漫画家が亡命した理由 高口康太） (2016年09月28日記事) なぜ、習近平は激怒したのか 人気漫画家が亡命した理由(祥伝社新書){.markup–anchor .markup–p-anchor}
+なぜ、習近平は激怒したのか 人気漫画家が亡命した理由(祥伝社新書){.markup–anchor .markup–p-anchor}
+posted with amazlet{.markup–anchor .markup–p-anchor} at 16.09.27
+高口康太
+祥伝社
+売り上げランキング: 111,342
+Amazon.co.jpで詳細を見る{.markup–anchor .markup–p-anchor}
+結論を先に書くと、ニコ技深圳観察会{.markup–anchor .markup–p-anchor}の参加者とか、深圳に来たことある人ならオススメな本です。
+ニコ技深圳観察会、第5回を数えるようになってもともと中国情報に詳しい人たちも参加してくれるようになった。特に「メイカーズのエコシステム{.markup–anchor .markup–p-anchor}」というアウトプットが生まれて、その内容があまりこれまでの中国研究では見られなかったことや、自身が起業家でもあるShaoさんがメイカー以外の中国FINTECHについての研究{.markup–anchor .markup–p-anchor}を始めたり、鈴木さんの分解ブログ{.markup–anchor .markup–p-anchor}が話題を呼ぶなど、頭も手も使う面白いコミュニティになりつつある。
+先日東京に戻ってきたときに、中国FINTECHの情報を共有したくて飲み会をやった。
+高口康太{.markup–anchor .markup–p-anchor}さん（第5回に参加。中国情報に詳しいライター）
+山谷剛史{.markup–anchor .markup–p-anchor}さん（高口さんから紹介してもらった。「中国のインターネット史 ワールドワイドウェブからの独立（星海社新書）{.markup–anchor .markup–p-anchor}」というメチャメチャ面白い本を書いている。）
+木村公一郎{.markup–anchor .markup–p-anchor}さん（第4，5回に参加。JETROアジア経済研究所{.markup–anchor .markup–p-anchor}所属でつい最近まで香港大学にいた。深圳についてもレポート{.markup–anchor .markup–p-anchor}を書いている。）
+Shao{.markup–anchor .markup–p-anchor}さん(第4回に参加、その後も起業家を集めた深圳ツアーを開催するなど、この1年で4回深圳に渡航し、上記のFINTECH研究をしている)
+山形浩生{.markup–anchor .markup–p-anchor}さん（第1，3，5回に参加。メイカーズのエコシステムの解説ほか、香港・深圳との関わりは深い）
+柏木亮二さん(山形さんの紹介、フィンテック{.markup–anchor .markup–p-anchor}というそのものずばりの本を書いている。献本いただいたので次に読みます)
+などなどで、メチャメチャ面白い話が聞けた飲み会だったのだけど、高口さん・山谷さんの中国の雰囲気・空気の話はすごく面白かった。二人とも中国語はぺらぺらで、中国のWebサービスやSNSを使いこなしていて、話から空気が伝わってくる。
+この「なぜ、習近平は激怒したのか 人気漫画家が亡命した理由{.markup–anchor .markup–p-anchor}」は、その高口さんが風刺漫画家の辣椒（ラージャオ）にインタビューしつつ、中国のネット世論、ネット論壇の変化を書いた本だ。山谷さんの「中国のインターネット史 ワールドワイドウェブからの独立（星海社新書）{.markup–anchor .markup–p-anchor}」や、中国が豊かになる前から今までの鄧小平の本{.markup–anchor .markup–p-anchor}につづけて読んだので、さらに興味深かった。
+すごくおおざっぱに中国の近代史をまとめると、
+1.外国の帝国主義にやられてボロボロだった（世界のチャイナタウンの多くはこのとき逃げ出した華人でできている）時代をナントカ統一した毛沢東
+2.反動でアンチ資本主義アンチ国際化をやりすぎて餓死がでるぐらい貧乏になった文革/大躍進
+3.その反対で改革・開放をやり、軍事費を削減して外資を入れて国を富ませた鄧小平
+4.結果として貧富の差が広がりすぎたし、社会が富んで多様化したひずみも出てきた、しかも経済成長も1990年代みたいな急成長は望めない←イマココ
+みたいな状態になると思う。
+中国のインターネット人口は7億人、国民の過半数が日常的にネットにアクセスしている。そのインターネットの普及は1998年ぐらいから、本当に突然に始まって、社会のいろいろなことを変えている。それは日本も変わらず、その頃のインターネットは無法地帯だった。それがログの保存義務とかが整理されて、掲示板への書き込みを元に逮捕者が出るようになったりして、実空間とそこまで変わらなくなってきているのは、日本も中国も変わらない。
+書籍ではネット論壇の黎明期、2010年頃のインターネット民の華々しい活躍がいくつも出てくる。政府の地上げをネット初の反対運動が対抗して、最終的にその村で普通選挙を実現した話。（ググる{.markup–anchor .markup–p-anchor}と、一軒家のまわりを全部掘ってしまった画像がいっぱい出てくる）ネット民＝中間層は環境意識も高いから、下水油が台湾に輸出されていた問題でも大きく反応し、大衆運動に対して中国の政府は担当者の更迭をしたり対策を打ったりしている。同じ事を北朝鮮あたりでやったりしたら皆殺しになりそうだけど、中国はそのぐらいには世間体を気にするようにできているらしい。
+ただし、ここ2–3年になるとネット民の活躍は下火になる。政府が「ネットで受ける方法」を急速に身につけ、プロのネット工作員や政府に雇われたライターが人気を博すようになる。それにつれて、在野のネット有名人はだんだん好きなことが言えなくなったり、逮捕されたりする。今回インタビューされている辣椒（ラージャオ）も、もう中国には帰れなさそうだ。今の中国の大手SNSはすべて中国政府と良い関係を築いていて、アカウントを立てるたびにBANされ、作品の発表も難しい。
+僕は2014年から何回か中国に行っているが、この本にある変化のいくつかは自覚できる。VPNは2014年と今年の16年ではるかにつながりづらくなったし、VPNなしで中国からネットが使えて中国のサービスにも登録できる香港のデュアルナンバーSIMはこの8月ぐらいから販売停止になってしまった。
+本全体が興味深い事例で溢れているが、終章の辣椒（ラージャオ）の将来への見通しがまたすばらしい。今の中国共産党はいろいろ不公正や弾圧をしている。「もっと良い形」はおそらくあるだろう。だが、いきなり国が崩壊するほど悪手は打っていないし、たとえ権力維持のためだとしても、飢える人を減らし富む人を増やす行為は必死で行われていて、株式市場の大混乱などもありながら、手は打っている。だから、これからも右往左往しながら今の状態が続き、自分は国に帰れないのではないか。
+ネットで生まれた中間層も、第一の関心は生活の安定で、ネット論壇にいる人たちの言葉はそこにあまり説得力がない。（実際に国を富ませたし、現時点で金を持っている共産党のほうが説得力がある）
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-09-03 00:00:00 +0000 UTC'>September 3, 2021</span></footer>
+  <a class="entry-link" aria-label="post link to                                              2016 09 28    " href="http://localhost:1313/teardown/2021/09/2016-09-28/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/0*R0V5C2pOeOLgzESn.jpg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">                                         2016 10 4   
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>世界の工場＝中国 の図式は簡単には終わらない（現代中国の産業集積 著：伊藤亜聖） 2016年10月4日記事 現代中国の産業集積―「世界の工場」とボトムアップ型経済発展―
+世界の工場＝中国 の図式は簡単には終わらない（現代中国の産業集積 著：伊藤亜聖） 2016年10月4日記事 現代中国の産業集積―「世界の工場」とボトムアップ型経済発展―{.markup–anchor .markup–p-anchor}
+現代中国の産業集積―「世界の工場」とボトムアップ型経済発展―{.markup–anchor .markup–p-anchor}
+posted with amazlet{.markup–anchor .markup–p-anchor} at 16.10.04
+伊藤 亜聖
+名古屋大学出版会
+売り上げランキング: 47,832
+Amazon.co.jpで詳細を見る{.markup–anchor .markup–p-anchor}
+伊藤さんの研究室に伺った際に献本いただいた。大感謝。
+専門書であり、雑貨や照明器具といった僕がよくわからない分野の本なので、誤解が多々あると思いつつ、楽しく読みました。
+本書の分析結果はシンプルで、帯に以下のようにまとめられている。
+世界の工場＝中国は終わらない*
+中国経済の急成長をもたらした真の強みとは。各地に叢生した産業集積の圧倒的な役割に着目、「百均のふるさと」義烏などを徹底的に踏査して、その競争力の源泉を掴み出す。安易な中国経済終焉論を斥け、絶え間なく生まれ変わっていくダイナミックな姿を鮮やかに捉えた俊英の力作。*
+僕自身は、中国のメイカー産業を捉えたという意味ではちょっと似たテーマの著書メイカーズのエコシステム{.markup–anchor .markup–p-anchor}のなかで、「ミシンだけでできるジーパン作りとか、安い機械と大量の労働力で行われる作業はもっと賃金の安い発展途上国にさっさと行くが、投資回収に時間かかる、高額でメンテのために地元にもエンジニアがたくさんいなきゃならないような機械を使う産業は簡単に動かない」的な事を書いた。解説の山形さんも、「少なく見てもあと５年はこの面白い状況が続くはずだ」と書いている。
+伊藤さんと話したとき、「それについては同意で、ただし’簡単に移転しない産業’は他にもいろいろある」と教えてもらった。
+本書の前半は義烏の雑貨市場と、雑貨を作っている企業、バイヤーについてのレポートである。百円均一などに並んでいる雑貨は、ほぼすべて義烏から来ているようだ。義烏で買えるものは低品質低価格で、真っ先にもっと途上国に行くような気がするが、なぜ義烏が今も（そして当分）強みがあるかというと、
+[前はドバイやシンガポール、香港などが雑貨の中継地になっていたが、今は世界が小さくなって、世界各国の販売店が直接義烏に買い付けに来るようになってコストが下がった。市場に行くと8000人ぐらいの外国人バイヤーが長期滞在して仕入れをしている]{#ad78} [そういう店は問屋ほど大量に仕入れないから、「コンテナ一つ」じゃなくて「段ボール一箱」で買いたいし、一回の渡航でいろんなものを仕入れたい。義烏にはそれに答える市場がある]{#2921} [中国国内の十万社から義烏に雑貨が集まり、何でもある。かつ、雑貨やカバンなどはかなり流行に敏感で、たとえば映画が公開された瞬間にキャラクターものをつくるみたいな事情が多々あるが、義烏のまわりの企業はそういうものが圧倒的に早くて小ロット。（ちゃんとライセンス取ってるかはともかく。）デカい工場だけがぽーんとある発展途上国はもっと遅いし、大量じゃないと作れない]{#70f3} [そういう仕事だと、機械が揃ってるかとか、雑貨の完成までの仕事を以下に短期間で複数の企業でシェアできるかみたいなエコシステムの充実度が、労働者のコストより大事で、今のところ義烏が最強で、その次は予想もつかない]{#f0bd} [労働力についても、正規労働者の賃金は高騰してるが、おばちゃんの内職などで作れる雑貨も多く、そういうのは発展途上国の正規労働者よりいい品質で安いコストだったりする]{#0bea} [ただでさえ集積している上に、今はTaobao等インターネットを使ってより中間コストを下げ、フレキシブルさを上げる取り組みが自発的に行われている。]{#cef9} みたいな調査結果が上がっている。
+本書の後半は広東省中山市古鎮の照明産業のレポートだが、そこでも「集積＝なんでもあること」と、フレキシブルさの強さに触れられている。
+どちらも蓄積の始まりは改革開放の1980年過ぎだが、形ができあがったのは2000年代で、今現在も成長を続けているようで、変化する方が常態であるようだ。
+ちょっとネットで探すと、中国人が日本語で義烏での買い付けをサポートするバイヤーのサイトがいくつも見つかる。
+どこのサイトにも東京ドーム六個分の広さ、三十万個の品数という言葉が踊る。義烏の雑貨は中国全土の十万社から集まってくるそうだ。そのサイズの市場を作れ、エコシステムを作れる国は、そう簡単に現れないだろう。
+もちろん、いつかは今活発に工夫しながら商売している人たちも老いていくし、そのときに世界がガラッと変わる（たとえばインターネットとEMSで流通のルールが変わった）ようなことが起きたときに、ついて来れなくなることはあるだろうけど、、
+メイカーズのエコシステム 新しいモノづくりがとまらない。 (OnDeck Books（NextPublishing）){.markup–anchor .markup–p-anchor}
+posted with amazlet{.markup–anchor .markup–p-anchor} at 16.10.04
+インプレスR&amp;D (2016–03–28)
+売り上げランキング: 39,703
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-09-03 00:00:00 +0000 UTC'>September 3, 2021</span></footer>
+  <a class="entry-link" aria-label="post link to                                          2016 10 4   " href="http://localhost:1313/teardown/2021/09/2016-10-4/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/1*FcCItyjqT3s3m1TGyGHnbA.jpeg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">9 6 21 30   IT                   podcast                     2021 09 
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>9月6日21:30に著名ITエンジニア/ブロガー「からあげ」さんとpodcast生収録 ニコ技深センコミュニティ月次報告 2021年09月 【中国オープンソースについて、北京日本大使館にて垂大使に情報提供】
+9月6日21:30に著名ITエンジニア/ブロガー「からあげ」さんとpodcast生収録 ニコ技深センコミュニティ月次報告 2021年09月 【中国オープンソースについて、北京日本大使館にて垂大使に情報提供】
+米中貿易戦争と国内技術力の高まりから、2020年から中国政府はオープンソースへの社会的な注力を増しています。2020年以降はこれまでと大きく違った流れなので、注目すべきです。
+先日技術評論社からこれについて簡単に紹介するコラムを寄稿し、あわせて北京の垂大使とお会いした時に、こちらについて情報提供させていただきました。
+イノベーションの側面からも、中国研究の側面からも注目すべきです。
+https://gihyo.jp/dev/serial/01/china-oss-frontline/0001
+また、この内容について日本オープンソース会議で発表を行いました。今後も発表を予定しています。
+https://twitter.com/tks/status/1420948308697092099
+僕たちニコ技深センコミュニティは、国を問わずエンジニアの国際交流のために活動しているので、今後もこうした活動を続けています。
+【ポッドキャスト番組 公開収録をやります 】
+プロトタイプシティから1年経過し、共著者の高口さんとpodcast番組をはじめました。
+Apple, Google, Spotifyなどのポッドキャストでプロトタイプシティと入れていただければ見つかるはずです。
+プロトタイプシティ・ラジオ（高口康太/高須正和）
+https://anchor.fm/takasu-masakazu
+9/6夜に、機械学習などの分野で著名なITエンジニア・ブロガー「からあげ」さんと公開ポッドキャスト収録を行います。からあげさんは組み込みエンジニアを中心に機械学習などの様々な書籍も出している人で、今回は執筆環境の話をします。
+https://prototypecityradio04.peatix.com/
+【メイカーカーニバル上海、メイカーフェア深センの運営協力をしています。】
+メイカーカーニバル上海10/15–17、メイカーフェア深セン(11/20–21)の運営をサポートしています。ニコ技深センコミュニティ及び僕の勤務するスイッチサイエンスは両方にCo-Organizerとしてクレジットされています。
+ニコ技深センコミュニティのPeatixをフォローお願いします。
+https://nico-tech-shenzhen.peatix.com/
+■加速世界深センマガジン
+よりライブ的な深セン情報として、「街を歩いていて面白いものを見つけたらスマホで撮ってそのままアップする」「評価の定まってないことを限られた人向けに書く」という
+noteマガジンもやっています。
+例：Stay Hungry, Stay Foolishへのよくある誤解と、ジョブズのキャリアから僕たちが本当に学ぶべきこと
+https://note.mu/takasu/m/m55763d81ba8e
+■今月のアウトプット
+ブログでも確認できます。
+https://medium.com/ecosystembymakers/{.markup–anchor .markup–p-anchor}
+— — -報告（ブログ書いた、記事書いた、本だしたなど。） — — — -
+山崎雅夫 ThousanDIY
+[月刊I/O 2021年9月号「100円ショップガジェット分解」記事掲載]{#204e} ダイソーの「スイッチ付USBハブ」です。USB HSモード(480Mbps)動作しますが、電源タイプの情報が間違っているのが残念。
+http://www.kohgakusha.co.jp/books/detail/4674
+[noteのマガジン「100円ショップのガジェットを分解してみる」の8月の更新は1本です。]{#2057} ダイソーの「電子メモパッド」
+https://note.com/tomorrow56/n/nbf617f2449e9
+「100円ショップのガジェットを分解してみる」のマガジンはこちら。
+https://note.com/tomorrow56/m/ma0073059b5a{.markup–anchor .markup–p-anchor}
+中野志穂（ねこりん）＠ギーク中国語Deeperに記事を書きました。中国の会社で働いてみて感じたことを書いています。「あなたが仕事で大切にしていることは？中国式仕事術のススメ」https://deeper.mitemo.co.jp/series/tomorrowillbebetter/210819
+■荒木大地 日本人のための深セン情報サイト(shenzhen-fan.com{.markup–anchor .markup–p-anchor}) 深セン ファン
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-09-03 00:00:00 +0000 UTC'>September 3, 2021</span></footer>
+  <a class="entry-link" aria-label="post link to 9 6 21 30   IT                   podcast                     2021 09 " href="http://localhost:1313/teardown/2021/09/9-6-21-30-it-podcast-2021-09/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/1*m5z7N09tbAdMQPYJ9QMuLg.jpeg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">        11            
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>#分解のススメ 11回 ニセモノチップ解析編 youtube録画、Togetterまとめ、資料公開をしています。
+#分解のススメ 11回 ニセモノチップ解析編 youtube録画、Togetterまとめ、資料公開をしています。
+過去の動画まとめ
+#分解のススメ 録画アーカイブ
+*#分解のススメ 2020年から複数回行っている、リバースエンジニアリングの面白さと意義を共有しあうオンラインイベント。Facebookグループ…*medium.com{.markup–anchor .markup–mixtapeEmbed-anchor}{.js-mixtapeImage .mixtapeImage .u-ignoreBlock}
+第11回の今回は、「ニセモノチップ解析」がテーマ。半導体不足による価格の高騰のせいで、偽造チップを掴まされる事例も増えています。
+ハードウェアハッカーに見るニセモノ解析 高須正和 @tks{.markup–anchor .markup–p-anchor}
+NT深圳コミュニティ共同創業者 メイカーフェアおじさん 中国深圳在住
+ハードウェアハッカー～新しいモノをつくる破壊と創造の冒険
+*Amazonでアンドリュー&#34;バニー&#34;ファン, 高須 正和, 山形…*amzn.to{.markup–anchor .markup–mixtapeEmbed-anchor}{.js-mixtapeImage .mixtapeImage .u-ignoreBlock}
+超低ドロップ電圧レギュレータANALOG DEVICES ADP3338 ThousanDIY @tomorrow56{.markup–anchor .markup–p-anchor}
+「ThousanDIY」(Thousand &#43; DIY)の中身の電子回路設計エンジニア。 現在は某半導体設計会社で、機能評価と製品解析を担当。 趣味は&#34;100 均巡り&#34;と、Aliexpress でのガジェットあさり。
+https://note.com/tomorrow56/m/ma0073059b5ac
+ちっちゃいものくらぶ tomon01 tomon ともん @tomonnn1{.markup–anchor .markup–p-anchor}
+ちっちゃいものくらぶ tiisai.dip.jp{.markup–anchor .markup–p-anchor} 中の人 Scratchセンサーボード なのぼ〜ど{.markup–anchor .markup–p-anchor}設計・製造・販売
+世の趨勢に逆らいがちに道東の湖畔に小屋を建て日々を暮らす
+怪しい8ピンマイコンを炙る 鈴木涼太 JA1TYE/Ryota Suzuki @JA1TYE{.markup–anchor .markup–p-anchor}
+趣味はガジェットの製作・分解と世界の電気街巡り（一旦お休み中）。
+https://t-techlab.com/ の管理人。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-07-19 00:00:00 +0000 UTC'>July 19, 2021</span></footer>
+  <a class="entry-link" aria-label="post link to         11            " href="http://localhost:1313/teardown/2021/07/11/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="http://localhost:1313/teardown/page/3/">
+      «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="http://localhost:1313/teardown/page/5/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">ニコ技深セン / Nico-Tech Shenzhen website</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

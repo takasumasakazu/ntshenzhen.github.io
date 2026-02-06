@@ -1,5 +1,8 @@
 ---
 title: "TAKASU S Maker activity at 2016  around 70 80 events"
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*M_IchbFWUDuIMbnYS5CovQ.jpeg"
+  relative: false
 aliases: ["/2016/12/takasu-s-maker-activity-at-2016-around-70-80-events/"]
 slug: takasu-s-maker-activity-at-2016-around-70-80-events
 date: 2016-12-31
@@ -19,7 +22,7 @@ looking to see next event.
 My activity at 2016. I joined around 70--80 Makers event.\
 I really looking to see next event.
 
-![](https://cdn-images-1.medium.com/max/800/1*M_IchbFWUDuIMbnYS5CovQ.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*M_IchbFWUDuIMbnYS5CovQ.jpeg)
 
 **February**\
 [Visit NTU

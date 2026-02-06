@@ -1,5 +1,8 @@
 ---
 title: "Hackerspace Passport manifest  Translation to Japanese"
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*2Sr51Jz2YAUoYdWdFFZCCA.jpeg"
+  relative: false
 aliases: ["/2015/08/hackerspace-passport-manifest-translation-to-japanese/"]
 slug: hackerspace-passport-manifest-translation-to-japanese
 date: 2015-08-10
@@ -26,13 +29,13 @@ OpenSource Trancerate to Japanese project [PROJECT
 参加作品(CC-BY=SA, DISTRYBUTE WIDELY!)
 
 ![Hackerspace
-Passport](https://cdn-images-1.medium.com/max/800/1*2Sr51Jz2YAUoYdWdFFZCCA.jpeg){.graf-image}
+Passport](https://cdn-images-1.medium.com/max/800/1*2Sr51Jz2YAUoYdWdFFZCCA.jpeg)
 
 I bring my passport everyday, I got 25 Hackerspace Stanp in only 6
 month.
 
 ![My
-Passport](https://cdn-images-1.medium.com/max/800/1*C86h4fjHPUdpX7pqP0hdeQ.jpeg){.graf-image}
+Passport](https://cdn-images-1.medium.com/max/800/1*C86h4fjHPUdpX7pqP0hdeQ.jpeg)
 
 I love this manifest from My great Hacker friend
 [Mitch](https://en.wikipedia.org/wiki/Mitch_Altman){.markup--anchor
@@ -40,7 +43,7 @@ I love this manifest from My great Hacker friend
 
 #### Original {#eefb .graf .graf--h4 .graf-after--p name="eefb"}
 
-![](https://cdn-images-1.medium.com/max/800/1*s4QtyRXnvR-2KBmfUeNoiA.png){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*s4QtyRXnvR-2KBmfUeNoiA.png)
 
 > *There is a world of hackdom out there. Please go out and explore it!
 > By visiting hackerspaces and hacker conferences you will find geeks

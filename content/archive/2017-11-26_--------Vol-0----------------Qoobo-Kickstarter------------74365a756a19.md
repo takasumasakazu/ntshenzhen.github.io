@@ -1,5 +1,8 @@
 ---
 title: "        Vol 0                Qoobo Kickstarter           "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*WwEO3iYZBvziqgUcdxY7tA.png"
+  relative: false
 aliases: ["/2017/11/vol-0-qoobo-kickstarter/"]
 slug: vol-0-qoobo-kickstarter
 date: 2017-11-26
@@ -16,7 +19,7 @@ date: 2017-11-26
 
 ### **ソフトロ研究会 Vol.0 やわらか系ロボのミートアップ&Qoobo Kickstarter達成記念** {#239e .graf .graf--h3 .graf--leading .graf--title name="239e"}
 
-![](https://cdn-images-1.medium.com/max/800/1*WwEO3iYZBvziqgUcdxY7tA.png){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*WwEO3iYZBvziqgUcdxY7tA.png)
 
 **『やわらかい世界』のロボ＆技術が実現される未来を描く
 実践者と実装者のためのソフトなミートアップ\

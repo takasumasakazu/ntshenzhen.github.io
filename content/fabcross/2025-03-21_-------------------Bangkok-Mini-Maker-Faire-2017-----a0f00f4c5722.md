@@ -1,5 +1,8 @@
 ---
 title: "                   Bangkok Mini Maker Faire 2017    "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*pW5iLIRPjugiUeV7q83cNQ.jpeg"
+  relative: false
 aliases: ["/2025/03/bangkok-mini-maker-faire-2017/"]
 slug: bangkok-mini-maker-faire-2017
 date: 2025-03-21
@@ -17,7 +20,7 @@ date: 2025-03-21
 
 2017/02/22 08:00
 
-![](https://cdn-images-1.medium.com/max/800/1*pW5iLIRPjugiUeV7q83cNQ.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*pW5iLIRPjugiUeV7q83cNQ.jpeg)
 
 「微笑みの国」と呼ばれ日本人から人気の高いタイ。2017年で2回目になる「Bangkok
 Mini Maker
@@ -37,9 +40,9 @@ Faireもその都市ならではの魅力に満ちているが、バンコクで
 Faireはさらに"ここだけ感"が強く、タイという国が持っている文化の強さを感じた。2日とも13:00～20:00という朝寝坊でそのぶん遅めまでの時間帯で行われたMaker
 Faireは、南国タイらしい楽しみにあふれたものになった。
 
-![](https://cdn-images-1.medium.com/max/800/1*t50LhBj2h2N0wnhl_o0_4Q.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*t50LhBj2h2N0wnhl_o0_4Q.jpeg)
 
-![タイらしさ満載の入り口ゲートとモニュメント](https://cdn-images-1.medium.com/max/800/1*NRwilF7o_ALbPgLxVRKGQQ.jpeg){.graf-image}
+![タイらしさ満載の入り口ゲートとモニュメント](https://cdn-images-1.medium.com/max/800/1*NRwilF7o_ALbPgLxVRKGQQ.jpeg)
 
 夜20:00までやっているのは理由がある。南国のタイでしかも屋外で行われているため、気温が高いだけでなく直射日光が強烈で、午後の早い時間はどのブースもぐったりしていて、見て回る人も少ない。僕は初日のオープン30分前には会場に着いていたが、13:00のオープン時にはまだ設営が始まってないブースすら見かけた。規模も2～3時間で見て回れるとあって、盛り上がり始めるのは夕方17:00ぐらいになってからである。ナイトマーケットの国タイらしい。初日の19:00には、日が落ちたタイミングで会場全体を巻き込んでLEDパレードが始まった。
 
@@ -48,15 +51,15 @@ Faireは、南国タイらしい楽しみにあふれたものになった。
 ブラスバンドには委員長のDr.Morn Kritsachai
 Somsamanも参加。子どもがたくさん来る科学のイベントで「ドラえもん」は最高の選曲。
 
-![ブラスバンドとともに会場を練り歩く。](https://cdn-images-1.medium.com/max/800/1*WLT53YOeH3v-caje85AkTQ.jpeg){.graf-image}
+![ブラスバンドとともに会場を練り歩く。](https://cdn-images-1.medium.com/max/800/1*WLT53YOeH3v-caje85AkTQ.jpeg)
 
-![本格的なブラスバンド隊](https://cdn-images-1.medium.com/max/800/1*bfUhiiEe6-lfqh0HSFa_tw.jpeg){.graf-image}
+![本格的なブラスバンド隊](https://cdn-images-1.medium.com/max/800/1*bfUhiiEe6-lfqh0HSFa_tw.jpeg)
 
-![ARゴーグルもコスプレも電飾。](https://cdn-images-1.medium.com/max/800/1*pW5iLIRPjugiUeV7q83cNQ.jpeg){.graf-image}
+![ARゴーグルもコスプレも電飾。](https://cdn-images-1.medium.com/max/800/1*pW5iLIRPjugiUeV7q83cNQ.jpeg)
 
-![各ブース、夜に備えて電飾を用意している。](https://cdn-images-1.medium.com/max/800/1*oYBwZqx6ildAF10CPrsfLg.jpeg){.graf-image}
+![各ブース、夜に備えて電飾を用意している。](https://cdn-images-1.medium.com/max/800/1*oYBwZqx6ildAF10CPrsfLg.jpeg)
 
-![夕暮れ、電灯が灯ってからが本番モード。](https://cdn-images-1.medium.com/max/800/1*AvBYmyLSwXbV2KqIy7S7Hw.jpeg){.graf-image}
+![夕暮れ、電灯が灯ってからが本番モード。](https://cdn-images-1.medium.com/max/800/1*AvBYmyLSwXbV2KqIy7S7Hw.jpeg)
 
 ### 遊び心に満ちた出展物たち {#2bf0 .graf .graf--h3 .graf-after--figure name="2bf0"}
 
@@ -79,7 +82,7 @@ Faireでないと見られないような遊び心に満ちた出展物が会場
 
 こちらは天使の羽が動く、コスプレ＋電子工作の作品。もちろんナイトパレードでも大活躍。
 
-![太陽電池カート](https://cdn-images-1.medium.com/max/800/1*rnQ07fcL8_6i0m7IOOxvjg.jpeg){.graf-image}
+![太陽電池カート](https://cdn-images-1.medium.com/max/800/1*rnQ07fcL8_6i0m7IOOxvjg.jpeg)
 
 こちらは太陽電池を備えたカート。足こぎ式のおもちゃにモーターとバッテリを仕込んだもので、会場内を走り回っていた。この面積の太陽電池でずっと走り回れるとは考えづらく、充電式バッテリとの兼用だと思うが、子どもを前提にしたサイズのおもちゃを作るのは面白い。
 
@@ -92,7 +95,7 @@ Mornが訪れたときに一目ぼれして招聘（しょうへい）につな�
 .markup--p-anchor}の佐藤さんもこうした作品に大喜び。
 
 ![佐藤ロボット研究所。Maker Faire Tokyo
-2016への出展がこの出会いにつながった。](https://cdn-images-1.medium.com/max/800/1*-8jyHgio4AAZuu3fFrHI3Q.jpeg){.graf-image}
+2016への出展がこの出会いにつながった。](https://cdn-images-1.medium.com/max/800/1*-8jyHgio4AAZuu3fFrHI3Q.jpeg)
 
 ### メカトロ、ロボットも満載 {#300c .graf .graf--h3 .graf-after--figure name="300c"}
 
@@ -100,22 +103,22 @@ Mornが訪れたときに一目ぼれして招聘（しょうへい）につな�
 Faireではそのロボットが主役になるほど大量に出品されていて、ここにもほかのMaker
 Faireとの違いが見られた。
 
-![ロボットでいっぱいのMakerholicブース。](https://cdn-images-1.medium.com/max/800/1*anYRAACuLTiSriLd5tLZlA.jpeg){.graf-image}
+![ロボットでいっぱいのMakerholicブース。](https://cdn-images-1.medium.com/max/800/1*anYRAACuLTiSriLd5tLZlA.jpeg)
 
 主催のNSTDA内のグループMakerholicから「動くもの」でいっぱいである。カスタマイズ自転車のように人力で動くもの、履帯（いわゆるキャタピラ）で動くもの、タイヤを備えたものなど、さまざまなロボットが展示されている。学生がMakerholicで開発したパワードスーツも展示され、ライブデモをしていた。
 
-![強化外骨格、いわゆるパワードスーツ。アクチュエータを内蔵していて物を持ち上げる力をサポートする。](https://cdn-images-1.medium.com/max/800/1*XpWrNS4NjsRRmWmoOKY09g.jpeg){.graf-image}
+![強化外骨格、いわゆるパワードスーツ。アクチュエータを内蔵していて物を持ち上げる力をサポートする。](https://cdn-images-1.medium.com/max/800/1*XpWrNS4NjsRRmWmoOKY09g.jpeg)
 
-![大学のロボットサークルが展示していたロボット。デザインがタイ感満載。](https://cdn-images-1.medium.com/max/800/1*f6LmRM3bTcgbW8rNd8SMJA.jpeg){.graf-image}
+![大学のロボットサークルが展示していたロボット。デザインがタイ感満載。](https://cdn-images-1.medium.com/max/800/1*f6LmRM3bTcgbW8rNd8SMJA.jpeg)
 
-![ロボコンも大人気で、大観衆で写真が撮れないほど。野外で地べたに座ってやるのがタイらしい。](https://cdn-images-1.medium.com/max/800/1*OCl2dmENDk1O2BiwxUtlhA.jpeg){.graf-image}
+![ロボコンも大人気で、大観衆で写真が撮れないほど。野外で地べたに座ってやるのがタイらしい。](https://cdn-images-1.medium.com/max/800/1*OCl2dmENDk1O2BiwxUtlhA.jpeg)
 
 ![会場内で行われたYoung Maker
-Contestでは障害者や老人のためのデザインコンテストが行われていた。車いすをここまで強化する発想にびっくり。](https://cdn-images-1.medium.com/max/800/1*ACisFo4mR3eClpRM9XxE_Q.jpeg){.graf-image}
+Contestでは障害者や老人のためのデザインコンテストが行われていた。車いすをここまで強化する発想にびっくり。](https://cdn-images-1.medium.com/max/800/1*ACisFo4mR3eClpRM9XxE_Q.jpeg)
 
 ![こちらはタイで開発された最初の電気自動車
 [VERA-V1](https://www.facebook.com/VERA-Automotive-1846755862213767/){.markup--anchor
-.markup--figure-anchor}。](https://cdn-images-1.medium.com/max/800/1*G-s9ZYdU7BEpRw80aIl_BQ.jpeg){.graf-image}
+.markup--figure-anchor}。](https://cdn-images-1.medium.com/max/800/1*G-s9ZYdU7BEpRw80aIl_BQ.jpeg)
 
 こうした産業界や学校からの出展物は、DIYの雰囲気よりも「産業見本市っぽくなる」感が出てきてしまうことにもつながる。
 バンコクの場合、会場中いたるところで目に付き、通行人に多少ぶつかっても走り回る面白工作が、それを打ち消してMaker
@@ -142,37 +145,37 @@ Faireにも全面協力している。
 
 ![はんだづけワークショップを行うHOME OF
 MAKER。中央の白いシャツを着た男性がDr.
-Pan。](https://cdn-images-1.medium.com/max/800/1*_vxK-m7JxEPRhae5-WJLrA.jpeg){.graf-image}
+Pan。](https://cdn-images-1.medium.com/max/800/1*_vxK-m7JxEPRhae5-WJLrA.jpeg)
 
-![会場となったオシャレなショッピングモール内でもワークショップが行われる。](https://cdn-images-1.medium.com/max/800/1*z7JUtc3Cd2ZqiZOqsvS7eA.jpeg){.graf-image}
+![会場となったオシャレなショッピングモール内でもワークショップが行われる。](https://cdn-images-1.medium.com/max/800/1*z7JUtc3Cd2ZqiZOqsvS7eA.jpeg)
 
-![電子工作ばかりではなく、こうしたクラフトの出展物も。](https://cdn-images-1.medium.com/max/800/1*nnLOXNVnu153Fw2jEioM_A.jpeg){.graf-image}
+![電子工作ばかりではなく、こうしたクラフトの出展物も。](https://cdn-images-1.medium.com/max/800/1*nnLOXNVnu153Fw2jEioM_A.jpeg)
 
-![ちらもクラフト系。藻をビンにつめる、ビンの中で盆栽をやるようなもの。](https://cdn-images-1.medium.com/max/800/1*tyh6qJVTYI1fbMTjxCtzuQ.jpeg){.graf-image}
+![ちらもクラフト系。藻をビンにつめる、ビンの中で盆栽をやるようなもの。](https://cdn-images-1.medium.com/max/800/1*tyh6qJVTYI1fbMTjxCtzuQ.jpeg)
 
-![タイのスタートアップが開発した木製フレームの組み立て式ドローン](https://cdn-images-1.medium.com/max/800/1*LqELAe1qMMSsmIEU69lt6Q.jpeg){.graf-image}
+![タイのスタートアップが開発した木製フレームの組み立て式ドローン](https://cdn-images-1.medium.com/max/800/1*LqELAe1qMMSsmIEU69lt6Q.jpeg)
 
 ![タイではSTEM教育も盛り上がりを見せていて、深センのMakeblock[（fabcrossのレポート）](https://fabcross.jp/topics/tks/20160527_makeblock_01.html){.markup--anchor
-.markup--figure-anchor}を現地の代理店が大々的に出展していた。](https://cdn-images-1.medium.com/max/800/1*hfEEpApwud4PH9DFiO_ySA.jpeg){.graf-image}
+.markup--figure-anchor}を現地の代理店が大々的に出展していた。](https://cdn-images-1.medium.com/max/800/1*hfEEpApwud4PH9DFiO_ySA.jpeg)
 
 ### アジア中がつながりつつある。 {#754c .graf .graf--h3 .graf-after--figure name="754c"}
 
 前述の日本の佐藤ロボット研究所や深センのMakeblockだけでなく、バンコクのMaker
 Faireには海外からの参加者も多く来訪・出展していた。バンコクは東南アジアの中心部に近く、とても訪問しやすい位置にある。
 
-![深センからの参加のSexyCyborg。バンコクでも大人気で、いたるところでセルフィーをせがむ声が。](https://cdn-images-1.medium.com/max/800/1*oG6V7QroNpJnM866SxxPGw.jpeg){.graf-image}
+![深センからの参加のSexyCyborg。バンコクでも大人気で、いたるところでセルフィーをせがむ声が。](https://cdn-images-1.medium.com/max/800/1*oG6V7QroNpJnM866SxxPGw.jpeg)
 
 ![FabCafeはBangkokにも出店していて、Maker
-Faireにもブースを出している。ブースではワークショップのほか、レーザーカッターで切り出したギター展示なども。](https://cdn-images-1.medium.com/max/800/1*v1SEQFSqnWXQubCX2qcJ2Q.jpeg){.graf-image}
+Faireにもブースを出している。ブースではワークショップのほか、レーザーカッターで切り出したギター展示なども。](https://cdn-images-1.medium.com/max/800/1*v1SEQFSqnWXQubCX2qcJ2Q.jpeg)
 
 ![SEAMNet（東南アジアメイカースペースネットワーク）から、シンガポールで[Sustainable
 Living Lab](http://www.sl2square.org/){.markup--anchor
 .markup--figure-anchor}を運営するVeera（右から2番目）と、ジャカルタで[MakeDoNia](http://makedonia.co/){.markup--anchor
-.markup--figure-anchor}を運営するiBoy。](https://cdn-images-1.medium.com/max/800/1*OvFUn5szSUz_4h_6G8ATmw.jpeg){.graf-image}
+.markup--figure-anchor}を運営するiBoy。](https://cdn-images-1.medium.com/max/800/1*OvFUn5szSUz_4h_6G8ATmw.jpeg)
 
 ![左からDr.Pan, SexyCyborg, ふたりおいてDr.
 Mornと僕。みんなが笑顔になれる素晴らしいMaker
-Faireだった。](https://cdn-images-1.medium.com/max/800/1*2vSscmp8RkWF63WlvkTgJQ.jpeg){.graf-image}
+Faireだった。](https://cdn-images-1.medium.com/max/800/1*2vSscmp8RkWF63WlvkTgJQ.jpeg)
 
 バンコクは「なんとなく年に1回ぐらいは訪れたい場所」であり、Maker
 Faireがこうした東南アジアのMakerたちにとってもいいミートアップの機会になっていると感じた。彼らのうち何人かは東京のMaker

@@ -1,5 +1,8 @@
 ---
 title: "Monthly News July 2018 Amazing Maker Faire Prague and Finally come to AKIPARTY Tokyo"
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*9PTQxa22f_puX3oZTp092A.jpeg"
+  relative: false
 aliases: ["/2018/06/monthly-news-july-2018-amazing-maker-faire-prague-and-finally-come-to-akiparty-tokyo/"]
 slug: monthly-news-july-2018-amazing-maker-faire-prague-and-finally-come-to-akiparty-tokyo
 date: 2018-06-30
@@ -21,7 +24,7 @@ I\`m away from Shenzhen now, in Dublin airport. This trip around a
 month, that kind of trips are thrid times in this year.
 
 ![I met RMS on
-Barcelona!](https://cdn-images-1.medium.com/max/800/1*9PTQxa22f_puX3oZTp092A.jpeg){.graf-image}
+Barcelona!](https://cdn-images-1.medium.com/max/800/1*9PTQxa22f_puX3oZTp092A.jpeg)
 
 I will back to Shenzhen on 10th July.
 
@@ -31,11 +34,11 @@ city. The tech activity is few, not my style and so far from Shenzhen.
 However, I saw Fablab Barcelona, Green Fablab, SOKO maker space, these
 looks well.
 
-![](https://cdn-images-1.medium.com/max/800/1*H3wVxOerBXER2NAYq6sE5Q.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*H3wVxOerBXER2NAYq6sE5Q.jpeg)
 
 Green Fablab
 
-![](https://cdn-images-1.medium.com/max/800/1*jtfwpOJqtX6JagX1dHFtJg.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*jtfwpOJqtX6JagX1dHFtJg.jpeg)
 
 Barcelona
 

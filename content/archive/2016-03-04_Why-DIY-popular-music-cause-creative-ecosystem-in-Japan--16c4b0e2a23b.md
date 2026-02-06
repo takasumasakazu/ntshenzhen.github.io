@@ -1,5 +1,8 @@
 ---
 title: "Why DIY popular music cause creative ecosystem in Japan "
+cover:
+  image: "http://www.vocaloid.com/en/"
+  relative: false
 aliases: ["/2016/03/why-diy-popular-music-cause-creative-ecosystem-in-japan/"]
 slug: why-diy-popular-music-cause-creative-ecosystem-in-japan
 date: 2016-03-04
@@ -18,7 +21,7 @@ represented example HATSUNE MIKU, that software made Google theme...
 
 ![[Vocaloid](http://www.vocaloid.com/en/){.markup--anchor
 .markup--figure-anchor} software
-by YAMAHA.](https://cdn-images-1.medium.com/max/800/1*rCv-lxLY--SR7iz4SNODPQ.png){.graf-image}
+by YAMAHA.](https://cdn-images-1.medium.com/max/800/1*rCv-lxLY--SR7iz4SNODPQ.png)
 
 Voice Synthesizer called Vocaloid is famous software technology. For
 represented example HATSUNE MIKU, that software made Google theme song,
@@ -125,7 +128,7 @@ make anything. These things too hard to call only hobby.
 ![These are Senbon Sakura's alternative creation in Japanese
 illustration community. You can find a lot of alternative creation in
 Japanese online
-community.](https://cdn-images-1.medium.com/max/800/1*TeZ-EVh7s9IrymlHLy2a1A.png){.graf-image}
+community.](https://cdn-images-1.medium.com/max/800/1*TeZ-EVh7s9IrymlHLy2a1A.png)
 
 Otherwise, people often help each other for the purpose, indeed for the
 community. Vocaloid is only software, voice and simple character. Hence

@@ -1,5 +1,8 @@
 ---
 title: "TAKASU Masakazu Profile Contact and about me                               "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*CWoxCcAO38bcwrPFtvC-1g.jpeg"
+  relative: false
 aliases: ["/2017/09/takasu-masakazu-profile-contact-and-about-me/"]
 slug: takasu-masakazu-profile-contact-and-about-me
 date: 2017-09-14
@@ -106,15 +109,15 @@ Partner)ほか、Maker向けツールの開発／販売をしている株式会�
 みんなで行け』(技術評論社)など ほかweb連載など多数。\
 <https://note.com/takasu/n/n411063be9634>
 
-![](https://cdn-images-1.medium.com/max/800/1*CWoxCcAO38bcwrPFtvC-1g.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*CWoxCcAO38bcwrPFtvC-1g.jpeg)
 
-![](https://cdn-images-1.medium.com/max/800/1*9sj9nOOIScY3KwcVt1tolg.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*9sj9nOOIScY3KwcVt1tolg.jpeg)
 
-![](https://cdn-images-1.medium.com/max/800/1*Ep7lZRObCrT3WtlCf7DkHg.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*Ep7lZRObCrT3WtlCf7DkHg.jpeg)
 
-![](https://cdn-images-1.medium.com/max/800/1*xpJ_iio0LvmhMLVSmleVIg.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*xpJ_iio0LvmhMLVSmleVIg.jpeg)
 
-![](https://cdn-images-1.medium.com/max/800/1*_jKpiW-tKMA339RU_AB2MQ.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*_jKpiW-tKMA339RU_AB2MQ.jpeg)
 
 ### よくある依頼 {#007a .graf .graf--h3 .graf-after--figure name="007a"}
 

@@ -1,5 +1,8 @@
 ---
 title: " 6  Maker Uno   STEM    Arduino                           Cytron           "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*v7SSKAwo7Ztb7gtFLvVa1w.jpeg"
+  relative: false
 aliases: ["/2018/03/6-maker-uno-stem-arduino-cytron/"]
 slug: 6-maker-uno-stem-arduino-cytron
 date: 2018-03-24
@@ -21,7 +24,7 @@ Maker Uno すごく面白い製品です。 学校教育に特化したArduino�
 .markup--p-anchor}が作った Maker Uno すごく面白い製品です。\
 学校教育に特化したArduino互換品。
 
-![学校用。名前を書ける](https://cdn-images-1.medium.com/max/800/1*v7SSKAwo7Ztb7gtFLvVa1w.jpeg){.graf-image}
+![学校用。名前を書ける](https://cdn-images-1.medium.com/max/800/1*v7SSKAwo7Ztb7gtFLvVa1w.jpeg)
 
 Kickstarterキャンペーン中
 

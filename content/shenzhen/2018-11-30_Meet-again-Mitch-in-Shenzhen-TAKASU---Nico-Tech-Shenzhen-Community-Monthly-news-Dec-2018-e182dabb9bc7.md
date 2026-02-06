@@ -1,5 +1,8 @@
 ---
 title: "Meet again Mitch in Shenzhen TAKASU   Nico Tech Shenzhen Community Monthly news Dec 2018"
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*XE7IGR46xISVzYG7xu6gbA.jpeg"
+  relative: false
 aliases: ["/2018/11/meet-again-mitch-in-shenzhen-takasu-nico-tech-shenzhen-community-monthly-news-dec-2018/"]
 slug: meet-again-mitch-in-shenzhen-takasu-nico-tech-shenzhen-community-monthly-news-dec-2018
 date: 2018-11-30
@@ -27,7 +30,7 @@ I can\`t wait these events and sights, also I will be BETT London,
 please call me who my friends in US and Euro, let\`s meet again.
 
 ![Meet again Mitch, at
-Xfactory Shenzhen](https://cdn-images-1.medium.com/max/800/1*XE7IGR46xISVzYG7xu6gbA.jpeg){.graf-image}
+Xfactory Shenzhen](https://cdn-images-1.medium.com/max/800/1*XE7IGR46xISVzYG7xu6gbA.jpeg)
 
 I met again, my hacker friend Mitch Altman on Shenzhen, he was pushing
 me for Chaos Computer Congress in Berlin, sounds really nice, I \`m

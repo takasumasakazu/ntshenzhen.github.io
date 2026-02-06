@@ -1,5 +1,8 @@
 ---
 title: "                   STEM  "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*Ynbpd4OmbXnPWoi6cIHnqw.jpeg"
+  relative: false
 aliases: ["/2025/03/stem/"]
 slug: stem
 date: 2025-03-23
@@ -17,7 +20,7 @@ date: 2025-03-23
 
 2017/05/10 08:00
 
-![](https://cdn-images-1.medium.com/max/800/1*Ynbpd4OmbXnPWoi6cIHnqw.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*Ynbpd4OmbXnPWoi6cIHnqw.jpeg)
 
 厳しい受験戦争から「取り残されるのを恐れ、チャレンジしない気質」と呼ばれるシンガポール人。「テストをしない」「順位付けをしない」「かならず社会や産業に必要とされる」新しい形の教育システムで、そういった気質まで含めて国の形をアップデートしようとする試みが行われている。シンガポールサイエンスセンターの館長、メンリム博士にインタビューした。
 
@@ -35,7 +38,7 @@ date: 2025-03-23
 
 ![[シンガポール教育省](https://www.moe.gov.sg/education/education-system){.markup--anchor
 .markup--figure-anchor}のサイトに掲載されている教育システム図解[（詳細PDF）](https://www.moe.gov.sg/docs/default-source/document/education/landscape/print/sg-education-landscape-print.pdf){.markup--anchor
-.markup--figure-anchor}。一番上の特別コース以外にも、全員の可能性を最大限引き上げるため、多くのコースが設けられ、再調整も行われる。](https://cdn-images-1.medium.com/max/800/1*z8oURSSoUsS3zBQ5JgnIbQ.jpeg){.graf-image}
+.markup--figure-anchor}。一番上の特別コース以外にも、全員の可能性を最大限引き上げるため、多くのコースが設けられ、再調整も行われる。](https://cdn-images-1.medium.com/max/800/1*z8oURSSoUsS3zBQ5JgnIbQ.jpeg)
 
 そもそもシンガポールは国の成り立ちそのものから、人種や身分にこだわらない徹底的な能力主義を旗印にしてきた。\
 かつては同じマラヤ連邦だった隣国マレーシアがマレー系優遇政策を取るなか、世界から積極的に留学生や移民を受け入れ、能力があればチャンスは与えられることを国策にしてシンガポールは発展してきた。\
@@ -44,7 +47,7 @@ date: 2025-03-23
 1980年ごろまでの、国全体に余裕がなかった時期はトップ10％のエリートコースだけに集中して投資する教育が行われていたが、現在は国家予算の25％強を教育予算に費やし、すべての階層に多大な教育投資をしている。
 
 ![シンガポールの中学校で行われている、Arduinoを使った授業。教科書はGoogle
-Siteベースで日々アップデートされていて、自宅でも学べる。](https://cdn-images-1.medium.com/max/800/1*Ynbpd4OmbXnPWoi6cIHnqw.jpeg){.graf-image}
+Siteベースで日々アップデートされていて、自宅でも学べる。](https://cdn-images-1.medium.com/max/800/1*Ynbpd4OmbXnPWoi6cIHnqw.jpeg)
 
 ### サイエンスセンターが生み出す新しい教育 {#80b5 .graf .graf--h3 .graf-after--figure name="80b5"}
 
@@ -56,7 +59,7 @@ Siteベースで日々アップデートされていて、自宅でも学べる�
 シンガポールサイエンスセンターの館長T.メンリム博士（以下メンリム）は、「キアスーなシンガポール人はもう古いものだ」として、以下のようにインタビューに答えた。
 
 ![サイエンスセンター メンリム館長（撮影：松野
-友美）](https://cdn-images-1.medium.com/max/800/1*LSgfBEJVcw-pw1uwL_44Lg.jpeg){.graf-image}
+友美）](https://cdn-images-1.medium.com/max/800/1*LSgfBEJVcw-pw1uwL_44Lg.jpeg)
 
 メンリム「STEM教育（Science、Technology、Engineer、Mathematicsの頭文字を取ってSTEMと呼ばれる、課題発見型の理数系教育）はアメリカから始まった世界的な流れだけど、シンガポールのプログラムはより効果的にするためにゼロから考えた、実践的なものだ。海外のプログラムとも、シンガポールのそれまでの教育システムとも違う。
 
@@ -79,7 +82,7 @@ STEMはテストを行わない。作ったものをお互い見せあい、よ�
 学校そのものにも順位が付かない。それまでシンガポールの学校はどの学校も同じテストのもと、いつも順位を気にしていたが、STEMはシンガポールの産業界と話しあって今後シンガポールで必要になる12の技術カテゴリを決め、学校ごとに割り振った。どの学校にも専門の役割があって、社会から必要とされるものだ。
 
 ![[STEM.INC](https://www.steminc.sg/){.markup--anchor
-.markup--figure-anchor}のサイト。12のプログラムが並んでいる。](https://cdn-images-1.medium.com/max/800/1*DN-JbTlww2M82SWV7KTL1g.jpeg){.graf-image}
+.markup--figure-anchor}のサイト。12のプログラムが並んでいる。](https://cdn-images-1.medium.com/max/800/1*DN-JbTlww2M82SWV7KTL1g.jpeg)
 
 この技術のどれかを身につけ、問題解決ができるようになれば、間違いなく社会から必要とされて評価される。それは自信につながる。これまでのように上から順番はつかない。どのプログラムでも1年目は学校で子どもたちが行い、2年目からは実際の企業でのインターンなどが行われ、3年目は実社会でやっていることが学習の中心になる。成績の良さとインターンでの評価は必ずしも一致しない。よりさまざまな形のタレントが自信を持てるようになる」
 

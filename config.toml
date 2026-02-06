@@ -2,6 +2,15 @@ baseURL = "http://localhost:1313/"
 title = "ニコ技深セン / Nico-Tech Shenzhen website"
 theme = "PaperMod"
 disableKinds = ["RSS"]
+[params]
+  ShowPostCover = true
+
+  [params.cover]
+    hidden = false
+    hiddenInList = false
+    hiddenInSingle = false
+
+
 [permalinks]
   archive  = "/archive/:year/:month/:slug/"
   teardown = "/teardown/:year/:month/:slug/"

@@ -1,5 +1,8 @@
 ---
 title: "             Maker Faire           Maker Faire       "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*bRmGx4TkXv_Q06_h3qQhVA.jpeg"
+  relative: false
 aliases: ["/2025/03/maker-faire-maker-faire/"]
 slug: maker-faire-maker-faire
 date: 2025-03-23
@@ -17,7 +20,7 @@ date: 2025-03-23
 
 2017/07/03 08:00
 
-![](https://cdn-images-1.medium.com/max/800/1*bRmGx4TkXv_Q06_h3qQhVA.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*bRmGx4TkXv_Q06_h3qQhVA.jpeg)
 
 8月にはMaker Faire Tokyoが開催されるが、この夏はアジア各国でもMaker
 Faireが行われている。アジアにはまだ「はじめてのMaker
@@ -51,7 +54,7 @@ Faireとして仕切り直すことになった。日本科学未来館
 
 ![どちらも2011年に行われた「Make Tokyo Meeting
 07」の写真。この翌年からMaker Faire
-Tokyoとしてリスタートした。](https://cdn-images-1.medium.com/max/800/1*QkCt9utZqxzJU3ObpCxZ0g.jpeg){.graf-image}
+Tokyoとしてリスタートした。](https://cdn-images-1.medium.com/max/800/1*QkCt9utZqxzJU3ObpCxZ0g.jpeg)
 
 上の写真は「Maker Faire Tokyo
 07」のものだ。大イベントでひっきりなしに来場者が来ていた記憶があるが、いま写真を見てみるとMaker
@@ -73,7 +76,7 @@ Faireを紹介しよう。
 
 ![Maker Faire
 Xianのサイン。秦始皇帝陵の兵馬俑で知られる西安だけに、Maker
-FaireのシンボルMakeyが兵馬俑型になっている。](https://cdn-images-1.medium.com/max/800/1*Kw0Lv_h1lkdkLb2PnPYuKA.jpeg){.graf-image}
+FaireのシンボルMakeyが兵馬俑型になっている。](https://cdn-images-1.medium.com/max/800/1*Kw0Lv_h1lkdkLb2PnPYuKA.jpeg)
 
 2017年、初めて中国の[**西安でMaker
 Faireが開かれる**](https://www.facebook.com/makerfairexian/){.markup--anchor
@@ -81,7 +84,7 @@ Faireが開かれる**](https://www.facebook.com/makerfairexian/){.markup--ancho
 曲江国際会展中心というコンベンションセンター。
 
 ![Maker Faire
-Xianでは、巨大なステージで明和電機などがパフォーマンスを行う。写真右下の赤いMakeyの高さが5mなので、ステージの巨大さがわかる](https://cdn-images-1.medium.com/max/800/1*Db3nc0cAXMED7z8tHePRIw.jpeg){.graf-image}
+Xianでは、巨大なステージで明和電機などがパフォーマンスを行う。写真右下の赤いMakeyの高さが5mなので、ステージの巨大さがわかる](https://cdn-images-1.medium.com/max/800/1*Db3nc0cAXMED7z8tHePRIw.jpeg)
 
 今回は西安市が大きな投資をしていて、世界からさまざまなMakerを招いている。VRエヴァンジェリストの[**GOROman氏**](https://twitter.com/goroman){.markup--anchor
 .markup--p-anchor}が登壇するほか、ブースとして[**デイリーポータルZ**](http://portal.nifty.com/){.markup--anchor
@@ -96,11 +99,11 @@ Derby**](https://nerdyderby.com/){.markup--anchor
 
 ![ステージで行われる予定のMakeFashion。カナダのカルガリーから参加。（写真はMaker
 Faire
-成都 2016）](https://cdn-images-1.medium.com/max/800/1*E_rApZk00XFuPrJHPWXZHw.jpeg){.graf-image}
+成都 2016）](https://cdn-images-1.medium.com/max/800/1*E_rApZk00XFuPrJHPWXZHw.jpeg)
 
 ![Maker Faire成都
 2016での[「ロボットプロレス流血仮面」](http://www.ryuketsu-kamen.jp/robot){.markup--anchor
-.markup--figure-anchor}](https://cdn-images-1.medium.com/max/800/1*kXPj6eo562LAKlMCzZjdZQ.jpeg){.graf-image}
+.markup--figure-anchor}](https://cdn-images-1.medium.com/max/800/1*kXPj6eo562LAKlMCzZjdZQ.jpeg)
 
 一般募集は締め切られてしまっているが、西安では日本Maker達の出展を歓迎するため、個別に申し込まなくても合同出展できる日本人Maker出展ブースを設けている。[**こちらのページ**](http://j.nicotech.jp/ntxian2017){.markup--anchor
 .markup--p-anchor}に出展案内があり、Googleスプレッドシートの申し込みを書けば、当日いきなり会場に作品を持ち込むだけで出展できる。他の日本人と並んでの共同出展なので、作品を持ち込みつつ交代で会場を見学することもしやすいだろう。共同申し込みのサポートサイトでは最小限の時間と予算で往復するための航空券の案内など、さまざまな情報が掲載されている。
@@ -112,7 +115,7 @@ Faire
 日本人向け共同出展案内：[**http://j.nicotech.jp/ntxian2017**](http://j.nicotech.jp/ntxian2017){.markup--anchor
 .markup--p-anchor}
 
-![中国のロボット作者による鉄製のMakeyも制作中。口から火を噴くという。](https://cdn-images-1.medium.com/max/800/1*Bp1NV1QLVh9wK2rlIU0QwA.jpeg){.graf-image}
+![中国のロボット作者による鉄製のMakeyも制作中。口から火を噴くという。](https://cdn-images-1.medium.com/max/800/1*Bp1NV1QLVh9wK2rlIU0QwA.jpeg)
 
 ### STEM教育とMakeの融合が見られる Maker Faire Singapore （シンガポール） {#b6fb .graf .graf--h3 .graf-after--figure name="b6fb"}
 
@@ -123,7 +126,7 @@ Maker Faire Singapore
 .markup--p-anchor}などで紹介した。
 
 ![昨年のMaker Faire
-Singaporeでは、シンガポールの外務大臣兼スマート国家担当ヴィヴィアン氏ほか、複数の大臣がほぼ全ブースをまわった。](https://cdn-images-1.medium.com/max/800/1*bRmGx4TkXv_Q06_h3qQhVA.jpeg){.graf-image}
+Singaporeでは、シンガポールの外務大臣兼スマート国家担当ヴィヴィアン氏ほか、複数の大臣がほぼ全ブースをまわった。](https://cdn-images-1.medium.com/max/800/1*bRmGx4TkXv_Q06_h3qQhVA.jpeg)
 
 [**STEMのレポート**](https://fabcross.jp/topics/tks/20170510_singapore_stem_01.html){.markup--anchor
 .markup--p-anchor}が評判になったとおり、シンガポールは教育熱心な国として知られ、Maker
@@ -136,7 +139,7 @@ FaireにはMake:Educationという教育関連パビリオンがあるが、そ�
 Faireに始まり、2013年からMaker
 Faireとなって2017年で6回目を迎える。僕は2014年から実行委員を務めている。会場は毎年変更されていて、今年は第1回を開いたサイエンスセンターに戻ってきた。第1回は小さいホールで行っていたが、今回はサイエンスセンター全体を使い、400以上のブースが出展する巨大イベントとして開催することになる。
 
-![多民族国家で、東南アジア諸国からも多くのMakerが集まるシンガポール](https://cdn-images-1.medium.com/max/800/1*n7fw3FRiqpDSb-jM53KCIQ.jpeg){.graf-image}
+![多民族国家で、東南アジア諸国からも多くのMakerが集まるシンガポール](https://cdn-images-1.medium.com/max/800/1*n7fw3FRiqpDSb-jM53KCIQ.jpeg)
 
 こちらも一般募集は締め切っているが、僕がまとめ役をしている日本人合同出展ブースは現在も受付中で、事前にスプレッドシートを書いてもらえば当日いきなりでも出展できる。英語が通じ、移民国家なので公共交通ほかさまざまなルールが「はじめて来る人」にやさしくできている旅行しやすい国なので、はじめての海外Maker
 Faireとしてお勧めでもある。
@@ -157,14 +160,14 @@ Tokyoと似たキャラクターがある。日本からは3～4時間で到着�
 Faire
 Tokyoに行くよりも身近な部分があり、ここ数年日本からの参加者が倍々ゲームで増え続けている。
 
-![2016年の共同出展の様子。ここに映っていない人たち含め、20人以上が日本から出展した。](https://cdn-images-1.medium.com/max/800/1*kJKPqXq8_pXJeuZmMXXQlg.jpeg){.graf-image}
+![2016年の共同出展の様子。ここに映っていない人たち含め、20人以上が日本から出展した。](https://cdn-images-1.medium.com/max/800/1*kJKPqXq8_pXJeuZmMXXQlg.jpeg)
 
 海外のMaker
 Faireはどこも日本のものよりビジネス・スタートアップ色が強く、「これはいくらなの？」「どういうビジネス展開を？」などと聞かれることが多いが、台北ではヘボコンや「役に立たないガジェット選手権」など、楽しむための工作も多く出展されている。\
 日本からの展示はニコニコ技術部からの、笑わせるためのネタ工作が多いものだったが、台北のMaker
 Faireを訪れる人たちは大いに楽しんでいた。
 
-![教室からいつでも逃げ出せるように、電動化した勉強机。台北のフェアでは東京の次にこういうネタ工作を見かける。](https://cdn-images-1.medium.com/max/800/1*uVSkoNb7e0IXQQrfMemXJg.jpeg){.graf-image}
+![教室からいつでも逃げ出せるように、電動化した勉強机。台北のフェアでは東京の次にこういうネタ工作を見かける。](https://cdn-images-1.medium.com/max/800/1*uVSkoNb7e0IXQQrfMemXJg.jpeg)
 
 台北のMaker
 Faireは現在も申し込みを受け付けているが、出展費とデポジット（預かり金）が必要で、委員会とやりとりをしなくてはならない。例年どおり日本人グループの共同申し込みを僕が手配しているので、そこ経由でスペースを確保することもできる（出展費は割り勘）。
@@ -176,7 +179,7 @@ Faireは現在も申し込みを受け付けているが、出展費とデポジ
 日本人向け共同出展案内：[**http://j.nicotech.jp/nt\_taipei\_2017**](http://j.nicotech.jp/nt_taipei_2017){.markup--anchor
 .markup--p-anchor}
 
-![昨年、日本から共同出展したブース。](https://cdn-images-1.medium.com/max/800/1*kXdTJQWb1j8CZKdgR605Ww.jpeg){.graf-image}
+![昨年、日本から共同出展したブース。](https://cdn-images-1.medium.com/max/800/1*kXdTJQWb1j8CZKdgR605Ww.jpeg)
 
 ### アジア全体に広がっているMaker Faire {#5e75 .graf .graf--h3 .graf-after--figure name="5e75"}
 

@@ -1,5 +1,8 @@
 ---
 title: "Shenzhen High Tour 18 21 Mar application started             2018 3           "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*Ahk9CWmf8NAUrlOeF_epcw.jpeg"
+  relative: false
 aliases: ["/2018/01/shenzhen-high-tour-18-21-mar-application-started-2018-3/"]
 slug: shenzhen-high-tour-18-21-mar-application-started-2018-3
 date: 2018-01-13
@@ -18,7 +21,7 @@ Shenzhen High Tour 18--21/Mar application started 次回のニコ技深圳観察
 
 ### Shenzhen High Tour 18--21/Mar application started 次回のニコ技深圳観察会（2018年3月）募集開始しました。 {#9c41 .graf .graf--h3 .graf--leading .graf--title name="9c41"}
 
-![第7回（2017年4月）の様子](https://cdn-images-1.medium.com/max/800/1*Ahk9CWmf8NAUrlOeF_epcw.jpeg){.graf-image}
+![第7回（2017年4月）の様子](https://cdn-images-1.medium.com/max/800/1*Ahk9CWmf8NAUrlOeF_epcw.jpeg)
 
 **■2月4日追記：\
 申込受付は終了しました。\

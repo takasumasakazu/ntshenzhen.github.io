@@ -1,5 +1,8 @@
 ---
 title: "Maker Faire Beijing  2017"
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*6EDZ3nYn61zUzdEemHG85A.jpeg"
+  relative: false
 aliases: ["/2017/08/maker-faire-beijing-2017/"]
 slug: maker-faire-beijing-2017
 date: 2017-08-23
@@ -28,7 +31,7 @@ masakazu*goo.gl](https://goo.gl/photos/uq8HTjKXAriYhn3x9 "https://goo.gl/photos/
 .markup--mixtapeEmbed-anchor}[](https://goo.gl/photos/uq8HTjKXAriYhn3x9){.js-mixtapeImage
 .mixtapeImage .u-ignoreBlock}
 
-![もっともグッときた合体型ロボ。北京の会社でHAXのOB](https://cdn-images-1.medium.com/max/800/1*6EDZ3nYn61zUzdEemHG85A.jpeg){.graf-image}
+![もっともグッときた合体型ロボ。北京の会社でHAXのOB](https://cdn-images-1.medium.com/max/800/1*6EDZ3nYn61zUzdEemHG85A.jpeg)
 
 Maker Faire
 Beijingは2015年からスタートしていて、僕はその第1回に行きました。呼んでもらったのであまりネガティブな事は言いたくないけど、知名度がほしいスタートアップ（しかも北京じゃない会社のほうが多い）と、中国伝統工芸の職人（扇子に書道するとか）ばっかりで規模も大きくなく、実際のMaker

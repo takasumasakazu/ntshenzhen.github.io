@@ -1,5 +1,8 @@
 ---
 title: "February 2018 Report MakerFaire Bangkok  TCDC  Ito San talk about Shenzhen economy TAKASU Shenzhen "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*SjsgYWG5sbnk6StkqZ51pg.jpeg"
+  relative: false
 aliases: ["/2018/01/february-2018-report-makerfaire-bangkok-tcdc-ito-san-talk-about-shenzhen-economy-takasu-shenzhen/"]
 slug: february-2018-report-makerfaire-bangkok-tcdc-ito-san-talk-about-shenzhen-economy-takasu-shenzhen
 date: 2018-01-31
@@ -26,7 +29,7 @@ here](https://goo.gl/forms/rvFfee8ZFEbriezR2){.markup--anchor
 <https://goo.gl/forms/rvFfee8ZFEbriezR2>
 
 ![Maker
-Faire Bangkok!](https://cdn-images-1.medium.com/max/800/1*SjsgYWG5sbnk6StkqZ51pg.jpeg){.graf-image}
+Faire Bangkok!](https://cdn-images-1.medium.com/max/800/1*SjsgYWG5sbnk6StkqZ51pg.jpeg)
 
 Janualy, I want so amazing event at Maker Faire Bangkok!\
 I really enjoyed whole by Faire, even in the Night Parade!
@@ -42,7 +45,7 @@ office.*medium.com](https://medium.com/shenzhen-high-tour-by-makers/tcdc-4895748
 .mixtapeImage .u-ignoreBlock}
 
 ![TEDxGuangzhou! I met Robin
-Wu again!](https://cdn-images-1.medium.com/max/800/1*oDEjfi7jmcyQVViipvoeSg.jpeg){.graf-image}
+Wu again!](https://cdn-images-1.medium.com/max/800/1*oDEjfi7jmcyQVViipvoeSg.jpeg)
 
 Video Shooting with Kirutica Curic (Maker Faire Singapore)
 
@@ -58,7 +61,7 @@ that...*medium.com](https://medium.com/shenzhen-high-tour-by-makers/itoxfactory-
 .mixtapeImage .u-ignoreBlock}
 
 ![Big Our community Meetup at SEG Maker, Huaqiangbei,
-Shenzhen](https://cdn-images-1.medium.com/max/800/1*YG2FDBN6pOVzhOXm3Me4rQ.jpeg){.graf-image}
+Shenzhen](https://cdn-images-1.medium.com/max/800/1*YG2FDBN6pOVzhOXm3Me4rQ.jpeg)
 
 I will be 2nd Feb is Seeed annual party, after that I escape from winter
 ghost town, Shenzhen around the Chinese new year, to go Penang, Ipoh and

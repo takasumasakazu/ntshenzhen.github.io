@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>                 M5Stack AtomFly       | ニコ技深セン / Nico-Tech Shenzhen website</title>
+<meta name="keywords" content="">
+<meta name="description" content="日本で飛ばせるドローンを作ろう！ M5StackのAtomFlyプロジェクト
+2023/01/10 07:00
+
+日本で飛ばせるドローンを作ろう！ M5StackのAtomFlyプロジェクト
+2023/01/10 07:00
+
+
+画面やボタンなどが一体型になっていて、手軽に使えるマイコンボード「M5Stack」シリーズを開発／販売する、中国
+深圳のM5Stack社は、毎週新製品を出すというすさまじいスピードでハードウェアを開発し、センサーや周辺機器を充実させていくことでも知られている。製品の中には、OEM案件や外部とのコラボレーションプロジェクトから生まれるものも多い。
+こうしたコラボレーション事例の中で、注目のプロジェクトが、日本でも登録なしで飛行可能なドローンとして開発が進んでいる「AtomFly」だ。
+
+
+多産多死の「死」だったAtomFlyがよみがえる
+M5Stackモジュールの1つ「M5Atom」をマイコンに採用したドローンユニットAtomFlyは2020年に始まったプロジェクトだが、当初はファームウェアなしで販売される実験的なものだった。電源は入るが、出荷されたままの状態ではモーターは回らない。モーターを回すコードを書けば浮きはするものの、コントロールして飛行させることはできない。この時のM5Stackチームには、M5Stack
+CEOのJimmy
+Lai氏を含めて飛行制御やドローン設計のノウハウを持つメンバーがおらず、AtomFlyは2020年に一度生産されたきりEOL（End
+of Life、生産終了）になっている。
+
+
+M5Stackは多くのハードウェアを開発していて、中には一度製造されてそのままEOLを迎える「ハズレ」の製品もある。深圳らしい多産多死の「死」の側にいたAtomFlyをよみがえらせたのは日本のエンジニアたちだ。
+M5Stackの他のプロジェクトに開発協力していたエンジニアの@necobut{.markup&ndash;anchor
+.markup&ndash;p-anchor}さん、@GOROman{.markup&ndash;anchor
+.markup&ndash;p-anchor}さんたちが、同時期に並行してホビードローンを改造する様子をTwitterなどに投稿していた。それを見たCEOのJimmy
+Lai氏が「AtomFlyプロジェクトを再開させることはできないか？」と働きかけた。
+さらに、飛行ロボットの専門家、研究者である国際高等専門学校（国際高専）の伊藤恒平教授@kouhei_kanazawa{.markup&ndash;anchor
+.markup&ndash;p-anchor}がプロジェクトに加わったことで、開発プロジェクトは一気に加速した。伊藤教授のTwitterスレッドには開発の様子が頻繁にアップされている{.markup&ndash;anchor
+.markup&ndash;p-anchor}。
+飛行制御の専門家である伊藤教授からテスト結果のフィードバックがあるたびに、ハードウェアが変更され、バージョンアップした新しいハードウェアが深圳のM5Stackオフィスから、金沢の伊藤教授ラボやメイカーたちに届けられている。今後、数カ月から半年程度で設計が確定し、AtomFly2.0が登場する予定だ。
+
+
+
+
+飛行ロボコンなどで活躍する伊藤教授
+伊藤教授は防衛大学校／大学院で航空宇宙工学を、筑波大学大学院でコンピューターサイエンスを修了した、飛行ロボットの専門家だ。現在は国際高専の教授として、高専ロボコンや飛行ロボコン、マイクロマウスなどの競技会で指導するほか、ロボットの普及活動や、ハードとソフトの両面が必要なロボット制御についての研究を続けている。
+伊藤教授は、「元々、ロケットを作りたいという夢があり、とにかく&quot;飛ぶモノ&quot;を作りたかったんです。それで、飛行機などの飛翔体が飛行するためのプログラミング制御を一貫して研究してきました。ドローンはその研究対象としてうってつけであるだけでなく、学生が総合的なシステム設計力を養うための教材としても非常に優れています。制御の概念やプログラミング、設計、製作、モーターのスペック、電池の必要量など、1台のドローンを飛ばすために、さまざまな知識と技術が必要ですから」と、国際高専Webサイトのインタビューで語っている{.markup&ndash;anchor
+.markup&ndash;p-anchor}。
+日本で飛ばせるドローンを作ろう！ 進化するAtomFly
+ドローン制御を研究テーマにしている伊藤教授がコミットしてきたことで、もともと「M5Stackシリーズ＋ドローン」という要素しかなかったAtomFlyプロジェクトのゴールがより明確になった。
+明文化されているわけではないが、現在の目標は「日本で合法的に飛ばせて、ドローン制御の授業にも使うことができる、ファームウェアがオープンソースのドローン」だ。
+具体的な要素としては
+
+[重量（日本で登録が不要である100g以下）や無線のほか、法規対応を含めて日本で合法的に飛ばせる]{#c9e2}
+[ハード仕様が公開され、ファームウェア書き込み手順が整備されている]{#2449}
+[制御ソフト／ファームウェアが公開されている]{#911d}
+
+の3つは必須で、その上で
+
+[製品として売られていて買える]{#a2ed}
+[なるべく手軽に、安定して飛ばすことができる]{#b7ec}
+
+ことが求められる。
+現在のAtomFlyハードウェアは重量的にまだ余裕があり、また改造可能なホビードローンとして売られている既存の製品に比べて、いくつか機能が不足している。そのため、
+
+[バッテリー容量の増加]{#d94f}
+[バッテリー消費により電圧が低下した際に安定着陸できる電圧センサーの追加]{#9a1c}
+[空中で静止するためのToFセンサー、オプティカルセンサーの追加]{#003b}
+
+などが計画されている。また、筐体の構造などにも見直しが入り、壊れづらく、メンテナンスしやすくなっている。
+
+
+AtomFlyプロジェクトは中国にあるプロジェクトの日本対応ではない。開発の中心が日本にもあることで、日本のレギュレーションに最適化したものを作れるのが、本プロジェクトのメリットだ。
+M5Stackが進める、日本とのオープンコラボレーション
+M5Stackは日本とのオープンコラボレーション事例を増やしている。
+2022年9月3日、Maker Faire Tokyo
+2022に合わせて開催されたM5Stackのオンラインイベント「M5Future」（イベント録画）{.markup&ndash;anchor
+.markup&ndash;p-anchor}では、未来に向けたプランとして、日本と中国を跨いで開発しているプロジェクトの紹介や、それをもっと増やしていきたいというビジョンがCEOのJimmy
+Lai氏から語られた。紹介されたプロジェクトの1つ、DMXとM5Stackをつなぐインターフェースモジュールの共同開発は、今回のAtomFlyプロジェクトのきっかけになった。">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/fabcross/2025/03/m5stack-atomfly/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/fabcross/2025/03/m5stack-atomfly/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="ニコ技深セン / Nico-Tech Shenzhen website (Alt + H)">ニコ技深セン / Nico-Tech Shenzhen website</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/teardown/" title="Teardown">
+                    <span>Teardown</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/shenzhen/" title="Shenzhen">
+                    <span>Shenzhen</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/fabcross/" title="Fabcross">
+                    <span>Fabcross</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archive/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+                       M5Stack AtomFly      
+    </h1>
+    <div class="post-meta"><span title='2025-03-26 00:00:00 +0000 UTC'>March 26, 2025</span>
+
+</div>
+  </header> 
+<figure class="entry-cover">
+        <img loading="eager" src="https://cdn-images-1.medium.com/max/800/1*Hv0ePr3f1CrDLz6XNawfBg.jpeg" alt="">
+        
+</figure>
+  <div class="post-content"><h1 id="日本で飛ばせるドローンを作ろう-m5stackのatomflyプロジェクト" class="p-name">日本で飛ばせるドローンを作ろう！ M5StackのAtomFlyプロジェクト<a hidden class="anchor" aria-hidden="true" href="#日本で飛ばせるドローンを作ろう-m5stackのatomflyプロジェクト">#</a></h1>
+<p>2023/01/10 07:00</p>
+<hr>
+<h3 id="7001" class="graf graf--h3 graf--leading graf--title" name="7001">日本で飛ばせるドローンを作ろう！ M5StackのAtomFlyプロジェクト<a hidden class="anchor" aria-hidden="true" href="#7001">#</a></h3>
+<p>2023/01/10 07:00</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*Hv0ePr3f1CrDLz6XNawfBg.jpeg" alt="" loading="lazy" />
+</p>
+<p>画面やボタンなどが一体型になっていて、手軽に使えるマイコンボード「M5Stack」シリーズを開発／販売する、中国
+深圳のM5Stack社は、毎週新製品を出すというすさまじいスピードでハードウェアを開発し、センサーや周辺機器を充実させていくことでも知られている。製品の中には、OEM案件や外部とのコラボレーションプロジェクトから生まれるものも多い。</p>
+<p>こうしたコラボレーション事例の中で、注目のプロジェクトが、日本でも登録なしで飛行可能なドローンとして開発が進んでいる「AtomFly」だ。</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*0QVEgGghZKp86p1g994B0A.jpeg" alt="日本でも登録不要で飛行できる100g以下の軽量ドローンとして開発中のAtomFly。" loading="lazy" />
+</p>
+<h3 id="3906" class="graf graf--h3 graf-after--figure" name="3906">多産多死の「死」だったAtomFlyがよみがえる<a hidden class="anchor" aria-hidden="true" href="#3906">#</a></h3>
+<p>M5Stackモジュールの1つ「M5Atom」をマイコンに採用したドローンユニットAtomFlyは2020年に始まったプロジェクトだが、当初はファームウェアなしで販売される実験的なものだった。電源は入るが、出荷されたままの状態ではモーターは回らない。モーターを回すコードを書けば浮きはするものの、コントロールして飛行させることはできない。この時のM5Stackチームには、M5Stack
+CEOのJimmy
+Lai氏を含めて飛行制御やドローン設計のノウハウを持つメンバーがおらず、AtomFlyは2020年に一度生産されたきりEOL（End
+of Life、生産終了）になっている。</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*8MOsaiGyiQDrNWWJmHl-yA.jpeg" alt="一度生産されたきりEOLとなっている、初代のAtomFly。" loading="lazy" />
+</p>
+<p>M5Stackは多くのハードウェアを開発していて、中には一度製造されてそのままEOLを迎える「ハズレ」の製品もある。深圳らしい多産多死の「死」の側にいたAtomFlyをよみがえらせたのは日本のエンジニアたちだ。</p>
+<p>M5Stackの他のプロジェクトに開発協力していたエンジニアの<a href="https://twitter.com/necobut"><strong>@necobut</strong></a>{.markup&ndash;anchor
+.markup&ndash;p-anchor}さん、<a href="https://twitter.com/GOROman"><strong>@GOROman</strong></a>{.markup&ndash;anchor
+.markup&ndash;p-anchor}さんたちが、同時期に並行してホビードローンを改造する様子をTwitterなどに投稿していた。それを見たCEOのJimmy
+Lai氏が「AtomFlyプロジェクトを再開させることはできないか？」と働きかけた。</p>
+<p>さらに、飛行ロボットの専門家、研究者である国際高等専門学校（国際高専）の伊藤恒平教授<a href="https://twitter.com/kouhei_kanazawa"><strong>@kouhei_kanazawa</strong></a>{.markup&ndash;anchor
+.markup&ndash;p-anchor}がプロジェクトに加わったことで、開発プロジェクトは一気に加速した。伊藤教授のTwitterスレッドには開発の様子が<a href="https://twitter.com/kouhei_kanazawa/status/1596489311926779904"><strong>頻繁にアップされている</strong></a>{.markup&ndash;anchor
+.markup&ndash;p-anchor}。</p>
+<p>飛行制御の専門家である伊藤教授からテスト結果のフィードバックがあるたびに、ハードウェアが変更され、バージョンアップした新しいハードウェアが深圳のM5Stackオフィスから、金沢の伊藤教授ラボやメイカーたちに届けられている。今後、数カ月から半年程度で設計が確定し、AtomFly2.0が登場する予定だ。</p>
+<blockquote>
+<p><a href="https://twitter.com/kouhei_kanazawa/status/1564861685059702784?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1564868514837475328%7Ctwgr%5E88aa724fe68c39420af0dc2aa2e83d7058f9e399%7Ctwcon%5Es2_&amp;ref_url=https%3A%2F%2Ffabcross.jp%2Ftopics%2Ftks%2F20230110_m5stack_drone.html"></a></p></blockquote>
+<blockquote>
+<p><a href="https://twitter.com/kouhei_kanazawa/status/1596450770098192385?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1596489311926779904%7Ctwgr%5E88aa724fe68c39420af0dc2aa2e83d7058f9e399%7Ctwcon%5Es2_&amp;ref_url=https%3A%2F%2Ffabcross.jp%2Ftopics%2Ftks%2F20230110_m5stack_drone.html"></a></p></blockquote>
+<h3 id="54f4" class="graf graf--h3 graf-after--figure" name="54f4">飛行ロボコンなどで活躍する伊藤教授<a hidden class="anchor" aria-hidden="true" href="#54f4">#</a></h3>
+<p>伊藤教授は防衛大学校／大学院で航空宇宙工学を、筑波大学大学院でコンピューターサイエンスを修了した、飛行ロボットの専門家だ。現在は国際高専の教授として、高専ロボコンや飛行ロボコン、マイクロマウスなどの競技会で指導するほか、ロボットの普及活動や、ハードとソフトの両面が必要なロボット制御についての研究を続けている。</p>
+<p>伊藤教授は、「元々、ロケットを作りたいという夢があり、とにかく&quot;飛ぶモノ&quot;を作りたかったんです。それで、飛行機などの飛翔体が飛行するためのプログラミング制御を一貫して研究してきました。ドローンはその研究対象としてうってつけであるだけでなく、学生が総合的なシステム設計力を養うための教材としても非常に優れています。制御の概念やプログラミング、設計、製作、モーターのスペック、電池の必要量など、1台のドローンを飛ばすために、さまざまな知識と技術が必要ですから」と、国際高専Webサイトの<a href="https://www.ict-kanazawa.ac.jp/report-from-the-lab/kohei-ito/"><strong>インタビューで語っている</strong></a>{.markup&ndash;anchor
+.markup&ndash;p-anchor}。</p>
+<h3 id="d2f3" class="graf graf--h3 graf-after--p" name="d2f3">日本で飛ばせるドローンを作ろう！ 進化するAtomFly<a hidden class="anchor" aria-hidden="true" href="#d2f3">#</a></h3>
+<p>ドローン制御を研究テーマにしている伊藤教授がコミットしてきたことで、もともと「M5Stackシリーズ＋ドローン」という要素しかなかったAtomFlyプロジェクトのゴールがより明確になった。</p>
+<p>明文化されているわけではないが、現在の目標は「日本で合法的に飛ばせて、ドローン制御の授業にも使うことができる、ファームウェアがオープンソースのドローン」だ。</p>
+<p>具体的な要素としては</p>
+<ul>
+<li>[重量（日本で登録が不要である100g以下）や無線のほか、法規対応を含めて日本で合法的に飛ばせる]{#c9e2}</li>
+<li>[ハード仕様が公開され、ファームウェア書き込み手順が整備されている]{#2449}</li>
+<li>[制御ソフト／ファームウェアが公開されている]{#911d}</li>
+</ul>
+<p>の3つは必須で、その上で</p>
+<ul>
+<li>[製品として売られていて買える]{#a2ed}</li>
+<li>[なるべく手軽に、安定して飛ばすことができる]{#b7ec}</li>
+</ul>
+<p>ことが求められる。</p>
+<p>現在のAtomFlyハードウェアは重量的にまだ余裕があり、また改造可能なホビードローンとして売られている既存の製品に比べて、いくつか機能が不足している。そのため、</p>
+<ul>
+<li>[バッテリー容量の増加]{#d94f}</li>
+<li>[バッテリー消費により電圧が低下した際に安定着陸できる電圧センサーの追加]{#9a1c}</li>
+<li>[空中で静止するためのToFセンサー、オプティカルセンサーの追加]{#003b}</li>
+</ul>
+<p>などが計画されている。また、筐体の構造などにも見直しが入り、壊れづらく、メンテナンスしやすくなっている。</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*1ZIZcQwNrFjzaCNYGP9cYQ.jpeg" alt="「オプティカルセンサーを追加しよう」というやり取りをしているAtomFlyプロジェクトのWeChatグループ。" loading="lazy" />
+</p>
+<p>AtomFlyプロジェクトは中国にあるプロジェクトの日本対応ではない。開発の中心が日本にもあることで、日本のレギュレーションに最適化したものを作れるのが、本プロジェクトのメリットだ。</p>
+<h3 id="168b" class="graf graf--h3 graf-after--p" name="168b">M5Stackが進める、日本とのオープンコラボレーション<a hidden class="anchor" aria-hidden="true" href="#168b">#</a></h3>
+<p>M5Stackは日本とのオープンコラボレーション事例を増やしている。<br>
+2022年9月3日、Maker Faire Tokyo
+2022に合わせて開催されたM5Stackのオンラインイベント「M5Future」<a href="https://mag.switch-science.com/2022/09/04/m5future/"><strong>（イベント録画）</strong></a>{.markup&ndash;anchor
+.markup&ndash;p-anchor}では、未来に向けたプランとして、日本と中国を跨いで開発しているプロジェクトの紹介や、それをもっと増やしていきたいというビジョンがCEOのJimmy
+Lai氏から語られた。紹介されたプロジェクトの1つ、DMXとM5Stackをつなぐインターフェースモジュールの共同開発は、今回のAtomFlyプロジェクトのきっかけになった。</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*1cgfmbO8spQYPOiDnl7mpQ.jpeg" alt="" loading="lazy" />
+</p>
+<p>その他、金沢大学の秋田純一教授が深圳でのサバティカル研修中にM5Stackと共同開発したプロジェクトは、fabcrossでもレポートされている。</p>
+<p><a href="https://fabcross.jp/interview/20221020_professor_akita.html"><strong>大学教授がスタートアップのインターン生に &mdash; &mdash;
+深圳で気づいたMaker文化の重要性｜fabcross</strong></a>{.markup&ndash;anchor
+.markup&ndash;p-anchor}</p>
+<p>今回のAtomFlyプロジェクトでも、メンバーのほとんどが研究者、メイカーなので、受注発注でなく「時間あるとき、催促なし、強制なし」でプロジェクトが進んでいる。</p>
+<h3 id="c577" class="graf graf--h3 graf-after--p" name="c577">オープンなハードウェアが生むオープンイノベーション<a hidden class="anchor" aria-hidden="true" href="#c577">#</a></h3>
+<p>M5Stackの製品の中には、もともとOEMプロジェクトとして始まり、その後製品になったものがいくつもある。例えば防水の「M5Tough」は、もともとクライアントから防水の要件があって開発していたものだ。製造請負した製品を自分のブランドでも売り出すのは深圳の製造業でよく見られるやり方で、M5Stackのように自分のブランドを持っている企業でも、事前に合意した上でそうしたオープンイノベーションを行うことはある。</p>
+<p>今回のAtomFly開発のようなオープンイノベーションが再始動できた理由の1つは、M5Stackがオープンなハードウェアであり、開発のやり方もオープン志向であることだ。M5Stackの開発環境のうち、M5Stack社が提供するブロック型プログラミング環境の「UIFlow」はソースを公開していないが、AtomFlyはGitHubにある伊藤教授のリポジトリで開発が進められている。</p>
+<p>オープンであるからこそ、例えばドローンを改造するDIY活動とドローン制御の研究活動が混ざり合って、オープンなイノベーションが生まれる。このことは、ハードウェア開発における1つの可能性を示している。</p>
+<p>By <a href="https://medium.com/@tks">TAKASU Masakazu/高須正和</a>{.p-author
+.h-card} on <a href="https://medium.com/p/ccd850398b87">March 26, 2025</a>.</p>
+<p><a href="https://medium.com/@tks/20230110-ccd850398b87">Canonical
+link</a>{.p-canonical}</p>
+<p>Exported from <a href="https://medium.com">Medium</a> on February 6, 2026.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">ニコ技深セン / Nico-Tech Shenzhen website</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

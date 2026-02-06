@@ -1,5 +1,8 @@
 ---
 title: "draft_Why Shenzhen became innovative city from Copycat city suddenly "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*I3M3TvhPxk9vN9F3grF6_g.jpeg"
+  relative: false
 draft: true
 aliases: ["/2000/01/draft-why-shenzhen-became-innovative-city-from-copycat-city-suddenly/"]
 slug: draft-why-shenzhen-became-innovative-city-from-copycat-city-suddenly
@@ -33,7 +36,7 @@ The great attention was the tool for the new sport of walking on water,
 this "stray water". An inventor named Baohua and an entrepreneur
 exhibited it.
 
-![](https://cdn-images-1.medium.com/max/800/1*I3M3TvhPxk9vN9F3grF6_g.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*I3M3TvhPxk9vN9F3grF6_g.jpeg)
 
 The board arranged like the comb becomes like one board when sinking in
 water, the resistance grows, and the resistance decreases when raising

@@ -1,5 +1,8 @@
 ---
 title: "See you in NY and Singapore  Monthly Report 2020 March"
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*AYLFJn-jk0RoZ6AmLx562Q.jpeg"
+  relative: false
 aliases: ["/2020/02/see-you-in-ny-and-singapore-monthly-report-2020-march/"]
 slug: see-you-in-ny-and-singapore-monthly-report-2020-march
 date: 2020-02-29
@@ -28,7 +31,7 @@ lecturer there, talk about Mass innovation from Shenzhen. I invite some
 guest talk in my lecture, you can see our friend, Jie Qi talk about MIT
 Media Lab / TODAI in Shenzhen and the story of her.
 
-![](https://cdn-images-1.medium.com/max/800/1*AYLFJn-jk0RoZ6AmLx562Q.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*AYLFJn-jk0RoZ6AmLx562Q.jpeg)
 
 MIT Media Lab Shenzhen
 

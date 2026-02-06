@@ -1,5 +1,8 @@
 ---
 title: "Why Tinkering are important to become a Maker "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*iUt5mQCUoE0mANckXlKlBg.jpeg"
+  relative: false
 aliases: ["/2016/01/why-tinkering-are-important-to-become-a-maker/"]
 slug: why-tinkering-are-important-to-become-a-maker
 date: 2016-01-22
@@ -31,7 +34,7 @@ only one finger with smartphones.
 
 ![Tinkering means think, that is the simple handwork craft of paper,
 cloth, metal,
-by hands.](https://cdn-images-1.medium.com/max/800/1*iUt5mQCUoE0mANckXlKlBg.jpeg){.graf-image}
+by hands.](https://cdn-images-1.medium.com/max/800/1*iUt5mQCUoE0mANckXlKlBg.jpeg)
 
 Vivian Balakrishnan Minister of foreign affairs talk about Makers and
 New Singapore

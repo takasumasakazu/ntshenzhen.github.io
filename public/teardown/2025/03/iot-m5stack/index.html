@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>IoT                           M5Stack  | ニコ技深セン / Nico-Tech Shenzhen website</title>
+<meta name="keywords" content="">
+<meta name="description" content="IoTプロトタイプのための新たなスタンダードになりつつある「M5Stack」
+2020/10/02 07:30
+
+IoTプロトタイプのための新たなスタンダードになりつつある「M5Stack」
+2020/10/02 07:30
+
+
+電子工作の代名詞となるような開発ボードといえば、いつもArduinoとRaspberry
+Piの名前が挙がる。その2つに迫る勢いで人気が急上昇している開発ボードが「M5Stack」だ。液晶ディスプレイ、ケース、バッテリーを備えたオールインワンの開発ボードとして、他社からもケース付きのボードが続々登場するほどのブームを起こしている。電子工作の新たなスタンダードになるかもしれない。これまでのM5Stackの魅力と他の開発ボードとの違いについて解説する。
+
+
+「使わないと分からない」M5Stackの魅力
+M5Stackを開発したM5Stackは中国深圳のスタートアップだ。国際的なハードウェアスタートアップアクセラレータのHAXが、中国のスタートアップを対象にプログラムを始めたHAX
+Chinaの第一期生でもある。
+
+
+2016年に1人でHAXに参加した、広東省東莞市生まれのJimmyの生んだスタートアップは、すでに従業員数50人を超えるほどに成長している。HAX卒業組の中でも特筆すべき成功と言える。ところが、HAXやその親ファンドであるSOSV
+Venturesのメンバーから、「M5Stackがなぜ成功しているのかよく分からない、教えてくれ」という問い合わせが僕宛にしばしば来る。つまり、出資元も成功の理由がいまいち見えていないようだ。
+毎回説明しているのは以下のようなシンプルな魅力だ。
+「M5Stackは、IoTのプロトタイプを手軽で気軽にしている」
+かみ砕くとこのようになる。多くの購入者はIoTプロジェクトをプロトタイプするためにM5Stackを買う。たとえばスマートロックのプロトタイプを作るMakerを例にすると、以下の４つの魅力がある。
+1. ESP32というマイコンの素晴らしさ。
+M5Stackシリーズが採用しているESP32は、マイコンをネットワークにつなげるためのWi-FiやBluetoothを搭載し、かつArduino
+IDEに対応しているため、IoTプロトタイプのために素晴らしいマイコンだ。価格も安い。
+2. バッテリー、LCD、ボタンが最初からセットされている。
+ESP32を搭載した他のボードでもいいのだけど、IoTとして機能させる、たとえばスマートロックを作ろうとしたら、ドアをロックする機構に加えて、状態を表示する液晶ディスプレイや操作ボタン、マイコンを動かすバッテリーなどの部品を選び、動作するように組み合わせる必要がある。M5Stackはそれらがあらかじめセットになっている。
+3. ケースに入っている。
+さらに、基板がむき出しだとプロトタイプにしても見栄えが悪く、壊れやすくもあるので、できればいい感じでマイコンや部品を隠すケースが欲しい。M5Stackシリーズはケースを備えている。
+4. ケースがあることにより気軽に扱える。
+液晶ディスプレイやボタンを付けることまで考えてケースを作るのはかなり手間のかかる作業だ。しかもプロトタイプ制作時には、そのユニットをとりあえず両面テープで付ける、場所を変えるなどの変更が多発するが、自作ケースはそうした扱いに耐えられないことも多い。
+結果として、スマートロックとして必要なプログラムを書くのは半日だったとしても、他人に見せるプロトタイプの体裁を整えるのに数日以上の時間がかかることは珍しくない。そうした体裁を整える時間はプロジェクトごとに二重三重にかかる。バッテリー、ケース、ボタンを予め備えたM5Stackシリーズなら、それらの手間を省いて本来必要なことだけに手間を集中できる。それは初心者にもありがたいし、やりたいことが増えた上級者ならさらにありがたい。実際にTwitter等のSNSをには、とりあえず両面テープでM5Stackシリーズをケースごと固定してプロトタイプしている事例がたくさん見つかる。
+そうした手軽さ／気軽さは使わないと分からず、キャッチコピーやプロモーションビデオで伝えにくいものだ。クラウドファンディングの製品紹介を見ると、「xxの再発明」「世界で最もxxxな」のような言葉が至るところであふれているが、M5Stackの魅力は実際に使わないと分からない。
+HAX出身のスタートアップらしく、M5Stackもクラウドファンディングに挑戦したが、Kickstarterでのキャンペーンは1万ドルほどしか集まらず、キャンペーンを途中で中止している。その後の成功からは考えられないエピソードだ。
+
+
+IoT時代のプロトタイプ環境
+いくつかのシンプルなセンサーの情報をクラウドにアップする、クラウドからの情報を表示して入力を受け付けるなど、クラウドと連携したIoTのハードウェア開発が盛んになっている。M5Stackの人気はこうしたIoTの流れに後押しされている。
+筆者が電子工作を始めたのは2008年、最初に触れたのはArduinoだった。多摩美術大学で行われていたDIYのお祭り、「Make
+Tokyo Meeting
+02」の会場で行われていたワークショップに参加し、出展していたスイッチサイエンスのブースでスターターキットを購入したのを今も覚えている。まずアナログピンにLEDを刺して光らせるLチカ、いくつかのセンサーやスイッチ類を、ブレッドボードを介して接続するところからスタートした。
+Arduinoはチュートリアルや教材も多く、いまも「初めての電子工作プラットフォーム」として大人気だ。価格も2000円台と安く、互換品なら数百円のものも珍しくない。一方で、当時のArduinoボードはWi-Fiを備えておらず、クラウドと接続する前提のIoTには向かなかった。M5Stackが搭載するESPシリーズマイコンは、Arduino用の開発環境であるArduino
+IDEを使ったプログラミングが可能で、ユーザーが追加でM5Stackを試す上での抵抗を少なくしている。歴史の長いArduinoシリーズは作例も多い。初心者向け教育により特化した開発ボードとしては2015年にリリースされた「micro:bit」も人気を集めているが、こちらもWi-Fiは備えていない。
+M5Stackの、ケース付きでオールインワンという特徴は初心者の「初めての電子工作」に向く。たとえばLittle
+BitsシリーズやMESHのような使い方も不可能ではないはずだ。レゴ的なブロックを多く備えた「M5GO」など、知育マーケットを意識した製品もある。
+スイッチサイエンスのM5Stackシリーズ紹介動画。M5GOは子どもや初心者を意識した製品。
+そうした製品も一定の人気はあるが、現在のM5Stackシリーズのユーザーはもともと他のマイコンボードも使っていて、もっと早くアイデアを形にしたいベテランメイカー層だ。
+2012年にARMがリリースした「Mbed」シリーズはネットワーク接続前提のボードとして人気が高く、M5Stackシリーズと両方使っているユーザーも多い。その後2016年に国内発売されたRaspberry
+PiシリーズはWi-FiとBluetoothを備えていて多く利用されているが、こちらは使用する電力も大きく、マイコンボードというよりもLinuxコンピューター的に利用されているケースが多い。ボード上でも複雑な処理をさせたいエッジコンピューティングなど、パワーが必要なプロジェクトには非常に向いているが、シンプルなセンサーの情報をクラウドにアップロードするだけの用途に使うにはオーバースペックということで、M5StackやMbedとは使い分けられているようだ。
+ハードウェアが新しい技術の扉を開く
+M5Stackシリーズの中には、ESP32を搭載せず、Wi-Fi機能も持たない「M5StickV」という製品がある。これは中国製のAIチップK210を搭載していて、画像認識などの高度なAI処理を行える。価格が3872円と安価なこともあって、多くのハードウェアエンジニアに「はじめてのAIチップ」として扉を開く働きをしている。ケース、バッテリー、ボタンといったパッケージングと低価格の組み合わせは、IoT以外でも「とりあえず買って試してみたい」というユーザーの支持を得ている。">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/teardown/2025/03/iot-m5stack/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/teardown/2025/03/iot-m5stack/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="ニコ技深セン / Nico-Tech Shenzhen website (Alt + H)">ニコ技深セン / Nico-Tech Shenzhen website</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/teardown/" title="Teardown">
+                    <span>Teardown</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/shenzhen/" title="Shenzhen">
+                    <span>Shenzhen</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/fabcross/" title="Fabcross">
+                    <span>Fabcross</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archive/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      IoT                           M5Stack 
+    </h1>
+    <div class="post-meta"><span title='2025-03-25 00:00:00 +0000 UTC'>March 25, 2025</span>
+
+</div>
+  </header> 
+<figure class="entry-cover">
+        <img loading="eager" src="https://cdn-images-1.medium.com/max/800/1*yDn16lZYYEqgv8cUYtpOfg.jpeg" alt="">
+        
+</figure>
+  <div class="post-content"><h1 id="iotプロトタイプのための新たなスタンダードになりつつあるm5stack" class="p-name">IoTプロトタイプのための新たなスタンダードになりつつある「M5Stack」<a hidden class="anchor" aria-hidden="true" href="#iotプロトタイプのための新たなスタンダードになりつつあるm5stack">#</a></h1>
+<p>2020/10/02 07:30</p>
+<hr>
+<h3 id="bc0b" class="graf graf--h3 graf--leading graf--title" name="bc0b">IoTプロトタイプのための新たなスタンダードになりつつある「M5Stack」<a hidden class="anchor" aria-hidden="true" href="#bc0b">#</a></h3>
+<p>2020/10/02 07:30</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*yDn16lZYYEqgv8cUYtpOfg.jpeg" alt="" loading="lazy" />
+</p>
+<p>電子工作の代名詞となるような開発ボードといえば、いつもArduinoとRaspberry
+Piの名前が挙がる。その2つに迫る勢いで人気が急上昇している開発ボードが「M5Stack」だ。液晶ディスプレイ、ケース、バッテリーを備えたオールインワンの開発ボードとして、他社からもケース付きのボードが続々登場するほどのブームを起こしている。電子工作の新たなスタンダードになるかもしれない。これまでのM5Stackの魅力と他の開発ボードとの違いについて解説する。</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*7c_i8o5Eq2YThP7Qz5h7uw.jpeg" alt="最も基本的なBasicシリーズ。新製品が続々出てくるM5Stackシリーズだが、基本の「M5Stack
+Basic」は今も人気。" loading="lazy" />
+</p>
+<h3 id="a90a" class="graf graf--h3 graf-after--figure" name="a90a">「使わないと分からない」M5Stackの魅力<a hidden class="anchor" aria-hidden="true" href="#a90a">#</a></h3>
+<p>M5Stackを開発したM5Stackは中国深圳のスタートアップだ。国際的なハードウェアスタートアップアクセラレータのHAXが、中国のスタートアップを対象にプログラムを始めたHAX
+Chinaの第一期生でもある。</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*hqE9BmP6IWyXFqD3euQD1w.jpeg" alt="2016年、Maker Faire
+Shenzhenに参加していたM5Stack。当時はマイコンにまだESP32も使われていない黎明期だが、現在のバランスロボット「M5Bala」やキーボードキット「M5Stack
+Faces」につながるようなプロトタイプが見える。" loading="lazy" />
+</p>
+<p>2016年に1人でHAXに参加した、広東省東莞市生まれのJimmyの生んだスタートアップは、すでに従業員数50人を超えるほどに成長している。HAX卒業組の中でも特筆すべき成功と言える。ところが、HAXやその親ファンドであるSOSV
+Venturesのメンバーから、「M5Stackがなぜ成功しているのかよく分からない、教えてくれ」という問い合わせが僕宛にしばしば来る。つまり、出資元も成功の理由がいまいち見えていないようだ。</p>
+<p>毎回説明しているのは以下のようなシンプルな魅力だ。<br>
+「M5Stackは、IoTのプロトタイプを手軽で気軽にしている」</p>
+<p>かみ砕くとこのようになる。多くの購入者はIoTプロジェクトをプロトタイプするためにM5Stackを買う。たとえばスマートロックのプロトタイプを作るMakerを例にすると、以下の４つの魅力がある。</p>
+<p><strong>1. ESP32というマイコンの素晴らしさ。</strong><br>
+M5Stackシリーズが採用しているESP32は、マイコンをネットワークにつなげるためのWi-FiやBluetoothを搭載し、かつArduino
+IDEに対応しているため、IoTプロトタイプのために素晴らしいマイコンだ。価格も安い。</p>
+<p><strong>2. バッテリー、LCD、ボタンが最初からセットされている。</strong><br>
+ESP32を搭載した他のボードでもいいのだけど、IoTとして機能させる、たとえばスマートロックを作ろうとしたら、ドアをロックする機構に加えて、状態を表示する液晶ディスプレイや操作ボタン、マイコンを動かすバッテリーなどの部品を選び、動作するように組み合わせる必要がある。M5Stackはそれらがあらかじめセットになっている。</p>
+<p><strong>3. ケースに入っている。</strong><br>
+さらに、基板がむき出しだとプロトタイプにしても見栄えが悪く、壊れやすくもあるので、できればいい感じでマイコンや部品を隠すケースが欲しい。M5Stackシリーズはケースを備えている。</p>
+<p><strong>4. ケースがあることにより気軽に扱える。</strong><br>
+液晶ディスプレイやボタンを付けることまで考えてケースを作るのはかなり手間のかかる作業だ。しかもプロトタイプ制作時には、そのユニットをとりあえず両面テープで付ける、場所を変えるなどの変更が多発するが、自作ケースはそうした扱いに耐えられないことも多い。</p>
+<p>結果として、スマートロックとして必要なプログラムを書くのは半日だったとしても、他人に見せるプロトタイプの体裁を整えるのに数日以上の時間がかかることは珍しくない。そうした体裁を整える時間はプロジェクトごとに二重三重にかかる。バッテリー、ケース、ボタンを予め備えたM5Stackシリーズなら、それらの手間を省いて本来必要なことだけに手間を集中できる。それは初心者にもありがたいし、やりたいことが増えた上級者ならさらにありがたい。実際にTwitter等のSNSをには、とりあえず両面テープでM5Stackシリーズをケースごと固定してプロトタイプしている事例がたくさん見つかる。</p>
+<p>そうした手軽さ／気軽さは使わないと分からず、キャッチコピーやプロモーションビデオで伝えにくいものだ。クラウドファンディングの製品紹介を見ると、「xxの再発明」「世界で最もxxxな」のような言葉が至るところであふれているが、M5Stackの魅力は実際に使わないと分からない。</p>
+<p>HAX出身のスタートアップらしく、M5Stackもクラウドファンディングに挑戦したが、Kickstarterでのキャンペーンは1万ドルほどしか集まらず、キャンペーンを途中で中止している。その後の成功からは考えられないエピソードだ。</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*mZZFKfbdd2O5AFqbWMHG9Q.jpeg" alt="2017年に行われたM5StackのKickstarterキャンペーン{.markup&ndash;anchor .markup&ndash;figure-anchor}。" loading="lazy" />
+</p>
+<h3 id="4cd8" class="graf graf--h3 graf-after--figure" name="4cd8">IoT時代のプロトタイプ環境<a hidden class="anchor" aria-hidden="true" href="#4cd8">#</a></h3>
+<p>いくつかのシンプルなセンサーの情報をクラウドにアップする、クラウドからの情報を表示して入力を受け付けるなど、クラウドと連携したIoTのハードウェア開発が盛んになっている。M5Stackの人気はこうしたIoTの流れに後押しされている。</p>
+<p>筆者が電子工作を始めたのは2008年、最初に触れたのはArduinoだった。多摩美術大学で行われていたDIYのお祭り、「Make
+Tokyo Meeting
+02」の会場で行われていたワークショップに参加し、出展していたスイッチサイエンスのブースでスターターキットを購入したのを今も覚えている。まずアナログピンにLEDを刺して光らせるLチカ、いくつかのセンサーやスイッチ類を、ブレッドボードを介して接続するところからスタートした。</p>
+<p>Arduinoはチュートリアルや教材も多く、いまも「初めての電子工作プラットフォーム」として大人気だ。価格も2000円台と安く、互換品なら数百円のものも珍しくない。一方で、当時のArduinoボードはWi-Fiを備えておらず、クラウドと接続する前提のIoTには向かなかった。M5Stackが搭載するESPシリーズマイコンは、Arduino用の開発環境であるArduino
+IDEを使ったプログラミングが可能で、ユーザーが追加でM5Stackを試す上での抵抗を少なくしている。歴史の長いArduinoシリーズは作例も多い。初心者向け教育により特化した開発ボードとしては2015年にリリースされた「micro:bit」も人気を集めているが、こちらもWi-Fiは備えていない。</p>
+<p>M5Stackの、ケース付きでオールインワンという特徴は初心者の「初めての電子工作」に向く。たとえばLittle
+BitsシリーズやMESHのような使い方も不可能ではないはずだ。レゴ的なブロックを多く備えた「M5GO」など、知育マーケットを意識した製品もある。</p>
+<p>スイッチサイエンスのM5Stackシリーズ紹介動画。M5GOは子どもや初心者を意識した製品。</p>
+<p>そうした製品も一定の人気はあるが、現在のM5Stackシリーズのユーザーはもともと他のマイコンボードも使っていて、もっと早くアイデアを形にしたいベテランメイカー層だ。</p>
+<p>2012年にARMがリリースした「Mbed」シリーズはネットワーク接続前提のボードとして人気が高く、M5Stackシリーズと両方使っているユーザーも多い。その後2016年に国内発売されたRaspberry
+PiシリーズはWi-FiとBluetoothを備えていて多く利用されているが、こちらは使用する電力も大きく、マイコンボードというよりもLinuxコンピューター的に利用されているケースが多い。ボード上でも複雑な処理をさせたいエッジコンピューティングなど、パワーが必要なプロジェクトには非常に向いているが、シンプルなセンサーの情報をクラウドにアップロードするだけの用途に使うにはオーバースペックということで、M5StackやMbedとは使い分けられているようだ。</p>
+<h3 id="1670" class="graf graf--h3 graf-after--p" name="1670">ハードウェアが新しい技術の扉を開く<a hidden class="anchor" aria-hidden="true" href="#1670">#</a></h3>
+<p>M5Stackシリーズの中には、ESP32を搭載せず、Wi-Fi機能も持たない「M5StickV」という製品がある。これは中国製のAIチップK210を搭載していて、画像認識などの高度なAI処理を行える。価格が3872円と安価なこともあって、多くのハードウェアエンジニアに「はじめてのAIチップ」として扉を開く働きをしている。ケース、バッテリー、ボタンといったパッケージングと低価格の組み合わせは、IoT以外でも「とりあえず買って試してみたい」というユーザーの支持を得ている。</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*aw2UHUob-6Ui9r1hp7MAMA.jpeg" alt="M5Stackシリーズの小型版でESP32を搭載している「M5StickC」と同サイズの筐体でリリースされた「M5StickV」。中身のマイコンはESP32とは別物のK210。" loading="lazy" />
+</p>
+<p>M5Stackシリーズのヒットを受けてか、2019年以降になって、深圳SiPEED、Seeed、Kittenbotなどの開発ボード企業も、ボタン＋LCD＋バッテリーをパッケージングした開発ボードをリリースし始めた。M5Stackと同じ深圳に位置し、親交のある会社ばかりだが、ここ1、2年、M5Stackシリーズのセールスはアメリカでも伸びているので、欧米の会社からもこうしたパッケージングの開発ボードが出てくるかもしれない。</p>
+<p>こうした開発者向けビジネスは、ユーザーの関心が高くて口コミが広がりやすく、小ロットから勝負できるので、スタートアップに向いた市場でもある。新製品の魅力が他の製品を刺激することで、電子工作プラットフォームはこれからも楽しみな進化を続けるだろう。</p>
+<p>By <a href="https://medium.com/@tks">TAKASU Masakazu/高須正和</a>{.p-author
+.h-card} on <a href="https://medium.com/p/cd32050fb5c1">March 25, 2025</a>.</p>
+<p><a href="https://medium.com/@tks/20201002-cd32050fb5c1">Canonical
+link</a>{.p-canonical}</p>
+<p>Exported from <a href="https://medium.com">Medium</a> on February 6, 2026.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">ニコ技深セン / Nico-Tech Shenzhen website</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

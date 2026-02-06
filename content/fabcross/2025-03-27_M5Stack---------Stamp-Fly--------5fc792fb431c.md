@@ -1,5 +1,8 @@
 ---
 title: "M5Stack         Stamp Fly       "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*pKwqRRiG82bJZw5UofPgAw.png"
+  relative: false
 aliases: ["/2025/03/m5stack-stamp-fly/"]
 slug: m5stack-stamp-fly
 date: 2025-03-27
@@ -17,7 +20,7 @@ M5Stackのドローンキット「Stamp Fly」製品化への道 {#m5stackのド
 
 2024/11/19 06:30
 
-![](https://cdn-images-1.medium.com/max/800/1*pKwqRRiG82bJZw5UofPgAw.png){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*pKwqRRiG82bJZw5UofPgAw.png)
 
 日本でも人気の「M5Stack」シリーズは、画面やボタンなどが一体型になっていて、手軽に使えるマイコンボードだ。
 
@@ -49,7 +52,7 @@ Flyと、大人気となったStamp Flyの間では、どういう変更が行�
 .markup--p-anchor}にて公開された、製品開発の過程をレポートする。
 
 ![製品となったStamp Fly。Atom
-Fly改善プロジェクトが始まってから2年近くが経過し、2024年8月に販売された。](https://cdn-images-1.medium.com/max/800/1*qvk7In8E8eSRxlYLwvdwUw.png){.graf-image}
+Fly改善プロジェクトが始まってから2年近くが経過し、2024年8月に販売された。](https://cdn-images-1.medium.com/max/800/1*qvk7In8E8eSRxlYLwvdwUw.png)
 
 ### 大規模改修を行っても、販売に至らなかった次世代Atom Fly {#63f1 .graf .graf--h3 .graf-after--figure name="63f1"}
 
@@ -86,7 +89,7 @@ Fly2として製品化する方向だと、製品化へのゴールははるか�
 
 ![Atom
 Flyにガードを付けるなどさまざまな改善を行った（左）が、市販のトイドローン筐体に合わせてPCB基板を開発する（右）ことで耐久性、飛行安定性が大幅に改善（[**伊藤教授のスライド**](https://www.docswell.com/s/Kouhei_Ito/K228YN-2024-10-27-074715){.markup--anchor
-.markup--figure-anchor}より）。](https://cdn-images-1.medium.com/max/800/1*CXTtIACUsXKWr25y9ylDuQ.png){.graf-image}
+.markup--figure-anchor}より）。](https://cdn-images-1.medium.com/max/800/1*CXTtIACUsXKWr25y9ylDuQ.png)
 
 開発メンバーの1人である
 GOROman氏が、手持ちのマイクロドローンフレームにAtomflyの制御部分を無理やり組み込んだプロトタイプを作ったことが大きなヒントになった。深圳では多くのメーカーがマイクロドローンを開発しているため、65mm／75mmといったサイズのドローンフレームならば、デファクトスタンダード化された樹脂の強靭なフレームを市場で調達できる。
@@ -98,7 +101,7 @@ Flyで使っていたAtom
 Lite（12g）よりはるかに軽く（3.2g）、性能の高いESP32-S3を搭載していた。かつ、より未使用ピンが多いことで、センサー類の追加に対応できる。
 
 ![M5StampS3
-製品に組み込むことを意図した、小さく拡張性の高いモデル。](https://cdn-images-1.medium.com/max/800/1*mooRRXtyXLfX2HJIr8FkPQ.png){.graf-image}
+製品に組み込むことを意図した、小さく拡張性の高いモデル。](https://cdn-images-1.medium.com/max/800/1*mooRRXtyXLfX2HJIr8FkPQ.png)
 
 新しいフレームに合わせてPCBを設計するため、MCUも変更してM5Stamp
 S3を採用した。さらに伊藤教授のアドバイスを受けて、センサー類を再度精査することになった。Atom
@@ -112,7 +115,7 @@ Flyの改良版でなく、新しいモデルとしてのStamp Flyの誕生で�
 同社のバッテリーはこのサイズのドローン用に最適化されていて、容量が下がっても高い電圧を保てる。これにより、飛行時間が延びて4分の飛行が可能になった。BETAFPVも、競合製品になりかねない同サイズのドローン開発に対して、バッテリーなどの卸販売、モーターなどの取引先紹介に嬉々として協力してくれた。こうした柔軟なサプライチェーン構築は、深圳の特色といえる。
 
 ![2023年8月、M5StackのCEO
-Jimmy（左から２人目）と共にBETAFPVで打ち合わせしたことにより、さまざまな問題が一気に解消された。](https://cdn-images-1.medium.com/max/800/1*tpjoEhsqU023_TjhhIv3lA.png){.graf-image}
+Jimmy（左から２人目）と共にBETAFPVで打ち合わせしたことにより、さまざまな問題が一気に解消された。](https://cdn-images-1.medium.com/max/800/1*tpjoEhsqU023_TjhhIv3lA.png)
 
 ### コントローラーを再設計 Atom Joystick {#964f .graf .graf--h3 .graf-after--figure name="964f"}
 
@@ -125,7 +128,7 @@ Flyで使用するバッテリーを充電する機能を備えたことで、�
 CEOで設計者であるJimmyのアイデア賞ですね」と伊藤教授も称賛する。
 
 ![コントローラーがそのままドローンバッテリーの充電器になるM5ATOM
-Joystick。操作も通常のコントローラーと同じ、左右2本のジョイスティックになった。](https://cdn-images-1.medium.com/max/800/1*PBWhJnJraNNcJRhHtFatBg.png){.graf-image}
+Joystick。操作も通常のコントローラーと同じ、左右2本のジョイスティックになった。](https://cdn-images-1.medium.com/max/800/1*PBWhJnJraNNcJRhHtFatBg.png)
 
 ### マルチコプター制御の入門キットとして {#ae2a .graf .graf--h3 .graf-after--figure name="ae2a"}
 
@@ -134,7 +137,7 @@ Flyはマルチコプター制御の入門キットとして広く受け入れ�
 
 一般的なラジコンカーは、モーターの正逆転による前進／後退とサーボモーターによるステアリングの操作がコントローラーと直接対応している。一方、ドローンは、各ローターの回転数を調整することで上昇や前進などの挙動を行う。ドローンではコントローラー操作とそれぞれのモーターは直接対応しておらず、フライトコントローラーがドローンに搭載されたセンサー値を計算し、モーターの出力をコントロールしつづけるフィードバックループを絶え間なく続けることで操作する。
 
-![マルチコプターは、センサーの値から角度や高さを推定しつづけ、プロポ（送信機）からの入力値をモーターのPID制御に変えることで飛行できる（伊藤教授のスライドより）。](https://cdn-images-1.medium.com/max/800/1*i9WyIPRTJus4XKXc-90x2A.png){.graf-image}
+![マルチコプターは、センサーの値から角度や高さを推定しつづけ、プロポ（送信機）からの入力値をモーターのPID制御に変えることで飛行できる（伊藤教授のスライドより）。](https://cdn-images-1.medium.com/max/800/1*i9WyIPRTJus4XKXc-90x2A.png)
 
 伊藤教授はStamp
 Flyを教材に、学生にマルチコプターの制御を20コマ（1日4コマ×5日）の集中講義で行う授業をすでに行っている。

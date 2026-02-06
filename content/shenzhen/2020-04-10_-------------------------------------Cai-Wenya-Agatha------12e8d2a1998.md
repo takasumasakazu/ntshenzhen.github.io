@@ -1,5 +1,8 @@
 ---
 title: "                                     Cai Wenya Agatha      12e8d2a1998"
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/0*uJN99xyCSt6odziq.jpeg"
+  relative: false
 aliases: ["/2020/04/cai-wenya-agatha-12e8d2a1998/"]
 slug: cai-wenya-agatha-12e8d2a1998
 date: 2020-04-10
@@ -25,7 +28,7 @@ column](https://www.stentre.net/column/){.markup--anchor
 ここにAgathaのコラムの、高須による日本語訳を掲載します。翻訳時に[www.DeepL.com/Translator](http://www.DeepL.com/Translator){.markup--anchor
 .markup--p-anchor}（無料版）を使用しました。
 
-![](https://cdn-images-1.medium.com/max/800/0*uJN99xyCSt6odziq.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/0*uJN99xyCSt6odziq.jpeg)
 
 **Cai Wenya(Agatha)プロフィール**\
 香港中文大学卒業後、深セン、広州、東京のIT/テクノロジー企業に勤務。現在、早稲田大学ビジネススクールに在籍中（金融修士）、2021年9月卒業予定。
@@ -69,7 +72,7 @@ Educationの小室真紀社長から、オープンソースのハードウェ�
 
 何よりも、今回の講義「深圳の産業集積とハードウェアのマスイノベーション」は、深センに関する知識、技術革新に関する知識、登壇者の様々な視点からの声が詰まっていると言わざるを得ません。また、講師の高須先生には、全13回の講義の間、絶え間ない努力で非常に貴重な情報を提供し続けていただきました。私のような学生にこのような貴重な機会を提供してくださった高須先生、牧先生、そしてWBSに感謝するとともに、多様で実践的な講義を提供してくださったことに深く感謝しています。
 
-![多くの中国人学生が受講してくれました。左から2番目がAgatha。](https://cdn-images-1.medium.com/max/800/1*P5YMu0ocsSih23jMywpcpw.jpeg){.graf-image}
+![多くの中国人学生が受講してくれました。左から2番目がAgatha。](https://cdn-images-1.medium.com/max/800/1*P5YMu0ocsSih23jMywpcpw.jpeg)
 
 **高須からの感想**
 
@@ -80,7 +83,7 @@ Qiのゲスト回など、一部英語）で、いつもの僕のスピードで
 Agathaはその中国人学生のなかで、唯一の「深圳の会社出身（元Insta360,いまはTicToc
 Japan）」の人でした。そこに向けて講義して、どうやら内容が正しく伝わったことと、興味をおぼえてくれたことは、とても自信になる、ありがたいことでもあります。
 
-![別の日に深圳市駐日貿易代表所に行ったところ、「メイカーズのエコシステム」を読んでくれていた。こういう、深圳の人たちの力になれるのは嬉しいことです。](https://cdn-images-1.medium.com/max/800/1*FB9lgFltm7uZHBBr90QKiQ.jpeg){.graf-image}
+![別の日に深圳市駐日貿易代表所に行ったところ、「メイカーズのエコシステム」を読んでくれていた。こういう、深圳の人たちの力になれるのは嬉しいことです。](https://cdn-images-1.medium.com/max/800/1*FB9lgFltm7uZHBBr90QKiQ.jpeg)
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [April 10, 2020](https://medium.com/p/12e8d2a1998).

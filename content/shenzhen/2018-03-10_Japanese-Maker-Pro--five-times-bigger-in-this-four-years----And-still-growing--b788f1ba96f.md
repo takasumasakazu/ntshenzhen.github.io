@@ -1,5 +1,8 @@
 ---
 title: "Japanese Maker Pro  five times bigger in this four years    And still growing  b788f1ba96f"
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*6HVXqLV9VLQRDbNY8FjsIw.png"
+  relative: false
 aliases: ["/2018/03/japanese-maker-pro-five-times-bigger-in-this-four-years-and-still-growing-b788f1ba96f/"]
 slug: japanese-maker-pro-five-times-bigger-in-this-four-years-and-still-growing-b788f1ba96f
 date: 2018-03-10
@@ -16,7 +19,7 @@ Japanese Maker Pro (Indie Hardware) is grown rapidly.
 ### Japanese Maker Pro, five times bigger in this four years, ... And still growing! {#57aa .graf .graf--h3 .graf--leading .graf--title name="57aa"}
 
 ![Sales of Maker Pro via Switch Science from
-2014--2017.](https://cdn-images-1.medium.com/max/800/1*6HVXqLV9VLQRDbNY8FjsIw.png){.graf-image}
+2014--2017.](https://cdn-images-1.medium.com/max/800/1*6HVXqLV9VLQRDbNY8FjsIw.png)
 
 ### **Japanese Maker Pro (Indie Hardware) is grown rapidly.** {#0717 .graf .graf--h3 .graf-after--figure name="0717"}
 
@@ -36,7 +39,7 @@ Indie Hardware in Japan has endless possibilities.
 ![TODA KATSUYUKI is Japanese Maker Pro, He is not only Professional
 Manga Artist but also making a lot of indie product such as accessory.
 His booth is quite popular in Maker Faire
-Shenzhen 2017](https://cdn-images-1.medium.com/max/800/1*Vtk3QwZeJC8VEfmNktsgkw.jpeg){.graf-image}
+Shenzhen 2017](https://cdn-images-1.medium.com/max/800/1*Vtk3QwZeJC8VEfmNktsgkw.jpeg)
 
 If you are a MAKER and have been to Tokyo Maker Faire so far, you will
 know that this island is full of creative talents. Countries that
@@ -49,7 +52,7 @@ Pick up some of the Indie products that I have noticed. I could not
 really look over the whole.
 
 ![1970\`s old computer board, Motorola 6800!
-not 68000!](https://cdn-images-1.medium.com/max/800/1*UgMJ3lo_j3ydvcN_Hb1jvQ.png){.graf-image}
+not 68000!](https://cdn-images-1.medium.com/max/800/1*UgMJ3lo_j3ydvcN_Hb1jvQ.png)
 
 [SUZUKI
 Tetsuya](https://twitter.com/vintagechips/with_replies){.markup--anchor
@@ -83,7 +86,7 @@ promoted.<https://qiita.com/junya28nya/items/3f28f7ff283c71c89730>
 ### We are Maker Pro, not a Hardware Startup {#003a .graf .graf--h3 .graf-after--p name="003a"}
 
 ![Seeed proposed
-MAKER PRO](https://cdn-images-1.medium.com/max/800/1*huGH0p1hppQqb8n6NMA1HQ.png){.graf-image}
+MAKER PRO](https://cdn-images-1.medium.com/max/800/1*huGH0p1hppQqb8n6NMA1HQ.png)
 
 \`Maker Pro\` is a wider word than the Hardware Startup proposed by
 Seeed of Shenzhen.
@@ -114,7 +117,7 @@ If you read Naomi Wu's contribution posted in [Make: Vol
 entity.
 
 ![I got Make:Vol 61 at
-Kuala Lumpur!](https://cdn-images-1.medium.com/max/800/1*d8gW74pt3QLDh636A1YISg.jpeg){.graf-image}
+Kuala Lumpur!](https://cdn-images-1.medium.com/max/800/1*d8gW74pt3QLDh636A1YISg.jpeg)
 
 ### **We Japanese Maker goes to MAKER PRO** {#a45b .graf .graf--h3 .graf-after--figure name="a45b"}
 

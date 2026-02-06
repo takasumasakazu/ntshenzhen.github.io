@@ -1,5 +1,8 @@
 ---
 title: "Maker Pro                Quickstater                                       "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*Z_8dJqsSe7dkmfrcrZvP4Q.jpeg"
+  relative: false
 aliases: ["/2025/03/maker-pro-quickstater/"]
 slug: maker-pro-quickstater
 date: 2025-03-23
@@ -17,7 +20,7 @@ Maker Proのためのクラウドファンディング、Quickstater --- ---
 
 2018/06/19 10:30
 
-![](https://cdn-images-1.medium.com/max/800/1*Z_8dJqsSe7dkmfrcrZvP4Q.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*Z_8dJqsSe7dkmfrcrZvP4Q.jpeg)
 
 もともと映画の制作費を集めるために始まったKickstarterは、大きな社会現象になり、多くのスタートアップがここで勢いづくことになった。一方でレベルの上がったクラウドファンディングはプロフェッショナルの場所になり、もともとの理念だった「コミュニティに応援される同人プロジェクト」というキャラクターは薄くなった。Kickstarterは6月18日にQuickStarterという小規模プロジェクト促進を始める。
 
@@ -32,7 +35,7 @@ Kickstarterは過去にいくつか「prompt」（駆り立てる、刺激する
 .markup--p-anchor}という「バッカー（支援者）を100人に限定したプロジェクト」という誘因策を行い、特設ページを作っている。今回のQuickstarterもそれに近いものになる。
 
 ![100人だけを対象にした小規模プロジェクト向け誘因策
-make/100](https://cdn-images-1.medium.com/max/800/1*LEoGbD3ppOeeXR_D1f8bjQ.jpeg){.graf-image}
+make/100](https://cdn-images-1.medium.com/max/800/1*LEoGbD3ppOeeXR_D1f8bjQ.jpeg)
 
 make/100もQuickstarterも狙いは似ていて、今のKickstarterハードウェアプロジェクトの中心になっているフルタイムのスタートアップ企業（最近では大企業のこともある）が仕掛ける数億円規模のキャンペーンと違う、小規模なプロジェクトにも、焦点が当たるようにするということだ。
 
@@ -70,7 +73,7 @@ Crowdfunding Guide
 
 ![[HAX Crowdfunding Guide
 2017](https://www.slideshare.net/haxco/hax-crowdfunding-guide-2017){.markup--anchor
-.markup--figure-anchor}から、彼らのプロジェクトの一つNURAというヘッドフォンの、Kickstarterキャンペーン効果検証。Facebook広告が大きな成果を上げている。](https://cdn-images-1.medium.com/max/800/1*ZYEmd6GUpsl9Jhx1fP2XTg.jpeg){.graf-image}
+.markup--figure-anchor}から、彼らのプロジェクトの一つNURAというヘッドフォンの、Kickstarterキャンペーン効果検証。Facebook広告が大きな成果を上げている。](https://cdn-images-1.medium.com/max/800/1*ZYEmd6GUpsl9Jhx1fP2XTg.jpeg)
 
 ### よりMaker Pro、同人ハードウェアのためのクラウドファンディング {#d935 .graf .graf--h3 .graf-after--figure name="d935"}
 

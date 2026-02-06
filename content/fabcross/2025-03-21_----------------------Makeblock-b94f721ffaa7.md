@@ -1,5 +1,8 @@
 ---
 title: "                      Makeblock"
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*Ir50oCVt_y4UNT1eRS_d4Q.jpeg"
+  relative: false
 aliases: ["/2025/03/makeblock/"]
 slug: makeblock
 date: 2025-03-21
@@ -20,7 +23,7 @@ date: 2025-03-21
 深センのShenzhen Maker Works
 Technologyは、誰でもロボティクスが学べるツール、21世紀の大人のためのレゴとして、Makeblockという製品を開発した。2012年に5人で創業した彼らは、2016年5月現在で社員200人を超える大手企業に急成長し、さらに子ども向けのロボティクス教育ツールを開発している。
 
-![](https://cdn-images-1.medium.com/max/800/1*Ir50oCVt_y4UNT1eRS_d4Q.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*Ir50oCVt_y4UNT1eRS_d4Q.jpeg)
 
 ロボティクス教育のための最後のピース
 
@@ -30,7 +33,7 @@ Technologyは、誰でもロボティクスが学べるツール、21世紀の�
 下の画像は彼らが創業当時の[**プロモーションビデオ**](https://www.kickstarter.com/projects/1397854503/makeblock-next-generation-of-construct-platform/description){.markup--anchor
 .markup--p-anchor}にあるものだ。ロボティクス、ロボット技術を学ぶためには、プログラミングと電子回路（マイクロコントローラ）に加えて、メカニクスを学ぶ必要がある。
 
-![初期のMakeblock。](https://cdn-images-1.medium.com/max/800/1*3vAFmSfHlHWPrshiMdx9jA.jpeg){.graf-image}
+![初期のMakeblock。](https://cdn-images-1.medium.com/max/800/1*3vAFmSfHlHWPrshiMdx9jA.jpeg)
 
 Arduinoのようなマイコンを使って、ラジコンカーを作ることを考えて見よう。まず、制御するソフトウェアを書く必要がある。例えば「前」のボタンを押したときラジコンカーが前に進むためには、そのようにソフトウェアがつくられていないとならない。
 
@@ -41,7 +44,7 @@ Arduinoのようなマイコンを使って、ラジコンカーを作ること�
 モノをつかむとしたら？
 関節は何個必要で、強すぎも弱すぎもしない力でモノをつかむためにはどういう機構がいるんだろう？
 
-![Makeblockキットを構成するアルミのパーツ類。](https://cdn-images-1.medium.com/max/800/1*F857A9NEj-0bMUGCHAVIFg.jpeg){.graf-image}
+![Makeblockキットを構成するアルミのパーツ類。](https://cdn-images-1.medium.com/max/800/1*F857A9NEj-0bMUGCHAVIFg.jpeg)
 
 Makeblockはこの機構の部分を学ぶためのツール、または楽しむためのオモチャだ。丁寧に面取りされたアルミ押し出し材で作られたパーツは堅牢で、簡単にはゆがまず、精度の高いものが作れる。等間隔に開いているネジ穴の他に中心部の溝にもネジ山が切ってあって、任意の位置に他のパーツを固定できる。基本のアルミパーツの他にジョイントやさまざまなモーターなど、機構を実現するパーツ類があり、さまざまなロボットを作ることができる。
 
@@ -53,7 +56,7 @@ Makeblockはこの機構の部分を学ぶためのツール、または楽し�
 Unoと互換性がある。キットを想定通りに組みあげたら、キットごとに用意されている製品Wikiからソフトをダウンロードすれば、プログラミングができない人でもロボットを組み上げ、思い通りに動かす遊びが出来る。パーツの一つ一つは汎用のレールやギヤなので、そこでおぼえた知識は自分でロボットを思いつく発明のときに役立つ。キットの部材がアルミでできていて頑丈なこと、それぞれの部品はシンプルで何にでも使えるギヤやジョイントなどであることが応用範囲を大きく広げている。頑丈でないものでロボットキットを作ろうとすると、本体の部材があまり堅牢ではないため、多くの専用部品を使わなければならない。
 
 ![「XY Plotter Robot Kit」と「Ultimate Robot
-Kit-Blue」。](https://cdn-images-1.medium.com/max/800/1*GDMfE8gnwXLck4Z-Nphd7Q.jpeg){.graf-image}
+Kit-Blue」。](https://cdn-images-1.medium.com/max/800/1*GDMfE8gnwXLck4Z-Nphd7Q.jpeg)
 
 例えば、この[**「XY Plotter Robot
 Kit」**](http://makeblock.com/xy-plotter-robot-kit){.markup--anchor
@@ -90,7 +93,7 @@ V2.0」**](http://makeblock.com/music-robot-kit-v2-0-with-electronics){.markup--
 Makeblockは大学でロボティクスを学んだJasen
 Wangたち5人が起業した会社だ。Wangはいまも、なるべく長い時間オフィスにいて、新たなMakeblockの機構を考えている。主力製品のギヤと履帯がかみあう機構などは社長の彼が自らデザインしている。
 
-![Makeblockオフィスを訪ねたときの筆者とWang。](https://cdn-images-1.medium.com/max/800/1*ojYsFkav_xO-endc9t0mDQ.jpeg){.graf-image}
+![Makeblockオフィスを訪ねたときの筆者とWang。](https://cdn-images-1.medium.com/max/800/1*ojYsFkav_xO-endc9t0mDQ.jpeg)
 
 ロボット好きが集まって成り立つ企業だけに、さらに機能を増やして何でもできる方向にキットを増やしていたが、2015年に発表した[**「mBot」**](https://fabcross.jp/news/2015/04/20150413_mbot.html){.markup--anchor
 .markup--p-anchor}は、新しい方向のプロダクトだ。
@@ -132,9 +135,9 @@ CodeyBotはラジコンカーのように扱えるし、タブレットから顔
 
 4月に僕が彼らのオフィスを訪ねたときは、社内ハッカソンの最中で、その場で週末に再訪して審査員に加わることになった。
 
-![社内ハッカソンの決勝。中央の箱をどれだけ自分の陣地に集めたかで勝敗が決まるロボコン的なもの。](https://cdn-images-1.medium.com/max/800/1*9PcbxxaU6Ut34Y919qj4JQ.jpeg){.graf-image}
+![社内ハッカソンの決勝。中央の箱をどれだけ自分の陣地に集めたかで勝敗が決まるロボコン的なもの。](https://cdn-images-1.medium.com/max/800/1*9PcbxxaU6Ut34Y919qj4JQ.jpeg)
 
-![オフィスはいつも、Makeblockを使って何かを作る社員であふれている。床にはライントレース用の線が引かれては消える。](https://cdn-images-1.medium.com/max/800/1*RZOp0bVdaF8EG7wItrDtnA.jpeg){.graf-image}
+![オフィスはいつも、Makeblockを使って何かを作る社員であふれている。床にはライントレース用の線が引かれては消える。](https://cdn-images-1.medium.com/max/800/1*RZOp0bVdaF8EG7wItrDtnA.jpeg)
 
 休日にもかかわらず半数近くの社員が出社してきていて、子どもを連れてきている社員もいる。4～5人で1チームをつくり、チームごとにMakeblockを使ってロボットを作る。オフィスに転がる多くの部品や床に引かれたライントレース用のテープが、Makeblockが引き続きMakerたちの会社であることを物語る。
 

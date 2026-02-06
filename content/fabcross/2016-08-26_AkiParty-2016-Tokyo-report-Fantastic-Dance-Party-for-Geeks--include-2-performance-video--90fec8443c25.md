@@ -1,5 +1,8 @@
 ---
 title: "AkiParty 2016 Tokyo report Fantastic Dance Party for Geeks  include 2 performance video "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*W_eHj9qy3vUKBTxuChSW9A.jpeg"
+  relative: false
 aliases: ["/2016/08/akiparty-2016-tokyo-report-fantastic-dance-party-for-geeks-include-2-performance-video/"]
 slug: akiparty-2016-tokyo-report-fantastic-dance-party-for-geeks-include-2-performance-video
 date: 2016-08-26
@@ -18,7 +21,7 @@ starts from 2014 in Akihabara, Tokyo, and grown in Shenzhen. Then...
 
 ![AkiParty --- Dance Party for the Geeks, by the Geeks, of the Geeks
 (Photo by
-Akira Kumagai)](https://cdn-images-1.medium.com/max/800/1*W_eHj9qy3vUKBTxuChSW9A.jpeg){.graf-image}
+Akira Kumagai)](https://cdn-images-1.medium.com/max/800/1*W_eHj9qy3vUKBTxuChSW9A.jpeg)
 
 [AkiParty --- Dance Party for the Geeks, by the Geeks, of the
 Geeks](https://www.facebook.com/Akiparty4Geeks/){.markup--anchor
@@ -49,16 +52,16 @@ make and play his performance when his time, you can see that video
 
 ![AkiParty 2016 Tokyo have booth area, some maker bring own Making
 project for Dance club! (Photo by
-Akira Kumagai)](https://cdn-images-1.medium.com/max/800/1*HJEpccQypvYJjZQxK7nYBg.jpeg){.graf-image}
+Akira Kumagai)](https://cdn-images-1.medium.com/max/800/1*HJEpccQypvYJjZQxK7nYBg.jpeg)
 
 ![We bring so many lazer machine to small dance hall. (Photo by
-Akira Kumagai)](https://cdn-images-1.medium.com/max/800/1*YXWIXdPzErwoeb0OQnco2A.jpeg){.graf-image}
+Akira Kumagai)](https://cdn-images-1.medium.com/max/800/1*YXWIXdPzErwoeb0OQnco2A.jpeg)
 
 ![Their Techno Cosplay making skirt becomes display! (Photo by
-Akira Kumagai)](https://cdn-images-1.medium.com/max/800/1*PdVdR2qXnMIkT-wsnu1l7A.jpeg){.graf-image}
+Akira Kumagai)](https://cdn-images-1.medium.com/max/800/1*PdVdR2qXnMIkT-wsnu1l7A.jpeg)
 
 ![LED Cosplay girl down on stairway to dance floor. (Photo by
-Akira Kumagai)](https://cdn-images-1.medium.com/max/800/1*-2T235zhlS55GGxcneFtcA.jpeg){.graf-image}
+Akira Kumagai)](https://cdn-images-1.medium.com/max/800/1*-2T235zhlS55GGxcneFtcA.jpeg)
 
 The final act is [Toriena](http://www.toriena.net/){.markup--anchor
 .markup--p-anchor}. She plays pop-style Chip-Tune by her hacked Game boy
@@ -72,7 +75,7 @@ We will make party again at the Hardware capital Shenzhen, China.\
 Don't miss it next AkiParty at Shenzhen!
 
 ![See you in
-Shenzhen!](https://cdn-images-1.medium.com/max/800/1*tr9i3xwsFy8X69YzApR_QA.jpeg){.graf-image}
+Shenzhen!](https://cdn-images-1.medium.com/max/800/1*tr9i3xwsFy8X69YzApR_QA.jpeg)
 
 AkiParty Facebook: <https://www.facebook.com/Akiparty4Geeks/>\
 Maker Faire Shenzhen: <https://www.facebook.com/MakerFaireSZ/>\

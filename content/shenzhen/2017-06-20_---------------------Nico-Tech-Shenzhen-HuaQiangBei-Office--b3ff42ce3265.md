@@ -1,5 +1,8 @@
 ---
 title: "                     Nico Tech Shenzhen HuaQiangBei Office "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*5bGmnAe37cRBju5DTgBUvQ.jpeg"
+  relative: false
 aliases: ["/2017/06/nico-tech-shenzhen-huaqiangbei-office/"]
 slug: nico-tech-shenzhen-huaqiangbei-office
 date: 2017-06-20
@@ -20,9 +23,9 @@ date: 2017-06-20
 深圳の電気街華強北（HuaQiangBei)コワーキングスペースに位置する、ニコ技深圳コミュニティのオフィスです。（アポ無し訪問が多いため、住所詳細は非公開）\
 2014年のオープン以来何度か移転し、2024年3月より現在の場所で運営しています。
 
-![オフィス入口](https://cdn-images-1.medium.com/max/800/1*5bGmnAe37cRBju5DTgBUvQ.jpeg){.graf-image}
+![オフィス入口](https://cdn-images-1.medium.com/max/800/1*5bGmnAe37cRBju5DTgBUvQ.jpeg)
 
-![オフィス内部（棚などを運び込む前）](https://cdn-images-1.medium.com/max/800/1*_-G7WgBIkQIITkhLE9Wixg.jpeg){.graf-image}
+![オフィス内部（棚などを運び込む前）](https://cdn-images-1.medium.com/max/800/1*_-G7WgBIkQIITkhLE9Wixg.jpeg)
 
 日本のMaker/Startupが深圳にある程度の期間（1週間以上とか）滞在する際のワークスペースや、中国国内にしか発送されない機材の受取など、深圳でメイカー活動を行う際の一時的な拠点として使用することで、相互の交流が進むことを目的にしています。
 
@@ -62,7 +65,7 @@ yingzhao928773 Wechat:takasumasakazu）。
 
 作業等で利用される（ドアの開閉、カギの貸し借りぐらいしかメンバーの対応を必要としない）のは大歓迎です。
 
-![](https://cdn-images-1.medium.com/max/800/0*lLBsZWEKMZh3fLRB.){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/0*lLBsZWEKMZh3fLRB.)
 
 [**ニコ技深圳コミュニティではオンラインイベントを強化していきます。**\
 *ニコ技深圳コミュニティでは、企業スポンサーを頂いて、深圳のコワーキングスペースにオフィスを確保しています。*medium.com](https://medium.com/ecosystembymakers/online-abdaaa529470 "https://medium.com/ecosystembymakers/online-abdaaa529470"){.markup--anchor

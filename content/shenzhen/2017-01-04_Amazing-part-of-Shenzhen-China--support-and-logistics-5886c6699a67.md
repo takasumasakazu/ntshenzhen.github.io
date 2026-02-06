@@ -1,5 +1,8 @@
 ---
 title: "Amazing part of Shenzhen China  support and logistics"
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*wKfLLZlTr1olwaO_Q3IySw.png"
+  relative: false
 aliases: ["/2017/01/amazing-part-of-shenzhen-china-support-and-logistics/"]
 slug: amazing-part-of-shenzhen-china-support-and-logistics
 date: 2017-01-04
@@ -25,7 +28,7 @@ minutes by my own smartphone\
 4/Jan I heard shipment from Beijing\
 5/Jan Arrive Shenzhen.
 
-![](https://cdn-images-1.medium.com/max/800/1*wKfLLZlTr1olwaO_Q3IySw.png){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*wKfLLZlTr1olwaO_Q3IySw.png)
 
 ONLY 1 WEEK, INCLUDE PAY, REPORT, ANY OTHER THINGS!!!!\
 These day include new year day, and around 2200km distance!\

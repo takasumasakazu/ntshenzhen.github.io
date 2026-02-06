@@ -1,5 +1,8 @@
 ---
 title: "Videos Shenzhen High Tour for Makers Vol 7 Apr 2017"
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*fAaxKmbd6xtVkPDT2HnIww.jpeg"
+  relative: false
 aliases: ["/2017/04/videos-shenzhen-high-tour-for-makers-vol-7-apr-2017/"]
 slug: videos-shenzhen-high-tour-for-makers-vol-7-apr-2017
 date: 2017-04-10
@@ -16,7 +19,7 @@ tour are organized Seeed, Chaihuo, and TAKASU, they are Maker Faire...
 
 ### Videos:Shenzhen High Tour for Makers Vol.7 Apr/2017 {#7231 .graf .graf--h3 .graf--leading .graf--title name="7231"}
 
-![](https://cdn-images-1.medium.com/max/800/1*fAaxKmbd6xtVkPDT2HnIww.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*fAaxKmbd6xtVkPDT2HnIww.jpeg)
 
 We saw the Hardware capital Shenzhen city by High tour for makers. That
 tour are organized Seeed, Chaihuo, and TAKASU, they are Maker Faire
@@ -32,7 +35,7 @@ share these amazing talks for world makers.
 **Day 1 4th Apr 2017**
 
 ![Day
-1 Schedule](https://cdn-images-1.medium.com/max/800/1*JqZOR1uWtUF_WTc41_dY1g.png){.graf-image}
+1 Schedule](https://cdn-images-1.medium.com/max/800/1*JqZOR1uWtUF_WTc41_dY1g.png)
 
 HAX Benjamin How to make 1000 Sony \[Shenzhen Makers High Tour Vol.7\]
 04Apr2017 (In Japanese and English)
@@ -46,7 +49,7 @@ Fujioka Junichi JENESIS \[Shenzhen Makers High Tour Vol.7\] 04Apr2017
 **Day 2 5th/Apr/2017**
 
 ![Day 2
-5th/Apr/2017](https://cdn-images-1.medium.com/max/800/1*xdGZLgvDdR_EE2t_zRrccg.png){.graf-image}
+5th/Apr/2017](https://cdn-images-1.medium.com/max/800/1*xdGZLgvDdR_EE2t_zRrccg.png)
 
 DoBot, Hardware Startup in Shenzhen, Robotic Arm \[Shenzhen Makers High
 Tour Vol.7\] 04Apr2017
@@ -59,7 +62,7 @@ Chaihuo Makerspace Violet Su \[Shenzhen Makers High Tour Vol.7\]
 
 **Day 3, 6th/Apr/2017**
 
-![](https://cdn-images-1.medium.com/max/800/1*bLI6g6Q1oc6phr4TznP-Vg.png){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*bLI6g6Q1oc6phr4TznP-Vg.png)
 
 Ash Cloud \[Shenzhen Makers High Tour Vol.7\] 06Apr2017
 

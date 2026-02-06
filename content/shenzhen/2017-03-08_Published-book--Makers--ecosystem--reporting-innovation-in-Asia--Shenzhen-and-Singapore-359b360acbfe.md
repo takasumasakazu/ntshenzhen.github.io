@@ -1,5 +1,8 @@
 ---
 title: "Published book  Makers  ecosystem  reporting innovation in Asia  Shenzhen and Singapore"
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*ox-i0xXxFfagf2QlTdys7g.jpeg"
+  relative: false
 aliases: ["/2017/03/published-book-makers-ecosystem-reporting-innovation-in-asia-shenzhen-and-singapore/"]
 slug: published-book-makers-ecosystem-reporting-innovation-in-asia-shenzhen-and-singapore
 date: 2017-03-08
@@ -25,7 +28,7 @@ systems and venture companies.\
 Singapore's approach is symbolized by Vivian, Minister for Foreign
 Affairs and Minister for Smart Nation.
 
-![](https://cdn-images-1.medium.com/max/800/1*ox-i0xXxFfagf2QlTdys7g.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*ox-i0xXxFfagf2QlTdys7g.jpeg)
 
 **Content volume\
 **391P (In Japanese)\

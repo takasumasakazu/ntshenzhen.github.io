@@ -1,5 +1,8 @@
 ---
 title: "How to create a Hackerspace  A Night with Mitch Altman at Tokyo"
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*WJFnMTNJicC4eznUg08--g.jpeg"
+  relative: false
 aliases: ["/2016/07/how-to-create-a-hackerspace-a-night-with-mitch-altman-at-tokyo/"]
 slug: how-to-create-a-hackerspace-a-night-with-mitch-altman-at-tokyo
 date: 2016-07-19
@@ -29,7 +32,7 @@ Hackerspace](http://www.tokyohackerspace.org/){.markup--anchor
 .markup--p-anchor}, we told about How to create a Hackerspace each
 other.
 
-![](https://cdn-images-1.medium.com/max/800/1*WJFnMTNJicC4eznUg08--g.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*WJFnMTNJicC4eznUg08--g.jpeg)
 
 That was so good time with full seats of audience.
 

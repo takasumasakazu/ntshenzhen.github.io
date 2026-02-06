@@ -1,5 +1,8 @@
 ---
 title: "Chinese entrepreneur told Kickstarter and Chinese copycat Shanzhai Open Source hardware"
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*1N4pbCeB2YFO1fECvzcgKQ.jpeg"
+  relative: false
 aliases: ["/2017/06/chinese-entrepreneur-told-kickstarter-and-chinese-copycat-shanzhai-open-source-hardware/"]
 slug: chinese-entrepreneur-told-kickstarter-and-chinese-copycat-shanzhai-open-source-hardware
 date: 2017-06-14
@@ -29,7 +32,7 @@ countermeasures and the survival strategy to continue inventing in
 China.
 
 ![Robin Wu, Chinese inventer. He well know
-Shanzhai King](https://cdn-images-1.medium.com/max/800/1*1N4pbCeB2YFO1fECvzcgKQ.jpeg){.graf-image}
+Shanzhai King](https://cdn-images-1.medium.com/max/800/1*1N4pbCeB2YFO1fECvzcgKQ.jpeg)
 
 ### **Robin Wu handling four business in China and Africa** {#ea08 .graf .graf--h3 .graf-after--figure name="ea08"}
 
@@ -63,7 +66,7 @@ timing) when Intel creates new chips, design and develop AR glasses etc.
 that I personally interested in doing.
 
 ![His brand
-AR Glass](https://cdn-images-1.medium.com/max/800/1*qbLtvpNH9jdrRZLTD54ZCQ.jpeg){.graf-image}
+AR Glass](https://cdn-images-1.medium.com/max/800/1*qbLtvpNH9jdrRZLTD54ZCQ.jpeg)
 
 Thirdly, in Ethiopia where China is investing a lot, Mr. Wu set up the
 electrical products manufacturing business with partners who employ 20
@@ -103,10 +106,10 @@ CUBE](https://www.kickstarter.com/projects/antsylabs/fidget-cube-a-vinyl-desk-to
 .markup--figure-anchor}、[FIGMENT](https://www.kickstarter.com/projects/quantumbakery/figment-vr-virtual-reality-in-your-pocket?ref=nav_search){.markup--anchor
 .markup--figure-anchor}、[PRESSY](https://www.kickstarter.com/projects/556341540/pressy-the-almighty-android-button){.markup--anchor
 .markup--figure-anchor} In
-Kickstarter](https://cdn-images-1.medium.com/max/800/1*kTE6eplheTRomJM4lnZ1Ug.png){.graf-image}
+Kickstarter](https://cdn-images-1.medium.com/max/800/1*kTE6eplheTRomJM4lnZ1Ug.png)
 
 ![Copycat
-In Taobao](https://cdn-images-1.medium.com/max/800/1*SpYGO1DlDJfaCWkYrg4n4A.png){.graf-image}
+In Taobao](https://cdn-images-1.medium.com/max/800/1*SpYGO1DlDJfaCWkYrg4n4A.png)
 
 Mass production is a difficult task for those who set up a project with
 Crowd Funding, and many project owners do not have experience in the
@@ -186,7 +189,7 @@ strategic position.
 
 ![STARY, big succeed in Kickstarter, 1,178 backers pledged \$742,739 to
 help bring this project
-to life.](https://cdn-images-1.medium.com/max/800/1*ziGenk9MNZ5r_xYnCkXP5w.png){.graf-image}
+to life.](https://cdn-images-1.medium.com/max/800/1*ziGenk9MNZ5r_xYnCkXP5w.png)
 
 Another friend, Chen Rex of Shanghai developed an electric skateboard
 called STARY and gathered over [\$ 700,000 in
@@ -208,7 +211,7 @@ already been sold for around \$ 200 for original STARY \$ 899. Chen, who
 was asked about the copied item in the Q & A done after the talk, said:
 
 ![His STARY(Orange) and
-Copycat(Green)](https://cdn-images-1.medium.com/max/800/1*UsMzyDyr5QkYN4vxZHUdXw.jpeg){.graf-image}
+Copycat(Green)](https://cdn-images-1.medium.com/max/800/1*UsMzyDyr5QkYN4vxZHUdXw.jpeg)
 
 > STARY is an electric skateboard but it's a \$ 899 product that costs a
 > lot of labor and cost, such as dedicated batteries, gears and molds,

@@ -1,5 +1,8 @@
 ---
 title: "Kickstarter is bad place for Simple idea gadget "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*Q1U1f6ERzalNGBCG2op8og.jpeg"
+  relative: false
 aliases: ["/2017/03/kickstarter-is-bad-place-for-simple-idea-gadget/"]
 slug: kickstarter-is-bad-place-for-simple-idea-gadget
 date: 2017-03-13
@@ -26,7 +29,7 @@ CUBEは、2-300円で深センですでに売られています。\
 
 https://www.antsylabs.com/products/fidget-cube
 
-![](https://cdn-images-1.medium.com/max/800/1*Q1U1f6ERzalNGBCG2op8og.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*Q1U1f6ERzalNGBCG2op8og.jpeg)
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 13, 2017](https://medium.com/p/f0b1f4928cfe).

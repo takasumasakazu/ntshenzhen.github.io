@@ -1,5 +1,8 @@
 ---
 title: "Make Vol 61        SINO BIT             "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*b3j3H9PTHoqlyHr1jx-QxA.png"
+  relative: false
 aliases: ["/2018/02/make-vol-61-sino-bit/"]
 slug: make-vol-61-sino-bit
 date: 2018-02-16
@@ -32,7 +35,7 @@ Make:Vol61](https://makezine.com/2018/01/11/announcing-make-vol-61/){.markup--an
 Wu](https://twitter.com/RealSexyCyborg){.markup--anchor
 .markup--p-anchor})
 
-![](https://cdn-images-1.medium.com/max/800/1*b3j3H9PTHoqlyHr1jx-QxA.png){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*b3j3H9PTHoqlyHr1jx-QxA.png)
 
 **私はNaomi
 Wu（**[**\@realsexycyborg**](http://twitter.com/realsexycyborg "Twitter profile for @realsexycyborg"){.markup--anchor
@@ -50,7 +53,7 @@ Wu（**[**\@realsexycyborg**](http://twitter.com/realsexycyborg "Twitter profile
 深圳がクリエイティブでイノベーティブな場所になるまで、途方もないアイデアとリソースが投下された。**今では何百万という人々が共通の目的と価値を持ち、自分自身のアイデアを製品化し、ここで生産している**。私は何よりもそのおかげで今のようになれた。労働者ではなく、クリエイターに。
 
 ![セクシーサイボーグ様の作品達。すべて[オープンソースで公開](https://sexycyborg.imgur.com/){.markup--anchor
-.markup--figure-anchor}されている](https://cdn-images-1.medium.com/max/800/1*Feqd0ZoLz-ZAYLmeeF4k_A.png){.graf-image}
+.markup--figure-anchor}されている](https://cdn-images-1.medium.com/max/800/1*Feqd0ZoLz-ZAYLmeeF4k_A.png)
 
 だから私は自分のクリエイティブの成果を公開している。\
 私のプロジェクトはヘンで笑えるモノだ。ウェアラブルな背負える3Dプリンタ、合わせ鏡で無限に入っていけるように見えるスカート、infinity
@@ -61,7 +64,7 @@ skirt。みる人誰もが喜ぶ、「クリエイティブな愚かさ」を保
 **私はワーキングクラスの典型と言えるバックグラウンドだ。中国の地元の学校、西洋で言う公立学校を卒業している。自分が西洋ほど包括的な教育を受けられたのはわからないが、今どういうことができるか考えれば、充分な教育を受けたと思っている。\
 特に数学と科学が得意だったことは、今の技術的な活動にすごく役立っていて、ありがたい。学生時代の私は英語オタクで、子供の頃毎晩夜遅くまで英語のテレビ番組を見て、地元の英語コンテストで賞を取ったこともあった。受賞は英語専攻の大学に進学しようとしたときに役だったし、大学生活で小遣い稼ぎをしたいときにさらに役だった。オンラインでプログラムの書き方を学び、フリーランスのWeb開発者になることができたのだ。
 
-![](https://cdn-images-1.medium.com/max/800/1*o1mxOzZUt5IiqyFfYFyApw.png){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*o1mxOzZUt5IiqyFfYFyApw.png)
 
 Web開発は私をスタートアップカルチャーに繋げてくれ、さらに深圳のハードウェアスタートアップシーンに繋げてくれた。深圳にはハードウェア開発をしている多くの西洋人がいる。彼らとメイカー文化やハードウェアのハッキング情報、情報セキュリティなどを話すことはすごく**私の興味をかき立て、自分でも調べるうちに私はメイカーになっていた**。
 
@@ -83,7 +86,7 @@ skirt、LEDで光るライトを内部につけたスカートだった。
 このスカートは最終的に多くの欧米のWebサイトで紹介された。中国の大都市で育った普通の女の子の写真が急に広まる－それは簡単に人間性を見失ってしまうほどの大事件だった。私は、初心者が夜遅くまで半田ごてを握り続けて得たこれを恥ずかしくも、虚栄心だとも思わない。\
 私は今も、プレゼンテーションやパフォーマンスが好きだが、作ることそのものをさらに深く愛している。
 
-![](https://cdn-images-1.medium.com/max/800/1*8yVAPmwd3U97F-SKWa7ycQ.png){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*8yVAPmwd3U97F-SKWa7ycQ.png)
 
 それから2年間はフルタイムで働きながら、2ヶ月に一つぐらいの割合で新しいプロジェクトを作ることができた。ハッキングツールを内蔵した3Dプリントのハイヒール、腕に取り付けられるマイクロドローン、合わせ鏡で作られたスカート、LCDディスプレイで作ったバーレスク式のタンクトップ（もちろん、露出度は控えめ）。メーキャップよりもネットワークハッキングのためにRaspberry
 Piが内蔵されたコンパクト、Wi-fiをハックする装置を積んで飛んでいくドローンのためのデバイスなど。
@@ -116,7 +119,7 @@ Miniはローカリゼーションと簡単なモータードライバを最初�
 Miniの中国版を作ろうとした。CalliopeとMicro:Bitの両方に互換性があるが、いちばん大きな違いとしてSINO:BITは5\*5でなく12\*12のマトリックスLEDを備えている。これで中国語だけでなく、日本語、アラビア語、タイ語、ヒンディー語のような非ラテン言語も表示でき、子供たちは母国語でコンピュータが「こんにちわ、世界！」と言ってくれた感動を体験でき、両親もそのメッセージを読むことができる。休日の挨拶や愛の言葉、宗教的なメッセージまで子供たちがプログラミングすることができる。\
 中国の文化と教育で、「書き言葉」の役割を説明することは難しい。それは私たちの教育や文化のすべてと言えるかもしれない。
 
-![SINO:BITはLEDの数を増やしたことでラテン語圏でない文字を表示することができる](https://cdn-images-1.medium.com/max/800/1*-6rLCk0N7uY07ZjQx7QsTw.png){.graf-image}
+![SINO:BITはLEDの数を増やしたことでラテン語圏でない文字を表示することができる](https://cdn-images-1.medium.com/max/800/1*-6rLCk0N7uY07ZjQx7QsTw.png)
 
 SINO:BITはMicro:BitとCalliope
 Miniに注がれた素晴らしいエンジニアリングの成果を得て、私たち中国人が他の文化や言語、伝統に合わせるのでなく、技術を中国の文化と教育の伝統にあわせて調整したものだ。
@@ -159,7 +162,7 @@ Buttonというアメリカのすばらしいメイカーを知ってるんだ�
 私は自分のスマホで、かつて少しアドバイスしたBeckyのプロジェクト、まわりのWi-fiを切断するサンダルをボスに見せた。\
 結局のところ彼も中国人なので、賢い子供に教育のために何かを与えることが素晴らしいことなのはわかる。
 
-![右端の写真がBecky](https://cdn-images-1.medium.com/max/800/1*JAzGW1SqD7KF1I7Vk7OpRA.png){.graf-image}
+![右端の写真がBecky](https://cdn-images-1.medium.com/max/800/1*JAzGW1SqD7KF1I7Vk7OpRA.png)
 
 彼らはこのアイデアを気に入り、Beckyはプリンタを手に入れました。これはかなり自分たちにとって大きな事で、もっと多くの企業とこういうことを繰り返していきたい。
 
@@ -170,7 +173,7 @@ Makingやその道具は、多くのMAKERの中で男性のものだと思われ
 
 私は常にMakingをしたいと思っているが、ハードウェアやメイカーコミュニティのためのこうした外交と伝道も、実際に行っている。
 
-![僕はクアラルンプールの紀伊國屋でこの号をゲットしました。日本の紀伊國屋にもありそう！PDF版はMakerMediaのサイトですぐ手に入ります！](https://cdn-images-1.medium.com/max/800/1*cjNJIsQNBNS1luqLk3mxaw.jpeg){.graf-image}
+![僕はクアラルンプールの紀伊國屋でこの号をゲットしました。日本の紀伊國屋にもありそう！PDF版はMakerMediaのサイトですぐ手に入ります！](https://cdn-images-1.medium.com/max/800/1*cjNJIsQNBNS1luqLk3mxaw.jpeg)
 
 **訳者より\
 **翻訳とブログでの公開を許可してくれたNaomi WuとCelab Kraft (Senior

@@ -1,5 +1,8 @@
 ---
 title: "Happy CNY  I m still in Shenzhen  Feb 2021 monthly report"
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*woiUBVjfVrQbI71eiHdptw.jpeg"
+  relative: false
 aliases: ["/2021/01/happy-cny-i-m-still-in-shenzhen-feb-2021-monthly-report/"]
 slug: happy-cny-i-m-still-in-shenzhen-feb-2021-monthly-report
 date: 2021-01-31
@@ -17,7 +20,7 @@ This is TAKASU. Long time no see! I\`m in Shenzhen and happy busy days.
 
 ![I met Dr.Yin, She graduate from KANAZAWA university Japan, and working
 in Shenzhen
-goverment!](https://cdn-images-1.medium.com/max/800/1*woiUBVjfVrQbI71eiHdptw.jpeg){.graf-image}
+goverment!](https://cdn-images-1.medium.com/max/800/1*woiUBVjfVrQbI71eiHdptw.jpeg)
 
 This is TAKASU.\
 Long time no see!\

@@ -1,5 +1,8 @@
 ---
 title: "         14         AirPods         Oculus   TWS        RISC V                  "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*VGWhAdRXrkJ8np24lLvPGg.jpeg"
+  relative: false
 aliases: ["/2022/07/14-airpods-oculus-tws-risc-v/"]
 slug: 14-airpods-oculus-tws-risc-v
 date: 2022-07-18
@@ -119,7 +122,7 @@ youtube動画アップ中*togetter.com](https://togetter.com/li/1917506 "https:/
 .markup--mixtapeEmbed-anchor}[](https://togetter.com/li/1917506){.js-mixtapeImage
 .mixtapeImage .u-ignoreBlock}
 
-![](https://cdn-images-1.medium.com/max/800/1*VGWhAdRXrkJ8np24lLvPGg.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*VGWhAdRXrkJ8np24lLvPGg.jpeg)
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [July 18, 2022](https://medium.com/p/f02bffdd5949).

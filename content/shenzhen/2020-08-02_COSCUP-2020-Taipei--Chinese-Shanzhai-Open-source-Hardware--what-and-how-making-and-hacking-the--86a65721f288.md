@@ -1,5 +1,8 @@
 ---
 title: "COSCUP 2020 Taipei  Chinese Shanzhai Open source Hardware  what and how making and hacking the "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*NIL_c3ttnzK2NoR9ja65lQ.jpeg"
+  relative: false
 aliases: ["/2020/08/coscup-2020-taipei-chinese-shanzhai-open-source-hardware-what-and-how-making-and-hacking-the/"]
 slug: coscup-2020-taipei-chinese-shanzhai-open-source-hardware-what-and-how-making-and-hacking-the
 date: 2020-08-02
@@ -27,7 +30,7 @@ ecosystem and value in modern IoT development?
 
 They Shanzhai hacked What? How they hacked the Manufactualing?
 
-![](https://cdn-images-1.medium.com/max/800/1*NIL_c3ttnzK2NoR9ja65lQ.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*NIL_c3ttnzK2NoR9ja65lQ.jpeg)
 
 If you find a product in TAOBAO, you can get them PCBA design like
 download from Github. And if you release a new product in TAOBAO,
@@ -40,7 +43,7 @@ choose
 
 Shanzhai is a Chinese style, innovation model.
 
-![](https://cdn-images-1.medium.com/max/800/1*KZriMl_XxQ8GARisxf3vQA.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*KZriMl_XxQ8GARisxf3vQA.jpeg)
 
 ### **History of Origin** {#52e1 .graf .graf--h3 .graf-after--figure name="52e1"}
 
@@ -80,7 +83,7 @@ Example, Famous IDH Wiingtech design 83 million smartphone in 2017. And
 Chinese tech giants still use IDH. 80% Xiaomi\`s smartphones design that
 outsourced by IDH, also Lenovo\` 70%, TCL:25%, Meizu:95%, Huawei:38%...
 
-![](https://cdn-images-1.medium.com/max/800/1*jg6vMFDHY08kkstcFX0q8g.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*jg6vMFDHY08kkstcFX0q8g.jpeg)
 
 ### **Why they can outsource, but Apple cannot?** {#9931 .graf .graf--h3 .graf-after--figure name="9931"}
 
@@ -94,7 +97,7 @@ ecosystem, by tech giant and IDH.
 Modern Shanzhai not any pirate to the patients, but them ecosystem still
 make profit for the company in China.
 
-![](https://cdn-images-1.medium.com/max/800/1*GkMZRJjLfWxO1hBfZQIw-w.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*GkMZRJjLfWxO1hBfZQIw-w.jpeg)
 
 ### **Other style Shanzhai Business** {#1112 .graf .graf--h3 .graf-after--figure name="1112"}
 
@@ -117,7 +120,7 @@ channels, PCBA for B2B and product for B2C.
 This is the backstage, why many new hardware products came from quickly
 from Shenhzen.
 
-![](https://cdn-images-1.medium.com/max/800/1*zh1UsDlAn9jyazCYO3j17g.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*zh1UsDlAn9jyazCYO3j17g.jpeg)
 
 ### **Conclusion** {#4435 .graf .graf--h3 .graf-after--figure name="4435"}
 
@@ -161,7 +164,7 @@ quad-band...*www.bunniestudios.com](https://www.bunniestudios.com/blog/?page_id=
 .markup--mixtapeEmbed-anchor}[](https://www.bunniestudios.com/blog/?page_id=3107){.js-mixtapeImage
 .mixtapeImage .u-ignoreBlock}
 
-![](https://cdn-images-1.medium.com/max/800/1*L_m7yoiwMlkJoHgwm5c1FA.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*L_m7yoiwMlkJoHgwm5c1FA.jpeg)
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [August 2, 2020](https://medium.com/p/86a65721f288).

@@ -1,5 +1,8 @@
 ---
 title: "TAKASU   Nico Tech Shenzhen Community Monthly news May 2018"
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*Me3yNOD1QqmJnq71lt2YFA.jpeg"
+  relative: false
 aliases: ["/2018/05/takasu-nico-tech-shenzhen-community-monthly-news-may-2018/"]
 slug: takasu-nico-tech-shenzhen-community-monthly-news-may-2018
 date: 2018-05-01
@@ -22,7 +25,7 @@ May, I will go Maker Faire Bay Area 2018, and talk about Make
 
 ![Raspberry Pi Foundation, Even Upton & Mike Buffam, I got stamp on My
 Makerspace
-Passport!](https://cdn-images-1.medium.com/max/800/1*Me3yNOD1QqmJnq71lt2YFA.jpeg){.graf-image}
+Passport!](https://cdn-images-1.medium.com/max/800/1*Me3yNOD1QqmJnq71lt2YFA.jpeg)
 
 I did 3 weeks EURO tour, Prague → Sachsen → Nantes → London → Cambridge
 → Nottingham → Sheffield → Newcastle, for Maker Faire UK.

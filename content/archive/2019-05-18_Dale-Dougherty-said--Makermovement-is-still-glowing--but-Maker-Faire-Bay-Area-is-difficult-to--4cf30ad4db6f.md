@@ -1,5 +1,8 @@
 ---
 title: "Dale Dougherty said  Makermovement is still glowing  but Maker Faire Bay Area is difficult to "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*EgE9xT9Lr_tTP1IE0TWIGw.jpeg"
+  relative: false
 aliases: ["/2019/05/dale-dougherty-said-makermovement-is-still-glowing-but-maker-faire-bay-area-is-difficult-to/"]
 slug: dale-dougherty-said-makermovement-is-still-glowing-but-maker-faire-bay-area-is-difficult-to
 date: 2019-05-18
@@ -52,7 +55,7 @@ Southeast Asia, but here in Silicon Valley, "Value" mean\`s only the
 money.
 
 ![Unique culture, but not so profitable for the
-Sponsor.....](https://cdn-images-1.medium.com/max/800/1*EgE9xT9Lr_tTP1IE0TWIGw.jpeg){.graf-image}
+Sponsor.....](https://cdn-images-1.medium.com/max/800/1*EgE9xT9Lr_tTP1IE0TWIGw.jpeg)
 
 This year MFBA is a bit smaller than last 2 years, however still
 beautiful. I hope to see the MFBA mind to spread in the world.

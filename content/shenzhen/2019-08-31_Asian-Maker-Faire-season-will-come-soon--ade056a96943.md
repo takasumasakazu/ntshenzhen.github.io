@@ -1,5 +1,8 @@
 ---
 title: "Asian Maker Faire season will come soon "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*PI_wRuxTBi4BAAYeA9XYbQ.jpeg"
+  relative: false
 aliases: ["/2019/08/asian-maker-faire-season-will-come-soon/"]
 slug: asian-maker-faire-season-will-come-soon
 date: 2019-08-31
@@ -20,7 +23,7 @@ This autumn from Oct-Nov two months, too much Maker event in all around
 Asia. I will be the event, more than every weekend.
 
 ![Front of Seeed booth, in HuaQiangBei, Electric Maket in
-Shenzhen.](https://cdn-images-1.medium.com/max/800/1*PI_wRuxTBi4BAAYeA9XYbQ.jpeg){.graf-image}
+Shenzhen.](https://cdn-images-1.medium.com/max/800/1*PI_wRuxTBi4BAAYeA9XYbQ.jpeg)
 
 Now\`s Maker movement in Asia is so grown, This is my report on
 Make:Magazine about Manila\`s Mini Maker Faire.

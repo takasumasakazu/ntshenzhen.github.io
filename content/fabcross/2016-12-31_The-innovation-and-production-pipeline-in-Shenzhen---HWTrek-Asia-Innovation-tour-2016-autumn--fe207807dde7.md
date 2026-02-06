@@ -1,5 +1,8 @@
 ---
 title: "The innovation and production pipeline in Shenzhen   HWTrek Asia Innovation tour 2016 autumn "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*jgInW40ou8_E3ux4RE1DfA.jpeg"
+  relative: false
 aliases: ["/2016/12/the-innovation-and-production-pipeline-in-shenzhen-hwtrek-asia-innovation-tour-2016-autumn/"]
 slug: the-innovation-and-production-pipeline-in-shenzhen-hwtrek-asia-innovation-tour-2016-autumn
 date: 2016-12-31
@@ -22,7 +25,7 @@ the startup twice a year. I will introduce the situation of the tour and
 manufacturers of the supply chain at prototype / small lot stage.
 
 ![HWTrek 's CEO Lucas Wang. He connects startups and
-manufacturers.](https://cdn-images-1.medium.com/max/800/1*jgInW40ou8_E3ux4RE1DfA.jpeg){.graf-image}
+manufacturers.](https://cdn-images-1.medium.com/max/800/1*jgInW40ou8_E3ux4RE1DfA.jpeg)
 
 HWTrek is a support company for Makers. They make networks to connect
 the following 33 together and make business as matching.
@@ -37,7 +40,7 @@ not make products by oneself.
 Shenzhen by bus.\
 Many manufacturers are situated on the other side of Hong Kong, Baoan
 District in Shenzhen, Dongguan City and
-so on.](https://cdn-images-1.medium.com/max/800/1*QjQ1B5Dkt2NwA1js-mQg0w.jpeg){.graf-image}
+so on.](https://cdn-images-1.medium.com/max/800/1*QjQ1B5Dkt2NwA1js-mQg0w.jpeg)
 
 This is list.You can see whole process from Prototype to Product.\
 [SkyPrototype](http://www.sky-pt.com/){.markup--anchor
@@ -104,14 +107,14 @@ American resources to a company in China.
 ![Maker space just finished. Besides co-working space, in addition to a
 full-scale prototype development environment, it also has a sports gym
 and
-the like.](https://cdn-images-1.medium.com/max/800/1*95nSSdCsuHFSkQ79ronzbg.jpeg){.graf-image}
+the like.](https://cdn-images-1.medium.com/max/800/1*95nSSdCsuHFSkQ79ronzbg.jpeg)
 
 ![High performance CNC machine. Many machine tools are in huge space
 such as 4 axis and 5 axis CNC, lathe, 3D
-print etc.](https://cdn-images-1.medium.com/max/800/1*DZmZRk6ntGk3JRVBNH2ujA.jpeg){.graf-image}
+print etc.](https://cdn-images-1.medium.com/max/800/1*DZmZRk6ntGk3JRVBNH2ujA.jpeg)
 
 ![Shenzhen Valley Ventures' prototyping space has small production
-lines.](https://cdn-images-1.medium.com/max/800/1*r5bm5THp5pIaT1wO0scGUQ.jpeg){.graf-image}
+lines.](https://cdn-images-1.medium.com/max/800/1*r5bm5THp5pIaT1wO0scGUQ.jpeg)
 
 Of course, as HAX is also investing in Chinese companies, Shenzhen
 Valley Ventures also invests in the start-up in the world other than the
@@ -170,22 +173,22 @@ axes and 5 axes, line up.
 
 ![CNC, computer numerical control processing machine. Cut aluminum,
 plastic, wood etc to shape it
-as desired.](https://cdn-images-1.medium.com/max/800/1*Tramt0XhrGP-CwlLzWzOfA.jpeg){.graf-image}
+as desired.](https://cdn-images-1.medium.com/max/800/1*Tramt0XhrGP-CwlLzWzOfA.jpeg)
 
 ![Cutting drill CNC of the type which can automatically replace the
 cutting edge and can perform fine
-processing.](https://cdn-images-1.medium.com/max/800/1*r52itoBW0EOw9GZWbGtADw.jpeg){.graf-image}
+processing.](https://cdn-images-1.medium.com/max/800/1*r52itoBW0EOw9GZWbGtADw.jpeg)
 
-![](https://cdn-images-1.medium.com/max/800/1*6bF2DKF4JFn-VWKC2GKJfQ.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*6bF2DKF4JFn-VWKC2GKJfQ.jpeg)
 
 ![They can also process plastics, so we are also delivering items by
 combining aluminum scraped parts and plastic parts.\
 Skyprototype has many design engineers for such
-consulting.](https://cdn-images-1.medium.com/max/800/1*wO6qYZL-eys_BN3w3jAHWw.jpeg){.graf-image}
+consulting.](https://cdn-images-1.medium.com/max/800/1*wO6qYZL-eys_BN3w3jAHWw.jpeg)
 
 ![They are orders for large components such as car hood surroundings and
 medical equipment casings, and those that are used as it is as finished
-products.](https://cdn-images-1.medium.com/max/800/1*kIRuUrUxpsqZh_7fDNfRRA.jpeg){.graf-image}
+products.](https://cdn-images-1.medium.com/max/800/1*kIRuUrUxpsqZh_7fDNfRRA.jpeg)
 
 Also, while making small lots as core, they make it scalable to even a
 little more requests. For example, it also provides a resin cast that
@@ -193,15 +196,15 @@ molds resin by making molds with silicone rubber, plastic, aluminum,
 etc, and also provides a lathe and drilling engineer to make even less
 items than CNC.
 
-![lathe](https://cdn-images-1.medium.com/max/800/1*zcPmEwNZ71wv8r40KxDluQ.jpeg){.graf-image}
+![lathe](https://cdn-images-1.medium.com/max/800/1*zcPmEwNZ71wv8r40KxDluQ.jpeg)
 
 ![Resin
-cast](https://cdn-images-1.medium.com/max/800/1*lhX4fTOXa0GqcNFX6U7TOw.jpeg){.graf-image}
+cast](https://cdn-images-1.medium.com/max/800/1*lhX4fTOXa0GqcNFX6U7TOw.jpeg)
 
-![Polish](https://cdn-images-1.medium.com/max/800/1*c-YgELDrnqKoa_hUMnkMXA.jpeg){.graf-image}
+![Polish](https://cdn-images-1.medium.com/max/800/1*c-YgELDrnqKoa_hUMnkMXA.jpeg)
 
 ![Most
-quality one](https://cdn-images-1.medium.com/max/800/1*_n3Bbr6Nc8D37yRM2RmJIg.jpeg){.graf-image}
+quality one](https://cdn-images-1.medium.com/max/800/1*_n3Bbr6Nc8D37yRM2RmJIg.jpeg)
 
 As you can see from the photographs up to now, although there are many
 machine tools, SkyPrototype and other strengths of Shenzhen companies
@@ -230,7 +233,7 @@ foreign clients.
 
 ![This whole area Sun On Group factory. Various injection molding
 processes
-line up.](https://cdn-images-1.medium.com/max/800/1*fHMNSe5zcNb4Zg1SHkFVcg.jpeg){.graf-image}
+line up.](https://cdn-images-1.medium.com/max/800/1*fHMNSe5zcNb4Zg1SHkFVcg.jpeg)
 
 The difficult point for injection molding is that it can not be fixed at
 a later time.\
@@ -247,7 +250,7 @@ the interaction on the way is included in the final output fee.
 
 ![Examples of consulting. They proposed an idea to solve the screw part
 by embedding
-metal parts.](https://cdn-images-1.medium.com/max/800/1*7U40_BnCVTv_dCbp4gnMQw.jpeg){.graf-image}
+metal parts.](https://cdn-images-1.medium.com/max/800/1*7U40_BnCVTv_dCbp4gnMQw.jpeg)
 
 The black part of the exterior of the cell phone in this picture is made
 of injection molded plastic. It is necessary to fasten the screws, but
@@ -270,13 +273,13 @@ Painting after molding
 ![A mold and a lathe line up. All the craftsmen are young. Shenzhen mold
 engineers often start working from the age of 18 and many engineers in
 the middle of the twenties who have a career of seven to eight years
-are working.](https://cdn-images-1.medium.com/max/800/1*dLV98zwBFtH2BPCl4VgEmg.jpeg){.graf-image}
+are working.](https://cdn-images-1.medium.com/max/800/1*dLV98zwBFtH2BPCl4VgEmg.jpeg)
 
 ![When I heard that the startup using the wearable equipment that took
 part in the tour "How much would it cost if I output this part?", After
 interchanging the material and painting story a couple of times, it is
 "About 30,000 RMB?" \$ 4000) "as soon as the standard of expenses
-came back.](https://cdn-images-1.medium.com/max/800/1*0lVPT3vMyCSLHG3BDTG-QA.jpeg){.graf-image}
+came back.](https://cdn-images-1.medium.com/max/800/1*0lVPT3vMyCSLHG3BDTG-QA.jpeg)
 
 For Sun On to speak, "One order ends with an overnight line operation,
 there are rarely people waiting for customers."\
@@ -309,16 +312,16 @@ inspection of the new model BB --- 8 of the robot toy used to connect
 with the smartphone Sphero here.
 
 ![You can see many of
-famous company](https://cdn-images-1.medium.com/max/800/1*Wye2s4KSJJtFo8TNJisYFA.jpeg){.graf-image}
+famous company](https://cdn-images-1.medium.com/max/800/1*Wye2s4KSJJtFo8TNJisYFA.jpeg)
 
 ![EMTEK 's 10 m radio anechoic chamber. There are more than 10 test
 rooms in total, including 3 electromagnetic anechoic rooms. Besides
 Shenzhen there are inspection facilities in Ningbo, Dongguan
-and others.](https://cdn-images-1.medium.com/max/800/1*vom9EQBfyamQ5wFIT79yHg.jpeg){.graf-image}
+and others.](https://cdn-images-1.medium.com/max/800/1*vom9EQBfyamQ5wFIT79yHg.jpeg)
 
 ![EMTEK has various inspection machines such as waterproof, dustproof,
 pollution and vibration. They think the inspection plan according
-to clients.](https://cdn-images-1.medium.com/max/800/1*dlJibBdprIU9zPV3ulOiOw.jpeg){.graf-image}
+to clients.](https://cdn-images-1.medium.com/max/800/1*dlJibBdprIU9zPV3ulOiOw.jpeg)
 
 In EMTEK, FCC, CE and technical suitability can be taken at one factory,
 but this is also consulting here as well, considering the optimum plan
@@ -374,11 +377,11 @@ camera, the number increases.
 
 ![TeamGiant also provides batteries for electric vehicles with high
 difficulty. There are many electric car companies
-in China.](https://cdn-images-1.medium.com/max/800/1*RhajlX6r71R5I5MGW4LkMA.jpeg){.graf-image}
+in China.](https://cdn-images-1.medium.com/max/800/1*RhajlX6r71R5I5MGW4LkMA.jpeg)
 
 ![TeamGiant employs many master / doctoral degrees, and develops new
 technology for
-batteries.](https://cdn-images-1.medium.com/max/800/1*d10hphano_TtqqIu1JK4-A.jpeg){.graf-image}
+batteries.](https://cdn-images-1.medium.com/max/800/1*d10hphano_TtqqIu1JK4-A.jpeg)
 
 Lastly I visited Stephen Gould of the American capital, a service
 company that packs and delivers packages with a printing factory as the
@@ -398,7 +401,7 @@ another fabric like fur inside, a magnet, and a cover with vividly
 printed photographs stamped on another material He is the one who took
 the first place at the factory, but if thousands of units are available,
 it can be manufactured at about
-3 dollars.](https://cdn-images-1.medium.com/max/800/1*ZFO5I3OcAQ-migAA_kPEVw.jpeg){.graf-image}
+3 dollars.](https://cdn-images-1.medium.com/max/800/1*ZFO5I3OcAQ-migAA_kPEVw.jpeg)
 
 A huge printing factory is located in Dongguan City, a bonded area
 located in the border area of Shenzhen and Hong Kong, where we store /

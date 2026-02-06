@@ -1,5 +1,8 @@
 ---
 title: "              About Nico Tech Shenzhen Community"
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/0*UH4pn_gT4J0vIV3x"
+  relative: false
 aliases: ["/2017/06/about-nico-tech-shenzhen-community/"]
 slug: about-nico-tech-shenzhen-community
 date: 2017-06-20
@@ -22,7 +25,7 @@ TroubleMaker, Most active westan based communiy in Shenzhen Founder),
 Low Yee Ping (Innovation commnity leader in Shenzhen/Hongkong), Asei ITO
 (Tokyo University Assosiate Professer, Chinese Economy) and TAKASU&
 Jerald Fu. That is the proof of \[we
-are diverse\]](https://cdn-images-1.medium.com/max/800/1*18r5Wu9wDMCaPngLqpX12w.jpeg){.graf-image}
+are diverse\]](https://cdn-images-1.medium.com/max/800/1*18r5Wu9wDMCaPngLqpX12w.jpeg)
 
 **■ニコ技深圳コミュニティの活動:Nico-Tech Shenzhen Activity**
 
@@ -82,11 +85,11 @@ how the maker community makes innovation.\
 Maker Ecosystem Ltd also support this community.
 
 ![Office in HuaQiangBei CEC-iValley. 17th Jan 2020
-ニコ技深圳コミュニティ華強北オフィス](https://cdn-images-1.medium.com/max/800/0*UH4pn_gT4J0vIV3x){.graf-image}
+ニコ技深圳コミュニティ華強北オフィス](https://cdn-images-1.medium.com/max/800/0*UH4pn_gT4J0vIV3x)
 
 ### **Partner as Maker Faire Shenzhen/ニコ技深圳コミュニティはメイカーフェア深圳のパートナーです** {#206c .graf .graf--h3 .graf-after--figure name="206c"}
 
-![](https://cdn-images-1.medium.com/max/800/1*k-M0YZwOfbluvoCRlSbAuw.png){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*k-M0YZwOfbluvoCRlSbAuw.png)
 
 ニコ技深圳コミュニティは、深圳に本拠を置くオープンハードウェアのためのコミュニティです。深圳の電気街華強北にオフィスがあり、Facebook上に3000名を超えるメンバーがいます。\
 月に1--2回のイベント、15--30本程度の主要メディアへの寄稿、年に2--3冊程度の書籍出版を行い、オープンハードウェア、深圳のテクノロジー、メイカーのエコシステム、そして中国の状況を伝えています。\
@@ -234,13 +237,13 @@ Books（NextPublishing）)**\
 
 ![深圳の地図。CC4.0
 (国際、クレジット表示必要、改変・商用利用可）で[ここからダウンロード](https://drive.google.com/open?id=0By4ABuxCo3ZmMFg2elM2VVFfR3M){.markup--anchor
-.markup--figure-anchor}できる](https://cdn-images-1.medium.com/max/800/1*cxrOr5ctK_a9j-cq1YFuLg.png){.graf-image}
+.markup--figure-anchor}できる](https://cdn-images-1.medium.com/max/800/1*cxrOr5ctK_a9j-cq1YFuLg.png)
 
-![](https://cdn-images-1.medium.com/max/800/1*bfWtFuxifMLxsxG7EKTQ9A.png){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*bfWtFuxifMLxsxG7EKTQ9A.png)
 
 ■ロゴ
 
-![](https://cdn-images-1.medium.com/max/800/1*gI_d_4VSVms-L7LTaQ8CSg.png){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*gI_d_4VSVms-L7LTaQ8CSg.png)
 
 **■よくある質問**\
 ニコ技深圳観察会は、「当日朝にいきなりツアー中止になっても誰も何も保証できない」という前提で、自力で深圳まで来れる人を対象に、知見を共有するために非営利で行っているものです。質問は歓迎ですが、ググればわかること（飛行機の値段とか）を聞いてくる人への対応は遅れるし無視することもあります。

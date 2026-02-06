@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Teardown | ニコ技深セン / Nico-Tech Shenzhen website</title>
+<meta name="keywords" content="">
+<meta name="description" content="Reverse engineering, teardowns, chip decap notes.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/teardown/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/teardown/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body class="list" id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="ニコ技深セン / Nico-Tech Shenzhen website (Alt + H)">ニコ技深セン / Nico-Tech Shenzhen website</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/teardown/" title="Teardown">
+                    <span class="active">Teardown</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/shenzhen/" title="Shenzhen">
+                    <span>Shenzhen</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/fabcross/" title="Fabcross">
+                    <span>Fabcross</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archive/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header">
+  <h1>
+    Teardown
+  </h1>
+</header>
+<div class="post-content"><p>Reverse engineering, teardowns, chip decap notes.</p>
+
+
+</div>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/1*oStTFi9XxPTU9QZ6ikOHXQ.jpeg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">        17    Discode                                       2023 09 
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>#分解のススメ 17回録画&amp;Discodeチャンネル開設 北京・深センでロボット大会 ニコ技深センコミュニティ月次報告 2023年09月 8月、深センDJIのROBOMASTERと、北京で行われた世界ロボット大会に参加してきました。
+#分解のススメ 17回録画&amp;Discodeチャンネル開設 北京・深センでロボット大会 ニコ技深センコミュニティ月次報告 2023年09月 8月、深センDJIのROBOMASTERと、北京で行われた世界ロボット大会に参加してきました。
+ROBOMASTERのロボットは大学1–2年生が1台20万円程度の予算で組み上げていますが、
+日本では同じものに100万円程度の予算がかかりそうです。
+学生が使うようなロボットは、モータに対し自分で制御機構を組み込むのが一般的です。
+中国ではロボットの開発者、スタートアップなどが多いため、高度な制御機構がモータに内蔵された部品がいくつも
+開発・販売されていて、この分野では他の国にない環境ができているのを目の当たりにしました。
+イベント記録
+https://togetter.com/li/2206356
+https://togetter.com/li/2207805
+モータの制御と、複雑なシステムの制御は、どちらも必要な技術なので、優劣はないのですが、
+ROBOMASTERで使われているもののほうが、３次元空間内で自動運転を行うなど、複雑な制御との
+距離は近いです。
+自分の仕事でもその手のモータの輸入販売が、日本の開発者に向けて伸びています。この分野の中国企業は
+今後数年、日本を含めた他の地域との差を広げていくと思われるので、日本の開発者に向けて積極的に
+環境を整えていきたいと考えています。日本は時差や漢字の面で、欧米よりこの手の機器が豊富になりやすい。
+（日本のロボットスタートアップも、ほぼこの手のモーターを輸入して使っています。）
+代表的な企業
+https://mag.switch-science.com/2021/11/23/ddt/
+https://www.switch-science.com/blogs/magazine/myactuator
+ハードウェア情報の共有 #分解のススメ コミュニティで、チャットグループDiscodeのサーバをたてました。
+https://discord.gg/QmdXS7YT
+8/17のイベントについてまとめブログを公開しました。
+https://medium.com/@tks/bunkai17-a81526244f1
+メイカーフェア東京10月14–15日、メイカーフェア深セン11月11–12日につづいて、メイカーフェア台北11月18–19日も募集が始まりました。
+ニコ技深センコミュニティは、深セン・台北の両イベントに出展します。
+メイカーフェア深セン共同出展
+https://wiki.nicotech.jp/nico_tech/?NTShenzhen2023
+メイカーフェア台北共同出展
+https://wiki.nicotech.jp/nico_tech/?NTTaipei2023
+メイカーフェア東京
+https://makezine.jp/event/mft2023/
+メイカーフェア深セン
+https://www.shenzhenmakerfaire.com/
+Facebookグループで進捗をお知らせしていきます。
+https://www.facebook.com/groups/ntshenzhen
+■今月の活動報告です。ブログでも読むことができます。
+■高口康太
+「中国の不動産問題、習近平が犯した2つのミスとは？」『週刊文春』2023年8月31日号 | 文春オンライン
+https://bunshun.jp/articles/-/65201?fbclid=IwAR1pov-1b8ctw5Je83-iU8S6sjEqkv5XeSptxeUeC1wx22n4qegDCYSICoE
+原発処理水の海洋放出にビビりまくり！ 中国人の「日本製品へのクレーム」がひどすぎる!! 週プレNEWS
+https://wpb.shueisha.co.jp/news/politics/2023/08/24/120406/?fbclid=IwAR3FbhlStuaqUaV1ljvjjl5mN6x2SV0jhi8-zqTA9rNCwPh04cL-HbEETvo
+『週刊プレイボーイ』2023年9月4日号
+https://amzn.to/44zh5VP
+日米相場総予測2023：モバゲー中国勢が世界トップ100に39社 日本市場を狙い撃ち 週刊エコノミスト Online
+https://weekly-economist.mainichi.jp/articles/20230822/se1/00m/020/024000c
+『週刊エコノミスト』：2023年8月15日・22日合併号
+https://weekly-economist.mainichi.jp/articles/20230822/se1/00m/020/049000c
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-09-01 00:00:00 +0000 UTC'>September 1, 2023</span></footer>
+  <a class="entry-link" aria-label="post link to         17    Discode                                       2023 09 " href="http://localhost:1313/teardown/2023/09/17-discode-2023-09/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/1*0jHDSoecpfEyG2CLqg38yg.jpeg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">        17  ESP32 S3      Uni    a81526244f1
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>#分解のススメ 17回 ESP32-S3 たまごっちUni 分解 分解への愛と楽しさをシェアするイベント、 #分解のススメ ,半年ぶりの第16回を8月19日(土）に行いました。 今回はESP32-S3ベースに作られたことで話題の、たまごっちUniを分解してる人たちが研究成果をシェア。
+【録画まとめ】 #分解のススメ 17回 ESP32-S3 たまごっちUni 分解 分解への愛と楽しさをシェアするイベント、 #分解のススメ{.markup–anchor .markup–p-anchor} ,半年ぶりの第16回を8月19日(土）に行いました。
+今回はESP32-S3ベースに作られたことで話題の、たまごっちUniを分解してる人たちが研究成果をシェア。
+「たまごっちユニ」のハードウエア概要 @tomorrow56 資料はこちら{.markup–anchor .markup–figure-anchor}
+@ThousanDIY{.markup–anchor .markup–p-anchor} 100円ショップのガジェットを分解してみる
+「ThousanDIY」(Thousand &#43; DIY)の中身。 趣味は&#34;100 均ガジェット分解&#34;と、Aliexpress での謎ガジェットあさり。
+なんでも分解しちゃうぞ たまごっちUni編 ひろみつ @bakueikozo ​ 資料はこちら{.markup–anchor .markup–figure-anchor}
+ひろみつ @bakueikozo{.markup–anchor .markup–p-anchor} honeylab.hatenablog.jp{.markup–anchor .markup–p-anchor}
+「なんでも分解しちゃうぞ」をモットーに、面白そうなものを手当たり次第分解し、 見てはいけないものを発見することを稀によく発見してしまうのが得意な野生の組み込みエンジニア
+分解同人誌販売中 https://honeylab.booth.pm{.markup–anchor .markup–p-anchor}
+たまごっちユニの分解からわかる ESP32デバイスセキュリティ @KentaIDA 資料こちら{.markup–anchor .markup–figure-anchor}
+Kenta IDA @ciniml{.markup–anchor .markup–p-anchor} fugafuga.org{.markup–anchor .markup–p-anchor}
+趣味はプログラミングと電子工作．AVR党．最近はWio TerminalとM5Stack触ってます．Vivadoぽちぽちまん． 技術書典本boothで売ってます。http://fugafuga.booth.pm/items/830550
+Tamagotchi Uniを分解してカスタムファームを動かす JA1TYE/Ryota Suzuki(@JA1TYE) 資料はこちら{.markup–anchor .markup–figure-anchor}
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-08-28 00:00:00 +0000 UTC'>August 28, 2023</span></footer>
+  <a class="entry-link" aria-label="post link to         17  ESP32 S3      Uni    a81526244f1" href="http://localhost:1313/teardown/2023/08/17-esp32-s3-uni-a81526244f1/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">                          8 19                               2023 08 
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>東京、深センに続き、台北のメイカーフェアも募集開始 8/19には分解オンラインイベント ニコ技深センコミュニティ月次報告 2023年08月 8月19日13時に、第17回になる分解事例共有イベント「分解のススメ」を行います。
+東京、深センに続き、台北のメイカーフェアも募集開始 8/19には分解オンラインイベント ニコ技深センコミュニティ月次報告 2023年08月 8月19日13時に、第17回になる分解事例共有イベント「分解のススメ」を行います。
+#分解のススメ 第17回 たまごっちUni(ESP32-S3)分解特集 8/19土 1PMオンライン
+https://bunkai17.peatix.com/
+たまごっちがデビューしてから27年目になる今年、wifiやネットワークに対応した「たまごっちUni」が発売されました。
+中心のマイコンは上海Espressif社のESP32-S3で、メイカーに多く使われているものです。
+こうしたかたちで中国製チップが日本の消費者家電に入ってくる動きは興味深く、分解イベントを行います。
+メイカーフェア東京10月14–15日、メイカーフェア深セン11月11–12日につづいて、メイカーフェア台北11月18–19日も募集が始まりました。
+我々ニコ技深センコミュニティでは、海外出展が不安な人をサポートするため、共同出展を計画しています。
+メイカーフェア深セン共同出展
+https://wiki.nicotech.jp/nico_tech/?NTShenzhen2023
+メイカーフェア台北共同出展
+https://wiki.nicotech.jp/nico_tech/?NTTaipei2023
+メイカーフェア東京
+https://makezine.jp/event/mft2023/
+メイカーフェア深セン
+https://www.shenzhenmakerfaire.com/
+Facebookグループで進捗をお知らせしていきます。
+https://www.facebook.com/groups/ntshenzhen
+■今月の活動報告です。ブログでも読むことができます。
+■鈴木涼太(@JA1TYE / https://t-techlab.com)
+2023年5月に特区旅游ビザを使って香港経由で深センを訪問したときのビザ取得記に深セン→香港空港の移動情報を追記しました。メイカーフェア深センなどで今後深センを訪問される方の参考になれば幸いです。
+https://t-techlab.com/2023/05/15/%e7%89%b9%e5%8c%ba%e6%97%85%e6%b8%b8%e3%83%93%e3%82%b6%e3%81%a7%e6%b7%b1%e5%9c%b3%e3%81%ab%e8%a1%8c%e3%81%a3%e3%81%a6%e3%81%bf%e3%81%9f/
+■山崎雅夫(@tomorrow56, ThousanDIY)
+1. 工学社 月刊I/O 8月号に記事を書きました。
+連載「100円ショップガジェット分解」: ダイソーの「有線無線両用ヘッドセット」
+密閉型でAACコーデック対応。BluetrumのSoCを採用しています。
+特集「夏休みにはじめる電子工作」: 身近で手に入る電子工作の材料
+電子部品の入手方法を実店舗・通販の両方について紹介しました。http://www.kohgakusha.co.jp/books/detail/4801
+2. note「100円ショップのガジェットを分解してみる」: 7月の追加は1本です。
+ダイソーの「新シャッターリモコン」
+200円に値下げした新タイプを分解しました。外観は同じ(公模)ですが中身は別物でした。
+https://note.com/tomorrow56/n/nc9d7469554e8
+noteの100均ガジェット分解記事はマガジンにまとめています。
+https://note.com/tomorrow56/m/ma0073059b5ac
+■荒木大地 日本人のための深セン情報サイト(shenzhen-fan.com{.markup–anchor .markup–p-anchor}) 深セン ファン
+1. 「サムズクラブ」深セン旗艦店オープン、限定版巨大カップヌードルも登場
+在中邦人に人気の会員制スーパー「サムズクラブ」（Sam’s CLUB）が6月29日、深センの前海エリアに旗艦店をオープンしました。
+オープン記念として限定巨大カップヌードルなどの目玉商品が登場。早速SNSで話題となりプレミア価格も付いています。
+https://www.shenzhen-fan.com/news-2023-07-sams-club-flagship-store-opens-in-qinghai/
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-07-31 00:00:00 +0000 UTC'>July 31, 2023</span></footer>
+  <a class="entry-link" aria-label="post link to                           8 19                               2023 08 " href="http://localhost:1313/teardown/2023/07/8-19-2023-08/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">               6 17 18                            2023 06 
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>中国のオープン自動運転標準化/6月17–18金沢のイベントで来日 ニコ技深センコミュニティ月次報告 2023年06月 中野ねこりん＠ギーク中国語
+中国のオープン自動運転標準化/6月17–18金沢のイベントで来日 ニコ技深センコミュニティ月次報告 2023年06月 中野ねこりん＠ギーク中国語
+『ハードウェアエンジニアのための中国語入門』を技術書典14オンライン会場で発売中です。部品や素材、設備などの日中対訳表や中国と取引する際に便利な情報を掲載しています。簡単な中国語文法の紹介とスクリプトも載せました。Iot開発会社のフローライト・テクノロジーズ監修。（6月4日まで）
+https://techbookfest.org/product/rmT2fuhjXwG1s5vSJvE7im?productVariantID=H6LEaZxxC42LuDusnWzmX
+■山崎雅夫(@tomorrow56, ThousanDIY)
+1. 工学社 月刊I/O 連載「100円ショップガジェット分解」
+2023年6月号: ダイソーの「薄型Type-Cハブ」
+USB3.0(5Gbps)対応のUSBハブを分解しました。USB2.0のハブICを使いつつUSB3.0の速度で通信するという力技に感心しました。
+http://www.kohgakusha.co.jp/books/detail/4787
+2. note「100円ショップのガジェットを分解してみる」: 5月は追加はありません。
+noteの100均ガジェット分解記事はマガジンにまとめています。
+https://note.com/tomorrow56/m/ma0073059b5ac
+3. ITmedia「エンジニアライフ」 コラム更新(1本)
+『激安！「Aliexpressの500円スマートウオッチ」を分解してみよう』
+ThousanDIYの「ガジェット分解ライフ」
+https://el.jibun.atmarkit.co.jp/thousandiy/
+■高口康太
+このままではAI後進国に…｢中国版ChatGPT｣を使ったジャーナリストが指摘する&#34;残念な現状&#34; ｢すでにアメリカを超えた｣と豪語していたが… | PRESIDENT Online（プレジデントオンライン）
+https://president.jp/articles/-/69706
+お笑いブーム終了？どこに地雷かわからない中国ネット Wedge ONLINE(ウェッジ・オンライン)
+https://wedge.ismedia.jp/articles/-/30343
+市場も技術も急成長 中国アニメの脅威
+週刊東洋経済2023年5月27日号 | 東洋経済STORE https://str.toyokeizai.net/magazine/toyo/20230522/
+【日本人が知らない 、世界のスゴいスタートアップ Vol.1】エンタメにテクニックは不要になる?!AIが作るクリエイターエコノミー2.0 — DG Lab Haus https://media.dglab.com/2023/05/01-creator-economy-01/
+日本も参考にできる!? コンドーム禁止から大学入試改革まで、中国「少子化対策」の仰天アイデア｜ニューズウィーク日本版 オフィシャルサイト https://www.newsweekjapan.jp/stories/world/2023/05/post-101502.php
+中国AI企業の事例 「ＡＩ白書 ２０２３」AI白書編集委員会 [ビジネス書] — KADOKAWA
+https://www.kadokawa.co.jp/product/322207001086/
+■荒木大地 日本人のための深セン情報サイト(shenzhen-fan.com) 深セン ファン
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-05-31 00:00:00 +0000 UTC'>May 31, 2023</span></footer>
+  <a class="entry-link" aria-label="post link to                6 17 18                            2023 06 " href="http://localhost:1313/teardown/2023/05/6-17-18-2023-06/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/1*MrKAjIGnlnYEdl2GdMriHQ.png" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">                    5 1  Panasonic 5 5           M5Stack                         2023 05 
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>今週東京で複数のイベントを行います。先週5/1大阪Panasonic～5/5青山学院大学で行われたM5Stackツアーも大成功 ニコ技深センコミュニティ月次報告 2023年05月 コロナ明けで、中国企業の日本での技術交流も活発になってきました。
+今週東京で複数のイベントを行います。先週5/1大阪Panasonic～5/5青山学院大学で行われたM5Stackツアーも大成功 ニコ技深センコミュニティ月次報告 2023年05月 コロナ明けで、中国企業の日本での技術交流も活発になってきました。
+4/29–30のメイカーフェア京都の後、5/1大阪のPanasonic本社～5/5の青山学院大学つくまなラボまで、日本各地で行われたM5Stackツアーも無事終了しました。
+大阪・広島・金沢・東京（2日間）と回る中で、報告のメールが遅れて申し訳ありません。
+各会場の様子はここにアップしてあります。Twitterまとめなどを見ると、それぞれの規模や、各地ごとにまったく違う内容になっていることがわかると思います。
+https://www.switch-science.com/blogs/magazine/m5stackjapantour2023
+総参加400名以上、展示やプレゼンなども50を超えました。
+また、今週から深センのスタートアップアクセラレータ iMakerbaseと一緒に、様々な活動を行います。
+・5/10–12の3日間、ビッグサイトのNexTechイベントに「深センテック企業」ブースを出します。10,11は僕もいます。
+https://www.nextech-week.jp/spring/ja-jp.html
+・5/11夜、品川のソニー・BRIDGE TERMINALで、交流イベントを行います。
+https://www.facebook.com/events/768154977995373
+・5/12 秋葉原のDMM.Make AKIBAにて、シェアイベントを行います。
+https://imakerbase.com/japan-event-2023-april/
+それぞれの参加方法はイベント概要にあります。
+5/15には深センに戻るつもりです。
+■1月27日に新刊「感電上等！ ガジェット分解のススメ HYPER」（オーム社）が出ました。
+ギャル電 , 山崎 雅夫 , 秋田 純一 , 鈴木 涼太 , 高須 正和 と、ニコ技深センと分解のススメイベントの
+メンバーが集って書いた本です。すでにAmazonでは予約が始まっています。
+https://amzn.to/3CebHMz
+今月の活動報告です。ブログでも読むことができます。
+■山崎雅夫(@tomorrow56, ThousanDIY)
+1. 工学社 月刊I/O 連載「100円ショップガジェット分解」
+2023年5月号: ダイソーの「完全ワイヤレスイヤホン E-TWS-1」
+ダイソーのTWS(4種類)のうち、今まで分解していなかったエコラ製のものを分解しました。定番のZH-JieLiのSoCを採用し、充電レベルを4段階で表示する充電ケース付
+https://www.kohgakusha.co.jp/books/detail/4784
+2. note「100円ショップのガジェットを分解してみる」: 追加は3件です。
+(43)ダイソーの「アルコールチェッカー」
+半導体ガスセンサー採用のアルコールチェッカー。実際に飲酒して測定してみましたがそれなりの値で測定できました。
+(44)ダイソーの「ウオッチチャージャー」
+アップルウォッチ用のUSBポート直結のワイヤレス充電器。アップル独自のワイヤレス充電規格対応です。
+【番外編】USB充電規格をできるだけ簡単にまとめてみる(前編: 野良チャージャーからQC3.0まで)コラムで書いた内容をベースに加筆して記事にしました。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-05-07 00:00:00 +0000 UTC'>May 7, 2023</span></footer>
+  <a class="entry-link" aria-label="post link to                     5 1  Panasonic 5 5           M5Stack                         2023 05 " href="http://localhost:1313/teardown/2023/05/5-1-panasonic-5-5-m5stack-2023-05/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/1*4bkHXk0DdPhKeobFHF8maQ.png" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">                                                                He 
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>「創る」「作る」心を持ったビジネスで社会生活に新鮮な風を（揣着&#34;创&#34;“造&#34;的心，让商业给社会生活带来新鲜空气）」受講生 何 欣蕾He… 早稲田ビジネススクールにはSTE Relay…
+「創る」「作る」心を持ったビジネスで社会生活に新鮮な風を（揣着&#34;创&#34;“造&#34;的心，让商业给社会生活带来新鲜空气）」受講生 何 欣蕾He Xinleiさんコラム：深圳の産業集積とハードウェアのマスイノベーション 早稲田ビジネススクールにはSTE Relay Columm{.markup–anchor .markup–p-anchor}という講師や受講者が書くコラムがあり、僕の講義も何度か題材になっている。自分の講義の感想を寄せてもらえるのは嬉しいし、それが講義の対象である中国の人からなら、なおさらだ。以前、深圳のスタートアップで働いていたAgatheや日本企業で働く杜さんに、英語や中国語でコラムを書いてもらった。
+「深圳の産業集積とハードウェアのマスイノベーション`イノベーションの力`」Cai Wenya(Agatha)日本語訳
+*2020年2月に行った早稲田ビジネススクールでの講義で、深圳から日本に留学しているAgathaが感想コラムを書いてくれました。…*medium.com{.markup–anchor .markup–mixtapeEmbed-anchor}{.js-mixtapeImage .mixtapeImage .u-ignoreBlock}
+「同じ舞台と異なる感動 深圳で出会った素敵な人たち（同样的舞台，不一样的精彩。～遇到&#34;深圳&#34;的可爱的人们～）」受講生杜雅楠さんコラム深圳の産業集積とハードウェアのマスイノベーション
+*早稲田ビジネススクールにはSTE Relay…*medium.com{.markup–anchor .markup–mixtapeEmbed-anchor}{.js-mixtapeImage .mixtapeImage .u-ignoreBlock}
+今回は受講者の一人河さんにおねがいして、中国語でコラムを寄稿してもらった。和訳をこちらに掲載する。
+揣着&#34;创&#34;“造&#34;的心，让商业给社会生活带来新鲜空气/“創る&#34;“作る “心を持ったビジネスで社会生活に新鮮な風を [プロフィール]中国江西省出身。出身大学は中国政法大学で、法律従業資格を取った。法律を勉強しているうちに、ジャーナリズムに興味を持った。それで、2016年、中国伝媒大学でコミュニケーション学博士号を取った。2016年12月、中国中央テレビから、特派員として、東京支局に派遣されて、今年は７年目になった。中国の視聴者の皆さんにとっては、中国中央テレビは日本のＮＨＫのような存在だから、特派員として取材したニュース番組は中国の視聴者にとって、日本を知る重要なチャンネルになり、常に責任の重大さを感じる。私は日本に来てから、米国大統領トランプの日本訪問、Ｇ２０サミット、東京オリンピックなど重要なニュースの報道に参加した。私は優秀なメデイア管理者になるため、必ず経営管理学の理論と実践をより深く理解すべきだと思ってから、2021年4月にWBSに入学し、牧ゼミに所属している。
+— — —コラム — — — — — -
+「深圳の産業集積とハードウェアのマスイノベーション」は、入学直後から存在を知っていた科目です。 2023年の年明け、冬の集中講義でようやく受講する機会があり、日本人の先生が中国・深センのイノベーションをどう解釈しているのか、興味深く聞いていました。
+WBSで “予想外 “のヒット講座となった 今年の春先は、まだ暖かかったり寒かったり、東京都から大雪警報が出た日もあり、集中講義期間中はオフラインの授業がオンラインの授業に変更されました。 こうした要因が重なり、冬の集中講座を受講する生徒は少なく、私が受けた英語の個別授業でも、受講生は4〜5人でした。 それとは対照的に、夕方6時50分から10時までの日本語講座「深圳の産業集積とハードウェアのマスイノベーション」は、意外にも30人以上の受講生が集まました。4、5人の中国人留学生のほかは、ほとんどが日本人学生であったことから、早稲田大学ビジネススクールでこの講座の人気ぶりがうかがえます。 中国人学生としては、日本人学生が「深セン」関連の講座にこれほど興味を持つとは、正直言って驚きました。 しかし、よく考えてみると、早稲田大学ビジネススクール（WBS）で技術や産業の観点から「イノベーション」をテーマにした講座は珍しいので、「深セン」と「イノベーション」の組み合わせが、深センの特異な魅力を醸し出しているのかもしれません。ビジネススクール1年生としては、講座の設計そのものが非常に斬新で、希少価値の高い講座だと思います。
+中国人留学生もあまり知らない深センの「A 」サイド 話をビジネスに戻して、授業で学んだこと、そして中国人留学生として刺激を受けたことをお話しします。
+最初の授業で高須氏は、中国で最も若い都市である深センが、改革開放の初期に小さな漁村から発展し、現在では高層ビルが立ち並ぶ都市になったことを説明しました。70–80年代生まれの多くの中国人にとって、深センは改革開放をいち早く実践した都市の一つでとして知られています。「1979年に鄧小平が南の海沿いを講話しながら改革開放を行った場所」というのが、最も身近な深センのエピソードです。授業でメモを取る学生を見ながら、日本の学生にとって、全く新しい地図を開くように、まず都市を理解し、その都市を探索することはとても重要なことだと思いました。
+高須氏は、深センのハードウェア製造業が革新的でダイナミックなのは、「PROTOTYPE- PRODUCE- PROMOTION」、つまり、市場の需要に合ったハードウェアをいかに作るかというテーマについて、「何をするか、どうやるか、どう売るか」という革新的な仕組みが、ポジティブな相互作用を確立しているからだと分析している。授業で紹介された&#34;なんでもぜんまい “のように、平面に貼り付けて自律的に回転させることができる革新的な技術を用いた小型のオモチャであれば、クラウドファンディングで事前に注文を受け、前金を支払い、深センで生産するメーカーを探し、納期を守って商品を提供することができる。そして、商品は消費者の手元に適時・適量に届けられる。 製品が市場に受け入れられ、さらに注文が入ると、その後の新製品生産で革新的な改良が生まれ、より良い製品をお客様に提供することもできる。 このように、「PROTOTYPE- PRODUCE- PROMOTION」（「何を作るか、どう作るか、どう売るか」）のサイクルは、常にさらなる創造的な原動力となるのである。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-02-24 00:00:00 +0000 UTC'>February 24, 2023</span></footer>
+  <a class="entry-link" aria-label="post link to                                                                 He " href="http://localhost:1313/teardown/2023/02/he/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/1*CS9LteQoHUZyUXshlaVXdQ.jpeg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">        15                    HYPER         
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>#分解のススメ 15回「感電上等! ガジェット分解のススメ HYPER」出版イベント録画 1月27日に出版された「感電上等! ガジェット分解のススメ HYPER」のイベントを28日に行いました！
+#分解のススメ{.markup–anchor .markup–h3-anchor} 15回「感電上等! ガジェット分解のススメ HYPER」出版イベント録画 1月27日に出版された「感電上等! ガジェット分解のススメ HYPER」のイベントを28日に行いました！
+感電上等! ガジェット分解のススメ HYPER
+*Amazonでギャル電, 山崎 雅夫, 秋田 純一, 鈴木 涼太, 高須 正和の感電上等! ガジェット分解のススメ HYPER。アマゾンならポイント還元本が多数。ギャル電, 山崎 雅夫, 秋田 純一, 鈴木 涼太, 高須…*amzn.to{.markup–anchor .markup–mixtapeEmbed-anchor}{.js-mixtapeImage .mixtapeImage .u-ignoreBlock}
+５人の著者がそれぞれ、書籍内でのみどころやアップデートを語る面白いイベントになりました。
+Youtubeに録画をアップしました！
+ギャル電きょうこ @galden999 分解バイブス、100均のガジェットを雑に分解する上での安全対策、みどころなど。特にUVライトを基板だけで運用するやり方は必見。
+山崎 雅夫 @tomorrow56 同じタイミングで100均ガジェットの書籍の３冊目が出た山崎さん。ショップでの変化や、電化製品の安全対策についての章を解説しています。
+きょうこさんが上げているUVライトもアルミ基板です。
+100円ショップガジェット解体新書 「人感センサLED」「ワイヤレスマウス」・・・いろいろ分解してみた! (I/O BOOKS)
+*AmazonでThousanDIYの100円ショップガジェット解体新書 「人感センサLED」「ワイヤレスマウス」・・・いろいろ分解してみた! (I/O…*amzn.to{.markup–anchor .markup–mixtapeEmbed-anchor}{.js-mixtapeImage .mixtapeImage .u-ignoreBlock}
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-01-30 00:00:00 +0000 UTC'>January 30, 2023</span></footer>
+  <a class="entry-link" aria-label="post link to         15                    HYPER         " href="http://localhost:1313/teardown/2023/01/15-hyper/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">                 2022 12 
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>ニコ技深センコミュニティ月次報告 2022年12月 秋田＠金沢大
+ニコ技深センコミュニティ月次報告 2022年12月 秋田＠金沢大
+9月までの深センでのサバティカルのことを、一通りnoteにまとめてみました。
+https://note.com/akita11/n/n866effcda43a
+こちら、高須の方でも補足のnote書いてます
+https://note.com/takasu/n/ncf5432ccca45
+■荒木大地 日本人のための深セン情報サイト(shenzhen-fan.com{.markup–anchor .markup–p-anchor}) 深セン ファン
+1. 深セン市の2022年1～3四半期GDPは約2兆3000億元、前年同期比3.3％増
+10月29日、深セン市統計局は2022年第1～3四半期における深セン市の地域総生産（GDP）を発表。GDPは2兆2,925億910万元で、前年同期比3.3％増となりました。特に好調なのはやはりハイテク製品の生産で、新エネルギー自動車は前年同期217.3％の増加。5Gスマートフォンやドローンなども拡大しています。
+https://www.shenzhen-fan.com/news-2022-11-03-sz-gdp-2022-in-first-three-quarters/
+2. 2022 南山ハーフマラソン、12月4日開催予定→ 延期
+深セン湾人才公園や南頭古城など南山の名所を一望しながら走る、2022年南山ハーフマラソンが12月4日に開催されます。
+当マラソンは外国人も参加可能ですが、今回はレース開始7日前から深センに留まっていることや、レース前10日間連続PCR検査を受けることなど参加資格者に対する防疫要件が追加されています。（当マラソンは開催延期となりました）
+https://www.shenzhen-fan.com/2022-shenzhen-nanshan-half-marathon/
+3.手のひらで支払い可能に、WeChat「掌紋決済」 深セン市内でテスト運用中
+WeChat（微信）は「微信刷掌支付」ミニプログラムをリリースしました。これによりユーザーは決済端末の設置されている店舗にて手のひらを用いた「掌紋決済」が可能になります。現在、深セン市内では掌紋決済対応端末をテスト運用中。街中で見つけたら試してみたいですね。
+https://www.shenzhen-fan.com/news-2022-11-10-wepalm-payment-trial-operation-in-sz/
+4.中国入国時の隔離期間は「5＋3」に短縮へ、PCR検査回数も１回に
+中国国務院は11月11日、新型コロナ予防対策の新たな通知を発表しました。
+中国入国者に対する隔離期間は「5日間の集中隔離＋3日間の自宅隔離」に短縮され、渡航前PCR検査も1回に変更されます。また、サーキットブレーカー措置も取り消されました。
+https://www.shenzhen-fan.com/news-2022-11-11-new-announcement-about-covid19-from-china-government/
+5.【盛唐法律事務所】「女子従業員の定年退職年齢」に関する法的解説
+今回は、中国における「女子従業員の定年退職年齢」に関する問題の解決方法について解説します。中国では「工人」と「幹部」で女性従業員の定年退職年齢が異なるため、たびたび争いが生じやすくなっているのだそう。
+https://www.shenzhen-fan.com/2022-11-finance-commerce-law-firm-of-china/
+6.中国渡航条件大幅緩和、11月14日より実施
+中華人民共和国駐日本国大使館（在日中国大使館）は11月14日、中国渡航者向けの新たな申請条件を発表しました。先日の国務院発表に呼応して大幅緩和です。当アナウンスは即日実施となります。
+https://www.shenzhen-fan.com/news-2022-11-14-new-announcement-from-chinese-embassy-in-japan/
+7.第24回中国ハイテクフェア、史上最大規模の展示面積で開催（11/15–19）
+深セン市で行われる展示会の中でも代表的なハイテクフェア（高交会）が、11月15日から19日の期間に開催されました。
+今回は福田区と宝安区の2つの巨大展示場をメイン会場とし、展示面積はなんと約40万平方メートル。史上最大規模となり、40の国と地域から5000社以上の出展者が参加しています。
+https://www.shenzhen-fan.com/news-2022-11-15-china-hi-tech-fair-opens-in-sz/
+8.【2022年11–12月版】日中発着 国際便運航スケジュール・発着ルート
+在中国日本国大使館や各航空会社より公開された最新のフライトスケジュールから、2022年11–12月の日中発着国際便運航スケジュールをルートマップ付きでご紹介します。今回はかなりの増便です。以下の便が新たに追加されました。
+* ANA「大連ー成田」便
+* JAL「上海ー成田」便
+* AIR CHINA「天津ー成田」「天津ー関西」「杭州ー関西」便
+* 中国東方航空「昆明ー成田」「南京ー成田」「杭州ー成田」便
+* 中国南方航空「大連ー成田」「瀋陽ー成田」便
+* 上海吉祥航空「南京ー成田」「南京ー関西」便
+* 春秋航空「瀋陽ー関西」「杭州ー成田」便
+* 深セン航空「無錫ー成田」便
+* 山東航空「青島ー関西」便
+https://www.shenzhen-fan.com/2022-11-china-japan-flight-info/
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-12-01 00:00:00 +0000 UTC'>December 1, 2022</span></footer>
+  <a class="entry-link" aria-label="post link to                  2022 12 " href="http://localhost:1313/teardown/2022/12/2022-12/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/0*PCSmeSsF84Rklv5z.jpg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">  JENESIS  AIWA                         2022 08 
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>深圳JENESISよりAIWAデジタルが誕生 ニコ技深センコミュニティ月次報告 2022年08月 深圳JENESISからAIWAデジタルが誕生
+深圳JENESISよりAIWAデジタルが誕生 ニコ技深センコミュニティ月次報告 2022年08月 深圳JENESISからAIWAデジタルが誕生
+ニコ技深圳コミュニティのCo-Founderでもある藤岡さん率いるJENESIS深圳から、AIWAデジタルブランドのタブレット、スマホなどが登場します。
+JENESISのモノづくりのコアは、深圳のサプライチェーンを活かしたオープンイノベーション。AIWAデジタルが成功すれば、それは様々な製造業への
+大きなヒントになると考えています。
+https://media.dglab.com/2022/07/13-aiwa-jenesis-01/
+我が国の政府はWeb3へ注目しているようですが、中国の大企業は、オープンソースを支えるApache Foundation,Linux Foundationなどへの支援を強化しています。
+中国オープンソース推進機構から「中国オープンソース発展ブルーブック」の2022年版が出たので、コミュニティで翻訳を開始しました。
+昨年版はこちらで読むことができます。
+https://github.com/Nico-Tech-Shenzhen/ChinaOpensourceResearch/blob/main/translation/2021_CNOSSbluebook/Readme.md
+【コミュニティの本】
+コミュニティの本、「遠くへ行きたければ、みんなで行け」お陰様で好評です。
+https://amzn.to/3kBMBhb
+連続イベントとして、Code for Japanの関さん、MIT Media Labのセンター長だった伊藤穰一さんなど、コミュニティにかかわる多くの人たちとオンラインイベントをしています。
+https://note.com/takasu/n/nabe43efcdc43
+■加速世界深センマガジン
+よりライブ的な深セン情報として、「街を歩いていて面白いものを見つけたらスマホで撮ってそのままアップする」「評価の定まってないことを限られた人向けに書く」という
+noteマガジンもやっています。
+例：Stay Hungry, Stay Foolishへのよくある誤解と、ジョブズのキャリアから僕たちが本当に学ぶべきこと
+https://note.mu/takasu/m/m55763d81ba8e
+■今月のアウトプット
+ブログでも確認できます。
+https://medium.com/ecosystembymakers/{.markup–anchor .markup–p-anchor}
+— — -報告（ブログ書いた、記事書いた、本だしたなど。） — — — -
+サバティカル研修（大学教員が海外などで半年-1年間、研究だけできる研修制度）を使って、4月から深センに来ていて、9月中旬の帰国予定まで、早いもので半分が過ぎました。南方科学技術大学に客員教員として籍をおきつつ、M5Stackで製品開発をさせてもらったり、半導体関連も含めた企業訪問やTaoBao・基板発注などの日々です。こちらに日々の経験をまとめていますので、ご覧ください。
+https://github.com/akita11/SZdiary
+■山崎雅夫/ThousanDIY(tomorrow56)
+1. 月刊I/O 2022年8月号に記事掲載(2本)
+[連載「100円ショップガジェット分解」: ダイソーの「完全ワイヤレスイヤホン2」]{#cbc1} ダイソーTWSの３代目を分解しました。JieLiのSoC採用。
+[特集「100均」ガジェットで作る電子工作: 「100均センサライト」で作る「遠隔監視システム」]{#248d} 330円の「明るさ&amp;人感センサ付きライト」に「ATOM Lite」を組み合わせて、無線で通知するシステムの作り方を紹介
+http://www.kohgakusha.co.jp/books/detail/4730
+2. note「100円ショップのガジェットを分解してみる」7月の追加分
+[ダイソーの「ニッケル水素電池専用USB充電器」]{#b4f5} 超シンプルな回路ですが、意外と考えられた設計でした。
+https://note.com/tomorrow56/n/nf3fc1d4b2d0b
+[バックナンバー(noteのマガジン)]{#56d1} https://note.com/tomorrow56/m/ma0073059b5ac
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-07-31 00:00:00 +0000 UTC'>July 31, 2022</span></footer>
+  <a class="entry-link" aria-label="post link to   JENESIS  AIWA                         2022 08 " href="http://localhost:1313/teardown/2022/07/jenesis-aiwa-2022-08/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/1*VGWhAdRXrkJ8np24lLvPGg.jpeg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">         14         AirPods         Oculus   TWS        RISC V                  
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>#分解のススメ 第14回アーカイブ ニセAirPods, おもちゃ分解、Oculus分解、TWSイヤホン分解からRISC-Vの活用や、中国半導体産業の深みを知る 分解のススメ全イベントアーカイブ 2020年6月から続けているイベントもこれで14回目、今回はニセAirpodsをきっかけに、中国半導体産業の深みがわかるイベントになった。
+#分解のススメ 第14回アーカイブ ニセAirPods, おもちゃ分解、Oculus分解、TWSイヤホン分解からRISC-Vの活用や、中国半導体産業の深みを知る 分解のススメ全イベントアーカイブ{.markup–anchor .markup–p-anchor}
+2020年6月から続けているイベントもこれで14回目、今回はニセAirpodsをきっかけに、中国半導体産業の深みがわかるイベントになった。
+@GOROman @Shiratch Oculus Quest2発売日分解&amp;ライブ配信 Oculus Quest2を発売日にライブ分解した様子。今回の中継も全部ライブで、股間からiPhone13 Pro Maxを生やすバレーの白鳥の湖みたいなキットで配信していた。
+おもちゃ分解のススメ 小林竜太 @CH1H160 魔改造の夜などでも大活躍の小林さん。
+これまでの登壇者は電子回路関係が多いけど、メカ系の分解は面白い。小林さんの発表はメカ系の工夫がたくさん出ていて、スライドもとても見やすくておすすめ。
+書籍が8月に出るとのことで、ぜひイベント等で宣伝していきたい。
+怪しいスマホを分解する Ryota Suzuki(@JA1TYE) 鈴木さんの発表はニセiPhone,ニセHuaweiスマホなどの分解。コストを下げる工夫と、それっぽく見せる工夫は素晴らしい。
+ニセAirpodsこと「华强北4代」イヤホン分解・分析 @tks 僕の発表はニセAirpodsの分解。深圳のチップ解析屋に個別に依頼して、たった300元（6000円）でキレイなチップ写真を撮ったのは特色。
+テカナリエレポート{.markup–anchor .markup–p-anchor}517号に詳細な比較記事が載っていて、それを裏付けられる写真を撮れたのは面白い。
+テカナリエレポートは個人購読もできるので、ぜひみんな読むべきだと思う。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-07-18 00:00:00 +0000 UTC'>July 18, 2022</span></footer>
+  <a class="entry-link" aria-label="post link to          14         AirPods         Oculus   TWS        RISC V                  " href="http://localhost:1313/teardown/2022/07/14-airpods-oculus-tws-risc-v/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="http://localhost:1313/teardown/page/2/">
+      «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="http://localhost:1313/teardown/page/4/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">ニコ技深セン / Nico-Tech Shenzhen website</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

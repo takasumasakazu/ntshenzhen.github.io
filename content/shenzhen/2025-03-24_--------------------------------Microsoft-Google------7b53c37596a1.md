@@ -1,5 +1,8 @@
 ---
 title: "                                Microsoft Google     "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*DqmsTIOWin5NNegrbwOWDQ.jpeg"
+  relative: false
 aliases: ["/2025/03/microsoft-google/"]
 slug: microsoft-google
 date: 2025-03-24
@@ -21,7 +24,7 @@ date: 2025-03-24
 Spaces）」セッション。米Maker Media代表のデール（Dale
 Dougherty：左）をモデレーターに、Googleのアーロン（Aaron
 Cunningham：中央）とMicrosoftのケニー（Kenny
-Spade：右）がそれぞれの取り組みを紹介した。](https://cdn-images-1.medium.com/max/800/1*DqmsTIOWin5NNegrbwOWDQ.jpeg){.graf-image}
+Spade：右）がそれぞれの取り組みを紹介した。](https://cdn-images-1.medium.com/max/800/1*DqmsTIOWin5NNegrbwOWDQ.jpeg)
 
 シリコンバレーのサンマテオで行われている世界最大のMaker Faire「Maker
 Faire Bay
@@ -39,11 +42,11 @@ Faireを訪れるなど、共通点は多い。セッションではQ&Aも含め
 
 ケニーが紹介するMicrosoftのメイカースペースは、世界7カ所のオフィスに20人の専任スタッフを抱え、インターンシップの受け入れやハッカソンなどイベントを多く行っている。
 
-![Microsoftのケニーは、ハッカソンや外部との連携を主張する](https://cdn-images-1.medium.com/max/800/1*wpvWPm3HzQ7Zqa0wB2yX7Q.jpeg){.graf-image}
+![Microsoftのケニーは、ハッカソンや外部との連携を主張する](https://cdn-images-1.medium.com/max/800/1*wpvWPm3HzQ7Zqa0wB2yX7Q.jpeg)
 
 「今のCEO（サティア・ナデラ）が就任してから、よりMicrosoftのイノベーション文化が加速した」というケニーは、メイカースペースがもたらす外部との連携や部署の垣根を越えたハッカソンの価値を紹介する。
 
-![2万3500人の従業員を巻き込み、シリコンバレーの10の大学と連携したMicrosoftのハッカソン](https://cdn-images-1.medium.com/max/800/1*j4rBOc4QBxUE1ZNbDSiGfg.jpeg){.graf-image}
+![2万3500人の従業員を巻き込み、シリコンバレーの10の大学と連携したMicrosoftのハッカソン](https://cdn-images-1.medium.com/max/800/1*j4rBOc4QBxUE1ZNbDSiGfg.jpeg)
 
 「スペースは今も拡大中で、2020年にはさらに大きなメイカースペースを作っていくことになるが、大事なのは場所ではなく、そこで起こっている事だ。昨年（2018年）は2万3500人もの従業員が1週間にわたって参加する大規模なハッカソンを行い、そこにMicrosoft内の各部署だけでなくて、外部の大学や組織と連携して、インターンプログラムも行った。もちろん、Microsoftのいくつものプログラム、特にAIやVRに関するものも連携している。部署横断で外部連携の取り組みを、なんども素早く繰り返して少しずつ進めることが大事なんだ。最初に作ったものが一番良いものであることはない」
 
@@ -51,13 +54,13 @@ Faireを訪れるなど、共通点は多い。セッションではQ&Aも含め
 
 「世界60カ所のオフィスには、だいたいメイカースペースがある」と語るアーロンは、有名な20％ルール（従業員は勤務時間の20％は自分の担当以外のプロジェクトに使ってよい、というルール）の紹介から、Googleにとってのメイカースペースを語り出した。
 
-![Googleのケニーはメイカースペースの小回りの良いものづくりをアピールする](https://cdn-images-1.medium.com/max/800/1*v5PFSkcaatj3LZWay3joQg.jpeg){.graf-image}
+![Googleのケニーはメイカースペースの小回りの良いものづくりをアピールする](https://cdn-images-1.medium.com/max/800/1*v5PFSkcaatj3LZWay3joQg.jpeg)
 
 「もともとは、"オフィスにメイカースペースがあるとクールだな"と思って、20％ルールでMakerbotの3Dプリンターを買ってきて設置したのがきっかけだ」と語るケニーは、あくまで楽しみとしてのMake活動を語る。
 
 「今は合計60カ所のメイカースペースが、世界各地ほとんどのオフィスにある。シリコンバレーのスタートアップはどこもガレージから始まるものだけど、今のGoogleのマウンテンビューオフィスは、ガレージとはほど遠い大きなビルだ。だから、小規模で簡単に再配置できる、手軽なスペースが必要だった。仕事で問題があったときに、デスクから離れてランニングマシンで走って気分転換するエンジニアは多い。同じように、画面とキーボードから離れて心のままにものいじりを楽しめるスペースは僕たちにとって必要なんだ」
 
-![「この地図で見るとおり、オフィスが増えるごとにメイカースペースは増えている」とGoogleのケニーは話す。](https://cdn-images-1.medium.com/max/800/1*MlfansSZZ_kS2tMjQ3h49Q.jpeg){.graf-image}
+![「この地図で見るとおり、オフィスが増えるごとにメイカースペースは増えている」とGoogleのケニーは話す。](https://cdn-images-1.medium.com/max/800/1*MlfansSZZ_kS2tMjQ3h49Q.jpeg)
 
 全世界で60カ所あるメイカースペースは、設備もサイズもまちまちだそうだ。「日本のメイカースペースは、ビルの77Fにある。世界で一番高いのでは」などと引き合いに出しながら、ティア1からティア3まで、設備とサイズでランクを分け、社員から見て分かりやすくしていることを紹介した。
 
@@ -87,7 +90,7 @@ Tokyoに出展している。MicrosoftやGoogleがメイカースペースを作
 
 聴衆からの質問を含めて、「活動することそのものの意味」「社内の仕事との距離感」「役に立つこと（将来もうかりそうなこと）とそうじゃないものの距離感」などを含めた「メイカースペースの価値」については、落ち着いた理解が広まっていると感じたセッションだった。
 
-![ほぼ満席、立ち見も出た注目セッションとなった。](https://cdn-images-1.medium.com/max/800/1*fJnaRndPnUEzpjAkIxGqEg.jpeg){.graf-image}
+![ほぼ満席、立ち見も出た注目セッションとなった。](https://cdn-images-1.medium.com/max/800/1*fJnaRndPnUEzpjAkIxGqEg.jpeg)
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 24, 2025](https://medium.com/p/7b53c37596a1).

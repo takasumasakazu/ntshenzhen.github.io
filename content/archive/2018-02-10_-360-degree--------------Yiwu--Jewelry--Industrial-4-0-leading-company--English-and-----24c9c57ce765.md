@@ -1,5 +1,8 @@
 ---
 title: " 360 degree              Yiwu  Jewelry  Industrial 4 0 leading company  English and    "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*ysrtAU51xyhI6LSqvvcPRA.jpeg"
+  relative: false
 aliases: ["/2018/02/360-degree-yiwu-jewelry-industrial-4-0-leading-company-english-and/"]
 slug: 360-degree-yiwu-jewelry-industrial-4-0-leading-company-english-and
 date: 2018-02-10
@@ -27,9 +30,9 @@ China cheap goods factory line still improuving!
 伊藤 亜聖 (Asei Ito), さんに案内いただいて、美谷 広海 (Hiroumi Mitani),
 Teruhiro Kaji, 和田 太郎 (Taro Wada)さんなどと見てきました。
 
-![](https://cdn-images-1.medium.com/max/800/1*ysrtAU51xyhI6LSqvvcPRA.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*ysrtAU51xyhI6LSqvvcPRA.jpeg)
 
-![](https://cdn-images-1.medium.com/max/800/1*xtPa5YDLxU1S_5JXzRNveQ.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*xtPa5YDLxU1S_5JXzRNveQ.jpeg)
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [February 10, 2018](https://medium.com/p/24c9c57ce765).

@@ -1,5 +1,8 @@
 ---
 title: "Maker                       Maker Faire Bay Area 2016"
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*57DHFJsuq-wDk9Uh3Ga-Qw.jpeg"
+  relative: false
 aliases: ["/2025/03/maker-maker-faire-bay-area-2016/"]
 slug: maker-maker-faire-bay-area-2016
 date: 2025-03-21
@@ -17,7 +20,7 @@ Makerマインドの原点と最新形がここにある 世界最大のMaker Fa
 
 2016/08/04 08:00
 
-![](https://cdn-images-1.medium.com/max/800/1*57DHFJsuq-wDk9Uh3Ga-Qw.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*57DHFJsuq-wDk9Uh3Ga-Qw.jpeg)
 
 
 ------------------------------------------------------------------------
@@ -43,15 +46,15 @@ Makers**](https://www.ted.com/talks/dale_dougherty_we_are_makers?language=ja){.m
 Maker Faire Bay
 Areaはそういう工作物に満ちていて、会場に入った瞬間に底抜けに楽しい空間になっている。
 
-![古いオートバイを改造したドラゴンバイク。](https://cdn-images-1.medium.com/max/800/1*3y3xwRB_Jx5T0Vxx68wtyA.jpeg){.graf-image}
+![古いオートバイを改造したドラゴンバイク。](https://cdn-images-1.medium.com/max/800/1*3y3xwRB_Jx5T0Vxx68wtyA.jpeg)
 
 ![オランダの[GIJS VAN
 BON](http://www.gijsvanbon.nl/skryf--blom.html){.markup--anchor
-.markup--figure-anchor}による、地面に砂でポエムを書いていくマシーン。](https://cdn-images-1.medium.com/max/800/1*MTFprN922TDZmDQtoabdhw.jpeg){.graf-image}
+.markup--figure-anchor}による、地面に砂でポエムを書いていくマシーン。](https://cdn-images-1.medium.com/max/800/1*MTFprN922TDZmDQtoabdhw.jpeg)
 
-![](https://cdn-images-1.medium.com/max/800/1*jot-T70PStflm2fjKhDzgA.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*jot-T70PStflm2fjKhDzgA.jpeg)
 
-![この2枚はスチームパンクの世界を作っている人たち。](https://cdn-images-1.medium.com/max/800/1*Umtf7A0aLY6FlztvVbj0mw.jpeg){.graf-image}
+![この2枚はスチームパンクの世界を作っている人たち。](https://cdn-images-1.medium.com/max/800/1*Umtf7A0aLY6FlztvVbj0mw.jpeg)
 
 屋外に展示されている大きくて派手な工作物にも、もちろん目を奪われる。しかも、電子工作にとどまらない範囲の広さがある。服飾や溶接などのアナログな工作物は、他の国のMaker
 Faireではさほど見かけないが、ここBay
@@ -62,12 +65,12 @@ Faireでは目立たないものだ。
 
 さらにベイエリアでは毎年、養蜂／自家製の発酵／石けんづくりなどのためのHomebrewパビリオンがある。エネルギーを盛大に使う巨大工作物と、スローでロハスな両方のDIYが見られるのは、他人に干渉しないヒッピー文化発祥の地、アメリカ西海岸らしい。
 
-![手製のピクルスなど、発酵製品を作るHomebrewパビリオンの出展者たち。](https://cdn-images-1.medium.com/max/800/1*sLOCQ7mO_YkVlzOiv9L8CQ.jpeg){.graf-image}
+![手製のピクルスなど、発酵製品を作るHomebrewパビリオンの出展者たち。](https://cdn-images-1.medium.com/max/800/1*sLOCQ7mO_YkVlzOiv9L8CQ.jpeg)
 
-![ログハウスづくりも、Homebrewパビリオンの中にあった。彼らはトレーラーに乗るログハウスと、Shelterという本を発行している。まさに「大人の隠れ家」である。](https://cdn-images-1.medium.com/max/800/1*awb9cegGv_omx342_E2pjg.jpeg){.graf-image}
+![ログハウスづくりも、Homebrewパビリオンの中にあった。彼らはトレーラーに乗るログハウスと、Shelterという本を発行している。まさに「大人の隠れ家」である。](https://cdn-images-1.medium.com/max/800/1*awb9cegGv_omx342_E2pjg.jpeg)
 
 ![金属製のスカルと筐体にピンクのリボン。アメリカのMaker
-Faireでしか見られないこのロボットは、ブースを持たず場内を走り回っていた。](https://cdn-images-1.medium.com/max/800/1*I--CwG2K9ZzeYLEDNDr2GA.jpeg){.graf-image}
+Faireでしか見られないこのロボットは、ブースを持たず場内を走り回っていた。](https://cdn-images-1.medium.com/max/800/1*I--CwG2K9ZzeYLEDNDr2GA.jpeg)
 
 ### Makerのためのスタートアップ、工作機械 {#e656 .graf .graf--h3 .graf-after--figure name="e656"}
 
@@ -77,9 +80,9 @@ Faireでしか見られないこのロボットは、ブースを持たず場内
 Faireだけに、コンシューマエレクトロニクスよりも工作機械のスタートアップが目立つ。
 
 ![[DIWIRE](http://www.pensalabs.com/diwire-overview/){.markup--anchor
-.markup--figure-anchor}という製品。太い針金を指定の形に曲げてくれる、ワイヤーベンディングマシン。曲げたワイヤを組み合わせることで、写真の頭部型のような立体物も作れる。](https://cdn-images-1.medium.com/max/800/1*-SdzwCQQ-5LeXdQyW0XxWw.jpeg){.graf-image}
+.markup--figure-anchor}という製品。太い針金を指定の形に曲げてくれる、ワイヤーベンディングマシン。曲げたワイヤを組み合わせることで、写真の頭部型のような立体物も作れる。](https://cdn-images-1.medium.com/max/800/1*-SdzwCQQ-5LeXdQyW0XxWw.jpeg)
 
-![木材、アルミなどの削り出しを行うCNCルーターも会場内でデモされ、ウクレレのボディを次々に削り出していた。](https://cdn-images-1.medium.com/max/800/1*pV0dfeYWjJQ2_FQgVwxH0w.jpeg){.graf-image}
+![木材、アルミなどの削り出しを行うCNCルーターも会場内でデモされ、ウクレレのボディを次々に削り出していた。](https://cdn-images-1.medium.com/max/800/1*pV0dfeYWjJQ2_FQgVwxH0w.jpeg)
 
 ### 拡大するMakerシーンが生み出す、Makerのためのサービス業 {#5447 .graf .graf--h3 .graf-after--figure name="5447"}
 
@@ -87,7 +90,7 @@ Faireだけに、コンシューマエレクトロニクスよりも工作機械
 
 こちらFabcrossでも紹介したSeeedは、さらにブースを拡大して出展。Seeedは中国への渡航はビザが必要になって難しいアメリカ人向けに、サンフランシスコにも拠点を置いている。
 
-![PCBの制作、Makerが発明したツールキットの販売など、Maker向けのサービスをトータルで提供するSeeed。](https://cdn-images-1.medium.com/max/800/1*iw-ODVFjPneafLF0iFfl3A.jpeg){.graf-image}
+![PCBの制作、Makerが発明したツールキットの販売など、Maker向けのサービスをトータルで提供するSeeed。](https://cdn-images-1.medium.com/max/800/1*iw-ODVFjPneafLF0iFfl3A.jpeg)
 
 Maker向けプロトタイピングツールも、サービス業とツールキットの中間に位置する、Makerムーブメント前にはなかったカテゴリだ。ArduinoやRaspberry
 Piといったマイコン類から、この連載でも紹介した[**Makeblock**](https://fabcross.jp/topics/tks/20160527_makeblock_01.html){.markup--anchor
@@ -95,23 +98,23 @@ Piといったマイコン類から、この連載でも紹介した[**Makeblock
 .markup--p-anchor}などのプロトタイピングツールも、一つのパビリオンを埋め尽くすほどの多様さで展示されている。
 
 ![Arduinoの開発環境、ソフトウェア部分などを手がけるArduinoも出展。ファウンダーのMassimo
-BanziみずからMakerの相談を受けていた。](https://cdn-images-1.medium.com/max/800/1*y1qKzWSenWVNJ6jlSwn9DQ.jpeg){.graf-image}
+BanziみずからMakerの相談を受けていた。](https://cdn-images-1.medium.com/max/800/1*y1qKzWSenWVNJ6jlSwn9DQ.jpeg)
 
 ![[Fabcrossでも紹介](https://fabcross.jp/topics/tks/20160516_tks_01.html){.markup--anchor
 .markup--figure-anchor}したESPertのWilliam
-Hooiも出展。ほかにもArduino互換ボードは数十社集まって一つの島を構成していた。](https://cdn-images-1.medium.com/max/800/1*2E3gE0AiZ_j9wLlNBR_m-w.jpeg){.graf-image}
+Hooiも出展。ほかにもArduino互換ボードは数十社集まって一つの島を構成していた。](https://cdn-images-1.medium.com/max/800/1*2E3gE0AiZ_j9wLlNBR_m-w.jpeg)
 
-![巨大なMakeblockブース。向かいには100年の歴史を持つ知育玩具キットmeccanoがブースを構え、新旧のコントラストを見せていた。](https://cdn-images-1.medium.com/max/800/1*RkqCHMmxKqYcOvECXYF0gA.jpeg){.graf-image}
+![巨大なMakeblockブース。向かいには100年の歴史を持つ知育玩具キットmeccanoがブースを構え、新旧のコントラストを見せていた。](https://cdn-images-1.medium.com/max/800/1*RkqCHMmxKqYcOvECXYF0gA.jpeg)
 
-![こちらは日本製、SONYのMESHブース。](https://cdn-images-1.medium.com/max/800/1*7RCZ9W_YI7eAM43ltKouAg.jpeg){.graf-image}
+![こちらは日本製、SONYのMESHブース。](https://cdn-images-1.medium.com/max/800/1*7RCZ9W_YI7eAM43ltKouAg.jpeg)
 
 ![コンピュータ歴史博物館は、初期のパーソナルコンピュータをレストアして展示していた。テクノロジー、DIYの歴史がMaker
-Faireにみごとに合流している。](https://cdn-images-1.medium.com/max/800/1*xdqY1JjLDoDu0-qdaTzh2A.jpeg){.graf-image}
+Faireにみごとに合流している。](https://cdn-images-1.medium.com/max/800/1*xdqY1JjLDoDu0-qdaTzh2A.jpeg)
 
 ### 次世代のMakerを生み出すMaker教育 {#901f .graf .graf--h3 .graf-after--figure name="901f"}
 
 ![Maker
-Educationパビリオンの混雑ぶり。](https://cdn-images-1.medium.com/max/800/1*BfiBfjsCfNUFS8QHmQtU6w.jpeg){.graf-image}
+Educationパビリオンの混雑ぶり。](https://cdn-images-1.medium.com/max/800/1*BfiBfjsCfNUFS8QHmQtU6w.jpeg)
 
 すでに自分で作りたいものを作れるMakerのためだけではなく、子供を次世代のMakerに育てるためのMaker教育についても、巨大なMaker
 Educationパビリオンができている。MakeblockやESPressoのような「大人も子供も使えるツール」は別パビリオンに展示されていることも多いので、実際にはMaker
@@ -122,9 +125,9 @@ Institute of Technologyである。
 
 ![こちらは塾のような形でロボティクスの教育を行う[BARNABAS
 ROBOTICS](http://www.barnabasrobotics.com/){.markup--anchor
-.markup--figure-anchor}のブース。](https://cdn-images-1.medium.com/max/800/1*6i9Rbs29f2TsvGGTlnTAZg.jpeg){.graf-image}
+.markup--figure-anchor}のブース。](https://cdn-images-1.medium.com/max/800/1*6i9Rbs29f2TsvGGTlnTAZg.jpeg)
 
-![教育パビリオンではないが、科学者に直接質問できるブース。](https://cdn-images-1.medium.com/max/800/1*3Ff6ZuSSBBDCDfevVyZnSw.jpeg){.graf-image}
+![教育パビリオンではないが、科学者に直接質問できるブース。](https://cdn-images-1.medium.com/max/800/1*3Ff6ZuSSBBDCDfevVyZnSw.jpeg)
 
 ### 拡大しつつあるDIYの全てがここにある {#81fc .graf .graf--h3 .graf-after--figure name="81fc"}
 

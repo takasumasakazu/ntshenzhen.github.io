@@ -1,5 +1,8 @@
 ---
 title: "Six Maker Faires in Fall 2025   What I Saw Across Asia and Europe  Seoul  Tokyo  Rome  Shanghai "
+cover:
+  image: "https://cdn-images-1.medium.com/max/1200/1*T_KvbLgax9J6kTEcrYtIyw.jpeg"
+  relative: false
 aliases: ["/2025/12/six-maker-faires-in-fall-2025-what-i-saw-across-asia-and-europe-seoul-tokyo-rome-shanghai/"]
 slug: six-maker-faires-in-fall-2025-what-i-saw-across-asia-and-europe-seoul-tokyo-rome-shanghai
 date: 2025-12-01
@@ -18,7 +21,7 @@ DIY movement slowly regains momentum after COVID, each region has...
 
 Chinese version follows below (简体中文在后半部分)
 
-![](https://cdn-images-1.medium.com/max/1200/1*T_KvbLgax9J6kTEcrYtIyw.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/1200/1*T_KvbLgax9J6kTEcrYtIyw.jpeg)
 
 If you're a maker, educator, or startup founder wondering which cities
 feel most alive right now, these six fairs offer a pretty good snapshot.

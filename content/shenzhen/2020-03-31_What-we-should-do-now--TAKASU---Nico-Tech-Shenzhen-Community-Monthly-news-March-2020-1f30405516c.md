@@ -1,5 +1,8 @@
 ---
 title: "What we should do now  TAKASU   Nico Tech Shenzhen Community Monthly news March 2020 1f30405516c"
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*QlZhv-VnE8RB88LvZaNplg.png"
+  relative: false
 aliases: ["/2020/03/what-we-should-do-now-takasu-nico-tech-shenzhen-community-monthly-news-march-2020-1f30405516c/"]
 slug: what-we-should-do-now-takasu-nico-tech-shenzhen-community-monthly-news-march-2020-1f30405516c
 date: 2020-03-31
@@ -30,7 +33,7 @@ boarder temporary closed.
 
 I still am waiting in Singapore until an open Chinese boarder again.
 
-![](https://cdn-images-1.medium.com/max/800/1*QlZhv-VnE8RB88LvZaNplg.png){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*QlZhv-VnE8RB88LvZaNplg.png)
 
 Chinese tech giant Alibaba publishes the Handbook of COVID-19 Prevention
 and Treatment in so many languages include English and Japanese.

@@ -1,5 +1,8 @@
 ---
 title: "     Regarding Proposed US Restrictions on RISC V "
+cover:
+  image: "https://twitter.com/tks/status/1721650674990252191"
+  relative: false
 aliases: ["/2023/11/regarding-proposed-us-restrictions-on-risc-v/"]
 slug: regarding-proposed-us-restrictions-on-risc-v
 date: 2023-11-06
@@ -85,7 +88,7 @@ DEED](https://creativecommons.org/licenses/by-sa/4.0/){.markup--anchor
 .markup--p-anchor}で公開されている。
 
 ![翻訳についてbunnieにも[ツイート](https://twitter.com/tks/status/1721650674990252191){.markup--anchor
-.markup--figure-anchor}](https://cdn-images-1.medium.com/max/800/1*cqiZUsn3fcOjuQQJBvz_3Q.png){.graf-image}
+.markup--figure-anchor}](https://cdn-images-1.medium.com/max/800/1*cqiZUsn3fcOjuQQJBvz_3Q.png)
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [November 6, 2023](https://medium.com/p/0cb41fac197f).

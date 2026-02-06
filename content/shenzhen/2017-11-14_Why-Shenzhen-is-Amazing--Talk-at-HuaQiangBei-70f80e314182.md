@@ -1,5 +1,8 @@
 ---
 title: "Why Shenzhen is Amazing  Talk at HuaQiangBei"
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*d7Wy4DQqcqC9Pm5MdSHvMw.jpeg"
+  relative: false
 aliases: ["/2017/11/why-shenzhen-is-amazing-talk-at-huaqiangbei/"]
 slug: why-shenzhen-is-amazing-talk-at-huaqiangbei
 date: 2017-11-14
@@ -45,9 +48,9 @@ the Shenzhen and how thing for the future.
 We really enjoyed talking each other, mostly QA session, We still going
 on how understand and share about here awesome city Shenzhen!
 
-![](https://cdn-images-1.medium.com/max/800/1*d7Wy4DQqcqC9Pm5MdSHvMw.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*d7Wy4DQqcqC9Pm5MdSHvMw.jpeg)
 
-![](https://cdn-images-1.medium.com/max/800/1*E9e37w74tD27eV-FpjSYXg.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*E9e37w74tD27eV-FpjSYXg.jpeg)
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [November 14, 2017](https://medium.com/p/70f80e314182).

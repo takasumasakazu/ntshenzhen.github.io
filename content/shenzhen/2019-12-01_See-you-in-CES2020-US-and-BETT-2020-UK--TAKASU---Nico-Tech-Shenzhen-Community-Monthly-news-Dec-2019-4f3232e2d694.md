@@ -1,5 +1,8 @@
 ---
 title: "See you in CES2020 US and BETT 2020 UK  TAKASU   Nico Tech Shenzhen Community Monthly news Dec 2019"
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*u5mxLfAS1Vw6NPxA7nFYbA.jpeg"
+  relative: false
 aliases: ["/2019/12/see-you-in-ces2020-us-and-bett-2020-uk-takasu-nico-tech-shenzhen-community-monthly-news-dec-2019/"]
 slug: see-you-in-ces2020-us-and-bett-2020-uk-takasu-nico-tech-shenzhen-community-monthly-news-dec-2019
 date: 2019-12-01
@@ -22,7 +25,7 @@ already, in this Dec I need a trip to ChiangMai and Japan, these only 2
 trips are so little then last few months.
 
 ![Jeffrey bring fire hat on Maker Faire
-Shenzhen 2019!](https://cdn-images-1.medium.com/max/800/1*u5mxLfAS1Vw6NPxA7nFYbA.jpeg){.graf-image}
+Shenzhen 2019!](https://cdn-images-1.medium.com/max/800/1*u5mxLfAS1Vw6NPxA7nFYbA.jpeg)
 
 But I haven't been any problem with my activity, still enjoy the trip
 and struggle.

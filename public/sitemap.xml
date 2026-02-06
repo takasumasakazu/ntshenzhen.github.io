@@ -2,352 +2,361 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/archive/</loc>
+    <loc>http://localhost:1313/teardown/2026/02/ces2026-2-2026-02/</loc>
     <lastmod>2026-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2026/02/ces2026-2-2026-02/</loc>
+    <loc>http://localhost:1313/teardown/</loc>
     <lastmod>2026-02-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
     <lastmod>2026-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/12/12-5-6-2025-12/</loc>
+    <loc>http://localhost:1313/teardown/2025/12/12-5-6-2025-12/</loc>
     <lastmod>2025-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/12/six-maker-faires-in-fall-2025-what-i-saw-across-asia-and-europe-seoul-tokyo-rome-shanghai/</loc>
+    <loc>http://localhost:1313/shenzhen/</loc>
     <lastmod>2025-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/11/ai-2025-11/</loc>
+    <loc>http://localhost:1313/shenzhen/2025/12/six-maker-faires-in-fall-2025-what-i-saw-across-asia-and-europe-seoul-tokyo-rome-shanghai/</loc>
+    <lastmod>2025-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/teardown/2025/11/ai-2025-11/</loc>
     <lastmod>2025-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/10/10-7-2025-10/</loc>
+    <loc>http://localhost:1313/teardown/2025/10/10-7-2025-10/</loc>
     <lastmod>2025-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/07/2025-07/</loc>
+    <loc>http://localhost:1313/teardown/2025/07/2025-07/</loc>
     <lastmod>2025-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/05/6-21-22-nt-2025-06/</loc>
+    <loc>http://localhost:1313/teardown/2025/05/6-21-22-nt-2025-06/</loc>
     <lastmod>2025-05-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/05/20-ic-100/</loc>
+    <loc>http://localhost:1313/teardown/2025/05/20-ic-100/</loc>
     <lastmod>2025-05-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/04/stamp-fly-a-50-open-source-drone-co-created-in-shenzhen-and-japan/</loc>
+    <loc>http://localhost:1313/shenzhen/2025/04/stamp-fly-a-50-open-source-drone-co-created-in-shenzhen-and-japan/</loc>
     <lastmod>2025-04-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2025/03/robomaster/</loc>
     <lastmod>2025-03-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/m5stack-stamp-fly/</loc>
+    <loc>http://localhost:1313/archive/</loc>
     <lastmod>2025-03-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/m5stack-ceo-2023/</loc>
+    <loc>http://localhost:1313/fabcross/</loc>
     <lastmod>2025-03-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/post/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/m5stack-stamp-fly/</loc>
+    <lastmod>2025-03-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/fabcross/2025/03/m5stack-ceo-2023/</loc>
+    <lastmod>2025-03-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/fabcross/2025/03/post/</loc>
     <lastmod>2025-03-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/m5stack-dx/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/m5stack-dx/</loc>
     <lastmod>2025-03-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/aiwa/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/aiwa/</loc>
     <lastmod>2025-03-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/m5stack-atomfly/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/m5stack-atomfly/</loc>
     <lastmod>2025-03-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/isa-risc-v/</loc>
+    <loc>http://localhost:1313/teardown/2025/03/isa-risc-v/</loc>
     <lastmod>2025-03-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/1500-airpods/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/1500-airpods/</loc>
     <lastmod>2025-03-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/post/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/post/</loc>
     <lastmod>2025-03-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/post/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/post/</loc>
     <lastmod>2025-03-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/5-tips/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/5-tips/</loc>
     <lastmod>2025-03-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/8000-maker/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/8000-maker/</loc>
     <lastmod>2025-03-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/mycobot-joey/</loc>
+    <loc>http://localhost:1313/teardown/2025/03/mycobot-joey/</loc>
     <lastmod>2025-03-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/20/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/20/</loc>
     <lastmod>2025-03-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/iot-m5stack/</loc>
+    <loc>http://localhost:1313/teardown/2025/03/iot-m5stack/</loc>
     <lastmod>2025-03-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/m5stack-maker-maker/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/m5stack-maker-maker/</loc>
     <lastmod>2025-03-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/maker-2015/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/maker-2015/</loc>
     <lastmod>2025-03-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/post/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/post/</loc>
     <lastmod>2025-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/post/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/post/</loc>
     <lastmod>2025-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/post/</loc>
+    <loc>http://localhost:1313/shenzhen/2025/03/post/</loc>
     <lastmod>2025-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/post/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/post/</loc>
     <lastmod>2025-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/post/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/post/</loc>
     <lastmod>2025-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/post/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/post/</loc>
     <lastmod>2025-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/post/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/post/</loc>
     <lastmod>2025-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/post/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/post/</loc>
     <lastmod>2025-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/zglue/</loc>
+    <loc>http://localhost:1313/teardown/2025/03/zglue/</loc>
     <lastmod>2025-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/microsoft-google/</loc>
+    <loc>http://localhost:1313/shenzhen/2025/03/microsoft-google/</loc>
     <lastmod>2025-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/mit/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/mit/</loc>
     <lastmod>2025-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/gravitech/</loc>
+    <loc>http://localhost:1313/shenzhen/2025/03/gravitech/</loc>
     <lastmod>2025-03-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2025/03/ai/</loc>
     <lastmod>2025-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/mit-research-at-scale/</loc>
+    <loc>http://localhost:1313/shenzhen/2025/03/mit-research-at-scale/</loc>
     <lastmod>2025-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/ai-sipeed/</loc>
+    <loc>http://localhost:1313/teardown/2025/03/ai-sipeed/</loc>
     <lastmod>2025-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/post/</loc>
+    <loc>http://localhost:1313/shenzhen/2025/03/post/</loc>
     <lastmod>2025-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/post/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/post/</loc>
     <lastmod>2025-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/post/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/post/</loc>
     <lastmod>2025-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/post/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/post/</loc>
     <lastmod>2025-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/raspberry-pi/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/raspberry-pi/</loc>
     <lastmod>2025-03-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2025/03/maker-raspberry-pi/</loc>
     <lastmod>2025-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/teamosa/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/teamosa/</loc>
     <lastmod>2025-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/akiparty-8-5/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/akiparty-8-5/</loc>
     <lastmod>2025-03-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2025/03/stem/</loc>
     <lastmod>2025-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/3-tips/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/3-tips/</loc>
     <lastmod>2025-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/maker-pro-4-10/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/maker-pro-4-10/</loc>
     <lastmod>2025-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/maker-faire-maker-faire/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/maker-faire-maker-faire/</loc>
     <lastmod>2025-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/10-2/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/10-2/</loc>
     <lastmod>2025-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/maker-faire-100-maker/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/maker-faire-100-maker/</loc>
     <lastmod>2025-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/maker-pro-quickstater/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/maker-pro-quickstater/</loc>
     <lastmod>2025-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/post/</loc>
+    <loc>http://localhost:1313/shenzhen/2025/03/post/</loc>
     <lastmod>2025-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/hwtrek-asia-innovation-tour/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/hwtrek-asia-innovation-tour/</loc>
     <lastmod>2025-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/hwtrek-asia-innovation-tour/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/hwtrek-asia-innovation-tour/</loc>
     <lastmod>2025-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/hwtrek-asia-innovation-tour/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/hwtrek-asia-innovation-tour/</loc>
     <lastmod>2025-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/maker-faire/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/maker-faire/</loc>
     <lastmod>2025-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/makeblock/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/makeblock/</loc>
     <lastmod>2025-03-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2025/03/maker-maker-mela-2017/</loc>
     <lastmod>2025-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/maker-faire-shenzhen-2016/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/maker-faire-shenzhen-2016/</loc>
     <lastmod>2025-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/bangkok-mini-maker-faire-2017/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/bangkok-mini-maker-faire-2017/</loc>
     <lastmod>2025-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/maker-faire-singapore-2016/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/maker-faire-singapore-2016/</loc>
     <lastmod>2025-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/700/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/700/</loc>
     <lastmod>2025-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/maker-akiparty/</loc>
+    <loc>http://localhost:1313/shenzhen/2025/03/maker-akiparty/</loc>
     <lastmod>2025-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/maker-4-maker-faire-mini-maker-faire-2016/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/maker-4-maker-faire-mini-maker-faire-2016/</loc>
     <lastmod>2025-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/maker-maker-faire-bay-area-2016/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/maker-maker-faire-bay-area-2016/</loc>
     <lastmod>2025-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/tinkering-studio/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/tinkering-studio/</loc>
     <lastmod>2025-03-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2025/03/30-2016-01-26/</loc>
     <lastmod>2025-03-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/diy-2016-02-23/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/diy-2016-02-23/</loc>
     <lastmod>2025-03-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/03/iot-97-iot-espert/</loc>
+    <loc>http://localhost:1313/fabcross/2025/03/iot-97-iot-espert/</loc>
     <lastmod>2025-03-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2025/02/ai-openai-deepseek-ai/</loc>
     <lastmod>2025-02-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2025/01/unleashing-the-future-of-hardware-innovation-lessons-from-a-decade-of-maker-ecosystems/</loc>
+    <loc>http://localhost:1313/shenzhen/2025/01/unleashing-the-future-of-hardware-innovation-lessons-from-a-decade-of-maker-ecosystems/</loc>
     <lastmod>2025-01-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2024/08/9-20-2024-09/</loc>
+    <loc>http://localhost:1313/teardown/2024/08/9-20-2024-09/</loc>
     <lastmod>2024-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2024/06/m5stack-kantan-play-core-2024-07/</loc>
+    <loc>http://localhost:1313/teardown/2024/06/m5stack-kantan-play-core-2024-07/</loc>
     <lastmod>2024-06-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2024/05/5-23-19-00-bridge-terminal/</loc>
+    <loc>http://localhost:1313/shenzhen/2024/05/5-23-19-00-bridge-terminal/</loc>
     <lastmod>2024-05-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2024/04/5-24-14-00-ai-sumida-innovation-core-sic/</loc>
+    <loc>http://localhost:1313/teardown/2024/04/5-24-14-00-ai-sumida-innovation-core-sic/</loc>
     <lastmod>2024-04-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2024/02/2024-03/</loc>
+    <loc>http://localhost:1313/teardown/2024/02/2024-03/</loc>
     <lastmod>2024-02-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2024/02/2024-02/</loc>
+    <loc>http://localhost:1313/teardown/2024/02/2024-02/</loc>
     <lastmod>2024-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2024/01/2024-1-2/</loc>
+    <loc>http://localhost:1313/shenzhen/2024/01/2024-1-2/</loc>
     <lastmod>2024-01-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2023/11/2023-12/</loc>
+    <loc>http://localhost:1313/teardown/2023/11/2023-12/</loc>
     <lastmod>2023-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2023/11/regarding-proposed-us-restrictions-on-risc-v/</loc>
+    <loc>http://localhost:1313/teardown/2023/11/regarding-proposed-us-restrictions-on-risc-v/</loc>
     <lastmod>2023-11-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2023/09/10-14-15-2023-10/</loc>
+    <loc>http://localhost:1313/teardown/2023/09/10-14-15-2023-10/</loc>
     <lastmod>2023-09-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2023/09/17-discode-2023-09/</loc>
+    <loc>http://localhost:1313/teardown/2023/09/17-discode-2023-09/</loc>
     <lastmod>2023-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2023/08/17-esp32-s3-uni-a81526244f1/</loc>
+    <loc>http://localhost:1313/teardown/2023/08/17-esp32-s3-uni-a81526244f1/</loc>
     <lastmod>2023-08-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2023/07/8-19-2023-08/</loc>
+    <loc>http://localhost:1313/teardown/2023/07/8-19-2023-08/</loc>
     <lastmod>2023-07-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2023/06/chatgpt/</loc>
+    <loc>http://localhost:1313/shenzhen/2023/06/chatgpt/</loc>
     <lastmod>2023-06-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2023/05/6-17-18-2023-06/</loc>
+    <loc>http://localhost:1313/teardown/2023/05/6-17-18-2023-06/</loc>
     <lastmod>2023-05-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2023/05/5-1-panasonic-5-5-m5stack-2023-05/</loc>
+    <loc>http://localhost:1313/teardown/2023/05/5-1-panasonic-5-5-m5stack-2023-05/</loc>
     <lastmod>2023-05-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2023/05/5-2023-03/</loc>
+    <loc>http://localhost:1313/fabcross/2023/05/5-2023-03/</loc>
     <lastmod>2023-05-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2023/02/he/</loc>
+    <loc>http://localhost:1313/teardown/2023/02/he/</loc>
     <lastmod>2023-02-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2023/01/15-hyper/</loc>
+    <loc>http://localhost:1313/teardown/2023/01/15-hyper/</loc>
     <lastmod>2023-01-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2023/01/2023-01/</loc>
+    <loc>http://localhost:1313/shenzhen/2023/01/2023-01/</loc>
     <lastmod>2023-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2022/12/2022-12/</loc>
+    <loc>http://localhost:1313/teardown/2022/12/2022-12/</loc>
     <lastmod>2022-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2022/11/plus/</loc>
+    <loc>http://localhost:1313/shenzhen/2022/11/plus/</loc>
     <lastmod>2022-11-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2022/10/2022-10/</loc>
+    <loc>http://localhost:1313/fabcross/2022/10/2022-10/</loc>
     <lastmod>2022-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2022/07/jenesis-aiwa-2022-08/</loc>
+    <loc>http://localhost:1313/teardown/2022/07/jenesis-aiwa-2022-08/</loc>
     <lastmod>2022-07-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2022/07/14-airpods-oculus-tws-risc-v/</loc>
+    <loc>http://localhost:1313/teardown/2022/07/14-airpods-oculus-tws-risc-v/</loc>
     <lastmod>2022-07-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2022/05/2020-09/</loc>
+    <loc>http://localhost:1313/fabcross/2022/05/2020-09/</loc>
     <lastmod>2022-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2022/05/2022-03/</loc>
+    <loc>http://localhost:1313/teardown/2022/05/2022-03/</loc>
     <lastmod>2022-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2022/05/gdp-2022-05/</loc>
+    <loc>http://localhost:1313/teardown/2022/05/gdp-2022-05/</loc>
     <lastmod>2022-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2022/05/1-4-podcast-2022-01/</loc>
+    <loc>http://localhost:1313/teardown/2022/05/1-4-podcast-2022-01/</loc>
     <lastmod>2022-05-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2022/05/rcep/</loc>
+    <loc>http://localhost:1313/fabcross/2022/05/rcep/</loc>
     <lastmod>2022-05-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2022/04/post/</loc>
     <lastmod>2022-04-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2022/03/post/</loc>
+    <loc>http://localhost:1313/shenzhen/2022/03/post/</loc>
     <lastmod>2022-03-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2022/03/post/</loc>
+    <loc>http://localhost:1313/shenzhen/2022/03/post/</loc>
     <lastmod>2022-03-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2022/02/13/</loc>
+    <loc>http://localhost:1313/teardown/2022/02/13/</loc>
     <lastmod>2022-02-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2022/02/2022-2-2021/</loc>
+    <loc>http://localhost:1313/fabcross/2022/02/2022-2-2021/</loc>
     <lastmod>2022-02-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2022/02/2021/</loc>
+    <loc>http://localhost:1313/shenzhen/2022/02/2021/</loc>
     <lastmod>2022-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2022/01/12-100-l/</loc>
+    <loc>http://localhost:1313/teardown/2022/01/12-100-l/</loc>
     <lastmod>2022-01-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2021/09/k-c/</loc>
@@ -359,34 +368,34 @@
     <loc>http://localhost:1313/archive/2021/09/100-2017-01-23/</loc>
     <lastmod>2021-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2021/09/b24766a2307/</loc>
+    <loc>http://localhost:1313/shenzhen/2021/09/b24766a2307/</loc>
     <lastmod>2021-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2021/09/hax-2017-03-16/</loc>
+    <loc>http://localhost:1313/shenzhen/2021/09/hax-2017-03-16/</loc>
     <lastmod>2021-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2021/09/2017-02-20/</loc>
+    <loc>http://localhost:1313/shenzhen/2021/09/2017-02-20/</loc>
     <lastmod>2021-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2021/09/2016-11-28/</loc>
+    <loc>http://localhost:1313/shenzhen/2021/09/2016-11-28/</loc>
     <lastmod>2021-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2021/09/2016-12-16/</loc>
+    <loc>http://localhost:1313/shenzhen/2021/09/2016-12-16/</loc>
     <lastmod>2021-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2021/09/2016-09-30/</loc>
+    <loc>http://localhost:1313/teardown/2021/09/2016-09-30/</loc>
     <lastmod>2021-09-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2021/09/2016-09-28/</loc>
+    <loc>http://localhost:1313/teardown/2021/09/2016-09-28/</loc>
     <lastmod>2021-09-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2021/09/f-2016-08-08/</loc>
+    <loc>http://localhost:1313/shenzhen/2021/09/f-2016-08-08/</loc>
     <lastmod>2021-09-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2021/09/2016-10-4/</loc>
+    <loc>http://localhost:1313/teardown/2021/09/2016-10-4/</loc>
     <lastmod>2021-09-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2021/09/aliexpress-2016-11-17/</loc>
+    <loc>http://localhost:1313/shenzhen/2021/09/aliexpress-2016-11-17/</loc>
     <lastmod>2021-09-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2021/09/2016-09-09/</loc>
@@ -395,7 +404,7 @@
     <loc>http://localhost:1313/archive/2021/09/2016-08-04/</loc>
     <lastmod>2021-09-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2021/09/2016-11-21-7abd9ee6e45/</loc>
+    <loc>http://localhost:1313/shenzhen/2021/09/2016-11-21-7abd9ee6e45/</loc>
     <lastmod>2021-09-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2021/09/fintech-2016-10-11/</loc>
@@ -407,31 +416,31 @@
     <loc>http://localhost:1313/archive/2021/09/2016-05-15/</loc>
     <lastmod>2021-09-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2021/09/8-7-2016-nt-2016-akiparty-nt-2016-6-9/</loc>
+    <loc>http://localhost:1313/shenzhen/2021/09/8-7-2016-nt-2016-akiparty-nt-2016-6-9/</loc>
     <lastmod>2021-09-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2021/09/9-6-21-30-it-podcast-2021-09/</loc>
+    <loc>http://localhost:1313/teardown/2021/09/9-6-21-30-it-podcast-2021-09/</loc>
     <lastmod>2021-09-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2021/09/tesla-2016-06-13/</loc>
     <lastmod>2021-09-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2021/07/11/</loc>
+    <loc>http://localhost:1313/teardown/2021/07/11/</loc>
     <lastmod>2021-07-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2021/06/1-goroman/</loc>
     <lastmod>2021-06-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2021/06/10-tks-akita11-ooedotechnica-puhitaku-stevekasuya2/</loc>
+    <loc>http://localhost:1313/teardown/2021/06/10-tks-akita11-ooedotechnica-puhitaku-stevekasuya2/</loc>
     <lastmod>2021-06-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2021/06/9-remake/</loc>
+    <loc>http://localhost:1313/teardown/2021/06/9-remake/</loc>
     <lastmod>2021-06-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2021/06/2016-04-04/</loc>
     <lastmod>2021-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2021/06/6-2021-06/</loc>
+    <loc>http://localhost:1313/teardown/2021/06/6-2021-06/</loc>
     <lastmod>2021-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2021/06/amazon-2016-03-08/</loc>
@@ -446,7 +455,7 @@
     <loc>http://localhost:1313/archive/2021/05/techshop-dmm-make-akiba-2016-02-03/</loc>
     <lastmod>2021-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2021/04/post/</loc>
+    <loc>http://localhost:1313/fabcross/2021/04/post/</loc>
     <lastmod>2021-04-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2021/04/post/</loc>
@@ -461,10 +470,10 @@
     <loc>http://localhost:1313/archive/2021/04/2016-02-01/</loc>
     <lastmod>2021-04-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2021/04/2016-1-24/</loc>
+    <loc>http://localhost:1313/fabcross/2021/04/2016-1-24/</loc>
     <lastmod>2021-04-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2021/04/37/</loc>
+    <loc>http://localhost:1313/shenzhen/2021/04/37/</loc>
     <lastmod>2021-04-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2021/04/co2/</loc>
@@ -479,19 +488,19 @@
     <loc>http://localhost:1313/archive/2021/04/3-2015-08-09/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2021/03/akiparty-2014-11-26/</loc>
+    <loc>http://localhost:1313/teardown/2021/03/akiparty-2014-11-26/</loc>
     <lastmod>2021-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2021/03/hax-2017-3-16/</loc>
+    <loc>http://localhost:1313/shenzhen/2021/03/hax-2017-3-16/</loc>
     <lastmod>2021-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2021/03/2014-8-sz0806/</loc>
+    <loc>http://localhost:1313/teardown/2021/03/2014-8-sz0806/</loc>
     <lastmod>2021-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2021/03/2015-03-22/</loc>
+    <loc>http://localhost:1313/teardown/2021/03/2015-03-22/</loc>
     <lastmod>2021-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2021/03/soylent-supply-chain-andrew-bunnie-huang-2014-12-23/</loc>
+    <loc>http://localhost:1313/teardown/2021/03/soylent-supply-chain-andrew-bunnie-huang-2014-12-23/</loc>
     <lastmod>2021-03-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2021/03/200-2015-04-13/</loc>
@@ -500,253 +509,253 @@
     <loc>http://localhost:1313/archive/2021/03/2015-04-05/</loc>
     <lastmod>2021-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2021/03/2015-04-20/</loc>
+    <loc>http://localhost:1313/shenzhen/2021/03/2015-04-20/</loc>
     <lastmod>2021-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2021/03/2014-12-sz1208/</loc>
+    <loc>http://localhost:1313/shenzhen/2021/03/2014-12-sz1208/</loc>
     <lastmod>2021-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2021/03/2015-06/</loc>
+    <loc>http://localhost:1313/teardown/2021/03/2015-06/</loc>
     <lastmod>2021-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2021/03/2016-04/</loc>
+    <loc>http://localhost:1313/shenzhen/2021/03/2016-04/</loc>
     <lastmod>2021-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2021/03/2016-08/</loc>
+    <loc>http://localhost:1313/teardown/2021/03/2016-08/</loc>
     <lastmod>2021-03-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2021/03/1965-2015-08-06/</loc>
     <lastmod>2021-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2021/03/6-2016-10/</loc>
+    <loc>http://localhost:1313/shenzhen/2021/03/6-2016-10/</loc>
     <lastmod>2021-03-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2021/03/the-lky-musical-2015-07-22/</loc>
     <lastmod>2021-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2021/03/7-2020-5fb68b5d9b5/</loc>
+    <loc>http://localhost:1313/teardown/2021/03/7-2020-5fb68b5d9b5/</loc>
     <lastmod>2021-03-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2021/03/3-21-8/</loc>
+    <loc>http://localhost:1313/teardown/2021/03/3-21-8/</loc>
     <lastmod>2021-03-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2021/03/2021-03/</loc>
+    <loc>http://localhost:1313/teardown/2021/03/2021-03/</loc>
     <lastmod>2021-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2021/03/2-2021-02/</loc>
+    <loc>http://localhost:1313/teardown/2021/03/2-2021-02/</loc>
     <lastmod>2021-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2021/02/2020/</loc>
+    <loc>http://localhost:1313/shenzhen/2021/02/2020/</loc>
     <lastmod>2021-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2021/02/kaiyuanshe-nico-tech-shenzhen/</loc>
+    <loc>http://localhost:1313/shenzhen/2021/02/kaiyuanshe-nico-tech-shenzhen/</loc>
     <lastmod>2021-02-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2021/01/6-100-linux-lt/</loc>
+    <loc>http://localhost:1313/teardown/2021/01/6-100-linux-lt/</loc>
     <lastmod>2021-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2021/01/happy-cny-i-m-still-in-shenzhen-feb-2021-monthly-report/</loc>
+    <loc>http://localhost:1313/shenzhen/2021/01/happy-cny-i-m-still-in-shenzhen-feb-2021-monthly-report/</loc>
     <lastmod>2021-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2021/01/post/</loc>
+    <loc>http://localhost:1313/shenzhen/2021/01/post/</loc>
     <lastmod>2021-01-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2021/01/2021-1-20-ob-736b9d54e68/</loc>
+    <loc>http://localhost:1313/fabcross/2021/01/2021-1-20-ob-736b9d54e68/</loc>
     <lastmod>2021-01-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2020/11/2020-12/</loc>
+    <loc>http://localhost:1313/fabcross/2020/11/2020-12/</loc>
     <lastmod>2020-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2020/11/11-tech-2020-11/</loc>
+    <loc>http://localhost:1313/teardown/2020/11/11-tech-2020-11/</loc>
     <lastmod>2020-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2020/10/our-book-prototype-city-introduced-the-newspaper-in-shenzhen-by-shenzhen-daily/</loc>
+    <loc>http://localhost:1313/shenzhen/2020/10/our-book-prototype-city-introduced-the-newspaper-in-shenzhen-by-shenzhen-daily/</loc>
     <lastmod>2020-10-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2020/10/2020-10/</loc>
+    <loc>http://localhost:1313/teardown/2020/10/2020-10/</loc>
     <lastmod>2020-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2020/08/5-3b13fa79854/</loc>
+    <loc>http://localhost:1313/teardown/2020/08/5-3b13fa79854/</loc>
     <lastmod>2020-08-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2020/08/coscup-2020-taipei-chinese-shanzhai-open-source-hardware-what-and-how-making-and-hacking-the/</loc>
+    <loc>http://localhost:1313/shenzhen/2020/08/coscup-2020-taipei-chinese-shanzhai-open-source-hardware-what-and-how-making-and-hacking-the/</loc>
     <lastmod>2020-08-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2020/07/hope-2020-berlin-and-coscup-2020-taipei-takasu-nico-tech-shenzhen-community-monthly-news-aug-2020/</loc>
+    <loc>http://localhost:1313/shenzhen/2020/07/hope-2020-berlin-and-coscup-2020-taipei-takasu-nico-tech-shenzhen-community-monthly-news-aug-2020/</loc>
     <lastmod>2020-07-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2020/06/2020-07/</loc>
+    <loc>http://localhost:1313/teardown/2020/06/2020-07/</loc>
     <lastmod>2020-06-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2020/06/4/</loc>
+    <loc>http://localhost:1313/teardown/2020/06/4/</loc>
     <lastmod>2020-06-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2020/06/post/</loc>
     <lastmod>2020-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2020/06/3/</loc>
+    <loc>http://localhost:1313/teardown/2020/06/3/</loc>
     <lastmod>2020-06-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2020/06/post/</loc>
+    <loc>http://localhost:1313/teardown/2020/06/post/</loc>
     <lastmod>2020-06-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2020/06/2/</loc>
+    <loc>http://localhost:1313/teardown/2020/06/2/</loc>
     <lastmod>2020-06-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2020/05/with/</loc>
     <lastmod>2020-05-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2020/05/jenesis-6-13-2020-06-84ef3ed1da2/</loc>
+    <loc>http://localhost:1313/teardown/2020/05/jenesis-6-13-2020-06-84ef3ed1da2/</loc>
     <lastmod>2020-05-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2020/05/still-work-from-home-in-japan-takasu-nico-tech-shenzhen-community-monthly-news-may-2020/</loc>
+    <loc>http://localhost:1313/shenzhen/2020/05/still-work-from-home-in-japan-takasu-nico-tech-shenzhen-community-monthly-news-may-2020/</loc>
     <lastmod>2020-05-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2020/05/1/</loc>
+    <loc>http://localhost:1313/teardown/2020/05/1/</loc>
     <lastmod>2020-05-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2020/05/15/</loc>
     <lastmod>2020-05-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2020/05/hope-to-back-to-shenzhen-takasu-nico-tech-shenzhen-community-monthly-news-may-2020/</loc>
+    <loc>http://localhost:1313/shenzhen/2020/05/hope-to-back-to-shenzhen-takasu-nico-tech-shenzhen-community-monthly-news-may-2020/</loc>
     <lastmod>2020-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2020/04/2020-05/</loc>
+    <loc>http://localhost:1313/fabcross/2020/04/2020-05/</loc>
     <lastmod>2020-04-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2020/04/post/</loc>
     <lastmod>2020-04-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2020/04/cai-wenya-agatha-12e8d2a1998/</loc>
+    <loc>http://localhost:1313/shenzhen/2020/04/cai-wenya-agatha-12e8d2a1998/</loc>
     <lastmod>2020-04-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2020/03/2020-04/</loc>
+    <loc>http://localhost:1313/fabcross/2020/03/2020-04/</loc>
     <lastmod>2020-03-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2020/03/what-we-should-do-now-takasu-nico-tech-shenzhen-community-monthly-news-march-2020-1f30405516c/</loc>
+    <loc>http://localhost:1313/shenzhen/2020/03/what-we-should-do-now-takasu-nico-tech-shenzhen-community-monthly-news-march-2020-1f30405516c/</loc>
     <lastmod>2020-03-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2020/02/2020-03/</loc>
+    <loc>http://localhost:1313/fabcross/2020/02/2020-03/</loc>
     <lastmod>2020-02-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2020/02/see-you-in-ny-and-singapore-monthly-report-2020-march/</loc>
+    <loc>http://localhost:1313/shenzhen/2020/02/see-you-in-ny-and-singapore-monthly-report-2020-march/</loc>
     <lastmod>2020-02-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2020/02/2020/</loc>
+    <loc>http://localhost:1313/shenzhen/2020/02/2020/</loc>
     <lastmod>2020-02-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2020/01/by/</loc>
     <lastmod>2020-01-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2020/01/1-31-2020-01/</loc>
+    <loc>http://localhost:1313/teardown/2020/01/1-31-2020-01/</loc>
     <lastmod>2020-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2020/01/i-just-arrived-ces-then-to-go-bett2020-354369c0a03/</loc>
+    <loc>http://localhost:1313/shenzhen/2020/01/i-just-arrived-ces-then-to-go-bett2020-354369c0a03/</loc>
     <lastmod>2020-01-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2019/12/post/</loc>
     <lastmod>2019-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2019/12/wired-audi-2-2019-12/</loc>
+    <loc>http://localhost:1313/teardown/2019/12/wired-audi-2-2019-12/</loc>
     <lastmod>2019-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2019/12/see-you-in-ces2020-us-and-bett-2020-uk-takasu-nico-tech-shenzhen-community-monthly-news-dec-2019/</loc>
+    <loc>http://localhost:1313/shenzhen/2019/12/see-you-in-ces2020-us-and-bett-2020-uk-takasu-nico-tech-shenzhen-community-monthly-news-dec-2019/</loc>
     <lastmod>2019-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2019/11/chinese-shanzhai-what-and-how-making-and-hacking-the-manufacturing-models-now/</loc>
+    <loc>http://localhost:1313/shenzhen/2019/11/chinese-shanzhai-what-and-how-making-and-hacking-the-manufacturing-models-now/</loc>
     <lastmod>2019-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2019/10/2019-11/</loc>
+    <loc>http://localhost:1313/shenzhen/2019/10/2019-11/</loc>
     <lastmod>2019-10-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2019/10/post/</loc>
+    <loc>http://localhost:1313/shenzhen/2019/10/post/</loc>
     <lastmod>2019-10-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2019/10/2019-10/</loc>
+    <loc>http://localhost:1313/fabcross/2019/10/2019-10/</loc>
     <lastmod>2019-10-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2019/09/2019/</loc>
+    <loc>http://localhost:1313/shenzhen/2019/09/2019/</loc>
     <lastmod>2019-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2019/09/post/</loc>
+    <loc>http://localhost:1313/teardown/2019/09/post/</loc>
     <lastmod>2019-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2019/08/10-2019-09/</loc>
+    <loc>http://localhost:1313/shenzhen/2019/08/10-2019-09/</loc>
     <lastmod>2019-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2019/08/asian-maker-faire-season-will-come-soon/</loc>
+    <loc>http://localhost:1313/shenzhen/2019/08/asian-maker-faire-season-will-come-soon/</loc>
     <lastmod>2019-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2019/08/5-2014-2019/</loc>
+    <loc>http://localhost:1313/teardown/2019/08/5-2014-2019/</loc>
     <lastmod>2019-08-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2019/08/maker-faire-tokyo-2019/</loc>
     <lastmod>2019-08-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2019/07/akiparty-2019-08/</loc>
+    <loc>http://localhost:1313/fabcross/2019/07/akiparty-2019-08/</loc>
     <lastmod>2019-07-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2019/07/welcome-to-maker-faire-tokyo-and-akiparty-japan-monthly-report-2019-aug/</loc>
+    <loc>http://localhost:1313/shenzhen/2019/07/welcome-to-maker-faire-tokyo-and-akiparty-japan-monthly-report-2019-aug/</loc>
     <lastmod>2019-07-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2019/07/8-2019-07/</loc>
+    <loc>http://localhost:1313/fabcross/2019/07/8-2019-07/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2019/06/hsk3/</loc>
+    <loc>http://localhost:1313/shenzhen/2019/06/hsk3/</loc>
     <lastmod>2019-06-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2019/06/post/</loc>
+    <loc>http://localhost:1313/shenzhen/2019/06/post/</loc>
     <lastmod>2019-06-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2019/06/2019-6-shenzhen-fan/</loc>
+    <loc>http://localhost:1313/shenzhen/2019/06/2019-6-shenzhen-fan/</loc>
     <lastmod>2019-06-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2019/06/21/</loc>
     <lastmod>2019-06-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2019/05/2019-06/</loc>
+    <loc>http://localhost:1313/fabcross/2019/05/2019-06/</loc>
     <lastmod>2019-05-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2019/05/my-first-trip-to-manila-for-maker-faire/</loc>
+    <loc>http://localhost:1313/shenzhen/2019/05/my-first-trip-to-manila-for-maker-faire/</loc>
     <lastmod>2019-05-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2019/05/post/</loc>
+    <loc>http://localhost:1313/teardown/2019/05/post/</loc>
     <lastmod>2019-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2019/05/plug-play/</loc>
+    <loc>http://localhost:1313/shenzhen/2019/05/plug-play/</loc>
     <lastmod>2019-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2019/05/599da0a7a52/</loc>
+    <loc>http://localhost:1313/fabcross/2019/05/599da0a7a52/</loc>
     <lastmod>2019-05-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2019/05/dale-dougherty-said-makermovement-is-still-glowing-but-maker-faire-bay-area-is-difficult-to/</loc>
     <lastmod>2019-05-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2019/04/2019-05/</loc>
+    <loc>http://localhost:1313/fabcross/2019/04/2019-05/</loc>
     <lastmod>2019-04-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2019/04/see-you-in-maker-faire-bay-area-takasu-nico-tech-shenzhen-community-monthly-news-may-2019/</loc>
+    <loc>http://localhost:1313/shenzhen/2019/04/see-you-in-maker-faire-bay-area-takasu-nico-tech-shenzhen-community-monthly-news-may-2019/</loc>
     <lastmod>2019-04-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2019/04/swie-2019-4-jenesis/</loc>
+    <loc>http://localhost:1313/shenzhen/2019/04/swie-2019-4-jenesis/</loc>
     <lastmod>2019-04-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2019/04/post/</loc>
+    <loc>http://localhost:1313/shenzhen/2019/04/post/</loc>
     <lastmod>2019-04-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2019/04/2019-04-dc969a155e3/</loc>
+    <loc>http://localhost:1313/shenzhen/2019/04/2019-04-dc969a155e3/</loc>
     <lastmod>2019-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2019/03/zglue-soc/</loc>
+    <loc>http://localhost:1313/teardown/2019/03/zglue-soc/</loc>
     <lastmod>2019-03-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2019/03/post/</loc>
     <lastmod>2019-03-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2019/02/3-19-2019-03/</loc>
+    <loc>http://localhost:1313/shenzhen/2019/02/3-19-2019-03/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2019/02/my-new-challenge-lecture-in-the-waseda-univercity-mba-course/</loc>
+    <loc>http://localhost:1313/shenzhen/2019/02/my-new-challenge-lecture-in-the-waseda-univercity-mba-course/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2019/02/wtf/</loc>
@@ -758,97 +767,97 @@
     <loc>http://localhost:1313/archive/2019/02/2019-2-19/</loc>
     <lastmod>2019-02-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2019/02/post/</loc>
+    <loc>http://localhost:1313/shenzhen/2019/02/post/</loc>
     <lastmod>2019-02-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2019/02/wbs/</loc>
+    <loc>http://localhost:1313/fabcross/2019/02/wbs/</loc>
     <lastmod>2019-02-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2019/01/2-14-jenesis-2019-0/</loc>
+    <loc>http://localhost:1313/fabcross/2019/01/2-14-jenesis-2019-0/</loc>
     <lastmod>2019-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2019/01/my-next-trip-is-sxsw-after-chinese-new-year-holiday/</loc>
+    <loc>http://localhost:1313/shenzhen/2019/01/my-next-trip-is-sxsw-after-chinese-new-year-holiday/</loc>
     <lastmod>2019-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2019/01/10/</loc>
+    <loc>http://localhost:1313/shenzhen/2019/01/10/</loc>
     <lastmod>2019-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2018/12/2019-01/</loc>
+    <loc>http://localhost:1313/teardown/2018/12/2019-01/</loc>
     <lastmod>2018-12-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2018/12/see-you-in-ces-takasu-nico-tech-shenzhen-community-monthly-news-jan-2019/</loc>
+    <loc>http://localhost:1313/shenzhen/2018/12/see-you-in-ces-takasu-nico-tech-shenzhen-community-monthly-news-jan-2019/</loc>
     <lastmod>2018-12-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2018/12/post/</loc>
+    <loc>http://localhost:1313/shenzhen/2018/12/post/</loc>
     <lastmod>2018-12-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2018/12/post/</loc>
+    <loc>http://localhost:1313/shenzhen/2018/12/post/</loc>
     <lastmod>2018-12-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2018/12/6aabe660b8/</loc>
     <lastmod>2018-12-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2018/12/coscon-18-631c4bcd305/</loc>
+    <loc>http://localhost:1313/teardown/2018/12/coscon-18-631c4bcd305/</loc>
     <lastmod>2018-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2018/12/ce/</loc>
+    <loc>http://localhost:1313/teardown/2018/12/ce/</loc>
     <lastmod>2018-12-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2018/12/post/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2018/12/ommf2018/</loc>
+    <loc>http://localhost:1313/teardown/2018/12/ommf2018/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2018/11/meet-again-mitch-in-shenzhen-takasu-nico-tech-shenzhen-community-monthly-news-dec-2018/</loc>
+    <loc>http://localhost:1313/shenzhen/2018/11/meet-again-mitch-in-shenzhen-takasu-nico-tech-shenzhen-community-monthly-news-dec-2018/</loc>
     <lastmod>2018-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2018/11/post/</loc>
+    <loc>http://localhost:1313/fabcross/2018/11/post/</loc>
     <lastmod>2018-11-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2018/11/2-2018-12/</loc>
+    <loc>http://localhost:1313/fabcross/2018/11/2-2018-12/</loc>
     <lastmod>2018-11-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2018/11/post/</loc>
     <lastmod>2018-11-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2018/11/2018-11/</loc>
+    <loc>http://localhost:1313/fabcross/2018/11/2018-11/</loc>
     <lastmod>2018-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2018/11/fruitful-days-maker-carnival-shanghai-and-maker-faire-shenzhen/</loc>
+    <loc>http://localhost:1313/shenzhen/2018/11/fruitful-days-maker-carnival-shanghai-and-maker-faire-shenzhen/</loc>
     <lastmod>2018-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2018/10/post/</loc>
+    <loc>http://localhost:1313/teardown/2018/10/post/</loc>
     <lastmod>2018-10-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2018/10/2018-10/</loc>
+    <loc>http://localhost:1313/fabcross/2018/10/2018-10/</loc>
     <lastmod>2018-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2018/08/9-7-xiaomi-2018-09-bbd6b8c00cd/</loc>
+    <loc>http://localhost:1313/shenzhen/2018/08/9-7-xiaomi-2018-09-bbd6b8c00cd/</loc>
     <lastmod>2018-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2018/08/see-you-in-maker-faire-new-york-takasu-nico-tech-shenzhen-community-monthly-news-sep-2018/</loc>
+    <loc>http://localhost:1313/shenzhen/2018/08/see-you-in-maker-faire-new-york-takasu-nico-tech-shenzhen-community-monthly-news-sep-2018/</loc>
     <lastmod>2018-08-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2018/08/code2-0/</loc>
     <lastmod>2018-08-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2018/08/maker-conference-singapore-2018/</loc>
+    <loc>http://localhost:1313/shenzhen/2018/08/maker-conference-singapore-2018/</loc>
     <lastmod>2018-08-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2018/08/2018-8-pcba/</loc>
+    <loc>http://localhost:1313/shenzhen/2018/08/2018-8-pcba/</loc>
     <lastmod>2018-08-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2018/07/8-4-akiparty-8-5-2018-08/</loc>
+    <loc>http://localhost:1313/teardown/2018/07/8-4-akiparty-8-5-2018-08/</loc>
     <lastmod>2018-07-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2018/07/nt-it/</loc>
     <lastmod>2018-07-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2018/07/7-akiparty-2018-07/</loc>
+    <loc>http://localhost:1313/fabcross/2018/07/7-akiparty-2018-07/</loc>
     <lastmod>2018-07-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2018/06/monthly-news-july-2018-amazing-maker-faire-prague-and-finally-come-to-akiparty-tokyo/</loc>
+    <loc>http://localhost:1313/shenzhen/2018/06/monthly-news-july-2018-amazing-maker-faire-prague-and-finally-come-to-akiparty-tokyo/</loc>
     <lastmod>2018-06-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2018/06/airbnb/</loc>
@@ -860,91 +869,91 @@
     <loc>http://localhost:1313/archive/2018/06/kadokawa/</loc>
     <lastmod>2018-06-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2018/06/nt-2018-06/</loc>
+    <loc>http://localhost:1313/fabcross/2018/06/nt-2018-06/</loc>
     <lastmod>2018-06-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2018/05/quickstarter-more-inde-hardware-in-kickstarter-takasu-nico-tech-shenzhen-community-monthly-news/</loc>
+    <loc>http://localhost:1313/shenzhen/2018/05/quickstarter-more-inde-hardware-in-kickstarter-takasu-nico-tech-shenzhen-community-monthly-news/</loc>
     <lastmod>2018-05-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2018/05/2018-05/</loc>
+    <loc>http://localhost:1313/fabcross/2018/05/2018-05/</loc>
     <lastmod>2018-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2018/05/takasu-nico-tech-shenzhen-community-monthly-news-may-2018/</loc>
+    <loc>http://localhost:1313/shenzhen/2018/05/takasu-nico-tech-shenzhen-community-monthly-news-may-2018/</loc>
     <lastmod>2018-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2018/04/2018-04-09/</loc>
+    <loc>http://localhost:1313/shenzhen/2018/04/2018-04-09/</loc>
     <lastmod>2018-04-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2018/03/8-2018-04/</loc>
+    <loc>http://localhost:1313/fabcross/2018/03/8-2018-04/</loc>
     <lastmod>2018-03-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2018/03/march-2018-report-japanese-maker-pro-is-so-grown-in-this-4-year-takasu-shenzhen-high-tour/</loc>
+    <loc>http://localhost:1313/shenzhen/2018/03/march-2018-report-japanese-maker-pro-is-so-grown-in-this-4-year-takasu-shenzhen-high-tour/</loc>
     <lastmod>2018-03-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2018/03/6-maker-uno-stem-arduino-cytron/</loc>
     <lastmod>2018-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2018/03/post/</loc>
+    <loc>http://localhost:1313/shenzhen/2018/03/post/</loc>
     <lastmod>2018-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2018/03/japanese-maker-pro-five-times-bigger-in-this-four-years-and-still-growing-b788f1ba96f/</loc>
+    <loc>http://localhost:1313/shenzhen/2018/03/japanese-maker-pro-five-times-bigger-in-this-four-years-and-still-growing-b788f1ba96f/</loc>
     <lastmod>2018-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2018/02/8-2018-03/</loc>
+    <loc>http://localhost:1313/fabcross/2018/02/8-2018-03/</loc>
     <lastmod>2018-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2018/02/vs/</loc>
+    <loc>http://localhost:1313/shenzhen/2018/02/vs/</loc>
     <lastmod>2018-02-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2018/02/shao1555-yahoo/</loc>
     <lastmod>2018-02-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2018/02/make-vol-61-sino-bit/</loc>
+    <loc>http://localhost:1313/fabcross/2018/02/make-vol-61-sino-bit/</loc>
     <lastmod>2018-02-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2018/02/360-degree-yiwu-jewelry-industrial-4-0-leading-company-english-and/</loc>
     <lastmod>2018-02-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2018/02/8/</loc>
+    <loc>http://localhost:1313/teardown/2018/02/8/</loc>
     <lastmod>2018-02-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2018/02/post/</loc>
     <lastmod>2018-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2018/01/2018-1/</loc>
+    <loc>http://localhost:1313/shenzhen/2018/01/2018-1/</loc>
     <lastmod>2018-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2018/01/february-2018-report-makerfaire-bangkok-tcdc-ito-san-talk-about-shenzhen-economy-takasu-shenzhen/</loc>
+    <loc>http://localhost:1313/shenzhen/2018/01/february-2018-report-makerfaire-bangkok-tcdc-ito-san-talk-about-shenzhen-economy-takasu-shenzhen/</loc>
     <lastmod>2018-01-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2018/01/tcdc-thailand-creative-and-design-centre-fabcafe-x-co-working-library/</loc>
     <lastmod>2018-01-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2018/01/2018-3/</loc>
+    <loc>http://localhost:1313/fabcross/2018/01/2018-3/</loc>
     <lastmod>2018-01-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2018/01/example-introduce-yourself-for-high-tour-2018-march/</loc>
+    <loc>http://localhost:1313/shenzhen/2018/01/example-introduce-yourself-for-high-tour-2018-march/</loc>
     <lastmod>2018-01-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2018/01/shenzhen-high-tour-18-21-mar-application-started-2018-3/</loc>
+    <loc>http://localhost:1313/shenzhen/2018/01/shenzhen-high-tour-18-21-mar-application-started-2018-3/</loc>
     <lastmod>2018-01-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2018/01/post/</loc>
     <lastmod>2018-01-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2018/01/dr-asei-ito-told-about-shenzhen-as-innovative-city-for-people-from-edinburgh-university/</loc>
+    <loc>http://localhost:1313/shenzhen/2018/01/dr-asei-ito-told-about-shenzhen-as-innovative-city-for-people-from-edinburgh-university/</loc>
     <lastmod>2018-01-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2017/12/2018-1/</loc>
+    <loc>http://localhost:1313/fabcross/2017/12/2018-1/</loc>
     <lastmod>2017-12-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2017/12/january-2018-report-takasu-shenzhen-high-tour/</loc>
+    <loc>http://localhost:1313/shenzhen/2017/12/january-2018-report-takasu-shenzhen-high-tour/</loc>
     <lastmod>2017-12-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2017/12/about-shenzhen-high-tour-and-community/</loc>
+    <loc>http://localhost:1313/shenzhen/2017/12/about-shenzhen-high-tour-and-community/</loc>
     <lastmod>2017-12-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2017/12/interview-teamosa-hax-from-taiwan-s-traditional-tea-house-changing-the-world-s-tea-culture/</loc>
+    <loc>http://localhost:1313/fabcross/2017/12/interview-teamosa-hax-from-taiwan-s-traditional-tea-house-changing-the-world-s-tea-culture/</loc>
     <lastmod>2017-12-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2017/11/vol-0-qoobo-kickstarter/</loc>
@@ -953,31 +962,31 @@
     <loc>http://localhost:1313/archive/2017/11/augment-the-future/</loc>
     <lastmod>2017-11-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2017/11/post/</loc>
+    <loc>http://localhost:1313/fabcross/2017/11/post/</loc>
     <lastmod>2017-11-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2017/11/hax-started-a-new-program-for-chinese-startup/</loc>
+    <loc>http://localhost:1313/shenzhen/2017/11/hax-started-a-new-program-for-chinese-startup/</loc>
     <lastmod>2017-11-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2017/11/stem-steam-8b3d59b1df3/</loc>
+    <loc>http://localhost:1313/fabcross/2017/11/stem-steam-8b3d59b1df3/</loc>
     <lastmod>2017-11-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2017/11/why-shenzhen-is-amazing-talk-at-huaqiangbei/</loc>
+    <loc>http://localhost:1313/shenzhen/2017/11/why-shenzhen-is-amazing-talk-at-huaqiangbei/</loc>
     <lastmod>2017-11-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2017/09/takasu-masakazu-profile-contact-and-about-me/</loc>
+    <loc>http://localhost:1313/fabcross/2017/09/takasu-masakazu-profile-contact-and-about-me/</loc>
     <lastmod>2017-09-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2017/09/post/</loc>
+    <loc>http://localhost:1313/fabcross/2017/09/post/</loc>
     <lastmod>2017-09-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2017/08/it/</loc>
     <lastmod>2017-08-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2017/08/maker-faire-beijing-2017/</loc>
+    <loc>http://localhost:1313/shenzhen/2017/08/maker-faire-beijing-2017/</loc>
     <lastmod>2017-08-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2017/08/seg-maker/</loc>
+    <loc>http://localhost:1313/shenzhen/2017/08/seg-maker/</loc>
     <lastmod>2017-08-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2017/08/tusstar/</loc>
@@ -986,22 +995,22 @@
     <loc>http://localhost:1313/archive/2017/08/2/</loc>
     <lastmod>2017-08-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2017/08/inno-way/</loc>
+    <loc>http://localhost:1313/teardown/2017/08/inno-way/</loc>
     <lastmod>2017-08-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2017/08/post/</loc>
+    <loc>http://localhost:1313/teardown/2017/08/post/</loc>
     <lastmod>2017-08-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2017/08/3-2d8c7bb20a8/</loc>
     <lastmod>2017-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2017/06/nico-tech-shenzhen-huaqiangbei-office/</loc>
+    <loc>http://localhost:1313/shenzhen/2017/06/nico-tech-shenzhen-huaqiangbei-office/</loc>
     <lastmod>2017-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2017/06/about-nico-tech-shenzhen-community/</loc>
+    <loc>http://localhost:1313/shenzhen/2017/06/about-nico-tech-shenzhen-community/</loc>
     <lastmod>2017-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2017/06/chinese-entrepreneur-told-kickstarter-and-chinese-copycat-shanzhai-open-source-hardware/</loc>
+    <loc>http://localhost:1313/shenzhen/2017/06/chinese-entrepreneur-told-kickstarter-and-chinese-copycat-shanzhai-open-source-hardware/</loc>
     <lastmod>2017-06-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2017/05/ai-4f38e24b61f/</loc>
@@ -1010,13 +1019,13 @@
     <loc>http://localhost:1313/archive/2017/05/2017-5/</loc>
     <lastmod>2017-05-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2017/05/7-2017-04/</loc>
+    <loc>http://localhost:1313/shenzhen/2017/05/7-2017-04/</loc>
     <lastmod>2017-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2017/05/post/</loc>
+    <loc>http://localhost:1313/shenzhen/2017/05/post/</loc>
     <lastmod>2017-05-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2017/05/post/</loc>
+    <loc>http://localhost:1313/shenzhen/2017/05/post/</loc>
     <lastmod>2017-05-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2017/05/post/</loc>
@@ -1025,43 +1034,43 @@
     <loc>http://localhost:1313/archive/2017/04/angelic-project-and-demonic-project-on-maker-movement/</loc>
     <lastmod>2017-04-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2017/04/videos-shenzhen-high-tour-for-makers-vol-7-apr-2017/</loc>
+    <loc>http://localhost:1313/shenzhen/2017/04/videos-shenzhen-high-tour-for-makers-vol-7-apr-2017/</loc>
     <lastmod>2017-04-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2017/03/kickstarter-is-bad-place-for-simple-idea-gadget/</loc>
+    <loc>http://localhost:1313/shenzhen/2017/03/kickstarter-is-bad-place-for-simple-idea-gadget/</loc>
     <lastmod>2017-03-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2017/03/published-book-makers-ecosystem-reporting-innovation-in-asia-shenzhen-and-singapore/</loc>
+    <loc>http://localhost:1313/shenzhen/2017/03/published-book-makers-ecosystem-reporting-innovation-in-asia-shenzhen-and-singapore/</loc>
     <lastmod>2017-03-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2017/03/will-a-culture-be-born-from-shenzhen-oct-loft-area/</loc>
+    <loc>http://localhost:1313/shenzhen/2017/03/will-a-culture-be-born-from-shenzhen-oct-loft-area/</loc>
     <lastmod>2017-03-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2017/01/amazing-part-of-shenzhen-china-support-and-logistics/</loc>
+    <loc>http://localhost:1313/shenzhen/2017/01/amazing-part-of-shenzhen-china-support-and-logistics/</loc>
     <lastmod>2017-01-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2016/12/takasu-s-maker-activity-at-2016-around-70-80-events/</loc>
+    <loc>http://localhost:1313/fabcross/2016/12/takasu-s-maker-activity-at-2016-around-70-80-events/</loc>
     <lastmod>2016-12-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2016/12/the-innovation-and-production-pipeline-in-shenzhen-hwtrek-asia-innovation-tour-2016-autumn/</loc>
+    <loc>http://localhost:1313/fabcross/2016/12/the-innovation-and-production-pipeline-in-shenzhen-hwtrek-asia-innovation-tour-2016-autumn/</loc>
     <lastmod>2016-12-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2016/12/ppap-style-hardware-innovation-in-china/</loc>
+    <loc>http://localhost:1313/shenzhen/2016/12/ppap-style-hardware-innovation-in-china/</loc>
     <lastmod>2016-12-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2016/11/the-cathedral-and-the-bazaar-on-the-hardware-development-in-shenzhen/</loc>
+    <loc>http://localhost:1313/shenzhen/2016/11/the-cathedral-and-the-bazaar-on-the-hardware-development-in-shenzhen/</loc>
     <lastmod>2016-11-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2016/11/maker-faire-shenzhen-2016-at-the-most-agile-city-shenzhen/</loc>
+    <loc>http://localhost:1313/shenzhen/2016/11/maker-faire-shenzhen-2016-at-the-most-agile-city-shenzhen/</loc>
     <lastmod>2016-11-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2016/09/notable-maker-mr-higekita-his-diy-3d-planetarium-is-unforgettable-project/</loc>
     <lastmod>2016-09-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2016/08/akiparty-2016-tokyo-report-fantastic-dance-party-for-geeks-include-2-performance-video/</loc>
+    <loc>http://localhost:1313/fabcross/2016/08/akiparty-2016-tokyo-report-fantastic-dance-party-for-geeks-include-2-performance-video/</loc>
     <lastmod>2016-08-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2016/08/oversea-maker-faire-meetup-2016-tokyo-report/</loc>
+    <loc>http://localhost:1313/shenzhen/2016/08/oversea-maker-faire-meetup-2016-tokyo-report/</loc>
     <lastmod>2016-08-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2016/07/visual-sg-2016-at-science-centre-singapore/</loc>
@@ -1082,7 +1091,7 @@
     <loc>http://localhost:1313/archive/2016/02/maker-innovation-from-small-town-in-thailand-chiangmai-maker-party-2016-report/</loc>
     <lastmod>2016-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2016/01/story-and-oppotunity-in-maker-faire-singapore-2015/</loc>
+    <loc>http://localhost:1313/shenzhen/2016/01/story-and-oppotunity-in-maker-faire-singapore-2015/</loc>
     <lastmod>2016-01-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2016/01/why-tinkering-are-important-to-become-a-maker/</loc>
@@ -1094,7 +1103,7 @@
     <loc>http://localhost:1313/archive/2015/08/hackerspace-passport-manifest-translation-to-japanese/</loc>
     <lastmod>2015-08-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2015/08/talk-asian-maker-faire-at-maker-faire-tokyo-2015/</loc>
+    <loc>http://localhost:1313/shenzhen/2015/08/talk-asian-maker-faire-at-maker-faire-tokyo-2015/</loc>
     <lastmod>2015-08-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2015/07/forum-making-in-education-makerfaire-singapore-2015/</loc>
@@ -1106,19 +1115,19 @@
     <loc>http://localhost:1313/archive/2015/07/maker-faire-singapore-2015-introduced-by-national-tv-of-taiwan/</loc>
     <lastmod>2015-07-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2015/07/hackerspace-travelogure-2-0/</loc>
+    <loc>http://localhost:1313/shenzhen/2015/07/hackerspace-travelogure-2-0/</loc>
     <lastmod>2015-07-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2015/07/dance-party-for-geeks-at-maker-faire-shenzhen/</loc>
+    <loc>http://localhost:1313/shenzhen/2015/07/dance-party-for-geeks-at-maker-faire-shenzhen/</loc>
     <lastmod>2015-07-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2015/07/i-heard-massimo-banzi-s-genuino-presentation-at-maker-faire-shenzhen-amazing/</loc>
+    <loc>http://localhost:1313/shenzhen/2015/07/i-heard-massimo-banzi-s-genuino-presentation-at-maker-faire-shenzhen-amazing/</loc>
     <lastmod>2015-07-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2015/07/in-fasion-show-some-japanese-maker-join-together-we-enjoyed-together/</loc>
+    <loc>http://localhost:1313/shenzhen/2015/07/in-fasion-show-some-japanese-maker-join-together-we-enjoyed-together/</loc>
     <lastmod>2015-07-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/2015/07/toriena-on-stage-make-fashion-show-makerfaire-shenzhen-2015/</loc>
+    <loc>http://localhost:1313/shenzhen/2015/07/toriena-on-stage-make-fashion-show-makerfaire-shenzhen-2015/</loc>
     <lastmod>2015-07-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/2013/10/top-picks-at-the-singapore-biennale/</loc>
@@ -1128,12 +1137,6 @@
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/fabcross/</loc>
-  </url><url>
-    <loc>http://localhost:1313/shenzhen/</loc>
-  </url><url>
     <loc>http://localhost:1313/tags/</loc>
-  </url><url>
-    <loc>http://localhost:1313/teardown/</loc>
   </url>
 </urlset>

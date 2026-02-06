@@ -1,5 +1,8 @@
 ---
 title: "About Shenzhen High Tour and Community"
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*mXyN_g4yPAg8b58xNA1uqA.jpeg"
+  relative: false
 aliases: ["/2017/12/about-shenzhen-high-tour-and-community/"]
 slug: about-shenzhen-high-tour-and-community
 date: 2017-12-28
@@ -20,7 +23,7 @@ TAKASU Masakazu, Maker Faire Shenzhen and Singapore, takes us...
 
 ### About Nico-Tech Shenzhen Community and Maker Ecosystem Limited(HK) {#86ce .graf .graf--h3 .graf--leading .graf--title name="86ce"}
 
-![](https://cdn-images-1.medium.com/max/800/1*mXyN_g4yPAg8b58xNA1uqA.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*mXyN_g4yPAg8b58xNA1uqA.jpeg)
 
 We are Shenzhen based, Open Hardware community. Our office is
 HuaQiangBei, and over 3000 members on the Facebook group online. We were
@@ -80,16 +83,16 @@ community, and grow the difference.
 Sometime we make event, such as talk and meetup\
 <https://medium.com/shenzhen-high-tour-by-makers/amazingshenzhen-70f80e314182>
 
-![](https://cdn-images-1.medium.com/max/800/1*tSiPeuO7r2a-xweWzcEiDQ.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*tSiPeuO7r2a-xweWzcEiDQ.jpeg)
 
 100 Japanese meetup in Shenzhen\
 <https://www.youtube.com/watch?v=IFiVweXEaNI>
 
-![](https://cdn-images-1.medium.com/max/800/1*gOwrLC8Qzpp0Alk3AJOpNA.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*gOwrLC8Qzpp0Alk3AJOpNA.jpeg)
 
-![](https://cdn-images-1.medium.com/max/800/1*Vk7JeQlv1w7NWf7LyJoTBw.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*Vk7JeQlv1w7NWf7LyJoTBw.jpeg)
 
-![](https://cdn-images-1.medium.com/max/800/1*LEz_O6memLPpIjGMaDmv1Q.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*LEz_O6memLPpIjGMaDmv1Q.jpeg)
 
 【Community】\
 We are a community, by around 250 past tour members and 3000 Facebook
@@ -101,7 +104,7 @@ worry about language issue, we can use some computer translate system.\
 
 ### We are Partner as Maker Faire Shenzhen {#038c .graf .graf--h3 .graf-after--p name="038c"}
 
-![](https://cdn-images-1.medium.com/max/800/1*k-M0YZwOfbluvoCRlSbAuw.png){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*k-M0YZwOfbluvoCRlSbAuw.png)
 
 ### **About** MAKERS ECOSYSTEM LIMITED**.(Hongkong)** {#c0bc .graf .graf--h3 .graf-after--figure name="c0bc"}
 

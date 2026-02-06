@@ -1,5 +1,8 @@
 ---
 title: "Unleashing the Future of Hardware Innovation  Lessons from a Decade of Maker Ecosystems"
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*hSmX1qTfu2kbga3_U2Hl4A.jpeg"
+  relative: false
 aliases: ["/2025/01/unleashing-the-future-of-hardware-innovation-lessons-from-a-decade-of-maker-ecosystems/"]
 slug: unleashing-the-future-of-hardware-innovation-lessons-from-a-decade-of-maker-ecosystems
 date: 2025-01-23
@@ -27,7 +30,7 @@ explores key drivers shaping this dynamic field and where it's heading.
 
 ![This photo is Maker Faire Shenzhen 2025, when I met again bunnie,
 xobs, akita11. I still explor hardware ecosystem, similer
-as them.](https://cdn-images-1.medium.com/max/800/1*hSmX1qTfu2kbga3_U2Hl4A.jpeg){.graf-image}
+as them.](https://cdn-images-1.medium.com/max/800/1*hSmX1qTfu2kbga3_U2Hl4A.jpeg)
 
 Here, we delve deeper into his insights to understand what this means
 for innovators, investors, and anyone shaping the future of technology.

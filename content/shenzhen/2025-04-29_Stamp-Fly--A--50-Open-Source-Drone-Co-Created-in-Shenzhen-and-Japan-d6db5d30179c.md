@@ -1,5 +1,8 @@
 ---
 title: "Stamp Fly  A  50 Open Source Drone Co Created in Shenzhen and Japan"
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*1uqOgsNguiILuAR6v0GCrQ.jpeg"
+  relative: false
 aliases: ["/2025/04/stamp-fly-a-50-open-source-drone-co-created-in-shenzhen-and-japan/"]
 slug: stamp-fly-a-50-open-source-drone-co-created-in-shenzhen-and-japan
 date: 2025-04-29
@@ -15,7 +18,7 @@ Why We Built Stamp Fly
 
 ### Stamp Fly: A \$50 Open-Source Drone Co-Created in Shenzhen and Japan {#a87f .graf .graf--h3 .graf--leading .graf--title name="a87f"}
 
-![](https://cdn-images-1.medium.com/max/800/1*1uqOgsNguiILuAR6v0GCrQ.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*1uqOgsNguiILuAR6v0GCrQ.jpeg)
 
 **Why We Built Stamp Fly**
 

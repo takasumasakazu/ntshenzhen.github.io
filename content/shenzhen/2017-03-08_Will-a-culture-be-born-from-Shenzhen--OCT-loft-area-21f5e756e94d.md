@@ -1,5 +1,8 @@
 ---
 title: "Will a culture be born from Shenzhen  OCT loft area"
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*JHM3NsejxguDg0jxfFn0ug.jpeg"
+  relative: false
 aliases: ["/2017/03/will-a-culture-be-born-from-shenzhen-oct-loft-area/"]
 slug: will-a-culture-be-born-from-shenzhen-oct-loft-area
 date: 2017-03-08
@@ -27,7 +30,7 @@ introduced.
 
 ![A woman who is participating in a flea market. You can see sticking to
 everything
-you sell](https://cdn-images-1.medium.com/max/800/1*JHM3NsejxguDg0jxfFn0ug.jpeg){.graf-image}
+you sell](https://cdn-images-1.medium.com/max/800/1*JHM3NsejxguDg0jxfFn0ug.jpeg)
 
 [Little Thing Magazine](http://www.littlething.cn/){.markup--anchor
 .markup--p-anchor} for girls most popular in China / Fashion magazine
@@ -38,7 +41,7 @@ themselves gathered and there are very different scenery from other
 parts of Shenzhen and our stereotype Chinese image.
 
 ![Little Things
-Magazine website](https://cdn-images-1.medium.com/max/800/1*cqFe6lhppygcjURYzDJBEw.png){.graf-image}
+Magazine website](https://cdn-images-1.medium.com/max/800/1*cqFe6lhppygcjURYzDJBEw.png)
 
 Although Little Thing magazine counts 75 yuan (about 10 USD) and
 publications of 225 thousand copies, although it is quite high among
@@ -51,10 +54,10 @@ official mail order sites in Japan (not Japanese version, selling
 Chinese magazines in Japan) is there.
 
 ![Official
-Shop](https://cdn-images-1.medium.com/max/800/1*Urv2Ih3mNucRbUIzBZKLJQ.jpeg){.graf-image}
+Shop](https://cdn-images-1.medium.com/max/800/1*Urv2Ih3mNucRbUIzBZKLJQ.jpeg)
 
 ![Design products of unique concept
-line up.](https://cdn-images-1.medium.com/max/800/1*wjc29cQpSISPvWOr7ByCQQ.jpeg){.graf-image}
+line up.](https://cdn-images-1.medium.com/max/800/1*wjc29cQpSISPvWOr7ByCQQ.jpeg)
 
 **Will culture be born in Shenzhen? OCT LOFT Creative culture district**
 
@@ -68,14 +71,14 @@ many cultural events such as architectural biennale, animation biennale
 etc are held.
 
 ![Gallery and Artspace
-at OCT-loft](https://cdn-images-1.medium.com/max/800/1*eGlVEbIrQTon44SCnnFpIQ.jpeg){.graf-image}
+at OCT-loft](https://cdn-images-1.medium.com/max/800/1*eGlVEbIrQTon44SCnnFpIQ.jpeg)
 
 This area was a place where there was a factory of China's leading
 consumer electronics manufacturer KONKA until the 1980s. The building of
 the factory is still there and I am trying to replace the interior and
 make it a creative culture district.
 
-![](https://cdn-images-1.medium.com/max/800/1*LEqkAiJXpUuhdi3AXFoURA.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*LEqkAiJXpUuhdi3AXFoURA.jpeg)
 
 Somehow I do not understand, even if I build a shiny building in such a
 cultural district where there is nothing, it seems that the way the
@@ -92,7 +95,7 @@ are working as a creative space making use of abandoned school and
 underpass.
 
 ![Cafe and Restrant at
-OCT-Loft area](https://cdn-images-1.medium.com/max/800/1*7le37xo2_illujIZpi_oQA.jpeg){.graf-image}
+OCT-Loft area](https://cdn-images-1.medium.com/max/800/1*7le37xo2_illujIZpi_oQA.jpeg)
 
 **Shenzhen's first maker space is also here**
 
@@ -107,7 +110,7 @@ movement of the world-wide 'doubtful hardware invention' called MAKER
 MOVEMENT.
 
 ![Chaihuo
-Makerspace](https://cdn-images-1.medium.com/max/800/1*92awaASgB6XkR9RnBqO7LQ.jpeg){.graf-image}
+Makerspace](https://cdn-images-1.medium.com/max/800/1*92awaASgB6XkR9RnBqO7LQ.jpeg)
 
 Shenzhen's first Makerspace,柴火創客空間 (Chaihuo) has been working here
 at OCT LOFT since 2008. Even if it is worldwide it is the oldest maker
@@ -122,7 +125,7 @@ Chaihuo and signed an honorary membership card, so Chaihuo became a fire
 of inventing and entrepreneurial boom in China as a whole.
 
 ![A lot of makers meets
-in Chaihuo](https://cdn-images-1.medium.com/max/800/1*gFCMGwwO0cYeMaLve4I0TA.jpeg){.graf-image}
+in Chaihuo](https://cdn-images-1.medium.com/max/800/1*gFCMGwwO0cYeMaLve4I0TA.jpeg)
 
 **Does the government store the culture in the town?**
 
@@ -145,7 +148,7 @@ certainly create something new. Again, I am visiting this area every
 time I visit Shenzhen.
 
 ![The appearance of women who love shopping does not change anywhere in
-the world.](https://cdn-images-1.medium.com/max/800/1*2kutNOy8moRpugvkvoh1Jg.jpeg){.graf-image}
+the world.](https://cdn-images-1.medium.com/max/800/1*2kutNOy8moRpugvkvoh1Jg.jpeg)
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 8, 2017](https://medium.com/p/21f5e756e94d).

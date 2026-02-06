@@ -1,5 +1,8 @@
 ---
 title: "                 Soylent Supply Chain    Andrew  Bunnie  Huang                 2014 12 23    "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/0*Z_vR83UOaBSHvCQt.jpg"
+  relative: false
 aliases: ["/2021/03/soylent-supply-chain-andrew-bunnie-huang-2014-12-23/"]
 slug: soylent-supply-chain-andrew-bunnie-huang-2014-12-23
 date: 2021-03-23
@@ -22,7 +25,7 @@ date: 2021-03-23
 深圳、大量生産、ハードウェアスタートアップ、メイカームーブメント、そういうことに興味ある人はぜひどうぞ。\
 アメリカのMakerMediaで出してる本も面白そうです。僕は日本のamazonでKindleで買いました。
 
-![](https://cdn-images-1.medium.com/max/800/0*Z_vR83UOaBSHvCQt.jpg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/0*Z_vR83UOaBSHvCQt.jpg)
 
 [Maker
 Pro](http://www.amazon.co.jp/exec/obidos/ASIN/B00QUBHMBI/hirayasutakas-22/ref=nosim/){.markup--anchor
@@ -39,7 +42,7 @@ Maker Media, Inc (2014--12--09)
 日本語版も出ました！日本語版は日本のMakerのインタビューがさらに面白い。特に[ヒゲキタ一代記](http://higekita.wix.com/kilostar#!%E3%83%92%E3%82%B2%E3%82%AD%E3%82%BF%E4%B8%80%E4%BB%A3%E8%A8%98/swohn/563abceb0cf28330832d981e){.markup--anchor
 .markup--p-anchor}は最高。
 
-![](https://cdn-images-1.medium.com/max/800/0*KackvXVjd7g69j8H.jpg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/0*KackvXVjd7g69j8H.jpg)
 
 [物を作って生きるには ―23人のMaker Proが語る仕事と生活 (Make:Japan
 Books)](http://www.amazon.co.jp/exec/obidos/ASIN/487311747X/hirayasutakas-22/ref=nosim/){.markup--anchor
@@ -167,7 +170,7 @@ Tokyoに来ると出会えるそうしたMakerと、「仲間」になる人が�
 
 この文書は、著者の許可を得て、「メイカーズのエコシステム」にも掲載しました。
 
-![](https://cdn-images-1.medium.com/max/800/0*0LL_WpHAME7q1hIm.jpg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/0*0LL_WpHAME7q1hIm.jpg)
 
 [メイカーズのエコシステム 新しいモノづくりがとまらない。
 (NextPublishing)](http://www.amazon.co.jp/exec/obidos/ASIN/4844397230/hirayasutakas-22/ref=nosim/){.markup--anchor

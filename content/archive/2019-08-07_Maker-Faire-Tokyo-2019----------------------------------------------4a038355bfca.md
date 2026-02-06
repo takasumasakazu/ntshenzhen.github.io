@@ -1,5 +1,8 @@
 ---
 title: "Maker Faire Tokyo 2019                                             "
+cover:
+  image: "http://@masashiokawa"
+  relative: false
 aliases: ["/2019/08/maker-faire-tokyo-2019/"]
 slug: maker-faire-tokyo-2019
 date: 2019-08-07
@@ -16,7 +19,7 @@ Maker Faire Tokyo 2019 講演動画「ハードウェアハッカーと同人ハ
 ### Maker Faire Tokyo 2019 講演動画「ハードウェアハッカーと同人ハードウェア」 高須正和 + ニコ技深圳コミュニティ {#26a3 .graf .graf--h3 .graf--leading .graf--title name="26a3"}
 
 ![ハードウェアハッカーとそこから学べることについて話しました（写真は[オオカワマサシ](http://@masashiokawa){.markup--anchor
-.markup--figure-anchor}さんから、ありがとうございます！）](https://cdn-images-1.medium.com/max/800/1*SPD7MUlw_pnN_1EzDFxb_w.jpeg){.graf-image}
+.markup--figure-anchor}さんから、ありがとうございます！）](https://cdn-images-1.medium.com/max/800/1*SPD7MUlw_pnN_1EzDFxb_w.jpeg)
 
 20分の講演動画
 

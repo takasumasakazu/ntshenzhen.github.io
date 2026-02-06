@@ -1,5 +1,8 @@
 ---
 title: "QuickStarter  More inde hardware in Kickstarter  TAKASU   Nico Tech Shenzhen Community Monthly news"
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*YGZLVFpaXYHBdgglk1uVnA.jpeg"
+  relative: false
 aliases: ["/2018/05/quickstarter-more-inde-hardware-in-kickstarter-takasu-nico-tech-shenzhen-community-monthly-news/"]
 slug: quickstarter-more-inde-hardware-in-kickstarter-takasu-nico-tech-shenzhen-community-monthly-news
 date: 2018-05-31
@@ -20,7 +23,7 @@ Indie, Hobby project!
 
 ### QuickStarter! More inde hardware in Kickstarter. TAKASU & Nico-Tech Shenzhen Community Monthly news June/2018 {#7d3a .graf .graf--h3 .graf--leading .graf--title name="7d3a"}
 
-![](https://cdn-images-1.medium.com/max/800/1*YGZLVFpaXYHBdgglk1uVnA.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*YGZLVFpaXYHBdgglk1uVnA.jpeg)
 
 Great days in MFBA, I so satisfied that. I want to tell the good news
 about crowdfunding, called Quickstarter.

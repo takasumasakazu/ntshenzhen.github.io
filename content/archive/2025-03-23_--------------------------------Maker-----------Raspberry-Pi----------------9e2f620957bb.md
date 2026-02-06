@@ -1,5 +1,8 @@
 ---
 title: "                                Maker           Raspberry Pi               "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*zDKEDyNV-M4uIiZ4z6vX2A.jpeg"
+  relative: false
 aliases: ["/2025/03/maker-raspberry-pi/"]
 slug: maker-raspberry-pi
 date: 2025-03-23
@@ -17,7 +20,7 @@ date: 2025-03-23
 
 2018/06/26 07:30
 
-![](https://cdn-images-1.medium.com/max/800/1*zDKEDyNV-M4uIiZ4z6vX2A.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*zDKEDyNV-M4uIiZ4z6vX2A.jpeg)
 
 産業革命の国イギリスで、Maker向けの企業がとても元気だ。Raspberry
 PiがなければMakerムーブメントは成り立たないし、micro:bitはここ数年の大きなニュースのひとつといえる。Raspberry
@@ -37,7 +40,7 @@ History：ケンブリッジ）やロンドンサイエンスセンターのコ�
 「コンピューターの父」と言われ、1800年代前半に、世界で最初のプログラム可能なコンピューターである階差機関（Difference
 Engine）を考案したチャールズ・バベッジはケンブリッジ大学で学んだイギリスの研究者だ。第2次世界大戦でドイツのエニグマ暗号を解くマシンを作っていたアラン・チューリングは人工知能の父と呼ばれ、今も「チューリングテスト」に名前を残している。彼もケンブリッジ大学で学んだイギリスの科学者だ。
 
-![ロンドンのサイエンスミュージアムに展示してある、バベッジの階差機関。](https://cdn-images-1.medium.com/max/800/1*GqLuU1eGmRwFBAluFZo3zg.jpeg){.graf-image}
+![ロンドンのサイエンスミュージアムに展示してある、バベッジの階差機関。](https://cdn-images-1.medium.com/max/800/1*GqLuU1eGmRwFBAluFZo3zg.jpeg)
 
 1980年代にはARMを生んだAcorn
 Computersや、さらにその母体となったSinclairといったコンピューター会社がケンブリッジから生まれた。ARMの命令セットはほとんどのスマートフォン、そしてRaspberry
@@ -48,11 +51,11 @@ Pi財団の代表エベンもケンブリッジ大学のコンピューターラ
 
 スティーブ・ジョブズやビル・ゲイツ、マーク・ザッカーバーグといったアメリカのコンピューター文化の担い手が、大学の研究とは別のところでガレージからビジネスを展開してきたのに対し、イギリスのコンピューター史はケンブリッジ大学の数学や計算機科学を中心に、研究の延長として発展してきた。（もちろんどちらの国にも、例外は多くいるが）
 
-![ケンブリッジのコンピューター歴史博物館の展示は、1960年代から続いている。ここで展示されているものは、シリコンバレーにあるコンピューター歴史博物館よりもスタートが早い。](https://cdn-images-1.medium.com/max/800/1*Y2y_WyRH-jfhArfBpnM4ww.jpeg){.graf-image}
+![ケンブリッジのコンピューター歴史博物館の展示は、1960年代から続いている。ここで展示されているものは、シリコンバレーにあるコンピューター歴史博物館よりもスタートが早い。](https://cdn-images-1.medium.com/max/800/1*Y2y_WyRH-jfhArfBpnM4ww.jpeg)
 
 ### 次に世界を変えるのは君だ！ {#5352 .graf .graf--h3 .graf-after--figure name="5352"}
 
-![ケンブリッジのコンピューター歴史博物館に展示されている「コンピューティングのパイオニアたち」パネル。一つだけ鏡がはめ込まれている。](https://cdn-images-1.medium.com/max/800/1*tP7jezlf1WMmvZZ8o03bwg.jpeg){.graf-image}
+![ケンブリッジのコンピューター歴史博物館に展示されている「コンピューティングのパイオニアたち」パネル。一つだけ鏡がはめ込まれている。](https://cdn-images-1.medium.com/max/800/1*tP7jezlf1WMmvZZ8o03bwg.jpeg)
 
 コンピューター歴史博物館の「コンピューティングのパイオニア達」パネルには、バベッジやチューリングといったイギリス人達のほか、Linuxのリーナス・トーバルズ、Appleのスティーブ・ジョブズやスティーブ・ウォズニアックなど世界中の開拓者達が展示されている。その中に一つだけ鏡がはめ込まれ、
 
@@ -74,7 +77,7 @@ Microを使ったワークショップが現役で行われているほか、Aco
 ComputerやSinclairの名機たちが展示されている。
 
 ![今も現役でワークショップを行っているBBC
-Micro。](https://cdn-images-1.medium.com/max/800/1*bikHLaMEUpiW3fw5KSXecA.jpeg){.graf-image}
+Micro。](https://cdn-images-1.medium.com/max/800/1*bikHLaMEUpiW3fw5KSXecA.jpeg)
 
 僕がそうした名機を見てきたことを聞いたエベンは、Acorn
 ComputerやSinclairといった会社の名前を僕が出すなり、機関銃のように話し出した。
@@ -125,7 +128,7 @@ Piを使ってもらっている。使うだけじゃなくて、IchigoJamみた
 
 インタビュー後も、僕がその次にダックスフォード帝国戦争博物館に行って飛行機を見ると聞いたエベンは、その博物館で展示されているコンコルドの試作モデルの素晴らしさについて語り出した。ニューヨークのイントレピッド海上航空宇宙博物館に置いてあるコンコルド（量産機）と試作機の違い、サンタクララに展示してある米空母ホーネットなど、飛行機談義に花が咲く様子は典型的なギークそのものだった。
 
-![ケンブリッジ近郊にあるダックスフォード帝国戦争博物館には、テスト機器などを満載したコンコルドの試作モデルが展示されている](https://cdn-images-1.medium.com/max/800/1*_la_--AXLheAkC8lFbyPUA.jpeg){.graf-image}
+![ケンブリッジ近郊にあるダックスフォード帝国戦争博物館には、テスト機器などを満載したコンコルドの試作モデルが展示されている](https://cdn-images-1.medium.com/max/800/1*_la_--AXLheAkC8lFbyPUA.jpeg)
 
 Raspberry
 Pi財団は彼らが発行している2つの雑誌、PiMagとHackspaceが日本でも発刊されることを強く望んでいる。プリントメディアは有料、デジタル版を無料で配布することにしてくれれば、コンテンツの料金などはどうとでもするとのことだ。僕もこれが日本語版になれば読みたい。この記事を読んだ出版社で興味ある人は僕まで連絡いただけるとありがたい。

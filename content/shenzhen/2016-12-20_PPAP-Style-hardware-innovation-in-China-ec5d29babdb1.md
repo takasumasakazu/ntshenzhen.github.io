@@ -1,5 +1,8 @@
 ---
 title: "PPAP Style hardware innovation in China"
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*Vj6O3aRnUbaX93xb__-7qg.png"
+  relative: false
 aliases: ["/2016/12/ppap-style-hardware-innovation-in-china/"]
 slug: ppap-style-hardware-innovation-in-china
 date: 2016-12-20
@@ -29,13 +32,13 @@ It is like PPAP invented by a combination of existing products.
 Oh! Audio system by Android!**
 
 ![Audiosystem
-by Android!](https://cdn-images-1.medium.com/max/800/1*Vj6O3aRnUbaX93xb__-7qg.png){.graf-image}
+by Android!](https://cdn-images-1.medium.com/max/800/1*Vj6O3aRnUbaX93xb__-7qg.png)
 
 **I have a tablet, I have a rear view monitor,,,,\
 Oh! Android rear view monitor + drive recorder!**
 
 ![Android+Car DVR+Rea
-rview miller](https://cdn-images-1.medium.com/max/800/1*C5z8GOWvcdOrBubC1SGX6Q.png){.graf-image}
+rview miller](https://cdn-images-1.medium.com/max/800/1*C5z8GOWvcdOrBubC1SGX6Q.png)
 
 While ordinary mobile phones take about two years to develop and tens of
 thousands are made, mobile phones made in this way are mass-produced in
@@ -45,7 +48,7 @@ time I walk 華強北(HuaQiangBei) every day I can find something new.\
 Finally, 360 cam GongBan and GongMo were posted today. You will soon see
 a new product with 360 CAM built into everything.
 
-![](https://cdn-images-1.medium.com/max/800/1*i5no8az4IyeEBvkXMvLOPA.png){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*i5no8az4IyeEBvkXMvLOPA.png)
 
 You can see more detail in [The Cathedral and the Bazaar on the Hardware
 development in

@@ -1,5 +1,8 @@
 ---
 title: "Maker Faire Shenzhen 2016  at the most AGILE city Shenzhen "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*8Z3CW1KWXDqWY0gaXUwmxA.jpeg"
+  relative: false
 aliases: ["/2016/11/maker-faire-shenzhen-2016-at-the-most-agile-city-shenzhen/"]
 slug: maker-faire-shenzhen-2016-at-the-most-agile-city-shenzhen
 date: 2016-11-19
@@ -35,17 +38,17 @@ ending with a great success. Even though That county well known prone to
 pricing, statistical figures, the commemorative check-in using SNS at
 the entrance started from scratch and exceeded 10000. Most people seemed
 to be entering without checking in, so 100,000 visitors
-are nodding.](https://cdn-images-1.medium.com/max/800/1*8Z3CW1KWXDqWY0gaXUwmxA.jpeg){.graf-image}
+are nodding.](https://cdn-images-1.medium.com/max/800/1*8Z3CW1KWXDqWY0gaXUwmxA.jpeg)
 
 **Asia's largest Maker Faire where 100,000 people gather**
 
 ![Talk venues are always full. Microsoft, Indiegogo and other big
 companies as well as Maker of the world such as Nao Kondo TryBots' from
-Japan talked.](https://cdn-images-1.medium.com/max/800/1*OckNa78WEQpqKb3maJF03g.jpeg){.graf-image}
+Japan talked.](https://cdn-images-1.medium.com/max/800/1*OckNa78WEQpqKb3maJF03g.jpeg)
 
 ![More than 200 exhibitors and more than 100,000 people gathered on the
 ground and underground of the vast Sea
-World, Shekou.](https://cdn-images-1.medium.com/max/800/1*bT3156d-TKwFG6kek7PloA.jpeg){.graf-image}
+World, Shekou.](https://cdn-images-1.medium.com/max/800/1*bT3156d-TKwFG6kek7PloA.jpeg)
 
 **Mega Typhoon hits Maker Faire Shenzhen.**
 
@@ -64,10 +67,10 @@ after all the tents set up on the 20th were all lowered to the ground.
 ![Venue just before typhoon. It was necessary to disassemble all of the
 huge tent and gates at the entrance, which we assembled with great
 effort
-all day.](https://cdn-images-1.medium.com/max/800/1*G1H2ogGVdhRd9h3h2XczOQ.jpeg){.graf-image}
+all day.](https://cdn-images-1.medium.com/max/800/1*G1H2ogGVdhRd9h3h2XczOQ.jpeg)
 
 ![In re-establishing 23rd, Maker Faire Shenzhen 2016 the
-first day.](https://cdn-images-1.medium.com/max/800/1*TYrLLW7yXEp1svrcjys1ng.jpeg){.graf-image}
+first day.](https://cdn-images-1.medium.com/max/800/1*TYrLLW7yXEp1svrcjys1ng.jpeg)
 
 Since the re-establishment, I finished the place which originally takes
 about 2 days in one day with the construction work. Still Maker Faire
@@ -89,7 +92,7 @@ sleep was started literally by the management team of Chaihuo Maker
 Space and Seeed's management team literally.
 
 ![Photos taken by MFSZ Steering Committee on Facebook. (Photo:
-Monica Shen)](https://cdn-images-1.medium.com/max/800/1*yUQ9hNlODxd29LfhUaewzw.jpeg){.graf-image}
+Monica Shen)](https://cdn-images-1.medium.com/max/800/1*yUQ9hNlODxd29LfhUaewzw.jpeg)
 
 A concrete example, for example, my schedule is like this.
 
@@ -147,15 +150,15 @@ said that the committee has succeeded.
 ![SandWriter [Gijs van
 Bon](http://www.gijsvanbon.nl/skryf.html){.markup--anchor
 .markup--figure-anchor} (Photo:
-Asei Ito)](https://cdn-images-1.medium.com/max/800/1*jH6fdNzkLGkqPMjWg6R2jA.jpeg){.graf-image}
+Asei Ito)](https://cdn-images-1.medium.com/max/800/1*jH6fdNzkLGkqPMjWg6R2jA.jpeg)
 
 ![Big Face (Photo:Anby
-Wen)](https://cdn-images-1.medium.com/max/800/1*q-I-7bsckWdpi23w5H130A.jpeg){.graf-image}
+Wen)](https://cdn-images-1.medium.com/max/800/1*q-I-7bsckWdpi23w5H130A.jpeg)
 
 ![[AkiParty](https://medium.com/@tks/akiparty-2016-tokyo-fantastic-dance-party-for-geeks-90fec8443c25#.bpsv2na80){.markup--anchor
 .markup--figure-anchor}, Dance party by the Geeks, of the Geeks, For the
 Geeks (Photo:Anby
-Wen)](https://cdn-images-1.medium.com/max/800/1*gkFHF-uQJI61kBkGk-TzYg.jpeg){.graf-image}
+Wen)](https://cdn-images-1.medium.com/max/800/1*gkFHF-uQJI61kBkGk-TzYg.jpeg)
 
 **The capital of Makers**
 

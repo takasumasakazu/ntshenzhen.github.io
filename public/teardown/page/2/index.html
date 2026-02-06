@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Teardown | ニコ技深セン / Nico-Tech Shenzhen website</title>
+<meta name="keywords" content="">
+<meta name="description" content="Reverse engineering, teardowns, chip decap notes.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/teardown/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/teardown/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body class="list" id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="ニコ技深セン / Nico-Tech Shenzhen website (Alt + H)">ニコ技深セン / Nico-Tech Shenzhen website</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/teardown/" title="Teardown">
+                    <span class="active">Teardown</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/shenzhen/" title="Shenzhen">
+                    <span>Shenzhen</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/fabcross/" title="Fabcross">
+                    <span>Fabcross</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archive/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header">
+  <h1>
+    Teardown
+  </h1>
+</header>
+<div class="post-content"><p>Reverse engineering, teardowns, chip decap notes.</p>
+
+
+</div>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/1*dDeHs7WTlwDfDFEsnuOxBw.jpeg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">                                    zGlue
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>製品に最適な統合カスタムチップをオンデマンドで安価に作るスタートアップ、zGlue 2019/04/23 07:30
+製品に最適な統合カスタムチップをオンデマンドで安価に作るスタートアップ、zGlue 2019/04/23 07:30
+モデム、CPU、メモリーなどの複数の機能を統合したSoC（System on Chip）は最近のIoT機器に欠かせない。Qualcommの「Snapdragon」シリーズやMediaTekが投入する統合チップは、さまざまなスマートフォンが短期間で開発されるエコシステムの重要な一部だ。SoCそのものを作るのはこれまで大企業に限られた話だったが、そこを大衆化させるビジネスを手がけるベンチャーがzGlue{.markup–anchor .markup–p-anchor}だ。
+SoCによりIoT機器の開発速度は上がる CPUやメモリー、WifiやBluetoothといった通信機能を、一つの半導体チップ内にまとめたSoC（System on Chip）は、安価で高性能なICT／IoT機器が続々登場するエコシステムの一部になっている。ICT機器の開発においては、自作PCのようにCPU、メモリー、グラフィックボード、記憶素子、無線機能などにそれぞれ必要な機能を備えたチップを集め、基板を設計してまとめる形が一般的だが、部品点数が増えると設計・製造・テストそれぞれの工数は増えていき、最終的に工数はコストになっては製品に添加される。
+ところが、QualcommのSnapdragonシリーズやMediaTekが投入する統合チップは、通信／CPU／メモリー／いくつかのセンサーなどを一つのチップ内に持っていて、それが通信機器の開発を大いに助けている。最近ではWi-Fi等の通信機能を備えたICT／IoT機器が多いので、そうした機能があらかじめ組み込まれていることは開発の工数を下げる。またSoCそのものは半導体なので量産効果が大きく、安価で高性能・高品質なコア機能を調達できることも開発者にはありがたい。さらにチップそのものに必要機能がまとまっていることは、その間のデータ転送速度が向上するなど、全体として高性能化する効果がある。
+スタートアップと相性の悪いカスタムSoC開発を解決する 一方でSoCそのものを作る行為は半導体の設計なので、設計と製造立ち上げの初期にかかるイニシャルコストがきわめて大きく、最終的にたくさん売れるチップが作れれば量産効果で最終的なコストが下がってくるものの、スタートアップの規模で行うのは難しく、ビジネス的な相性が悪い。
+そうしたカスタムSoCを安価で小ロットから開発できるようにするのが、シリコンバレーのマウンテンビューで誕生したzGlue{.markup–anchor .markup–p-anchor}のビジネスモデルだ。まず同社Webサイト上のChipbuilder（クラウドベースのSoC設計ツール）を使ってあらかじめ提携しているチップベンダーが提供するIC部品をChipletとして配置する。それぞれはBGAパッケージやCSPパッケージになっている、NordicのBluetooth Low Energyマイコンや加速度センサーなどだ。そうしたいくつかの機能を備えたChipletを選んでチップをデザインし、最終的なチップの入出力になるピンアサインを設計すると、2万5000ドルで10個程度（一つあたり2500ドル）からカスタムチップを製造することができる。これはプロトタイプの場合で、量産するとチップあたりの価格は下がってくる。この場合、Chiplet単位での動作検証は済んでいるため、システム全体の検証の手間を大きく省略する効果も生む。ワンチップにまとめることによる高速化効果もあるので、開発する側としては良いことずくめだ。
+zGlueは2017年に創業し、実際にカスタムチップがはじめて出荷されるのは2019年の夏頃、つまりまだ出ていないというバリバリのスタートアップだ。技術的には注目を浴びていて、すでにシリーズBの投資に入っている。
+zGlueのビジネスを支える技術 Smart Fabric zGlueのビジネスを支えるコア技術の一つがSmart Fabricと同社が呼んでいるハードウェアだ。Smart Fabricはさまざまなチップを載せる土台の役割を果たすハードウェアで、Smart Fabric自体が半導体で構成されている。Smart Fabricは大量生産できる共通のものだが、上に載せるチップの配線を設計時に動的に変更することができる。少しFPGAに似た技術だ。FPGAはプログラムで動的に回路を変更できるチップで、専用チップに近い性能が必要だが大量生産できないとき、たとえば特殊なディスプレイを使うときのグラフィック機能などによく使われている。その技術を「チップ同士をつなげる」Smart Fabricに使ったのがzGlueのアイデアで、このアイデアに対しては特許取得済みだ。
+FPGAの性能は専用チップに及ばないし、通信やセンサーのようにもともとハードウェア的に備えていない機能は作れない。しかし、「プログラマブルに回路を変更できる」という機能を使って、さまざまなチップを載せる土台としてのSmart Fabricを開発したのは良いアイデアだ。会社名のzGlueも、z（縦方向）にGlue（接着）、つまりさまざまなチップを載せてくっつけるところに由来している。
+CTOで創業者の一人Jawad氏はスタンフォード大学でPh.Dを取得し、これまでTransmetaなどいくつかのプロセッサー企業で働いてきた。TransmetaのCrusoeチップは、ソフトウェアで動的に命令を実行するというSmart FabricやFPGAに近い技術で、2000年頃にいくつかのノートPCに採用された技術だ。
+これまでの方法で作られたSoCに比べるとzGlueで作ったカスタムチップは一部非効率で、速度が遅めになる。ただそれぞれのチップを回路に置くよりはずっと早く、消費電力も少なくなり、パッケージ化された部分の品質も上がる。何度か触れたようにSoCの開発は初期コストがすごくかかり、時間もかかるビジネスなので、そこを加速し、安価にしたzGlueのアプローチは価値がある。数千～数十万といった単位の製品でもオンデマンドのSoCを利用できるのはとても魅力的なソリューションだ。
+スタートアップとしてのzGlue zGlueのシード段階での資金はスタンフォード大学のファンドが出している。Smart Fabricはアイデアを特許で守ろうとしているが、実際に作るのは初期投資が大きくて量産効果が高いビジネスなので、2019年夏の製品出荷に無事成功したらそれも先行者利益になる。どのチップにも対応するものではないので、チップメーカーとのネットワークも資産だし、サイトのWebアプリであるChipBuilderもソフトウェアも資産だ。スタートアップとしてはそれが強みになる。
+まだ製品を出していないスタートアップであるzGlueを筆者が知ったのは、2019年1月のCESだった。テーブル2つの小さいブースだが、「Appleのクオリティと深センの速度」というキャッチコピーが気になり、細かくブースを見たところSoCをオンデマンドで作るアイデアに引かれた。また、メンバーの多くがアメリカの大学を卒業した中国人で、深センにオフィスを作ったばかりというのもお互いの興味を引いた。
+僕は深センで仲間たちとニコ技深圳コミュニティ{.markup–anchor .markup–p-anchor}という技術ベースのコミュニティを運営している。メンバーたちに共有したところ、LSIの自作プロジェクトを行っている金沢大学の秋田純一教授やシリコンバレー勤務時にzGlueのプレゼンを聞いていたソフトバンクの菊地仁氏などが興味を示し、そのままzGlueのメンバーと一緒にwechat上でクローズドのユーザーグループを開いた。zGlue側から参加したHua Hao氏も、こうしたきわめて技術的なテーマでここまで盛り上がるギークたちが日本にいたのに驚き、関係メンバーを集めて深センでミートアップを行うことになった。
+サービスリリース前のこの段階のスタートアップだと、ある程度リソースを割いて検証に付き合ってくれる、リテラシーの高いユーザーたちは宝物のような存在だ。まだChipBuilderにも未実装の機能やバグが残っているし、「このサービスが最終的にどのように社会に受け入れられるか」は誰にも分からない。今のwechatグループは僕か秋田先生が承認するクローズドな形だが、サービスリリース後など、ユーザーを増やしていく段階になると、Facebookなどでオープンにコミュニティを作っていく形になるだろう。
+こうしたスタートアップと深く付き合えると、こちらにも知見がたまる。他の投資家界隈などと話すときもネタになるし、僕の勤務先であるスイッチサイエンスとも何か関係が持てそうなビジネスだ。この段階のスタートアップだと単なる一ユーザーでも深いコミュニケーションができ、何かしら一緒にコミュニティを立ち上げたりできるのは面白い話なので、これからもサポートしていくつもりでいる。
+By TAKASU Masakazu/高須正和{.p-author .h-card} on March 24, 2025.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-03-24 00:00:00 +0000 UTC'>March 24, 2025</span></footer>
+  <a class="entry-link" aria-label="post link to                                     zGlue" href="http://localhost:1313/teardown/2025/03/zglue/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/1*1efPqGGXkZWfPF9lF3J0EA.jpeg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">         AI               SiPEED   
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>目指すはオープンなAIプラットフォームの構築 深センSiPEEDの挑戦 2019/08/27 07:30
+目指すはオープンなAIプラットフォームの構築 深センSiPEEDの挑戦 2019/08/27 07:30
+特定の企業が開発しているのではない、オープンなCPU命令セットであるRISC-Vが、新しいIoTの開発が多く、貿易紛争の影響で他国の企業が独占的に提供する命令セットを使うことに懸念が生じてきた中国で盛り上がっている。アリババやXiaomi傘下の企業がそれぞれRISC-Vベースのチップ開発を発表する中、昨年2018年末に起業したばかりの新しいスタートアップから、RISC-Vを採用したAI開発ボードが発売され、話題を集めている。日本でも筆者の所属するスイッチサイエンスなどで取り扱いが始まった。「オープンなAI＋IoTのプラットフォームを作るために起業した」というCEOのオーグマーが語る、SiPEEDのビジョンとは。
+起業して1年足らずで、もう20人の開発部隊 CEOのオーグマーは中国TOP10に入る華中科技大学で物理学の修士を取得した科学者だが、在学中から「ESP32ベースのオープンな開発プラットフォーム」を掲げるNodeMCUをCo-Founder（共同創業者）として起業した起業家でもある。
+「NodeMCUでもオープンにこだわりがあったのだけど、会社はどんどん利益を追い求める普通の会社になってしまった。また、ESP32ベースのIoT開発はかなりコモディティ化してきた。だから、よりチャレンジングでオープンなことがやりたくなってSiPEEDを起業した。
+もうソフトウェアや機械学習のエンジニアを中心に20人ほどのメンバーがいて、多くはNodeMCUからのつきあいで、深センに開いたオフィスに集まりつつある。もうNodeMCUに関わってはいないが、Co-Founderとしての収入はあるので、すぐSiPEEDで利益を出す必要はなく、よりオープンなAI環境を作る、やりたいことに集中していきたい」と彼女は語る。
+今のSiPEEDはRISC-Vを使ったFPGAチップや、RISC-V以外のチップを使ったLinuxボードなども製造していて、売り上げそのものはそちらの方が多い。しかし、それはできたばかりの会社のテスト的な意味もあって開発／販売しているもので、今後はなるべく「AIエッジコンピューティングのためのボードと環境」にフォーカスしていくようだ。
+AIエッジコンピューティングとは エッジコンピューティングはここ1、2年で聞かれるようになった新しい言葉だ。クラウドにデータを集めて大規模計算によるAI処理を行うのは、IoT機器の代表的な使い方だが、大容量のデータをすべてクラウドに送るのは、ネットワークの負荷がかかって現実的ではない。そのために、ある程度の処理はクラウド前の端末で処理したい。例えば「道路に置いた監視カメラを常に稼働させて、車のナンバーを読み取って交通量調査をする」ようなケースだと、映像を常にクラウドに送るのは効率的ではない。監視カメラに搭載されているコンピューターで、「車のナンバーを検出」までは行い、ナンバー情報だけをクラウドに送るほうが効率的だ。似たようなケースでは監視カメラから顔写真だけを切り出してクラウドに送るケースなどがある。
+こうした、中央のクラウドに対して周縁にあたるエッジで処理するものをエッジコンピューティングと呼ぶ。AIのアルゴリズムやモデルが進化して少ない計算量でも高度な処理が実行できるようになったことと、端末側のコンピューターが進化して効率的にAI処理が実行できるようになった両方の理由から、エッジコンピューティングが注目されている。こうしたIoTとAIを組み合わせた形を、AIoTと呼ぶ言葉も広がっている。
+SiPEEDのサイトにもAIOTとエッジコンピューティングスマートハードウェア（中国語では边缘智能硬件）がうたわれている
+オープンさの核、RISC-V CPUアーキテクチャ RISC-Vはいま世界中の注目を集めているオープンなプロセッサの命令セットアーキテクチャ（Instruction Set Architecture、以下ISA）だ。Vはギリシャ数字の5で5番目のアーキテクチャを指し、RISC-V以外にもISAは数多いが、RISC-Vは非営利団体のRISC-Vファウンデーション{.markup–anchor .markup–p-anchor}がオープンなISAを主導しているところが特徴になっている。
+PC向けのISAでは米Intelのx86、スマートフォンでは英ArmのARMがデファクトスタンダードになっている。同じISAを使うとソフトウェア資産が再利用しやすい。例えばAMDのAthlonやRyzen、IntelのPentiumやCore iシリーズはどれもx86アーキテクチャに基づいて設計されているので、同じソフトウェアを走らせることができる。この「同じISAで開発しているとソフトウェアの資産が溜まっていく」というのが標準を握る価値になっている。今後もPCはx86シリーズの時代が長く続くだろう。
+マイクロソフトのWindowsはARM版もリリースされていて、過去にはPowerPCなど他のアーキテクチャ向けの開発も行われていたが、ソフトウェアの互換性の問題で普及はしていない。一方で新しい会社がx86ベースのCPUを新しく開発しようとすると、Intelと開発者契約を結び、高額のライセンス費を払う必要がある。スマホ向けの標準になっているARMも同じだ。
+それに対してRISC-Vは、CPU開発に関する情報をオープンソース（BSDライセンス）で、もちろん無料で入手できる。RISC-Vはそのオープン性から、新興企業でも開発に参入しやすくなっている。まだソフトウェア資産は少なく、PCやスマホのようにOS上でさまざまなアプリケーションを走らせるものを作るのは難しい。しかし、自分たちで開発したソフトウェアだけを実行することが多い組み込み系では過去のソフトウェア資産の影響が少なく、かつウェアラブル機器のように使い方を含め新しく誕生した機器では、情報がオープンに入手でき、やろうと思えばカスタマイズ品の開発もしやすいメリットが生きてくる。実際にそうした新しいタイプのハードウェア開発が多い中国ではスマートウォッチなどのウェアラブル端末を中心に多く採用されつつある。また、IntelやARMと違い非営利で国際的な財団に主導されていることで、貿易戦争に巻き込まれるリスクが低いことも採用の後押しになっている。
+AIによるエッジコンピューティングは、その「既存のソフトウェア資産があまり問題にならない新しい分野」にまさに当てはまり、そこにSiPEEDがRISC-VベースのCPUを採用した理由がある。採用されているKendryteのK210チップは、AI処理のニューラルネットワークに特化した回路をチップ内に備えている。また、データシートやツールチェーンを誰でもダウンロード{.markup–anchor .markup–p-anchor}できる。CEOのオーグマーと、SiPEEDが採用しているK210チップの開発チームとはNodeMCU時代から長い関係があるそうだ。
+30分でセットアップ可能、ボード1枚で顔認識 SiPEEDの「Maix M1 Dock」は、マイコンボードとカメラ、LCDモニタがセットになった製品だ。実際に開封してノートPC（Windows 10）につなぎ、開発環境の「MaixPy」{.markup–anchor .markup–p-anchor}（K210チップ用のMicroPython環境）をインストールして画像認識アルゴリズムのTinyYoloのサンプルプログラムを用いた顔認識を行うまで、30分もかからなかった。税込3240円（スイッチサイエンス{.markup–anchor .markup–p-anchor}での販売価格）の、こんな小さいボードと消費電力で、カメラの入力とLCDへの出力を行いつつ、秒間11.4回の顔認識を安定して行えるのは驚きだ。ボードはかなり熱くなるが、消費電力は300mA程度と少なく、専用チップの効果が伺える。
+AIの学習モデル共有も視野に入れるSiPEED SiPEEDは「オープンで手軽で安い開発ボードの開発販売」だけでなく、K210用の開発環境であるMaixPyの開発も続けている。MaixPyはSiPEEDのボードだけでなく、M5Stackから発売されたK210搭載のAIカメラM5StickVでも標準開発環境になっている。また、機械学習のモデルを共有するサイトMaixHub{.markup–anchor .markup–p-anchor}を7月に正式オープンした。現在公開されているのはすべて無償のものだが、将来的には学習モデルの販売などを含めたコミュニティとして成長させていくことを意図している。
+「AIに関する知識をすべてオープンに共有し、簡単に扱えて高性能で安価な環境を提供していくのがSiPEEDのミッションだ。今市場にあるAIボードはその意味でオープンでも安価でもないので、弊社に競合他社は存在しないと考えている」とオーグマーは語る。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-03-24 00:00:00 +0000 UTC'>March 24, 2025</span></footer>
+  <a class="entry-link" aria-label="post link to          AI               SiPEED   " href="http://localhost:1313/teardown/2025/03/ai-sipeed/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">9 20                                                       2024 09 
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>9/20よりメイカーフェア東京で日本に向かいます。メイカーフェア深圳、台北も受付中 ニコ技深センコミュニティ月次報告 2024年09月 深圳と日本、エンジニア間で相互のコラボレーションが進む。9月後半に高須も来日します。
+9/20よりメイカーフェア東京で日本に向かいます。メイカーフェア深圳、台北も受付中 ニコ技深センコミュニティ月次報告 2024年09月 深圳と日本、エンジニア間で相互のコラボレーションが進む。9月後半に高須も来日します。
+9/21,22のメイカーフェア東京は、M5Stack,Arducam,Alientek,SpinQの4企業の出展をスイッチサイエンスが仲介して隣り合わせにブース出展します。また、9/23月曜にはM5Stackのユーザミートアップを行います。https://m5stack.connpass.com/event/329550/
+こうしたコラボレーションは、去年に比べてかなり拡大していてます。
+また、8月半ばから、秋田純一教授の引率で金沢大学融合学域の学生さんたちが１ヶ月のインターンで深圳を訪れていて、iMakerbase, Heroadといったコミュニティでおなじみの企業たちが受け入れに協力しています。また、我々の华强北オフィスも先生や学生さんによって活用されています。ニコ技深圳コミュニティの活動もあって、こうして中国と日本の間で、テクノロジー企業の相互交流が進むのはとても嬉しいことです。
+メイカーフェア深圳、台北で共同出展募集を開始
+今年もメイカーフェア深圳の申し込みが始まり、ニコ技深圳コミュニティでは日本からの共同出展（
+共同でブースを確保し、日本からの出展者は日本語で展示の申請ができる）を受け付けるため、ページを公開しました。
+https://wiki.nicotech.jp/nico_tech/?NTShenzhen2024
+メイカーフェア深圳は、日本からの出展者が国際組で一番多い（2番目の香港の、3倍ぐらい多い）、日本と関わりの深いメイカーフェアです。ニコ技深圳コミュニティも、活動パートナーとしてクレジットされています。
+11/30,12/1のメイカーフェア台北についても共同出展の受付を行っています。
+https://wiki.nicotech.jp/nico_tech/?NTTaipei2024
+KANTAN PLAYのクラウドファンディング、成功後も延長中
+M5Stackをコア機能に使い、誰でもコードを身につけられる新しい電子楽器がクラウドファンディング中です。
+100%達成後も、期間を延長して受け付けています。。新しいハードウェア製品の誕生に関われて嬉しいです。
+作者ゆーいちさんはInstachordを藤岡さんの深圳JENESISで量産し、また今回M5Stackとクラウドファンディングに
+取り組んでいます。自分もコーディネイターとして関わっている他、このコミュニティにも関連メンバーが多く、
+日本からこうしたプロダクトが出てきて、世界に出ていくのはとても嬉しいことです。ぜひご覧いただき、シェアください。
+https://kibidango.com/2473
+コミュニティ
+ハードウェア情報の共有 #分解のススメ コミュニティで、チャットグループDiscodeのサーバを運用しています。
+https://discord.gg/wkvsGcnb
+Facebookグループで進捗をお知らせしていきます。
+https://www.facebook.com/groups/ntshenzhen
+— — -報告（ブログ書いた、記事書いた、本だしたなど。） — — — -
+■荒木大地 日本人のための深セン情報サイト( shenzhen-fan.com{.markup–anchor .markup–p-anchor} ) 深セン ファン
+1. 深セン市2024年上半期GDPは1兆7300億元、前年同期比5.9％増
+7月26日、深セン市統計局が正式に発表した広東省GDPの統計結果によると、2024年上半期の深セン市の国内総生産（GDP）は1兆7,302億2,200万元となり、前年同期比5.9％の増加となりました。都市別ランキングでは深セン市が上海、北京に次いで3位となり、広東省や中国全土の経済を牽引している一方、広東省のGDP成長率は3.9%で全国平均を下回っています。
+https://www.shenzhen-fan.com/news-2024-08-02-sz-gdp-2024-h1/
+2. 2024フォーチュン・グローバル500企業発表、深セン企業は10社がランクイン
+8月5日、フォーチュン誌が年1回発行する、企業総収入ランキング「フォーチュン・グローバル500」の2024年版が発表されました。中国企業は133社がランクイン。そのうち深センからは10社が入り、BYDは大幅にランクアップ。このリストから中国や深センの経済を牽引する企業が見えてきます。
+https://www.shenzhen-fan.com/2024-fortune-global-500-sz-company/
+3.ザハ・ハディド設計、香港西九龍駅商業モール建設中 完成は2027年
+先日は夜行便がスタートし、香港・深センから中国各都市へ一段とアクセスしやすくなった高速鉄道「広深港高速鉄路」。その終着点となる西九龍駅では現在、香港最大の複合商業モールを建設中です。公共施設・オフィス・商業スペースと駅が一体化する複合施設で、現在の総事業費は90億米ドル。2027年に完成予定となります。
+https://www.shenzhen-fan.com/news-2024-08-xrl-topside-west-kowloon-station/
+4.ミュージカル「キャッツ」、5年ぶりの中国ツアーを深センから再開（10/11–24）
+世界の名作ミュージカルとして知られる「キャッツ」（CATS）が、5年ぶりとなる中国ツアーを行います。10月11日から24日まで深セン南山文体中心での上演を皮切りに全国ツアーの幕が開けます。チケットは280元から発売中です。
+https://www.shenzhen-fan.com/2024-08-19-musical-cats-will-return-to-china-this-oct/
+5.大ブームのアクションRPG「黒神話：悟空」、開発元は深センで夢をつかむ
+8月20日に発売されて以来中国全土でブームとなっている、西遊記を題材としたアクションRPG「黒神話：悟空」の開発元が、深センのメディアで話題となっています。この会社は、元テンセントのメンバーによって深セン市内に設立された「ゲームサイエンス」社。スタートアップがこのような大作ゲームを開発するには様々なハードルをクリアしなければなりませんでした。
+https://www.shenzhen-fan.com/news-2024-08-28-black-myth-wukong/
+6.【HT中国語教室】イベント情報
+深センの語学学校「HT中国語教室」による定期イベントのお知らせです。「アーチェリー」「パンダイベント」など多種多様なイベントが開かれています。
+https://www.shenzhen-fan.com/2024-08-ht-chinese-events-3/
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-08-31 00:00:00 +0000 UTC'>August 31, 2024</span></footer>
+  <a class="entry-link" aria-label="post link to 9 20                                                       2024 09 " href="http://localhost:1313/teardown/2024/08/9-20-2024-09/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">  M5Stack       KANTAN Play core                               2024 07 
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>深圳M5Stackを搭載した楽器KANTAN Play coreがクラウドファンディング中 ニコ技深センコミュニティ月次報告 2024年07月 M5Stackをコア機能に使い、誰でもコードを身につけられる新しい電子楽器がクラウドファンディング中です。
+深圳M5Stackを搭載した楽器KANTAN Play coreがクラウドファンディング中 ニコ技深センコミュニティ月次報告 2024年07月 M5Stackをコア機能に使い、誰でもコードを身につけられる新しい電子楽器がクラウドファンディング中です。
+作者ゆーいちさんはInstachordを藤岡さんの深圳JENESISで量産し、また今回M5Stackとクラウドファンディングに
+取り組んでいます。自分もコーディネイターとして関わっている他、このコミュニティにも関連メンバーが多く、
+日本からこうしたプロダクトが出てきて、世界に出ていくのはとても嬉しいことです。ぜひご覧いただき、シェアください。
+https://kibidango.com/2473
+先月は、6月13日のInteropをはじめ、早稲田大学、NT金沢、金沢大学と複数個所で講演をしました。
+いずれもニコ技深圳コミュニティには関連していますが、
+[Interrop2014で基調講演 中国のオープンソース技術状況]{#9d3a} [早稲田の創造理工学部 M5Stackなどハードウェア開発事例紹介]{#a048} [NT金沢2024 深圳でのスタートアップ支援]{#3942} [金沢大学の新機能集積回路設計特論 LSI開発とその影響]{#3705} と、それぞれ異なるテーマのものです。
+いい機会なので、資料含めて録画公開しています。お時間あるときにご覧ください。
+「動き、手を動かすことで状況を変えていく」4つの講演録画 2024年6月
+https://note.com/takasu/n/n9fc493ae85eb
+■コミュニティ
+ハードウェア情報の共有 #分解のススメ コミュニティで、チャットグループDiscodeのサーバを運用しています。
+https://discord.gg/4g9pkgFg
+Facebookグループで進捗をお知らせしていきます。
+https://www.facebook.com/groups/ntshenzhen
+— — -報告（ブログ書いた、記事書いた、本だしたなど。） — — — -
+今年も8月下旬から9月下旬の約1ヶ月間、学生4名といっしょに深センへ短期留学・インターンシップへいきます。（秋田）
+■ThousanDIY/Masao Yamazaki(@tomorrow56)
+1. 工学社 月刊I/O 連載「100円ショップガジェット分解」 ・2024年7月号: ダイソーの「完全ワイヤレスイヤホン TWS002」
+低価格TWSとしては、かなり音質のよいイヤホンです。納入元はAppleの周辺機器メーカーで最近はハイレゾオーディオを販売しているラディウス(radius)社です。
+書籍情報ページ： https://www.kohgakusha.co.jp/books/detail/4827
+月刊I/Oは電子書籍でも買えます。
+https://digibook.kohgakusha.co.jp/
+2. note「100円ショップのガジェットを分解してみる」: 2024年6月の追加記事
+・キャンドゥの「デジタルバッテリーチェッカー」
+昇圧コンバータ内蔵で測定対象の電池だけで動きます。コントローラは「ジェネリックPIC(PIC16Fシリーズのピン互換)」です。
+https://note.com/tomorrow56/n/n43bda6097ced
+noteの100均ガジェット分解の過去記事はマガジンにまとめています。
+https://note.com/tomorrow56/m/ma0073059b5ac
+■荒木大地 日本人のための深セン情報サイト( shenzhen-fan.com{.markup–anchor .markup–p-anchor} ) 深セン ファン
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-06-30 00:00:00 +0000 UTC'>June 30, 2024</span></footer>
+  <a class="entry-link" aria-label="post link to   M5Stack       KANTAN Play core                               2024 07 " href="http://localhost:1313/teardown/2024/06/m5stack-kantan-play-core-2024-07/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/1*K3WakdlS1I9HKI1Qt4VAsw.jpeg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">5 24  14 00        AI              SUMIDA INNOVATION CORE SIC 
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>5月24日 14:00- 深圳-日本 AI産業連携イベント開催：墨田区SUMIDA INNOVATION CORE（SIC） ニコ技深圳と協力しているiMakerbaseの主催で、墨田区産業共創施設SUMIDA INNOVATION CORE（SIC）にてイベントを行います。受付フォーム公開中です。ぜひご興味ある方来場お願いします。
+5月24日 14:00- 深圳-日本 AI産業連携イベント開催：墨田区SUMIDA INNOVATION CORE（SIC） ニコ技深圳と協力しているiMakerbaseの主催で、墨田区産業共創施設SUMIDA INNOVATION CORE（SIC）にてイベントを行います。受付フォーム{.markup–anchor .markup–p-anchor}公開中です。ぜひご興味ある方来場お願いします。
+2024中国（深圳）-日本（東京）人工知能産業連携交流会及び深圳市人材政策説明会 イベント概要 中日間新技術の交流と協力を進めるため、中国国際貿易促進委員会深圳市委員会はiMakerbase国際ハードウェアアクセラレーター、深圳市人工知能産業協会と提携し、2024年5月24日東京で中日人工知能産業連携交流会を開催し、当日、18社の深圳人工知能関連会社は参加します。
+皆様のご来場心よりお待ちしています！
+**日時：**2024年5月24日14:00–17:00
+**場所：**東京都墨田区錦糸4–17–1ヒューリック錦糸町コラボツリー 4階
+**主催：**中国国際貿易促進委員会深圳委員会
+**共催：**iMakerbase国際アクセラレーター、深圳市人工知能産業協会、Nico-Tech Shenzhen
+「会場提供と運営一部サポート」
+協力：墨田区産業共創施設
+SUMIDA INNOVATION CORE（SIC）
+タイムスケジュール：
+14:30–14:40 深圳市貿易促進委員会 開会挨拶＆深圳市紹介
+14:40–14:50 深圳市人材工作局 深圳人材政策紹介
+14:50–14:55 深圳市人工知能産業協会 開会挨拶
+14:55–15:00 iMakerbaseCEO 開会挨拶
+15:00–15:05 浜野製作所社長 開会挨拶
+15:05–16:45 深圳工知能企業発表（10社、10分/社）
+17:45–17:30 フリートーク
+参加申込フォーム 参加申込み：
+https://wj.qq.com/s2/14514738/nu64/
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-04-30 00:00:00 +0000 UTC'>April 30, 2024</span></footer>
+  <a class="entry-link" aria-label="post link to 5 24  14 00        AI              SUMIDA INNOVATION CORE SIC " href="http://localhost:1313/teardown/2024/04/5-24-14-00-ai-sumida-innovation-core-sic/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">                                    2024 03 
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>今週末、愛知県刈谷市でメイカーフェア ニコ技深センコミュニティ月次報告 2024年03月 3月2-3の土日、愛知県刈谷市でKariya Micro Maker Faireが開かれます。デンソーのオープンメイカースペースDMCが中心になって声がけしたもので、モビリティが多めの特色あるメイカーフェアになるはずです。
+今週末、愛知県刈谷市でメイカーフェア ニコ技深センコミュニティ月次報告 2024年03月 3月2-3の土日、愛知県刈谷市でKariya Micro Maker Faireが開かれます。デンソーのオープンメイカースペースDMCが中心になって声がけしたもので、モビリティが多めの特色あるメイカーフェアになるはずです。
+高須も3/2 15:20- コロナ以降の世界メイカーフェア事情 として講演します。
+https://makezine.jp/event/makerfaire/kmmf2024/
+その後、セントレアから深センに戻り、2ヶ月近い出張が終わります。次回の来日は、メイカーフェア京都（4/27-28)及び、4/29のM5Stack大阪ミートアップ、4/30のM5Stack福岡ミートアップになるはずです。
+■コミュニティ
+ハードウェア情報の共有 #分解のススメ コミュニティで、チャットグループDiscodeのサーバを運用しています。
+https://discord.gg/2P2Uu9F4
+Facebookグループで進捗をお知らせしていきます。
+https://www.facebook.com/groups/ntshenzhen
+-----報告（ブログ書いた、記事書いた、本だしたなど。）-------
+JA1TYE/Ryota Suzuki (@JA1TYE)
+今月は2件のBlog記事を書きました。
+「Maker Faire Taipei 2023に行ってきました」：2023年11月18-19日に台北で開催されたMaker Faire Taipei 2023の見学記です。
+https://t-techlab.com/2024/02/17/maker-faire-taipei-2023に行ってきました/{.markup–anchor .markup–p-anchor}
+「TinyTapeoutでオレオレICを作ろう」：オープンソースソフトウェアによる開発環境やオープンな半導体設計ライブラリ（PDK）を使うことでNDAに縛られずICを設計することができる環境が整ってきています。
+そのような環境を活用し、教育目的を兼ねて有志から設計を募ってICを製造する試みである&#34;TinyTapeout&#34;についての紹介記事です。現在第6回目の設計募集期間中です。
+https://t-techlab.com/2024/02/18/tinytapeoutでオレオレicを作ろう/{.markup–anchor .markup–p-anchor}
+■ThousanDIY/Masao Yamazaki(@tomorrow56)
+1. 工学社 月刊I/O 連載「100円ショップガジェット分解」 ・2024年3月号: 「人感センサケーブル」
+PIRセンサー搭載のLEDテープ用の基板部分を汎用展開した商品です。既存製品も目の付け所次第で新しい売り方ができるという良い例だと思います。
+https://www.kohgakusha.co.jp/books/detail/4819
+月刊I/Oは電子書籍でも買えますので、ぜひ読んでください。
+https://digibook.kohgakusha.co.jp/
+2. note「100円ショップのガジェットを分解してみる」: 2024年2月の追加記事
+・番外編：バンダイの「たまごっちユニ」 中国EspressifのESP32-S3を採用した通信機能を持った育成ゲーム「たまごっち」です。設計はバンダイの深セン、よく考えられた設計です。
+https://note.com/tomorrow56/n/n5aae0ddffa9b
+noteの100均ガジェット分解の過去記事はマガジンにまとめています。
+https://note.com/tomorrow56/m/ma0073059b5ac
+■荒木大地 日本人のための深セン情報サイト(shenzhen-fan.com{.markup–anchor .markup–p-anchor}) 深セン ファン
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-02-29 00:00:00 +0000 UTC'>February 29, 2024</span></footer>
+  <a class="entry-link" aria-label="post link to                                     2024 03 " href="http://localhost:1313/teardown/2024/02/2024-03/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">                                  2024 02 
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>日本各地のイベントに参加します。 ニコ技深センコミュニティ月次報告 2024年02月 ■分解のススメ：テカナリエ清水さん講演
+日本各地のイベントに参加します。 ニコ技深センコミュニティ月次報告 2024年02月 ■分解のススメ：テカナリエ清水さん講演
+早稲田ビジネススクール講義 テカナリエ清水洋治代表 講演 2月8日木曜日18:20 オンライン
+#分解のススメ{.markup–anchor .markup–p-anchor} 特別編として、テカナリエ清水代表の講演をyoutube liveします！ブラックボックスをつくらない考え方は、ビジネスでも必須
+https://bunkai18.peatix.com/
+■報告：ニコ技深セン华强北オフィス、再度移転中
+2015年のオープンから、ニコ技深センオフィスは何度か移転を繰り返してきましたが、今借りている中电迪富大厦内にある、CECが管理するメイカースペースが、一ヶ月後の2/18を持ってクローズという連絡が入りました。
+契約主は高須なのですが、自分は3月上旬まで深センに戻らないので、おそらくその後また場所を华强北近辺で探して移転・再オープンになると思います。こちらの問題で続けられなくなったわけではないので、皆様からお預かりしてるデポジットやスポンサー様からのご支援で、別の場所を借りて再開になるはずです。
+（置いてある荷物の保持などは別途対応中・なくなると困る契約書などは置いてなく、今も深センにいる村谷さんのおかげで、よく使う物品や高いものなどは保管済み）
+2019-20年のコロナ間、その後2020年のSEGスペースのクローズに伴う移転（向かいの华强メイカースペースへ）その後すぐまた华强メイカースペースのクローズに伴う移転（今のCECメイカースペースへ）など、深センらしく変化の激しいスペースですが、再オープンめざし、今後ともよろしくおねがいします。
+■コミュニティ
+ハードウェア情報の共有 #分解のススメ コミュニティで、チャットグループDiscodeのサーバを運用しています。
+https://discord.gg/NAwwpTWT
+Facebookグループで進捗をお知らせしていきます。
+https://www.facebook.com/groups/ntshenzhen
+-----報告（ブログ書いた、記事書いた、本だしたなど。）-------
+JA1TYE/Ryota Suzuki (@JA1TYE)
+だいぶ時間が経ってしまいましたが、2023年11月に開催されたMaker Faire Shenzhen 2023への出展レポートを書きました。日本のMaker Faireとは少し違う深センのMaker Faireの雰囲気を感じていただけるのではないかと思います。
+https://t-techlab.com/2024/01/25/maker-faire-shenzhen-2023に出展してきました/{.markup–anchor .markup–p-anchor}
+ThousanDIY/山崎雅夫(@tomorrow56)
+1. 工学社 月刊I/O 連載「100円ショップガジェット分解」 ・2024年2月号: 「USB Type-C イヤホンジャック変換コード」
+中国Bluetrum社製のRISC-V内蔵USB DACを採用し小型基板に詰め込んでいます。https://www.kohgakusha.co.jp/books/detail/4816
+月刊I/Oは電子書籍でも買えます。
+https://digibook.kohgakusha.co.jp/
+2. note「100円ショップのガジェットを分解してみる」: 2024年1月の追加記事
+・ダイソーの「車載ワイヤレスチャージャー」
+USB PD Sink対応デバイスで最大出力10Wです。ワンチップの専用SoCです。
+https://note.com/tomorrow56/n/n5998ae49ae79
+・ダイソーの「有線・無線両用ヘッドセット」
+中国Bluetrum社製のRISC-V内蔵Bluetooth Audio用SoCを採用しています。
+https://note.com/tomorrow56/n/n84a6764fd217
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-02-01 00:00:00 +0000 UTC'>February 1, 2024</span></footer>
+  <a class="entry-link" aria-label="post link to                                   2024 02 " href="http://localhost:1313/teardown/2024/02/2024-02/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">                          2023 12 
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>初島会議にて来日 ニコ技深センコミュニティ月次報告 2023年12月 12月の8–9日に軽井沢でで行われる「初島会議」に登壇するため、日本に向かいます。
+初島会議にて来日 ニコ技深センコミュニティ月次報告 2023年12月 12月の8–9日に軽井沢でで行われる「初島会議」に登壇するため、日本に向かいます。
+https://dsdesign.org/
+12月27日には、1950年代にアメリカ国防予算でスタンフォード大学に予算が注ぎ込まれてから、
+ピーター・ティールのパランティアあたりまで、70年近くに渡るシリコンバレーの歴史をまとめた
+「シリコンバレー全史」が刊行されます。山形浩生さんがメインの訳者、自分も一部担当しました。
+著者のマーガレット・オメーラはプロの歴史学者で、アル・ゴアの情報スーパーハイウェイ構想時に顧問をしていた
+こともあり、シリコンバレーにおけるイノベーションと産業政策への研究が書籍にまとまりました。
+すでにオンライン書店では予約が始まっています。
+https://www.kadokawa.co.jp/product/322207001329/
+ハードウェア情報の共有 #分解のススメ コミュニティで、チャットグループDiscodeのサーバを運用しています。
+https://discord.gg/QMwZs75F
+Facebookグループで進捗をお知らせしていきます。
+https://www.facebook.com/groups/ntshenzhen
+— — -報告（ブログ書いた、記事書いた、本だしたなど。） — — — -
+■山崎雅夫(@tomorrow56, ThousanDIY)すみません、先月の告知を忘れていました。2か月分です。
+1. 工学社 月刊I/O 連載「100円ショップガジェット分解」 ・11月号: セリアの「バッテリ・チェッカー」 110円で買える4個のLEDでバッテリーレベルを表示するバッテリーチェッカーです。 FR4基板採用、PICピン互換マイコン使用です。
+https://www.kohgakusha.co.jp/books/detail/4810 (「主な内容」の記載は間違いです)
+・12月号: ダイソーの「完全ワイヤレスイヤホン DG036–01」 低遅延モードに対応し、「日本人技術者がチューニングした日本人向けの音質」とパッケージに記載があるイヤホンです。イヤホン内部の基板は2層(他のTWSは4層)、低遅延モードの実測結果も載っています。
+https://www.kohgakusha.co.jp/books/detail/4810
+月刊I/Oは電子書籍でも買えるようになりました。https://digibook.kohgakusha.co.jp/
+2. note「100円ショップのガジェットを分解してみる」: 10月、11月の追加記事
+・ダイソーの「完全ワイヤレスイヤホン E-TWS-1」(TWS二代目) 今回もZH-JieLiのBluetooth Audio SoCを採用。音も比較的バランスがよく、基板設計や内部構造もよくできています。https://note.com/tomorrow56/n/nae0afb88a8a0
+・ダイソーの「USB3.0対応薄型Type-Cハブ」
+USB規格をハックして1ポートだけUSB3.0対応しているという、なかなか面白い商品です。
+https://note.com/tomorrow56/n/n8b1116c48641
+noteの100均ガジェット分解記事はマガジンにまとめています。
+https://note.com/tomorrow56/m/ma0073059b5ac
+■高口康太
+「中国で碧桂園の幽霊団地を観て来た」文藝春秋2023年12月号
+https://bunshun.jp/bungeishunju/articles/h7253
+文藝春秋電子版 https://bunshun.jp/bungeishunju/articles/h7215
+「中国は不動産バブル崩壊で「失われた10年」に突入するか」『文春ムック 文藝春秋オピニオン 2024年の論点100』
+https://books.bunshun.jp/ud/book/num/9784160070745
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-11-30 00:00:00 +0000 UTC'>November 30, 2023</span></footer>
+  <a class="entry-link" aria-label="post link to                           2023 12 " href="http://localhost:1313/teardown/2023/11/2023-12/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://twitter.com/tks/status/1721650674990252191" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">     Regarding Proposed US Restrictions on RISC V 
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>日本語訳：Regarding Proposed US Restrictions on RISC-V… ハードウェアハッカーの著者バニー・ファン@bunniestudioは、11月6日にアメリカで提出された「中国の優位を防ぐため、アメリカでRISC-Vへの協力を規制しよう」案について反対する公開書簡をブログで発表した。ツイートでは「この案はむしろアメリカのパワーを削ぐ」としている。…
+日本語訳：Regarding Proposed US Restrictions on RISC-V バニー・ファン、アメリカで提出された「中国の優位を防ぐため、アメリカでRISC-Vへの協力を規制しよう」案について反対する公開書簡 ハードウェアハッカー{.markup–anchor .markup–p-anchor}の著者バニー・ファン@bunniestudio{.markup–anchor .markup–p-anchor}は、11月6日にアメリカで提出された「中国の優位を防ぐため、アメリカでRISC-Vへの協力を規制しよう」案について反対する公開書簡をブログ{.markup–anchor .markup–p-anchor}で発表した。ツイートでは「この案はむしろアメリカのパワーを削ぐ」としている。
+以下[Regarding Proposed US Restrictions on RISC-V{.markup–anchor .markup–p-anchor}]翻訳
+米国のRISC-V規制案について 米国議会の18人の超党派議員からなるグループは最近、ホワイトハウスと商務長官に対し、中国がCPU技術で優位に立つのを防ぐため、アメリカで{.markup–anchor .markup–p-anchor}RISC-V{.markup–anchor .markup–p-anchor}を扱うことについて制限を設ける{.markup–anchor .markup–p-anchor}よう要請した（上院からの最初の要請も{.markup–anchor .markup–p-anchor}参照）。
+この要求は見当違いだ。RISC-Vへのどんな制限も、重要な新技術へのアメリカの参入を減らし、しかも組み込みCPUのほぼ独占的なプロバイダーであるARMの立場を強化してしまうだけだ。
+最初にそうしたレポートが出たとき、僕はこれが単なる一時的な誤解で、消えてなくなることを願っていた、しかし、今や超党派の幅広いグループが規制を求めている以上、もはや傍観することはできないと感じた：僕はRISC-Vエコシステムに積極的に参加している。もちろんアメリカの法律を遵守しながら。
+アメリカ人なら誰でもできること、それはこの問題に関する僕の考えをまとめた書簡(Letter)を書き、ホワイトハウス、商務省、そして関連する連邦議会議員に送ることだ。残念ながら、私にはPACもロビイストも、アメリカの政治家たちとのハイレベルなコネクションもない。
+でも、僕にはブログがある。ホワイトハウスに送った書簡のコピーをここに掲載するのは、もしかしたら僕よりも政治的コネクションのある誰かがそれを拾い上げ、送ってくれるかもしれないというほのかな期待を抱いてのことだ。
+最後に、もし僕の考えやスタンスに異論があったり、異なる視点をお持ちの方は、政府高官各位にご自分の考えを表明する書簡を送ることもお勧めする。このやり方である必要はないけど、このテーマに対する国民の幅広い関心を示すことで、政策立案者はこの問題についてもう少し慎重に考え、より多くの意見を聞くようになるかもしれない。
+Letter バイデン大統領とホワイトハウスのスタッフへ：
+最近、18人の議員がホワイトハウスと商務長官に書簡を送り、「中国がRISC-V技術で優位に立ち、その優位性を利用して米国の国家安全保障と経済安全保障を犠牲にする」ことを米国はどのように阻止するつもりなのかを尋ねた。
+私はミシガン州生まれのアメリカ人で、MITで電気工学の博士号を取得しました。また、電子機器の設計・製造を行う中小企業の経営者でもあります。私は、RISC-V技術の共有にいかなる制限も設けないよう、政府に強く要請するために書簡を書いています。
+私の製品のCPUは、オープンソースのRISC-V規格に基づいています。RISC-Vのオープン性は、特に私のような中小企業にとってメリットがあります。私はオープンソースコミュニティからツールや設計を入手し、自分の改良を還元して貢献しています。この活気あるオープンソース・エコシステムにバリアフリーで参加することで、オーバーヘッドを低く抑えることができ、熾烈なハードウェア・ビジネスにおいて競争力を保つことができています。
+インターネットと同様、RISC-Vはすでに世界的な現象となっています。すでにEU、インド、中国などからの貢献が盛んで[1]、アメリカはRISC-V実装の唯一の所有者というわけではありません。私は、EUで開発されたVexRiscvというRISC-Vの実装を使っています。アメリカ人のRISC-Vコミュニティ参加にバリアを設けることは、この技術の開発と採用におけるアメリカの進歩を遅らせるだけで、提言した議員の意図とは逆の効果をもたらすでしょう。
+さらに繊細なのは、RISC-Vはシンプルに、標準規格だということです。私たちが英単語の意味を定義するために辞書を頼りにするのと同じように、チップに何かを指示するために使われる一連の方法を定義したものです。オープンに定義された英単語を使って秘密の文書を書くことができるように、RISC-V標準規格はオープンであっても、RISC-Vを使って独占的なものを設計することはできます。こうしたオープンスタンダードの利点は非常によく知られており、アメリカにはNISTのように、オープンスタンダードを公表することでアメリカの技術革新と産業競争力を促進するための機関があります。
+さらに言えば、確立された標準の使用を取り締まることは現実的ではありません。いちど出版された本について、アメリカの敵がそのコピーを入手することを防ぐのは非現実的でしょう。
+「私たちは憲法修正第1条の権利を自由に行使してアイデアを共有し、活気ある知的交流を生み出すことができる。たとえ他人が私たちの教科書や学術誌、特許を読んで利益を得るというリスクがあったとしても。」
+これは長い間、アメリカのイノベーション哲学のトレードオフでした。私はこのトレードオフが、アメリカにとって有利だったと信じています。たとえ潜在的な競争相手であっても、交流のたびに、私たちはより多くを学ぶことができます。行政的な成果を達成するために表現の自由を制限することは、他の抑圧的な政権の常套手段です。アイデアの流れを制限することは、根本的にアメリカ的ではありません。
+まとめると、RISC-V技術を共有するアメリカ人に対する制限は、技術的リーダーとしてのアメリカの役割を低下させるだけです。
+行き過ぎた規制は、米国のキャンパスで学生にコンピューターについて教えるために使われる人気のあるツールを教育者から奪いかねない。また、RISC-Vに対するどんな狭い制限も、中国市場に参入する可能性のある米国のハイテク企業から、コスト効率に優れ、高性能なCPU技術へのアクセスを奪う可能性があります。その結果、ほぼ独占状態にあるARMホールディングス（アメリカ企業ではありません）にロイヤリティを支払わなければならなくなる。これはアメリカの競争力を弱め、最終的にはアメリカの利益を損なうことになります。
+米国の経済的・軍事的利益は、特別な注目に値するものです。連邦政府はライセンス制度の強制でそれを実現するのではなく、 アメリカのRISC-Vチップ・メーカーのサクセス・ストーリーをより多く自国内で開発するプログラムに投資すべきでしょう。企業がRISC-V CPUの独自実装を開発することは、現行の法的枠組みやRISC-V契約の枠組みの範囲内です。アメリカには、米国企業がオープンスタンダードの境界を乗り越え、連邦政府の指導を必要とせずに成功を収めた強力な前例があります： インテルとAMDは、オープンに文書化された “x86 “コンピュータ規格の独自実装を中心に構築されたアメリカの巨大産業です。アメリカに必要なのは、ARMホールディングスの独占に対する米国からの回答であり、その回答はRISC-Vを採用する米国企業への投資によってもたらされるでしょう。
+バイデン大統領、私はあなたに強く言いたい。アメリカのイノベーションを信頼してください。アメリカの価値観を信頼してください。RISC-V技術の共有にいかなる制限も設けないでください。我々は、表現の自由というアメリカの価値観に基づくことで、より多くのアメリカのチップメーカーのサクセスストーリーを構築するために協力することができる！
+本当にありがとう。
+Andrew ‘bunnie’ Huang
+An American Hacker, Maker, and Author
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-11-06 00:00:00 +0000 UTC'>November 6, 2023</span></footer>
+  <a class="entry-link" aria-label="post link to      Regarding Proposed US Restrictions on RISC V " href="http://localhost:1313/teardown/2023/11/regarding-proposed-us-restrictions-on-risc-v/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">10 14 15                                      2023 10 
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>10月14–15日 メイカーフェア東京でお会いしましょう ニコ技深センコミュニティ月次報告 2023年10月 メイカーフェア東京10月14–15日、メイカーフェア深セン11月11–12日につづいて、メイカーフェア台北11月18–19日も募集が始まりました。
+10月14–15日 メイカーフェア東京でお会いしましょう ニコ技深センコミュニティ月次報告 2023年10月 メイカーフェア東京10月14–15日、メイカーフェア深セン11月11–12日につづいて、メイカーフェア台北11月18–19日も募集が始まりました。
+ニコ技深センコミュニティは、深セン・台北の両イベントに出展します。
+メイカーフェア深セン共同出展
+https://wiki.nicotech.jp/nico_tech/?NTShenzhen2023
+メイカーフェア台北共同出展
+https://wiki.nicotech.jp/nico_tech/?NTTaipei2023
+メイカーフェア東京
+https://makezine.jp/event/mft2023/
+メイカーフェア深セン
+https://www.shenzhenmakerfaire.com/
+Facebookグループで進捗をお知らせしていきます。
+https://www.facebook.com/groups/ntshenzhen
+— — -報告（ブログ書いた、記事書いた、本だしたなど。） — — — -
+■株式会社CuboRex 元代表取締役の寺嶋です
+2023年3月に創業したCuboRexを退職し現在は「試せる日本」を作るために政治家になるため9月より日本維新の会の衆議院支部長として静岡県浜松で活動しています。経緯や思いなど記事にまとめましたのでご確認、応援頂けると幸いです。これまでのものづくりベンチャーでの知見や課題感をいかしつつ「試せる日本」を実現するため活動してまいります
+https://note.com/m_terashima/n/n5bc72addc77a
+■秋田＠金沢大です。
+去年半年間サバティカルで深センに滞在したときの縁をもとに、今年は短期留学・インターンプログラムで学生を連れて深センに行ってきました。当初は5週間の予定だったのですが、ビザ発給のトラブルがあって予定が変更になり、2週間のオンライン・現地併用プログラムになりましたが、6人の学生が深センを満喫してきました。オンライン参加だった6名（うち1名は後半にアライバルビザで現地入り）も含めて、「生の中国・深セン」を見聞きした経験が、今後にどうつながっていくか、楽しみです。現地コーディネート・案内では、高須さんをはじめ、多くの方々にお世話になりました、ありがとうございました。
+■荒木大地 日本人のための深セン情報サイト(shenzhen-fan.com{.markup–anchor .markup–p-anchor}) 深セン ファン
+1. 深セン・香港統合版交通スマートカード「互通行」が登場、中国327都市で使用可能に
+深セン市当局は8月30日、深センの交通カード「深セン通」と、香港の交通カード「オクトパス」を統合した新たな「互通行」スマートカードを発表しました。深センと香港で利用可能な交通カードはこれまでもありましたが、当カードは利用範囲が中国327都市に拡大され、これにより大湾区の交通接続がより一層促進されます。価格は68元です。
+https://www.shenzhen-fan.com/news-2023-08-31-sz-hk-cross-border-transport-card-launched/
+2.スターバックス中国、福田区にテックセンターを設立
+世界最大のコーヒーチェーンであるスターバックスは、今後3年間で約15億元（2億600万米ドル）の初期投資を行い、深セン福田区にイノベーション・テクノロジーセンター「星巴克中国創新科技中心」を設立すると発表しました。
+https://www.shenzhen-fan.com/news-2023-09-04-starbucks-china-setup-innovation-and-technology-center-in-futian/
+3.【吾友コンサル】日系企業の海外送金に関する無料相談会の開催
+深セン・広東省を中心に活躍されている吾友コンサルからのお知らせです。今回は、中国に進出している日系企業が直面しやすい「海外送金」（対外送金）に関する無料相談会が実施されます。税金や届出の有無、優遇措置などの様々な疑問について相談できます。
+https://www.shenzhen-fan.com/2023-09-goyuu-consulting/
+4.【うづき薬局 &#43; J Medi コネクション】中国各地へ日本の医薬品配送サービス開始！（期間限定お薬代20%OFF）
+2023年9月、Shenzhen Fanは「AKクロスボーダーズ社」と提携を行い、中国在住の方々に日本のお薬を配送するサービスを始めました。
+現在のところ、中国では日本の薬が転売ヤーにより薬価の4倍ほどで違法に取引されているケースが多く見受けられます。今回開始した当サービスは、そのような違法な転売を無くし日本側の薬剤師の指導のもと、安全にお薬の相談・配送を行えるようになる日本初のサービスです。
+https://www.shenzhen-fan.com/2023-09-jmedi-connection/
+5.台風により深セン各地で浸水被害、一部交通機関運休 深セン市の降雨量は観測史上記録更新（9/8）
+9月7日に広東省を通過した台風「海葵」（アネモネ）の影響により、各地で大雨が降り、至るところで冠水。深セン市の最大累積降雨量は羅湖区にて469mmを記録し、いくつかの項目においては1952年の観測史上記録を更新しました。
+https://www.shenzhen-fan.com/news-2023-09-08-sz-weather-news/
+https://www.shenzhen-fan.com/news-2023-09-08-sz-weather-news-2/
+https://www.shenzhen-fan.com/news-2023-09-19-sz-metro-resumed-all-station/
+6.中国初のWeChat「手のひら決済」、広東省のセブンイレブンや深セン市内の一部モールで利用開始
+昨年より深セン市内でテスト運用が続けられていた「微信刷掌支付」（WeChat Pay 手のひら決済）が、ついに正式運用を開始しました。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-09-30 00:00:00 +0000 UTC'>September 30, 2023</span></footer>
+  <a class="entry-link" aria-label="post link to 10 14 15                                      2023 10 " href="http://localhost:1313/teardown/2023/09/10-14-15-2023-10/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="http://localhost:1313/teardown/">
+      «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="http://localhost:1313/teardown/page/3/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">ニコ技深セン / Nico-Tech Shenzhen website</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

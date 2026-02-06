@@ -1,5 +1,8 @@
 ---
 title: "M5Stack    Maker                Maker    "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*aH_DgngDp1J5BbxBIMRtvQ.jpeg"
+  relative: false
 aliases: ["/2025/03/m5stack-maker-maker/"]
 slug: m5stack-maker-maker
 date: 2025-03-25
@@ -17,7 +20,7 @@ M5Stackは今後もMaker市場でうまくいくと思う。僕自身がMakerだ
 
 2021/02/04 07:30
 
-![M5StackのCEOジミー（右側）と僕。新オフィスでは、ついにジミーの社長室ができた。そして、社長室にはCEO専用部品ボックスとCEO専用作業机が備え付けられている。](https://cdn-images-1.medium.com/max/800/1*aH_DgngDp1J5BbxBIMRtvQ.jpeg){.graf-image}
+![M5StackのCEOジミー（右側）と僕。新オフィスでは、ついにジミーの社長室ができた。そして、社長室にはCEO専用部品ボックスとCEO専用作業机が備え付けられている。](https://cdn-images-1.medium.com/max/800/1*aH_DgngDp1J5BbxBIMRtvQ.jpeg)
 
 M5Stack
 のCEOジミー・ライが語るMakerとは、スタートアップとは。そして2021年M5Stackの新プロダクト計画について取材した。
@@ -25,7 +28,7 @@ M5Stack
 「2015年に起業したばかりのころは、製品全体の95％が僕の設計だった。今のM5シリーズで僕の設計は50％ぐらい。つまり残りの50％は、僕よりうまくできる人が見つかったということだ。一人で必死に泳いでいたのが、みんなで船をこいでいるような感じになった。ありがたいね」（ジミー・ライ）
 
 ![主力製品のM5Stack
-Basic。学校などでの大量導入も増えてきた開発ボード。](https://cdn-images-1.medium.com/max/800/1*62LGnuYiqYbu8KjRm4JHUg.jpeg){.graf-image}
+Basic。学校などでの大量導入も増えてきた開発ボード。](https://cdn-images-1.medium.com/max/800/1*62LGnuYiqYbu8KjRm4JHUg.jpeg)
 
 ### IoT開発のデファクトスタンダードになりつつあるM5Stack {#d2f8 .graf .graf--h3 .graf-after--figure name="d2f8"}
 
@@ -73,13 +76,13 @@ Maker向けマーケットは中心だし、継続的に成長している。こ
 
 「2つ目はSTEM教育マーケット。実は2018年ごろはここが最重要だと考えていた。（高須注：M5baraやM5Goなどの製品を指すとみられる）
 
-![レゴブロック互換の穴を備えたM5GOシリーズ](https://cdn-images-1.medium.com/max/800/1*XY4QfoamxfE4M5p_f8YPLQ.jpeg){.graf-image}
+![レゴブロック互換の穴を備えたM5GOシリーズ](https://cdn-images-1.medium.com/max/800/1*XY4QfoamxfE4M5p_f8YPLQ.jpeg)
 
 今もSTEM教育は重要なマーケットだと考えているけど、戦略は当時と変わった。僕らの強みは教育用プロダクトだけじゃなくて、Maker向けやIoT向けのツールを作っていることだ。教育用プロダクトばかりを作っていると、どうしてもカリキュラムや教科書を作るのが中心になり、コンテンツは強くなるがプロダクトは弱くなる。
 
 CODEMAO（編程猫）という教育プログラムの会社が中国ではすごく強い。彼らのプロダクトはオープンソースのものをそのまま使っているだけなんだけど、ちゃんと教室やカリキュラムにしているのが歓迎されている。教育市場ならそれが正しいのだろうけど、M5Stackがそういう会社になろうとは思っていない。
 
-![中国で人気のプログラミング教育スクール、CODEMAOのカリキュラム](https://cdn-images-1.medium.com/max/800/1*8uZwf1yj05iotV_5NZ6pMA.jpeg){.graf-image}
+![中国で人気のプログラミング教育スクール、CODEMAOのカリキュラム](https://cdn-images-1.medium.com/max/800/1*8uZwf1yj05iotV_5NZ6pMA.jpeg)
 
 M5Stackはプロダクトの会社だ。他の人がカリキュラムを作ってくれるのはサポートするし、STEMに役立つ良いツールを作ろうとは思っているけど、カリキュラムの会社になるのはDNAが違う。なので、そこに向けて起業リソースを振り分けようとは、今は思っていない。
 
@@ -95,7 +98,7 @@ M5Stackはプロダクトの会社だ。他の人がカリキュラムを作っ�
 深圳Elephant
 RoboticsはロボットアームmyCobotのコントローラーとしてM5Stackを採用している。
 
-![obnizは公式デバイスとして、ライセンス付のM5StickCを販売している](https://cdn-images-1.medium.com/max/800/1*Y9jF1ju4Qwf-2dhM5-_-qQ.jpeg){.graf-image}
+![obnizは公式デバイスとして、ライセンス付のM5StickCを販売している](https://cdn-images-1.medium.com/max/800/1*Y9jF1ju4Qwf-2dhM5-_-qQ.jpeg)
 
 ### ラインアップ：もう少し製品ラインを整理するよ！予定している新製品がたくさんあるんだけど（笑） {#6d3d .graf .graf--h3 .graf-after--figure name="6d3d"}
 
@@ -119,7 +122,7 @@ RoboticsはロボットアームmyCobotのコントローラーとしてM5Stack�
 
 そのへんの話では僕はいくらでも改善案が湧いてくるけど、それを全部生産に載せると大変なことになってしまう。副社長のソフィアを交えて会社全体で考えている」
 
-![新製品候補の防水プロトタイプを説明するジミー。彼の周りにはいつも、いくつかの試作品がある。](https://cdn-images-1.medium.com/max/800/1*5AAnZS8UwyO84al5GKAhxw.jpeg){.graf-image}
+![新製品候補の防水プロトタイプを説明するジミー。彼の周りにはいつも、いくつかの試作品がある。](https://cdn-images-1.medium.com/max/800/1*5AAnZS8UwyO84al5GKAhxw.jpeg)
 
 ### 2021年の新製品：新しい製品シリーズ、ハイパワーでコンピューターとして使えるM5も考えている。今年も2倍成長を狙う {#a53c .graf .graf--h3 .graf-after--figure name="a53c"}
 
@@ -147,7 +150,7 @@ M5Stackの新オフィスで、CEOのジミー・ライは初めて「社長室�
 
 しかし、お茶セットさえない引っ越したばかりの社長室で、何よりも目を引いたのは「CEO専用の作業机と部品ボックス」だ。作業机だけでなく、CEOのテーブルも机の上は開発中の製品で一杯だった。カメラを向けると慌てて片付け始めたジミーは「散らかっていて、みっともないから撮られたくないだけで、このプロトタイプは秘密でもなんでもないよ。実際売るときは、間違いなく、このままじゃないから、誰に見られても構わない」と笑った。
 
-![社長室のジミー。彼の前にはいつも開発中の製品が転がっている。](https://cdn-images-1.medium.com/max/800/1*WvEYxz17WR41ptJY78Y5yg.jpeg){.graf-image}
+![社長室のジミー。彼の前にはいつも開発中の製品が転がっている。](https://cdn-images-1.medium.com/max/800/1*WvEYxz17WR41ptJY78Y5yg.jpeg)
 
 年々売上が倍増中、急成長するスタートアップであるM5Stack。社員数の増加はさらにハイペースで、今回のオフィス移転の一つの理由が「きれいなオフィスで、さらなる採用と、資金調達を狙っている。英語ができてオープンソースハードウェアがわかるマーケティングの人間、誰かいない？
 オープンソースとマーケティング両方分かる人、なかなかいないんだよね......」とこぼす彼は、会社の成長の証を「僕よりもうまい設計ができる人が見つかった」と語る筋金入りのMakerでもある。

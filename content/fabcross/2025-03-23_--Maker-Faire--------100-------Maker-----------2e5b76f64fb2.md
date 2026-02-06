@@ -1,5 +1,8 @@
 ---
 title: "  Maker Faire        100       Maker          "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*9rIlmY2mATuT93fdyNnPzw.jpeg"
+  relative: false
 aliases: ["/2025/03/maker-faire-100-maker/"]
 slug: maker-faire-100-maker
 date: 2025-03-23
@@ -17,7 +20,7 @@ date: 2025-03-23
 
 2017/11/06 11:45
 
-![](https://cdn-images-1.medium.com/max/800/1*9rIlmY2mATuT93fdyNnPzw.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*9rIlmY2mATuT93fdyNnPzw.jpeg)
 
 11月に相次いで行われるMaker Faire Taipei（2017年11月3～5日）、Maker
 Faire
@@ -73,7 +76,7 @@ Taipeiに参加していて運営チームとも面識があったので、呼�
 2015年の初めての出展は6組7人。一覧は今も[**ニコニコ技術部の呼びかけサイト**](http://wiki.nicotech.jp/nico_tech/?NT%E5%8F%B0%E5%8C%97){.markup--anchor
 .markup--p-anchor}で見ることができる。
 
-![2016年、ニコニコ技術部の共同出展ブース](https://cdn-images-1.medium.com/max/800/1*NplDNrCIxii5H5KVGV8u2Q.jpeg){.graf-image}
+![2016年、ニコニコ技術部の共同出展ブース](https://cdn-images-1.medium.com/max/800/1*NplDNrCIxii5H5KVGV8u2Q.jpeg)
 
 参加者は台北のMaker
 Faireも街そのものやカルチャーもたいへんに楽しみ、その時出会った外国人達と日本のMakerイベントで再会するなど、台湾との関わりを深めた。
@@ -84,7 +87,7 @@ Tokyoに出展するよりも手軽で費用も安くすんだことも大きく
 .markup--p-anchor}や、もちろんMaker Faire
 Tokyoなどで再会するなど、交流を続けていることで活動に勢いがついている。ミートアップ的な効用といえるかもしれない。
 
-![2016年のニコニコ技術部共同出展の様子。もちろんほかに出展した日本からの参加者も多く、合計20人は越えていた](https://cdn-images-1.medium.com/max/800/1*9rIlmY2mATuT93fdyNnPzw.jpeg){.graf-image}
+![2016年のニコニコ技術部共同出展の様子。もちろんほかに出展した日本からの参加者も多く、合計20人は越えていた](https://cdn-images-1.medium.com/max/800/1*9rIlmY2mATuT93fdyNnPzw.jpeg)
 
 今年は僕のほうで21人の共同出展ブース申請をすませた後も申し込みが相次ぎ、海外への出展経験が豊富な[**ペパボMake部**](https://medium.com/pbmake){.markup--anchor
 .markup--p-anchor}の[**一瀬さん**](https://twitter.com/tichise){.markup--anchor
@@ -128,7 +131,7 @@ Faire
 Shenzhenに参加したときは、日本からの来訪者は招待含めてせいぜい20～30人程度だったように思え、隔世の感がある。
 
 ![Maker Faire Shenzhen
-2016。今年は日本からの参加者が100人を超えるかも](https://cdn-images-1.medium.com/max/800/1*JtuQShy2X67wIVv7oPpsgQ.jpeg){.graf-image}
+2016。今年は日本からの参加者が100人を超えるかも](https://cdn-images-1.medium.com/max/800/1*JtuQShy2X67wIVv7oPpsgQ.jpeg)
 
 出展してみると、Maker
 Faireとして、趣味を同じくするものが集まる心地よさと、とはいえ見慣れない外国人達に取り囲まれる驚きの両方がある。出展なりプレゼンなり、こちらから何かを見せる方がより楽しめると僕は思うが、Maker

@@ -1,5 +1,8 @@
 ---
 title: "               MIT       Research at Scale"
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*lplDvpPRJHAfhkWenF7LNw.jpeg"
+  relative: false
 aliases: ["/2025/03/mit-research-at-scale/"]
 slug: mit-research-at-scale
 date: 2025-03-24
@@ -21,7 +24,7 @@ date: 2025-03-24
 at
 Scale」としての深セン／東莞合宿を2013年から主導している。スタートアップに向けたアドバイス、工場と研究者がコラボすることの可能性など、さまざまな知見を得られるプロジェクトだ。今回はプロジェクトが生まれた経緯と全体像について紹介する。
 
-![印刷工場内で製造プロセスについて説明する「ハードウェアハッカー」著者バニー。](https://cdn-images-1.medium.com/max/800/1*lplDvpPRJHAfhkWenF7LNw.jpeg){.graf-image}
+![印刷工場内で製造プロセスについて説明する「ハードウェアハッカー」著者バニー。](https://cdn-images-1.medium.com/max/800/1*lplDvpPRJHAfhkWenF7LNw.jpeg)
 
 ### 「Deploy」社会実装をスローガンにしたラボ {#5819 .graf .graf--h3 .graf-after--figure name="5819"}
 
@@ -45,11 +48,11 @@ MITメディアラボからはビジュアルプログラミング言語の[**Sc
 ChibitronicsはこのResearch at
 Scaleから生まれたスタートアップ企業だ。MITメディアラボの研究者でアーティストでもあるジー・チーは、2012年にバニーと共に深センのプロジェクトに参加した。彼女の修士論文は紙と銅線を使ったフレキシブルな回路によるアート作品だった。
 
-![ジーの修士論文である、紙と電子回路を組み合わせたアート作品。（出典：『ハードウェアハッカー』）](https://cdn-images-1.medium.com/max/800/1*UH_yLBy8EY2GfCtlNvZuQA.jpeg){.graf-image}
+![ジーの修士論文である、紙と電子回路を組み合わせたアート作品。（出典：『ハードウェアハッカー』）](https://cdn-images-1.medium.com/max/800/1*UH_yLBy8EY2GfCtlNvZuQA.jpeg)
 
 このプロジェクトは深センで回路を実際に作る工場を調査しているうちに、フレキシブル回路と基板を組み合わせて、シールのように貼り付けられる教育用ツールに進化し、さらにはDeployの旗印のもと、教育ツールをクラウドファンディングすることに進化した。「教育ツールを開発し、クラウドファンディングで多くの人々に届けること」の全体がジーの博士論文となった。
 
-![2013年に始まった回路基板ステッカーのクラウドファンディング。その後Chibitornicsというスタートアップとなる](https://cdn-images-1.medium.com/max/800/1*QyVm20NXLkC36EUw1a1Jsg.jpeg){.graf-image}
+![2013年に始まった回路基板ステッカーのクラウドファンディング。その後Chibitornicsというスタートアップとなる](https://cdn-images-1.medium.com/max/800/1*QyVm20NXLkC36EUw1a1Jsg.jpeg)
 
 ジー自身が冒頭の動画で説明しているChibitronicsは、2013年に行われた最初期のResearch
 at

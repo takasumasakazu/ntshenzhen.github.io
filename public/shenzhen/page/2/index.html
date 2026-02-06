@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Shenzhen | ニコ技深セン / Nico-Tech Shenzhen website</title>
+<meta name="keywords" content="">
+<meta name="description" content="Shenzhen ecosystem, community notes, field logs.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/shenzhen/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/shenzhen/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body class="list" id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="ニコ技深セン / Nico-Tech Shenzhen website (Alt + H)">ニコ技深セン / Nico-Tech Shenzhen website</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/teardown/" title="Teardown">
+                    <span>Teardown</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/shenzhen/" title="Shenzhen">
+                    <span class="active">Shenzhen</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/fabcross/" title="Fabcross">
+                    <span>Fabcross</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archive/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header">
+  <h1>
+    Shenzhen
+  </h1>
+</header>
+<div class="post-content"><p>Shenzhen ecosystem, community notes, field logs.</p>
+
+
+</div>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/1*b15Cyl6MdPjYiGaJ6qTMpQ.jpeg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">5 23    19 00                 BRIDGE TERMINAL   
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>5/23(木) 19:00- 深セン人工知能企業懇親会 ＆ BRIDGE TERMINAL見学会 ニコ技深圳も運営をサポートしている、深圳企業日本着のイベントが、もう一つ開かれます。
+5/23(木) 19:00- 深セン人工知能企業懇親会 ＆ BRIDGE TERMINAL見学会 ニコ技深圳も運営をサポートしている、深圳企業日本着のイベントが、もう一つ開かれます。
+大崎の、SONY BRIDGE TERMINALで行われるもので、Google Form{.markup–anchor .markup–p-anchor}で申し込みを受付けています。
+イベント概要 本イベントはリアル会場で行われます！併せて講演部分はライブ配信を予定してますので双方奮ってご参加ください。
+今や深圳は「中国起業の都市」や「世界のハードウェアシリコンバレー」と言われ、HUAWEIやTENCENT、BYD、DJIなど有名な会社が誕生し、人工知能に関しても幅広い産業チェーンを備え、関連企業数も2022年末時点で1588社と中国二位です。
+このたび中国国際貿易促進委員会深セン市委員会、深セン市人工知能産業協会及び国際アクセラレーターであるiMakerbaseのご厚意により複数の企業関係者がソニーシティー大崎 の BRIDGE TERMINALに来訪頂き、お互いの活動紹介や見学と交流の時間を頂ける事になり、参加希望者を募集させて頂きます。
+記
+日時：2024年5月23日19:00–20:40
+場所：リアル…ソニーシティー大崎 BRIDGE TERMINAL,
+オンライン、後日参加登録者に情報共有
+会費：リアル…1000円(飲食費として),
+オンライン…無料
+予定プログラム：
+19:00–19:05 開会挨拶：BRIDGE TERMINAL
+19:05–19:20 深圳グループ紹介＆開会挨拶：
+深圳市貿易促進委員会
+深圳市人工智能産業協会
+iMakerbaseハードウェアアクセラレーター
+19:20–20:00 深セン会社発表（7社）
+奥比中光科技集团股份有限公司（Orbbec Technology）
+深圳市大象机器人科技有限公司（Elephant Robotics）
+深圳市普渡科技有限公司（Pudu Robotics）
+深圳市震有智联科技有限公司（RONTEX TECHNOLOGY）
+深圳市海谱纳米光学科技有限公司（Hypernano Optical）
+深圳市鸿普森科技股份有限公司（Hopesen AI）
+深圳市北海智行通信有限公司（NS Display）
+20:00–20:40 フリートーク１＆BRIDGE TERMINAL見学会
+20:40–21:40 フリートーク２
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-05-07 00:00:00 +0000 UTC'>May 7, 2024</span></footer>
+  <a class="entry-link" aria-label="post link to 5 23    19 00                 BRIDGE TERMINAL   " href="http://localhost:1313/shenzhen/2024/05/5-23-19-00-bridge-terminal/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/1*zQ8qGCwQEoXloGjBztRg4g.jpeg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">                      2024 1 2 
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>報告：ニコ技深圳华强北オフィス、再度移転中 2024年1–2月 2015年のオープンから、ニコ技深圳オフィスは何度か移転を繰り返してきましたが、2021年から借りている中电迪富大厦内にある、CECが管理するメイカースペースが、今日1/18から一ヶ月後の2/18を持ってクローズという連絡が入りました。 ↓ここです。
+報告：ニコ技深圳华强北オフィス、2024年3月に移転完了 移転完了しました。移転後のオフィスはこちら。
+ニコ技深圳コミュニティ 華強北オフィス (Nico-Tech Shenzhen HuaQiangBei Office)
+深セン電気街に位置するオフィスmedium.com{.markup–anchor .markup–mixtapeEmbed-anchor}{.js-mixtapeImage .mixtapeImage .u-ignoreBlock}
+2015年のオープンから、ニコ技深圳オフィスは何度か移転を繰り返してきましたが、2021年から借りている中电迪富大厦内にある、CECが管理するメイカースペースが、今日1/18から一ヶ月後の2/18を持ってクローズという連絡が入りました。 ↓ここです。
+契約主は僕（高須）なのですが、自分は3月上旬まで深圳に戻らないので、おそらく2024年3–4月に場所を华强北近辺でもう一度探して、移転・再オープンになると思います。 （置いてある荷物の保持などは別途対応中・そこそこ高い部品などもあるけど、契約書などは置いてないので、最悪破棄されてもそこまでクリティカルではない。コミュニティメンバーが置いている荷物もあるが、それらのほとんどはコロナ前2019年から置きっぱなしなので、最悪破棄しても問題ないはず）
+2019–20年のコロナ間誰もいけない状態があり、
+その後2020年末のSEGスペースのクローズに伴う移転（向かいの华强メイカースペースへ。そこもすぐ再移転することになった）
+2021年の华强メイカースペースのクローズに伴う移転（今のCECメイカースペースへ）
+につづいて、３回目の移転になります。
+深圳らしく変化の激しいスペースですが、今後ともよろしくおねがいします。
+前回移転時のツイート↓
+By TAKASU Masakazu/高須正和{.p-author .h-card} on January 18, 2024.
+Canonical link{.p-canonical}
+Exported from Medium on February 6, 2026.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-01-18 00:00:00 +0000 UTC'>January 18, 2024</span></footer>
+  <a class="entry-link" aria-label="post link to                       2024 1 2 " href="http://localhost:1313/shenzhen/2024/01/2024-1-2/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/1*9dRDzH6HPYyUuoR2_oeICw.jpeg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">ChatGPT                        
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>ChatGPTを使ってシンプルな英文をリッチに（仰々しく）する 僕はかろうじて英語で仕事をしているけど、議事録やプレゼンPPTなどのシンプルな英語ばかりで、リッチな文章はおぼつかない。読めばわかる表現は多くても自分で使えない。なので、英語で何かを書くととても短くなる。…
+ChatGPTを使ってシンプルな英文をリッチに（仰々しく）する 僕はかろうじて英語で仕事をしているけど、議事録やプレゼンPPTなどのシンプルな英語ばかりで、リッチな文章はおぼつかない。読めばわかる表現は多くても自分で使えない。なので、英語で何かを書くととても短くなる。
+議事録などはソレで構わないのだけど、ブログや「ストーリーを送ってくれ」と言われると困る。
+英作文では雑に書いたらHappyとかGoodみたいなことしか出てこない表現を、何種類もの表現で置き換える（パラフレーズ）することを求められる。内容が勝手に変わっていると困るが、そういう表現をいくつも思いつくのは面倒なので、ChatGPTに文案つくってもらって書き直すのはよい手段だと思う。
+今回はMaker Faire Shenzhenの運営から「あなたとメイカーフェア深圳のかかわりストーリー、Makerが自分のキャリアに与えたもの、今年のメイカーフェアに期待するもの」などを求められた。
+飛行機の中とかで、雑に書いた英文はこんな感じだ。
+自分で書いたもの(英文とdeepLの和訳） I’m Takasu, Japanese maker, Open hardware guy. I joind more then 140 maker event at past ten years, I’m the most experienced person of these activity. And I moved in Shenzhen from 2018, I`m Shenzhenees now.
+I`m Co-founder of Nico-Tech Shenzhen community with Gerald Fu. We are Shenzhen tech enthusiast from Japan and other country, more then three thouthand in Facebook.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-06-25 00:00:00 +0000 UTC'>June 25, 2023</span></footer>
+  <a class="entry-link" aria-label="post link to ChatGPT                        " href="http://localhost:1313/shenzhen/2023/06/chatgpt/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">                 2023 01 
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>ニコ技深センコミュニティ月次報告 2023年01月 4-9月にサバティカル研修で深センに滞在したときに見たこと、経験したこと、考えたこと、について、2022/12/18にオンラインで報告会を行ないました。その録画と資料をおいておきます。（秋田＠金沢大）
+ニコ技深センコミュニティ月次報告 2023年01月 4-9月にサバティカル研修で深センに滞在したときに見たこと、経験したこと、考えたこと、について、2022/12/18にオンラインで報告会を行ないました。その録画と資料をおいておきます。（秋田＠金沢大）
+https://github.com/akita11/SZdiary
+■高口康太
+危うし習近平 中国の若者たちが〝白紙革命〟に目覚めた理由 Wedge ONLINE(ウェッジ・オンライン)
+https://wedge.ismedia.jp/articles/-/28710
+中国ゼロコロナ政策に抗議の「白紙革命」 政権批判、プロパガンダ成功が招いた皮肉：朝日新聞GLOBE＋
+https://globe.asahi.com/article/14784473
+【フル動画】高口康太×安田峰俊「白紙革命と習政権のゆくえ」 | 文藝春秋 電子版
+https://bunshun.jp/bungeishunju/articles/h5117
+中国人が｢パブロンゴールド｣を買い占める…中国のコロナ政策の転換で､日本の風邪薬が売り切れるナゾ ｢業者が億単位で買い占めている｣とのウワサも | PRESIDENT Online（プレジデントオンライン）
+https://president.jp/articles/-/64419
+ゼロコロナ政策への抗議デモ「白紙革命」は&#34;習近平独裁&#34;崩壊への一歩となるか？
+政治・国際 - ニュース｜週プレNEWS https://wpb.shueisha.co.jp/news/politics/2022/12/13/117985/
+危機脱した？ 中国不動産の現状とチャイナマネーの行く先 ｜楽待不動産投資新聞
+https://www.rakumachi.jp/news/column/302059
+なぜ？どうなる？中国のコロナ感染爆発
+https://newspicks.com/topics/china/posts/33
+60秒で学べるNews 12月21日放送回 「爆買い中国人が復活!?」
+https://www.tv-tokyo.co.jp/60sec_news/backnumber/20221221/
+不觉间成为多国籍社会的日本 | 外国人带来的&#34;新思路&#34;值得期待 日本国驻华大使馆
+https://m.weibo.cn/status/4848799325624356
+だから習近平への批判が収まらない…ゼロコロナを転換した中国が｢社会崩壊｣に突き進んでいる 中国在住の日本人研究者の告発 | PRESIDENT Online（プレジデントオンライン）
+https://president.jp/articles/-/64706
+2億4800万人コロナ感染？それでも中国人が〝ゆるい〟わけ Wedge ONLINE(ウェッジ・オンライン)
+https://wedge.ismedia.jp/articles/-/28946
+中国版インスタグラムRED（小紅書）に大異変 「企業価値急落」「上場延期」「政府の規制」 - WWDJAPAN
+https://www.wwdjapan.com/articles/1478758
+【小ネタ】アップルに140億円の追徴課税、次のターゲットは？
+https://newspicks.com/topics/china/posts/34
+■荒木大地 日本人のための深セン情報サイト(shenzhen-fan.com{.markup–anchor .markup–p-anchor}) 深セン ファン
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-01-04 00:00:00 +0000 UTC'>January 4, 2023</span></footer>
+  <a class="entry-link" aria-label="post link to                  2023 01 " href="http://localhost:1313/shenzhen/2023/01/2023-01/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/0*DoKPLC25Lnyh_LnM" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">         Plus                                                          
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>中国メディア「南方Plus」に高須のインタビュー掲載、#プロトタイプシティ 深圳のメイカー文化や日本との交流、食べ物などについて話す：日本語訳 華強北の中电迪富大厦ビルから地下鉄1号線の科学館駅に向かう途中、果物屋台、ケバブ屋台、ビストロ、ラーメン屋、マッサージ屋、漢方薬局、鶏鍋屋などが目に飛び込んでくる。 福田の城中村（訳注：発展の中に取り残された昔ながらの村）にある高須正和の自宅は、生活の煙に満ちた場所である。
+中国メディア「南方Plus」に高須のインタビュー掲載、#プロトタイプシティ 深圳のメイカー文化や日本との交流、食べ物などについて話す：日本語訳 外眼看福田｜高交会上的&#34;卡哇伊先生&#34;：爱创客、爱美食，更爱&#34;烟火气&#34;__南方plus_南方&#43;
+*从华强北中电迪富大厦到1号线科学馆地铁站的路上，水果摊、烤串摊、小酒馆、小面馆、按摩店、中医馆、鸡煲店等陆续映入眼帘，再往前走，便是日本创客&#34;卡哇伊先生&#34;--高须正和（Takasu…*static.nfapp.southcn.com{.markup–anchor .markup–mixtapeEmbed-anchor}{.js-mixtapeImage .mixtapeImage .u-ignoreBlock}
+華強北の中电迪富大厦ビルから地下鉄1号線の科学館駅に向かう途中、果物屋台、ケバブ屋台、ビストロ、ラーメン屋、マッサージ屋、漢方薬局、鶏鍋屋などが目に飛び込んでくる。 福田の城中村（訳注：発展の中に取り残された昔ながらの村）にある高須正和の自宅は、生活の煙に満ちた場所である。
+“ここには文化があり、家賃も割安で、気に入っています。深圳みたいな他にない高速発展した街の中で城中村があるのは珍しい。” 高須は、町の中心部に近い路地を歩きながら、記者にさまざまな種類の小さな店を指さした。
+さらに、彼が毎日働いている中电迪富大厦ビルからわずか10分、彼の個人会社が登記されている香港からも海を渡ってすぐのところにあるという利点もあります。
+深センに長く住む外国人メイカーとして、深センのメイカー文化を広める外国人、ストリートフードを愛する「深セン人」、華強北の発展を体験し記録する研究者など、複数の「レッテル」を持っている。 先日の国際メイカー交流会では、その活発で楽しいプレゼンスタイルから、会場から「Mr Kawaii」と呼ばれたそうです。
+プロフィール 高須正和氏は、埼玉県出身で、世界的なメイカー・アクティビスト、早稲田大学客員研究員、日本のオープンソース・ハードウェアのリーディングカンパニーであるスイッチサイエンス国際事業開発、日本のメイカー向けコミュニティであるNT深圳(ニコ技深圳）の共同設立者、中国オープンソースアライアンス开源社の唯一の外国人メンバーです。 2018年、深圳に住み始め、現在は華強北の中国電信スマートバレー工業園（中电智谷产业园）で国際メイカーとして活躍中。 2020年に出版された深センのイノベーション生態を日本に紹介する日本語書籍「プロトタイプシティ」の共著者でもある。
+“深セン人 “に惹かれる 華強北はハードウェア・イノベーションの “本拠地” 2014年、高須正和はMaker Faire Shenzhenのイベントで華強北を訪れ、街の賑わい、イノベーション、エネルギーが彼の第一印象を形成した。 深圳は「イノベーションの故郷」であり、「中国で最もオープンな都市」であると彼は考えている。 外国人であっても、「ここに来れば深圳人だ」という言葉に魅力を感じたという。
+2018年、スイッチサイエンス入社後、シンガポールから深圳に移り、国際事業開発を担当。 深圳との関わりは8年目になる。 この間、多くの外国人メイカーが誕生しては消えていったが、高須正和は最も長く活躍している外国人の一人である。
+「この8年間で、さまざまな変化がありました。 かつての華強北は「1メートルショップ」が多く、非常に混雑していた。 今、華強北は逆に、美しい外観のショッピングスポットになっており、観光にも適しています。” 高須正和は8年間、華強北の発展と変化を目の当たりにし、同時に華強北のハードウェア企業や開発者の発展を、カメラと日本語で記録してきた。
+早稲田大学の研究者である高須正和は、メイカーの文化に強い関心を持っています。 余暇には、ハードウェアやメイカーに関する本を6冊執筆・出版しており、そのうち5冊は深圳や華強北にゆかりのあるものである。 深センのイノベーションエコシステムの研究に関して言えば、彼はその頂点に立つ存在である。
+高須正和の考えでは、深センのイノベーションエコロジーは多くの国とは違うし、華強北のエレクトロニクス市場も世界の他の場所とは違うのだという。 例えば、ハードウェアの輸出入はするが生産はしないシンガポールやマレーシア、研究機関中心の日本に比べ、華強北のエレクトロニクス市場は「ずっと面白い」という。
+“華強北はハードウェア革新の「本拠地」であり、その充実したサプライチェーンは他の市場とは異なる最大の特徴である。” 高須正和によれば、華強北では、大企業が独自のハードウェアサプライチェーンを持ち、新興企業も独自のハードウェアサプライチェーンを持つ。
+華強北から歩いていると、さまざまなハードウェアが集まってきて、新しいアイデアが生まれることがよくあります。 深圳のボスは開発ボードにも造詣が深く、工場と直結しており、「自分仕様」のものを考え出すと必ず顧客のニーズに応えられるので、イノベーションが起こりやすいのです。
+深センのメイカー文化の “熱狂者 “たち。深センに外国人を呼び込むための一冊 “華強北には非常に優秀なハードウェア開発者がいることがわかりましたが、FoxconnやAppleのように有名ではないので、この場所を知ってもらうために本を出したいと思いました。” 2016年2月には『メイカーズのエコシステム』2020年7月には、深センのイノベーション文化に関する日本語の書籍『プロトタイプシティ』（外国人著者5名との共著）が出版された。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-11-17 00:00:00 +0000 UTC'>November 17, 2022</span></footer>
+  <a class="entry-link" aria-label="post link to          Plus                                                          " href="http://localhost:1313/shenzhen/2022/11/plus/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/1*UA_im1uNGUG-3pFQsihIow.png" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">                                                                                          
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>「同じ舞台と異なる感動 深圳で出会った素敵な人たち（同样的舞台，不一样的精彩。～遇到&#34;深圳&#34;的可爱的人们～）」受講生杜雅楠さんコラム深圳の産業集積とハードウェアのマスイノベーション 早稲田ビジネススクールにはSTE Relay…
+「同じ舞台と異なる感動 深圳で出会った素敵な人たち（同样的舞台，不一样的精彩。～遇到&#34;深圳&#34;的可爱的人们～）」受講生杜雅楠さんコラム深圳の産業集積とハードウェアのマスイノベーション 早稲田ビジネススクールにはSTE Relay Columm{.markup–anchor .markup–p-anchor}という講師や受講者が書くコラムがあり、僕の講義も何度か題材になっている。自分の講義の感想を寄せてもらえるのは嬉しいし、それが講義の対象である中国の人からなら、なおさらだ。以前、深圳のスタートアップで働いていたAgatheに英語でコラムを書いてもらった。
+「深圳の産業集積とハードウェアのマスイノベーション`イノベーションの力`」Cai Wenya(Agatha)日本語訳
+*2020年2月に行った早稲田ビジネススクールでの講義で、深圳から日本に留学しているAgathaが感想コラムを書いてくれました。…*medium.com{.markup–anchor .markup–mixtapeEmbed-anchor}{.js-mixtapeImage .mixtapeImage .u-ignoreBlock}
+その後WBSでも留学生が更に増えた。僕は、STE Relay Columm{.markup–anchor .markup–p-anchor}に中国語のコラムがあったほうがいいし、そのほうがゲスト参加してくれた何人かの中国人講師が喜ぶと考えて、受講者の一人杜さんにおねがいして、中国語でコラムを寄稿してもらった。和訳をこちらに掲載する。
+（翻訳時にDeepL Proを使いました）
+同じ舞台と異なる感動 深圳で出会った素敵な人たち（同样的舞台，不一样的精彩。～遇到&#34;深圳&#34;的可爱的人们～） 「深圳の産業集積とハードウェアのマスイノベーション」何とも長い名前の講座です。 私がこの講座から得たものは、この名前と関係ないような気もします。 この冬季集中授業を通じて、歴史を学び、人物を読み、技術の発展を見つめることで、年月の早さを感じさせられました。
+私が「深圳」の講座を選んだ理由（我选择&#34;深圳&#34;的理由）
+私は少し、反逆的な気持ちでこの授業を選びました。 この反逆には、いろいろな意味が込められています。なぜ、中国人なのに、外国人を通して深圳を学ぶ必要があるのか？これはよく聞かれる質問ですが、私は彼らの認識にどれほどバイアスがかかっているかをチェックしてみたかったため、受講を決めました。逆にいうと、自分の今までの認識にどれほどバイアスがかかっていたかを理解し、客観的視野角度を得ることが受講の１つ目の目的でした。
+なぜ、自分自身と関係のない産業の授業を受講するのか？これはこの授業を選ぶ際に自分でもかなり躊躇していました。世界の技術革新の歴史を振り返ると、多くの場合は他業界からの参入及び置き換えによってイノベーションが生まれます。世界最先端の技術の触れることは受講の２つ目の目的です。
+なぜWBSの1年目で牧先生の全ての授業を履修しなければいけないのか？そもそも私がビジネススクールにきた理由は実務では学べない専門的かつ体系的に勉強したいからです。このWBSの中で最も体系的に組み込まれているプログラム（STE Entrepreneurial Ecosystem）があると聞き、その効果を確かめるのがこの授業を選んだ３つ目の理由でした。
+私にとって「深圳」とは（“深圳&#34;对我的意义）
+この授業は、社会、政策、技術、経済が急速に変化している深センを舞台に、さまざまな人がこの背景での深圳との繋がりを紹介しています。この観点からすると、深圳はこの授業の主人公ではなく、本当の主人公は話し手一人一人なのです。 しかし、それぞれの登壇者の人生にとっては、深圳は特別に重要な意味を持ちます。彼らの素晴らしい話を通じて、私はたった一週間で大きな洗礼を受け、より良い人生観を持つことができました。
+講義の中で、ステレオタイプな組織文化にイノベーションの文化を植え付けた井内さんからは、程よい妥協と強い信念を学びました。政府の公的イノベーション支援の観点から日本の製造業の課題と現状をまとめた大川さんからは現場に入ることの大切さを学びました。自らの興味からイノベーションの民主化の可能性を示した武村さんからは、大胆な挑戦と自己を知ることを学びました。小室さんの薄利多売な業界でのブランド構築について詳細な説明から、自身の強みを理解と機会の把握の重要性を学びました。秋田先生の半導体の技術開発の専門的でわかりやすい説明を通じて、イノベーションにおける基礎へのひたむきな姿勢を学びました。高解像度半導体の技術の変化を読み解く清水さんからは、使命と夢を感じました。わざわざ日本企業の課題を解決するために中国に行った藤岡さんからは現地文化との融合の重要性を学びました。自分にとって最も印象的だったのは曾(Zoey)さん、张(Hao Lin)さん，汪(Bonnie)さんのセッションでした。それは同じ中国人として、もしかして自分が彼らと似通った人生を起きる可能性が十分にあったからだと思います。
+曾さんの紹介する中国のVC/アクセラレータ「大公坊/iMakerBase」のプレゼンで、私が深圳に抱いているいくつかの疑問が解消されました。iMakerBaseは、イノベーションとデザイン、サプライチェーン、ブランドチャネル、国際投資などに焦点を当て、産学、研究、ビジネスを効果的に結びつけています。私は大学から日本に来ましたが、自分の中国での同級生は、大学卒業する時に起業を考える人が多くいました。しかし、私は常々、起業は簡単なことではないと思っていましたが、中国の政策やトレンドだけでなく、iMakerBaseのような組織が果たす強力な補完的役割が、社会の発展や産業構造、発展において、中国での起業を容易にしているのだと感じました。それにより、中国の起業環境とエコシステムはより強固で堅固なものとなっています。 会社を設立し、製品を生産し、販売することは、技術やインターネットが急速に発展した今日では非常に簡単なことかもしれませんが、起業後のビジネスの成功は簡単ではありません。 その中で、深圳のように人口が急増し、常にイノベーションが起きている時代にこそ、早期に失敗してたくさんの失敗を早く実践することが成功への近道となっているのかもしれません。
+张さんと汪さんの「善投資(Good Investment)」は、非常に新しいコンセプトで、一般の人にも受け入れられやすいものだと思います。PEやVCとは異なる明確なポジショニングも、成功の秘訣の一つかもしれません。一般的に先進国ではまず発展を求め、その後に問題が顕在化するので、既存の産業構造の中で解決策を模索する必要があり、結果としてESG、SDGsが一種の規制や負荷になるケースが多いです。しかし、中国のように発展と社会的責任を同時に考慮する必要がある環境では、良い投資は問題を未然に防ぎ、起業家を正しい事業計画や発展に導くことができます。また、张さんと汪さんは「市民の親しみやすさや社会秩序への欲求、好景気後の安定的な快適さ、ビジネスの規範と秩序、個人の追求の多様性についての理解は日本での留学経験をベースにしている」と紹介してくれました。
+最後に、カメラアングルだけでなく、没入感のあるプレゼン内容で、全講座の一つのハイライトとなった高須氏の深圳電気街華強北博物館のプレゼンについて触れておきたいです。博物館の展示紹介で、ある時は共産党の政策に拍手を送り、ある時は深圳の劇的な変化に衝撃を受けました。そのなかで最も印象に残ったのは、深圳とともに歩んできた人々が、その変化や感動を伝えるために館内に展示されていたことです。講義全体を振り返って思えば、高須氏はまさに私の人生にこんなユニークな人たちを連れてきてくれたのではないでしょうか。みんな違うようでいながらも、同じように世の中の急激な変化の流れをつかみ、その瞬間を思いのままに生きています。
+このコースを勧めたい人(希望可以把这门课推荐给这样的你)
+もしあなたが最先端の知識に触れたいなら、ものづくりに興味があるなら、現状を変えたいなら、チャレンジしてみたいなら、キャリアや人生設計に迷っているなら、視野や世界観を広げたいなら、ぜひ高須氏の集中講座にご参加ください。
+あなたが深圳を選ぶなら（你选择&#34;深圳&#34;的理由）
+あなたにこの授業を薦める理由は単純です。それは「あなたが探している答えはこの授業にあるからです。」深圳は、誰かで代表できるはずがありません。しかし、誰でも深圳を代表する権利があります。一見似ているが異なる人々が、異なる場所、異なる人生のステージ、異なる理由で深圳にやってきたという事実が、今日の深圳の発展と栄光を築き上げました。この異なる人が深圳のequity，diversity，inclusion &amp; belongingを代表しています。これも、この授業で学んだこと、感じたことです。それも、牧先生の全ての授業で提唱し、追求しているHonor Codeでもあります。そして、これもビジネススクールで経営を学ぶ前に、個人として持っておくべきものでもあると思います。
+皆さんにも、ここで高須さんと一緒に、さまざまな人生を体験し、いろいろな話を聞き、彩りの未来を創っていっていただきたいです。
+授業全体の紹介はこちら 2021年の授業のうち、いくつかの講義は資料や録画を一般公開しています。授業の紹介はこちら。
+2022年2月早稲田ビジネススクール集中講義「深圳の産業集積とハードウェアのマスイノベーション」録画,資料の公開 この授業から何を学んでほしいか
+深圳からオンライン配信 今年で4回目の集中講義medium.com{.markup–anchor .markup–mixtapeEmbed-anchor}{.js-mixtapeImage .mixtapeImage .u-ignoreBlock}
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-03-28 00:00:00 +0000 UTC'>March 28, 2022</span></footer>
+  <a class="entry-link" aria-label="post link to                                                                                           " href="http://localhost:1313/shenzhen/2022/03/post/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/1*RuhICHJmpaguYqpFaYP8lw.png" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">                                                                         
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>録画 #中国オープンソース ムーブメント：その現状と可能性 山形浩生/八田真行/伊藤亜聖/牧兼充/梶谷懐/高須正和 主催：神戸大学現代中国研究拠点 イベント録画公開します Bilibiliもあるよ
+録画 #中国オープンソース ムーブメント：その現状と可能性 山形浩生/八田真行/伊藤亜聖/牧兼充/梶谷懐/高須正和 主催：神戸大学現代中国研究拠点 イベント録画公開します Bilibiliもあるよ 中国で見てる人はBilibili動画{.markup–anchor .markup–p-anchor}にも上げてるよ
+当日のスライド イベント詳細 中国のオープンソースムーブメント：その現状と可能性
+2，3年、中国におけるオープンソースムーブメントが活発化しています。もともと、中国では、知的財産権の重要性が社会や企業で十分に理解されていないまま、既存の製品やアイディアなどのコピーを繰り返すことで事実上「共有」し、新製品の開発にかかるコストを大幅に節約する、という状況が広く見られました。ハードウェアハッカーのバニー・ファンはこの自然発生した知識共有を、「公开GongKai」と呼んでいます。
+しかし、近年では、多くの中国企業が、知的財産権の重要性をきちんと理解したうえで、企業戦略としてオープンソースに注力するようになっています。また、政府もオープンソースのライセンスの法的整備を進めたり、オープンソースムーブメントに関する公的な財団を設立したりして、中国発のOSSライセンスが世界標準となることを支援する姿勢を明確にしています。その結果、中国では特に、オープンソース文化に憧れる若者が急速に増えており、GitHubの利用をみても、中国からの利用者は米国に次ぐ規模となっています。
+また、米中間の貿易摩擦が激化して以降、中国では政府による輸出規制に左右されないオープンソース開発に注目が集まっているという背景もあります。オープンソースムーブメントは国家間の政治的対立を相対化しつつ、グローバルなイノベーションを促進する可能性を持っているのです。
+残念ながらこういった動きは日本国内ではほとんど知られておらず、日本の企業や技術者がどのような形で関与できるのか、という議論も行われていないのが現状です。
+今回のイベントでは、オープンソースムーブメントおよび中国のイノベーションに精通した識者の方々にお声掛けして、いま中国とオープンソースムーブメントに何が起きているのか？日本に住む私たちにとってどんなインパクトがあるのか？といったことをじっくり議論したいと思っています。
+中国オープンソース翻訳リポジトリと、注目文書 中国开源年度报告2021 中国オープンソース年度報告 (2022年01月開源社){.markup–anchor .markup–p-anchor}
+2021年開源社年度報告 （2022年02月開源社）{.markup–anchor .markup–p-anchor}
+中国オープンソース発展ブルーブック 2021 中国开源发展蓝皮书 （2021年04月中国OSS推進連盟{.markup–anchor .markup–p-anchor}
+中国政府教育省/情報通信省発行 「ソフトウェア開発教育カレッジ設立ガイドライン」 教育部办公厅 工业和信息化部办公厅关于印发《特色化示范性软件学院建设指南（试行）》的通知 2020年6月05日{.markup–anchor .markup–p-anchor}
+翻訳文書リポジトリ全体GitHub - kaiyuanshe/CNOSSTranslationJP: Research about Chinese Open Source by Japanese/Chinese Tech…
+*Research about Chinese Open Source by Japanese / Chinese Tech Community. 3月11日に[…*github.com{.markup–anchor .markup–mixtapeEmbed-anchor}{.js-mixtapeImage .mixtapeImage .u-ignoreBlock}
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-03-16 00:00:00 +0000 UTC'>March 16, 2022</span></footer>
+  <a class="entry-link" aria-label="post link to                                                                          " href="http://localhost:1313/shenzhen/2022/03/post/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/0*XzTYR3KtrH9A1fDt" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">2021                                                           
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>2021,中国最大のオープンソースアライアンス开源社のコミュニテイパートナーとして「社区合作之星」を受賞 #中国オープンソース (English, Chinese, below)
+2021,中国最大のオープンソースアライアンス开源社のコミュニテイパートナーとして「社区合作之星」を受賞 #中国オープンソース (English, Chinese, below)
+ニコ技深センコミュニテイ（発起人 藤岡淳一/高須正和 所在地 深セン市）は、中国最大のオープンソースアライアンス开源社のコミュニテイパートナーとして社区合作之星をいただきました。 高須は开源社唯一の国際メンバーです。
+社区合作之星は、100人近いメンバー間の互選で選ばれるものです。
+高须正和是一位深入参与中国开源社区的国际友人，并成为了开源社首位也是目前唯一的一位外国正式成员。
+从参与年会开源硬件论坛分享开始，便一直积极参与到开源社的社区推广中，包括翻译开源社发布的中国开源年度报告的日文版。在各类国际开源活动中宣传开源社，
+为开源社对接多家开源硬件合作伙伴等等，并且积极学习中文，在开源社区群和开源年会分享中努力用中文和大家进行交流.
+可谓开源社的国际合作大使。
+-DeepLによる日本語 — — — — — — — — 高須正和氏は、中国のオープンソースコミュニティに深く関わる国際的な友人であり、开源社の最初の、そして現在でも唯一の外国人正会員となっています。 毎年開催される「オープンソース・ハードウェア・フォーラムCOSCON」に参加して以来、オープンソース協会が発行する「中国オープンソース年度報告」の日本語版を翻訳するなど、オープンソースコミュニティの普及に積極的に取り組んでいます。
+様々な国際的なオープンソースイベントで、开源社をアピール。 また、オープンソースのコミュニティグループや毎年開催されるオープンソースカンファレンスでは、積極的に中国語を学び、中国語でコミュニケーションをとっています。
+开源社の国際協力大使とも言えるでしょう。
+— —English — — — — — -
+TAKASU Masakazu is an international friend who is deeply involved in the Chinese open source community and has become the first and currently the only foreign full member of the China Open Source Alliance(KaiYuanShe).
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-02-01 00:00:00 +0000 UTC'>February 1, 2022</span></footer>
+  <a class="entry-link" aria-label="post link to 2021                                                           " href="http://localhost:1313/shenzhen/2022/02/2021/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/0*S858jhvaGZXgcJcG.jpg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">                              b24766a2307
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>試行錯誤した発展への路 （頭脳国家シンガポール 田村 慶子 結論だけ言うと、「シンガポール-ストーリー」の後に読むべき本。より多角的に見える。
+試行錯誤した発展への路 （頭脳国家シンガポール 田村 慶子 結論だけ言うと、「シンガポール-ストーリー」の後に読むべき本。より多角的に見える。
+「頭脳国家」シンガポール―超管理の彼方に (講談社現代新書){.markup–anchor .markup–p-anchor}
+posted with amazlet{.markup–anchor .markup–p-anchor} at 17.02.02
+田村 慶子
+講談社
+売り上げランキング: 181,662
+Amazon.co.jpで詳細を見る{.markup–anchor .markup–p-anchor}
+シンガポールの事では自分自身より信用してる今日もシンガポールまみれ{.markup–anchor .markup–p-anchor}のUniuniさんに、「シンガポールのことを書いた日本語の本でまともなやつありませんか？」と聞いたときに推薦されたのが田村慶子と岩崎育夫だった。
+とりあえず何冊か入手して積読していたが、手始めに読んでみたのがこの本。
+内容はド本気で、著者の本物ぶりは伺える。資料はほぼシンガポールの書籍、知人たちから聞いた話も、シンガポール国立大学の学友などの地元民。
+僕は「日本語で書かれたシンガポールのニュースは読むだけ無駄」と思うぐらいにマスコミのシンガポール情報をアテにしてないことは以下のエントリなどで書いた。
+世の中には3種類の嘘がある: 嘘、統計、そして「海外ではこう知られている」{.markup–anchor .markup–p-anchor}
+ソースを見ずに話すと時間を無駄にする{.markup–anchor .markup–p-anchor}
+この本は書き方や情報ソースだけでも信用できる。
+きちんとシンガポールに根を下ろしながら、それでいて本書の内容は一貫して人民行動党（Peaples Action Party, 以下PAP）が取った、強すぎる国民への指導政策に対する反証で満ちている。
+本書は1983–4年に渡って続いた「高学歴女性への補助と低学歴者への堕胎」政策が、当の高学歴女性を含めた国民の大多数の反対（初の与党退潮を招いた）で停止した話から始まり、
+儒教を国民倫理にする試み（国民がまったく選択せず、公民的な時間ではキリスト教や仏教を選択したことで失敗）と1982年にPAPが「シンガポールの春」と呼ばれた、新聞にPAPに批判的な投書も載せる企画（思ったよりキツい批判が来すぎて早期に中止）を紹介して終わる。
+割合としては失敗した施策の紹介が圧倒的に多く、この本のPAPはエリート主義に固執して失敗ばかりしているように見える。
+ところが、この本はそれに終始しない。シンガポールの持ち家率がもっと国土の広いアメリカ等と比べても遥かに高いことや、1980年代の後半でもアジアで日本に次ぐ豊かな国になりつつあること、多民族国家シンガポール人の間でも「シンガポール人としての国民意識」が育っていることについて、きちんとした統計やシンガポール人からのヒアリングをもとにちゃんと記載/評価している。
+1993年に書かれていて、長年に渡る調査が元なだけに1980年代の話が多くを占めるこの本に描かれている社会はさすがに古い。添付の地図でセントーサの表記がセントロサとなっていることに象徴される。
+1993年はリークアンユーが引退してまだすぐ、ゴーチョクトン体制でリーシェンロン氏がまだ閣僚の一人だった頃だ。当時のシンガポールは外国人エリートにはビザを大盤振る舞いしていて、広告まで出していた。今は160万人と労働人口の過半数を占める移民も、20万人に過ぎなかった。
+人口は当時が300万で今は330万なのでだいぶ違う。
+シンガポールがシンガポール人による労働集約型から、シンガポール人がマネージメントする時代への端境期に書かれた本だ
+それでもこの本に価値があるのは、批判的に多く紹介されている政策が、他ならぬ国民の意見によって変更され、国民は随所で政府に対して批判（ストライキや野党としての活動は制限されていても）を行い、PAPも柔軟に制作の変更や廃止、方向転換をしてきたことだ。
+前に書評した鄧小平も極めて結果にこだわる方向転換の多い政治家だった。
+深センのプロデュース：規制緩和するのは本当に大変だ（現代中国の父 トウ小平 エズラ・F・ヴォーゲル ）{.markup–anchor .markup–p-anchor}
+その意味でこの本は、官民両方のシンガポールの進化を示した本とも読める。
+為政者側の当事者リーの書いた「シンガポールストーリー」とセットで読むべきと書いたのはそういうこと。
+リー・クアンユー回顧録〈下〉―ザ・シンガポールストーリー{.markup–anchor .markup–p-anchor}
+posted with amazlet{.markup–anchor .markup–p-anchor} at 17.02.02
+リー クアンユー
+日本経済新聞社
+売り上げランキング: 510,380
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-09-09 00:00:00 +0000 UTC'>September 9, 2021</span></footer>
+  <a class="entry-link" aria-label="post link to                               b24766a2307" href="http://localhost:1313/shenzhen/2021/09/b24766a2307/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">                         HAX    2017 03 16  
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>深圳で起こっていること、メイカー、スタートアップ、HAXなど (2017年03月16日) ■この文書で言いたいこと
+深圳で起こっていること、メイカー、スタートアップ、HAXなど (2017年03月16日) ■この文書で言いたいこと
+最近HAXとかメイカーとか深圳とかの話を、東京メイカーフェアに来たことがない、メイカーフェアという単語をそもそも知らない（経済研究が専門とか）人に話すことが増えてきた。
+僕がその手の話で言いたいことは、これまで世間の常識となっていることとは別方向の新しい考え方で、ある程度の前提が共有できてないとそもそも話にならないような気がする。
+なので、お互いの手間を省くために、なるべくシンプルに記述してみた。とはいえ１時間程度で書いたので、粗いところはあるだろう。なので、このテキストは適宜アップデートされると思う。
+もちろん、書籍：メイカーズのエコシステム{.markup–anchor .markup–p-anchor}を読んでもらえるのがいちばん効率的に知見を得られるだろう。僕の話を３時間聞くより、２時間で本を読んで１時間僕と話す方が、価値のある時間の使い方ができるはずだ。
+■深圳（というよりも2012年以降の近代）でおきている「メイカームーブメント」
+-2000年より前「個人のアイデアを世界に届けること」に対する障害
+A.アイデアをキッチリと開発することがそもそも難しい（調査、レビュー、継続的な改善は、研究機関や大手メーカーといったプロだけが可能）
+B.世界に届けることが難しい(資金調達、marketing、宣伝）
+Aは企画・開発の問題、Bは製造や販売、資金調達の問題と言い換えられる。
+結果として、A.の問題により、個人の発明はたまに出る永久機関もどきとかEM菌みたいなものがほとんどだった。野球選手にたとえると、野球の強い高校の野球部に入らなければ、野球選手としての身体の使い方ができず、プロ野球選手になるのは難しい。発明も同じで、大きいメーカーや大学の研究室に入らないと、良書と悪書の区別もつかないし、ちゃんとしたレビューも受けられず、何より人類が培ってきた科学の積み重ねの恩恵が受けられない。
+あまり蓄積のいらない、アイデア商品（絶対的な性能で勝負がつくものでなく、「使いやすい」などの人によって評価の変わるもの）は個人でもヒットすることがたまにあるが、B.の問題で社会に出ず死蔵されるよいアイデアも多かった。
+-2000年頃~ インターネットによる情報共有の民主化、オープンソースによる知的財産の共有の民主化、クラウドコンピューティングによる大規模化の民主化
+ソフトウェアについてはA.Bともに問題がほぼ解決し、「大ソフトウェアメーカーや研究機関に入らなくても、自由に大規模ソフトウェアが作れる」ようになった。その結果シリコンバレーから多くのソフトウェアベンチャーが出てくるに至る。
+B.についてはGoogleのようなサイエンス畑出身のベンチャーが多く誕生する一方、FacebookやInstagramのような大学の研究分野とは特に関係ない、正解のない技術を提供するタイプのベンチャーも、「使えるものを提供し、ユーザの反応を見ながら大規模化し、資金調達する」ことができるようになった。
+-2012年頃~ ハードウェアについても民主化されつつある
+A.デジタル工作機械の普及やそうした知識を交換するコミュニティがでてきた。かつては専門家が社内で共有していたような知識をアクセスし、試せる
+B.クラウドファンディングやオンライン販売などで小ベンチャーが世界に届くプロジェクトを作ることができつつある。
+■なぜハードウェアをやるのか
+「民主化」といっても、「誰でもチャレンジできる」と「簡単にできる」と「必ずできる」は違う。
+ハードウェアは誰でもチャレンジできるようになりつつあるが、ソフトウェアと比べてA.B.ともに課題が多く、今のところリターンも少なく、どうやれば成功するかも見えてこない。数年後に「じつはハードウェアではGoogleみたいなベンチャーが生まれなかった」とわかることもありえる。
+が、ソフトウェアに比べるとその分ベンチャー投資側にとってライバルが少ない。確実性が少ないことは、投資側にとって先物買いができることにつながるので、悪い材料ばかりではない。
+HAXの親会社にあたるSOSVentureファンドは、バイオ・モバイル・フード・中国などの複数の産業分野のアクセラレータを配下に持ち、HAXはそのなかのハードウェア分野のアクセラレータである。
+■深圳とアメリカのベンチャー投資家HAX
+これまでの産業集積により小規模製造業が集まっている深圳は、Bを安く・早く進めるために世界で最も向いた場所である。なのでHAXはここにラボをつくり、応募したベンチャーに対して111日間のプロトタイピング合宿を行い、アイデアを製品（の手前、クラウドファンディングに出せたり、投資家からさらなる投資を募れる段階）まで持っていく手助けをする。
+サンフランシスコで企業間提携やマーケティングのプログラムを行うなど、HAX内でもいくつかあるプログラムの一つである。
+■DIYの可能性 （正解のある問題とない問題）
+最高速度を上げる、コストを下げる、バッテリーの効率を上げるなどの「数値化できる性能」は現在のサイエンスの分野である。DIYやホビー出身の発明家がこの分野でできることは少ない。（巨大企業から研究者がスピンアウトした方がいい製品が出せる、などの形はあるし、別分野の技術の転用はありえる。統計やコンピュータサイエンスの技術を別の分野に応用するなど）
+一方、「面白い」「好ましい」などの価値を提供するものは既存のサイエンスの外側にあることが多く、たとえばゲームやユーザーインターフェースなどは学問分野としてもあるが、「いい大学を出ればいいゲームが作れる」というほどにはなっていない。この分野のイノベーションは「本人達が好きで始めたことが大きくなる」可能性が高く、プロトタイプがユーザに支持されて洗練されるような進化の仕方が向いていて、むしろ合議制で承認ベースで進めて最後に具現化する大組織的でビジネス的なやり方（ダムやビルをつくるようなやりかた）はうまく行かないことが多い。
+この「つくりたいものをつくることが、多くのユーザを巻き込んだコミュニティに支持されることにより、イノベーションにつながる」一連の流れを指してメイカームーブメントと呼ばれる。
+■DIYの可能性 （プロトタイピング、コミュニティ）
+短い文章でDIYの可能性を２回も書くのは、ここがもっとも大事だからだ。
+合議制で承認ベースで進めて最後に具現化する大組織的でビジネス的なやり方（ダムやビルをつくるようなやりかた）を、ここでは「合理的なやり方」と呼ぼう。合理的なやり方は、「優秀な人なら誰がやっても同じ問題が出る問題」に向いている。このやり方だと「今市場が見えて、ヒットしている製品をちょっと改良するとか、安くする」みたいなものが多い。天動説と地動説のように、大きく世の中が変わるときは、いつも新しい意見の人はマイノリティになる。ハズレを恐れるばかりに大当たりから最も遠い仕組みと言える。
+「自分がやりたいからやる」形の製品開発はその問題と無縁だ。その人以外誰もやりたいと思わなかったが、世間に出たら大当たりして、その後むしろ主流になったようなストーリーはいっぱいある。そうしたアイデアはプランニングでは価値がわからないことが多くて、早く形にして実際に見せることが重要だ。プロトタイピングしてみることが重要だし、たとえば１００個でも作ってみて、使ってもらうことが重要だ。昔からテストマーケティングは行われていたが、今はコミュニティと一体となった製品開発とも言える。一体＝同じ事をする、というわけではなく、両方が揃う必要がある。
+プロトタイピングの結果を自分と感覚が近いコミュニティが受け入れ、コミュニティがアーリーアダプターとなって、最終的には世界中が使うようなイノベーションは、iPhoneやFacebookなどいくらでもある。アーリーアダプター、コミュニティはは発明家と同じぐらい重要で、ないとイノベーションが生まれない。
+上と同じまとめを書く。
+この「つくりたいものをつくることが、多くのユーザを巻き込んだコミュニティに支持されることにより、イノベーションにつながる」一連の流れを指してメイカームーブメントと呼ばれる。
+■市場としてのメイカー
+最後に、今は小さいけどまったく新しい話として、市場としてのメイカーの話も少し書く。これまで書いてきたようなDIY出身の製品は、大メーカーのものに比べてコストも高いし品質も低く、サポートなど含めてそこまで売れるわけではない。今のところうまくいっているのは、3Dプリンタなどの工作機械やマイコンボードのような、「買う方もホビイスト」である製品だ。１０年前は無視できる市場だったが、今は大きくなってきていて、さらに世界のいろんな国の政府がSTEMと呼ばれるメイカー向け教育プログラムを導入しつつあることもあり、ますます大きくなりそうだし、メイカー向けのコミュニティスペースなどの関連産業も大きくなりそうだ。パーソナルコンピュータやスマートホンの例に漏れず、最初は趣味でも開発をするようなアーリーアダプターの間から普及する。結局年賀状の印刷ぐらいでしか使われなくなった家庭用のプリンタみたいにそのまま終わるのか、パーソナルコンピュータやスマートホンみたいに社会全体のインフラになり、社会を変えるまでそうしたものが普及するのかは、まだ誰にもわからないが、市場としてのメイカーも無視できない要素になってきている。
+■参考リンク
+アメリカ・オバマ前大統領のホワイトハウス・メイカーフェア（DIYの祭典）での挨拶
+http://makezine.jp/blog/2014/06/the-presidents-address-at-the-white-house-maker-faire.html
+→ここには、僕が書いてきたようなことと同様のことがアメリカの国策になっていること、「DIY、ホビー、コミュニティへの支援」を最重視しているのがわかる。だいじなのは、「DIYの普及が産業を生む」と本気で信じていることだ。僕宛に取材いただいたり、意見を求められるときに、その前提が共有できていることはほとんどない。みんな、プロをアマチュアの上位に置いている。
+もちろんそういう世界や視点もあるけど、それならHAXだのメイカーだのスタートアップだのでなく、別の方向を見ていく方がいいんじゃないかと思う。
+上記の構造と深圳の関係を詳述した書籍「メイカーズのエコシステム」
+http://ch.nicovideo.jp/tks/blomaga/ar941066
+→山形浩生（翻訳家、評論家）,江渡浩一郎（産総研、ニコニコ学会）などとともに、メイカーズと深圳が起こしているイノベーションをまとめました。
+深圳(深セン)のスタートアップ環境を見学して受けた衝撃について 東工大長谷川先生のブログ
+http://hasevr.hateblo.jp/entry/2016/05/04/220014
+{.markup–anchor .markup–p-anchor} 大学の研究者から深圳の支援環境を見た場合の感想と問題意識
+ニコ技深圳観察会2016春に参加してきた 湯村さん（東芝出身で社会人博士）
+http://yumulog.hatenablog.com/entry/2016/05/15/195608
+大企業、ベンチャー企業、社会人博士とさまざまな分野からの知見が見られる。「量産型イノベーション」という概念は面白い
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-09-09 00:00:00 +0000 UTC'>September 9, 2021</span></footer>
+  <a class="entry-link" aria-label="post link to                          HAX    2017 03 16  " href="http://localhost:1313/shenzhen/2021/09/hax-2017-03-16/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="http://localhost:1313/shenzhen/">
+      «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="http://localhost:1313/shenzhen/page/3/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">ニコ技深セン / Nico-Tech Shenzhen website</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

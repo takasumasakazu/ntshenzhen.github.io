@@ -1,5 +1,8 @@
 ---
 title: "          Maker         AkiParty          "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*IwA0RZo-Sc-K1n0lviMNOw.jpeg"
+  relative: false
 aliases: ["/2025/03/maker-akiparty/"]
 slug: maker-akiparty
 date: 2025-03-21
@@ -17,7 +20,7 @@ date: 2025-03-21
 
 2016/08/16 08:00
 
-![](https://cdn-images-1.medium.com/max/800/1*IwA0RZo-Sc-K1n0lviMNOw.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*IwA0RZo-Sc-K1n0lviMNOw.jpeg)
 
 
 ------------------------------------------------------------------------
@@ -37,7 +40,7 @@ Maker Faire Tokyo
 筆者は、「ギークのギークによるギークのためのダンスパーティー」をスローガンにする、ダンスパーティーAkiPartyを主催している。今年会場に選んだダンスクラブMOGRAの1Fに作品出展も可能なフロアが増設されたため、地下のダンスフロアに加えて地上階を展示フロアとし、さらにウェアラブルな展示物の持ち込みを歓迎した形でNT東京は行われた。
 
 ![「ギークのギークによるギークのためのダンスパーティ」 \#AkiParty
-が行われた秋葉原MOGRA。（撮影：timbotu）](https://cdn-images-1.medium.com/max/800/1*lbLNTrLtCJ9HHAznK-aA-w.jpeg){.graf-image}
+が行われた秋葉原MOGRA。（撮影：timbotu）](https://cdn-images-1.medium.com/max/800/1*lbLNTrLtCJ9HHAznK-aA-w.jpeg)
 
 ### NTならではの意表を突かれる展示物 {#2a00 .graf .graf--h3 .graf-after--figure name="2a00"}
 
@@ -45,13 +48,13 @@ Maker Faire Tokyo
 
 インパクト抜群の工作で注目を集めたのは、マンスーン氏の作品「目から火花が飛び散るメガネ」だ。
 
-![目から火花が飛び散るメガネ。](https://cdn-images-1.medium.com/max/800/1*IZ6LCjt5UMQxmY47O2te3Q.jpeg){.graf-image}
+![目から火花が飛び散るメガネ。](https://cdn-images-1.medium.com/max/800/1*IZ6LCjt5UMQxmY47O2te3Q.jpeg)
 
 「マンガで、ライバル同士の目から火が出る状況をホントにやってみたかった」というきっかけで作った作品は、バチバチ火花が出るオモチャのピストルから取った部品にモーターを付け、メガネに装着したもの。写真で見るようにかなりの激しさで、顔の前5cm以上も火花が飛ぶ。
 
 マンスーンさんは他にも、「虚無僧をサラリーマンが取り囲む」「サラリーマンがヤクザに取り囲まれる」など、シュールなシーンを再現したスノーボールなど、一風変わった作品を持ち込んでいた。
 
-![シュールな光景を再現したスノーボール。](https://cdn-images-1.medium.com/max/800/1*gbCIYAzqBWfe-TswiLawBQ.jpeg){.graf-image}
+![シュールな光景を再現したスノーボール。](https://cdn-images-1.medium.com/max/800/1*gbCIYAzqBWfe-TswiLawBQ.jpeg)
 
 同じくインパクト抜群だったのが、 \@yumu19
 氏の[**cyberkeyboard**](http://yumulog.hatenablog.com/entry/2016/03/05/212815){.markup--anchor
@@ -70,18 +73,18 @@ cyberkeyborad（\@yumu19氏がアップした動画）。
 
 細かいグラデーションを出したり文字を出すなど、普通にパソコンのディスプレイのような表示ができる、ステージ映えする作品だ。
 
-![テクノコスプレ研究会。モデルはほわいともかさん。](https://cdn-images-1.medium.com/max/800/1*NQN5yZv9LYjjvGRPfXyTHA.jpeg){.graf-image}
+![テクノコスプレ研究会。モデルはほわいともかさん。](https://cdn-images-1.medium.com/max/800/1*NQN5yZv9LYjjvGRPfXyTHA.jpeg)
 
 このテクノコスプレ研究会は、筑波大学の助教／学生で結成したサークルSRSIVの電飾コスプレが下地になっている。今回のイベントにはSRSIVも電飾コスプレ衣装を出展し、2世代の衣装がそろい踏みした。
 
 電飾コスプレ衣装は文字を出すなどの個別LED制御はできないが、衣服全体にLEDが配置されていて見た目のインパクトは大きく、ダンスフロアにそろい踏みした時は観客から歓声が沸いた。
 
-![SRSIVの発起人くとのぷれある氏を囲んで、電飾コスプレとテクノコスプレ研究会、2世代の衣装がそろい踏み。](https://cdn-images-1.medium.com/max/800/1*SFW5DzYd_1CQX8ONLeQutQ.jpeg){.graf-image}
+![SRSIVの発起人くとのぷれある氏を囲んで、電飾コスプレとテクノコスプレ研究会、2世代の衣装がそろい踏み。](https://cdn-images-1.medium.com/max/800/1*SFW5DzYd_1CQX8ONLeQutQ.jpeg)
 
 「GPSと連動し、目的地を設定するとその方向に倒れる傘」[**カサネタリウム**](http://kasanetarium.web.fc2.com/){.markup--anchor
 .markup--p-anchor}を作っているホリ氏もウェアラブル出展。代表作のカサネタリウムに、今回のパーティー仕様でLEDを内蔵し、光る傘にして出品。
 
-![光るカサネタリウム。LEDの光がビニール傘でうまい具合に拡散してとても美しい。](https://cdn-images-1.medium.com/max/800/1*TkSc6i_wMMR2UDi63FDZcA.jpeg){.graf-image}
+![光るカサネタリウム。LEDの光がビニール傘でうまい具合に拡散してとても美しい。](https://cdn-images-1.medium.com/max/800/1*TkSc6i_wMMR2UDi63FDZcA.jpeg)
 
 ### ぐんぐん増えてくる持ち込み作品 {#9b06 .graf .graf--h3 .graf-after--figure name="9b06"}
 
@@ -89,7 +92,7 @@ NT東京は、テーブルの確保には出展申し込みが必要だが、ウ
 
 コントローラからの情報が、作者の後頭部にあるボックスに伝わってボックスが振動する。その振動に従って作者が動くことで、人間をラジコンで操作しているような感覚が得られる。リモコンとボタンはすごく目立つように作られているので、まわりから見ているとそのシュールな光景がより目立つ。
 
-![作者がコントローラ通りに動いてくれる人間ラジコン。](https://cdn-images-1.medium.com/max/800/1*jdHxdeDO2b6LV6Xa398zrQ.jpeg){.graf-image}
+![作者がコントローラ通りに動いてくれる人間ラジコン。](https://cdn-images-1.medium.com/max/800/1*jdHxdeDO2b6LV6Xa398zrQ.jpeg)
 
 今回スポンサーとして参加した[**GUGEN
 2016**](https://gugen.jp/){.markup--anchor
@@ -98,14 +101,14 @@ Ball**](https://gugen.jp/entry2015/004){.markup--anchor
 .markup--p-anchor}が持ち込み展示されていた。2015年の出展時よりさらに進化したバージョンのプロジェクタは、なんと手持ち展示。会場の壁に星やスマイルマークなどを描いていた。
 
 ![小型／安価で、モバイルバッテリーで駆動させることもできるProjection
-Ball。](https://cdn-images-1.medium.com/max/800/1*n21S7-g6dtuKxpxXEv9RKQ.jpeg){.graf-image}
+Ball。](https://cdn-images-1.medium.com/max/800/1*n21S7-g6dtuKxpxXEv9RKQ.jpeg)
 
 ![さらに進化したバージョンのProjection
-Ballを手持ち展示。](https://cdn-images-1.medium.com/max/800/1*f0oGyHBExH2C6Vo0Ih3qIw.jpeg){.graf-image}
+Ballを手持ち展示。](https://cdn-images-1.medium.com/max/800/1*f0oGyHBExH2C6Vo0Ih3qIw.jpeg)
 
 GUGENのブースは時間がたつごとに持ち込み出展が増え、作品で埋め尽くされていた。
 
-![どんどん作品が増えてくるGUGENブース。](https://cdn-images-1.medium.com/max/800/1*MQAsScCMTAIMbpq7kptlOg.jpeg){.graf-image}
+![どんどん作品が増えてくるGUGENブース。](https://cdn-images-1.medium.com/max/800/1*MQAsScCMTAIMbpq7kptlOg.jpeg)
 
 ### "作ってみた"が実感できる {#99ca .graf .graf--h3 .graf--startsWithDoubleQuote .graf-after--figure name="99ca"}
 

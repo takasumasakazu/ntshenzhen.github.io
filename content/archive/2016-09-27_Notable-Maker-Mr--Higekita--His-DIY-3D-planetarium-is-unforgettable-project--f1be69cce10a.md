@@ -1,5 +1,8 @@
 ---
 title: "Notable Maker Mr  Higekita  His DIY 3D planetarium is unforgettable project "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*-XXdTKMlZykvy1HdpMTuRQ.jpeg"
+  relative: false
 aliases: ["/2016/09/notable-maker-mr-higekita-his-diy-3d-planetarium-is-unforgettable-project/"]
 slug: notable-maker-mr-higekita-his-diy-3d-planetarium-is-unforgettable-project
 date: 2016-09-27
@@ -17,7 +20,7 @@ part of Japan, his grandfather is Carpenter and father is a...
 ### Notable Maker Mr. Higekita, His DIY 3D planetarium is unforgettable project. {#df95 .graf .graf--h3 .graf--leading .graf--title name="df95"}
 
 ![DIY Inflatable dome by greenhouse plastic. He made an amazing 3D show
-in there.](https://cdn-images-1.medium.com/max/800/1*-XXdTKMlZykvy1HdpMTuRQ.jpeg){.graf-image}
+in there.](https://cdn-images-1.medium.com/max/800/1*-XXdTKMlZykvy1HdpMTuRQ.jpeg)
 
 Higekita is natural bone makers. He bore at Kanazawa prefecture, north
 part of Japan, his grandfather is Carpenter and father is a fisherman.

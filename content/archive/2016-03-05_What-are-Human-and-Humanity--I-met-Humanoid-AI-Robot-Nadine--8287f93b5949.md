@@ -1,5 +1,8 @@
 ---
 title: "What are Human and Humanity  I met Humanoid AI Robot Nadine "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*3A8-SZs7QMsaBnv_v9WQAw.jpeg"
+  relative: false
 aliases: ["/2016/03/what-are-human-and-humanity-i-met-humanoid-ai-robot-nadine/"]
 slug: what-are-human-and-humanity-i-met-humanoid-ai-robot-nadine
 date: 2016-03-05
@@ -24,7 +27,7 @@ University](http://www.ntu.edu.sg/Pages/home.aspx){.markup--anchor
 .markup--p-anchor},Singapore
 
 ![I misunderstood that robot is Prof Nadia, the first time meet
-Humanoid Nadine.](https://cdn-images-1.medium.com/max/800/1*3A8-SZs7QMsaBnv_v9WQAw.jpeg){.graf-image}
+Humanoid Nadine.](https://cdn-images-1.medium.com/max/800/1*3A8-SZs7QMsaBnv_v9WQAw.jpeg)
 
 That robot project organized prof Nadia,that aim to make another new
 human being. Nadine have Artificial Intelligence brain, she can talk
@@ -49,7 +52,7 @@ Nadia's lab made another AI robot too, without physical appearance, only
 in the display robot.
 
 ![Sane eyes, ears, and brain as Nadia, expect
-phigical body.](https://cdn-images-1.medium.com/max/800/1*Zi_3ahNUuaG-WxMzOrFzrg.jpeg){.graf-image}
+phigical body.](https://cdn-images-1.medium.com/max/800/1*Zi_3ahNUuaG-WxMzOrFzrg.jpeg)
 
 That AI robot on the display, some time interaction for me, smiling and
 move her hand and body. These are smoother than Nadine. Nadine need huge
@@ -60,7 +63,7 @@ Prof. Nadine's research projects cause more deelply thinking to WHAT IS
 A HUMAN.
 
 ![Me, Nadine and
-Prof.Nadia.](https://cdn-images-1.medium.com/max/800/1*zQHNmOJrn65LXrdx5fbhhg.jpeg){.graf-image}
+Prof.Nadia.](https://cdn-images-1.medium.com/max/800/1*zQHNmOJrn65LXrdx5fbhhg.jpeg)
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 5, 2016](https://medium.com/p/8287f93b5949).

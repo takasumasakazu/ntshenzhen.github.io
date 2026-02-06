@@ -1,5 +1,8 @@
 ---
 title: "March 2018 Report Japanese Maker Pro is so grown in this 4 year TAKASU Shenzhen High Tour "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*JbEf9IdWRcakN4f56YuMPg.jpeg"
+  relative: false
 aliases: ["/2018/03/march-2018-report-japanese-maker-pro-is-so-grown-in-this-4-year-takasu-shenzhen-high-tour/"]
 slug: march-2018-report-japanese-maker-pro-is-so-grown-in-this-4-year-takasu-shenzhen-high-tour
 date: 2018-03-31
@@ -20,7 +23,7 @@ growing up!
 ### March 2018 Report,Japanese Maker Pro is so grown in this 4 year 【TAKASU/Shenzhen High Tour】 {#4be2 .graf .graf--h3 .graf--leading .graf--title name="4be2"}
 
 ![Our meetup at 白石州 beer bar, Shenzhen PCBA
-All stars](https://cdn-images-1.medium.com/max/800/1*JbEf9IdWRcakN4f56YuMPg.jpeg){.graf-image}
+All stars](https://cdn-images-1.medium.com/max/800/1*JbEf9IdWRcakN4f56YuMPg.jpeg)
 
 I write-up that article, so important to me.\
 Japanese Maker Pro, five times bigger in this four year,... And still

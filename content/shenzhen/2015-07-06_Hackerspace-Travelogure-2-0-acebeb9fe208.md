@@ -1,5 +1,8 @@
 ---
 title: "Hackerspace Travelogure 2 0"
+cover:
+  image: "https://cdn-images-1.medium.com/max/1200/1*u8uOSPxgGql4Ky2lbmXeag.jpeg"
+  relative: false
 aliases: ["/2015/07/hackerspace-travelogure-2-0/"]
 slug: hackerspace-travelogure-2-0
 date: 2015-07-06
@@ -13,7 +16,7 @@ I told at Hackerspace Traveloge 2.0 at Hackerspace Singapore.
 
 ------------------------------------------------------------------------
 
-![](https://cdn-images-1.medium.com/max/1200/1*u8uOSPxgGql4Ky2lbmXeag.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/1200/1*u8uOSPxgGql4Ky2lbmXeag.jpeg)
 
 ### Hackerspace Travelogure 2.0 report: And share my slide. MakerFaire Tokyo, Geek Dance Party, Nepal Art&Tech Event {#9ec0 .graf .graf--h3 .graf-after--figure .graf--title name="9ec0"}
 

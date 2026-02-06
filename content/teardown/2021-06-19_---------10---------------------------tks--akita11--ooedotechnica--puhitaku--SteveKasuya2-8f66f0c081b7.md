@@ -1,5 +1,8 @@
 ---
 title: "         10                           tks  akita11  ooedotechnica  puhitaku  SteveKasuya2"
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*Tj_bItHI77plcn47t7xzuA.jpeg"
+  relative: false
 aliases: ["/2021/06/10-tks-akita11-ooedotechnica-puhitaku-stevekasuya2/"]
 slug: 10-tks-akita11-ooedotechnica-puhitaku-stevekasuya2
 date: 2021-06-19
@@ -43,7 +46,7 @@ Kasuya](https://twitter.com/SteveKasuya2){.markup--anchor
 
 \#分解のススメ \@SteveKasuya2 秋葉原ハッカースペース
 
-![](https://cdn-images-1.medium.com/max/800/1*Tj_bItHI77plcn47t7xzuA.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*Tj_bItHI77plcn47t7xzuA.jpeg)
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [June 19, 2021](https://medium.com/p/8f66f0c081b7).

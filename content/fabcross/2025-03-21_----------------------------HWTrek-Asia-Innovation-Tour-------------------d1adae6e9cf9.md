@@ -1,5 +1,8 @@
 ---
 title: "                            HWTrek Asia Innovation Tour                  "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*Oi_jmucE5v5wT2tY1yLubA.jpeg"
+  relative: false
 aliases: ["/2025/03/hwtrek-asia-innovation-tour/"]
 slug: hwtrek-asia-innovation-tour
 date: 2025-03-21
@@ -17,7 +20,7 @@ date: 2025-03-21
 
 2017/01/19 08:00
 
-![](https://cdn-images-1.medium.com/max/800/1*Oi_jmucE5v5wT2tY1yLubA.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*Oi_jmucE5v5wT2tY1yLubA.jpeg)
 
 前回（量産サポート）、前々回（プロトタイピング環境）と深センのサプライチェーンを紹介したが、HWTrekのツアーはその後京都／大阪と続いた。日本にも海外から発注を受ける製造業者が、さまざまなスケールで存在する。HWTrekは京都／大阪について、「深センとは違うクオリティの製造業がある」と紹介した。世界のスタートアップが日本で見た製造業のクオリティを紹介する。
 
@@ -25,33 +28,33 @@ date: 2025-03-21
 
 スタートアップたちのテンションが上がったのは、村田製作所を訪れた際、展示されていたこの積層コンデンサを見たときだ。グラスに10万個の積層コンデンサが入っている。一番左のものは肉眼ではグラスの底にわずかに粉が溜まっているようにしか見えない。このグラスの中に数百万個を入れることも可能だろう。
 
-![それぞれのグラスに10万個の積層コンデンサが入っている。一番左のものは1個が0.4×0.2×0.2mmサイズ。](https://cdn-images-1.medium.com/max/800/1*Yqta-iwyhfpqJZ3-1wySxA.jpeg){.graf-image}
+![それぞれのグラスに10万個の積層コンデンサが入っている。一番左のものは1個が0.4×0.2×0.2mmサイズ。](https://cdn-images-1.medium.com/max/800/1*Yqta-iwyhfpqJZ3-1wySxA.jpeg)
 
 村田製作所はほかにも、世界最小や最も電力消費が少ないセンサなどのコンポーネントを開発している。今回プレゼンされたデバイスには開発途中のものも多くあったが、村田製作所の担当者も「なるべく早く[**DigiKey**](http://www.digikey.jp/){.markup--anchor
 .markup--p-anchor}等のオンライン通販で扱えるようにしたい」と語っていた。そもそも今回の訪問も、Maker
 Movementによって駆け出しのスタートアップからも面白いプロダクトが出てきつつある状況を鑑み、村田製作所全体のオープンイノベーションへの取り組みの一環として位置づけられている。
 
-![村田製作所のエンジニアを囲んで意見交換が続く。](https://cdn-images-1.medium.com/max/800/1*Wv6y9ld3KJcL-ggqVjfbqQ.jpeg){.graf-image}
+![村田製作所のエンジニアを囲んで意見交換が続く。](https://cdn-images-1.medium.com/max/800/1*Wv6y9ld3KJcL-ggqVjfbqQ.jpeg)
 
 ### プロトタイプから製品化まで：HILLTOP {#8476 .graf .graf--h3 .graf-after--figure name="8476"}
 
 [**HILLTOP**](http://hilltop21.co.jp/){.markup--anchor
 .markup--p-anchor}は切削加工を中心にしたプロトタイプ製作の会社だ。最新の切削加工機械を備えたハイクオリティの工場を備えるが、さらに強みにしているのは提案力である。
 
-![CADデータの例を前に説明するHILLTOPエンジニア。多くのエンジニアが海外との業務経験がある。](https://cdn-images-1.medium.com/max/800/1*mL8urv4eeRiKUb06pzUW1A.jpeg){.graf-image}
+![CADデータの例を前に説明するHILLTOPエンジニア。多くのエンジニアが海外との業務経験がある。](https://cdn-images-1.medium.com/max/800/1*mL8urv4eeRiKUb06pzUW1A.jpeg)
 
 2次元の設計図でもらったデータから3DのCADデータをHILLTOP側で作る、または持ち込まれたデータを元に修正する提案力について、HILLTOPは「専用のソフトウェアと過去のナレッジデータベースを基に、どのエンジニアでも短期間で満足のいく提案が出せるようにする」ことを目指している。もちろんそのソフトを使えば誰でもできるわけではなく、数年単位の経験は必要だ。ただ、このシステムを使うことで、数分の1の短期間で成長できるようになるという。
 
 システムを作って全体で品質を担保するというのは、深センで見られているものより一歩進んだ考え方だ。実際のNC加工機による切削に入る前にコンピュータ上でもシミュレーションを行うことで、無駄な切削を省くことができる。こうしたよりきめ細かなコンサルティングがHILLTOPのひとつの特徴のようだ。
 
-![工場には最新鋭のCNCが並んでいる。マシンはすべてコーポレートカラーのピンクに塗られ、床にはちりひとつ無い。中国の工場も整理／整頓／掃除／しつけの4Sを励行しているが、この清潔感は日本の外で見つけるのは難しいものだ。](https://cdn-images-1.medium.com/max/800/1*H_08cdFgQzxMGAByUmXAmw.jpeg){.graf-image}
+![工場には最新鋭のCNCが並んでいる。マシンはすべてコーポレートカラーのピンクに塗られ、床にはちりひとつ無い。中国の工場も整理／整頓／掃除／しつけの4Sを励行しているが、この清潔感は日本の外で見つけるのは難しいものだ。](https://cdn-images-1.medium.com/max/800/1*H_08cdFgQzxMGAByUmXAmw.jpeg)
 
 HILLTOPではこれまで紹介した「シミュレーションから切削」だけでなく、最終的にプロダクトとして完成するところまでの一連のコンサルティングを行っていて、いくつか製品も開発している。写真撮影はできなかったが、完成品として実際に販売している高精度の産業用機械が社内でデモされていた。そうした開発のために社内に[**Foo's
 Lab**](http://hilltop21.co.jp/fooslab/){.markup--anchor
 .markup--p-anchor}というMakerスペースを備え、Arduinoなどを使ったプロトタイプから最終的な製品に近い段階までの、広い範囲のプロトタイプが製作できる。
 
 ![Foo's
-Labと呼称するMakerスペース。](https://cdn-images-1.medium.com/max/800/1*4prpKqd3Mh0PZSOdVtb8cQ.jpeg){.graf-image}
+Labと呼称するMakerスペース。](https://cdn-images-1.medium.com/max/800/1*4prpKqd3Mh0PZSOdVtb8cQ.jpeg)
 
 筆者が訪れたときFoo's
 Labでは、モノを運ぶ台車をロボット化して、ライントレースの機能をつけたものが動いていた。台車の開発チームは欧米人の従業員であり、HILLTOPは深センで見た製造業や今回のツアーで訪ねてきたスタートアップと同様のグローバルなチームになっていて、当然のように世界中を仕事場にしている。
@@ -68,7 +71,7 @@ Labでは、モノを運ぶ台車をロボット化して、ライントレー�
 製造業そのものは歴史のあるビジネスだが、新しい顧客とのタッチポイントの部分や商談の立ち上げの部分でインターネットをうまく使い、ネットワークの力を上げるのは21世紀に必要なことだ。前回までに紹介した深センの強さも「多くの会社が集まっていてすべてがそろう」というエコシステムのもたらすものだった。京都試作ネットの取り組みも、企業がまとまったことでHWTrekという別のネットワークとつながりやすくなっているし、効果が上がっているといえるだろう。
 
 ![[京都試作ネットの英語サイト](http://www.kyoto-shisaku.com/en/){.markup--anchor
-.markup--figure-anchor}。クロスエフェクトの心臓モデリングが掲載されている。](https://cdn-images-1.medium.com/max/800/1*StEXNlsecQRlqwTy0IF7ng.jpeg){.graf-image}
+.markup--figure-anchor}。クロスエフェクトの心臓モデリングが掲載されている。](https://cdn-images-1.medium.com/max/800/1*StEXNlsecQRlqwTy0IF7ng.jpeg)
 
 また、[**MAKERS BOOT CAMP**](http://makersboot.camp/ja/){.markup--anchor
 .markup--p-anchor}として、HWTrekのように製造業をアクセラレーションする試みも行っている。[**HAX**](https://fabcross.jp/topics/tks/20160922_Shenzhen_01.html){.markup--anchor

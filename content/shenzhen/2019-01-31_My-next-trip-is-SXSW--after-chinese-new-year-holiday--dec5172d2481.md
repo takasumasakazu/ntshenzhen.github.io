@@ -1,5 +1,8 @@
 ---
 title: "My next trip is SXSW  after chinese new year holiday "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*tzb3ClpUDiFQciWQNx4XGw.jpeg"
+  relative: false
 aliases: ["/2019/01/my-next-trip-is-sxsw-after-chinese-new-year-holiday/"]
 slug: my-next-trip-is-sxsw-after-chinese-new-year-holiday
 date: 2019-01-31
@@ -19,7 +22,7 @@ My next trip is SXSW, after chinese new year holiday! {#my-next-trip-is-sxsw-aft
 离开深圳起1月18号到2月27号。
 
 ![BETT with Micro:Bit
-Foundation!](https://cdn-images-1.medium.com/max/800/1*tzb3ClpUDiFQciWQNx4XGw.jpeg){.graf-image}
+Foundation!](https://cdn-images-1.medium.com/max/800/1*tzb3ClpUDiFQciWQNx4XGw.jpeg)
 
 This is Takasu,
 

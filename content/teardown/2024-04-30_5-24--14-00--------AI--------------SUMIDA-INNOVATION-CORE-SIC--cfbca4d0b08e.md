@@ -1,5 +1,8 @@
 ---
 title: "5 24  14 00        AI              SUMIDA INNOVATION CORE SIC "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*K3WakdlS1I9HKI1Qt4VAsw.jpeg"
+  relative: false
 aliases: ["/2024/04/5-24-14-00-ai-sumida-innovation-core-sic/"]
 slug: 5-24-14-00-ai-sumida-innovation-core-sic
 date: 2024-04-30
@@ -22,7 +25,7 @@ INNOVATION
 CORE（SIC）にてイベントを行います。[受付フォーム](https://wj.qq.com/s2/14514738/nu64/){.markup--anchor
 .markup--p-anchor}公開中です。ぜひご興味ある方来場お願いします。
 
-![](https://cdn-images-1.medium.com/max/800/1*K3WakdlS1I9HKI1Qt4VAsw.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*K3WakdlS1I9HKI1Qt4VAsw.jpeg)
 
 ### **2024中国（深圳）-日本（東京）人工知能産業連携交流会及び深圳市人材政策説明会 イベント概要** {#4cd7 .graf .graf--h3 .graf-after--figure name="4cd7"}
 
@@ -45,7 +48,7 @@ Shenzhen
 
 SUMIDA INNOVATION CORE（SIC）
 
-![会場のSICは、墨田区のイノベーションスペース](https://cdn-images-1.medium.com/max/800/1*JmkEcOqnL0phYY08wUZ21Q.png){.graf-image}
+![会場のSICは、墨田区のイノベーションスペース](https://cdn-images-1.medium.com/max/800/1*JmkEcOqnL0phYY08wUZ21Q.png)
 
 **タイムスケジュール：**
 
@@ -65,7 +68,7 @@ SUMIDA INNOVATION CORE（SIC）
 
 ### **参加申込フォーム** {#d1dd .graf .graf--h3 .graf-after--p name="d1dd"}
 
-![](https://cdn-images-1.medium.com/max/800/1*F0sX700BohY80X37eX_f8w.png){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*F0sX700BohY80X37eX_f8w.png)
 
 **参加申込み：**
 

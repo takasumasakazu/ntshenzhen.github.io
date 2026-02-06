@@ -1,5 +1,8 @@
 ---
 title: "                         HWTrek Asia Innovation Tour               "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*z79zHPGq7pY00h0LoA-ifQ.jpeg"
+  relative: false
 aliases: ["/2025/03/hwtrek-asia-innovation-tour/"]
 slug: hwtrek-asia-innovation-tour
 date: 2025-03-21
@@ -17,12 +20,12 @@ date: 2025-03-21
 
 2016/12/26 08:00
 
-![](https://cdn-images-1.medium.com/max/800/1*z79zHPGq7pY00h0LoA-ifQ.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*z79zHPGq7pY00h0LoA-ifQ.jpeg)
 
 台湾で創業したHWTrekは、中国語がネイティブでしゃべれて西欧のビジネスルールにも合わせられるという特性を生かして、世界のスタートアップと主に深センの製造業者をつなぐビジネスをしている。同社は製造業ネットワークをスタートアップに紹介するツアーを年に2回開催している。ツアーの様子と、サプライチェーンのうち試作や小ロット段階での製造業者を紹介する。
 
 ![HWTrekのCEO Lucas
-Wang。スタートアップと製造業者を結ぶ。](https://cdn-images-1.medium.com/max/800/1*m4hdqNNCvQzQnFGaLqgmWA.jpeg){.graf-image}
+Wang。スタートアップと製造業者を結ぶ。](https://cdn-images-1.medium.com/max/800/1*m4hdqNNCvQzQnFGaLqgmWA.jpeg)
 
 ### スタートアップのその先へHWTrek {#4774 .graf .graf--h3 .graf-after--figure name="4774"}
 
@@ -63,16 +66,16 @@ Venturesは、FOXCONNみたいな超大手の製造企業である[**ZOWEE**](ht
 もちろん、HAXが中国の会社にも投資しているように、Shenzhen Valley
 Venturesもアメリカほか世界のスタートアップに投資していて、アメリカと中国の比率はちょうど半々だそうだ。6カ月ぐらいのスパンでスタートアップをインキュベートしていて、2週間前にオープンしたばかりのこのラボを、すでに10のスタートアップが利用している。
 
-![できあがったばかりのMakerスペース。コワーキングスペースの他、本格的なプロトタイプ開発環境のほか、スポーツジムなども備えている。](https://cdn-images-1.medium.com/max/800/1*z79zHPGq7pY00h0LoA-ifQ.jpeg){.graf-image}
+![できあがったばかりのMakerスペース。コワーキングスペースの他、本格的なプロトタイプ開発環境のほか、スポーツジムなども備えている。](https://cdn-images-1.medium.com/max/800/1*z79zHPGq7pY00h0LoA-ifQ.jpeg)
 
-![高機能なCNCマシン。4軸や5軸のCNC、旋盤、3Dプリントなど、巨大なスペースに多くの工作機械がそろう。](https://cdn-images-1.medium.com/max/800/1*4kCgizqFLr5wQuAPe-cOhQ.jpeg){.graf-image}
+![高機能なCNCマシン。4軸や5軸のCNC、旋盤、3Dプリントなど、巨大なスペースに多くの工作機械がそろう。](https://cdn-images-1.medium.com/max/800/1*4kCgizqFLr5wQuAPe-cOhQ.jpeg)
 
 ![Shenzhen Valley
-Venturesのプロトタイピングスペースには、小規模な生産ラインまで用意されている。](https://cdn-images-1.medium.com/max/800/1*piLeawFZnvPk2V59t0KXlA.jpeg){.graf-image}
+Venturesのプロトタイピングスペースには、小規模な生産ラインまで用意されている。](https://cdn-images-1.medium.com/max/800/1*piLeawFZnvPk2V59t0KXlA.jpeg)
 
-![多くのサポートエンジニアも常駐していて、開発の相談や検証も行える。](https://cdn-images-1.medium.com/max/800/1*ycwaxZrtEvctwIkX6YC4iA.jpeg){.graf-image}
+![多くのサポートエンジニアも常駐していて、開発の相談や検証も行える。](https://cdn-images-1.medium.com/max/800/1*ycwaxZrtEvctwIkX6YC4iA.jpeg)
 
-![コワーキングスペース](https://cdn-images-1.medium.com/max/800/1*6BT2A8dgE6kFEHaTyGYMpA.jpeg){.graf-image}
+![コワーキングスペース](https://cdn-images-1.medium.com/max/800/1*6BT2A8dgE6kFEHaTyGYMpA.jpeg)
 
 
 ------------------------------------------------------------------------
@@ -96,31 +99,31 @@ SkyPrototypeは、1個から数千個までをキャッチフレーズに少ロ�
 
 もちろん試作だけでなく、コストが多少上がってもCNCでないと出せない精度や材質が求められる生産品、たとえば自動車のギアボックスの完成品などもSkyPrototypeは手掛けている。まず、小ロット生産の代表的なマシン、さまざまなCNCが大量にそろっている。4軸、5軸といった、内部をえぐるなどの複雑な加工ができるマシン、大きな部品が作れる大型のマシンなど、役割の違う大量のCNCが並ぶ。
 
-![CNC、コンピュータ数値制御の加工マシン。アルミやプラスチック、木などを切削して望み通りの形にする。](https://cdn-images-1.medium.com/max/800/1*Nm2jxPkdoHD2rxnwfO8v-Q.jpeg){.graf-image}
+![CNC、コンピュータ数値制御の加工マシン。アルミやプラスチック、木などを切削して望み通りの形にする。](https://cdn-images-1.medium.com/max/800/1*Nm2jxPkdoHD2rxnwfO8v-Q.jpeg)
 
-![削るドリル刃先を自動で取り換え、微細な加工ができるタイプのCNC。](https://cdn-images-1.medium.com/max/800/1*vbvDxuFxfjnMj9poxAA8Bg.jpeg){.graf-image}
+![削るドリル刃先を自動で取り換え、微細な加工ができるタイプのCNC。](https://cdn-images-1.medium.com/max/800/1*vbvDxuFxfjnMj9poxAA8Bg.jpeg)
 
-![役割の違うさまざまなCNCマシンが並ぶ](https://cdn-images-1.medium.com/max/800/1*QWGgdCB7Y4fBkDgKMMbWwQ.jpeg){.graf-image}
+![役割の違うさまざまなCNCマシンが並ぶ](https://cdn-images-1.medium.com/max/800/1*QWGgdCB7Y4fBkDgKMMbWwQ.jpeg)
 
-![もちろんプラスチックの加工もできるので、アルミ削り出しの部品とプラスチックの部品を組み合わせて納品といったことも行っている。そうしたコンサルティングのために多くの設計エンジニアを備えている。](https://cdn-images-1.medium.com/max/800/1*3Sg4G3QeWo_SmYoUOl9TbA.jpeg){.graf-image}
+![もちろんプラスチックの加工もできるので、アルミ削り出しの部品とプラスチックの部品を組み合わせて納品といったことも行っている。そうしたコンサルティングのために多くの設計エンジニアを備えている。](https://cdn-images-1.medium.com/max/800/1*3Sg4G3QeWo_SmYoUOl9TbA.jpeg)
 
 車のボンネット周りや医療用機器の筐体など、大型の部品で、そのまま完成品として使われるものまで受注している。
 
 また、小ロットをコアにしつつ、もう少し多量の依頼にも、スケーラブルに対応するようにしている。たとえば、シリコンゴムやプラスチック、アルミなどで型を作って樹脂を成形するレジンキャストも提供しているし、CNCよりもさらに少ない一品物を作るための旋盤やボール盤のエンジニアも提供している。
 
-![一品物を作るための旋盤。](https://cdn-images-1.medium.com/max/800/1*rWkOUDr1cqd1IOe2ZNoYkw.jpeg){.graf-image}
+![一品物を作るための旋盤。](https://cdn-images-1.medium.com/max/800/1*rWkOUDr1cqd1IOe2ZNoYkw.jpeg)
 
-![レジンキャストの型](https://cdn-images-1.medium.com/max/800/1*B-W9ObprAjGYP91Rjpq5Vg.jpeg){.graf-image}
+![レジンキャストの型](https://cdn-images-1.medium.com/max/800/1*B-W9ObprAjGYP91Rjpq5Vg.jpeg)
 
-![一つ一つサンドペーパーで仕上げをする。](https://cdn-images-1.medium.com/max/800/1*xD8ED3_qJtWaifCWripg4w.jpeg){.graf-image}
+![一つ一つサンドペーパーで仕上げをする。](https://cdn-images-1.medium.com/max/800/1*xD8ED3_qJtWaifCWripg4w.jpeg)
 
-![訪問時、ポリッシュ部署は大忙しだった。中国の工場ではスマホを見ながら作業をするような風景をよく見るが、この工場ではそうした状況は見られない。](https://cdn-images-1.medium.com/max/800/1*4u9cimt9HAc36NRqw8pPJw.jpeg){.graf-image}
+![訪問時、ポリッシュ部署は大忙しだった。中国の工場ではスマホを見ながら作業をするような風景をよく見るが、この工場ではそうした状況は見られない。](https://cdn-images-1.medium.com/max/800/1*4u9cimt9HAc36NRqw8pPJw.jpeg)
 
-![塗装ブース](https://cdn-images-1.medium.com/max/800/1*H6sNkbwildhPddLq1ESXbg.jpeg){.graf-image}
+![塗装ブース](https://cdn-images-1.medium.com/max/800/1*H6sNkbwildhPddLq1ESXbg.jpeg)
 
-![一番微細なメタルシート加工や塗装などを行った加工サンプル。一つ1588ドルかかる。](https://cdn-images-1.medium.com/max/800/1*Me0HdJoon0HWjvwM4hIiqw.jpeg){.graf-image}
+![一番微細なメタルシート加工や塗装などを行った加工サンプル。一つ1588ドルかかる。](https://cdn-images-1.medium.com/max/800/1*Me0HdJoon0HWjvwM4hIiqw.jpeg)
 
-![訪問後、HWTrekの訪問記念写真](https://cdn-images-1.medium.com/max/800/1*h4xqawCDZitGt9H6qh553g.jpeg){.graf-image}
+![訪問後、HWTrekの訪問記念写真](https://cdn-images-1.medium.com/max/800/1*h4xqawCDZitGt9H6qh553g.jpeg)
 
 これまでの写真を見て分かる通り、工作機械は多いものの、職人技プラス人数でフレキシブルに対応できるのがSkyPrototypeほか深セン企業の強さでもある。多くの社員は18歳から働き始めていて、工場の平均年齢は25歳。これまでの深センは、中国全土から働き手が集中する場所だったが、今では中国で一番土地も給料も高い場所でもある。SkyPrototypeでは、次の一手として厦門（アモイ）への移転を考えている。厦門ではそれほど労働者の質は変わらないが、30%ほど工場の運営コストが下がる見込みだそうだ。
 

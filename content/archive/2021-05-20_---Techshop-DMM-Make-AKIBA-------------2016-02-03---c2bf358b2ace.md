@@ -1,5 +1,8 @@
 ---
 title: "   Techshop DMM Make AKIBA             2016 02 03  "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/0*bRXLHDP5KkvCjuvZ.jpg"
+  relative: false
 aliases: ["/2021/05/techshop-dmm-make-akiba-2016-02-03/"]
 slug: techshop-dmm-make-akiba-2016-02-03
 date: 2021-05-20
@@ -34,7 +37,7 @@ Tulabadiは、「できれば故郷のタイでもビジネスがやりたいし
 
 なども書いてある面白い記事なので、許可を得て翻訳する。
 
-![](https://cdn-images-1.medium.com/max/800/0*bRXLHDP5KkvCjuvZ.jpg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/0*bRXLHDP5KkvCjuvZ.jpg)
 
 英文記事
 
@@ -91,7 +94,7 @@ report.](https://ch.nicovideo.jp/tks/blomaga/ar963083){.markup--anchor
 
 ので、これも後ほどどこかのメディア（たぶんCodezine）でレポートします。
 
-![](https://cdn-images-1.medium.com/max/800/0*fZJQmLf0sqexRo_x.jpg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/0*fZJQmLf0sqexRo_x.jpg)
 
 [メイカーズのエコシステム 新しいモノづくりがとまらない。 (OnDeck
 Books（NextPublishing）)](http://www.amazon.co.jp/exec/obidos/ASIN/B01AXRCDTU/hirayasutakas-22/ref=nosim/){.markup--anchor

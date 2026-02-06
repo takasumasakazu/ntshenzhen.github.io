@@ -1,5 +1,8 @@
 ---
 title: "HOPE 2020 Berlin and COSCUP 2020 Taipei TAKASU   Nico Tech Shenzhen Community Monthly news Aug 2020"
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*iIX3OJTYblxFoybU6uy8gQ.jpeg"
+  relative: false
 aliases: ["/2020/07/hope-2020-berlin-and-coscup-2020-taipei-takasu-nico-tech-shenzhen-community-monthly-news-aug-2020/"]
 slug: hope-2020-berlin-and-coscup-2020-taipei-takasu-nico-tech-shenzhen-community-monthly-news-aug-2020
 date: 2020-07-31
@@ -31,7 +34,7 @@ Event\
 Our talk detail (Probably they will upload recorded video)\
 <https://scheduler.hope.net/hope2020/talk/KP9ZUV/>
 
-![](https://cdn-images-1.medium.com/max/800/1*iIX3OJTYblxFoybU6uy8gQ.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*iIX3OJTYblxFoybU6uy8gQ.jpeg)
 
 The other one, COSCUP 2020 is an Open Source conference in Taipei. That
 conference is on the site, but almost all foreigners can\`t join that

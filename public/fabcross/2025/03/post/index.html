@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>                               | ニコ技深セン / Nico-Tech Shenzhen website</title>
+<meta name="keywords" content="">
+<meta name="description" content="信頼できるハードウェアをゼロから作る &ldquo;バニー&quot;ファンの挑戦
+2021/06/01 07:00
+
+信頼できるハードウェアをゼロから作る &ldquo;バニー&quot;ファンの挑戦
+2021/06/01 07:00
+
+
+「ハードウェアハッカー」（拙訳、山形浩生監訳、2018年技術評論社刊）の著者で、Chunbyほかいくつものオープンソースハードウェアを手掛けているMITメディアラボのアンドリュー&quot;バニー&quot;ファンは、「信頼できて、毎日使えるハードウェア」として「Precursor」というプロジェクトを始めた。クラウドファンディングサイトのCrowdsupply{.markup&ndash;anchor
+.markup&ndash;p-anchor}では22万ドル（約2400万円）の目標に対して、40万ドル（約4300万円）を超える支持を集めている。
+
+
+オンラインで行われた東南アジア最大のオープンソースイベントFOSSASIAで3月14日、バニーが語った情報をもとに、Precursorについて紹介する。スライドの全文{.markup&ndash;anchor
+.markup&ndash;p-anchor}もダウンロードできる。
+ほぼ完全にオープンソースで検証可能なハードウェア
+Precursorは携帯電話のような見た目だがSIMカードは入らず、電話機能はない。外部とのインターフェースも最小限で、USBとWi-Fiがあるだけだ。スクリーンも白黒の液晶で、CPUはWebブラウザを動かすのも難しい非力な性能
+(「XC7S50」わずか100MHz)しかない。バニー自ら「BlackBerry
+6210」「ニンテンドーDS」「Palm Treo
+600」といった2002～2005年頃のハードウェアとの比較表を載せ、「だいたい同じ」と説明している。
+「ほぼ15年前の性能しかないハードウェアをなぜいま改めて作るのか？
+それは、&ldquo;本当に信頼できるハードウェア&quot;のためだ」とバニーは語る。
+
+
+セキュリティのための究極にオープンなハードウェア
+「ファーウェイのスパイチップ疑惑など、ハードウェアのセキュリティに疑問が持たれている。いままでどのエンジニアも、スパイチップそのものを発見して公表した人はいないけど、それは&quot;この世にない&quot;という証明にならない。ハードウェアはソフトウェアと違い、一つ一つの個体が違うから、どこにもないことの証明は、どこかにあることの証明よりずっと難しい。ならば、完全に証明・検証できるハードウェアで、パスワードマネージャーや仮想通貨のウォレットなどを作ろうと思った」
+とバニーはPrecursorの設計思想を説明する。その結果実現したハードウェア仕様は、平凡な性能からは思いもよらないとがったものだ。
+CPUは論理回路をプログラムで構成できるFPGA、XilinxのXC7S50を採用し、FPGA上にプログラムでRISC-VのCPUを構築する。このソースコードは公開されていて検証可能だ。CPUの構造を可視化しただけでなく、Precursorはシステム全体をユーザーが検証できるように設計されている。
+「僕がチップ部品を作ったのでなくて、端末そのものを作ったのは、情報は部品と部品の間で受け渡されるから、そこを検証可能にするためだ」とバニーは語る。その検証可能性は、PCB（プリント基板）だけでなくディスプレイやキーボード、全てのパーツに及ぶ。
+チップを１つも使わないキーボードとディスプレイ
+キーロガーと呼ばれるようなプログラムがキーボード入力を盗んでパスワード等を盗まれる事例はある。ソフトウェアで実施されることもあるが、ハードウェア側にチップを仕込む場合もある。そこでPrecursorはチップを使わないキーボードをこのために専用設計し、組み込んである。これによりキー入力について検証可能なハードウェアとなる。
+
+
+キー入力が検証可能なように、画面出力も検証可能にしてある。Precursorは解像度336×536のモノクロディスプレイを採用している。15年前のPalmやゲーム機でもカラー液晶が当たり前だったのに、ニンテンドーDSなどに比べると高解像度とはいえ、今の時代にモノクロディスプレイを採用したのは、こちらも検証可能性のためだ。
+画面の描画のためには、画面の側にもLCDコントローラーのようなマイコンチップを備え、チップ上のフレームバッファに画面に表示されるデータを蓄積し、一気に書き換える。そのマイコンチップが情報を改変する可能性はゼロではない。そこでPrecursorはLCDコントローラーやフレームバッファを持たず、FPGA上にオープンソースで組み上げた、CPUから直接駆動するモノクロディスプレイを採用した。出荷時の状態では白黒2値だけで表示するようになっているので、ユーザーが自分でソースコードを変更しない限り、透明なボタンやテキストが画面に表示される詐欺から無縁になる。
+PCBもシンプルな2層基板を採用し、こちらも表と裏ですべての回路と、部品同士を接続する配線が見えるようになっている。このように、システム全体を通して、ユーザーがすべてのハードウェアとソフトウェアを検証できるようにするのが、Precursorの設計思想だ。
+
+
+セキュリティとユーザビリティのバランス
+「セキュリティを必要とし、セキュリティホールとなりうるのは人間なのだから、セキュリティにとっての最後の課題は、（多くのユーザーに使ってもらえるような）ちゃんとしたユーザビリティを備えることだ。」と語るバニーは、ユーザーが日常的に（使おうと思えば）使えることまで視野に入れてPrecursorをデザインしている。
+Hackable：仕様が公開され、Hackを推奨されているライセンスのハードウェアにはArduinoやRaspberry
+Piなどがある。
+Evidence-Based
+Trust：FPGAをCPUに採用し、さらに厳密な検証が可能な開発ボードも、「Fomu」などがある。
+Pocket-Ready：バッテリーやスクリーンを備えて単体動作するものにはスマートフォンがある。
+その３つの要素の重なるところにある、これまでにないハードウェアとしてPrecursorは設計されている。
+
+
+バニーはPrecursorを「検証可能な（Verifiable）ハードウェアのケーススタディ」と語る。その実験のターゲットには、こうした製品コンセプトも実験の対象といえる。
+
+
+Precursorはバニーのこれまでのキャリアの集大成
+バニーはハードウェアハッカー界の巨人だ。MITで学んだ学生時代のXboxハックと書籍出版、スタートアップとしてのChumby{.markup&ndash;anchor
+.markup&ndash;p-anchor}ハードウェアの設計、その量産過程で「スタートアップとして、中国でのハードウェア量産」に取り組んで成功させたこと。そしてその後自分のデザインスタジオSutajio
+Ko-Usagi（ロゴには日本語でスタジオ小兔とある）を立ち上げ、すべてオープンソースのラップトップNovena、中国の山寨コピー携帯を西洋のオープンソースライセンスの元で再構成しようと試みたプロジェクトfernvale、デジタルミレニアム著作権法をハックしてテレビ放送にTwitterなどを重ねて表示するためのハードウェアNeTV &mdash; &mdash;
+相棒のファームウェアエンジニアXobsと一緒に取り組んだこれらのプロジェクトは、「オープンハードウェアが社会に対して何を可能にするのか」を一つ一つ広げてきた。また、MITメディアラボの研究者として、研究プロジェクトを深圳で量産につなげる「Research
+at the
+Scale」を主導し、サンフランシスコに本拠を置くハードウェアアクセラレーターHAXのメンターとしてサポートしているハードウェアスタートアップは数え切れない。">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/fabcross/2025/03/post/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/fabcross/2025/03/post/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="ニコ技深セン / Nico-Tech Shenzhen website (Alt + H)">ニコ技深セン / Nico-Tech Shenzhen website</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/teardown/" title="Teardown">
+                    <span>Teardown</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/shenzhen/" title="Shenzhen">
+                    <span>Shenzhen</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/fabcross/" title="Fabcross">
+                    <span>Fabcross</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archive/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+                                    
+    </h1>
+    <div class="post-meta"><span title='2025-03-25 00:00:00 +0000 UTC'>March 25, 2025</span>
+
+</div>
+  </header> 
+<figure class="entry-cover">
+        <img loading="eager" src="https://cdn-images-1.medium.com/max/800/1*4iekX_bQ0x8KlZudhMMVnA.jpeg" alt="">
+        
+</figure>
+  <div class="post-content"><h1 id="信頼できるハードウェアをゼロから作る-バニーファンの挑戦" class="p-name">信頼できるハードウェアをゼロから作る &ldquo;バニー&quot;ファンの挑戦<a hidden class="anchor" aria-hidden="true" href="#信頼できるハードウェアをゼロから作る-バニーファンの挑戦">#</a></h1>
+<p>2021/06/01 07:00</p>
+<hr>
+<h3 id="faa0" class="graf graf--h3 graf--leading graf--title" name="faa0">信頼できるハードウェアをゼロから作る &ldquo;バニー&quot;ファンの挑戦<a hidden class="anchor" aria-hidden="true" href="#faa0">#</a></h3>
+<p>2021/06/01 07:00</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*4iekX_bQ0x8KlZudhMMVnA.jpeg" alt="（出典：&ldquo;バニー&quot;ファン）" loading="lazy" />
+</p>
+<p>「ハードウェアハッカー」（拙訳、山形浩生監訳、2018年技術評論社刊）の著者で、Chunbyほかいくつものオープンソースハードウェアを手掛けているMITメディアラボのアンドリュー&quot;バニー&quot;ファンは、「信頼できて、毎日使えるハードウェア」として「Precursor」というプロジェクトを始めた。クラウドファンディングサイトの<a href="https://www.crowdsupply.com/sutajio-kosagi/precursor"><strong>Crowdsupply</strong></a>{.markup&ndash;anchor
+.markup&ndash;p-anchor}では22万ドル（約2400万円）の目標に対して、40万ドル（約4300万円）を超える支持を集めている。</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*TAQBVkgjtFejs14MlrT0zg.jpeg" alt="オープンソースハードウェアに特化したクラウドファンディングサイトCrowdsupplyで、Precursorは565ドルでプレオーダー受付中。" loading="lazy" />
+</p>
+<p>オンラインで行われた東南アジア最大のオープンソースイベントFOSSASIAで3月14日、バニーが語った情報をもとに、Precursorについて紹介する。<a href="https://eventyay.com/e/fa96ae2c/session/6826"><strong>スライドの全文</strong></a>{.markup&ndash;anchor
+.markup&ndash;p-anchor}もダウンロードできる。</p>
+<h3 id="b1c3" class="graf graf--h3 graf-after--p" name="b1c3">ほぼ完全にオープンソースで検証可能なハードウェア<a hidden class="anchor" aria-hidden="true" href="#b1c3">#</a></h3>
+<p>Precursorは携帯電話のような見た目だがSIMカードは入らず、電話機能はない。外部とのインターフェースも最小限で、USBとWi-Fiがあるだけだ。スクリーンも白黒の液晶で、CPUはWebブラウザを動かすのも難しい非力な性能
+(「XC7S50」わずか100MHz)しかない。バニー自ら「BlackBerry
+6210」「ニンテンドーDS」「Palm Treo
+600」といった2002～2005年頃のハードウェアとの比較表を載せ、「だいたい同じ」と説明している。</p>
+<p>「ほぼ15年前の性能しかないハードウェアをなぜいま改めて作るのか？
+それは、&ldquo;本当に信頼できるハードウェア&quot;のためだ」とバニーは語る。</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*Y08ulB7wMOjJiLiW3Ifzvw.jpeg" alt="「イヤホンでさえ億を超えるトランジスターが入っている複雑なシステムになっている。これがハードウェアのセキュリティをより不透明にしている」と語るバニー。（出典：&ldquo;バニー&quot;ファン{.markup&ndash;anchor .markup&ndash;figure-anchor}）" loading="lazy" />
+</p>
+<h3 id="c80a" class="graf graf--h3 graf-after--figure" name="c80a">セキュリティのための究極にオープンなハードウェア<a hidden class="anchor" aria-hidden="true" href="#c80a">#</a></h3>
+<p>「ファーウェイのスパイチップ疑惑など、ハードウェアのセキュリティに疑問が持たれている。いままでどのエンジニアも、スパイチップそのものを発見して公表した人はいないけど、それは&quot;この世にない&quot;という証明にならない。ハードウェアはソフトウェアと違い、一つ一つの個体が違うから、どこにもないことの証明は、どこかにあることの証明よりずっと難しい。ならば、完全に証明・検証できるハードウェアで、パスワードマネージャーや仮想通貨のウォレットなどを作ろうと思った」</p>
+<p>とバニーはPrecursorの設計思想を説明する。その結果実現したハードウェア仕様は、平凡な性能からは思いもよらないとがったものだ。</p>
+<p>CPUは論理回路をプログラムで構成できるFPGA、XilinxのXC7S50を採用し、FPGA上にプログラムでRISC-VのCPUを構築する。このソースコードは公開されていて検証可能だ。CPUの構造を可視化しただけでなく、Precursorはシステム全体をユーザーが検証できるように設計されている。</p>
+<p>「僕がチップ部品を作ったのでなくて、端末そのものを作ったのは、情報は部品と部品の間で受け渡されるから、そこを検証可能にするためだ」とバニーは語る。その検証可能性は、PCB（プリント基板）だけでなくディスプレイやキーボード、全てのパーツに及ぶ。</p>
+<h3 id="867b" class="graf graf--h3 graf-after--p" name="867b">チップを１つも使わないキーボードとディスプレイ<a hidden class="anchor" aria-hidden="true" href="#867b">#</a></h3>
+<p>キーロガーと呼ばれるようなプログラムがキーボード入力を盗んでパスワード等を盗まれる事例はある。ソフトウェアで実施されることもあるが、ハードウェア側にチップを仕込む場合もある。そこでPrecursorはチップを使わないキーボードをこのために専用設計し、組み込んである。これによりキー入力について検証可能なハードウェアとなる。</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*XUf5f3tP2MAxTn7WlXRalA.jpeg" alt="チップを1つも使わず、CPU（FPGA）に直結するキーボード。（出典：&ldquo;バニー&quot;ファン{.markup&ndash;anchor .markup&ndash;figure-anchor}）" loading="lazy" />
+</p>
+<p>キー入力が検証可能なように、画面出力も検証可能にしてある。Precursorは解像度336×536のモノクロディスプレイを採用している。15年前のPalmやゲーム機でもカラー液晶が当たり前だったのに、ニンテンドーDSなどに比べると高解像度とはいえ、今の時代にモノクロディスプレイを採用したのは、こちらも検証可能性のためだ。</p>
+<p>画面の描画のためには、画面の側にもLCDコントローラーのようなマイコンチップを備え、チップ上のフレームバッファに画面に表示されるデータを蓄積し、一気に書き換える。そのマイコンチップが情報を改変する可能性はゼロではない。そこでPrecursorはLCDコントローラーやフレームバッファを持たず、FPGA上にオープンソースで組み上げた、CPUから直接駆動するモノクロディスプレイを採用した。出荷時の状態では白黒2値だけで表示するようになっているので、ユーザーが自分でソースコードを変更しない限り、透明なボタンやテキストが画面に表示される詐欺から無縁になる。</p>
+<p>PCBもシンプルな2層基板を採用し、こちらも表と裏ですべての回路と、部品同士を接続する配線が見えるようになっている。このように、システム全体を通して、ユーザーがすべてのハードウェアとソフトウェアを検証できるようにするのが、Precursorの設計思想だ。</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*4iekX_bQ0x8KlZudhMMVnA.jpeg" alt="チップそのもの、チップのファームウェア、チップ間の接続など、ハードウェアとソフトウェアが組み合わさったシステム全体を検証可能にするのがPrecusorのコンセプトだ。（出典：&ldquo;バニー&quot;ファン{.markup&ndash;anchor .markup&ndash;figure-anchor}）" loading="lazy" />
+</p>
+<h3 id="7109" class="graf graf--h3 graf-after--figure" name="7109">セキュリティとユーザビリティのバランス<a hidden class="anchor" aria-hidden="true" href="#7109">#</a></h3>
+<p>「セキュリティを必要とし、セキュリティホールとなりうるのは人間なのだから、セキュリティにとっての最後の課題は、（多くのユーザーに使ってもらえるような）ちゃんとしたユーザビリティを備えることだ。」と語るバニーは、ユーザーが日常的に（使おうと思えば）使えることまで視野に入れてPrecursorをデザインしている。</p>
+<p><strong>Hackable</strong>：仕様が公開され、Hackを推奨されているライセンスのハードウェアにはArduinoやRaspberry
+Piなどがある。<br>
+<strong>Evidence-Based
+Trust</strong>：FPGAをCPUに採用し、さらに厳密な検証が可能な開発ボードも、「Fomu」などがある。<br>
+<strong>Pocket-Ready</strong>：バッテリーやスクリーンを備えて単体動作するものにはスマートフォンがある。</p>
+<p>その３つの要素の重なるところにある、これまでにないハードウェアとしてPrecursorは設計されている。</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*B3jezNak-XIw6vLqTLqyrg.jpeg" alt="オープンネスと実用性のバランスを狙ったPrecursorの製品コンセプト。（出典：&ldquo;バニー&quot;ファン{.markup&ndash;anchor .markup&ndash;figure-anchor}）" loading="lazy" />
+</p>
+<p>バニーはPrecursorを「検証可能な（Verifiable）ハードウェアのケーススタディ」と語る。その実験のターゲットには、こうした製品コンセプトも実験の対象といえる。</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*78TRYnQLyIXsdt5XKAcoxA.jpeg" alt="ボディの材質や形状についても試作と修正が繰り返されている。バニーは「コンセプトを煮詰める段階でも量産設計でも、何度もそれぞれゼロから作ることを繰り返すことで全体を見直し、良い方向に進める」と自著「ハードウェアハッカー」で語っている。（出典：&ldquo;バニー&quot;ファン{.markup&ndash;anchor .markup&ndash;figure-anchor}）" loading="lazy" />
+</p>
+<h3 id="25cb" class="graf graf--h3 graf-after--figure" name="25cb">Precursorはバニーのこれまでのキャリアの集大成<a hidden class="anchor" aria-hidden="true" href="#25cb">#</a></h3>
+<p>バニーはハードウェアハッカー界の巨人だ。MITで学んだ学生時代のXboxハックと書籍出版、スタートアップとしての<a href="https://fabcross.jp/topics/tks/20181108_moore.html"><strong>Chumby</strong></a>{.markup&ndash;anchor
+.markup&ndash;p-anchor}ハードウェアの設計、その量産過程で「スタートアップとして、中国でのハードウェア量産」に取り組んで成功させたこと。そしてその後自分のデザインスタジオSutajio
+Ko-Usagi（ロゴには日本語でスタジオ小兔とある）を立ち上げ、すべてオープンソースのラップトップNovena、中国の山寨コピー携帯を西洋のオープンソースライセンスの元で再構成しようと試みたプロジェクトfernvale、デジタルミレニアム著作権法をハックしてテレビ放送にTwitterなどを重ねて表示するためのハードウェアNeTV &mdash; &mdash;
+相棒のファームウェアエンジニアXobsと一緒に取り組んだこれらのプロジェクトは、「オープンハードウェアが社会に対して何を可能にするのか」を一つ一つ広げてきた。また、MITメディアラボの研究者として、研究プロジェクトを深圳で量産につなげる「Research
+at the
+Scale」を主導し、サンフランシスコに本拠を置くハードウェアアクセラレーターHAXのメンターとしてサポートしているハードウェアスタートアップは数え切れない。</p>
+<p>Precursorは、オープンハードウェアを作ることで社会に対して問う、これまでのバニーのキャリアが集大成されていると感じる。完全にオープンソースでハッカブルなハードウェアという考え方はChunbyやNovenaと、世の中で見落としているコンピューターの課題に解決策を提示するという点はNeTVやfernvaleと共通するものだ。</p>
+<p>現在Precursorはクラウドファンディングでは目標190％に当たる41万8559ドルを集めているが、台数でいうと508台にすぎない。ほぼPDAと呼べるような複雑なハードウェアを、チップやあらゆる部品、筐体、中のOS、そして量産設計までコントロールしてごく少数の量産を1年かからずに成功させるのは神業と言えるだろう。</p>
+<p>By <a href="https://medium.com/@tks">TAKASU Masakazu/高須正和</a>{.p-author
+.h-card} on <a href="https://medium.com/p/9de93ea6ae3a">March 25, 2025</a>.</p>
+<p><a href="https://medium.com/@tks/20210601-9de93ea6ae3a">Canonical
+link</a>{.p-canonical}</p>
+<p>Exported from <a href="https://medium.com">Medium</a> on February 6, 2026.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">ニコ技深セン / Nico-Tech Shenzhen website</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

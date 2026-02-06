@@ -1,5 +1,8 @@
 ---
 title: "See you in Maker Faire Bay Area  TAKASU   Nico Tech Shenzhen Community Monthly news May 2019"
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*M3k4kv4yPxOkTy-HYuM0Pw.jpeg"
+  relative: false
 aliases: ["/2019/04/see-you-in-maker-faire-bay-area-takasu-nico-tech-shenzhen-community-monthly-news-may-2019/"]
 slug: see-you-in-maker-faire-bay-area-takasu-nico-tech-shenzhen-community-monthly-news-may-2019
 date: 2019-04-30
@@ -16,7 +19,7 @@ to Beirut, and any other North Africa and Middle East area. Looks...
 
 ### See you in Maker Faire Bay Area! TAKASU & Nico-Tech Shenzhen Community Monthly news May/2019 {#3b31 .graf .graf--h3 .graf--leading .graf--title name="3b31"}
 
-![](https://cdn-images-1.medium.com/max/800/1*M3k4kv4yPxOkTy-HYuM0Pw.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*M3k4kv4yPxOkTy-HYuM0Pw.jpeg)
 
 My maker faire journey in April is Beirut. There is the first time trip
 to Beirut, and any other North Africa and Middle East area.\

@@ -1,5 +1,8 @@
 ---
 title: "   Maker                  4    Maker Faire Mini Maker Faire    2016    "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*pZQkTXGOcNcjvjYh3HEHFw.jpeg"
+  relative: false
 aliases: ["/2025/03/maker-4-maker-faire-mini-maker-faire-2016/"]
 slug: maker-4-maker-faire-mini-maker-faire-2016
 date: 2025-03-21
@@ -17,7 +20,7 @@ date: 2025-03-21
 
 2017/01/24 08:00
 
-![](https://cdn-images-1.medium.com/max/800/1*pZQkTXGOcNcjvjYh3HEHFw.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*pZQkTXGOcNcjvjYh3HEHFw.jpeg)
 
 三国志の蜀の都、諸葛孔明を祀る武候祠があり、パンダや麻婆豆腐といった名物でも有名な四川省の成都で「Mini
 Maker Faire 成都 2016」が開かれた。
@@ -39,9 +42,9 @@ Faire**](https://www.facebook.com/events/120039931803577/){.markup--anchor
 Faireとなる。
 
 ![成都にMaker
-Faireがやってきた！](https://cdn-images-1.medium.com/max/800/1*28djNdTbYnXWIKd9o0kduQ.jpeg){.graf-image}
+Faireがやってきた！](https://cdn-images-1.medium.com/max/800/1*28djNdTbYnXWIKd9o0kduQ.jpeg)
 
-![会場は映画館やライブバー、アニメショップなどが集められた文化地区。](https://cdn-images-1.medium.com/max/800/1*iZYWNlIFnZuGPQXy2KM_rQ.jpeg){.graf-image}
+![会場は映画館やライブバー、アニメショップなどが集められた文化地区。](https://cdn-images-1.medium.com/max/800/1*iZYWNlIFnZuGPQXy2KM_rQ.jpeg)
 
 会場になった[**东郊记忆（成都 Easten Suburb
 Memoly）**](http://www.eastcd.com/){.markup--anchor
@@ -51,9 +54,9 @@ Faireは、100組の出展者、11万人の来場者を集めた。もともと�
 Faireは「街のみんなのもの」と感じる。
 
 ![音楽の盛んな成都らしく、Maker
-Faire会場の中に巨大な野外ステージが作られ、地元のバンドがライブを行う。](https://cdn-images-1.medium.com/max/800/1*LcfkCDOfKxfPsgqKcRxQxQ.jpeg){.graf-image}
+Faire会場の中に巨大な野外ステージが作られ、地元のバンドがライブを行う。](https://cdn-images-1.medium.com/max/800/1*LcfkCDOfKxfPsgqKcRxQxQ.jpeg)
 
-![ロボットコンテストも大人気。中国全土でいまロボットコンテストが人気で、各地区で行われているほか、DJIなどの大企業が開くものもある。ロボコン関連のテレビ番組も多い。](https://cdn-images-1.medium.com/max/800/1*dljZ9cSnv3jGH5txWrGPRw.jpeg){.graf-image}
+![ロボットコンテストも大人気。中国全土でいまロボットコンテストが人気で、各地区で行われているほか、DJIなどの大企業が開くものもある。ロボコン関連のテレビ番組も多い。](https://cdn-images-1.medium.com/max/800/1*dljZ9cSnv3jGH5txWrGPRw.jpeg)
 
 ### 文化・教育・伝統工芸など多様な出展物 {#6890 .graf .graf--h3 .graf-after--figure name="6890"}
 
@@ -69,24 +72,24 @@ Faireの出展物もそれを反映していると感じた。
 成都の市内の別の場所では、日本のデザインフェスタ的なハンドクラフトの展示会が行われていた。市内のいろいろな場所でライブ演奏を見かけ、公園ではさまざまな文化活動が行われている。深センは真夜中まで車が走り店が開いていて、人々は働くのに夢中な印象を受けるが、成都には日常生活がある。
 
 ![学生メイカソンで中学生が作った、WeChat（中国のSNS）で注文するとお菓子が落ちてくる自動販売機。いかにもMaker
-Faireらしい出展物。](https://cdn-images-1.medium.com/max/800/1*9A84M46hek7nVWhvJ2omcQ.jpeg){.graf-image}
+Faireらしい出展物。](https://cdn-images-1.medium.com/max/800/1*9A84M46hek7nVWhvJ2omcQ.jpeg)
 
-![HAXのプログラムにも参加している、一つ一つのボールが組み合わさってロボットを形作るセルロボット。まだボールごとに役割が違うが、将来的には映画「ベイマックス」に出てきたもののように、全パーツが一様になって何でも作れる姿を想起させる。](https://cdn-images-1.medium.com/max/800/1*CW1I-KpPn6e17EEBdQ8yLw.jpeg){.graf-image}
+![HAXのプログラムにも参加している、一つ一つのボールが組み合わさってロボットを形作るセルロボット。まだボールごとに役割が違うが、将来的には映画「ベイマックス」に出てきたもののように、全パーツが一様になって何でも作れる姿を想起させる。](https://cdn-images-1.medium.com/max/800/1*CW1I-KpPn6e17EEBdQ8yLw.jpeg)
 
-![スマホを頭部にし、サーボやモーターでできた身体を接続する教育ツールIRONBOT。他にもMaker教育用のツールを作っている会社が多く出展していた。](https://cdn-images-1.medium.com/max/800/1*NRJnLdpaeA5JfTVKNvhQww.jpeg){.graf-image}
+![スマホを頭部にし、サーボやモーターでできた身体を接続する教育ツールIRONBOT。他にもMaker教育用のツールを作っている会社が多く出展していた。](https://cdn-images-1.medium.com/max/800/1*NRJnLdpaeA5JfTVKNvhQww.jpeg)
 
-![ライブペインティング。左の写真のように土曜日1日をかけて、メイカーフェアのグラフィティが描かれていた。](https://cdn-images-1.medium.com/max/800/1*Vw0kNf-JTd-QG9bP4Foruw.jpeg){.graf-image}
+![ライブペインティング。左の写真のように土曜日1日をかけて、メイカーフェアのグラフィティが描かれていた。](https://cdn-images-1.medium.com/max/800/1*Vw0kNf-JTd-QG9bP4Foruw.jpeg)
 
 ![個人的に最も興味を引かれたのはこれ。残念ながら作者と話すことができなかったが、なぜMaker
-Faireに泥で作った家を出展しようとしたのかぜひ聞いてみたかった。](https://cdn-images-1.medium.com/max/800/1*oQSvtH2NSkyuLx-FL3lxsw.jpeg){.graf-image}
+Faireに泥で作った家を出展しようとしたのかぜひ聞いてみたかった。](https://cdn-images-1.medium.com/max/800/1*oQSvtH2NSkyuLx-FL3lxsw.jpeg)
 
-![ストローを使って構造体を作るStrawBeesを用いたワークショップ。4～5つほど用意されたワークショップブースでは、多くのワークショップが行われていた。](https://cdn-images-1.medium.com/max/800/1*mn2sXKDJz53iyu1w0iam6Q.jpeg){.graf-image}
+![ストローを使って構造体を作るStrawBeesを用いたワークショップ。4～5つほど用意されたワークショップブースでは、多くのワークショップが行われていた。](https://cdn-images-1.medium.com/max/800/1*mn2sXKDJz53iyu1w0iam6Q.jpeg)
 
-![成都の伝統工芸である切り絵。](https://cdn-images-1.medium.com/max/800/1*oZxq3Q95etf1MxyB9G6SkA.jpeg){.graf-image}
+![成都の伝統工芸である切り絵。](https://cdn-images-1.medium.com/max/800/1*oZxq3Q95etf1MxyB9G6SkA.jpeg)
 
-![同じく伝統工芸である竹細工。](https://cdn-images-1.medium.com/max/800/1*iyjxm2fyIycg5_NUA6UeQg.jpeg){.graf-image}
+![同じく伝統工芸である竹細工。](https://cdn-images-1.medium.com/max/800/1*iyjxm2fyIycg5_NUA6UeQg.jpeg)
 
-![カスタマイズした人形。](https://cdn-images-1.medium.com/max/800/1*68rH7qzh2ATBdBPtA1-u-Q.jpeg){.graf-image}
+![カスタマイズした人形。](https://cdn-images-1.medium.com/max/800/1*68rH7qzh2ATBdBPtA1-u-Q.jpeg)
 
 伝統工芸やハンドクラフトは、深センのMaker
 Faireではほとんど見なかったものだ。逆に2015年に訪ねた北京のMini Maker
@@ -108,11 +111,11 @@ Make**](http://www.teachmetomake.com/){.markup--anchor
 .markup--p-anchor}といった世界各地のMaker
 Faireでおなじみの顔ぶれが成都に集まった。いずれもスタートアップや大きな利益を生み出している人たちではなく、自分の興味をつきつめて多くの人を引き付けるに至ったプロジェクトたちで、成都の人たちも引き付けていた。
 
-![ロボットプロレスの毎回の公演は大人気。](https://cdn-images-1.medium.com/max/800/1*pZQkTXGOcNcjvjYh3HEHFw.jpeg){.graf-image}
+![ロボットプロレスの毎回の公演は大人気。](https://cdn-images-1.medium.com/max/800/1*pZQkTXGOcNcjvjYh3HEHFw.jpeg)
 
-![カナダからのMakeFasionは成都のクリエイターたちとファッションショーを行った。](https://cdn-images-1.medium.com/max/800/1*X3wkBdWl_opWdMiJvPCKPQ.jpeg){.graf-image}
+![カナダからのMakeFasionは成都のクリエイターたちとファッションショーを行った。](https://cdn-images-1.medium.com/max/800/1*X3wkBdWl_opWdMiJvPCKPQ.jpeg)
 
-![MakeMediaのデールも講演を行った。「MakerマインドはCando,できるということ。成都(ChengDu)はCandoに通じる」](https://cdn-images-1.medium.com/max/800/1*zwBoR6Y7q29jnxqyhBTozw.jpeg){.graf-image}
+![MakeMediaのデールも講演を行った。「MakerマインドはCando,できるということ。成都(ChengDu)はCandoに通じる」](https://cdn-images-1.medium.com/max/800/1*zwBoR6Y7q29jnxqyhBTozw.jpeg)
 
 ### 成都でMaker Faireを開くに至った「天の時・地の利・人の和」 {#3f32 .graf .graf--h3 .graf-after--figure name="3f32"}
 
@@ -143,15 +146,15 @@ Communication」に、Seeedの姿勢が明確に表れている。スタート�
 > ***人の和：****\
 > ローカルコミュニティが多く、メイカーブーム前から活動しているメイカーたちが多く住む*
 
-![成都の地の利について語るエリック・パン。彼は社会人としてのキャリアを成都のIntelでスタートしており、この街の感覚がある。](https://cdn-images-1.medium.com/max/800/1*SrtK75oNcHsRVK7lYsm3-Q.jpeg){.graf-image}
+![成都の地の利について語るエリック・パン。彼は社会人としてのキャリアを成都のIntelでスタートしており、この街の感覚がある。](https://cdn-images-1.medium.com/max/800/1*SrtK75oNcHsRVK7lYsm3-Q.jpeg)
 
 ![成都と深センのキャラクターの違い。（筆者が東京大学でのイベント：[メイカーズ×アジア](http://ch.nicovideo.jp/tks/blomaga/ar1156630){.markup--anchor
 .markup--figure-anchor}でのプレゼン時に制作。資料全文は[こちら](http://www.slideshare.net/takasu/ss-70080020){.markup--anchor
-.markup--figure-anchor}）](https://cdn-images-1.medium.com/max/800/1*SPxjZtaE2xEimFuFlT7_AQ.jpeg){.graf-image}
+.markup--figure-anchor}）](https://cdn-images-1.medium.com/max/800/1*SPxjZtaE2xEimFuFlT7_AQ.jpeg)
 
 深センがスタートアップを起こしたMakerがスケールするための場所であるなら、成都は人々が新しいことを学び、Makerに「なる」ための場所として適しているとエリックは考えている。実際にそのあとの数日で、2015年以前から長く活動するメイカースペースをいくつも見た。
 
-![成都の武侯区にあるメイカースペース「木牛流馬」2013年から活動している。武侯とは三国志の諸葛孔明のことで、木牛流馬は孔明が発明した木製のロボット馬のこと。](https://cdn-images-1.medium.com/max/800/1*ts-76q3gIZjd3hyBeoRxQw.jpeg){.graf-image}
+![成都の武侯区にあるメイカースペース「木牛流馬」2013年から活動している。武侯とは三国志の諸葛孔明のことで、木牛流馬は孔明が発明した木製のロボット馬のこと。](https://cdn-images-1.medium.com/max/800/1*ts-76q3gIZjd3hyBeoRxQw.jpeg)
 
 中国とひとことで言っても、14億の人々がいる広大な場所である。\
 場所ごとに異なる長い歴史と、多くの民族や文化がある。実際にMaker Faire

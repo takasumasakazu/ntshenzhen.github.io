@@ -1,5 +1,8 @@
 ---
 title: "                   Maker Faire Singapore 2016"
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*qgjCDqJJzn5vOI9PflMVOQ.jpeg"
+  relative: false
 aliases: ["/2025/03/maker-faire-singapore-2016/"]
 slug: maker-faire-singapore-2016
 date: 2025-03-21
@@ -17,7 +20,7 @@ date: 2025-03-21
 
 2016/09/07 08:00
 
-![](https://cdn-images-1.medium.com/max/800/1*qgjCDqJJzn5vOI9PflMVOQ.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*qgjCDqJJzn5vOI9PflMVOQ.jpeg)
 
 
 ------------------------------------------------------------------------
@@ -45,7 +48,7 @@ Faireは、2014年からMiniの取れたFeatured Faireとなった。
 
 ![Maker Faire Singapore
 2016キックオフで紹介されたOverviewには、シンガポールのMaker
-Faireの急発展ぶりが示されている。](https://cdn-images-1.medium.com/max/800/1*G2MYxoAtsmevSGmCmPSTag.jpeg){.graf-image}
+Faireの急発展ぶりが示されている。](https://cdn-images-1.medium.com/max/800/1*G2MYxoAtsmevSGmCmPSTag.jpeg)
 
 2015年の時点で、出展者は500を超え、来場者は1万2000人に届く。この小さいシンガポールに、25ものMaker
 Spaceが生まれている。Maker Faire
@@ -71,7 +74,7 @@ Faireは、今年は6月23～25日の週末、シンガポールのSUTD（Singap
 University Technology and Design）で開催された。
 
 ![会場のSUTD（Singapore University Technology and
-Design）は超近代的なキャンパス。MITと単位互換が行われている世界でも珍しい大学である。](https://cdn-images-1.medium.com/max/800/1*nhVVeXwZDYBvghlC7O8xrA.jpeg){.graf-image}
+Design）は超近代的なキャンパス。MITと単位互換が行われている世界でも珍しい大学である。](https://cdn-images-1.medium.com/max/800/1*nhVVeXwZDYBvghlC7O8xrA.jpeg)
 
 ### ヴィヴィアン大臣が語る「テクノロジーの普及により、Makeはみんなのものとなった」 {#f9d6 .graf .graf--h3 .graf-after--figure name="f9d6"}
 
@@ -82,7 +85,7 @@ Singaporeの初日夜には、外務大臣にしてスマートネーション�
 Piや電子工作を用いてさまざまな開発をするMakerとして有名で、シンガポールのMakerたちの愛と尊敬を集めている。
 
 ![ポケットからRaspberry Pi
-Zeroを取り出すヴィヴィアン大臣。](https://cdn-images-1.medium.com/max/800/1*OMxNNs3B3V8fS4D0vHQD8w.jpeg){.graf-image}
+Zeroを取り出すヴィヴィアン大臣。](https://cdn-images-1.medium.com/max/800/1*OMxNNs3B3V8fS4D0vHQD8w.jpeg)
 
 途中でRaspberry Pi
 Zeroを大臣はポケットからを取り出した大臣の短いスピーチは、シンガポールのMakeに対する姿勢を明確に表すものだった。
@@ -93,7 +96,7 @@ Zeroを大臣はポケットからを取り出した大臣の短いスピーチ�
 
 > *「自分で考えて作る」ことこそが人間の次の世代の仕事だ。Makingは今や限られた特殊な人たちがやるものではなく、みんながやるものになった。*
 
-![子供たちのプロジェクトに興味深く質問するヴィヴィアン大臣。](https://cdn-images-1.medium.com/max/800/1*89cocFwCS5-C_ZMcInZtYw.jpeg){.graf-image}
+![子供たちのプロジェクトに興味深く質問するヴィヴィアン大臣。](https://cdn-images-1.medium.com/max/800/1*89cocFwCS5-C_ZMcInZtYw.jpeg)
 
 その後、大臣は時間を大幅に超過してほぼ全ブースを丁寧に見て回っていた。この日6月23日は、イギリスのEU離脱投票が決まったまさにその日で、朝から世界は大騒ぎだった。外務大臣がこの日Maker
 Faireに3時間いたのは、世界でシンガポールだけだと思う。
@@ -103,23 +106,23 @@ Faire本番では、ヤコブ・イムラヒム情報通信担当大臣がセレ
 Faireに訪れるのも、シンガポール以外の国では珍しい風景だと思う。
 
 ![ヤコブ・イムラヒム大臣は、今年のMaker
-Faireに協力した人たちへの表彰も行った。ニコニコ技術部もコミュニティパートナーとして表彰を受けた。](https://cdn-images-1.medium.com/max/800/1*3g8zuvAy56Qwkg02QKE6FA.jpeg){.graf-image}
+Faireに協力した人たちへの表彰も行った。ニコニコ技術部もコミュニティパートナーとして表彰を受けた。](https://cdn-images-1.medium.com/max/800/1*3g8zuvAy56Qwkg02QKE6FA.jpeg)
 
 ### 「オカンアート」とクラフトコーナー、シンガポールのホビーが花開く {#eb46 .graf .graf--h3 .graf-after--figure name="eb46"}
 
 もちろん、政治家や官僚だけが盛り上がっているわけではない。華人の多いシンガポールほかマレー半島では、伝統的に手芸やハンドクラフトの文化があった。金融国家となった今もクラフト「オカンアート」などを楽しむシンガポール人は多い。Maker
 Faire Singaporeでも、1フロアがまるごとクラフトゾーンにあてられていた。
 
-![手作りアクセサリー、手芸による子ども服や袋。](https://cdn-images-1.medium.com/max/800/1*bUTHOfvANlNKDgB51b4qJQ.jpeg){.graf-image}
+![手作りアクセサリー、手芸による子ども服や袋。](https://cdn-images-1.medium.com/max/800/1*bUTHOfvANlNKDgB51b4qJQ.jpeg)
 
 ここに見られるような作品たちは売られているものもあるが、最初からビジネスを考えて作ったというより、もともと得意で好きだったアクセサリー作りや手芸が高じて拡大してきた、まさに[**オカンアート**](https://ja.wikipedia.org/wiki/%E3%82%AA%E3%82%AB%E3%83%B3%E3%82%A2%E3%83%BC%E3%83%88){.markup--anchor
 .markup--p-anchor}的なクラフトによって作られたものだ。オカンアートは主婦の工作全般と、情念と暇つぶしのみで作った工作（ドアノブの手芸カバーとか）が家中を埋め尽くす様子を表した単語だが、シンガポールのそれは他人に見せて売ることも考えているせいか、もう少し洗練されたものが目立つ。
 
-![中国語のカリグラフィを扇子に書いている。](https://cdn-images-1.medium.com/max/800/1*a9-WAAKYporJkJpZcYkmNQ.jpeg){.graf-image}
+![中国語のカリグラフィを扇子に書いている。](https://cdn-images-1.medium.com/max/800/1*a9-WAAKYporJkJpZcYkmNQ.jpeg)
 
 これはまさに伝統芸の、中華の書を扇子に書くブース。シンガポールで見られる中国語は簡体字も多いが、書の対象になるのは伝統的な字体のものだ。ブース全体の写真にあるバナーを見ればわかるように、これは伝統芸能というよりコスプレの文脈から出てきている。シンガポールはコスプレ大国でもあり、大規模なコスプレイベントが開かれている。
 
-![手芸の編みぐるみ](https://cdn-images-1.medium.com/max/800/1*VicOol1bOAK9u82RE1abOA.jpeg){.graf-image}
+![手芸の編みぐるみ](https://cdn-images-1.medium.com/max/800/1*VicOol1bOAK9u82RE1abOA.jpeg)
 
 こちらは手芸の編みぐるみで、ゲリラ的にMaker
 Faireの会場を編み進めていく、日本でいう[**203gow**](http://203gow.weebly.com/){.markup--anchor
@@ -135,13 +138,13 @@ Faireと聞いたときに予想するようなブースも多く見られる。
 .markup--p-anchor}したウィリアム・フーイのESPertも、もちろんホームグラウンドであるシンガポールのMaker
 Faireにブースを構えている。
 
-![アイデアをプロトタイプに、そしてプロダクトにするのを助けるツールキット＋サービスを手がけるESPertのブース。](https://cdn-images-1.medium.com/max/800/1*LeFX8CFitQbIN51K37jYsQ.jpeg){.graf-image}
+![アイデアをプロトタイプに、そしてプロダクトにするのを助けるツールキット＋サービスを手がけるESPertのブース。](https://cdn-images-1.medium.com/max/800/1*LeFX8CFitQbIN51K37jYsQ.jpeg)
 
 今回のMaker Faireは、シンガポールでMaker
 Faireが立ち上がって5回目ということで、初回から関わっている人たちは表彰を受けている。ウィリアムは最初のFaireの発起人であり、大きな拍手を受けていた。ESPartのまわりにも古参のMakerたちがあつまり、どの国のフェアにも共通する「Maker
 Faireっぽい」空間ができている。
 
-![通販サイト12GEEKSのブース](https://cdn-images-1.medium.com/max/800/1*esCsE5qcUekrNnLNm1sJlg.jpeg){.graf-image}
+![通販サイト12GEEKSのブース](https://cdn-images-1.medium.com/max/800/1*esCsE5qcUekrNnLNm1sJlg.jpeg)
 
 [**Hackerspace Singapore**](https://hackerspace.sg/){.markup--anchor
 .markup--p-anchor}のメンバーが運営する通販サイト[**12GEEKS**](https://12geeks.com/shop/){.markup--anchor

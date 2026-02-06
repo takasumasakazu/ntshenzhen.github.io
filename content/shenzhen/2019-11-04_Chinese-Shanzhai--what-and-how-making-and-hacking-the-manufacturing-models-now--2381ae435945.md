@@ -1,5 +1,8 @@
 ---
 title: "Chinese Shanzhai  what and how making and hacking the manufacturing models now "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*k5yclApcAnM5PhKiQIek7A.jpeg"
+  relative: false
 aliases: ["/2019/11/chinese-shanzhai-what-and-how-making-and-hacking-the-manufacturing-models-now/"]
 slug: chinese-shanzhai-what-and-how-making-and-hacking-the-manufacturing-models-now
 date: 2019-11-04
@@ -51,7 +54,7 @@ Xiamen, and Shenzhen. Shanghai and Xiamen are most of SoC company like
 Qualcomm, MediaTek, Intel, Shenzhen is the most of cellphone company.
 
 ![These are all
-cell phone.](https://cdn-images-1.medium.com/max/800/1*k5yclApcAnM5PhKiQIek7A.jpeg){.graf-image}
+cell phone.](https://cdn-images-1.medium.com/max/800/1*k5yclApcAnM5PhKiQIek7A.jpeg)
 
 **Glow and distilled**
 
@@ -81,7 +84,7 @@ Chinese tech giants still use IDH. 80% Xiaomi\`s smartphones design that
 outsourced by IDH, also Lenovo\` 70%, TCL:25%, Meizu:95%, Huawei:38%...
 
 ![Outsource
-late](https://cdn-images-1.medium.com/max/800/1*3edrHPzblAozn6VS4slJyA.jpeg){.graf-image}
+late](https://cdn-images-1.medium.com/max/800/1*3edrHPzblAozn6VS4slJyA.jpeg)
 
 **Why they Chinese tech giants can outsource, but Apple cannot?**
 
@@ -109,14 +112,14 @@ design resource by PCBA, and Rip, Mix, Burn, then made them Original
 product.
 
 ![the robot
-called mandy](https://cdn-images-1.medium.com/max/800/1*OyF-2vwfFCWULVyfzZ61Wg.jpeg){.graf-image}
+called mandy](https://cdn-images-1.medium.com/max/800/1*OyF-2vwfFCWULVyfzZ61Wg.jpeg)
 
 Each commodity technology is under Moore\`s law. They showed them idea
 to profit ASAP. That is the reason why Cityeasy running two sales
 channels, PCBA for B2B and product for B2C.
 
 ![Cityeasy also
-sold PCBA](https://cdn-images-1.medium.com/max/800/1*pthVRt0XSsta7Iy3uxHAug.jpeg){.graf-image}
+sold PCBA](https://cdn-images-1.medium.com/max/800/1*pthVRt0XSsta7Iy3uxHAug.jpeg)
 
 This is the backstage, why many new hardware products came from quickly
 from Shenhzen.

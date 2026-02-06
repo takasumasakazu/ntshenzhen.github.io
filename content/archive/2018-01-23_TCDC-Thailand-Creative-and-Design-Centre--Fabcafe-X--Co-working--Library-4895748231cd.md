@@ -1,5 +1,8 @@
 ---
 title: "TCDC Thailand Creative and Design Centre  Fabcafe X  Co working  Library"
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*JGehv_tQZSxNyQKpWxM4XQ.jpeg"
+  relative: false
 aliases: ["/2018/01/tcdc-thailand-creative-and-design-centre-fabcafe-x-co-working-library/"]
 slug: tcdc-thailand-creative-and-design-centre-fabcafe-x-co-working-library
 date: 2018-01-23
@@ -33,7 +36,7 @@ Thanks for Khun and Kalala, we inspired a lot of things from TCDC.
 Design and Entrepreneurship in Bangkok is growing so rapidly! I saw a
 many of design startup already and Endress opportunity about that.
 
-![](https://cdn-images-1.medium.com/max/800/1*JGehv_tQZSxNyQKpWxM4XQ.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*JGehv_tQZSxNyQKpWxM4XQ.jpeg)
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [January 23, 2018](https://medium.com/p/4895748231cd).

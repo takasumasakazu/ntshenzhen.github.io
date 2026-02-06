@@ -1,5 +1,8 @@
 ---
 title: "Augment the Future                                "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*JySyzO1PdEYo7gnt50IaJQ.jpeg"
+  relative: false
 aliases: ["/2017/11/augment-the-future/"]
 slug: augment-the-future
 date: 2017-11-23
@@ -15,7 +18,7 @@ Augment the Future ヒューマンオーギュメンテーション学 ソニー
 
 ### Augment the Future ヒューマンオーギュメンテーション学 ソニー寄付口座 (暦本研） {#ae57 .graf .graf--h3 .graf--leading .graf--title name="ae57"}
 
-![](https://cdn-images-1.medium.com/max/800/1*JySyzO1PdEYo7gnt50IaJQ.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*JySyzO1PdEYo7gnt50IaJQ.jpeg)
 
 ソニー寄付口座 Augment the Future
 ヒューマンオーギュメンテーション学に行ってきた。暦本先生が研究内容を紹介するイベントと勘違いしていたが、さまざまな業界で活躍するOBの各氏が、「研究者としての社会人生活を学生に向かって発表する」みたいな内容で、これはこれで面白かった。\

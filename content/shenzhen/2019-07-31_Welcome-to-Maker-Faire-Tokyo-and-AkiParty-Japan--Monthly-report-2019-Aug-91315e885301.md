@@ -1,5 +1,8 @@
 ---
 title: "Welcome to Maker Faire Tokyo and AkiParty Japan  Monthly report 2019 Aug"
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*riUlZy_oIgD_olLf62rAuw.jpeg"
+  relative: false
 aliases: ["/2019/07/welcome-to-maker-faire-tokyo-and-akiparty-japan-monthly-report-2019-aug/"]
 slug: welcome-to-maker-faire-tokyo-and-akiparty-japan-monthly-report-2019-aug
 date: 2019-07-31
@@ -17,7 +20,7 @@ too much trip a few weeks. However, The time has come. This weekend...
 ### Welcome to Maker Faire Tokyo and AkiParty Japan! Monthly report 2019 Aug {#55d6 .graf .graf--h3 .graf--leading .graf--title name="55d6"}
 
 ![Explore
-the factory](https://cdn-images-1.medium.com/max/800/1*riUlZy_oIgD_olLf62rAuw.jpeg){.graf-image}
+the factory](https://cdn-images-1.medium.com/max/800/1*riUlZy_oIgD_olLf62rAuw.jpeg)
 
 Long time no see! I\`m not able to send an email on july because of the
 too much trip a few weeks.\

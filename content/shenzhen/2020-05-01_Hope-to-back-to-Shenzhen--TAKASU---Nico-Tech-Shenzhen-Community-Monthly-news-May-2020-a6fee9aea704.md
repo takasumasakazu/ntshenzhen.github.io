@@ -1,5 +1,8 @@
 ---
 title: "Hope to back to Shenzhen  TAKASU   Nico Tech Shenzhen Community Monthly news May 2020"
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*gcss3RclU0OlwkWnPeJNXQ.jpeg"
+  relative: false
 aliases: ["/2020/05/hope-to-back-to-shenzhen-takasu-nico-tech-shenzhen-community-monthly-news-may-2020/"]
 slug: hope-to-back-to-shenzhen-takasu-nico-tech-shenzhen-community-monthly-news-may-2020
 date: 2020-05-01
@@ -36,7 +39,7 @@ Bilibili, that is my first time talking on Bilibili, sounds so fun..
 .markup--mixtapeEmbed-anchor}[](https://space.bilibili.com/29737524?from=search&seid=8276885594403507455){.js-mixtapeImage
 .mixtapeImage .mixtapeImage--empty .u-ignoreBlock}
 
-![](https://cdn-images-1.medium.com/max/800/1*gcss3RclU0OlwkWnPeJNXQ.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*gcss3RclU0OlwkWnPeJNXQ.jpeg)
 
 Hope to see you again soon, keep a positive mind, go forward to open
 innovation.

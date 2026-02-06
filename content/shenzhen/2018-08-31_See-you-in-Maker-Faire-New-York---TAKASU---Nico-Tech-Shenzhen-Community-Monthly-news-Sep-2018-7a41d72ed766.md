@@ -1,5 +1,8 @@
 ---
 title: "See you in Maker Faire New York   TAKASU   Nico Tech Shenzhen Community Monthly news Sep 2018"
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*8sO03vXn31K_8_lntgVAMQ.jpeg"
+  relative: false
 aliases: ["/2018/08/see-you-in-maker-faire-new-york-takasu-nico-tech-shenzhen-community-monthly-news-sep-2018/"]
 slug: see-you-in-maker-faire-new-york-takasu-nico-tech-shenzhen-community-monthly-news-sep-2018
 date: 2018-08-31
@@ -24,7 +27,7 @@ event, Now\`s Tokyo 600 booths in 2 days, I guess largest maker
 community of the world and still growing.
 
 ![Tokyo
-Maker Faire!](https://cdn-images-1.medium.com/max/800/1*8sO03vXn31K_8_lntgVAMQ.jpeg){.graf-image}
+Maker Faire!](https://cdn-images-1.medium.com/max/800/1*8sO03vXn31K_8_lntgVAMQ.jpeg)
 
 And also other many makers and friend from oversea, MFTokyogetting
 global in these few years, also good things for me.

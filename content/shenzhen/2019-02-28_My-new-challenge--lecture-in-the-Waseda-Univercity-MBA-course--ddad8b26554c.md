@@ -1,5 +1,8 @@
 ---
 title: "My new challenge  lecture in the Waseda Univercity MBA course "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*jfxBsnnZtPIP5dsTsNK9sQ.jpeg"
+  relative: false
 aliases: ["/2019/02/my-new-challenge-lecture-in-the-waseda-univercity-mba-course/"]
 slug: my-new-challenge-lecture-in-the-waseda-univercity-mba-course
 date: 2019-02-28
@@ -71,7 +74,7 @@ Maker Faire Taipei, New York, Shenzhen.....
 See you there!
 
 ![I was talking a lot
-with Student!](https://cdn-images-1.medium.com/max/800/1*jfxBsnnZtPIP5dsTsNK9sQ.jpeg){.graf-image}
+with Student!](https://cdn-images-1.medium.com/max/800/1*jfxBsnnZtPIP5dsTsNK9sQ.jpeg)
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [February 28, 2019](https://medium.com/p/ddad8b26554c).

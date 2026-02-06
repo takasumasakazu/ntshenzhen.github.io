@@ -1,5 +1,8 @@
 ---
 title: "January 2018 Report  TAKASU Shenzhen High Tour "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*Wcnh2w8bnE2hh16NJcEIsw.jpeg"
+  relative: false
 aliases: ["/2017/12/january-2018-report-takasu-shenzhen-high-tour/"]
 slug: january-2018-report-takasu-shenzhen-high-tour
 date: 2017-12-31
@@ -35,15 +38,15 @@ I went Shekou School Maker Faire, and Leaning and Teaching Expo in
 Hongkong.\
 STEM in this area is so active.
 
-![](https://cdn-images-1.medium.com/max/800/1*Wcnh2w8bnE2hh16NJcEIsw.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*Wcnh2w8bnE2hh16NJcEIsw.jpeg)
 
 And I interned in Factory Line in JENESIS Shenzhen, This is my first
 manucafcurling experience by my hand, that\`s also impressive. I will
 write up report about that.
 
-![](https://cdn-images-1.medium.com/max/800/1*o1sAIH9cWL2cF_yeEwyr3w.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*o1sAIH9cWL2cF_yeEwyr3w.jpeg)
 
-![](https://cdn-images-1.medium.com/max/800/1*DaO-zoN3V3nrMlIrPqlecQ.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*DaO-zoN3V3nrMlIrPqlecQ.jpeg)
 
 Video Shooting with Naomi Wu
 

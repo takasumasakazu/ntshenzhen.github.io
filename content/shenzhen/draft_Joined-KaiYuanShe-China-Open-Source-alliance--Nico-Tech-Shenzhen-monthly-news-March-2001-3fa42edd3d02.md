@@ -1,5 +1,8 @@
 ---
 title: "draft_Joined KaiYuanShe China Open Source alliance  Nico Tech Shenzhen monthly news March 2001"
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*p8YoESppIzITssJDHHf4Cw.png"
+  relative: false
 draft: true
 aliases: ["/2000/01/draft-joined-kaiyuanshe-china-open-source-alliance-nico-tech-shenzhen-monthly-news-march-2001/"]
 slug: draft-joined-kaiyuanshe-china-open-source-alliance-nico-tech-shenzhen-monthly-news-march-2001
@@ -17,7 +20,7 @@ open-source community in China. I translated the China Open Source...
 
 ### Joined KaiYuanShe(China Open Source alliance) Nico-Tech Shenzhen monthly news March/2001 {#2e5f .graf .graf--h3 .graf--leading .graf--title name="2e5f"}
 
-![](https://cdn-images-1.medium.com/max/800/1*p8YoESppIzITssJDHHf4Cw.png){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*p8YoESppIzITssJDHHf4Cw.png)
 
 \
 

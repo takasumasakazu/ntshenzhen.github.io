@@ -1,5 +1,8 @@
 ---
 title: "Interview  TEAMOSA HAX  from Taiwan s traditional tea house changing the world s tea culture"
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*z71Ky01lsSp4UsYNJNQtAA.jpeg"
+  relative: false
 aliases: ["/2017/12/interview-teamosa-hax-from-taiwan-s-traditional-tea-house-changing-the-world-s-tea-culture/"]
 slug: interview-teamosa-hax-from-taiwan-s-traditional-tea-house-changing-the-world-s-tea-culture
 date: 2017-12-24
@@ -27,11 +30,11 @@ electronics. "I want to tell Westerners how to drink delicious genuine
 tea," Irven's products are full of Maker movement likeness.
 
 ![CEO Irvine photo taken his families
-tea farm.](https://cdn-images-1.medium.com/max/800/1*z71Ky01lsSp4UsYNJNQtAA.jpeg){.graf-image}
+tea farm.](https://cdn-images-1.medium.com/max/800/1*z71Ky01lsSp4UsYNJNQtAA.jpeg)
 
 !["TEAMOSA" deliciously extracts tea with ultrasonic waves. You can put
 it in your own tea leaves, or you can buy fine tea leaves from TEAMOSA
-in capsules](https://cdn-images-1.medium.com/max/800/1*arDBTgD-ejxNrYTPxm7bLg.jpeg){.graf-image}
+in capsules](https://cdn-images-1.medium.com/max/800/1*arDBTgD-ejxNrYTPxm7bLg.jpeg)
 
 TEAMOSA is the startup of a freshly made Haya which just finished the
 tenth term of Hardware Accelerator HAX in the summer of 2017. I saw
@@ -57,7 +60,7 @@ made only in China. I have been drinking parents' tea since I was three
 years old.
 
 ![Irvine and his
-sister Kazarin](https://cdn-images-1.medium.com/max/800/1*WtR72H6ws0mwCdkSnxKJrA.jpeg){.graf-image}
+sister Kazarin](https://cdn-images-1.medium.com/max/800/1*WtR72H6ws0mwCdkSnxKJrA.jpeg)
 
 **Irven:** Both my sister and my sister went to Taipei, and after
 graduating from college I studied at an American graduate school.
@@ -102,7 +105,7 @@ that they like the drinkers' favorite, white tea or black tea or oolong
 tea.
 
 ![Irvine explain to me about six kind
-of tea.](https://cdn-images-1.medium.com/max/800/1*hwFM6lw2jx5hhU7ljZyhsw.png){.graf-image}
+of tea.](https://cdn-images-1.medium.com/max/800/1*hwFM6lw2jx5hhU7ljZyhsw.png)
 
 **White tea:** Not much in Taiwan. Harvest when white hair is budding on
 the surface of tea leaves\
@@ -134,7 +137,7 @@ ingredients is becoming popular recently. Oolong tea also has its
 advantages.
 
 ![He is really the master of tea, my interview\`s 80% time is only
-about tea.](https://cdn-images-1.medium.com/max/800/1*pMnRgDxGfRB8ZHfK30_Xlg.jpeg){.graf-image}
+about tea.](https://cdn-images-1.medium.com/max/800/1*pMnRgDxGfRB8ZHfK30_Xlg.jpeg)
 
 ### **TEAMOSA as a product and business model** {#1718 .graf .graf--h3 .graf-after--figure name="1718"}
 
@@ -173,7 +176,7 @@ because I want to provide it for the US and Europe first, I have not
 experienced so good tea.
 
 ![Irvine at HAX Demo Day in
-Shenzhen.](https://cdn-images-1.medium.com/max/800/1*40fQHO6KdMnLkvBDTuedcQ.jpeg){.graf-image}
+Shenzhen.](https://cdn-images-1.medium.com/max/800/1*40fQHO6KdMnLkvBDTuedcQ.jpeg)
 
 ### **TEAMOSA has amazing success on kickstarter** {#ef3f .graf .graf--h3 .graf-after--figure name="ef3f"}
 

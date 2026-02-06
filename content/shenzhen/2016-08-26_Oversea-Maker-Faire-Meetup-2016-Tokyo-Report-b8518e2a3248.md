@@ -1,5 +1,8 @@
 ---
 title: "Oversea Maker Faire Meetup 2016 Tokyo Report"
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*Bx3gTU1riotqPMdDkgSR2w.jpeg"
+  relative: false
 aliases: ["/2016/08/oversea-maker-faire-meetup-2016-tokyo-report/"]
 slug: oversea-maker-faire-meetup-2016-tokyo-report
 date: 2016-08-26
@@ -16,13 +19,13 @@ present day of Maker Faire Tokyo...
 
 ### Oversea Maker Faire Meetup 2016 Tokyo Report {#36bc .graf .graf--h3 .graf--leading .graf--title name="36bc"}
 
-![](https://cdn-images-1.medium.com/max/800/1*Bx3gTU1riotqPMdDkgSR2w.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*Bx3gTU1riotqPMdDkgSR2w.jpeg)
 
 We MakerFaire Organizer from 7 citiys meet at 5/Aug 2016 at Tokyo,
 present day of Maker Faire Tokyo. \
 Bangkok/Hongkong/Seoul/Shanghai/Singapore/Shenzhen/Tainan/Trondheim!
 
-![](https://cdn-images-1.medium.com/max/800/1*iAbOma0cO1TDbvw4c4gaEw.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*iAbOma0cO1TDbvw4c4gaEw.jpeg)
 
 We want to Share own Maker Faire for each other from Many country
 MakerFaire Organizer come to Tokyo 2016.\

@@ -1,5 +1,8 @@
 ---
 title: "See you in CES  TAKASU   Nico Tech Shenzhen Community Monthly news Jan 2019"
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*TJyjvUjgS0rS7q8kmi5pZg.jpeg"
+  relative: false
 aliases: ["/2018/12/see-you-in-ces-takasu-nico-tech-shenzhen-community-monthly-news-jan-2019/"]
 slug: see-you-in-ces-takasu-nico-tech-shenzhen-community-monthly-news-jan-2019
 date: 2018-12-31
@@ -30,16 +33,16 @@ solely in Las Vegas.
 
 ![I saw several great startups at HAX Demo day Shenzhen, I\`m really
 looking to see you again them
-at CES!](https://cdn-images-1.medium.com/max/800/1*TJyjvUjgS0rS7q8kmi5pZg.jpeg){.graf-image}
+at CES!](https://cdn-images-1.medium.com/max/800/1*TJyjvUjgS0rS7q8kmi5pZg.jpeg)
 
 ![Junhao!
-Darma.co!](https://cdn-images-1.medium.com/max/800/1*2Vew47Ftot2ieWLFE_AKNA.jpeg){.graf-image}
+Darma.co!](https://cdn-images-1.medium.com/max/800/1*2Vew47Ftot2ieWLFE_AKNA.jpeg)
 
 ![Bowl,
-Salada Robot!](https://cdn-images-1.medium.com/max/800/1*wh0b0Y3ceY4KmiJr_omZlw.jpeg){.graf-image}
+Salada Robot!](https://cdn-images-1.medium.com/max/800/1*wh0b0Y3ceY4KmiJr_omZlw.jpeg)
 
 ![Teamosa!
-Irvain](https://cdn-images-1.medium.com/max/800/1*S6aNxvIYU6SHqRTmYP5OwA.jpeg){.graf-image}
+Irvain](https://cdn-images-1.medium.com/max/800/1*S6aNxvIYU6SHqRTmYP5OwA.jpeg)
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [December 31, 2018](https://medium.com/p/8ab8a36ce1ae).

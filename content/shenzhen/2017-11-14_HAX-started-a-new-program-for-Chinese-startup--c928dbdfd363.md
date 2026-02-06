@@ -1,5 +1,8 @@
 ---
 title: "HAX started a new program for Chinese startup "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*MQmb8ehNhJLI9D5GwyWZNw.jpeg"
+  relative: false
 aliases: ["/2017/11/hax-started-a-new-program-for-chinese-startup/"]
 slug: hax-started-a-new-program-for-chinese-startup
 date: 2017-11-14
@@ -27,7 +30,7 @@ Makeblock, Wazer, and so many things, these are evidence of what HAX
 did.\
 My surprise is them a new program for Chinese startup.
 
-![](https://cdn-images-1.medium.com/max/800/1*MQmb8ehNhJLI9D5GwyWZNw.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*MQmb8ehNhJLI9D5GwyWZNw.jpeg)
 
 That 180 days program is only for Chinese startups by some Chinese
 Menter in HAX, Zona, Qiyu, and others, yes they are a global team. HAX

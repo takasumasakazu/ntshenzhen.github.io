@@ -1,5 +1,8 @@
 ---
 title: "                     Maker           Maker Mela 2017    "
+cover:
+  image: "https://cdn-images-1.medium.com/max/800/1*UU74zruPkTEJWi8iZKKIeA.jpeg"
+  relative: false
 aliases: ["/2025/03/maker-maker-mela-2017/"]
 slug: maker-maker-mela-2017
 date: 2025-03-21
@@ -17,7 +20,7 @@ date: 2025-03-21
 
 2017/02/14 08:00
 
-![](https://cdn-images-1.medium.com/max/800/1*UU74zruPkTEJWi8iZKKIeA.jpeg){.graf-image}
+![](https://cdn-images-1.medium.com/max/800/1*UU74zruPkTEJWi8iZKKIeA.jpeg)
 
 インドの大都市ムンバイにある工科大、K.J. Somaiya College Of
 Engineeringで開かれたDIYのイベント、Maker Mela
@@ -47,7 +50,7 @@ MelaのMelaは、ヒンディー語の「祭り」だ。インドの祭りには
 Engineering**](https://www.somaiya.edu/kjsce){.markup--anchor
 .markup--p-anchor}（以下ソマイヤ工科大）は名前こそカレッジが入るが、情報、機械など多くの学科を備え、小学校から中学／高校も備えている巨大教育機関である。見た感じ学校関係者と一般出展者が半々ぐらいと見えたイベントは、個々のプロジェクトのレベルはともかく、100ブース程度の出展とは思えない幅の広さを持っていた。
 
-![屋外のテントに出展物が並ぶ。ステージではヒップホップバンドなどが演奏され、学園祭のような祭り感が満ちていた。](https://cdn-images-1.medium.com/max/800/1*sI0ykj1EgRTYZ-0vaSyrgw.jpeg){.graf-image}
+![屋外のテントに出展物が並ぶ。ステージではヒップホップバンドなどが演奏され、学園祭のような祭り感が満ちていた。](https://cdn-images-1.medium.com/max/800/1*sI0ykj1EgRTYZ-0vaSyrgw.jpeg)
 
 CES（アメリカ・ラスベガスで行われる世界最大の家電イベント）でも大人気だった自動チェス。
 
@@ -55,15 +58,15 @@ CES（アメリカ・ラスベガスで行われる世界最大の家電イベ�
 Off**](https://www.kickstarter.com/projects/infivention/square-off-worlds-smartest-chess-board-relaunched){.markup--anchor
 .markup--p-anchor}はソマイヤ工科大の卒業生がスタートアップとして始めたもので、Kickstarterでのクラウドファンディングも成功させ、CESでも注目されている。
 
-![学生が開発したフォーミュラカー。ボディはカーボンとFRP。](https://cdn-images-1.medium.com/max/800/1*qL09keBs0l0MnbBheADfPA.jpeg){.graf-image}
+![学生が開発したフォーミュラカー。ボディはカーボンとFRP。](https://cdn-images-1.medium.com/max/800/1*qL09keBs0l0MnbBheADfPA.jpeg)
 
 ![Auto
-Institute（自動車の開発がメインの工科大）が開発したクラシックカーに似せたEV。](https://cdn-images-1.medium.com/max/800/1*2dpm3yW5kMWvmEwJOC0Ogg.jpeg){.graf-image}
+Institute（自動車の開発がメインの工科大）が開発したクラシックカーに似せたEV。](https://cdn-images-1.medium.com/max/800/1*2dpm3yW5kMWvmEwJOC0Ogg.jpeg)
 
 また、学生が開発したフォーミュラカー、自作したモーターバイク、さらに自作したレトロなデザインのEV（電気自動車）まで出展されていた。\
 どれもデザインに一工夫してあり、特に木製フレームで作られたEVは全体がクラシックカーのモチーフで仕上げられており、タイヤやフェンダー、ドアのノブまで徹底していて、とてもオシャレだ。こういう細部のこだわりは機能だけを中心で考えているとなかなか出てこないもので、レベルの高さを感じさせる。
 
-![可変ピッチの風車。足も含めて折りたたむと単なる竿になる。](https://cdn-images-1.medium.com/max/800/1*wYfcHbaDCMc40KbO6d8dNQ.jpeg){.graf-image}
+![可変ピッチの風車。足も含めて折りたたむと単なる竿になる。](https://cdn-images-1.medium.com/max/800/1*wYfcHbaDCMc40KbO6d8dNQ.jpeg)
 
 こちらのポータブル風車はピッチを可変することでどのような風量の風にも対応できるように工夫したもので、伸ばせば単なる竿になるので持ち運ぶこともでき、どこでもUSBで電源を取り出したり明かりをつけたりすることができる。美大のプロダクトデザインのようなセンスの産物だ。
 
@@ -74,30 +77,30 @@ Institute（自動車の開発がメインの工科大）が開発したクラ�
 
 ロボットも技術的ものからマスコット型のものまでいくつも出展されていた。
 
-![パイプラインの中をチェックするロボ。](https://cdn-images-1.medium.com/max/800/1*hub8XMQs_UFgUwB_FrJ3sw.jpeg){.graf-image}
+![パイプラインの中をチェックするロボ。](https://cdn-images-1.medium.com/max/800/1*hub8XMQs_UFgUwB_FrJ3sw.jpeg)
 
-![コミュニケーションロボ。このロボットは介護や防犯などを想定した多目的ロボで、胸に液晶を付けているところなどはソフトバンクのPepperに通じるものがある。](https://cdn-images-1.medium.com/max/800/1*uJP3De9-7sURI3sK2kdw4A.jpeg){.graf-image}
+![コミュニケーションロボ。このロボットは介護や防犯などを想定した多目的ロボで、胸に液晶を付けているところなどはソフトバンクのPepperに通じるものがある。](https://cdn-images-1.medium.com/max/800/1*uJP3De9-7sURI3sK2kdw4A.jpeg)
 
-![ロボ「ミトラ」。音声で反応する。ミトラは友達という意味。顔の部分にカメラと7セグLEDがはめ込まれていて、こちらの顔を認識したり表情を表現したりできる。フォルムがなんとなく土偶を連想させる。](https://cdn-images-1.medium.com/max/800/1*ZNTqo2I_kBnOg7PBSKasBA.jpeg){.graf-image}
+![ロボ「ミトラ」。音声で反応する。ミトラは友達という意味。顔の部分にカメラと7セグLEDがはめ込まれていて、こちらの顔を認識したり表情を表現したりできる。フォルムがなんとなく土偶を連想させる。](https://cdn-images-1.medium.com/max/800/1*ZNTqo2I_kBnOg7PBSKasBA.jpeg)
 
 こちらを認識し、音声で会話できるコミュニケーションロボットはソフトバンクのPepperをはじめ、いまどこのMakerイベントでも見かける。\
 Maker
 Melaのものが取り立ててレベルが高いとは感じなかったが、全体のバランスの取り方や胴体のボリュームなどは他の国のロボットに比べてなんとも独特なデザインだと感じた。
 
-![こちらはフランスから来た出展者のロボット。ここにあるとデザインの違いが際立つ。](https://cdn-images-1.medium.com/max/800/1*BEhLjsIzAOtDeZrNGQXWdQ.jpeg){.graf-image}
+![こちらはフランスから来た出展者のロボット。ここにあるとデザインの違いが際立つ。](https://cdn-images-1.medium.com/max/800/1*BEhLjsIzAOtDeZrNGQXWdQ.jpeg)
 
 ### オープンソースハードウェアの出展 {#cde0 .graf .graf--h3 .graf-after--figure name="cde0"}
 
 いかにもMakerイベントらしいオープンソースハードウェアや教育ツールも出展されている。
 
-![インドのスタートアップeviveの開発したマルチツール。](https://cdn-images-1.medium.com/max/800/1*4RRbSTG2OfnmbxqXKMBksw.jpeg){.graf-image}
+![インドのスタートアップeviveの開発したマルチツール。](https://cdn-images-1.medium.com/max/800/1*4RRbSTG2OfnmbxqXKMBksw.jpeg)
 
 この[**evive**](http://evive.cc/){.markup--anchor
 .markup--p-anchor}はソマイヤ工科大の卒業生が開発したツールで、Arduinoをコアにオシロスコープやテスター、外部へ3.3Vや5Vの電源供給も可能にしているマルチツールだ。まだ3Dプリンタで外装を作っているプロトタイピング段階だが、すでに[**クラウドファンディングを成功**](https://www.indiegogo.com/projects/evive-the-best-electronic-prototyping-platform-arduino-education--3#/){.markup--anchor
 .markup--p-anchor}させ、アーリーアダプターから評価されている。\
 ムンバイの周辺だとアフマダーバードに製造業者がいくつもあり、そこでの量産を考えているそうだ。
 
-![子供向けロボット教育ツール。作例がかわいい。](https://cdn-images-1.medium.com/max/800/1*ogitEDdRXxI-5Qyw4gFa3w.jpeg){.graf-image}
+![子供向けロボット教育ツール。作例がかわいい。](https://cdn-images-1.medium.com/max/800/1*ogitEDdRXxI-5Qyw4gFa3w.jpeg)
 
 こちらはインドのスタートアップ企業が開発した、子ども向けの電子回路／ロボット教育ツール。littleBitsや[**Grove**](https://www.seeedstudio.com/category/Grove-c-45.html){.markup--anchor
 .markup--p-anchor}のように、ハンダ付けをしなくても電子回路を作ることができる。拍手ロボや口をあけるロボなどの作成がユーモラスでかわいい。
@@ -109,28 +112,28 @@ Melaのものが取り立ててレベルが高いとは感じなかったが、�
 
 絵画や服飾などのクラフト系の展示も多い。絵画はインド独特の、ヒンドゥーの神々がモチーフになっている。別の日にムンバイの街を歩いたのだが、美術館がいくつもあり、そこに多くの学生が訪れているなど、絵画への興味がうかがえた。
 
-![ヒンドゥーの神々を現代的なタッチで描いた絵画。](https://cdn-images-1.medium.com/max/800/1*R0lLOdQnRsFKPEs0HJmXPw.jpeg){.graf-image}
+![ヒンドゥーの神々を現代的なタッチで描いた絵画。](https://cdn-images-1.medium.com/max/800/1*R0lLOdQnRsFKPEs0HJmXPw.jpeg)
 
-![象の姿をした神様ガネーシャのほかに、こちらではサンタもモチーフになっている。](https://cdn-images-1.medium.com/max/800/1*A8eSzkmP4YA4BpCGQ_UdJQ.jpeg){.graf-image}
+![象の姿をした神様ガネーシャのほかに、こちらではサンタもモチーフになっている。](https://cdn-images-1.medium.com/max/800/1*A8eSzkmP4YA4BpCGQ_UdJQ.jpeg)
 
-![こちらは工夫を凝らしたノートブックを販売。デザインフェスタのような雰囲気。](https://cdn-images-1.medium.com/max/800/1*NmC-jSiIqL5kP060NQLI-g.jpeg){.graf-image}
+![こちらは工夫を凝らしたノートブックを販売。デザインフェスタのような雰囲気。](https://cdn-images-1.medium.com/max/800/1*NmC-jSiIqL5kP060NQLI-g.jpeg)
 
-![オーガニックな土壌を使った園芸。](https://cdn-images-1.medium.com/max/800/1*FHofq9Q_zFAOH8b47TzxlQ.jpeg){.graf-image}
+![オーガニックな土壌を使った園芸。](https://cdn-images-1.medium.com/max/800/1*FHofq9Q_zFAOH8b47TzxlQ.jpeg)
 
-![レコード盤を再加工してブックエンドやコースターなどをつくっている。こうしたUPCYCLE（資源再利用のリサイクルというより、廃物をつかってカッコイイモノを作る試み）のブースも多く出展されていた。](https://cdn-images-1.medium.com/max/800/1*l5W7tSut0kPxOL9zjyyy9Q.jpeg){.graf-image}
+![レコード盤を再加工してブックエンドやコースターなどをつくっている。こうしたUPCYCLE（資源再利用のリサイクルというより、廃物をつかってカッコイイモノを作る試み）のブースも多く出展されていた。](https://cdn-images-1.medium.com/max/800/1*l5W7tSut0kPxOL9zjyyy9Q.jpeg)
 
-![中庭のような屋外ブースではいくつも、木やボール紙での構造体が2日間にわたって作り続けられていた。](https://cdn-images-1.medium.com/max/800/1*Pv4M1cOE5Kc0k9YvAR2QPA.jpeg){.graf-image}
+![中庭のような屋外ブースではいくつも、木やボール紙での構造体が2日間にわたって作り続けられていた。](https://cdn-images-1.medium.com/max/800/1*Pv4M1cOE5Kc0k9YvAR2QPA.jpeg)
 
 ### 徹底的に楽しむマインド {#3fb5 .graf .graf--h3 .graf-after--figure name="3fb5"}
 
 個々のブースももちろん興味深いが、より強く印象を受けたのは徹底的に楽しむマインドだ。ずっと[**Necomimi**](http://www.ux-xu.com/product/necomimi){.markup--anchor
 .markup--p-anchor}をつけて歩いていたせいもあるだろうが、いろいろなブースで「どこから来たの？」「セルフィーを撮ろうよ」と呼び止められる。こっちから撮影する写真もどれもとびきりの笑顔。
 
-![俺の絵と写真を撮ってくれ。イケてるだろ？](https://cdn-images-1.medium.com/max/800/1*7X_2XO4Jjj4etvh01jUGGw.jpeg){.graf-image}
+![俺の絵と写真を撮ってくれ。イケてるだろ？](https://cdn-images-1.medium.com/max/800/1*7X_2XO4Jjj4etvh01jUGGw.jpeg)
 
-![UPCYCLEしてデザイン小物を作るワークショップを開いている彼も笑顔。](https://cdn-images-1.medium.com/max/800/1*REDj3FUZkTPWLnlIi_paTg.jpeg){.graf-image}
+![UPCYCLEしてデザイン小物を作るワークショップを開いている彼も笑顔。](https://cdn-images-1.medium.com/max/800/1*REDj3FUZkTPWLnlIi_paTg.jpeg)
 
-![ダンボール工作をしていた学生たちの集合写真。白い歯がはじけまくる。](https://cdn-images-1.medium.com/max/800/1*w2GPKb1avir4VjTvTLkbHw.jpeg){.graf-image}
+![ダンボール工作をしていた学生たちの集合写真。白い歯がはじけまくる。](https://cdn-images-1.medium.com/max/800/1*w2GPKb1avir4VjTvTLkbHw.jpeg)
 
 2日間のイベント中、100枚以上はセルフィーを撮影された気がする。まるで観光地の物売りのように、「見ていけよ」「写真一緒に撮ろうよ」と出展者たちが寄ってくるのだ。そしてイベント終了後、冒頭で触れたダンスの部が始まる。その間も皆は笑い、踊りながらセルフィーを撮りまくる。
 

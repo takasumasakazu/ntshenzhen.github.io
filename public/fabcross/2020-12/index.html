@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>深圳に戻りました。中国オープンソースへの研究開始 ニコ技深センコミュニティ＆インターネットプラス研究所の月次報告 2020年12月 | ニコ技深セン / Nico-Tech Shenzhen website</title>
+<meta name="keywords" content="">
+<meta name="description" content="【中国オープンソース活動の盛り上がり】
+
+【中国オープンソース活動の盛り上がり】
+オープンソースソフトウェアは世界的な活動で、そのなかでもともと中国企業や中国のエンジニアは活発に活動していました。その中で今年2020年より中国政府は工信部（日本の総務省や経産省のような機能を持つ）の下にオープンソースを中国国内で推進する組織を作るなど、中国でのオープンソース活動を、より大規模に盛り上げようとしています。たとえばビットコインのようなテクノロジーには「歓迎しない」サインを出していた政府が、オープンソースについては歓迎する意図を鮮明に出し始めました。
+オープンソースについては僕も長年注目してきたテーマでもあり、中国のオープンソースコミュニティ開源社のコミュニティに参加し、研究をはじめました。
+メール下部にまとめた日経ビジネスの連載では、中国政府の現状認識・政府の取り組み・ユーザコミュニティ・大企業それぞれの思惑など、4回にわけてレポートしています。
+また、先日youtubeで詳述するオンラインイベントをやりました。
+https://youtu.be/P6DwKYTnULw
+そのうちどこかで特集記事などにしたいと考えていますし、このテーマで一緒に研究を進められる人を求めています。
+GitHub上で研究結果（白書の日本語訳や、キーになる組織の解説など）を公開していきます。
+https://github.com/takasumasakazu/ChinaOpensourceResearch
+【11月より深センに戻りました】
+中国国内におられる方々、深圳いらした機会ありましたらぜひお会いしましょう。僕も上海、広州等他の都市に出張する際はぜひお会いしたいです。
+11月8日に深センに戻り、2週間隔離のあと活動再開しました。5Gのルーターを手配したり、住居の入退室管理システムがすっかり変わっていたのに戸惑ったりしながら、ほぼ毎日アポイントやイベントをこなしています。
+そのような、現地で見たものをそのままスマホで写真アップして共有するNoteマガジンを続けています。（たいてい移動中などに更新しています）
+https://note.com/magazines/all
+【今月も書籍が出版されます ITエンジニアのための中国語入門】
+活動報告の方に詳述してありますが、ITエンジニアのための中国語入門が出版されます。
+今年はニコ技深圳コミュニティの関連書籍出版ラッシュですね。
+https://www.amazon.co.jp/dp/4295010499/
+&mdash; &mdash; -告知（ニコ技深センコミュニティの関連イベント、メイカーイベントへの出展など）
+■中野ねこりん＠ギーク中国語コミュニティ
+「ギーク中国語講座」と実務経験を元にIT中国語の本を書きました。共著の方は英語の著書もある方で、中国語の基礎からバッチリ勉強できます。一から中国語を学ぶエンジニアから中級レベルまできっとお役に立つと思います。kindle版も後日発刊予定です。
+『ITエンジニアのための中国語入門』
+https://www.amazon.co.jp/dp/4295010499/
+■山崎雅夫@tomorrow56 or ThousanDIY
+月刊I/Oに連載している「100均ガジェット分解」の2020年12月号の記事が掲載されました。今月は
+「キャンドゥのワイヤレスイヤホン」です。外形はダイソーそっくりなのですが、ちゃんとステレオで公板&#43;公模の組み合わせによる別物でした。中身はZuHei
+JieLiの電源管理一体のオールインワンのBTオーディオ用チップ「AC6936D」、いつものように基板から起こした回路図も掲載しています。
+http://www.kohgakusha.co.jp/books/detail/4631
+■澤田翔 (@shao1555)
+ZUNDA株式会社をデジタル空間上に起業しました。「これからのデジタルオフィスをつくる会社」として、テレワーク向けのPCやクラウドサービスのサブスクをやっています。
+去る11月6日にイベントを開催し、そのレポートを掲載しましたのでお読みいただけると幸いです。
+https://note.com/shao1555/n/nb8f06d2732a1
+引き続き中国関係の記事執筆もやってます。
+AIoTがけん引する「中華シリコン」とそのエコシステム (日経クロストレンド
+中国14億人のデジタル社会実装 #35)
+https://xtrend.nikkei.com/atcl/contents/18/00188/00036/
+■荒木大地
+日本人のための深セン情報サイト(shenzhen-fan.com{.markup&ndash;anchor
+.markup&ndash;p-anchor}) 深セン ファン
+1.欧米各国から中国への渡航者にはPCR検査＋抗体検査(IgM)陰性証明書が必要に
+10月29日より、米国、フランス、英国、イタリア、ポーランド、ロシアの中国大使館のウェブサイトで、中国へ渡航する乗客は新型コロナウイルスのPCR検査陰性証明書に加え抗体検査(IgM)陰性証明書も提出が必要となる旨の通知が次々と公開されています
+。各国の中国大使館情報をお伝えします。
+https://www.shenzhen-fan.com/news-2020-11-01-update-flight-rules-from-civil-aviation-administration-of-china-from-europe/
+2.2020年中国都市経済競争力ランキング発表・パターン分析：深センは&hellip;？
+中国社科院（中国社会科学アカデミー）は2020年の中国都市競争力レポートを発表しました。
+経済のみならず、生活環境や技術革新など様々なカテゴリーから調査されたこのランキングを分析すると、今後発展しそうなエリアが見えてきます。深センはもちろん&hellip;
+https://www.shenzhen-fan.com/news-2020-11-02-china-economic-competitiveness-ranking/
+3.11月8日より中国への渡航者は搭乗前2日以内のPCR検査＋抗体検査(IgM)陰性証明書が必要に
+2020年11月8日より、日本から中国への渡航者は飛行機搭乗日から2日以内に発行された新型コロナウイルスPCR検査に加え、抗体検査(IgM)の陰性証明書も搭乗手続きに必要となります。
+https://www.shenzhen-fan.com/news-2020-11-03-announce-from-embassy-of-japan-in-china/
+4.中国渡航者向け 指定検査機関(PCR＋抗体検査(IgM)) 最新リスト価格情報
+11/2に公開された最新の指定機関(PCR＋抗体検査)リストから検査費用と所要時間を調査しました。
+【駐日本大使館管轄エリア】（東京・神奈川・千葉・埼玉・長野・静岡・群馬・栃木・山梨・茨城）
+https://www.shenzhen-fan.com/2020-11-covid19-test-medical-institution-in-kanto/
+【駐大阪領事館管轄エリア】（大阪・京都・兵庫・奈良・和歌山・滋賀・愛媛・高知・徳島・香川・広島・岡山・鳥取・島根）
+https://www.shenzhen-fan.com/2020-11-covid19-test-medical-institution-in-osaka/
+【駐名古屋領事館管轄エリア】（愛知・岐阜・福井・富山・石川・三重）">
+<meta name="author" content="">
+<link rel="canonical" href="https://takasumasakazu.github.io/fabcross/2020-12/">
+<link crossorigin="anonymous" href="https://takasumasakazu.github.io/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://takasumasakazu.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://takasumasakazu.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://takasumasakazu.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://takasumasakazu.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://takasumasakazu.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://takasumasakazu.github.io/fabcross/2020-12/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://takasumasakazu.github.io/fabcross/2020-12/">
+  <meta property="og:site_name" content="ニコ技深セン / Nico-Tech Shenzhen website">
+  <meta property="og:title" content="深圳に戻りました。中国オープンソースへの研究開始 ニコ技深センコミュニティ＆インターネットプラス研究所の月次報告 2020年12月">
+  <meta property="og:description" content="【中国オープンソース活動の盛り上がり】
+【中国オープンソース活動の盛り上がり】
+オープンソースソフトウェアは世界的な活動で、そのなかでもともと中国企業や中国のエンジニアは活発に活動していました。その中で今年2020年より中国政府は工信部（日本の総務省や経産省のような機能を持つ）の下にオープンソースを中国国内で推進する組織を作るなど、中国でのオープンソース活動を、より大規模に盛り上げようとしています。たとえばビットコインのようなテクノロジーには「歓迎しない」サインを出していた政府が、オープンソースについては歓迎する意図を鮮明に出し始めました。
+オープンソースについては僕も長年注目してきたテーマでもあり、中国のオープンソースコミュニティ開源社のコミュニティに参加し、研究をはじめました。
+メール下部にまとめた日経ビジネスの連載では、中国政府の現状認識・政府の取り組み・ユーザコミュニティ・大企業それぞれの思惑など、4回にわけてレポートしています。
+また、先日youtubeで詳述するオンラインイベントをやりました。
+https://youtu.be/P6DwKYTnULw
+そのうちどこかで特集記事などにしたいと考えていますし、このテーマで一緒に研究を進められる人を求めています。
+GitHub上で研究結果（白書の日本語訳や、キーになる組織の解説など）を公開していきます。
+https://github.com/takasumasakazu/ChinaOpensourceResearch
+【11月より深センに戻りました】
+中国国内におられる方々、深圳いらした機会ありましたらぜひお会いしましょう。僕も上海、広州等他の都市に出張する際はぜひお会いしたいです。
+11月8日に深センに戻り、2週間隔離のあと活動再開しました。5Gのルーターを手配したり、住居の入退室管理システムがすっかり変わっていたのに戸惑ったりしながら、ほぼ毎日アポイントやイベントをこなしています。
+そのような、現地で見たものをそのままスマホで写真アップして共有するNoteマガジンを続けています。（たいてい移動中などに更新しています）
+https://note.com/magazines/all
+【今月も書籍が出版されます ITエンジニアのための中国語入門】
+活動報告の方に詳述してありますが、ITエンジニアのための中国語入門が出版されます。
+今年はニコ技深圳コミュニティの関連書籍出版ラッシュですね。
+https://www.amazon.co.jp/dp/4295010499/
+— — -告知（ニコ技深センコミュニティの関連イベント、メイカーイベントへの出展など）
+■中野ねこりん＠ギーク中国語コミュニティ
+「ギーク中国語講座」と実務経験を元にIT中国語の本を書きました。共著の方は英語の著書もある方で、中国語の基礎からバッチリ勉強できます。一から中国語を学ぶエンジニアから中級レベルまできっとお役に立つと思います。kindle版も後日発刊予定です。
+『ITエンジニアのための中国語入門』
+https://www.amazon.co.jp/dp/4295010499/
+■山崎雅夫@tomorrow56 or ThousanDIY
+月刊I/Oに連載している「100均ガジェット分解」の2020年12月号の記事が掲載されました。今月は 「キャンドゥのワイヤレスイヤホン」です。外形はダイソーそっくりなのですが、ちゃんとステレオで公板&#43;公模の組み合わせによる別物でした。中身はZuHei JieLiの電源管理一体のオールインワンのBTオーディオ用チップ「AC6936D」、いつものように基板から起こした回路図も掲載しています。
+http://www.kohgakusha.co.jp/books/detail/4631
+■澤田翔 (@shao1555)
+ZUNDA株式会社をデジタル空間上に起業しました。「これからのデジタルオフィスをつくる会社」として、テレワーク向けのPCやクラウドサービスのサブスクをやっています。
+去る11月6日にイベントを開催し、そのレポートを掲載しましたのでお読みいただけると幸いです。
+https://note.com/shao1555/n/nb8f06d2732a1
+引き続き中国関係の記事執筆もやってます。
+AIoTがけん引する「中華シリコン」とそのエコシステム (日経クロストレンド 中国14億人のデジタル社会実装 #35)
+https://xtrend.nikkei.com/atcl/contents/18/00188/00036/
+■荒木大地 日本人のための深セン情報サイト(shenzhen-fan.com{.markup–anchor .markup–p-anchor}) 深セン ファン
+1.欧米各国から中国への渡航者にはPCR検査＋抗体検査(IgM)陰性証明書が必要に
+10月29日より、米国、フランス、英国、イタリア、ポーランド、ロシアの中国大使館のウェブサイトで、中国へ渡航する乗客は新型コロナウイルスのPCR検査陰性証明書に加え抗体検査(IgM)陰性証明書も提出が必要となる旨の通知が次々と公開されています 。各国の中国大使館情報をお伝えします。
+https://www.shenzhen-fan.com/news-2020-11-01-update-flight-rules-from-civil-aviation-administration-of-china-from-europe/
+2.2020年中国都市経済競争力ランキング発表・パターン分析：深センは…？
+中国社科院（中国社会科学アカデミー）は2020年の中国都市競争力レポートを発表しました。
+経済のみならず、生活環境や技術革新など様々なカテゴリーから調査されたこのランキングを分析すると、今後発展しそうなエリアが見えてきます。深センはもちろん…
+https://www.shenzhen-fan.com/news-2020-11-02-china-economic-competitiveness-ranking/
+3.11月8日より中国への渡航者は搭乗前2日以内のPCR検査＋抗体検査(IgM)陰性証明書が必要に
+2020年11月8日より、日本から中国への渡航者は飛行機搭乗日から2日以内に発行された新型コロナウイルスPCR検査に加え、抗体検査(IgM)の陰性証明書も搭乗手続きに必要となります。
+https://www.shenzhen-fan.com/news-2020-11-03-announce-from-embassy-of-japan-in-china/
+4.中国渡航者向け 指定検査機関(PCR＋抗体検査(IgM)) 最新リスト価格情報
+11/2に公開された最新の指定機関(PCR＋抗体検査)リストから検査費用と所要時間を調査しました。
+【駐日本大使館管轄エリア】（東京・神奈川・千葉・埼玉・長野・静岡・群馬・栃木・山梨・茨城）
+https://www.shenzhen-fan.com/2020-11-covid19-test-medical-institution-in-kanto/
+【駐大阪領事館管轄エリア】（大阪・京都・兵庫・奈良・和歌山・滋賀・愛媛・高知・徳島・香川・広島・岡山・鳥取・島根）
+https://www.shenzhen-fan.com/2020-11-covid19-test-medical-institution-in-osaka/
+【駐名古屋領事館管轄エリア】（愛知・岐阜・福井・富山・石川・三重）">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="fabcross">
+    <meta property="og:image" content="https://cdn-images-1.medium.com/max/800/1*IQlZE9D8ZszsIp8eKRUP9Q.jpeg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://cdn-images-1.medium.com/max/800/1*IQlZE9D8ZszsIp8eKRUP9Q.jpeg">
+<meta name="twitter:title" content="深圳に戻りました。中国オープンソースへの研究開始 ニコ技深センコミュニティ＆インターネットプラス研究所の月次報告 2020年12月">
+<meta name="twitter:description" content="【中国オープンソース活動の盛り上がり】
+
+【中国オープンソース活動の盛り上がり】
+オープンソースソフトウェアは世界的な活動で、そのなかでもともと中国企業や中国のエンジニアは活発に活動していました。その中で今年2020年より中国政府は工信部（日本の総務省や経産省のような機能を持つ）の下にオープンソースを中国国内で推進する組織を作るなど、中国でのオープンソース活動を、より大規模に盛り上げようとしています。たとえばビットコインのようなテクノロジーには「歓迎しない」サインを出していた政府が、オープンソースについては歓迎する意図を鮮明に出し始めました。
+オープンソースについては僕も長年注目してきたテーマでもあり、中国のオープンソースコミュニティ開源社のコミュニティに参加し、研究をはじめました。
+メール下部にまとめた日経ビジネスの連載では、中国政府の現状認識・政府の取り組み・ユーザコミュニティ・大企業それぞれの思惑など、4回にわけてレポートしています。
+また、先日youtubeで詳述するオンラインイベントをやりました。
+https://youtu.be/P6DwKYTnULw
+そのうちどこかで特集記事などにしたいと考えていますし、このテーマで一緒に研究を進められる人を求めています。
+GitHub上で研究結果（白書の日本語訳や、キーになる組織の解説など）を公開していきます。
+https://github.com/takasumasakazu/ChinaOpensourceResearch
+【11月より深センに戻りました】
+中国国内におられる方々、深圳いらした機会ありましたらぜひお会いしましょう。僕も上海、広州等他の都市に出張する際はぜひお会いしたいです。
+11月8日に深センに戻り、2週間隔離のあと活動再開しました。5Gのルーターを手配したり、住居の入退室管理システムがすっかり変わっていたのに戸惑ったりしながら、ほぼ毎日アポイントやイベントをこなしています。
+そのような、現地で見たものをそのままスマホで写真アップして共有するNoteマガジンを続けています。（たいてい移動中などに更新しています）
+https://note.com/magazines/all
+【今月も書籍が出版されます ITエンジニアのための中国語入門】
+活動報告の方に詳述してありますが、ITエンジニアのための中国語入門が出版されます。
+今年はニコ技深圳コミュニティの関連書籍出版ラッシュですね。
+https://www.amazon.co.jp/dp/4295010499/
+&mdash; &mdash; -告知（ニコ技深センコミュニティの関連イベント、メイカーイベントへの出展など）
+■中野ねこりん＠ギーク中国語コミュニティ
+「ギーク中国語講座」と実務経験を元にIT中国語の本を書きました。共著の方は英語の著書もある方で、中国語の基礎からバッチリ勉強できます。一から中国語を学ぶエンジニアから中級レベルまできっとお役に立つと思います。kindle版も後日発刊予定です。
+『ITエンジニアのための中国語入門』
+https://www.amazon.co.jp/dp/4295010499/
+■山崎雅夫@tomorrow56 or ThousanDIY
+月刊I/Oに連載している「100均ガジェット分解」の2020年12月号の記事が掲載されました。今月は
+「キャンドゥのワイヤレスイヤホン」です。外形はダイソーそっくりなのですが、ちゃんとステレオで公板&#43;公模の組み合わせによる別物でした。中身はZuHei
+JieLiの電源管理一体のオールインワンのBTオーディオ用チップ「AC6936D」、いつものように基板から起こした回路図も掲載しています。
+http://www.kohgakusha.co.jp/books/detail/4631
+■澤田翔 (@shao1555)
+ZUNDA株式会社をデジタル空間上に起業しました。「これからのデジタルオフィスをつくる会社」として、テレワーク向けのPCやクラウドサービスのサブスクをやっています。
+去る11月6日にイベントを開催し、そのレポートを掲載しましたのでお読みいただけると幸いです。
+https://note.com/shao1555/n/nb8f06d2732a1
+引き続き中国関係の記事執筆もやってます。
+AIoTがけん引する「中華シリコン」とそのエコシステム (日経クロストレンド
+中国14億人のデジタル社会実装 #35)
+https://xtrend.nikkei.com/atcl/contents/18/00188/00036/
+■荒木大地
+日本人のための深セン情報サイト(shenzhen-fan.com{.markup&ndash;anchor
+.markup&ndash;p-anchor}) 深セン ファン
+1.欧米各国から中国への渡航者にはPCR検査＋抗体検査(IgM)陰性証明書が必要に
+10月29日より、米国、フランス、英国、イタリア、ポーランド、ロシアの中国大使館のウェブサイトで、中国へ渡航する乗客は新型コロナウイルスのPCR検査陰性証明書に加え抗体検査(IgM)陰性証明書も提出が必要となる旨の通知が次々と公開されています
+。各国の中国大使館情報をお伝えします。
+https://www.shenzhen-fan.com/news-2020-11-01-update-flight-rules-from-civil-aviation-administration-of-china-from-europe/
+2.2020年中国都市経済競争力ランキング発表・パターン分析：深センは&hellip;？
+中国社科院（中国社会科学アカデミー）は2020年の中国都市競争力レポートを発表しました。
+経済のみならず、生活環境や技術革新など様々なカテゴリーから調査されたこのランキングを分析すると、今後発展しそうなエリアが見えてきます。深センはもちろん&hellip;
+https://www.shenzhen-fan.com/news-2020-11-02-china-economic-competitiveness-ranking/
+3.11月8日より中国への渡航者は搭乗前2日以内のPCR検査＋抗体検査(IgM)陰性証明書が必要に
+2020年11月8日より、日本から中国への渡航者は飛行機搭乗日から2日以内に発行された新型コロナウイルスPCR検査に加え、抗体検査(IgM)の陰性証明書も搭乗手続きに必要となります。
+https://www.shenzhen-fan.com/news-2020-11-03-announce-from-embassy-of-japan-in-china/
+4.中国渡航者向け 指定検査機関(PCR＋抗体検査(IgM)) 最新リスト価格情報
+11/2に公開された最新の指定機関(PCR＋抗体検査)リストから検査費用と所要時間を調査しました。
+【駐日本大使館管轄エリア】（東京・神奈川・千葉・埼玉・長野・静岡・群馬・栃木・山梨・茨城）
+https://www.shenzhen-fan.com/2020-11-covid19-test-medical-institution-in-kanto/
+【駐大阪領事館管轄エリア】（大阪・京都・兵庫・奈良・和歌山・滋賀・愛媛・高知・徳島・香川・広島・岡山・鳥取・島根）
+https://www.shenzhen-fan.com/2020-11-covid19-test-medical-institution-in-osaka/
+【駐名古屋領事館管轄エリア】（愛知・岐阜・福井・富山・石川・三重）">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Fabcross",
+      "item": "https://takasumasakazu.github.io/fabcross/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "深圳に戻りました。中国オープンソースへの研究開始 ニコ技深センコミュニティ＆インターネットプラス研究所の月次報告 2020年12月",
+      "item": "https://takasumasakazu.github.io/fabcross/2020-12/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "深圳に戻りました。中国オープンソースへの研究開始 ニコ技深センコミュニティ＆インターネットプラス研究所の月次報告 2020年12月",
+  "name": "深圳に戻りました。中国オープンソースへの研究開始 ニコ技深センコミュニティ＆インターネットプラス研究所の月次報告 2020年12月",
+  "description": "【中国オープンソース活動の盛り上がり】\n【中国オープンソース活動の盛り上がり】\nオープンソースソフトウェアは世界的な活動で、そのなかでもともと中国企業や中国のエンジニアは活発に活動していました。その中で今年2020年より中国政府は工信部（日本の総務省や経産省のような機能を持つ）の下にオープンソースを中国国内で推進する組織を作るなど、中国でのオープンソース活動を、より大規模に盛り上げようとしています。たとえばビットコインのようなテクノロジーには「歓迎しない」サインを出していた政府が、オープンソースについては歓迎する意図を鮮明に出し始めました。\nオープンソースについては僕も長年注目してきたテーマでもあり、中国のオープンソースコミュニティ開源社のコミュニティに参加し、研究をはじめました。\nメール下部にまとめた日経ビジネスの連載では、中国政府の現状認識・政府の取り組み・ユーザコミュニティ・大企業それぞれの思惑など、4回にわけてレポートしています。\nまた、先日youtubeで詳述するオンラインイベントをやりました。\nhttps://youtu.be/P6DwKYTnULw\nそのうちどこかで特集記事などにしたいと考えていますし、このテーマで一緒に研究を進められる人を求めています。\nGitHub上で研究結果（白書の日本語訳や、キーになる組織の解説など）を公開していきます。\nhttps://github.com/takasumasakazu/ChinaOpensourceResearch\n【11月より深センに戻りました】\n中国国内におられる方々、深圳いらした機会ありましたらぜひお会いしましょう。僕も上海、広州等他の都市に出張する際はぜひお会いしたいです。\n11月8日に深センに戻り、2週間隔離のあと活動再開しました。5Gのルーターを手配したり、住居の入退室管理システムがすっかり変わっていたのに戸惑ったりしながら、ほぼ毎日アポイントやイベントをこなしています。\nそのような、現地で見たものをそのままスマホで写真アップして共有するNoteマガジンを続けています。（たいてい移動中などに更新しています）\nhttps://note.com/magazines/all\n【今月も書籍が出版されます ITエンジニアのための中国語入門】\n活動報告の方に詳述してありますが、ITエンジニアのための中国語入門が出版されます。\n今年はニコ技深圳コミュニティの関連書籍出版ラッシュですね。\nhttps://www.amazon.co.jp/dp/4295010499/\n\u0026mdash; \u0026mdash; -告知（ニコ技深センコミュニティの関連イベント、メイカーイベントへの出展など）\n■中野ねこりん＠ギーク中国語コミュニティ\n「ギーク中国語講座」と実務経験を元にIT中国語の本を書きました。共著の方は英語の著書もある方で、中国語の基礎からバッチリ勉強できます。一から中国語を学ぶエンジニアから中級レベルまできっとお役に立つと思います。kindle版も後日発刊予定です。\n『ITエンジニアのための中国語入門』\nhttps://www.amazon.co.jp/dp/4295010499/\n■山崎雅夫@tomorrow56 or ThousanDIY\n月刊I/Oに連載している「100均ガジェット分解」の2020年12月号の記事が掲載されました。今月は 「キャンドゥのワイヤレスイヤホン」です。外形はダイソーそっくりなのですが、ちゃんとステレオで公板+公模の組み合わせによる別物でした。中身はZuHei JieLiの電源管理一体のオールインワンのBTオーディオ用チップ「AC6936D」、いつものように基板から起こした回路図も掲載しています。\nhttp://www.kohgakusha.co.jp/books/detail/4631\n■澤田翔 (@shao1555)\nZUNDA株式会社をデジタル空間上に起業しました。「これからのデジタルオフィスをつくる会社」として、テレワーク向けのPCやクラウドサービスのサブスクをやっています。\n去る11月6日にイベントを開催し、そのレポートを掲載しましたのでお読みいただけると幸いです。\nhttps://note.com/shao1555/n/nb8f06d2732a1\n引き続き中国関係の記事執筆もやってます。\nAIoTがけん引する「中華シリコン」とそのエコシステム (日経クロストレンド 中国14億人のデジタル社会実装 #35)\nhttps://xtrend.nikkei.com/atcl/contents/18/00188/00036/\n■荒木大地 日本人のための深セン情報サイト(shenzhen-fan.com{.markup\u0026ndash;anchor .markup\u0026ndash;p-anchor}) 深セン ファン\n1.欧米各国から中国への渡航者にはPCR検査＋抗体検査(IgM)陰性証明書が必要に\n10月29日より、米国、フランス、英国、イタリア、ポーランド、ロシアの中国大使館のウェブサイトで、中国へ渡航する乗客は新型コロナウイルスのPCR検査陰性証明書に加え抗体検査(IgM)陰性証明書も提出が必要となる旨の通知が次々と公開されています 。各国の中国大使館情報をお伝えします。\nhttps://www.shenzhen-fan.com/news-2020-11-01-update-flight-rules-from-civil-aviation-administration-of-china-from-europe/\n2.2020年中国都市経済競争力ランキング発表・パターン分析：深センは\u0026hellip;？\n中国社科院（中国社会科学アカデミー）は2020年の中国都市競争力レポートを発表しました。\n経済のみならず、生活環境や技術革新など様々なカテゴリーから調査されたこのランキングを分析すると、今後発展しそうなエリアが見えてきます。深センはもちろん\u0026hellip;\nhttps://www.shenzhen-fan.com/news-2020-11-02-china-economic-competitiveness-ranking/\n3.11月8日より中国への渡航者は搭乗前2日以内のPCR検査＋抗体検査(IgM)陰性証明書が必要に\n2020年11月8日より、日本から中国への渡航者は飛行機搭乗日から2日以内に発行された新型コロナウイルスPCR検査に加え、抗体検査(IgM)の陰性証明書も搭乗手続きに必要となります。\nhttps://www.shenzhen-fan.com/news-2020-11-03-announce-from-embassy-of-japan-in-china/\n4.中国渡航者向け 指定検査機関(PCR＋抗体検査(IgM)) 最新リスト価格情報\n11/2に公開された最新の指定機関(PCR＋抗体検査)リストから検査費用と所要時間を調査しました。\n【駐日本大使館管轄エリア】（東京・神奈川・千葉・埼玉・長野・静岡・群馬・栃木・山梨・茨城）\nhttps://www.shenzhen-fan.com/2020-11-covid19-test-medical-institution-in-kanto/\n【駐大阪領事館管轄エリア】（大阪・京都・兵庫・奈良・和歌山・滋賀・愛媛・高知・徳島・香川・広島・岡山・鳥取・島根）\nhttps://www.shenzhen-fan.com/2020-11-covid19-test-medical-institution-in-osaka/\n【駐名古屋領事館管轄エリア】（愛知・岐阜・福井・富山・石川・三重）\n",
+  "keywords": [
+    
+  ],
+  "articleBody": "【中国オープンソース活動の盛り上がり】\n【中国オープンソース活動の盛り上がり】\nオープンソースソフトウェアは世界的な活動で、そのなかでもともと中国企業や中国のエンジニアは活発に活動していました。その中で今年2020年より中国政府は工信部（日本の総務省や経産省のような機能を持つ）の下にオープンソースを中国国内で推進する組織を作るなど、中国でのオープンソース活動を、より大規模に盛り上げようとしています。たとえばビットコインのようなテクノロジーには「歓迎しない」サインを出していた政府が、オープンソースについては歓迎する意図を鮮明に出し始めました。\nオープンソースについては僕も長年注目してきたテーマでもあり、中国のオープンソースコミュニティ開源社のコミュニティに参加し、研究をはじめました。\nメール下部にまとめた日経ビジネスの連載では、中国政府の現状認識・政府の取り組み・ユーザコミュニティ・大企業それぞれの思惑など、4回にわけてレポートしています。\nまた、先日youtubeで詳述するオンラインイベントをやりました。\nhttps://youtu.be/P6DwKYTnULw\nそのうちどこかで特集記事などにしたいと考えていますし、このテーマで一緒に研究を進められる人を求めています。\nGitHub上で研究結果（白書の日本語訳や、キーになる組織の解説など）を公開していきます。\nhttps://github.com/takasumasakazu/ChinaOpensourceResearch\n【11月より深センに戻りました】\n中国国内におられる方々、深圳いらした機会ありましたらぜひお会いしましょう。僕も上海、広州等他の都市に出張する際はぜひお会いしたいです。\n11月8日に深センに戻り、2週間隔離のあと活動再開しました。5Gのルーターを手配したり、住居の入退室管理システムがすっかり変わっていたのに戸惑ったりしながら、ほぼ毎日アポイントやイベントをこなしています。\nそのような、現地で見たものをそのままスマホで写真アップして共有するNoteマガジンを続けています。（たいてい移動中などに更新しています）\nhttps://note.com/magazines/all\n【今月も書籍が出版されます ITエンジニアのための中国語入門】\n活動報告の方に詳述してありますが、ITエンジニアのための中国語入門が出版されます。\n今年はニコ技深圳コミュニティの関連書籍出版ラッシュですね。\nhttps://www.amazon.co.jp/dp/4295010499/\n— — -告知（ニコ技深センコミュニティの関連イベント、メイカーイベントへの出展など）\n■中野ねこりん＠ギーク中国語コミュニティ\n「ギーク中国語講座」と実務経験を元にIT中国語の本を書きました。共著の方は英語の著書もある方で、中国語の基礎からバッチリ勉強できます。一から中国語を学ぶエンジニアから中級レベルまできっとお役に立つと思います。kindle版も後日発刊予定です。\n『ITエンジニアのための中国語入門』\nhttps://www.amazon.co.jp/dp/4295010499/\n■山崎雅夫@tomorrow56 or ThousanDIY\n月刊I/Oに連載している「100均ガジェット分解」の2020年12月号の記事が掲載されました。今月は 「キャンドゥのワイヤレスイヤホン」です。外形はダイソーそっくりなのですが、ちゃんとステレオで公板+公模の組み合わせによる別物でした。中身はZuHei JieLiの電源管理一体のオールインワンのBTオーディオ用チップ「AC6936D」、いつものように基板から起こした回路図も掲載しています。\nhttp://www.kohgakusha.co.jp/books/detail/4631\n■澤田翔 (@shao1555)\nZUNDA株式会社をデジタル空間上に起業しました。「これからのデジタルオフィスをつくる会社」として、テレワーク向けのPCやクラウドサービスのサブスクをやっています。\n去る11月6日にイベントを開催し、そのレポートを掲載しましたのでお読みいただけると幸いです。\nhttps://note.com/shao1555/n/nb8f06d2732a1\n引き続き中国関係の記事執筆もやってます。\nAIoTがけん引する「中華シリコン」とそのエコシステム (日経クロストレンド 中国14億人のデジタル社会実装 #35)\nhttps://xtrend.nikkei.com/atcl/contents/18/00188/00036/\n■荒木大地 日本人のための深セン情報サイト(shenzhen-fan.com{.markup–anchor .markup–p-anchor}) 深セン ファン\n1.欧米各国から中国への渡航者にはPCR検査＋抗体検査(IgM)陰性証明書が必要に\n10月29日より、米国、フランス、英国、イタリア、ポーランド、ロシアの中国大使館のウェブサイトで、中国へ渡航する乗客は新型コロナウイルスのPCR検査陰性証明書に加え抗体検査(IgM)陰性証明書も提出が必要となる旨の通知が次々と公開されています 。各国の中国大使館情報をお伝えします。\nhttps://www.shenzhen-fan.com/news-2020-11-01-update-flight-rules-from-civil-aviation-administration-of-china-from-europe/\n2.2020年中国都市経済競争力ランキング発表・パターン分析：深センは…？\n中国社科院（中国社会科学アカデミー）は2020年の中国都市競争力レポートを発表しました。\n経済のみならず、生活環境や技術革新など様々なカテゴリーから調査されたこのランキングを分析すると、今後発展しそうなエリアが見えてきます。深センはもちろん…\nhttps://www.shenzhen-fan.com/news-2020-11-02-china-economic-competitiveness-ranking/\n3.11月8日より中国への渡航者は搭乗前2日以内のPCR検査＋抗体検査(IgM)陰性証明書が必要に\n2020年11月8日より、日本から中国への渡航者は飛行機搭乗日から2日以内に発行された新型コロナウイルスPCR検査に加え、抗体検査(IgM)の陰性証明書も搭乗手続きに必要となります。\nhttps://www.shenzhen-fan.com/news-2020-11-03-announce-from-embassy-of-japan-in-china/\n4.中国渡航者向け 指定検査機関(PCR＋抗体検査(IgM)) 最新リスト価格情報\n11/2に公開された最新の指定機関(PCR＋抗体検査)リストから検査費用と所要時間を調査しました。\n【駐日本大使館管轄エリア】（東京・神奈川・千葉・埼玉・長野・静岡・群馬・栃木・山梨・茨城）\nhttps://www.shenzhen-fan.com/2020-11-covid19-test-medical-institution-in-kanto/\n【駐大阪領事館管轄エリア】（大阪・京都・兵庫・奈良・和歌山・滋賀・愛媛・高知・徳島・香川・広島・岡山・鳥取・島根）\nhttps://www.shenzhen-fan.com/2020-11-covid19-test-medical-institution-in-osaka/\n【駐名古屋領事館管轄エリア】（愛知・岐阜・福井・富山・石川・三重）\nhttps://www.shenzhen-fan.com/2020-11-covid19-test-medical-institution-in-nagoya/\n【駐福岡／長崎領事館管轄エリア】（福岡・佐賀・大分・熊本・鹿児島・宮崎・沖縄・山口・長崎）\nhttps://www.shenzhen-fan.com/2020-11-covid19-test-medical-institution-in-fukuoka/\n【駐札幌／新潟領事館管轄エリア】（北海道・青森・秋田・岩手・新潟・山形・宮城・福島）\nhttps://www.shenzhen-fan.com/2020-11-covid19-test-medical-institution-in-sapporo/\n5.深セン人才公園3周年記念「才能の日」ドローンライトショー開催！(11/1)\n「深セン人才日」（才能の日）と呼ばれる11月1日に、深セン人才公園3周年記念ドローン＆ライトショーが開催されました。夜空を飛んだのは1101機のドローン。またしても突然行われました…\nhttps://www.shenzhen-fan.com/news-2020-11-01-drone-show-at-shenzhen-talent-park/\n6.深セン地下鉄は無人運転時代に！2021年から地下鉄20号線を完全自動化へ\n11月4日、深セン地下鉄は全自動運転試験センターの着工を開始しました。\n2021年開通予定の地下鉄20号線から自動運転レベルが最高の「GoAレベル4」を搭載した無人運転を実現し、鉄道輸送の効率を向上させます。\nhttps://www.shenzhen-fan.com/news-2020-11-05-sz-metro-will-start-self-driving-train-from-2021/\n7.日本／香港／諸外国の中国渡航に関する最新情報まとめ（10/29–11/6）\n11月初旬は中国渡航に関する様々なニュースが飛び交い、混乱した方もおられることと思います。\nビザ要件変更、PCR検査＋IgM抗体検査のダブル陰性証明書提出、海外10カ国から中国への渡航禁止通達などいずれも重要なニュースでした。時系列で整理してお伝えします。\nhttps://www.shenzhen-fan.com/news-2020-11-07-information-about-travelers-to-china/\n8.【保存版】中国渡航ホテル隔離生活対策グッズ特集！\n中国渡航情報グループチャットでこれまで隔離経験者の方々から共有いただいた情報をもとに作成した、隔離生活に備えておきたいグッズ特集です。\n情報は皆様のご意見をもとに今後も随時追記します。ストレスなく隔離生活を送れますように！\nhttps://www.shenzhen-fan.com/2020-11-recommend-goods-for-quarantine-in-the-hotel/\n9.梨衣名が教えるものづくり中国語講座vol.3 ビジネスマン必見！ 取引で必ず使う3つの単語（発注書、請求書、領収書）について解説！\nものづくり中国語講座 vol.3！今回は発注書・請求書・領収書の使い方です。華強北でもよく耳にする「ファーピャオ」が登場！\nhttps://fabcross.jp/topics/leena_chinese_lessons/20201112_vol3.html\n10.第５回 Shenzhen Fan 無料オンラインイベント〜隔離スペシャル〜\n日本から深センに渡航して深セン市内のホテルにて14日間の隔離を受けられた、高須 正和さん、川ノ上 和文さん、ゆきのさんに、隔離ホテルの状況や渡航時の様子などをお聞きした生中継イベントを11月15日(日) 日本時間20:00−21:30に開催しました。渡航予定の方々の参考になれば幸いです。\nhttps://youtu.be/EUWlA5VzCIA\n11.「2020中国都市発展水準ランキング」発表：上位は大波乱ー深センは？\n都市局と中国都市研究院が共同で作成した、39の中国の一流都市をランク分けした「2020中国都市発展水準ランキング」が発表されましたが、上位に意外な都市がランクインされました。そして深センは？\nhttps://www.shenzhen-fan.com/2020-11-14-china-urban-development-level-ranking/\n12.【最新版】深セン市内指定隔離ホテルリスト\n中国渡航時に隔離施設として指定されるホテルは費用や設備の面で差異があり、巷では「ホテルガチャ」と呼ばれるほどです。\n今回は、深セン市内の隔離ホテルリストを入手しましたので、隔離ホテルの基本情報・注意点とともにご紹介します。(当情報は随時アップデートします)\nhttps://www.shenzhen-fan.com/2020-11-quarantine-shenzhen-hotels-list/\n13. 世界最大級の芸術祭「Shenzhen Fringe Festival 2020」開幕：テーマアート/テーマソングは日本人アーティスト作品！(11/19–29)\n毎年11月後半に深セン市内各地で行われる、世界最大級のアートイベント FRINGE FEST (フリンジ フェスティバル)が今年も開かれました。\n国内外から多数アーティストを招聘して深セン湾公園や南頭古城など各エリアでライブパフォーマンスなどが繰り広げられました。テーマソングは日本人シティポップバンドevening cinemaが、メインテーマは日本人アーティストLULUが手掛けています。オリジナルグッズは2021年1月3日まで展示販売中！\nhttps://www.shenzhen-fan.com/2020-11-19-shenzhen-fringe-festival/\nhttps://www.shenzhen-fan.com/2020-11-27-shenzhen-fringe-festival-final/\n14.深セン市出入境サービスセンター仮設移転：ビザ・居留証手続き時はご注意を(11/23-)\n11月23日より、外国人に対するビザや居留許可証の手続きを行う入出境サービスセンターが改装工事のため一時的に移転を行いました。今後対象の手続きを行う予定の方はご注意ください。\nhttps://www.shenzhen-fan.com/news-2020-11-23-administration-service-hall-temporarily-relocated/\n15.ANA（全日空）が「成田ー深セン」路線を開設！12月から週一便(月曜)運航開始\nANA（全日空）が日本のエアライン初の深セン路線として12月14日から週一往復（毎週月曜）運航を行います。2020年のサマーダイヤから計画されていた「羽田ー深セン」路線の発着地点を成田に変更し、念願の運航を開始します。中国渡航者には嬉しいニュースです！\nhttps://www.shenzhen-fan.com/news-2020-11-25-ana-airline-narita-shenzhen/\n16.12月1日より中国への渡航者は「健康コード」が必要に\n2020年12月1日より、日本から中国への渡航者は新型コロナウイルスPCR検査＋IgM抗体検査のダブル陰性証明取得後、中国駐日本大使館・総領事館に\"ＨＳ\"または\"ＨＤＣ\"マークのグリーン健康コードを申請することが必要となります。中国籍・外国籍で取得方法が異なります。\nhttps://www.shenzhen-fan.com/news-2020-11-27-announce-from-embassy-of-japan-in-china/\n17.11月30日より日中ビジネストラック／レジデンストラック運用開始\n外務省は日本と中国との間でビジネストラック(ファストトラック)とレジデンストラックの運用を開始すると発表しました。\nビジネストラックは、主に短期出張者に向けて一定の条件の下で相手国へ入国後14日間の自宅等待機期間中も行動範囲を限定した形でビジネス活動が可能となるものです。\nhttps://www.shenzhen-fan.com/news-2020-11-27-business-track-and-residence-track-between-japan-and-china/\n18.【COCO Park/深圳湾万象城】多国籍フードマーケット開催中（-1/4）\n深センでは来年1月4日まで、巨大モール「福田星河 COCO Park」で屋上フードマーケット、「深セン湾万象城(MixC Bay)」で多国籍フードマーケットがそれぞれ開催中！\n涼しくなり過ごしやすくなった深センでのひと時を楽しんでください！\nhttps://www.shenzhen-fan.com/2020-11-coco-park-shenzhen-mixc-bay-food-market/\n■高口康太\n中国アントIPO延期の裏側、アリペイの消費者金融機能巡り当局と暗闘 | Diamond Premium News | ダイヤモンド・オンライン\nhttps://diamond.jp/articles/-/253395?fbclid=IwAR3NEnmh4Zl7TcQK5GnPKS5WEpKVMWvkgW6dmNa6U15jcfoe6ELeR2VuJ9Y\n米大統領選、「不正選挙」訴える中国発デマが飛び交った背景｜NEWSポストセブン\nhttps://www.news-postseven.com/archives/20201110_1611244.html?DETAIL\u0026fbclid=IwAR1VrHpBwisNZAAbcKOIQMeYlv6cGAXtrh846YnA6ZuZPJr21iIN0rU86I4\n中国巨大商戦「独身の日」を支える新技術ってなんだ？日本企業が取り組む新たな活用法(高口康太) — 個人 — Yahoo!ニュース\nhttps://news.yahoo.co.jp/byline/takaguchikota/20201112-00207555/?fbclid=IwAR3eV_XMcDjuL76o8INSPJyCl7-5AtSLW4R5T0mbNgcG6_z5ZS5l2KACBiI\n7兆円超セール「独身の日」の真実、日本企業も巻き添えの過酷投資競争 | Diamond Premium News | ダイヤモンド・オンライン\nhttps://diamond.jp/articles/-/254105?fbclid=IwAR3hTOVezezChwTpcCWawZTAHXAH3RXaj3LfQq2-2AdMEqWeWPb-SJSAfDk\n幻の30兆円上場、アリペイの真実 | ダイヤモンド・オンライン\nhttps://diamond.jp/list/feature/p-alipay_truth\n■高須正和\n【日経ビジネス：世界の工場の明日 週刊連載】\nオープンソースに本腰入れる中国 政府系シンクタンクが白書を発行：日経ビジネス電子版\nhttps://business.nikkei.com/atcl/seminar/19/00058/110400078/\n国際的なオープンソースに乗るアリババ、新しい流れを作るテンセント：日経ビジネス電子版\nhttps://business.nikkei.com/atcl/seminar/19/00058/111000079/\n「オープンソースの法的根拠」普及を急ぐ中国政府：日経ビジネス電子版\nhttps://business.nikkei.com/atcl/seminar/19/00058/111700080/\n40代以上は4％ 中国のオープンソース開発は高収入の若者が中心：日経ビジネス電子版\nhttps://business.nikkei.com/atcl/seminar/19/00058/112400081/\n【DG Lab Haus】\n学生のアイデアから「お坊さんにGPS」が生まれる タイの起業家教育その仕組み | DG Lab Haus\nhttps://media.dglab.com/2020/11/13-thailand-02/\n【CINRA.NET{.markup–anchor .markup–p-anchor}】\n中国深セン在住・高須正和が綴る新しい教養。未来の創造性の輪郭 — コラム : CINRA.NET https://www.cinra.net/column/202011-takasumasakazu_myhrt\n— — -告知（ニコ技深圳コミュニティの関連イベント、メイカーイベントへの出展など）\n■公式/NT札幌実行委員会 https://twitter.com/NT12111\nNT札幌2020を12/26(土)13:00〜16:30にバーチャルSNS clusterにてオンライン開催します！\n「札幌とものづくり」「NT札幌2020なんかつくってみたLT」\nの2セッションを企画しています。終了後にはオンライン懇親会(忘年会)も行います。ぜひご参加ください！\nhttp://j.nicotech.jp/ntsapporo2020\n■【オンラインイベント】エンジニアフレンドリーシティ福岡フェスティバル2020\n「New Engineer’s Life」をテーマに、2020年12月11日、12日オンライン配信します。高須も11日に深圳からオンライン登壇します。\nhttps://connpass.com/event/194251/\n— — SEG出張所スポンサーからの告知 — — — — — — — — — — — — — — — — — — — — — — — — — — 深セン・華強北電気街の中心にある、ニコ技深センコミュニティSEG出張所は、以下のスポンサー様(A-Z順）に支えられて運営しています。深センにいらした際にはお立ち寄りください。\n株式会社a\u0026vain\nJENESIS(SHENZHEN) CO.,LTD\n株式会社スイッチサイエンス\nニコ技深センコミュニティ華強北オフィスについて\nhttps://medium.com/ecosystembymakers/segmaker-b3ff42ce3265\n僕とのアポイントやプレゼンは具体的な商談を除いてオープンデイの日に限らせていただいていますが、\n深センへの滞在中に作業したいとか、僕たちのコミュニティと繋がってビジネスに生かしていきたいとか、\nそういう拠点としてご協賛いただく・ご利用される際にはぜひお声がけください。\nBy TAKASU Masakazu/高須正和{.p-author .h-card} on November 30, 2020.\nCanonical link Exported from Medium on February 6, 2026.\n",
+  "wordCount" : "278",
+  "inLanguage": "en",
+  "image":"https://cdn-images-1.medium.com/max/800/1*IQlZE9D8ZszsIp8eKRUP9Q.jpeg","datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://takasumasakazu.github.io/fabcross/2020-12/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "ニコ技深セン / Nico-Tech Shenzhen website",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://takasumasakazu.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://takasumasakazu.github.io/" accesskey="h" title="ニコ技深セン / Nico-Tech Shenzhen website (Alt + H)">ニコ技深セン / Nico-Tech Shenzhen website</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://takasumasakazu.github.io/teardown/" title="Teardown">
+                    <span>Teardown</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://takasumasakazu.github.io/shenzhen/" title="Shenzhen">
+                    <span>Shenzhen</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://takasumasakazu.github.io/years/" title="Years">
+                    <span>Years</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://takasumasakazu.github.io/">Home</a>&nbsp;»&nbsp;<a href="https://takasumasakazu.github.io/fabcross/">Fabcross</a></div>
+    <h1 class="post-title entry-hint-parent">
+      深圳に戻りました。中国オープンソースへの研究開始 ニコ技深センコミュニティ＆インターネットプラス研究所の月次報告 2020年12月
+    </h1>
+    <div class="post-meta"><span title='2020-11-30 00:00:00 +0000 UTC'>November 30, 2020</span>&nbsp;·&nbsp;<span>2 min</span>
+
+</div>
+  </header> 
+<figure class="entry-cover">
+        <img loading="eager" src="https://cdn-images-1.medium.com/max/800/1*IQlZE9D8ZszsIp8eKRUP9Q.jpeg" alt="">
+        
+</figure><div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#seg%e5%87%ba%e5%bc%b5%e6%89%80%e3%82%b9%e3%83%9d%e3%83%b3%e3%82%b5%e3%83%bc%e3%81%8b%e3%82%89%e3%81%ae%e5%91%8a%e7%9f%a5" aria-label="&mdash; &mdash; SEG出張所スポンサーからの告知 &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash;">&mdash; &mdash; SEG出張所スポンサーからの告知 &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash;</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><p>【中国オープンソース活動の盛り上がり】</p>
+<hr>
+<p>【中国オープンソース活動の盛り上がり】</p>
+<p>オープンソースソフトウェアは世界的な活動で、そのなかでもともと中国企業や中国のエンジニアは活発に活動していました。その中で今年2020年より中国政府は工信部（日本の総務省や経産省のような機能を持つ）の下にオープンソースを中国国内で推進する組織を作るなど、中国でのオープンソース活動を、より大規模に盛り上げようとしています。たとえばビットコインのようなテクノロジーには「歓迎しない」サインを出していた政府が、オープンソースについては歓迎する意図を鮮明に出し始めました。</p>
+<p>オープンソースについては僕も長年注目してきたテーマでもあり、中国のオープンソースコミュニティ開源社のコミュニティに参加し、研究をはじめました。</p>
+<p>メール下部にまとめた日経ビジネスの連載では、中国政府の現状認識・政府の取り組み・ユーザコミュニティ・大企業それぞれの思惑など、4回にわけてレポートしています。</p>
+<p>また、先日youtubeで詳述するオンラインイベントをやりました。</p>
+<p><a href="https://youtu.be/P6DwKYTnULw">https://youtu.be/P6DwKYTnULw</a></p>
+<p>そのうちどこかで特集記事などにしたいと考えていますし、このテーマで一緒に研究を進められる人を求めています。</p>
+<p>GitHub上で研究結果（白書の日本語訳や、キーになる組織の解説など）を公開していきます。</p>
+<p><a href="https://github.com/takasumasakazu/ChinaOpensourceResearch">https://github.com/takasumasakazu/ChinaOpensourceResearch</a></p>
+<p>【11月より深センに戻りました】</p>
+<p>中国国内におられる方々、深圳いらした機会ありましたらぜひお会いしましょう。僕も上海、広州等他の都市に出張する際はぜひお会いしたいです。</p>
+<p>11月8日に深センに戻り、2週間隔離のあと活動再開しました。5Gのルーターを手配したり、住居の入退室管理システムがすっかり変わっていたのに戸惑ったりしながら、ほぼ毎日アポイントやイベントをこなしています。</p>
+<p>そのような、現地で見たものをそのままスマホで写真アップして共有するNoteマガジンを続けています。（たいてい移動中などに更新しています）</p>
+<p><a href="https://note.com/magazines/all">https://note.com/magazines/all</a></p>
+<p>【今月も書籍が出版されます ITエンジニアのための中国語入門】</p>
+<p>活動報告の方に詳述してありますが、ITエンジニアのための中国語入門が出版されます。</p>
+<p>今年はニコ技深圳コミュニティの関連書籍出版ラッシュですね。</p>
+<p><a href="https://www.amazon.co.jp/dp/4295010499/">https://www.amazon.co.jp/dp/4295010499/</a></p>
+<p>&mdash; &mdash; -告知（ニコ技深センコミュニティの関連イベント、メイカーイベントへの出展など）</p>
+<p>■中野ねこりん＠ギーク中国語コミュニティ</p>
+<p>「ギーク中国語講座」と実務経験を元にIT中国語の本を書きました。共著の方は英語の著書もある方で、中国語の基礎からバッチリ勉強できます。一から中国語を学ぶエンジニアから中級レベルまできっとお役に立つと思います。kindle版も後日発刊予定です。</p>
+<p>『ITエンジニアのための中国語入門』</p>
+<p><a href="https://www.amazon.co.jp/dp/4295010499/">https://www.amazon.co.jp/dp/4295010499/</a></p>
+<p>■山崎雅夫@tomorrow56 or ThousanDIY</p>
+<p>月刊I/Oに連載している「100均ガジェット分解」の2020年12月号の記事が掲載されました。今月は
+「キャンドゥのワイヤレスイヤホン」です。外形はダイソーそっくりなのですが、ちゃんとステレオで公板+公模の組み合わせによる別物でした。中身はZuHei
+JieLiの電源管理一体のオールインワンのBTオーディオ用チップ「AC6936D」、いつものように基板から起こした回路図も掲載しています。</p>
+<p><a href="http://www.kohgakusha.co.jp/books/detail/4631">http://www.kohgakusha.co.jp/books/detail/4631</a></p>
+<p>■澤田翔 (@shao1555)</p>
+<p>ZUNDA株式会社をデジタル空間上に起業しました。「これからのデジタルオフィスをつくる会社」として、テレワーク向けのPCやクラウドサービスのサブスクをやっています。</p>
+<p>去る11月6日にイベントを開催し、そのレポートを掲載しましたのでお読みいただけると幸いです。</p>
+<p><a href="https://note.com/shao1555/n/nb8f06d2732a1">https://note.com/shao1555/n/nb8f06d2732a1</a></p>
+<p>引き続き中国関係の記事執筆もやってます。</p>
+<p>AIoTがけん引する「中華シリコン」とそのエコシステム (日経クロストレンド
+中国14億人のデジタル社会実装 #35)</p>
+<p><a href="https://xtrend.nikkei.com/atcl/contents/18/00188/00036/">https://xtrend.nikkei.com/atcl/contents/18/00188/00036/</a></p>
+<p>■荒木大地
+日本人のための深セン情報サイト(<a href="http://shenzhen-fan.com/">shenzhen-fan.com</a>{.markup&ndash;anchor
+.markup&ndash;p-anchor}) 深セン ファン</p>
+<p>1.欧米各国から中国への渡航者にはPCR検査＋抗体検査(IgM)陰性証明書が必要に</p>
+<p>10月29日より、米国、フランス、英国、イタリア、ポーランド、ロシアの中国大使館のウェブサイトで、中国へ渡航する乗客は新型コロナウイルスのPCR検査陰性証明書に加え抗体検査(IgM)陰性証明書も提出が必要となる旨の通知が次々と公開されています
+。各国の中国大使館情報をお伝えします。</p>
+<p><a href="https://www.shenzhen-fan.com/news-2020-11-01-update-flight-rules-from-civil-aviation-administration-of-china-from-europe/">https://www.shenzhen-fan.com/news-2020-11-01-update-flight-rules-from-civil-aviation-administration-of-china-from-europe/</a></p>
+<p>2.2020年中国都市経済競争力ランキング発表・パターン分析：深センは&hellip;？</p>
+<p>中国社科院（中国社会科学アカデミー）は2020年の中国都市競争力レポートを発表しました。</p>
+<p>経済のみならず、生活環境や技術革新など様々なカテゴリーから調査されたこのランキングを分析すると、今後発展しそうなエリアが見えてきます。深センはもちろん&hellip;</p>
+<p><a href="https://www.shenzhen-fan.com/news-2020-11-02-china-economic-competitiveness-ranking/">https://www.shenzhen-fan.com/news-2020-11-02-china-economic-competitiveness-ranking/</a></p>
+<p>3.11月8日より中国への渡航者は搭乗前2日以内のPCR検査＋抗体検査(IgM)陰性証明書が必要に</p>
+<p>2020年11月8日より、日本から中国への渡航者は飛行機搭乗日から2日以内に発行された新型コロナウイルスPCR検査に加え、抗体検査(IgM)の陰性証明書も搭乗手続きに必要となります。</p>
+<p><a href="https://www.shenzhen-fan.com/news-2020-11-03-announce-from-embassy-of-japan-in-china/">https://www.shenzhen-fan.com/news-2020-11-03-announce-from-embassy-of-japan-in-china/</a></p>
+<p>4.中国渡航者向け 指定検査機関(PCR＋抗体検査(IgM)) 最新リスト価格情報</p>
+<p>11/2に公開された最新の指定機関(PCR＋抗体検査)リストから検査費用と所要時間を調査しました。</p>
+<p>【駐日本大使館管轄エリア】（東京・神奈川・千葉・埼玉・長野・静岡・群馬・栃木・山梨・茨城）</p>
+<p><a href="https://www.shenzhen-fan.com/2020-11-covid19-test-medical-institution-in-kanto/">https://www.shenzhen-fan.com/2020-11-covid19-test-medical-institution-in-kanto/</a></p>
+<p>【駐大阪領事館管轄エリア】（大阪・京都・兵庫・奈良・和歌山・滋賀・愛媛・高知・徳島・香川・広島・岡山・鳥取・島根）</p>
+<p><a href="https://www.shenzhen-fan.com/2020-11-covid19-test-medical-institution-in-osaka/">https://www.shenzhen-fan.com/2020-11-covid19-test-medical-institution-in-osaka/</a></p>
+<p>【駐名古屋領事館管轄エリア】（愛知・岐阜・福井・富山・石川・三重）</p>
+<p><a href="https://www.shenzhen-fan.com/2020-11-covid19-test-medical-institution-in-nagoya/">https://www.shenzhen-fan.com/2020-11-covid19-test-medical-institution-in-nagoya/</a></p>
+<p>【駐福岡／長崎領事館管轄エリア】（福岡・佐賀・大分・熊本・鹿児島・宮崎・沖縄・山口・長崎）</p>
+<p><a href="https://www.shenzhen-fan.com/2020-11-covid19-test-medical-institution-in-fukuoka/">https://www.shenzhen-fan.com/2020-11-covid19-test-medical-institution-in-fukuoka/</a></p>
+<p>【駐札幌／新潟領事館管轄エリア】（北海道・青森・秋田・岩手・新潟・山形・宮城・福島）</p>
+<p><a href="https://www.shenzhen-fan.com/2020-11-covid19-test-medical-institution-in-sapporo/">https://www.shenzhen-fan.com/2020-11-covid19-test-medical-institution-in-sapporo/</a></p>
+<p>5.深セン人才公園3周年記念「才能の日」ドローンライトショー開催！(11/1)</p>
+<p>「深セン人才日」（才能の日）と呼ばれる11月1日に、深セン人才公園3周年記念ドローン＆ライトショーが開催されました。夜空を飛んだのは1101機のドローン。またしても突然行われました&hellip;</p>
+<p><a href="https://www.shenzhen-fan.com/news-2020-11-01-drone-show-at-shenzhen-talent-park/">https://www.shenzhen-fan.com/news-2020-11-01-drone-show-at-shenzhen-talent-park/</a></p>
+<p>6.深セン地下鉄は無人運転時代に！2021年から地下鉄20号線を完全自動化へ</p>
+<p>11月4日、深セン地下鉄は全自動運転試験センターの着工を開始しました。</p>
+<p>2021年開通予定の地下鉄20号線から自動運転レベルが最高の「GoAレベル4」を搭載した無人運転を実現し、鉄道輸送の効率を向上させます。</p>
+<p><a href="https://www.shenzhen-fan.com/news-2020-11-05-sz-metro-will-start-self-driving-train-from-2021/">https://www.shenzhen-fan.com/news-2020-11-05-sz-metro-will-start-self-driving-train-from-2021/</a></p>
+<p>7.日本／香港／諸外国の中国渡航に関する最新情報まとめ（10/29&ndash;11/6）</p>
+<p>11月初旬は中国渡航に関する様々なニュースが飛び交い、混乱した方もおられることと思います。</p>
+<p>ビザ要件変更、PCR検査＋IgM抗体検査のダブル陰性証明書提出、海外10カ国から中国への渡航禁止通達などいずれも重要なニュースでした。時系列で整理してお伝えします。</p>
+<p><a href="https://www.shenzhen-fan.com/news-2020-11-07-information-about-travelers-to-china/">https://www.shenzhen-fan.com/news-2020-11-07-information-about-travelers-to-china/</a></p>
+<p>8.【保存版】中国渡航ホテル隔離生活対策グッズ特集！</p>
+<p>中国渡航情報グループチャットでこれまで隔離経験者の方々から共有いただいた情報をもとに作成した、隔離生活に備えておきたいグッズ特集です。</p>
+<p>情報は皆様のご意見をもとに今後も随時追記します。ストレスなく隔離生活を送れますように！</p>
+<p><a href="https://www.shenzhen-fan.com/2020-11-recommend-goods-for-quarantine-in-the-hotel/">https://www.shenzhen-fan.com/2020-11-recommend-goods-for-quarantine-in-the-hotel/</a></p>
+<p>9.梨衣名が教えるものづくり中国語講座vol.3 ビジネスマン必見！
+取引で必ず使う3つの単語（発注書、請求書、領収書）について解説！</p>
+<p>ものづくり中国語講座
+vol.3！今回は発注書・請求書・領収書の使い方です。華強北でもよく耳にする「ファーピャオ」が登場！</p>
+<p><a href="https://fabcross.jp/topics/leena_chinese_lessons/20201112_vol3.html">https://fabcross.jp/topics/leena_chinese_lessons/20201112_vol3.html</a></p>
+<p>10.第５回 Shenzhen Fan 無料オンラインイベント〜隔離スペシャル〜</p>
+<p>日本から深センに渡航して深セン市内のホテルにて14日間の隔離を受けられた、高須
+正和さん、川ノ上
+和文さん、ゆきのさんに、隔離ホテルの状況や渡航時の様子などをお聞きした生中継イベントを11月15日(日)
+日本時間20:00−21:30に開催しました。渡航予定の方々の参考になれば幸いです。</p>
+<p><a href="https://youtu.be/EUWlA5VzCIA">https://youtu.be/EUWlA5VzCIA</a></p>
+<p>11.「2020中国都市発展水準ランキング」発表：上位は大波乱ー深センは？</p>
+<p>都市局と中国都市研究院が共同で作成した、39の中国の一流都市をランク分けした「2020中国都市発展水準ランキング」が発表されましたが、上位に意外な都市がランクインされました。そして深センは？</p>
+<p><a href="https://www.shenzhen-fan.com/2020-11-14-china-urban-development-level-ranking/">https://www.shenzhen-fan.com/2020-11-14-china-urban-development-level-ranking/</a></p>
+<p>12.【最新版】深セン市内指定隔離ホテルリスト</p>
+<p>中国渡航時に隔離施設として指定されるホテルは費用や設備の面で差異があり、巷では「ホテルガチャ」と呼ばれるほどです。</p>
+<p>今回は、深セン市内の隔離ホテルリストを入手しましたので、隔離ホテルの基本情報・注意点とともにご紹介します。(当情報は随時アップデートします)</p>
+<p><a href="https://www.shenzhen-fan.com/2020-11-quarantine-shenzhen-hotels-list/">https://www.shenzhen-fan.com/2020-11-quarantine-shenzhen-hotels-list/</a></p>
+<p>13. 世界最大級の芸術祭「Shenzhen Fringe Festival
+2020」開幕：テーマアート/テーマソングは日本人アーティスト作品！(11/19&ndash;29)</p>
+<p>毎年11月後半に深セン市内各地で行われる、世界最大級のアートイベント
+FRINGE FEST (フリンジ フェスティバル)が今年も開かれました。</p>
+<p>国内外から多数アーティストを招聘して深セン湾公園や南頭古城など各エリアでライブパフォーマンスなどが繰り広げられました。テーマソングは日本人シティポップバンドevening
+cinemaが、メインテーマは日本人アーティストLULUが手掛けています。オリジナルグッズは2021年1月3日まで展示販売中！</p>
+<p><a href="https://www.shenzhen-fan.com/2020-11-19-shenzhen-fringe-festival/">https://www.shenzhen-fan.com/2020-11-19-shenzhen-fringe-festival/</a></p>
+<p><a href="https://www.shenzhen-fan.com/2020-11-27-shenzhen-fringe-festival-final/">https://www.shenzhen-fan.com/2020-11-27-shenzhen-fringe-festival-final/</a></p>
+<p>14.深セン市出入境サービスセンター仮設移転：ビザ・居留証手続き時はご注意を(11/23-)</p>
+<p>11月23日より、外国人に対するビザや居留許可証の手続きを行う入出境サービスセンターが改装工事のため一時的に移転を行いました。今後対象の手続きを行う予定の方はご注意ください。</p>
+<p><a href="https://www.shenzhen-fan.com/news-2020-11-23-administration-service-hall-temporarily-relocated/">https://www.shenzhen-fan.com/news-2020-11-23-administration-service-hall-temporarily-relocated/</a></p>
+<p>15.ANA（全日空）が「成田ー深セン」路線を開設！12月から週一便(月曜)運航開始</p>
+<p>ANA（全日空）が日本のエアライン初の深セン路線として12月14日から週一往復（毎週月曜）運航を行います。2020年のサマーダイヤから計画されていた「羽田ー深セン」路線の発着地点を成田に変更し、念願の運航を開始します。中国渡航者には嬉しいニュースです！</p>
+<p><a href="https://www.shenzhen-fan.com/news-2020-11-25-ana-airline-narita-shenzhen/">https://www.shenzhen-fan.com/news-2020-11-25-ana-airline-narita-shenzhen/</a></p>
+<p>16.12月1日より中国への渡航者は「健康コード」が必要に</p>
+<p>2020年12月1日より、日本から中国への渡航者は新型コロナウイルスPCR検査＋IgM抗体検査のダブル陰性証明取得後、中国駐日本大使館・総領事館に&quot;ＨＳ&quot;または&quot;ＨＤＣ&quot;マークのグリーン健康コードを申請することが必要となります。中国籍・外国籍で取得方法が異なります。</p>
+<p><a href="https://www.shenzhen-fan.com/news-2020-11-27-announce-from-embassy-of-japan-in-china/">https://www.shenzhen-fan.com/news-2020-11-27-announce-from-embassy-of-japan-in-china/</a></p>
+<p>17.11月30日より日中ビジネストラック／レジデンストラック運用開始</p>
+<p>外務省は日本と中国との間でビジネストラック(ファストトラック)とレジデンストラックの運用を開始すると発表しました。</p>
+<p>ビジネストラックは、主に短期出張者に向けて一定の条件の下で相手国へ入国後14日間の自宅等待機期間中も行動範囲を限定した形でビジネス活動が可能となるものです。</p>
+<p><a href="https://www.shenzhen-fan.com/news-2020-11-27-business-track-and-residence-track-between-japan-and-china/">https://www.shenzhen-fan.com/news-2020-11-27-business-track-and-residence-track-between-japan-and-china/</a></p>
+<p>18.【COCO Park/深圳湾万象城】多国籍フードマーケット開催中（-1/4）</p>
+<p>深センでは来年1月4日まで、巨大モール「福田星河 COCO
+Park」で屋上フードマーケット、「深セン湾万象城(MixC
+Bay)」で多国籍フードマーケットがそれぞれ開催中！</p>
+<p>涼しくなり過ごしやすくなった深センでのひと時を楽しんでください！</p>
+<p><a href="https://www.shenzhen-fan.com/2020-11-coco-park-shenzhen-mixc-bay-food-market/">https://www.shenzhen-fan.com/2020-11-coco-park-shenzhen-mixc-bay-food-market/</a></p>
+<p>■高口康太</p>
+<p>中国アントIPO延期の裏側、アリペイの消費者金融機能巡り当局と暗闘 |
+Diamond Premium News | ダイヤモンド・オンライン</p>
+<p><a href="https://diamond.jp/articles/-/253395?fbclid=IwAR3NEnmh4Zl7TcQK5GnPKS5WEpKVMWvkgW6dmNa6U15jcfoe6ELeR2VuJ9Y">https://diamond.jp/articles/-/253395?fbclid=IwAR3NEnmh4Zl7TcQK5GnPKS5WEpKVMWvkgW6dmNa6U15jcfoe6ELeR2VuJ9Y</a></p>
+<p>米大統領選、「不正選挙」訴える中国発デマが飛び交った背景｜NEWSポストセブン</p>
+<p><a href="https://www.news-postseven.com/archives/20201110_1611244.html?DETAIL&amp;fbclid=IwAR1VrHpBwisNZAAbcKOIQMeYlv6cGAXtrh846YnA6ZuZPJr21iIN0rU86I4">https://www.news-postseven.com/archives/20201110_1611244.html?DETAIL&amp;fbclid=IwAR1VrHpBwisNZAAbcKOIQMeYlv6cGAXtrh846YnA6ZuZPJr21iIN0rU86I4</a></p>
+<p>中国巨大商戦「独身の日」を支える新技術ってなんだ？日本企業が取り組む新たな活用法(高口康太) &mdash; 個人 &mdash; Yahoo!ニュース</p>
+<p><a href="https://news.yahoo.co.jp/byline/takaguchikota/20201112-00207555/?fbclid=IwAR3eV_XMcDjuL76o8INSPJyCl7-5AtSLW4R5T0mbNgcG6_z5ZS5l2KACBiI">https://news.yahoo.co.jp/byline/takaguchikota/20201112-00207555/?fbclid=IwAR3eV_XMcDjuL76o8INSPJyCl7-5AtSLW4R5T0mbNgcG6_z5ZS5l2KACBiI</a></p>
+<p>7兆円超セール「独身の日」の真実、日本企業も巻き添えの過酷投資競争 |
+Diamond Premium News | ダイヤモンド・オンライン</p>
+<p><a href="https://diamond.jp/articles/-/254105?fbclid=IwAR3hTOVezezChwTpcCWawZTAHXAH3RXaj3LfQq2-2AdMEqWeWPb-SJSAfDk">https://diamond.jp/articles/-/254105?fbclid=IwAR3hTOVezezChwTpcCWawZTAHXAH3RXaj3LfQq2-2AdMEqWeWPb-SJSAfDk</a></p>
+<p>幻の30兆円上場、アリペイの真実 | ダイヤモンド・オンライン</p>
+<p><a href="https://diamond.jp/list/feature/p-alipay_truth">https://diamond.jp/list/feature/p-alipay_truth</a></p>
+<p>■高須正和</p>
+<p>【日経ビジネス：世界の工場の明日 週刊連載】</p>
+<p>オープンソースに本腰入れる中国
+政府系シンクタンクが白書を発行：日経ビジネス電子版</p>
+<p><a href="https://business.nikkei.com/atcl/seminar/19/00058/110400078/">https://business.nikkei.com/atcl/seminar/19/00058/110400078/</a></p>
+<p>国際的なオープンソースに乗るアリババ、新しい流れを作るテンセント：日経ビジネス電子版</p>
+<p><a href="https://business.nikkei.com/atcl/seminar/19/00058/111000079/">https://business.nikkei.com/atcl/seminar/19/00058/111000079/</a></p>
+<p>「オープンソースの法的根拠」普及を急ぐ中国政府：日経ビジネス電子版</p>
+<p><a href="https://business.nikkei.com/atcl/seminar/19/00058/111700080/">https://business.nikkei.com/atcl/seminar/19/00058/111700080/</a></p>
+<p>40代以上は4％
+中国のオープンソース開発は高収入の若者が中心：日経ビジネス電子版</p>
+<p><a href="https://business.nikkei.com/atcl/seminar/19/00058/112400081/">https://business.nikkei.com/atcl/seminar/19/00058/112400081/</a></p>
+<p>【DG Lab Haus】</p>
+<p>学生のアイデアから「お坊さんにGPS」が生まれる タイの起業家教育その仕組み
+| DG Lab Haus</p>
+<p><a href="https://media.dglab.com/2020/11/13-thailand-02/">https://media.dglab.com/2020/11/13-thailand-02/</a></p>
+<p>【<a href="http://cinra.net/">CINRA.NET</a>{.markup&ndash;anchor .markup&ndash;p-anchor}】</p>
+<p>中国深セン在住・高須正和が綴る新しい教養。未来の創造性の輪郭 &mdash; コラム :
+<a href="http://cinra.net/">CINRA.NET</a>
+<a href="https://www.cinra.net/column/202011-takasumasakazu_myhrt">https://www.cinra.net/column/202011-takasumasakazu_myhrt</a></p>
+<p>&mdash; &mdash; -告知（ニコ技深圳コミュニティの関連イベント、メイカーイベントへの出展など）</p>
+<p>■公式/NT札幌実行委員会 <a href="https://twitter.com/NT12111">https://twitter.com/NT12111</a></p>
+<p>NT札幌2020を12/26(土)13:00〜16:30にバーチャルSNS
+clusterにてオンライン開催します！</p>
+<p>「札幌とものづくり」「NT札幌2020なんかつくってみたLT」</p>
+<p>の2セッションを企画しています。終了後にはオンライン懇親会(忘年会)も行います。ぜひご参加ください！</p>
+<p><a href="http://j.nicotech.jp/ntsapporo2020">http://j.nicotech.jp/ntsapporo2020</a></p>
+<p>■【オンラインイベント】エンジニアフレンドリーシティ福岡フェスティバル2020</p>
+<p>「New Engineer&rsquo;s
+Life」をテーマに、2020年12月11日、12日オンライン配信します。高須も11日に深圳からオンライン登壇します。</p>
+<p><a href="https://connpass.com/event/194251/">https://connpass.com/event/194251/</a></p>
+<h2 id="seg出張所スポンサーからの告知">&mdash; &mdash; SEG出張所スポンサーからの告知 &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash;<a hidden class="anchor" aria-hidden="true" href="#seg出張所スポンサーからの告知">#</a></h2>
+<p>深セン・華強北電気街の中心にある、ニコ技深センコミュニティSEG出張所は、以下のスポンサー様(A-Z順）に支えられて運営しています。深センにいらした際にはお立ち寄りください。</p>
+<p>株式会社a&amp;vain</p>
+<p>JENESIS(SHENZHEN) CO.,LTD</p>
+<p>株式会社スイッチサイエンス</p>
+<p>ニコ技深センコミュニティ華強北オフィスについて</p>
+<p><a href="https://medium.com/ecosystembymakers/segmaker-b3ff42ce3265">https://medium.com/ecosystembymakers/segmaker-b3ff42ce3265</a></p>
+<p>僕とのアポイントやプレゼンは具体的な商談を除いてオープンデイの日に限らせていただいていますが、</p>
+<p>深センへの滞在中に作業したいとか、僕たちのコミュニティと繋がってビジネスに生かしていきたいとか、</p>
+<p>そういう拠点としてご協賛いただく・ご利用される際にはぜひお声がけください。</p>
+<p>By <a href="https://medium.com/@tks">TAKASU Masakazu/高須正和</a>{.p-author
+.h-card} on <a href="https://medium.com/p/20517b1f0a24">November 30, 2020</a>.</p>
+<p><a href="https://medium.com/@tks/202012-20517b1f0a24">Canonical
+link</a>
+Exported from <a href="https://medium.com">Medium</a> on February 6, 2026.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://takasumasakazu.github.io/fabcross/2021-1-20-ob-736b9d54e68/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>講演：深圳ハードウェア開発とイノベーションのエコシステム 2021年1月20日 淡星会（シンガポール東大OB同窓会） 第三回グローバルビジネス分科会にて...</span>
+  </a>
+  <a class="next" href="https://takasumasakazu.github.io/teardown/11-tech-2020-11/">
+    <span class="title">Next »</span>
+    <br>
+    <span>11月より深センに戻ります。新興国&#43;Techへの注目 ニコ技深センコミュニティ＆インターネットプラス研究所の月次報告 2020年11月</span>
+  </a>
+</nav>
+
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share 深圳に戻りました。中国オープンソースへの研究開始 ニコ技深センコミュニティ＆インターネットプラス研究所の月次報告 2020年12月 on x"
+            href="https://x.com/intent/tweet/?text=%e6%b7%b1%e5%9c%b3%e3%81%ab%e6%88%bb%e3%82%8a%e3%81%be%e3%81%97%e3%81%9f%e3%80%82%e4%b8%ad%e5%9b%bd%e3%82%aa%e3%83%bc%e3%83%97%e3%83%b3%e3%82%bd%e3%83%bc%e3%82%b9%e3%81%b8%e3%81%ae%e7%a0%94%e7%a9%b6%e9%96%8b%e5%a7%8b%20%e3%83%8b%e3%82%b3%e6%8a%80%e6%b7%b1%e3%82%bb%e3%83%b3%e3%82%b3%e3%83%9f%e3%83%a5%e3%83%8b%e3%83%86%e3%82%a3%ef%bc%86%e3%82%a4%e3%83%b3%e3%82%bf%e3%83%bc%e3%83%8d%e3%83%83%e3%83%88%e3%83%97%e3%83%a9%e3%82%b9%e7%a0%94%e7%a9%b6%e6%89%80%e3%81%ae%e6%9c%88%e6%ac%a1%e5%a0%b1%e5%91%8a%202020%e5%b9%b412%e6%9c%88&amp;url=https%3a%2f%2ftakasumasakazu.github.io%2ffabcross%2f2020-12%2f&amp;hashtags=">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share 深圳に戻りました。中国オープンソースへの研究開始 ニコ技深センコミュニティ＆インターネットプラス研究所の月次報告 2020年12月 on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2ftakasumasakazu.github.io%2ffabcross%2f2020-12%2f&amp;title=%e6%b7%b1%e5%9c%b3%e3%81%ab%e6%88%bb%e3%82%8a%e3%81%be%e3%81%97%e3%81%9f%e3%80%82%e4%b8%ad%e5%9b%bd%e3%82%aa%e3%83%bc%e3%83%97%e3%83%b3%e3%82%bd%e3%83%bc%e3%82%b9%e3%81%b8%e3%81%ae%e7%a0%94%e7%a9%b6%e9%96%8b%e5%a7%8b%20%e3%83%8b%e3%82%b3%e6%8a%80%e6%b7%b1%e3%82%bb%e3%83%b3%e3%82%b3%e3%83%9f%e3%83%a5%e3%83%8b%e3%83%86%e3%82%a3%ef%bc%86%e3%82%a4%e3%83%b3%e3%82%bf%e3%83%bc%e3%83%8d%e3%83%83%e3%83%88%e3%83%97%e3%83%a9%e3%82%b9%e7%a0%94%e7%a9%b6%e6%89%80%e3%81%ae%e6%9c%88%e6%ac%a1%e5%a0%b1%e5%91%8a%202020%e5%b9%b412%e6%9c%88&amp;summary=%e6%b7%b1%e5%9c%b3%e3%81%ab%e6%88%bb%e3%82%8a%e3%81%be%e3%81%97%e3%81%9f%e3%80%82%e4%b8%ad%e5%9b%bd%e3%82%aa%e3%83%bc%e3%83%97%e3%83%b3%e3%82%bd%e3%83%bc%e3%82%b9%e3%81%b8%e3%81%ae%e7%a0%94%e7%a9%b6%e9%96%8b%e5%a7%8b%20%e3%83%8b%e3%82%b3%e6%8a%80%e6%b7%b1%e3%82%bb%e3%83%b3%e3%82%b3%e3%83%9f%e3%83%a5%e3%83%8b%e3%83%86%e3%82%a3%ef%bc%86%e3%82%a4%e3%83%b3%e3%82%bf%e3%83%bc%e3%83%8d%e3%83%83%e3%83%88%e3%83%97%e3%83%a9%e3%82%b9%e7%a0%94%e7%a9%b6%e6%89%80%e3%81%ae%e6%9c%88%e6%ac%a1%e5%a0%b1%e5%91%8a%202020%e5%b9%b412%e6%9c%88&amp;source=https%3a%2f%2ftakasumasakazu.github.io%2ffabcross%2f2020-12%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share 深圳に戻りました。中国オープンソースへの研究開始 ニコ技深センコミュニティ＆インターネットプラス研究所の月次報告 2020年12月 on reddit"
+            href="https://reddit.com/submit?url=https%3a%2f%2ftakasumasakazu.github.io%2ffabcross%2f2020-12%2f&title=%e6%b7%b1%e5%9c%b3%e3%81%ab%e6%88%bb%e3%82%8a%e3%81%be%e3%81%97%e3%81%9f%e3%80%82%e4%b8%ad%e5%9b%bd%e3%82%aa%e3%83%bc%e3%83%97%e3%83%b3%e3%82%bd%e3%83%bc%e3%82%b9%e3%81%b8%e3%81%ae%e7%a0%94%e7%a9%b6%e9%96%8b%e5%a7%8b%20%e3%83%8b%e3%82%b3%e6%8a%80%e6%b7%b1%e3%82%bb%e3%83%b3%e3%82%b3%e3%83%9f%e3%83%a5%e3%83%8b%e3%83%86%e3%82%a3%ef%bc%86%e3%82%a4%e3%83%b3%e3%82%bf%e3%83%bc%e3%83%8d%e3%83%83%e3%83%88%e3%83%97%e3%83%a9%e3%82%b9%e7%a0%94%e7%a9%b6%e6%89%80%e3%81%ae%e6%9c%88%e6%ac%a1%e5%a0%b1%e5%91%8a%202020%e5%b9%b412%e6%9c%88">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share 深圳に戻りました。中国オープンソースへの研究開始 ニコ技深センコミュニティ＆インターネットプラス研究所の月次報告 2020年12月 on facebook"
+            href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2ftakasumasakazu.github.io%2ffabcross%2f2020-12%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share 深圳に戻りました。中国オープンソースへの研究開始 ニコ技深センコミュニティ＆インターネットプラス研究所の月次報告 2020年12月 on whatsapp"
+            href="https://api.whatsapp.com/send?text=%e6%b7%b1%e5%9c%b3%e3%81%ab%e6%88%bb%e3%82%8a%e3%81%be%e3%81%97%e3%81%9f%e3%80%82%e4%b8%ad%e5%9b%bd%e3%82%aa%e3%83%bc%e3%83%97%e3%83%b3%e3%82%bd%e3%83%bc%e3%82%b9%e3%81%b8%e3%81%ae%e7%a0%94%e7%a9%b6%e9%96%8b%e5%a7%8b%20%e3%83%8b%e3%82%b3%e6%8a%80%e6%b7%b1%e3%82%bb%e3%83%b3%e3%82%b3%e3%83%9f%e3%83%a5%e3%83%8b%e3%83%86%e3%82%a3%ef%bc%86%e3%82%a4%e3%83%b3%e3%82%bf%e3%83%bc%e3%83%8d%e3%83%83%e3%83%88%e3%83%97%e3%83%a9%e3%82%b9%e7%a0%94%e7%a9%b6%e6%89%80%e3%81%ae%e6%9c%88%e6%ac%a1%e5%a0%b1%e5%91%8a%202020%e5%b9%b412%e6%9c%88%20-%20https%3a%2f%2ftakasumasakazu.github.io%2ffabcross%2f2020-12%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share 深圳に戻りました。中国オープンソースへの研究開始 ニコ技深センコミュニティ＆インターネットプラス研究所の月次報告 2020年12月 on telegram"
+            href="https://telegram.me/share/url?text=%e6%b7%b1%e5%9c%b3%e3%81%ab%e6%88%bb%e3%82%8a%e3%81%be%e3%81%97%e3%81%9f%e3%80%82%e4%b8%ad%e5%9b%bd%e3%82%aa%e3%83%bc%e3%83%97%e3%83%b3%e3%82%bd%e3%83%bc%e3%82%b9%e3%81%b8%e3%81%ae%e7%a0%94%e7%a9%b6%e9%96%8b%e5%a7%8b%20%e3%83%8b%e3%82%b3%e6%8a%80%e6%b7%b1%e3%82%bb%e3%83%b3%e3%82%b3%e3%83%9f%e3%83%a5%e3%83%8b%e3%83%86%e3%82%a3%ef%bc%86%e3%82%a4%e3%83%b3%e3%82%bf%e3%83%bc%e3%83%8d%e3%83%83%e3%83%88%e3%83%97%e3%83%a9%e3%82%b9%e7%a0%94%e7%a9%b6%e6%89%80%e3%81%ae%e6%9c%88%e6%ac%a1%e5%a0%b1%e5%91%8a%202020%e5%b9%b412%e6%9c%88&amp;url=https%3a%2f%2ftakasumasakazu.github.io%2ffabcross%2f2020-12%2f">
+            <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share 深圳に戻りました。中国オープンソースへの研究開始 ニコ技深センコミュニティ＆インターネットプラス研究所の月次報告 2020年12月 on ycombinator"
+            href="https://news.ycombinator.com/submitlink?t=%e6%b7%b1%e5%9c%b3%e3%81%ab%e6%88%bb%e3%82%8a%e3%81%be%e3%81%97%e3%81%9f%e3%80%82%e4%b8%ad%e5%9b%bd%e3%82%aa%e3%83%bc%e3%83%97%e3%83%b3%e3%82%bd%e3%83%bc%e3%82%b9%e3%81%b8%e3%81%ae%e7%a0%94%e7%a9%b6%e9%96%8b%e5%a7%8b%20%e3%83%8b%e3%82%b3%e6%8a%80%e6%b7%b1%e3%82%bb%e3%83%b3%e3%82%b3%e3%83%9f%e3%83%a5%e3%83%8b%e3%83%86%e3%82%a3%ef%bc%86%e3%82%a4%e3%83%b3%e3%82%bf%e3%83%bc%e3%83%8d%e3%83%83%e3%83%88%e3%83%97%e3%83%a9%e3%82%b9%e7%a0%94%e7%a9%b6%e6%89%80%e3%81%ae%e6%9c%88%e6%ac%a1%e5%a0%b1%e5%91%8a%202020%e5%b9%b412%e6%9c%88&u=https%3a%2f%2ftakasumasakazu.github.io%2ffabcross%2f2020-12%2f">
+            <svg version="1.1" xml:space="preserve" width="30px" height="30px" viewBox="0 0 512 512" fill="currentColor"
+                xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+                <path
+                    d="M449.446 0C483.971 0 512 28.03 512 62.554L512 449.446C512 483.97 483.97 512 449.446 512L62.554 512C28.03 512 0 483.97 0 449.446L0 62.554C0 28.03 28.029 0 62.554 0L449.446 0ZM183.8767 87.9921H121.8427L230.6673 292.4508V424.0079H281.3328V292.4508L390.1575 87.9921H328.1233L256 238.2489z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://takasumasakazu.github.io/">ニコ技深セン / Nico-Tech Shenzhen website</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

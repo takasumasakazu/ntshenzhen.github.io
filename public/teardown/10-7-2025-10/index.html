@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>日中双方でロボット開発が加速 10/7に秋葉原でハンズオン ニコ技深センコミュニティ月次報告 2025年10月 | ニコ技深セン / Nico-Tech Shenzhen website</title>
+<meta name="keywords" content="">
+<meta name="description" content="今週末10月4&ndash;5日、東京ビッグサイトにてメイカーフェア東京が行われます。僕もM5Stack,
+D-Robotis,
+Nestworksとともに会場、スイッチサイエンスブース周辺にいます。ぜひお会いしましょう。
+
+今週末10月4&ndash;5日、東京ビッグサイトにてメイカーフェア東京が行われます。僕もM5Stack,
+D-Robotis,
+Nestworksとともに会場、スイッチサイエンスブース周辺にいます。ぜひお会いしましょう。
+■参加募集中： 10月7日 18時半レアゾンHI研究所にてROS入門のワークショップ
+ROS開発の敷居を下げる、RDK StudioソフトとRDK
+X5開発ボードの紹介・ハンズオン 秋葉原
+https://originbot.peatix.com/
+以後、しばらく関東にいることが多く、その後イタリア、シンガポール、杭州などに
+出張した後、11月には京都でイベントを行います。
+お会いできるのをお待ちしております。
+10月以降、AI, IoT, ロボット関係のイベントが続きます。
+10月4&ndash;5日、東京ビッグサイトにてメイカーフェア東京
+10月6日 M5Stack User Meetup Tokyo (品川、SONY BRIDGE)
+https://m5stack.connpass.com/event/366660/
+10月7日 ROSワークショップ 秋葉原
+10月8日 ROSワークショップ 東京大学松尾研 TRAIL
+10月11日 ROSワークショップ 長岡ロボティクス 長岡
+10月14&ndash;15 クラスメソッド ファクトリークリエイティブキャンプにて基調講演
+https://hs.classmethod.jp/251014-factory-creative-camp
+10月16&ndash;19 Maker Faire Roma(イタリア） M5Stackと参加
+10月20&ndash;25日 IROS杭州（中国） 世界的なロボットの学会
+10月27&ndash;29日 ROSCon World Singapore ロボットOS開発の世界大会
+10月31&ndash;11月1日 ROSCon China 上海 ロボットOS開発の中国大会
+11月7日 北京
+世界ヒューマノイドロボット運動会についてトークショー（京都）
+告知開始後共有します
+11月14&ndash;15日 メイカーフェア深圳
+11月16日 M5Stack User meetup 深圳">
+<meta name="author" content="">
+<link rel="canonical" href="https://takasumasakazu.github.io/teardown/10-7-2025-10/">
+<link crossorigin="anonymous" href="https://takasumasakazu.github.io/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://takasumasakazu.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://takasumasakazu.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://takasumasakazu.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://takasumasakazu.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://takasumasakazu.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://takasumasakazu.github.io/teardown/10-7-2025-10/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://takasumasakazu.github.io/teardown/10-7-2025-10/">
+  <meta property="og:site_name" content="ニコ技深セン / Nico-Tech Shenzhen website">
+  <meta property="og:title" content="日中双方でロボット開発が加速 10/7に秋葉原でハンズオン ニコ技深センコミュニティ月次報告 2025年10月">
+  <meta property="og:description" content="今週末10月4–5日、東京ビッグサイトにてメイカーフェア東京が行われます。僕もM5Stack, D-Robotis, Nestworksとともに会場、スイッチサイエンスブース周辺にいます。ぜひお会いしましょう。
+今週末10月4–5日、東京ビッグサイトにてメイカーフェア東京が行われます。僕もM5Stack, D-Robotis, Nestworksとともに会場、スイッチサイエンスブース周辺にいます。ぜひお会いしましょう。
+■参加募集中： 10月7日 18時半レアゾンHI研究所にてROS入門のワークショップ
+ROS開発の敷居を下げる、RDK StudioソフトとRDK X5開発ボードの紹介・ハンズオン 秋葉原
+https://originbot.peatix.com/
+以後、しばらく関東にいることが多く、その後イタリア、シンガポール、杭州などに
+出張した後、11月には京都でイベントを行います。 お会いできるのをお待ちしております。
+10月以降、AI, IoT, ロボット関係のイベントが続きます。
+10月4–5日、東京ビッグサイトにてメイカーフェア東京
+10月6日 M5Stack User Meetup Tokyo (品川、SONY BRIDGE)
+https://m5stack.connpass.com/event/366660/
+10月7日 ROSワークショップ 秋葉原
+10月8日 ROSワークショップ 東京大学松尾研 TRAIL
+10月11日 ROSワークショップ 長岡ロボティクス 長岡
+10月14–15 クラスメソッド ファクトリークリエイティブキャンプにて基調講演
+https://hs.classmethod.jp/251014-factory-creative-camp
+10月16–19 Maker Faire Roma(イタリア） M5Stackと参加
+10月20–25日 IROS杭州（中国） 世界的なロボットの学会
+10月27–29日 ROSCon World Singapore ロボットOS開発の世界大会
+10月31–11月1日 ROSCon China 上海 ロボットOS開発の中国大会
+11月7日 北京 世界ヒューマノイドロボット運動会についてトークショー（京都）
+告知開始後共有します
+11月14–15日 メイカーフェア深圳
+11月16日 M5Stack User meetup 深圳">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="teardown">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="日中双方でロボット開発が加速 10/7に秋葉原でハンズオン ニコ技深センコミュニティ月次報告 2025年10月">
+<meta name="twitter:description" content="今週末10月4&ndash;5日、東京ビッグサイトにてメイカーフェア東京が行われます。僕もM5Stack,
+D-Robotis,
+Nestworksとともに会場、スイッチサイエンスブース周辺にいます。ぜひお会いしましょう。
+
+今週末10月4&ndash;5日、東京ビッグサイトにてメイカーフェア東京が行われます。僕もM5Stack,
+D-Robotis,
+Nestworksとともに会場、スイッチサイエンスブース周辺にいます。ぜひお会いしましょう。
+■参加募集中： 10月7日 18時半レアゾンHI研究所にてROS入門のワークショップ
+ROS開発の敷居を下げる、RDK StudioソフトとRDK
+X5開発ボードの紹介・ハンズオン 秋葉原
+https://originbot.peatix.com/
+以後、しばらく関東にいることが多く、その後イタリア、シンガポール、杭州などに
+出張した後、11月には京都でイベントを行います。
+お会いできるのをお待ちしております。
+10月以降、AI, IoT, ロボット関係のイベントが続きます。
+10月4&ndash;5日、東京ビッグサイトにてメイカーフェア東京
+10月6日 M5Stack User Meetup Tokyo (品川、SONY BRIDGE)
+https://m5stack.connpass.com/event/366660/
+10月7日 ROSワークショップ 秋葉原
+10月8日 ROSワークショップ 東京大学松尾研 TRAIL
+10月11日 ROSワークショップ 長岡ロボティクス 長岡
+10月14&ndash;15 クラスメソッド ファクトリークリエイティブキャンプにて基調講演
+https://hs.classmethod.jp/251014-factory-creative-camp
+10月16&ndash;19 Maker Faire Roma(イタリア） M5Stackと参加
+10月20&ndash;25日 IROS杭州（中国） 世界的なロボットの学会
+10月27&ndash;29日 ROSCon World Singapore ロボットOS開発の世界大会
+10月31&ndash;11月1日 ROSCon China 上海 ロボットOS開発の中国大会
+11月7日 北京
+世界ヒューマノイドロボット運動会についてトークショー（京都）
+告知開始後共有します
+11月14&ndash;15日 メイカーフェア深圳
+11月16日 M5Stack User meetup 深圳">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Teardown",
+      "item": "https://takasumasakazu.github.io/teardown/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "日中双方でロボット開発が加速 10/7に秋葉原でハンズオン ニコ技深センコミュニティ月次報告 2025年10月",
+      "item": "https://takasumasakazu.github.io/teardown/10-7-2025-10/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "日中双方でロボット開発が加速 10/7に秋葉原でハンズオン ニコ技深センコミュニティ月次報告 2025年10月",
+  "name": "日中双方でロボット開発が加速 10\/7に秋葉原でハンズオン ニコ技深センコミュニティ月次報告 2025年10月",
+  "description": "今週末10月4\u0026ndash;5日、東京ビッグサイトにてメイカーフェア東京が行われます。僕もM5Stack, D-Robotis, Nestworksとともに会場、スイッチサイエンスブース周辺にいます。ぜひお会いしましょう。\n今週末10月4\u0026ndash;5日、東京ビッグサイトにてメイカーフェア東京が行われます。僕もM5Stack, D-Robotis, Nestworksとともに会場、スイッチサイエンスブース周辺にいます。ぜひお会いしましょう。\n■参加募集中： 10月7日 18時半レアゾンHI研究所にてROS入門のワークショップ\nROS開発の敷居を下げる、RDK StudioソフトとRDK X5開発ボードの紹介・ハンズオン 秋葉原\nhttps://originbot.peatix.com/\n以後、しばらく関東にいることが多く、その後イタリア、シンガポール、杭州などに\n出張した後、11月には京都でイベントを行います。 お会いできるのをお待ちしております。\n10月以降、AI, IoT, ロボット関係のイベントが続きます。\n10月4\u0026ndash;5日、東京ビッグサイトにてメイカーフェア東京\n10月6日 M5Stack User Meetup Tokyo (品川、SONY BRIDGE)\nhttps://m5stack.connpass.com/event/366660/\n10月7日 ROSワークショップ 秋葉原\n10月8日 ROSワークショップ 東京大学松尾研 TRAIL\n10月11日 ROSワークショップ 長岡ロボティクス 長岡\n10月14\u0026ndash;15 クラスメソッド ファクトリークリエイティブキャンプにて基調講演\nhttps://hs.classmethod.jp/251014-factory-creative-camp\n10月16\u0026ndash;19 Maker Faire Roma(イタリア） M5Stackと参加\n10月20\u0026ndash;25日 IROS杭州（中国） 世界的なロボットの学会\n10月27\u0026ndash;29日 ROSCon World Singapore ロボットOS開発の世界大会\n10月31\u0026ndash;11月1日 ROSCon China 上海 ロボットOS開発の中国大会\n11月7日 北京 世界ヒューマノイドロボット運動会についてトークショー（京都）\n告知開始後共有します\n11月14\u0026ndash;15日 メイカーフェア深圳\n11月16日 M5Stack User meetup 深圳\n",
+  "keywords": [
+    
+  ],
+  "articleBody": "今週末10月4–5日、東京ビッグサイトにてメイカーフェア東京が行われます。僕もM5Stack, D-Robotis, Nestworksとともに会場、スイッチサイエンスブース周辺にいます。ぜひお会いしましょう。\n今週末10月4–5日、東京ビッグサイトにてメイカーフェア東京が行われます。僕もM5Stack, D-Robotis, Nestworksとともに会場、スイッチサイエンスブース周辺にいます。ぜひお会いしましょう。\n■参加募集中： 10月7日 18時半レアゾンHI研究所にてROS入門のワークショップ\nROS開発の敷居を下げる、RDK StudioソフトとRDK X5開発ボードの紹介・ハンズオン 秋葉原\nhttps://originbot.peatix.com/\n以後、しばらく関東にいることが多く、その後イタリア、シンガポール、杭州などに\n出張した後、11月には京都でイベントを行います。 お会いできるのをお待ちしております。\n10月以降、AI, IoT, ロボット関係のイベントが続きます。\n10月4–5日、東京ビッグサイトにてメイカーフェア東京\n10月6日 M5Stack User Meetup Tokyo (品川、SONY BRIDGE)\nhttps://m5stack.connpass.com/event/366660/\n10月7日 ROSワークショップ 秋葉原\n10月8日 ROSワークショップ 東京大学松尾研 TRAIL\n10月11日 ROSワークショップ 長岡ロボティクス 長岡\n10月14–15 クラスメソッド ファクトリークリエイティブキャンプにて基調講演\nhttps://hs.classmethod.jp/251014-factory-creative-camp\n10月16–19 Maker Faire Roma(イタリア） M5Stackと参加\n10月20–25日 IROS杭州（中国） 世界的なロボットの学会\n10月27–29日 ROSCon World Singapore ロボットOS開発の世界大会\n10月31–11月1日 ROSCon China 上海 ロボットOS開発の中国大会\n11月7日 北京 世界ヒューマノイドロボット運動会についてトークショー（京都）\n告知開始後共有します\n11月14–15日 メイカーフェア深圳\n11月16日 M5Stack User meetup 深圳\nIoTもAIも、ほとんどの技術とつながるコンピュータ技術ですが、ロボティクスもそうです。\nこの15年ほど、やっていることはほとんど変わらないのですが、世間での呼ばれ方が変わっている\nようにおもいます。その間にM5Stackが出てきたり、今人型ロボットの会社との協業が増えたり\nしていますが、オープンソース技術を中心に手を動かし、事業を創りながら進んでいくのはここから先も変わらないでしょう。\n◽️深圳でのイベントカレンダーを公開中\nGoogle Calender形式で、深圳に２か所あるコンベンションセンターのイベントを公開しています。\nnicotechshenzhen@gmail.com\nをgoogle calenderで追加するとイベントが出てきます。\nコミュニティ\nハードウェア情報の共有 #分解のススメ コミュニティで、チャットグループDiscodeのサーバを運用しています。\nhttps://discord.gg/2R783N25\nFacebookグループで進捗をお知らせしていきます。\nhttps://www.facebook.com/groups/ntshenzhen\n各メンバーからのシェア：\n■ThousanDIY/tomorrow56：山崎雅夫\n1. 工学社 月刊I/O 連載「100円ショップガジェット分解」\n・2025年10月号: ダイソーの「USBハブ 2.0」\nダイソーのPC周辺機器のサブブランド「MAXTILL」のUSB 2.0ハブを分解しました。\nここ数年のUSB2.0 Hubではほぼ定番となった、深圳 HUASNX製の「HS8836A」を使用しています。\n書籍情報ページ：https://www.kohgakusha.co.jp/books/detail/4876\n月刊I/Oは電子書籍でも買えます。\nhttps://digibook.kohgakusha.co.jp/\n2. note「100円ショップのガジェットを分解してみる」2025年9月の追加記事\n・ダイソーの「耳かきカメラ」\nUSB接続で接続し、PCやスマートフォンで狭いスペースの画像が確認できる小型カメラです。旧世代の内視鏡用の部品を流用して、新しい用途で展開している面白い製品です。\nhttps://note.com/tomorrow56/n/n9c1476c8d038\nnoteの100均ガジェット分解の過去記事はマガジンにまとめています。\nhttps://note.com/tomorrow56/m/ma0073059b5ac\n3. CQ出版 トランジスタ技術 2025年10月号\n・特集「今マイコンはArduinoが最強説」\n第3部の「全マイコンOK！最強Arduino IDE活用法」を担当しました。ArduinoIDEの導入方法から、電子工作に生成AIを活用する方法までをまとめています。\n書籍情報ページ: https://toragi.cqpub.co.jp/magazine/202510/\n■荒木大地 日本人のための深セン情報サイト( shenzhen-fan.com ) 深セン ファン\n1. 【Shenzhen Daily】 Beyond the mirror:Yoichi Ochiai reimagines life in the AI era\n2025年5月に大阪・関西万博にて、null²パビリオンを手がけた落合陽一氏にShenzhen Dailyと共にインタビューを行いました。落合さんは深センについても語ってくださいました。当記事は後日Shenzhen Fanでも再編集（日本語化）して公開する予定です。\nhttp://www.szdaily.com/content/2025-09/30/content_31705508.htm\n2.深セン初「市内免税店」、UpperHillsで開業 オープン記念プロモーション実施中\n8月26日、福田区内の大型モール「深業上城」（UpperHills）内に、深セン初の市内免税店が開業しました。約3,000平方メートルの敷地内に、化粧品・スキンケア、腕時計・ジュエリー、高級酒類、国産トレンド商品、ハイテク電子機器などのカテゴリーにわけた免税品が販売されています。日本からの旅行者にはとてもお得なエリアになりそうです。\nhttps://www.shenzhen-fan.com/news-2025-09-01-duty-free-store-to-open-in-upperhills/\n3.ザハ・ハディド設計の「巨大宇宙船」、深セン科学技術館（新館）特集\n深セン市の中でも特に科学技術に力を入れているエリアとなる光明区に新しく建設された深セン科学技術館（新館）は、オープンして数ヶ月経った今もたくさんの人々が訪れています。ザハ・ハディド設計による巨大な宇宙船の形をしたこの施設では、これまでの人類の科学技術の歩みに焦点を当てた没入型の体験を楽しむことができます。\nhttps://www.shenzhen-fan.com/2025-09-04-science-and-technology-museum/\n4.【DENTONS 中国法コラム 2025年９月号】従業員は、社会保険の「過少納付」を理由に労働契約を解除できるのか？\n世界中に拠点を置く総合法律事務所で、深圳市にジャパンデスクを設置している「大成法律事務所」（ＤＥＮＴＯＮＳ）から中国法コラムをお届けします。今回は、会社が「社会保険の過少納付」をしたと従業員から訴えられた事例と、トラブル回避のアドバイスを取り上げています。#PR\nhttps://www.shenzhen-fan.com/2025-09-dentons-regal-column/\n5.深セン初の無人運転循環バス 羅湖区でスタート\n深センバスグループは8月末に、羅湖口岸から代表的な商業エリアを循環するレベル４の無人運転バスを運行開始しました。20個以上の高精度センサーを搭載しており、360度死角なしの当車両にはバックミラーやワイパーがなく、ハンドルも取り外し可能な先進的な車両デザインです。\nhttps://www.shenzhen-fan.com/news-2025-09-09-driverless-shuttle-loop-in-luohu/\n6.スターバックス中国イノベーション・テクノロジーセンター、深セン新拠点公開 初回投資額約15億元\n9月17日、スターバックス中国は深セン市福田区にある河套科技エリアにて、イノベーションテクノロジーセンターの新拠点を公開しました。初回投資額は約15億元（約310億円）となる見込みです。最近は中国事業の株式売却報道が聞かれますが、当センターにより中国市場への長期的なコミットメントが示されています。\nhttps://www.shenzhen-fan.com/news-2025-09-22-starbucks-china-innovation-and-technology-center-in-sz/\n7.超大型台風「ラガサ」、深セン市内のサービス復旧状況\n9月22−24日にかけて広東省一帯を襲った、2018年ぶりの超大型台風と言われる台風18号「桦加沙」(ラガサ)により、深セン市内では「五停」が実施されていましたが、24日の午後より徐々に制限解除が行われ、25日はほとんどのサービスが平常に戻りました。\nhttps://www.shenzhen-fan.com/news-2025-09-25-typhoon-ragasa/\n8.世界最大の書店複合施設「湾区之眼」、深セン前海にオープン\n9月26日、深セン前海エリアに世界最大の書店複合施設「湾区之眼」がオープンしました。13万1,000平方メートルの敷地内に、書店・博物館・都市公園・劇場・展示スペースが広がり、取り扱う書籍は約10万種、実に30万冊以上に及びます。ここで年間1,000件近い文化イベントの開催が行われる予定です。\nhttps://www.shenzhen-fan.com/news-2025-09-29-worlds-largest-bookstore-eye-of-the-bay-opens-in-sz/\n9.世界最大級の全天候型スノーリゾート複合施設、深セン宝安に誕生\n9月29日、深セン市宝安区に全天候型スノーリゾート複合施設「前海冰雪世界」がオープンしました。世界最大級の屋内スキーセンターとしてギネス認定された当施設は、ただの大規模リゾート施設ではなくウィンタースポーツ振興国家プロジェクトの重要基地として期待されています。\nhttps://www.shenzhen-fan.com/news-2025-09-29-sz-qianhai-huafa-snow-world/\n10.【2025 中秋節／国慶節】関連情報\n「双節」と呼ばれる2025年の中秋節と国慶節の期間中の情報です。\n【2025 中秋節／国慶節】深セン地下鉄運行時間延長、空港周辺は渋滞に注意\nhttps://www.shenzhen-fan.com/news-2025-10-national-day-holiday-metro-schedule/\n【2025 中秋節／国慶節】広州領事館休館スケジュール公開 連休中の安全確保を\nhttps://www.shenzhen-fan.com/2025-10-announcement-from-emb-japan-in-gz/\n【2025 中秋節／国慶節】香港・深セン市内のライトショー・イベント情報\nhttps://www.shenzhen-fan.com/2025-10-national-day-holiday-event-info-in-sz/\n11.日本で買える、中国国内線に持ち込み可能な「３C認証」モバイルバッテリー紹介\n中国国内線搭乗時には「３C認証」なしのモバイルバッテリーの持ち込みが禁止となりましたが、当記事では日本で購入することができる「３C認証」対応のモバイルバッテリーを紹介しています。\nhttps://www.shenzhen-fan.com/2025-07-01-3c-power-banks-pickup/\n12.【保存版】中国渡航生活便利グッズ特集！\n日本から中国に渡航される方の中には、転勤や出張、留学以外にも駐在の帯同で初めて渡航を経験される方がおられます。以前、当サイトではコロナ禍に渡航された方が隔離中に役立ったグッズ等の特集記事を行いましたが、今回は渡航後の中国新生活において、また旅行者・出張者にとっても役立つ便利グッズを厳選してご紹介します。情報はグループチャットなど皆様のご意見をもとに今後も随時更新します。当サイトが渡航準備に役立つことを願っています。他にも役立つグッズがあればご意見をお寄せください。\nhttps://www.shenzhen-fan.com/2024-recommend-goods-for-china-life/\n13.【保存版】中国旅行者向け Alipay／WeChatPay クレジットカード登録方法\nこれまで中国の銀行口座を持たない外国人旅行者は、電子決済の代表格となっている Alipay（支付宝）やWeChatPay（微信支付）の登録が難しく不便を強いられてきましたが、近年は国際クレジットカードからの紐付けができるようになり、またQRコード決済も可能となったため利便性が向上しました。今回は、外国人向けの中国情報チャンネル「CityNewsService」や、アリペイ、微信支付公式からの情報をもとに、今後中国に来られる方向けの電子決済登録方法を解説します。他に必要な情報あれば追記したいと考えていますので、情報をお寄せいただけると大変助かります\nhttps://www.shenzhen-fan.com/2023-how-to-register-for-alipay-wechat-pay/\n13.中国エリア別渡航グループチャット／Shenzhen Fan情報共有グループチャット\n日中渡航情報共有WeChatグループチャットやフライトグループチャットに加え、Shenzhen Fan情報共有グループチャットも運営しております。200名まではQRコードより入ることができますので情報を集めておられる方はぜひご活用ください（200名を超えた場合はリンク先の問い合わせフォームよりご連絡ください）\nhttps://www.shenzhen-fan.com/2020-12-group-chat-of-travel-by-region-of-china/\n14.Shenzhen Fan ローカル情報ページ開設\n各エリアごとの飲食店店舗・語学学校・クリニックやコミュニティのほか、緊急時に駆け込める派出所などの政府関連施設にすぐアクセスできる特設ページをローンチしました。順次登録店舗拡大中です。掲載のご依頼も承っております。\nhttps://shenzhen-fan.com/local/\n■高須正和\n読書録：「基盤モデルとロボットの融合 マルチモーダルAIでロボットはどう変わるのか」（河原塚 健人, 松嶋 達也） 研究者らしく、広く話題のトピックを抑えて、議論の土台を作った良い本\nhttps://note.com/takasu/n/n365017634d11\nROSCon JP 2025にて、ROS 2 を使った「AIジェスチャー認識・人体ボディ認識によるロボット駆動」ワークショップを行いました\nhttps://note.com/takasu/n/n808f09aa09ef\n— — -イベント告知 — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — -\n◽️11月14–15のメイカーフェア深圳来場お待ちしています\nニコ技深圳でメイカーフェア深圳への日本人共同出展を行います。出展申請はOKでました。来場をお待ちしています。\nhttps://wiki.nicotech.jp/nico_tech/?NTShenzhen2025\n◽️11月30–12月1日のメイカーフェア台北来場お待ちしています\nニコ技深圳でメイカーフェア台北への日本人共同出展を行います。出展申請はOKでました。来場をお待ちしています。\nhttps://wiki.nicotech.jp/nico_tech/?NTTaipei2025\nBy TAKASU Masakazu/高須正和{.p-author .h-card} on October 1, 2025.\nCanonical link Exported from Medium on February 6, 2026.\n",
+  "wordCount" : "282",
+  "inLanguage": "en",
+  "datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://takasumasakazu.github.io/teardown/10-7-2025-10/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "ニコ技深セン / Nico-Tech Shenzhen website",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://takasumasakazu.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://takasumasakazu.github.io/" accesskey="h" title="ニコ技深セン / Nico-Tech Shenzhen website (Alt + H)">ニコ技深セン / Nico-Tech Shenzhen website</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://takasumasakazu.github.io/teardown/" title="Teardown">
+                    <span>Teardown</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://takasumasakazu.github.io/shenzhen/" title="Shenzhen">
+                    <span>Shenzhen</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://takasumasakazu.github.io/years/" title="Years">
+                    <span>Years</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://takasumasakazu.github.io/">Home</a>&nbsp;»&nbsp;<a href="https://takasumasakazu.github.io/teardown/">Teardown</a></div>
+    <h1 class="post-title entry-hint-parent">
+      日中双方でロボット開発が加速 10/7に秋葉原でハンズオン ニコ技深センコミュニティ月次報告 2025年10月
+    </h1>
+    <div class="post-meta"><span title='2025-10-01 00:00:00 +0000 UTC'>October 1, 2025</span>&nbsp;·&nbsp;<span>2 min</span>
+
+</div>
+  </header> 
+
+  <div class="post-content"><p>今週末10月4&ndash;5日、東京ビッグサイトにてメイカーフェア東京が行われます。僕もM5Stack,
+D-Robotis,
+Nestworksとともに会場、スイッチサイエンスブース周辺にいます。ぜひお会いしましょう。</p>
+<hr>
+<p>今週末10月4&ndash;5日、東京ビッグサイトにてメイカーフェア東京が行われます。僕もM5Stack,
+D-Robotis,
+Nestworksとともに会場、スイッチサイエンスブース周辺にいます。ぜひお会いしましょう。</p>
+<p>■参加募集中： 10月7日 18時半レアゾンHI研究所にてROS入門のワークショップ</p>
+<p>ROS開発の敷居を下げる、RDK StudioソフトとRDK
+X5開発ボードの紹介・ハンズオン 秋葉原</p>
+<p><a href="https://originbot.peatix.com/">https://originbot.peatix.com/</a></p>
+<p>以後、しばらく関東にいることが多く、その後イタリア、シンガポール、杭州などに</p>
+<p>出張した後、11月には京都でイベントを行います。
+お会いできるのをお待ちしております。</p>
+<p>10月以降、AI, IoT, ロボット関係のイベントが続きます。</p>
+<p>10月4&ndash;5日、東京ビッグサイトにてメイカーフェア東京</p>
+<p>10月6日 M5Stack User Meetup Tokyo (品川、SONY BRIDGE)</p>
+<p><a href="https://m5stack.connpass.com/event/366660/">https://m5stack.connpass.com/event/366660/</a></p>
+<p>10月7日 ROSワークショップ 秋葉原</p>
+<p>10月8日 ROSワークショップ 東京大学松尾研 TRAIL</p>
+<p>10月11日 ROSワークショップ 長岡ロボティクス 長岡</p>
+<p>10月14&ndash;15 クラスメソッド ファクトリークリエイティブキャンプにて基調講演</p>
+<p><a href="https://hs.classmethod.jp/251014-factory-creative-camp">https://hs.classmethod.jp/251014-factory-creative-camp</a></p>
+<p>10月16&ndash;19 Maker Faire Roma(イタリア） M5Stackと参加</p>
+<p>10月20&ndash;25日 IROS杭州（中国） 世界的なロボットの学会</p>
+<p>10月27&ndash;29日 ROSCon World Singapore ロボットOS開発の世界大会</p>
+<p>10月31&ndash;11月1日 ROSCon China 上海 ロボットOS開発の中国大会</p>
+<p>11月7日 北京
+世界ヒューマノイドロボット運動会についてトークショー（京都）</p>
+<p>告知開始後共有します</p>
+<p>11月14&ndash;15日 メイカーフェア深圳</p>
+<p>11月16日 M5Stack User meetup 深圳</p>
+<p>IoTもAIも、ほとんどの技術とつながるコンピュータ技術ですが、ロボティクスもそうです。</p>
+<p>この15年ほど、やっていることはほとんど変わらないのですが、世間での呼ばれ方が変わっている</p>
+<p>ようにおもいます。その間にM5Stackが出てきたり、今人型ロボットの会社との協業が増えたり</p>
+<p>していますが、オープンソース技術を中心に手を動かし、事業を創りながら進んでいくのはここから先も変わらないでしょう。</p>
+<p><strong>◽️深圳でのイベントカレンダーを公開中</strong></p>
+<p>Google
+Calender形式で、深圳に２か所あるコンベンションセンターのイベントを公開しています。</p>
+<p><a href="mailto:nicotechshenzhen@gmail.com">nicotechshenzhen@gmail.com</a></p>
+<p>をgoogle calenderで追加するとイベントが出てきます。</p>
+<p><strong>コミュニティ</strong></p>
+<p>ハードウェア情報の共有 #分解のススメ
+コミュニティで、チャットグループDiscodeのサーバを運用しています。</p>
+<p><a href="https://discord.gg/2R783N25">https://discord.gg/2R783N25</a></p>
+<p>Facebookグループで進捗をお知らせしていきます。</p>
+<p><a href="https://www.facebook.com/groups/ntshenzhen">https://www.facebook.com/groups/ntshenzhen</a></p>
+<p>各メンバーからのシェア：</p>
+<p><strong>■ThousanDIY/tomorrow56：山崎雅夫</strong></p>
+<p><strong>1. 工学社 月刊I/O 連載「100円ショップガジェット分解」</strong><br>
+・2025年10月号: ダイソーの「USBハブ 2.0」</p>
+<p>ダイソーのPC周辺機器のサブブランド「MAXTILL」のUSB
+2.0ハブを分解しました。</p>
+<p>ここ数年のUSB2.0 Hubではほぼ定番となった、深圳
+HUASNX製の「HS8836A」を使用しています。</p>
+<p>書籍情報ページ：<a href="https://www.kohgakusha.co.jp/books/detail/4876">https://www.kohgakusha.co.jp/books/detail/4876</a></p>
+<p>月刊I/Oは電子書籍でも買えます。</p>
+<p><a href="https://digibook.kohgakusha.co.jp/">https://digibook.kohgakusha.co.jp/</a></p>
+<p><strong>2.
+note「100円ショップのガジェットを分解してみる」2025年9月の追加記事</strong></p>
+<p>・ダイソーの「耳かきカメラ」</p>
+<p>USB接続で接続し、PCやスマートフォンで狭いスペースの画像が確認できる小型カメラです。旧世代の内視鏡用の部品を流用して、新しい用途で展開している面白い製品です。<br>
+<a href="https://note.com/tomorrow56/n/n9c1476c8d038">https://note.com/tomorrow56/n/n9c1476c8d038</a></p>
+<p>noteの100均ガジェット分解の過去記事はマガジンにまとめています。</p>
+<p><a href="https://note.com/tomorrow56/m/ma0073059b5ac">https://note.com/tomorrow56/m/ma0073059b5ac</a></p>
+<p><strong>3. CQ出版 トランジスタ技術 2025年10月号</strong></p>
+<p>・特集「今マイコンはArduinoが最強説」</p>
+<p>第3部の「全マイコンOK！最強Arduino
+IDE活用法」を担当しました。ArduinoIDEの導入方法から、電子工作に生成AIを活用する方法までをまとめています。</p>
+<p>書籍情報ページ: <a href="https://toragi.cqpub.co.jp/magazine/202510/">https://toragi.cqpub.co.jp/magazine/202510/</a></p>
+<p><strong>■荒木大地 日本人のための深セン情報サイト( shenzhen-fan.com ) 深セン
+ファン</strong></p>
+<p><strong>1. 【Shenzhen Daily】 Beyond the mirror:Yoichi Ochiai reimagines life
+in the AI era</strong></p>
+<p>2025年5月に大阪・関西万博にて、null²パビリオンを手がけた落合陽一氏にShenzhen
+Dailyと共にインタビューを行いました。落合さんは深センについても語ってくださいました。当記事は後日Shenzhen
+Fanでも再編集（日本語化）して公開する予定です。</p>
+<p><a href="http://www.szdaily.com/content/2025-09/30/content_31705508.htm">http://www.szdaily.com/content/2025-09/30/content_31705508.htm</a></p>
+<p><strong>2.深セン初「市内免税店」、UpperHillsで開業
+オープン記念プロモーション実施中</strong></p>
+<p>8月26日、福田区内の大型モール「深業上城」（UpperHills）内に、深セン初の市内免税店が開業しました。約3,000平方メートルの敷地内に、化粧品・スキンケア、腕時計・ジュエリー、高級酒類、国産トレンド商品、ハイテク電子機器などのカテゴリーにわけた免税品が販売されています。日本からの旅行者にはとてもお得なエリアになりそうです。</p>
+<p><a href="https://www.shenzhen-fan.com/news-2025-09-01-duty-free-store-to-open-in-upperhills/">https://www.shenzhen-fan.com/news-2025-09-01-duty-free-store-to-open-in-upperhills/</a></p>
+<p><strong>3.ザハ・ハディド設計の「巨大宇宙船」、深セン科学技術館（新館）特集</strong></p>
+<p>深セン市の中でも特に科学技術に力を入れているエリアとなる光明区に新しく建設された深セン科学技術館（新館）は、オープンして数ヶ月経った今もたくさんの人々が訪れています。ザハ・ハディド設計による巨大な宇宙船の形をしたこの施設では、これまでの人類の科学技術の歩みに焦点を当てた没入型の体験を楽しむことができます。</p>
+<p><a href="https://www.shenzhen-fan.com/2025-09-04-science-and-technology-museum/">https://www.shenzhen-fan.com/2025-09-04-science-and-technology-museum/</a></p>
+<p><strong>4.【DENTONS 中国法コラム
+2025年９月号】従業員は、社会保険の「過少納付」を理由に労働契約を解除できるのか？</strong></p>
+<p>世界中に拠点を置く総合法律事務所で、深圳市にジャパンデスクを設置している「大成法律事務所」（ＤＥＮＴＯＮＳ）から中国法コラムをお届けします。今回は、会社が「社会保険の過少納付」をしたと従業員から訴えられた事例と、トラブル回避のアドバイスを取り上げています。#PR</p>
+<p><a href="https://www.shenzhen-fan.com/2025-09-dentons-regal-column/">https://www.shenzhen-fan.com/2025-09-dentons-regal-column/</a></p>
+<p><strong>5.深セン初の無人運転循環バス 羅湖区でスタート</strong></p>
+<p>深センバスグループは8月末に、羅湖口岸から代表的な商業エリアを循環するレベル４の無人運転バスを運行開始しました。20個以上の高精度センサーを搭載しており、360度死角なしの当車両にはバックミラーやワイパーがなく、ハンドルも取り外し可能な先進的な車両デザインです。</p>
+<p><a href="https://www.shenzhen-fan.com/news-2025-09-09-driverless-shuttle-loop-in-luohu/">https://www.shenzhen-fan.com/news-2025-09-09-driverless-shuttle-loop-in-luohu/</a></p>
+<p><strong>6.スターバックス中国イノベーション・テクノロジーセンター、深セン新拠点公開
+初回投資額約15億元</strong></p>
+<p>9月17日、スターバックス中国は深セン市福田区にある河套科技エリアにて、イノベーションテクノロジーセンターの新拠点を公開しました。初回投資額は約15億元（約310億円）となる見込みです。最近は中国事業の株式売却報道が聞かれますが、当センターにより中国市場への長期的なコミットメントが示されています。</p>
+<p><a href="https://www.shenzhen-fan.com/news-2025-09-22-starbucks-china-innovation-and-technology-center-in-sz/">https://www.shenzhen-fan.com/news-2025-09-22-starbucks-china-innovation-and-technology-center-in-sz/</a></p>
+<p><strong>7.超大型台風「ラガサ」、深セン市内のサービス復旧状況</strong></p>
+<p>9月22−24日にかけて広東省一帯を襲った、2018年ぶりの超大型台風と言われる台風18号「桦加沙」(ラガサ)により、深セン市内では「五停」が実施されていましたが、24日の午後より徐々に制限解除が行われ、25日はほとんどのサービスが平常に戻りました。</p>
+<p><a href="https://www.shenzhen-fan.com/news-2025-09-25-typhoon-ragasa/">https://www.shenzhen-fan.com/news-2025-09-25-typhoon-ragasa/</a></p>
+<p><strong>8.世界最大の書店複合施設「湾区之眼」、深セン前海にオープン</strong></p>
+<p>9月26日、深セン前海エリアに世界最大の書店複合施設「湾区之眼」がオープンしました。13万1,000平方メートルの敷地内に、書店・博物館・都市公園・劇場・展示スペースが広がり、取り扱う書籍は約10万種、実に30万冊以上に及びます。ここで年間1,000件近い文化イベントの開催が行われる予定です。</p>
+<p><a href="https://www.shenzhen-fan.com/news-2025-09-29-worlds-largest-bookstore-eye-of-the-bay-opens-in-sz/">https://www.shenzhen-fan.com/news-2025-09-29-worlds-largest-bookstore-eye-of-the-bay-opens-in-sz/</a></p>
+<p><strong>9.世界最大級の全天候型スノーリゾート複合施設、深セン宝安に誕生</strong></p>
+<p>9月29日、深セン市宝安区に全天候型スノーリゾート複合施設「前海冰雪世界」がオープンしました。世界最大級の屋内スキーセンターとしてギネス認定された当施設は、ただの大規模リゾート施設ではなくウィンタースポーツ振興国家プロジェクトの重要基地として期待されています。</p>
+<p><a href="https://www.shenzhen-fan.com/news-2025-09-29-sz-qianhai-huafa-snow-world/">https://www.shenzhen-fan.com/news-2025-09-29-sz-qianhai-huafa-snow-world/</a></p>
+<p><strong>10.【2025 中秋節／国慶節】関連情報</strong></p>
+<p>「双節」と呼ばれる2025年の中秋節と国慶節の期間中の情報です。</p>
+<p>【2025 中秋節／国慶節】深セン地下鉄運行時間延長、空港周辺は渋滞に注意</p>
+<p><a href="https://www.shenzhen-fan.com/news-2025-10-national-day-holiday-metro-schedule/">https://www.shenzhen-fan.com/news-2025-10-national-day-holiday-metro-schedule/</a></p>
+<p>【2025 中秋節／国慶節】広州領事館休館スケジュール公開 連休中の安全確保を</p>
+<p><a href="https://www.shenzhen-fan.com/2025-10-announcement-from-emb-japan-in-gz/">https://www.shenzhen-fan.com/2025-10-announcement-from-emb-japan-in-gz/</a></p>
+<p>【2025 中秋節／国慶節】香港・深セン市内のライトショー・イベント情報</p>
+<p><a href="https://www.shenzhen-fan.com/2025-10-national-day-holiday-event-info-in-sz/">https://www.shenzhen-fan.com/2025-10-national-day-holiday-event-info-in-sz/</a></p>
+<p><strong>11.日本で買える、中国国内線に持ち込み可能な「３C認証」モバイルバッテリー紹介</strong></p>
+<p>中国国内線搭乗時には「３C認証」なしのモバイルバッテリーの持ち込みが禁止となりましたが、当記事では日本で購入することができる「３C認証」対応のモバイルバッテリーを紹介しています。</p>
+<p><a href="https://www.shenzhen-fan.com/2025-07-01-3c-power-banks-pickup/">https://www.shenzhen-fan.com/2025-07-01-3c-power-banks-pickup/</a></p>
+<p><strong>12.【保存版】中国渡航生活便利グッズ特集！</strong></p>
+<p>日本から中国に渡航される方の中には、転勤や出張、留学以外にも駐在の帯同で初めて渡航を経験される方がおられます。以前、当サイトではコロナ禍に渡航された方が隔離中に役立ったグッズ等の特集記事を行いましたが、今回は渡航後の中国新生活において、また旅行者・出張者にとっても役立つ便利グッズを厳選してご紹介します。情報はグループチャットなど皆様のご意見をもとに今後も随時更新します。当サイトが渡航準備に役立つことを願っています。他にも役立つグッズがあればご意見をお寄せください。</p>
+<p><a href="https://www.shenzhen-fan.com/2024-recommend-goods-for-china-life/">https://www.shenzhen-fan.com/2024-recommend-goods-for-china-life/</a></p>
+<p><strong>13.【保存版】中国旅行者向け Alipay／WeChatPay
+クレジットカード登録方法</strong></p>
+<p>これまで中国の銀行口座を持たない外国人旅行者は、電子決済の代表格となっている
+Alipay（支付宝）やWeChatPay（微信支付）の登録が難しく不便を強いられてきましたが、近年は国際クレジットカードからの紐付けができるようになり、またQRコード決済も可能となったため利便性が向上しました。今回は、外国人向けの中国情報チャンネル「CityNewsService」や、アリペイ、微信支付公式からの情報をもとに、今後中国に来られる方向けの電子決済登録方法を解説します。他に必要な情報あれば追記したいと考えていますので、情報をお寄せいただけると大変助かります</p>
+<p><a href="https://www.shenzhen-fan.com/2023-how-to-register-for-alipay-wechat-pay/">https://www.shenzhen-fan.com/2023-how-to-register-for-alipay-wechat-pay/</a></p>
+<p><strong>13.中国エリア別渡航グループチャット／Shenzhen
+Fan情報共有グループチャット</strong></p>
+<p>日中渡航情報共有WeChatグループチャットやフライトグループチャットに加え、Shenzhen
+Fan情報共有グループチャットも運営しております。200名まではQRコードより入ることができますので情報を集めておられる方はぜひご活用ください（200名を超えた場合はリンク先の問い合わせフォームよりご連絡ください）</p>
+<p><a href="https://www.shenzhen-fan.com/2020-12-group-chat-of-travel-by-region-of-china/">https://www.shenzhen-fan.com/2020-12-group-chat-of-travel-by-region-of-china/</a></p>
+<p><strong>14.Shenzhen Fan ローカル情報ページ開設</strong></p>
+<p>各エリアごとの飲食店店舗・語学学校・クリニックやコミュニティのほか、緊急時に駆け込める派出所などの政府関連施設にすぐアクセスできる特設ページをローンチしました。順次登録店舗拡大中です。掲載のご依頼も承っております。</p>
+<p><a href="https://shenzhen-fan.com/local/">https://shenzhen-fan.com/local/</a></p>
+<p><strong>■高須正和</strong></p>
+<p><strong>読書録：「基盤モデルとロボットの融合
+マルチモーダルAIでロボットはどう変わるのか」（河原塚 健人, 松嶋 達也）
+研究者らしく、広く話題のトピックを抑えて、議論の土台を作った良い本</strong></p>
+<p><a href="https://note.com/takasu/n/n365017634d11">https://note.com/takasu/n/n365017634d11</a></p>
+<p><strong>ROSCon JP 2025にて、ROS 2
+を使った「AIジェスチャー認識・人体ボディ認識によるロボット駆動」ワークショップを行いました</strong></p>
+<p><a href="https://note.com/takasu/n/n808f09aa09ef">https://note.com/takasu/n/n808f09aa09ef</a></p>
+<p>&mdash; &mdash; -イベント告知 &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; -</p>
+<p><strong>◽️11月14&ndash;15のメイカーフェア深圳来場お待ちしています</strong></p>
+<p>ニコ技深圳でメイカーフェア深圳への日本人共同出展を行います。出展申請はOKでました。来場をお待ちしています。</p>
+<p><a href="https://wiki.nicotech.jp/nico_tech/?NTShenzhen2025">https://wiki.nicotech.jp/nico_tech/?NTShenzhen2025</a></p>
+<p><strong>◽️11月30&ndash;12月1日のメイカーフェア台北来場お待ちしています</strong></p>
+<p>ニコ技深圳でメイカーフェア台北への日本人共同出展を行います。出展申請はOKでました。来場をお待ちしています。</p>
+<p><a href="https://wiki.nicotech.jp/nico_tech/?NTTaipei2025">https://wiki.nicotech.jp/nico_tech/?NTTaipei2025</a></p>
+<p>By <a href="https://medium.com/@tks">TAKASU Masakazu/高須正和</a>{.p-author
+.h-card} on <a href="https://medium.com/p/53d34a56fd42">October 1, 2025</a>.</p>
+<p><a href="https://medium.com/@tks/202510-53d34a56fd42">Canonical
+link</a>
+Exported from <a href="https://medium.com">Medium</a> on February 6, 2026.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://takasumasakazu.github.io/teardown/ai-2025-11/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>フィジカルAIの現在地とメイカーフェア深圳 ニコ技深センコミュニティ月次報告 2025年11月</span>
+  </a>
+  <a class="next" href="https://takasumasakazu.github.io/teardown/2025-07/">
+    <span class="title">Next »</span>
+    <br>
+    <span>中国の人型ロボットを見る視点 ニコ技深センコミュニティ月次報告 2025年07月</span>
+  </a>
+</nav>
+
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share 日中双方でロボット開発が加速 10/7に秋葉原でハンズオン ニコ技深センコミュニティ月次報告 2025年10月 on x"
+            href="https://x.com/intent/tweet/?text=%e6%97%a5%e4%b8%ad%e5%8f%8c%e6%96%b9%e3%81%a7%e3%83%ad%e3%83%9c%e3%83%83%e3%83%88%e9%96%8b%e7%99%ba%e3%81%8c%e5%8a%a0%e9%80%9f%2010%2f7%e3%81%ab%e7%a7%8b%e8%91%89%e5%8e%9f%e3%81%a7%e3%83%8f%e3%83%b3%e3%82%ba%e3%82%aa%e3%83%b3%20%e3%83%8b%e3%82%b3%e6%8a%80%e6%b7%b1%e3%82%bb%e3%83%b3%e3%82%b3%e3%83%9f%e3%83%a5%e3%83%8b%e3%83%86%e3%82%a3%e6%9c%88%e6%ac%a1%e5%a0%b1%e5%91%8a%202025%e5%b9%b410%e6%9c%88&amp;url=https%3a%2f%2ftakasumasakazu.github.io%2fteardown%2f10-7-2025-10%2f&amp;hashtags=">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share 日中双方でロボット開発が加速 10/7に秋葉原でハンズオン ニコ技深センコミュニティ月次報告 2025年10月 on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2ftakasumasakazu.github.io%2fteardown%2f10-7-2025-10%2f&amp;title=%e6%97%a5%e4%b8%ad%e5%8f%8c%e6%96%b9%e3%81%a7%e3%83%ad%e3%83%9c%e3%83%83%e3%83%88%e9%96%8b%e7%99%ba%e3%81%8c%e5%8a%a0%e9%80%9f%2010%2f7%e3%81%ab%e7%a7%8b%e8%91%89%e5%8e%9f%e3%81%a7%e3%83%8f%e3%83%b3%e3%82%ba%e3%82%aa%e3%83%b3%20%e3%83%8b%e3%82%b3%e6%8a%80%e6%b7%b1%e3%82%bb%e3%83%b3%e3%82%b3%e3%83%9f%e3%83%a5%e3%83%8b%e3%83%86%e3%82%a3%e6%9c%88%e6%ac%a1%e5%a0%b1%e5%91%8a%202025%e5%b9%b410%e6%9c%88&amp;summary=%e6%97%a5%e4%b8%ad%e5%8f%8c%e6%96%b9%e3%81%a7%e3%83%ad%e3%83%9c%e3%83%83%e3%83%88%e9%96%8b%e7%99%ba%e3%81%8c%e5%8a%a0%e9%80%9f%2010%2f7%e3%81%ab%e7%a7%8b%e8%91%89%e5%8e%9f%e3%81%a7%e3%83%8f%e3%83%b3%e3%82%ba%e3%82%aa%e3%83%b3%20%e3%83%8b%e3%82%b3%e6%8a%80%e6%b7%b1%e3%82%bb%e3%83%b3%e3%82%b3%e3%83%9f%e3%83%a5%e3%83%8b%e3%83%86%e3%82%a3%e6%9c%88%e6%ac%a1%e5%a0%b1%e5%91%8a%202025%e5%b9%b410%e6%9c%88&amp;source=https%3a%2f%2ftakasumasakazu.github.io%2fteardown%2f10-7-2025-10%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share 日中双方でロボット開発が加速 10/7に秋葉原でハンズオン ニコ技深センコミュニティ月次報告 2025年10月 on reddit"
+            href="https://reddit.com/submit?url=https%3a%2f%2ftakasumasakazu.github.io%2fteardown%2f10-7-2025-10%2f&title=%e6%97%a5%e4%b8%ad%e5%8f%8c%e6%96%b9%e3%81%a7%e3%83%ad%e3%83%9c%e3%83%83%e3%83%88%e9%96%8b%e7%99%ba%e3%81%8c%e5%8a%a0%e9%80%9f%2010%2f7%e3%81%ab%e7%a7%8b%e8%91%89%e5%8e%9f%e3%81%a7%e3%83%8f%e3%83%b3%e3%82%ba%e3%82%aa%e3%83%b3%20%e3%83%8b%e3%82%b3%e6%8a%80%e6%b7%b1%e3%82%bb%e3%83%b3%e3%82%b3%e3%83%9f%e3%83%a5%e3%83%8b%e3%83%86%e3%82%a3%e6%9c%88%e6%ac%a1%e5%a0%b1%e5%91%8a%202025%e5%b9%b410%e6%9c%88">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share 日中双方でロボット開発が加速 10/7に秋葉原でハンズオン ニコ技深センコミュニティ月次報告 2025年10月 on facebook"
+            href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2ftakasumasakazu.github.io%2fteardown%2f10-7-2025-10%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share 日中双方でロボット開発が加速 10/7に秋葉原でハンズオン ニコ技深センコミュニティ月次報告 2025年10月 on whatsapp"
+            href="https://api.whatsapp.com/send?text=%e6%97%a5%e4%b8%ad%e5%8f%8c%e6%96%b9%e3%81%a7%e3%83%ad%e3%83%9c%e3%83%83%e3%83%88%e9%96%8b%e7%99%ba%e3%81%8c%e5%8a%a0%e9%80%9f%2010%2f7%e3%81%ab%e7%a7%8b%e8%91%89%e5%8e%9f%e3%81%a7%e3%83%8f%e3%83%b3%e3%82%ba%e3%82%aa%e3%83%b3%20%e3%83%8b%e3%82%b3%e6%8a%80%e6%b7%b1%e3%82%bb%e3%83%b3%e3%82%b3%e3%83%9f%e3%83%a5%e3%83%8b%e3%83%86%e3%82%a3%e6%9c%88%e6%ac%a1%e5%a0%b1%e5%91%8a%202025%e5%b9%b410%e6%9c%88%20-%20https%3a%2f%2ftakasumasakazu.github.io%2fteardown%2f10-7-2025-10%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share 日中双方でロボット開発が加速 10/7に秋葉原でハンズオン ニコ技深センコミュニティ月次報告 2025年10月 on telegram"
+            href="https://telegram.me/share/url?text=%e6%97%a5%e4%b8%ad%e5%8f%8c%e6%96%b9%e3%81%a7%e3%83%ad%e3%83%9c%e3%83%83%e3%83%88%e9%96%8b%e7%99%ba%e3%81%8c%e5%8a%a0%e9%80%9f%2010%2f7%e3%81%ab%e7%a7%8b%e8%91%89%e5%8e%9f%e3%81%a7%e3%83%8f%e3%83%b3%e3%82%ba%e3%82%aa%e3%83%b3%20%e3%83%8b%e3%82%b3%e6%8a%80%e6%b7%b1%e3%82%bb%e3%83%b3%e3%82%b3%e3%83%9f%e3%83%a5%e3%83%8b%e3%83%86%e3%82%a3%e6%9c%88%e6%ac%a1%e5%a0%b1%e5%91%8a%202025%e5%b9%b410%e6%9c%88&amp;url=https%3a%2f%2ftakasumasakazu.github.io%2fteardown%2f10-7-2025-10%2f">
+            <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share 日中双方でロボット開発が加速 10/7に秋葉原でハンズオン ニコ技深センコミュニティ月次報告 2025年10月 on ycombinator"
+            href="https://news.ycombinator.com/submitlink?t=%e6%97%a5%e4%b8%ad%e5%8f%8c%e6%96%b9%e3%81%a7%e3%83%ad%e3%83%9c%e3%83%83%e3%83%88%e9%96%8b%e7%99%ba%e3%81%8c%e5%8a%a0%e9%80%9f%2010%2f7%e3%81%ab%e7%a7%8b%e8%91%89%e5%8e%9f%e3%81%a7%e3%83%8f%e3%83%b3%e3%82%ba%e3%82%aa%e3%83%b3%20%e3%83%8b%e3%82%b3%e6%8a%80%e6%b7%b1%e3%82%bb%e3%83%b3%e3%82%b3%e3%83%9f%e3%83%a5%e3%83%8b%e3%83%86%e3%82%a3%e6%9c%88%e6%ac%a1%e5%a0%b1%e5%91%8a%202025%e5%b9%b410%e6%9c%88&u=https%3a%2f%2ftakasumasakazu.github.io%2fteardown%2f10-7-2025-10%2f">
+            <svg version="1.1" xml:space="preserve" width="30px" height="30px" viewBox="0 0 512 512" fill="currentColor"
+                xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+                <path
+                    d="M449.446 0C483.971 0 512 28.03 512 62.554L512 449.446C512 483.97 483.97 512 449.446 512L62.554 512C28.03 512 0 483.97 0 449.446L0 62.554C0 28.03 28.029 0 62.554 0L449.446 0ZM183.8767 87.9921H121.8427L230.6673 292.4508V424.0079H281.3328V292.4508L390.1575 87.9921H328.1233L256 238.2489z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://takasumasakazu.github.io/">ニコ技深セン / Nico-Tech Shenzhen website</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

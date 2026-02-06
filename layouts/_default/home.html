@@ -1,0 +1,48 @@
+{{ define "main" }}
+
+<header class="page-header">
+  <h1>{{ site.Title }}</h1>
+</header>
+
+{{ $sections := site.Params.mainSections | default (slice "teardown" "shenzhen" "fabcross" "archive") }}
+
+{{ range $sec := $sections }}
+  {{ $pages := (where site.RegularPages "Section" "eq" $sec).ByDate.Reverse }}
+
+  <section style="margin-top:2rem;">
+    <header class="page-header">
+      <h2 style="margin:0;">
+        <a href="/{{ $sec }}/">{{ title $sec }}</a>
+      </h2>
+      {{ with site.GetPage (printf "/%s" $sec) }}
+        {{ with .Params.description }}<p style="opacity:.8; margin:.4rem 0 0;">{{ . }}</p>{{ end }}
+      {{ end }}
+    </header>
+
+    {{ range first 6 $pages }}
+      <article class="post-entry">
+        {{ if site.Params.ShowPostCover }}
+          {{ partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" false) }}
+        {{ end }}
+
+        <header class="entry-header">
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        </header>
+
+        <div class="entry-content">
+          {{ with .Summary }}<p>{{ . | plainify | htmlUnescape | truncate 220 }}</p>{{ end }}
+        </div>
+
+        <footer class="entry-footer">
+          {{ partial "post_meta.html" . }}
+        </footer>
+      </article>
+    {{ end }}
+
+    <p style="margin-top:.8rem;">
+      <a href="/{{ $sec }}/">→ {{ title $sec }} をもっと見る</a>
+    </p>
+  </section>
+{{ end }}
+
+{{ end }}

@@ -1,36 +1,61 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://takasumasakazu.github.io/"
 title = "ニコ技深セン / Nico-Tech Shenzhen website"
 theme = "PaperMod"
-disableKinds = ["RSS"]
-[params]
-  ShowPostCover = true
 
-  [params.cover]
-    hidden = false
-    hiddenInList = false
-    hiddenInSingle = false
+# SEO 基本
+enableRobotsTXT = true
+canonifyURLs = true
+buildFuture = false
 
+# Sitemap（Hugo標準）
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
 
-[permalinks]
-  archive  = "/archive/:year/:month/:slug/"
-  teardown = "/teardown/:year/:month/:slug/"
-  shenzhen = "/shenzhen/:year/:month/:slug/"
-  fabcross = "/fabcross/:year/:month/:slug/"
+# Frontmatter（日付の混乱防止）
+[frontmatter]
+  date = ["date"]
+  lastmod = []
+  publishDate = []
+  expiryDate = []
+
+# メニュー
 [menu]
   [[menu.main]]
     name = "Teardown"
     url = "/teardown/"
     weight = 10
+
   [[menu.main]]
     name = "Shenzhen"
     url = "/shenzhen/"
     weight = 20
+
   [[menu.main]]
-    name = "Fabcross"
-    url = "/fabcross/"
+    name = "Years"
+    url = "/years/"
     weight = 30
-  [[menu.main]]
-    name = "Archive"
-    url = "/archive/"
-    weight = 40
+
+# PaperMod SEO設定
+[params]
+  env = "production"
+  mainSections = ["teardown", "shenzhen", "fabcross", "archive"]
+
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+  ShowToc = true
+  ShowPostCover = true
+  disableSpecial1stPost = true
+
+# Cover 表示
+[params.cover]
+  hidden = false
+  hiddenInList = false
+  hiddenInSingle = false
+
+# 検索結果用 summary 長さ
+summaryLength = 40
 

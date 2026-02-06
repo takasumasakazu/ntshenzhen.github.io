@@ -1,0 +1,22 @@
+{{ define "main" }}
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  <p style="opacity:.8;">年別アーカイブ（全セクション横断）</p>
+</header>
+
+{{ $pages := (where .Site.RegularPages "Section" "in" (slice "teardown" "shenzhen" "fabcross" "archive")).ByDate.Reverse }}
+
+<p style="opacity:.75;">Total posts: {{ len $pages }}</p>
+
+{{ range $pages.GroupByDate "2006" }}
+  <h2>{{ .Key }}</h2>
+  <ul>
+    {{ range .Pages }}
+      <li>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <small> — {{ .Date.Format "2006-01-02" }} · {{ .Section }}</small>
+      </li>
+    {{ end }}
+  </ul>
+{{ end }}
+{{ end }}

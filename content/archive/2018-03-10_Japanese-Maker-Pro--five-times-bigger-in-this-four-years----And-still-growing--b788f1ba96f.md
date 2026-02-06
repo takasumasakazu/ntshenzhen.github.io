@@ -1,5 +1,7 @@
 ---
 title: "Japanese Maker Pro  five times bigger in this four years    And still growing  b788f1ba96f"
+aliases: ["/2018/03/japanese-maker-pro-five-times-bigger-in-this-four-years-and-still-growing-b788f1ba96f/"]
+slug: japanese-maker-pro-five-times-bigger-in-this-four-years-and-still-growing-b788f1ba96f
 date: 2018-03-10
 ---
 

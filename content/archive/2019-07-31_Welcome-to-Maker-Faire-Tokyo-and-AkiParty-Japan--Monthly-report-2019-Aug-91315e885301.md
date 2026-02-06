@@ -1,5 +1,7 @@
 ---
 title: "Welcome to Maker Faire Tokyo and AkiParty Japan  Monthly report 2019 Aug"
+aliases: ["/2019/07/welcome-to-maker-faire-tokyo-and-akiparty-japan-monthly-report-2019-aug/"]
+slug: welcome-to-maker-faire-tokyo-and-akiparty-japan-monthly-report-2019-aug
 date: 2019-07-31
 ---
 

@@ -1,5 +1,7 @@
 ---
 title: "Still work from home in Japan  TAKASU   Nico Tech Shenzhen Community Monthly news May 2020"
+aliases: ["/2020/05/still-work-from-home-in-japan-takasu-nico-tech-shenzhen-community-monthly-news-may-2020/"]
+slug: still-work-from-home-in-japan-takasu-nico-tech-shenzhen-community-monthly-news-may-2020
 date: 2020-05-31
 ---
 

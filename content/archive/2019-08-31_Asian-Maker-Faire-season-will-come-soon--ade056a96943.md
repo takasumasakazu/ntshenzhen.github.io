@@ -1,5 +1,7 @@
 ---
 title: "Asian Maker Faire season will come soon "
+aliases: ["/2019/08/asian-maker-faire-season-will-come-soon/"]
+slug: asian-maker-faire-season-will-come-soon
 date: 2019-08-31
 ---
 

@@ -1,5 +1,7 @@
 ---
 title: "Visual SG 2016 at Science Centre Singapore"
+aliases: ["/2016/07/visual-sg-2016-at-science-centre-singapore/"]
+slug: visual-sg-2016-at-science-centre-singapore
 date: 2016-07-25
 ---
 

@@ -1,5 +1,7 @@
 ---
 title: "See you in Maker Faire Bay Area  TAKASU   Nico Tech Shenzhen Community Monthly news May 2019"
+aliases: ["/2019/04/see-you-in-maker-faire-bay-area-takasu-nico-tech-shenzhen-community-monthly-news-may-2019/"]
+slug: see-you-in-maker-faire-bay-area-takasu-nico-tech-shenzhen-community-monthly-news-may-2019
 date: 2019-04-30
 ---
 

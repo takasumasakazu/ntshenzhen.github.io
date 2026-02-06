@@ -1,5 +1,7 @@
 ---
 title: "The Cathedral and the Bazaar on the Hardware development in Shenzhen"
+aliases: ["/2016/11/the-cathedral-and-the-bazaar-on-the-hardware-development-in-shenzhen/"]
+slug: the-cathedral-and-the-bazaar-on-the-hardware-development-in-shenzhen
 date: 2016-11-20
 ---
 

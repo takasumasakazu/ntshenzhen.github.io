@@ -1,5 +1,7 @@
 ---
 title: "Dr  Asei Ito told about  Shenzhen as Innovative City  for people from Edinburgh University "
+aliases: ["/2018/01/dr-asei-ito-told-about-shenzhen-as-innovative-city-for-people-from-edinburgh-university/"]
+slug: dr-asei-ito-told-about-shenzhen-as-innovative-city-for-people-from-edinburgh-university
 date: 2018-01-07
 ---
 

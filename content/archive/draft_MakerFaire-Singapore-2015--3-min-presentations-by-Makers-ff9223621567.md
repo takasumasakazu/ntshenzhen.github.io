@@ -1,5 +1,7 @@
 ---
 title: "draft_MakerFaire Singapore 2015  3 min presentations by Makers"
+aliases: ["/2000/01/draft-makerfaire-singapore-2015-3-min-presentations-by-makers/"]
+slug: draft-makerfaire-singapore-2015-3-min-presentations-by-makers
 date: 2000-01-01
 ---
 

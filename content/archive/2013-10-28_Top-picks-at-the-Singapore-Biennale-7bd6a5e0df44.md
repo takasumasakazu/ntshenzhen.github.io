@@ -1,5 +1,7 @@
 ---
 title: "Top picks at the Singapore Biennale"
+aliases: ["/2013/10/top-picks-at-the-singapore-biennale/"]
+slug: top-picks-at-the-singapore-biennale
 date: 2013-10-28
 ---
 

@@ -1,5 +1,7 @@
 ---
 title: "draft_Joined KaiYuanShe China Open Source alliance  Nico Tech Shenzhen monthly news March 2001"
+aliases: ["/2000/01/draft-joined-kaiyuanshe-china-open-source-alliance-nico-tech-shenzhen-monthly-news-march-2001/"]
+slug: draft-joined-kaiyuanshe-china-open-source-alliance-nico-tech-shenzhen-monthly-news-march-2001
 date: 2000-01-01
 ---
 

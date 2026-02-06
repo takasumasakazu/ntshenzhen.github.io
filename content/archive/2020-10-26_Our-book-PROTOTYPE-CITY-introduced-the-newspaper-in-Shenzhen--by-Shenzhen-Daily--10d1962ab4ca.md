@@ -1,5 +1,7 @@
 ---
 title: "Our book PROTOTYPE CITY introduced the newspaper in Shenzhen  by Shenzhen Daily "
+aliases: ["/2020/10/our-book-prototype-city-introduced-the-newspaper-in-shenzhen-by-shenzhen-daily/"]
+slug: our-book-prototype-city-introduced-the-newspaper-in-shenzhen-by-shenzhen-daily
 date: 2020-10-26
 ---
 

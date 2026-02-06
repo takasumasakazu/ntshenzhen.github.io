@@ -1,5 +1,7 @@
 ---
 title: "                   Maker Faire Singapore 2016"
+aliases: ["/2025/03/maker-faire-singapore-2016/"]
+slug: maker-faire-singapore-2016
 date: 2025-03-21
 ---
 

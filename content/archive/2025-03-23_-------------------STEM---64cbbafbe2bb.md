@@ -1,5 +1,7 @@
 ---
 title: "                   STEM  "
+aliases: ["/2025/03/stem/"]
+slug: stem
 date: 2025-03-23
 ---
 

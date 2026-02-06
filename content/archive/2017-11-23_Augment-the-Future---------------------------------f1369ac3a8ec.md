@@ -1,5 +1,7 @@
 ---
 title: "Augment the Future                                "
+aliases: ["/2017/11/augment-the-future/"]
+slug: augment-the-future
 date: 2017-11-23
 ---
 

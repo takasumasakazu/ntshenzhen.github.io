@@ -1,5 +1,7 @@
 ---
 title: "AkiParty 2016 Tokyo report Fantastic Dance Party for Geeks  include 2 performance video "
+aliases: ["/2016/08/akiparty-2016-tokyo-report-fantastic-dance-party-for-geeks-include-2-performance-video/"]
+slug: akiparty-2016-tokyo-report-fantastic-dance-party-for-geeks-include-2-performance-video
 date: 2016-08-26
 ---
 

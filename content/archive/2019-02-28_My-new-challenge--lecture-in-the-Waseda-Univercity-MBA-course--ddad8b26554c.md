@@ -1,5 +1,7 @@
 ---
 title: "My new challenge  lecture in the Waseda Univercity MBA course "
+aliases: ["/2019/02/my-new-challenge-lecture-in-the-waseda-univercity-mba-course/"]
+slug: my-new-challenge-lecture-in-the-waseda-univercity-mba-course
 date: 2019-02-28
 ---
 

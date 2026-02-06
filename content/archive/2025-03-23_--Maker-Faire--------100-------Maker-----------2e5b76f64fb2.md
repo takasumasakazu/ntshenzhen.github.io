@@ -1,5 +1,7 @@
 ---
 title: "  Maker Faire        100       Maker          "
+aliases: ["/2025/03/maker-faire-100-maker/"]
+slug: maker-faire-100-maker
 date: 2025-03-23
 ---
 

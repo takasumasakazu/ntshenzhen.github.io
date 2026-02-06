@@ -1,5 +1,7 @@
 ---
 title: "draft_Why Shenzhen became innovative city from Copycat city suddenly "
+aliases: ["/2000/01/draft-why-shenzhen-became-innovative-city-from-copycat-city-suddenly/"]
+slug: draft-why-shenzhen-became-innovative-city-from-copycat-city-suddenly
 date: 2000-01-01
 ---
 

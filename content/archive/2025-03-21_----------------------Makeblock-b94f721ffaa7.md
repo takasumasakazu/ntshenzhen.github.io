@@ -1,5 +1,7 @@
 ---
 title: "                      Makeblock"
+aliases: ["/2025/03/makeblock/"]
+slug: makeblock
 date: 2025-03-21
 ---
 

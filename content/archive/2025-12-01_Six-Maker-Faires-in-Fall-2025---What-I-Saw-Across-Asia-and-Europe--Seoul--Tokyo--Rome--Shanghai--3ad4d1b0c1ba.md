@@ -1,5 +1,7 @@
 ---
 title: "Six Maker Faires in Fall 2025   What I Saw Across Asia and Europe  Seoul  Tokyo  Rome  Shanghai "
+aliases: ["/2025/12/six-maker-faires-in-fall-2025-what-i-saw-across-asia-and-europe-seoul-tokyo-rome-shanghai/"]
+slug: six-maker-faires-in-fall-2025-what-i-saw-across-asia-and-europe-seoul-tokyo-rome-shanghai
 date: 2025-12-01
 ---
 

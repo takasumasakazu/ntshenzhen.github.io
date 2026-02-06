@@ -1,5 +1,7 @@
 ---
 title: "Maker Faire Beijing  2017"
+aliases: ["/2017/08/maker-faire-beijing-2017/"]
+slug: maker-faire-beijing-2017
 date: 2017-08-23
 ---
 

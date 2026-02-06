@@ -1,5 +1,7 @@
 ---
 title: "Maker Faire Singapore  2015 introduced by National TV of Taiwan "
+aliases: ["/2015/07/maker-faire-singapore-2015-introduced-by-national-tv-of-taiwan/"]
+slug: maker-faire-singapore-2015-introduced-by-national-tv-of-taiwan
 date: 2015-07-13
 ---
 

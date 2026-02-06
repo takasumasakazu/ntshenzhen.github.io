@@ -1,5 +1,7 @@
 ---
 title: "Amazing part of Shenzhen China  support and logistics"
+aliases: ["/2017/01/amazing-part-of-shenzhen-china-support-and-logistics/"]
+slug: amazing-part-of-shenzhen-china-support-and-logistics
 date: 2017-01-04
 ---
 

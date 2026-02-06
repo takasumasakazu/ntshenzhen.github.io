@@ -1,5 +1,7 @@
 ---
 title: "Shenzhen High Tour 18 21 Mar application started             2018 3           "
+aliases: ["/2018/01/shenzhen-high-tour-18-21-mar-application-started-2018-3/"]
+slug: shenzhen-high-tour-18-21-mar-application-started-2018-3
 date: 2018-01-13
 ---
 

@@ -1,5 +1,7 @@
 ---
 title: "TCDC Thailand Creative and Design Centre  Fabcafe X  Co working  Library"
+aliases: ["/2018/01/tcdc-thailand-creative-and-design-centre-fabcafe-x-co-working-library/"]
+slug: tcdc-thailand-creative-and-design-centre-fabcafe-x-co-working-library
 date: 2018-01-23
 ---
 

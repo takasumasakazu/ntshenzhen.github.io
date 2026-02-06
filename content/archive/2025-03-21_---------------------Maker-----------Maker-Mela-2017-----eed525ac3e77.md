@@ -1,5 +1,7 @@
 ---
 title: "                     Maker           Maker Mela 2017    "
+aliases: ["/2025/03/maker-maker-mela-2017/"]
+slug: maker-maker-mela-2017
 date: 2025-03-21
 ---
 

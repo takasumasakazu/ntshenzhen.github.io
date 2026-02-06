@@ -1,5 +1,7 @@
 ---
 title: "Videos Shenzhen High Tour for Makers Vol 7 Apr 2017"
+aliases: ["/2017/04/videos-shenzhen-high-tour-for-makers-vol-7-apr-2017/"]
+slug: videos-shenzhen-high-tour-for-makers-vol-7-apr-2017
 date: 2017-04-10
 ---
 

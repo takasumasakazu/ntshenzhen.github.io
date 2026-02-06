@@ -1,5 +1,7 @@
 ---
 title: "I heard Massimo Banzi s Genuino Presentation at Maker Faire Shenzhen  Amazing "
+aliases: ["/2015/07/i-heard-massimo-banzi-s-genuino-presentation-at-maker-faire-shenzhen-amazing/"]
+slug: i-heard-massimo-banzi-s-genuino-presentation-at-maker-faire-shenzhen-amazing
 date: 2015-07-04
 ---
 

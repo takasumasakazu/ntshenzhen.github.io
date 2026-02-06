@@ -1,5 +1,7 @@
 ---
 title: "   Maker                  4    Maker Faire Mini Maker Faire    2016    "
+aliases: ["/2025/03/maker-4-maker-faire-mini-maker-faire-2016/"]
+slug: maker-4-maker-faire-mini-maker-faire-2016
 date: 2025-03-21
 ---
 

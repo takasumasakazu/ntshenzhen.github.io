@@ -1,5 +1,7 @@
 ---
 title: "COSCUP 2020 Taipei  Chinese Shanzhai Open source Hardware  what and how making and hacking the "
+aliases: ["/2020/08/coscup-2020-taipei-chinese-shanzhai-open-source-hardware-what-and-how-making-and-hacking-the/"]
+slug: coscup-2020-taipei-chinese-shanzhai-open-source-hardware-what-and-how-making-and-hacking-the
 date: 2020-08-02
 ---
 

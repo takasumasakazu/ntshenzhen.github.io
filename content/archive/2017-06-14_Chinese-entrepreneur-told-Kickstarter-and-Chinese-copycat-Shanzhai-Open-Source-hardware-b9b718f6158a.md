@@ -1,5 +1,7 @@
 ---
 title: "Chinese entrepreneur told Kickstarter and Chinese copycat Shanzhai Open Source hardware"
+aliases: ["/2017/06/chinese-entrepreneur-told-kickstarter-and-chinese-copycat-shanzhai-open-source-hardware/"]
+slug: chinese-entrepreneur-told-kickstarter-and-chinese-copycat-shanzhai-open-source-hardware
 date: 2017-06-14
 ---
 

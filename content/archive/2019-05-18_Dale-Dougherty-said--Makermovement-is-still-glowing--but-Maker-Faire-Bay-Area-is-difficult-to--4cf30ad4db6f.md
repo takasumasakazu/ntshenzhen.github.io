@@ -1,5 +1,7 @@
 ---
 title: "Dale Dougherty said  Makermovement is still glowing  but Maker Faire Bay Area is difficult to "
+aliases: ["/2019/05/dale-dougherty-said-makermovement-is-still-glowing-but-maker-faire-bay-area-is-difficult-to/"]
+slug: dale-dougherty-said-makermovement-is-still-glowing-but-maker-faire-bay-area-is-difficult-to
 date: 2019-05-18
 ---
 

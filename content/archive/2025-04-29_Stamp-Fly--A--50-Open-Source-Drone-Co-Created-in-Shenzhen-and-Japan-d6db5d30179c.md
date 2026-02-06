@@ -1,5 +1,7 @@
 ---
 title: "Stamp Fly  A  50 Open Source Drone Co Created in Shenzhen and Japan"
+aliases: ["/2025/04/stamp-fly-a-50-open-source-drone-co-created-in-shenzhen-and-japan/"]
+slug: stamp-fly-a-50-open-source-drone-co-created-in-shenzhen-and-japan
 date: 2025-04-29
 ---
 

@@ -1,5 +1,7 @@
 ---
 title: "                     Nico Tech Shenzhen HuaQiangBei Office "
+aliases: ["/2017/06/nico-tech-shenzhen-huaqiangbei-office/"]
+slug: nico-tech-shenzhen-huaqiangbei-office
 date: 2017-06-20
 ---
 

@@ -1,5 +1,7 @@
 ---
 title: "                                Maker           Raspberry Pi               "
+aliases: ["/2025/03/maker-raspberry-pi/"]
+slug: maker-raspberry-pi
 date: 2025-03-23
 ---
 

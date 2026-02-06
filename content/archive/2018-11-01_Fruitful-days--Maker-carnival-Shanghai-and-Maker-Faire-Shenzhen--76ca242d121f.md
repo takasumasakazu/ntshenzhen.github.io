@@ -1,5 +1,7 @@
 ---
 title: "Fruitful days  Maker carnival Shanghai and Maker Faire Shenzhen "
+aliases: ["/2018/11/fruitful-days-maker-carnival-shanghai-and-maker-faire-shenzhen/"]
+slug: fruitful-days-maker-carnival-shanghai-and-maker-faire-shenzhen
 date: 2018-11-01
 ---
 

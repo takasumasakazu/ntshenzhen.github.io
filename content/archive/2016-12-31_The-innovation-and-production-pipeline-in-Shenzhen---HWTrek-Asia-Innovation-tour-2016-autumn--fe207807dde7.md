@@ -1,5 +1,7 @@
 ---
 title: "The innovation and production pipeline in Shenzhen   HWTrek Asia Innovation tour 2016 autumn "
+aliases: ["/2016/12/the-innovation-and-production-pipeline-in-shenzhen-hwtrek-asia-innovation-tour-2016-autumn/"]
+slug: the-innovation-and-production-pipeline-in-shenzhen-hwtrek-asia-innovation-tour-2016-autumn
 date: 2016-12-31
 ---
 

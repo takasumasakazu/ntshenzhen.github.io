@@ -1,5 +1,7 @@
 ---
 title: "              About Nico Tech Shenzhen Community"
+aliases: ["/2017/06/about-nico-tech-shenzhen-community/"]
+slug: about-nico-tech-shenzhen-community
 date: 2017-06-20
 ---
 

@@ -1,5 +1,7 @@
 ---
 title: " 360 degree              Yiwu  Jewelry  Industrial 4 0 leading company  English and    "
+aliases: ["/2018/02/360-degree-yiwu-jewelry-industrial-4-0-leading-company-english-and/"]
+slug: 360-degree-yiwu-jewelry-industrial-4-0-leading-company-english-and
 date: 2018-02-10
 ---
 

@@ -1,5 +1,7 @@
 ---
 title: "Monthly News July 2018 Amazing Maker Faire Prague and Finally come to AKIPARTY Tokyo"
+aliases: ["/2018/06/monthly-news-july-2018-amazing-maker-faire-prague-and-finally-come-to-akiparty-tokyo/"]
+slug: monthly-news-july-2018-amazing-maker-faire-prague-and-finally-come-to-akiparty-tokyo
 date: 2018-06-30
 ---
 

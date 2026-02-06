@@ -1,5 +1,7 @@
 ---
 title: "M5Stack         Stamp Fly       "
+aliases: ["/2025/03/m5stack-stamp-fly/"]
+slug: m5stack-stamp-fly
 date: 2025-03-27
 ---
 

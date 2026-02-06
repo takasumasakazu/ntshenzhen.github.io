@@ -1,5 +1,7 @@
 ---
 title: "TAKASU S Maker activity at 2016  around 70 80 events"
+aliases: ["/2016/12/takasu-s-maker-activity-at-2016-around-70-80-events/"]
+slug: takasu-s-maker-activity-at-2016-around-70-80-events
 date: 2016-12-31
 ---
 

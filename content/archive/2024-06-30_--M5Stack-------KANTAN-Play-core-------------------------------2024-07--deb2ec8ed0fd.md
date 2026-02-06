@@ -1,5 +1,7 @@
 ---
 title: "  M5Stack       KANTAN Play core                               2024 07 "
+aliases: ["/2024/06/m5stack-kantan-play-core-2024-07/"]
+slug: m5stack-kantan-play-core-2024-07
 date: 2024-06-30
 ---
 

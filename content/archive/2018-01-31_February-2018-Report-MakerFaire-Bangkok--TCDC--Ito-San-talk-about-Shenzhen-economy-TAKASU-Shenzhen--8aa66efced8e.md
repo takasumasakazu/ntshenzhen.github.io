@@ -1,5 +1,7 @@
 ---
 title: "February 2018 Report MakerFaire Bangkok  TCDC  Ito San talk about Shenzhen economy TAKASU Shenzhen "
+aliases: ["/2018/01/february-2018-report-makerfaire-bangkok-tcdc-ito-san-talk-about-shenzhen-economy-takasu-shenzhen/"]
+slug: february-2018-report-makerfaire-bangkok-tcdc-ito-san-talk-about-shenzhen-economy-takasu-shenzhen
 date: 2018-01-31
 ---
 

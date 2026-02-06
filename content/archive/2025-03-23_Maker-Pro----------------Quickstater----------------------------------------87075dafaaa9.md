@@ -1,5 +1,7 @@
 ---
 title: "Maker Pro                Quickstater                                       "
+aliases: ["/2025/03/maker-pro-quickstater/"]
+slug: maker-pro-quickstater
 date: 2025-03-23
 ---
 

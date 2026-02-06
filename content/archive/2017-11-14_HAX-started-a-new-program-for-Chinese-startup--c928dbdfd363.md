@@ -1,5 +1,7 @@
 ---
 title: "HAX started a new program for Chinese startup "
+aliases: ["/2017/11/hax-started-a-new-program-for-chinese-startup/"]
+slug: hax-started-a-new-program-for-chinese-startup
 date: 2017-11-14
 ---
 

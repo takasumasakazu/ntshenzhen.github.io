@@ -1,5 +1,7 @@
 ---
 title: "Forum Making in Education MakerFaire Singapore 2015"
+aliases: ["/2015/07/forum-making-in-education-makerfaire-singapore-2015/"]
+slug: forum-making-in-education-makerfaire-singapore-2015
 date: 2015-07-17
 ---
 

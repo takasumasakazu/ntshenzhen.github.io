@@ -1,5 +1,7 @@
 ---
 title: "About Shenzhen High Tour and Community"
+aliases: ["/2017/12/about-shenzhen-high-tour-and-community/"]
+slug: about-shenzhen-high-tour-and-community
 date: 2017-12-28
 ---
 

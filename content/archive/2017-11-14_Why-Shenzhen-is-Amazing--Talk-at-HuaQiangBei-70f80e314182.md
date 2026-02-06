@@ -1,5 +1,7 @@
 ---
 title: "Why Shenzhen is Amazing  Talk at HuaQiangBei"
+aliases: ["/2017/11/why-shenzhen-is-amazing-talk-at-huaqiangbei/"]
+slug: why-shenzhen-is-amazing-talk-at-huaqiangbei
 date: 2017-11-14
 ---
 

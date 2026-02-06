@@ -1,5 +1,7 @@
 ---
 title: "TAKASU Masakazu Profile Contact and about me                               "
+aliases: ["/2017/09/takasu-masakazu-profile-contact-and-about-me/"]
+slug: takasu-masakazu-profile-contact-and-about-me
 date: 2017-09-14
 ---
 

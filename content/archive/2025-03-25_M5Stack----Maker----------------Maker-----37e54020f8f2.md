@@ -1,5 +1,7 @@
 ---
 title: "M5Stack    Maker                Maker    "
+aliases: ["/2025/03/m5stack-maker-maker/"]
+slug: m5stack-maker-maker
 date: 2025-03-25
 ---
 

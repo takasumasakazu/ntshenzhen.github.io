@@ -1,5 +1,7 @@
 ---
 title: "TAKASU   Nico Tech Shenzhen Community Monthly news May 2018"
+aliases: ["/2018/05/takasu-nico-tech-shenzhen-community-monthly-news-may-2018/"]
+slug: takasu-nico-tech-shenzhen-community-monthly-news-may-2018
 date: 2018-05-01
 ---
 

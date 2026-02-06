@@ -1,5 +1,7 @@
 ---
 title: "Chinese Shanzhai  what and how making and hacking the manufacturing models now "
+aliases: ["/2019/11/chinese-shanzhai-what-and-how-making-and-hacking-the-manufacturing-models-now/"]
+slug: chinese-shanzhai-what-and-how-making-and-hacking-the-manufacturing-models-now
 date: 2019-11-04
 ---
 

@@ -1,5 +1,7 @@
 ---
 title: "draft_Finally  I will be back to Shenzhen soon "
+aliases: ["/2000/01/draft-finally-i-will-be-back-to-shenzhen-soon/"]
+slug: draft-finally-i-will-be-back-to-shenzhen-soon
 date: 2000-01-01
 ---
 

@@ -1,5 +1,7 @@
 ---
 title: "   Techshop DMM Make AKIBA             2016 02 03  "
+aliases: ["/2021/05/techshop-dmm-make-akiba-2016-02-03/"]
+slug: techshop-dmm-make-akiba-2016-02-03
 date: 2021-05-20
 ---
 

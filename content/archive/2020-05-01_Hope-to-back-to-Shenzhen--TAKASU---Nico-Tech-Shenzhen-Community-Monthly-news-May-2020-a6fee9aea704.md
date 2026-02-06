@@ -1,5 +1,7 @@
 ---
 title: "Hope to back to Shenzhen  TAKASU   Nico Tech Shenzhen Community Monthly news May 2020"
+aliases: ["/2020/05/hope-to-back-to-shenzhen-takasu-nico-tech-shenzhen-community-monthly-news-may-2020/"]
+slug: hope-to-back-to-shenzhen-takasu-nico-tech-shenzhen-community-monthly-news-may-2020
 date: 2020-05-01
 ---
 

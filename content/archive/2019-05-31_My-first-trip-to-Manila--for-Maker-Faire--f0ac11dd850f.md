@@ -1,5 +1,7 @@
 ---
 title: "My first trip to Manila  for Maker Faire "
+aliases: ["/2019/05/my-first-trip-to-manila-for-maker-faire/"]
+slug: my-first-trip-to-manila-for-maker-faire
 date: 2019-05-31
 ---
 

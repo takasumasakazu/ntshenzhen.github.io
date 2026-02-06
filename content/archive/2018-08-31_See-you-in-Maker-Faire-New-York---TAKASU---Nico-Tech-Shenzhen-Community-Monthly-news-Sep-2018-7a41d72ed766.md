@@ -1,5 +1,7 @@
 ---
 title: "See you in Maker Faire New York   TAKASU   Nico Tech Shenzhen Community Monthly news Sep 2018"
+aliases: ["/2018/08/see-you-in-maker-faire-new-york-takasu-nico-tech-shenzhen-community-monthly-news-sep-2018/"]
+slug: see-you-in-maker-faire-new-york-takasu-nico-tech-shenzhen-community-monthly-news-sep-2018
 date: 2018-08-31
 ---
 

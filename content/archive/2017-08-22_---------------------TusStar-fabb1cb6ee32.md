@@ -1,5 +1,7 @@
 ---
 title: "                     TusStar"
+aliases: ["/2017/08/tusstar/"]
+slug: tusstar
 date: 2017-08-22
 ---
 

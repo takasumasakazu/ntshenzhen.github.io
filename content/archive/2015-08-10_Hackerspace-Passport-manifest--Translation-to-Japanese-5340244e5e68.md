@@ -1,5 +1,7 @@
 ---
 title: "Hackerspace Passport manifest  Translation to Japanese"
+aliases: ["/2015/08/hackerspace-passport-manifest-translation-to-japanese/"]
+slug: hackerspace-passport-manifest-translation-to-japanese
 date: 2015-08-10
 ---
 

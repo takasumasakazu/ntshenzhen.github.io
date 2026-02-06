@@ -1,5 +1,7 @@
 ---
 title: "               MIT       Research at Scale"
+aliases: ["/2025/03/mit-research-at-scale/"]
+slug: mit-research-at-scale
 date: 2025-03-24
 ---
 

@@ -1,5 +1,7 @@
 ---
 title: "Maker Faire Tokyo 2019                                             "
+aliases: ["/2019/08/maker-faire-tokyo-2019/"]
+slug: maker-faire-tokyo-2019
 date: 2019-08-07
 ---
 

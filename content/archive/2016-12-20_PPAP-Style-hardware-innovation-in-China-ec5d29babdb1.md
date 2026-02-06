@@ -1,5 +1,7 @@
 ---
 title: "PPAP Style hardware innovation in China"
+aliases: ["/2016/12/ppap-style-hardware-innovation-in-china/"]
+slug: ppap-style-hardware-innovation-in-china
 date: 2016-12-20
 ---
 

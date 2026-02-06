@@ -1,5 +1,7 @@
 ---
 title: "Unleashing the Future of Hardware Innovation  Lessons from a Decade of Maker Ecosystems"
+aliases: ["/2025/01/unleashing-the-future-of-hardware-innovation-lessons-from-a-decade-of-maker-ecosystems/"]
+slug: unleashing-the-future-of-hardware-innovation-lessons-from-a-decade-of-maker-ecosystems
 date: 2025-01-23
 ---
 

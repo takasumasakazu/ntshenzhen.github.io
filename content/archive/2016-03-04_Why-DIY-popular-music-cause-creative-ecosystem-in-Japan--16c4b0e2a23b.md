@@ -1,5 +1,7 @@
 ---
 title: "Why DIY popular music cause creative ecosystem in Japan "
+aliases: ["/2016/03/why-diy-popular-music-cause-creative-ecosystem-in-japan/"]
+slug: why-diy-popular-music-cause-creative-ecosystem-in-japan
 date: 2016-03-04
 ---
 

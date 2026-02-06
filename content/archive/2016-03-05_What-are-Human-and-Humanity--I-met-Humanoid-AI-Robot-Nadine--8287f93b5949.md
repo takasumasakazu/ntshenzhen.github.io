@@ -1,5 +1,7 @@
 ---
 title: "What are Human and Humanity  I met Humanoid AI Robot Nadine "
+aliases: ["/2016/03/what-are-human-and-humanity-i-met-humanoid-ai-robot-nadine/"]
+slug: what-are-human-and-humanity-i-met-humanoid-ai-robot-nadine
 date: 2016-03-05
 ---
 

@@ -1,5 +1,7 @@
 ---
 title: "Will a culture be born from Shenzhen  OCT loft area"
+aliases: ["/2017/03/will-a-culture-be-born-from-shenzhen-oct-loft-area/"]
+slug: will-a-culture-be-born-from-shenzhen-oct-loft-area
 date: 2017-03-08
 ---
 

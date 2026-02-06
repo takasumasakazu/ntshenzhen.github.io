@@ -1,5 +1,7 @@
 ---
 title: "5 24  14 00        AI              SUMIDA INNOVATION CORE SIC "
+aliases: ["/2024/04/5-24-14-00-ai-sumida-innovation-core-sic/"]
+slug: 5-24-14-00-ai-sumida-innovation-core-sic
 date: 2024-04-30
 ---
 

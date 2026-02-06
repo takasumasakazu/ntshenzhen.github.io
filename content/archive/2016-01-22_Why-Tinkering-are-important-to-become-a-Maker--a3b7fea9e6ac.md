@@ -1,5 +1,7 @@
 ---
 title: "Why Tinkering are important to become a Maker "
+aliases: ["/2016/01/why-tinkering-are-important-to-become-a-maker/"]
+slug: why-tinkering-are-important-to-become-a-maker
 date: 2016-01-22
 ---
 

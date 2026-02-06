@@ -1,5 +1,7 @@
 ---
 title: "See you in CES2020 US and BETT 2020 UK  TAKASU   Nico Tech Shenzhen Community Monthly news Dec 2019"
+aliases: ["/2019/12/see-you-in-ces2020-us-and-bett-2020-uk-takasu-nico-tech-shenzhen-community-monthly-news-dec-2019/"]
+slug: see-you-in-ces2020-us-and-bett-2020-uk-takasu-nico-tech-shenzhen-community-monthly-news-dec-2019
 date: 2019-12-01
 ---
 

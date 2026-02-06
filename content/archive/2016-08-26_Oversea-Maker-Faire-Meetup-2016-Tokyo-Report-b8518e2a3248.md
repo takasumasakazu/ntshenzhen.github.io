@@ -1,5 +1,7 @@
 ---
 title: "Oversea Maker Faire Meetup 2016 Tokyo Report"
+aliases: ["/2016/08/oversea-maker-faire-meetup-2016-tokyo-report/"]
+slug: oversea-maker-faire-meetup-2016-tokyo-report
 date: 2016-08-26
 ---
 

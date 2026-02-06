@@ -1,5 +1,7 @@
 ---
 title: "Interview  TEAMOSA HAX  from Taiwan s traditional tea house changing the world s tea culture"
+aliases: ["/2017/12/interview-teamosa-hax-from-taiwan-s-traditional-tea-house-changing-the-world-s-tea-culture/"]
+slug: interview-teamosa-hax-from-taiwan-s-traditional-tea-house-changing-the-world-s-tea-culture
 date: 2017-12-24
 ---
 

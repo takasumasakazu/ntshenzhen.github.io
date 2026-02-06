@@ -1,5 +1,7 @@
 ---
 title: "Story and oppotunity in Maker Faire Singapore 2015"
+aliases: ["/2016/01/story-and-oppotunity-in-maker-faire-singapore-2015/"]
+slug: story-and-oppotunity-in-maker-faire-singapore-2015
 date: 2016-01-27
 ---
 

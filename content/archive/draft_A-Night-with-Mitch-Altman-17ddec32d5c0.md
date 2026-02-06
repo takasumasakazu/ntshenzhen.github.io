@@ -1,5 +1,7 @@
 ---
 title: "draft_A Night with Mitch Altman"
+aliases: ["/2000/01/draft-a-night-with-mitch-altman/"]
+slug: draft-a-night-with-mitch-altman
 date: 2000-01-01
 ---
 

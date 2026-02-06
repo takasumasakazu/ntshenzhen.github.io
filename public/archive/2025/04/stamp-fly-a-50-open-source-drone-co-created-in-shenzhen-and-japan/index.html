@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Stamp Fly  A  50 Open Source Drone Co Created in Shenzhen and Japan | Takasu Articles</title>
+<meta name="keywords" content="">
+<meta name="description" content="Stamp Fly: A $50 Open-Source Drone Co-Created in Shenzhen and Japan
+::: {.section .p-summary field=&ldquo;subtitle&rdquo;}
+Why We Built Stamp Fly
+:::
+::: {.section .e-content field=&ldquo;body&rdquo;}
+::: {.section .section .section&ndash;body .section&ndash;first .section&ndash;last name=&ldquo;550d&rdquo;}
+::: {.section-divider}
+
+:::
+::: {.section-content}
+::: {.section-inner .sectionLayout&ndash;insetColumn}
+Stamp Fly: A $50 Open-Source Drone Co-Created in Shenzhen and Japan
+
+{.graf-image}
+Why We Built Stamp Fly
+Professor Kohei Ito from Kanazawa Institute of Technology was searching
+for a programmable drone that could be used in the classroom. Existing
+products were either too fragile, too expensive, or closed-source. The
+team at M5Stack had previously attempted to launch a drone kit called
+Atom Fly &mdash; but it fell short in durability and functionality.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/archive/2025/04/stamp-fly-a-50-open-source-drone-co-created-in-shenzhen-and-japan/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/archive/2025/04/stamp-fly-a-50-open-source-drone-co-created-in-shenzhen-and-japan/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Takasu Articles (Alt + H)">Takasu Articles</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Stamp Fly  A  50 Open Source Drone Co Created in Shenzhen and Japan
+    </h1>
+    <div class="post-meta"><span title='2025-04-29 00:00:00 +0000 UTC'>April 29, 2025</span>
+
+</div>
+  </header> 
+  <div class="post-content"><h1 id="stamp-fly-a-50-open-source-drone-co-created-in-shenzhen-and-japan" class="p-name">Stamp Fly: A $50 Open-Source Drone Co-Created in Shenzhen and Japan<a hidden class="anchor" aria-hidden="true" href="#stamp-fly-a-50-open-source-drone-co-created-in-shenzhen-and-japan">#</a></h1>
+<p>::: {.section .p-summary field=&ldquo;subtitle&rdquo;}
+Why We Built Stamp Fly
+:::</p>
+<p>::: {.section .e-content field=&ldquo;body&rdquo;}
+::: {.section .section .section&ndash;body .section&ndash;first .section&ndash;last name=&ldquo;550d&rdquo;}
+::: {.section-divider}</p>
+<hr>
+<p>:::</p>
+<p>::: {.section-content}
+::: {.section-inner .sectionLayout&ndash;insetColumn}</p>
+<h3 id="a87f" class="graf graf--h3 graf--leading graf--title" name="a87f">Stamp Fly: A $50 Open-Source Drone Co-Created in Shenzhen and Japan<a hidden class="anchor" aria-hidden="true" href="#a87f">#</a></h3>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*1uqOgsNguiILuAR6v0GCrQ.jpeg" alt="" loading="lazy" />
+{.graf-image}</p>
+<p><strong>Why We Built Stamp Fly</strong></p>
+<p>Professor Kohei Ito from Kanazawa Institute of Technology was searching
+for a programmable drone that could be used in the classroom. Existing
+products were either too fragile, too expensive, or closed-source. The
+team at M5Stack had previously attempted to launch a drone kit called
+Atom Fly &mdash; but it fell short in durability and functionality.</p>
+<p><strong>What Went Wrong with Atom Fly</strong></p>
+<p>The original Atom Fly had a lightweight frame made from PCB material,
+which cracked easily in test flights. The microcontroller, ATOM Lite,
+lacked enough I/O pins for sensor expansion. Attempts were made to
+reinforce the frame and improve firmware, but the platform couldn&rsquo;t
+handle reliable, repeatable flight &mdash; especially in an educational
+setting.</p>
+<p><strong>How Japan Revived the Project</strong></p>
+<p>Japanese hardware hacker GOROman prototyped a hybrid: Atom Fly&rsquo;s
+electronics inside a BETAFPV 65mm drone frame &mdash; a major upgrade in
+durability. Simultaneously, M5Stack released the M5Stamp S3, a smaller
+and more powerful board that enabled easier sensor integration.
+Professor Ito contributed deep expertise in flight control, and the
+firmware was made open-source to allow further development. Together,
+Japanese engineers and Shenzhen suppliers collaborated at startup speed
+to bring the kit to life.</p>
+<p><strong>Inside the Stamp Fly Hardware</strong></p>
+<p>Stamp Fly is powered by the ESP32-S3-based M5Stamp S3, paired with
+brushless motors, BETAFPV propellers, and a LAVA 1S battery. It connects
+via the M5ATOM Joystick &mdash; a custom-built controller with a screen that
+shows battery level and pairing status. And yes, even the controller is
+fully programmable.</p>
+<p><strong>Where It&rsquo;s Being Used Now</strong></p>
+<p>Stamp Fly is now used in intensive five-day university classes to teach
+flight control and PID tuning. It&rsquo;s also catching attention from the
+ArduPilot community and DIY drone builders. The kit is fully
+open-source, from firmware to PCB design, allowing remixing and deep
+learning.</p>
+<p><strong>The Value of Cross-Border Open Hardware</strong></p>
+<p>This project is a success story of hardware made fast in Shenzhen and
+refined by Japanese engineering. It shows how open-source principles and
+international maker culture can create real, scalable educational tools.</p>
+<p><strong>Links and How to Get Involved</strong></p>
+<p>Want to build or remix your own Stamp Fly?</p>
+<p>📄 Hackster.io project:
+<a href="https://www.hackster.io/stampfly/stamp-fly-an-open-source-diy-drone-kit-from-japan-shenzhen-93d099">https://www.hackster.io/stampfly/stamp-fly-an-open-source-diy-drone-kit-from-japan-shenzhen-93d099</a></p>
+<p>🔧 Source files: <a href="https://github.com/M5Fly-kanazawa/M5StampFly">https://github.com/M5Fly-kanazawa/M5StampFly</a></p>
+<p>::: {#510f .graf .graf&ndash;mixtapeEmbed .graf-after&ndash;p name=&ldquo;510f&rdquo;}
+<a href="https://m5stack.com/" title="https://m5stack.com/"><strong>M5Stack - Modular Rapid ESP32 IoT Development Board - ESP32 dev
+kits</strong><br>
+*Open-source modular toolkits for IoT devices based on ESP32-updated
+version of ESP8266. With stackable
+modules&hellip;*m5stack.com</a>{.markup&ndash;anchor
+.markup&ndash;mixtapeEmbed-anchor}<a href="https://m5stack.com/"></a>{.js-mixtapeImage
+.mixtapeImage .u-ignoreBlock}
+:::</p>
+<p>🏫 Interested in using Stamp Fly in your class or workshop? Let&rsquo;s
+connect!</p>
+<p>Let&rsquo;s fly, hack, and learn together. #Shenzhen #OpenHardware #Drone
+#STEM #Japan #ESP32 #IoT #MakerMovement
+:::
+:::
+:::
+:::</p>
+<p>By <a href="https://medium.com/@tks">TAKASU Masakazu/高須正和</a>{.p-author
+.h-card} on <a href="https://medium.com/p/d6db5d30179c">April 29, 2025</a>.</p>
+<p><a href="https://medium.com/@tks/stampfly-d6db5d30179c">Canonical
+link</a>{.p-canonical}</p>
+<p>Exported from <a href="https://medium.com">Medium</a> on February 6, 2026.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Takasu Articles</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

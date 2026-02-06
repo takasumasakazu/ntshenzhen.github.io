@@ -1,5 +1,7 @@
 ---
 title: "                            RoboMaster    "
+aliases: ["/2025/03/robomaster/"]
+slug: robomaster
 date: 2025-03-27
 ---
 

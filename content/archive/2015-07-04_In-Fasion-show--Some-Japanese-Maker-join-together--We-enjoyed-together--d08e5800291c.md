@@ -1,5 +1,7 @@
 ---
 title: "In Fasion show  Some Japanese Maker join together  We enjoyed together "
+aliases: ["/2015/07/in-fasion-show-some-japanese-maker-join-together-we-enjoyed-together/"]
+slug: in-fasion-show-some-japanese-maker-join-together-we-enjoyed-together
 date: 2015-07-04
 ---
 

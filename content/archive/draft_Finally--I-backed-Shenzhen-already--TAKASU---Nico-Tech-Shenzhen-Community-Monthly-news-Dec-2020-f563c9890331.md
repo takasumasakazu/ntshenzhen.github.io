@@ -1,5 +1,7 @@
 ---
 title: "draft_Finally  I backed Shenzhen already  TAKASU   Nico Tech Shenzhen Community Monthly news Dec 2020"
+aliases: ["/2000/01/draft-finally-i-backed-shenzhen-already-takasu-nico-tech-shenzhen-community-monthly-news-dec-2020/"]
+slug: draft-finally-i-backed-shenzhen-already-takasu-nico-tech-shenzhen-community-monthly-news-dec-2020
 date: 2000-01-01
 ---
 

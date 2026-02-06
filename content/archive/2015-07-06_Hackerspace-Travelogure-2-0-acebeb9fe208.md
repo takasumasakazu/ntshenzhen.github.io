@@ -1,5 +1,7 @@
 ---
 title: "Hackerspace Travelogure 2 0"
+aliases: ["/2015/07/hackerspace-travelogure-2-0/"]
+slug: hackerspace-travelogure-2-0
 date: 2015-07-06
 ---
 

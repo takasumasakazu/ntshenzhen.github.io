@@ -1,5 +1,7 @@
 ---
 title: "          Maker         AkiParty          "
+aliases: ["/2025/03/maker-akiparty/"]
+slug: maker-akiparty
 date: 2025-03-21
 ---
 

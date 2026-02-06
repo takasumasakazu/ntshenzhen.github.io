@@ -1,5 +1,7 @@
 ---
 title: "Meet again Mitch in Shenzhen TAKASU   Nico Tech Shenzhen Community Monthly news Dec 2018"
+aliases: ["/2018/11/meet-again-mitch-in-shenzhen-takasu-nico-tech-shenzhen-community-monthly-news-dec-2018/"]
+slug: meet-again-mitch-in-shenzhen-takasu-nico-tech-shenzhen-community-monthly-news-dec-2018
 date: 2018-11-30
 ---
 

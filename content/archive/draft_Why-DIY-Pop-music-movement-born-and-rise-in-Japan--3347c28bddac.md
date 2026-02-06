@@ -1,5 +1,7 @@
 ---
 title: "draft_Why DIY Pop music movement born and rise in Japan "
+aliases: ["/2000/01/draft-why-diy-pop-music-movement-born-and-rise-in-japan/"]
+slug: draft-why-diy-pop-music-movement-born-and-rise-in-japan
 date: 2000-01-01
 ---
 

@@ -1,5 +1,7 @@
 ---
 title: "         10                           tks  akita11  ooedotechnica  puhitaku  SteveKasuya2"
+aliases: ["/2021/06/10-tks-akita11-ooedotechnica-puhitaku-stevekasuya2/"]
+slug: 10-tks-akita11-ooedotechnica-puhitaku-stevekasuya2
 date: 2021-06-19
 ---
 

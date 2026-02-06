@@ -1,5 +1,7 @@
 ---
 title: "                         HWTrek Asia Innovation Tour               "
+aliases: ["/2025/03/hwtrek-asia-innovation-tour/"]
+slug: hwtrek-asia-innovation-tour
 date: 2025-03-21
 ---
 

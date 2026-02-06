@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>1500    AirPods                    | Takasu Articles</title>
+<meta name="keywords" content="">
+<meta name="description" content="1500円のニセAirPodsを分解してわかった中国半導体産業の進化
+::: {.section .p-summary field=&ldquo;subtitle&rdquo;}
+2022/09/01 07:00
+:::
+::: {.section .e-content field=&ldquo;body&rdquo;}
+::: {.section .section .section&ndash;body .section&ndash;first .section&ndash;last name=&ldquo;f255&rdquo;}
+::: {.section-divider}
+
+:::
+::: {.section-content}
+::: {.section-inner .sectionLayout&ndash;insetColumn}
+1500円のニセAirPodsを分解してわかった中国半導体産業の進化
+2022/09/01 07:00
+
+{.graf-image}
+深圳のさまざまなメーカーが、Apple製ワイヤレスイヤフォン「AirPods」そっくりのニセモノを製造・販売している。
+価格は安いもので1000円以下。2万7800円するホンモノと大きく違うが、Apple製品ときちんとペアリングする。こうしたニセAirPodsは総称して「华强北（ファーチャンベイ）」と呼ばれている。なお华强北とは、深圳にある世界最大級の電気街のことだ。
+「华强北」はもちろんホンモノの機能をすべて備えているわけではなく、音質なども値段相応だ。しかし、動作する製品がこの価格で販売できる事実が、中国半導体産業の成長を表している。
+
+{.graf-image}
+iPadからはAirPodsとして自動ペアリングする。
+ニセAirPodsを分解してみた&hellip;&hellip;ホンモノとは異なるシンプルな中身
+筆者は#分解のススメ{.markup&ndash;anchor
+.markup&ndash;p-anchor}というハードウェア分解の共同発起人で、さまざまな製品を分解して楽しんでいる。今回のニセAirPodsも、分解のために購入した。価格は78人民元（約1500円）だ。
+ホンモノのAirPodsは、ノイズキャンセルや空間オーディオなどを実現するために、片側だけで21個のマイコンチップを搭載している。マイクだけで片側3つのMEMSマイクを搭載し、それぞれのマイクで集音した音を分析することで、ノイズを排除してクリアに声だけ届ける通話を実現している仕組みだ。
+それに対してニセAirPodsは、一つのSoC（システム・オン・チップ）を中心にたった4つしかチップを搭載していない。
+ちなみにSoCとはBluetoothデコード、CPU、メモリーなど複数の機能から成立するシステムを一つのチップに載せたものだ。それまで複数の部品から成り立っていたシステムをSoC化することで、安価に製品を作れる。
+動画にある通り、ニセAirPodsでもApple製品との自動ペアリングは動作するし、Siriも起動する。しかし「空間オーディオ」や「ノイズキャンセル」は、イコライザを変えてなんとなくそれっぽく聞こえるハリボテ機能。ジャイロに至っては、宣伝にあるだけで搭載されていないウソ機能だ。
+つまり、ニセAirPodsは動作しないニセモノではなく、シンプルなTWS（完全ワイヤレス）イヤフォンとして使える程度の機能は備えている。こうした、Apple製品とちゃんとペアリングされるにもかかわらず、機能の多くがハリボテなニセモノは、どうやって生まれたのだろうか？
+その背景は、ニセAirPodsを分解することで見えてきた。
+目的の機能を安価に実現する設計
+ニセAirPodsを分解したところ、以下の図のような構造になっていた。
+
+{.graf-image}
+1500円のニセAirPodsでも、ケース内で充電、耳からの付け外しで音楽再生を制御、タップして曲送り、電話に使える程度のマイクなどの機能は実装している。音質はともかく、操作感などは他のTWSイヤフォンと遜色ない。
+上記の図のうち、銅箔とタッチ制御ICは「耳からつけ外しで再生開始／停止」や「タップして曲送り」などを、高価なセンサーを使わずに安価に実現する方法だ。ホンモノのAirPodsでは、より複雑なセンシングを行っている。
+また、高音質なMEMSマイクを口に近い位置に配置しているのは、通話用イヤフォンとして使いやすくする&hellip;&hellip;など、さまざまな設計の工夫が見られる。
+安価なTWSが生まれた背景は、中国産半導体の進化
+Bluetooth機器のなかでもTWSイヤフォンは、両耳共に無線機能やバッテリー、イヤフォンを駆動するアンプなどを備えなければならない、高度な製品だ。そのため、そもそもきちんと機能するTWSイヤフォンが、この程度の価格で売られているのは驚くべきことである。しかし、市場では2000円以下の安価なTWSイヤフォンをここ2〜3年で見かけるようになった。
+そうした安価なTWSイヤフォンを分解すると、多くは広東省の半導体設計会社JieLiやBluetrumなどのSoCを採用している。
+JieLiやBluetrumなどのSoCは、一つのチップでBluetooth通信、バッテリーの管理、音声のデコード、機能を管理するRISC-VによるCPUなど、多くの機能を備えている。これにより、これまでにない低価格のTWSイヤフォンを実現しているようだ。">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/archive/2025/03/1500-airpods/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/archive/2025/03/1500-airpods/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Takasu Articles (Alt + H)">Takasu Articles</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      1500    AirPods                   
+    </h1>
+    <div class="post-meta"><span title='2025-03-26 00:00:00 +0000 UTC'>March 26, 2025</span>
+
+</div>
+  </header> 
+  <div class="post-content"><h1 id="円のニセairpodsを分解してわかった中国半導体産業の進化" class="p-name">1500円のニセAirPodsを分解してわかった中国半導体産業の進化<a hidden class="anchor" aria-hidden="true" href="#円のニセairpodsを分解してわかった中国半導体産業の進化">#</a></h1>
+<p>::: {.section .p-summary field=&ldquo;subtitle&rdquo;}
+2022/09/01 07:00
+:::</p>
+<p>::: {.section .e-content field=&ldquo;body&rdquo;}
+::: {.section .section .section&ndash;body .section&ndash;first .section&ndash;last name=&ldquo;f255&rdquo;}
+::: {.section-divider}</p>
+<hr>
+<p>:::</p>
+<p>::: {.section-content}
+::: {.section-inner .sectionLayout&ndash;insetColumn}</p>
+<h3 id="ecac" class="graf graf--h3 graf--leading graf--title" name="ecac">1500円のニセAirPodsを分解してわかった中国半導体産業の進化<a hidden class="anchor" aria-hidden="true" href="#ecac">#</a></h3>
+<p>2022/09/01 07:00</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*oXBmwI3Tx4FNMmbXStRypg.jpeg" alt="" loading="lazy" />
+{.graf-image}</p>
+<p>深圳のさまざまなメーカーが、Apple製ワイヤレスイヤフォン「AirPods」そっくりのニセモノを製造・販売している。</p>
+<p>価格は安いもので1000円以下。2万7800円するホンモノと大きく違うが、Apple製品ときちんとペアリングする。こうしたニセAirPodsは総称して「华强北（ファーチャンベイ）」と呼ばれている。なお华强北とは、深圳にある世界最大級の電気街のことだ。</p>
+<p>「华强北」はもちろんホンモノの機能をすべて備えているわけではなく、音質なども値段相応だ。しかし、動作する製品がこの価格で販売できる事実が、中国半導体産業の成長を表している。</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*VhRyRCpzrRKrQQEwjJJNPA.jpeg" alt="中国のECサイトで売っているAirPodsのニセモノ。「10%の価格で90%の顧客が選ぶ」というキャッチコピーが盗人猛々しい。" loading="lazy" />
+{.graf-image}</p>
+<p>iPadからはAirPodsとして自動ペアリングする。</p>
+<h3 id="8034" class="graf graf--h3 graf-after--figure" name="8034">ニセAirPodsを分解してみた&hellip;&hellip;ホンモノとは異なるシンプルな中身<a hidden class="anchor" aria-hidden="true" href="#8034">#</a></h3>
+<p>筆者は<a href="https://fabcross.jp/topics/tks/20200608_bunkai_5tips.html"><strong>#分解のススメ</strong></a>{.markup&ndash;anchor
+.markup&ndash;p-anchor}というハードウェア分解の共同発起人で、さまざまな製品を分解して楽しんでいる。今回のニセAirPodsも、分解のために購入した。価格は78人民元（約1500円）だ。</p>
+<p>ホンモノのAirPodsは、ノイズキャンセルや空間オーディオなどを実現するために、片側だけで21個のマイコンチップを搭載している。マイクだけで片側3つのMEMSマイクを搭載し、それぞれのマイクで集音した音を分析することで、ノイズを排除してクリアに声だけ届ける通話を実現している仕組みだ。</p>
+<p>それに対してニセAirPodsは、一つのSoC（システム・オン・チップ）を中心にたった4つしかチップを搭載していない。</p>
+<p>ちなみにSoCとはBluetoothデコード、CPU、メモリーなど複数の機能から成立するシステムを一つのチップに載せたものだ。それまで複数の部品から成り立っていたシステムをSoC化することで、安価に製品を作れる。</p>
+<p>動画にある通り、ニセAirPodsでもApple製品との自動ペアリングは動作するし、Siriも起動する。しかし「空間オーディオ」や「ノイズキャンセル」は、イコライザを変えてなんとなくそれっぽく聞こえるハリボテ機能。ジャイロに至っては、宣伝にあるだけで搭載されていないウソ機能だ。</p>
+<p>つまり、ニセAirPodsは動作しないニセモノではなく、シンプルなTWS（完全ワイヤレス）イヤフォンとして使える程度の機能は備えている。こうした、Apple製品とちゃんとペアリングされるにもかかわらず、機能の多くがハリボテなニセモノは、どうやって生まれたのだろうか？
+その背景は、ニセAirPodsを分解することで見えてきた。</p>
+<h3 id="1ddd" class="graf graf--h3 graf-after--p" name="1ddd">目的の機能を安価に実現する設計<a hidden class="anchor" aria-hidden="true" href="#1ddd">#</a></h3>
+<p>ニセAirPodsを分解したところ、以下の図のような構造になっていた。</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*CHbQR1l6iqPGz4QbhXDpSQ.jpeg" alt="赤くリストアップしているのがマイコンチップ。たった４つのチップしか使っていない。" loading="lazy" />
+{.graf-image}</p>
+<p>1500円のニセAirPodsでも、ケース内で充電、耳からの付け外しで音楽再生を制御、タップして曲送り、電話に使える程度のマイクなどの機能は実装している。音質はともかく、操作感などは他のTWSイヤフォンと遜色ない。</p>
+<p>上記の図のうち、銅箔とタッチ制御ICは「耳からつけ外しで再生開始／停止」や「タップして曲送り」などを、高価なセンサーを使わずに安価に実現する方法だ。ホンモノのAirPodsでは、より複雑なセンシングを行っている。</p>
+<p>また、高音質なMEMSマイクを口に近い位置に配置しているのは、通話用イヤフォンとして使いやすくする&hellip;&hellip;など、さまざまな設計の工夫が見られる。</p>
+<h3 id="c88d" class="graf graf--h3 graf-after--p" name="c88d">安価なTWSが生まれた背景は、中国産半導体の進化<a hidden class="anchor" aria-hidden="true" href="#c88d">#</a></h3>
+<p>Bluetooth機器のなかでもTWSイヤフォンは、両耳共に無線機能やバッテリー、イヤフォンを駆動するアンプなどを備えなければならない、高度な製品だ。そのため、そもそもきちんと機能するTWSイヤフォンが、この程度の価格で売られているのは驚くべきことである。しかし、市場では2000円以下の安価なTWSイヤフォンをここ2〜3年で見かけるようになった。</p>
+<p>そうした安価なTWSイヤフォンを分解すると、多くは広東省の半導体設計会社JieLiやBluetrumなどのSoCを採用している。</p>
+<p>JieLiやBluetrumなどのSoCは、一つのチップでBluetooth通信、バッテリーの管理、音声のデコード、機能を管理するRISC-VによるCPUなど、多くの機能を備えている。これにより、これまでにない低価格のTWSイヤフォンを実現しているようだ。</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*u5GV85JIdjWQ0ekJonpTeQ.jpeg" alt="ニセAirPodsのメインSoC。JieLiのロゴがあるが、なぜか型番のマーキングが消されている。" loading="lazy" />
+{.graf-image}</p>
+<p>今回のニセAirPodsを分解して確認したメインチップも、中心のSoCは深圳の対岸エリア・珠海の会社、JieLiが設計したマイコンだった。もちろん、ホンモノのAirPodsに搭載されているAppleのSoC「H1」ではない。しかも、チップのマーキングが消されていて型番がわからない。ただ、チップの外形や機能的に、2000円以下の安価なTWSイヤフォンと同じチップと考えられる。</p>
+<p>そうしたチップを使い、Apple製品に送るBluetoothの信号を工夫してAirPodsのフリをさせているのだとすれば、つじつまは合う。では、なぜ型番が消されているのだろう？</p>
+<h3 id="2472" class="graf graf--h3 graf-after--p" name="2472">専門のチップ開封業者を利用する。チップ開封はわずか6000円<a hidden class="anchor" aria-hidden="true" href="#2472">#</a></h3>
+<p>この消された型番の謎を解くべく、筆者は専門のチップ開封業者に頼ってみることにした。</p>
+<p>中国のECサイトTaobaoでは、製品他に、有料サービスも販売されている。そして、「マイコンチップの解析・チップ開封・ファームウェアの吸出しなど」を専門にする業者もいくつもある。今回はそうした業者のうちの一つに、チップの開封とSoCの解析写真を依頼した。</p>
+<p>料金は300人民元（約6000円）で、納期は2〜3日。開封に失敗したら、返金してくれるという。また、依頼はTaobaoのチャット上で完結した。</p>
+<p>そして依頼して数日後、見事なチップ開封写真が届いた。</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*XFl8ViVMu1pL4lWd9jah4w.jpeg" alt="解析されたSoCの顕微鏡写真。チップ間のワイヤーボンディングも想像できる見事なもの。" loading="lazy" />
+{.graf-image}</p>
+<p>筆者が購読しているテカナリエ※のレポートと照らし合わせたところ、日本のディスカウントストアで、2000円程度の価格で販売されているTWSイヤフォンのチップと完全に一致した。<br>
+※さまざまなICT製品の分解分析を行っている日本企業</p>
+<p>日本でもプロ向けにこの手のチップ開封サービスはある。しかし、複雑なやり取りの上に数万円～数十万円の費用がかかるものばかりで、いきなりお願いできるような気軽なものではない。</p>
+<h3 id="341b" class="graf graf--h3 graf-after--p" name="341b">マーキングを消したチップが流通する理由はチップの横流し？<a hidden class="anchor" aria-hidden="true" href="#341b">#</a></h3>
+<p>一般的に、チップのマーキングを消す理由は大きく分けて2つ考えられる。</p>
+<ol>
+<li>[安価なチップを、より高いチップ（あるいは中古品を新品に）にごまかす]{#dc5c}</li>
+<li>[出所を隠してチップを売る]{#b323}</li>
+</ol>
+<p>今回の場合は、後者だと考えられる。この低価格オールインワンのTWSチップが出てきたのはまだ2年足らずで、多くの中古品が出回るには時間が不足している。完成品のイヤフォンが数百円なところから、高いチップにごまかすのも理由にならない。</p>
+<p>一方でJieLiは、ファブレスのチップ設計会社。もともと設計済みのチップを代理店経由で大量販売しているが、納入先ごとに設計を修正して最適化したチップを納入することも多い。</p>
+<p>そういう大量購入の場合は、型番を分けることがほとんどだ。日本企業同士のやりとりでも、たとえば「車載用に熱関係のテストを追加した」など、特殊な用途向けに型番を変えたチップを納入することはある。</p>
+<p>そうした型番が変更されたチップの多くは、契約時に再販が禁止されている。しかし、製造時の予備が余った場合やプロジェクト中に条件が変わった場合など、さまざまな理由で「手っ取り早く現金化したい」ときはある。そして、そうしたチップの受け皿になっているのが、今回のニセAirPodsのようなニセモノ製品だと考えられる。</p>
+<h3 id="964d" class="graf graf--h3 graf-after--p" name="964d">ニセAirPodsに見る中国半導体産業の進化<a hidden class="anchor" aria-hidden="true" href="#964d">#</a></h3>
+<p>ニセAirPodsは40人民元（約800円）ぐらいのものから300人民元（約6000円）ほどのものまで、10倍近い価格の幅がある。そこで、価格の違うものを複数購入して分解してみたところ、中身の構造がまったく違った。</p>
+<p>たとえば今回分解したものの約半額、40人民元（約800円）のニセAirPodsは、メインチップ含めて多くの部品が異なり、更に安くするための工夫が随所に見られた。機能も一部刈り取られている。使われていたSoCは、同じく珠海のSoCメーカーBluetrumのものだ。こちらのSoCも、安価なBluetooth機器によく使われている。</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*giTrLgXAT2iD1yK2M2rIGg.jpeg" alt="上が38人民元（約800円）の製品の基板、下が78人民元（約1500円）のもの。設計で共通するところはほとんどない。" loading="lazy" />
+{.graf-image}</p>
+<p>一方で300人民元（約6000円）近い高級機種は、複数マイクによるノイズキャンセルやマルチペアリングなどの機能を備えている。自社のWebサイトでは分解写真やメインチップまで自ら公開しているし、広告でもAppleを想起させるものは使っていない。後追い品であっても、ニセモノと呼ぶのははばかられるものになっていて、ケースに堂々と自社ブランドのロゴを刻印しているものさえある。</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*l5jk2ENAW83KYoX2iYpJnw.jpeg" alt="高級な「华强北」シリーズは自社ロゴや自社の品質管理を表に出し、Google等の製品と同じチップを使っていることをアピールしている。" loading="lazy" />
+{.graf-image}</p>
+<p>こうした高級機種は、新産業の立ち上がりと呼ぶべきものだろう。かつてのアメリカで日本車が「貧乏人のポルシェ」「貧乏人のBMW」などのような呼ばれ方をしたし、いくつかのAndroid機はiPhoneをベンチマークして作られたものだ。しかし、今ではどちらも独自の産業として巣立っている。</p>
+<p>一方で、安いニセAirPodsは、出所の不明な部品やマーケティング経路で売りさばかれている、いわば&quot;昔ながらの&quot;ニセモノ。2000年代からのニセモノ携帯「山寨手机」を思い起こさせるものだ。</p>
+<p>山寨手机をもたらしたのは、台湾MediaTekのチップ製品だったが、今回の低価格TWSを実現しているイノベーションは中国の半導体産業がもたらしたものだ。</p>
+<p>チップ解析ラボの充実や、ハイエンド製品への進出含め、ニセAirPods「华强北」から、充実する中国半導体産業の進化を見て取れる。半導体産業再生を考えるとき、こうして具体的に流通している製品と販路から目を離してはならない。
+:::
+:::
+:::
+:::</p>
+<p>By <a href="https://medium.com/@tks">TAKASU Masakazu/高須正和</a>{.p-author
+.h-card} on <a href="https://medium.com/p/f16a1ef17892">March 26, 2025</a>.</p>
+<p><a href="https://medium.com/@tks/20220901-f16a1ef17892">Canonical
+link</a>{.p-canonical}</p>
+<p>Exported from <a href="https://medium.com">Medium</a> on February 6, 2026.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Takasu Articles</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

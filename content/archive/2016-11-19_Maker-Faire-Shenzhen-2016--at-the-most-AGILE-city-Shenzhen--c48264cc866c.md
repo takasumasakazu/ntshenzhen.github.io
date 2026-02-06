@@ -1,5 +1,7 @@
 ---
 title: "Maker Faire Shenzhen 2016  at the most AGILE city Shenzhen "
+aliases: ["/2016/11/maker-faire-shenzhen-2016-at-the-most-agile-city-shenzhen/"]
+slug: maker-faire-shenzhen-2016-at-the-most-agile-city-shenzhen
 date: 2016-11-19
 ---
 

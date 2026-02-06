@@ -1,5 +1,7 @@
 ---
 title: "See you in NY and Singapore  Monthly Report 2020 March"
+aliases: ["/2020/02/see-you-in-ny-and-singapore-monthly-report-2020-march/"]
+slug: see-you-in-ny-and-singapore-monthly-report-2020-march
 date: 2020-02-29
 ---
 

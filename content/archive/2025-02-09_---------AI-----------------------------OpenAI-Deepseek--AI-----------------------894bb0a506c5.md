@@ -1,5 +1,7 @@
 ---
 title: "         AI                             OpenAI Deepseek  AI                      "
+aliases: ["/2025/02/ai-openai-deepseek-ai/"]
+slug: ai-openai-deepseek-ai
 date: 2025-02-09
 ---
 

@@ -1,5 +1,7 @@
 ---
 title: "                   Bangkok Mini Maker Faire 2017    "
+aliases: ["/2025/03/bangkok-mini-maker-faire-2017/"]
+slug: bangkok-mini-maker-faire-2017
 date: 2025-03-21
 ---
 

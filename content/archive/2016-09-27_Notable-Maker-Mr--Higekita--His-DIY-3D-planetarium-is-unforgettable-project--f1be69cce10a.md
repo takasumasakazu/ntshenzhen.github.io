@@ -1,5 +1,7 @@
 ---
 title: "Notable Maker Mr  Higekita  His DIY 3D planetarium is unforgettable project "
+aliases: ["/2016/09/notable-maker-mr-higekita-his-diy-3d-planetarium-is-unforgettable-project/"]
+slug: notable-maker-mr-higekita-his-diy-3d-planetarium-is-unforgettable-project
 date: 2016-09-27
 ---
 

@@ -1,5 +1,7 @@
 ---
 title: "                                     Cai Wenya Agatha      12e8d2a1998"
+aliases: ["/2020/04/cai-wenya-agatha-12e8d2a1998/"]
+slug: cai-wenya-agatha-12e8d2a1998
 date: 2020-04-10
 ---
 

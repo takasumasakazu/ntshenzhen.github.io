@@ -1,5 +1,7 @@
 ---
 title: " 6  Maker Uno   STEM    Arduino                           Cytron           "
+aliases: ["/2018/03/6-maker-uno-stem-arduino-cytron/"]
+slug: 6-maker-uno-stem-arduino-cytron
 date: 2018-03-24
 ---
 

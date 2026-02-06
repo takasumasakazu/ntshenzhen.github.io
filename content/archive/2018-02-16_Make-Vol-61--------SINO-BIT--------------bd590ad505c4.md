@@ -1,5 +1,7 @@
 ---
 title: "Make Vol 61        SINO BIT             "
+aliases: ["/2018/02/make-vol-61-sino-bit/"]
+slug: make-vol-61-sino-bit
 date: 2018-02-16
 ---
 

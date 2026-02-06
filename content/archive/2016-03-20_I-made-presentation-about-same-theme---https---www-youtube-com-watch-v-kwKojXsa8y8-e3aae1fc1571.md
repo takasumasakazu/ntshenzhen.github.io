@@ -1,5 +1,7 @@
 ---
 title: "I made presentation about same theme   https   www youtube com watch v kwKojXsa8y8"
+aliases: ["/2016/03/i-made-presentation-about-same-theme-https-www-youtube-com-watch-v-kwkojxsa8y8/"]
+slug: i-made-presentation-about-same-theme-https-www-youtube-com-watch-v-kwkojxsa8y8
 date: 2016-03-20
 ---
 

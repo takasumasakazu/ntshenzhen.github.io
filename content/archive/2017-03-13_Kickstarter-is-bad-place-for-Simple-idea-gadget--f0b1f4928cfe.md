@@ -1,5 +1,7 @@
 ---
 title: "Kickstarter is bad place for Simple idea gadget "
+aliases: ["/2017/03/kickstarter-is-bad-place-for-simple-idea-gadget/"]
+slug: kickstarter-is-bad-place-for-simple-idea-gadget
 date: 2017-03-13
 ---
 

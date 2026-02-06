@@ -1,5 +1,7 @@
 ---
 title: "Angelic Project and Demonic Project  on Maker Movement"
+aliases: ["/2017/04/angelic-project-and-demonic-project-on-maker-movement/"]
+slug: angelic-project-and-demonic-project-on-maker-movement
 date: 2017-04-25
 ---
 

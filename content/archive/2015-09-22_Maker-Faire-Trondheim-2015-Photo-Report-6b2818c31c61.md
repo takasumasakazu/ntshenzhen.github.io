@@ -1,5 +1,7 @@
 ---
 title: "Maker Faire Trondheim 2015 Photo Report"
+aliases: ["/2015/09/maker-faire-trondheim-2015-photo-report/"]
+slug: maker-faire-trondheim-2015-photo-report
 date: 2015-09-22
 ---
 

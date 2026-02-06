@@ -1,5 +1,7 @@
 ---
 title: "Happy CNY  I m still in Shenzhen  Feb 2021 monthly report"
+aliases: ["/2021/01/happy-cny-i-m-still-in-shenzhen-feb-2021-monthly-report/"]
+slug: happy-cny-i-m-still-in-shenzhen-feb-2021-monthly-report
 date: 2021-01-31
 ---
 

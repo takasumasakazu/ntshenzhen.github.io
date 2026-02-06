@@ -1,5 +1,7 @@
 ---
 title: "QuickStarter  More inde hardware in Kickstarter  TAKASU   Nico Tech Shenzhen Community Monthly news"
+aliases: ["/2018/05/quickstarter-more-inde-hardware-in-kickstarter-takasu-nico-tech-shenzhen-community-monthly-news/"]
+slug: quickstarter-more-inde-hardware-in-kickstarter-takasu-nico-tech-shenzhen-community-monthly-news
 date: 2018-05-31
 ---
 

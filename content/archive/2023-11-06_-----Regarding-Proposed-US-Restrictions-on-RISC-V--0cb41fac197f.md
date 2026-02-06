@@ -1,5 +1,7 @@
 ---
 title: "     Regarding Proposed US Restrictions on RISC V "
+aliases: ["/2023/11/regarding-proposed-us-restrictions-on-risc-v/"]
+slug: regarding-proposed-us-restrictions-on-risc-v
 date: 2023-11-06
 ---
 

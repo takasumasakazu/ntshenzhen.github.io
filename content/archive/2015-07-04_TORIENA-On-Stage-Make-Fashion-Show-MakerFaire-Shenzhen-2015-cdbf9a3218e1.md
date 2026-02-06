@@ -1,5 +1,7 @@
 ---
 title: "TORIENA On Stage Make Fashion Show MakerFaire Shenzhen 2015"
+aliases: ["/2015/07/toriena-on-stage-make-fashion-show-makerfaire-shenzhen-2015/"]
+slug: toriena-on-stage-make-fashion-show-makerfaire-shenzhen-2015
 date: 2015-07-04
 ---
 

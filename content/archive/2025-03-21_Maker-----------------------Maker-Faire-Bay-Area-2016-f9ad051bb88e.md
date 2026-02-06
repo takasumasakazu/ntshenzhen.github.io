@@ -1,5 +1,7 @@
 ---
 title: "Maker                       Maker Faire Bay Area 2016"
+aliases: ["/2025/03/maker-maker-faire-bay-area-2016/"]
+slug: maker-maker-faire-bay-area-2016
 date: 2025-03-21
 ---
 

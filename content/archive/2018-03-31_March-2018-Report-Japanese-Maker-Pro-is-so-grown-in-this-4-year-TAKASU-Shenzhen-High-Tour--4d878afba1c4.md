@@ -1,5 +1,7 @@
 ---
 title: "March 2018 Report Japanese Maker Pro is so grown in this 4 year TAKASU Shenzhen High Tour "
+aliases: ["/2018/03/march-2018-report-japanese-maker-pro-is-so-grown-in-this-4-year-takasu-shenzhen-high-tour/"]
+slug: march-2018-report-japanese-maker-pro-is-so-grown-in-this-4-year-takasu-shenzhen-high-tour
 date: 2018-03-31
 ---
 

@@ -1,5 +1,7 @@
 ---
 title: "  JENESIS  AIWA                         2022 08 "
+aliases: ["/2022/07/jenesis-aiwa-2022-08/"]
+slug: jenesis-aiwa-2022-08
 date: 2022-07-31
 ---
 

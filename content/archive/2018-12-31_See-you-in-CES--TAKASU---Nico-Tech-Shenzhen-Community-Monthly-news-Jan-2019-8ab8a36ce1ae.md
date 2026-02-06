@@ -1,5 +1,7 @@
 ---
 title: "See you in CES  TAKASU   Nico Tech Shenzhen Community Monthly news Jan 2019"
+aliases: ["/2018/12/see-you-in-ces-takasu-nico-tech-shenzhen-community-monthly-news-jan-2019/"]
+slug: see-you-in-ces-takasu-nico-tech-shenzhen-community-monthly-news-jan-2019
 date: 2018-12-31
 ---
 

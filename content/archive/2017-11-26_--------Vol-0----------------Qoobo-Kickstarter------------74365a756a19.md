@@ -1,5 +1,7 @@
 ---
 title: "        Vol 0                Qoobo Kickstarter           "
+aliases: ["/2017/11/vol-0-qoobo-kickstarter/"]
+slug: vol-0-qoobo-kickstarter
 date: 2017-11-26
 ---
 

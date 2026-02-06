@@ -1,5 +1,7 @@
 ---
 title: "Example  Introduce yourself for High Tour 2018 March"
+aliases: ["/2018/01/example-introduce-yourself-for-high-tour-2018-march/"]
+slug: example-introduce-yourself-for-high-tour-2018-march
 date: 2018-01-18
 ---
 

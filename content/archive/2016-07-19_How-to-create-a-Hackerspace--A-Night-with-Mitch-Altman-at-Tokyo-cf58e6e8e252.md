@@ -1,5 +1,7 @@
 ---
 title: "How to create a Hackerspace  A Night with Mitch Altman at Tokyo"
+aliases: ["/2016/07/how-to-create-a-hackerspace-a-night-with-mitch-altman-at-tokyo/"]
+slug: how-to-create-a-hackerspace-a-night-with-mitch-altman-at-tokyo
 date: 2016-07-19
 ---
 

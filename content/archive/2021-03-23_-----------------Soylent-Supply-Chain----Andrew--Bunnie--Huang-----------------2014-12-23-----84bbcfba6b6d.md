@@ -1,5 +1,7 @@
 ---
 title: "                 Soylent Supply Chain    Andrew  Bunnie  Huang                 2014 12 23    "
+aliases: ["/2021/03/soylent-supply-chain-andrew-bunnie-huang-2014-12-23/"]
+slug: soylent-supply-chain-andrew-bunnie-huang-2014-12-23
 date: 2021-03-23
 ---
 

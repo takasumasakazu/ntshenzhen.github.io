@@ -1,5 +1,7 @@
 ---
 title: "Maker Conference Singapore 2018"
+aliases: ["/2018/08/maker-conference-singapore-2018/"]
+slug: maker-conference-singapore-2018
 date: 2018-08-25
 ---
 

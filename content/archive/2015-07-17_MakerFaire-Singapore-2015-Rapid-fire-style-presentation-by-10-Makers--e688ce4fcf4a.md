@@ -1,5 +1,7 @@
 ---
 title: "MakerFaire Singapore 2015 Rapid fire style presentation by 10 Makers "
+aliases: ["/2015/07/makerfaire-singapore-2015-rapid-fire-style-presentation-by-10-makers/"]
+slug: makerfaire-singapore-2015-rapid-fire-style-presentation-by-10-makers
 date: 2015-07-17
 ---
 

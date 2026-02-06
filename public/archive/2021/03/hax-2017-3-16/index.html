@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>                         HAX    2017 3 16           | Takasu Articles</title>
+<meta name="keywords" content="">
+<meta name="description" content="深圳で起こっていること、メイカー、スタートアップ、HAXなど (2017年3月16日コンテンツを移転)
+::: {.section .p-summary field=&ldquo;subtitle&rdquo;}
+■この文書で言いたいこと
+:::
+::: {.section .e-content field=&ldquo;body&rdquo;}
+::: {.section .section .section&ndash;body .section&ndash;first .section&ndash;last name=&ldquo;f955&rdquo;}
+::: {.section-divider}
+
+:::
+::: {.section-content}
+::: {.section-inner .sectionLayout&ndash;insetColumn}
+深圳で起こっていること、メイカー、スタートアップ、HAXなど (2017年3月16日コンテンツを移転)
+■この文書で言いたいこと
+最近HAXとかメイカーとか深圳とかの話を、東京メイカーフェアに来たことがない、メイカーフェアという単語をそもそも知らない（経済研究が専門とか）人に話すことが増えてきた。
+僕がその手の話で言いたいことは、これまで世間の常識となっていることとは別方向の新しい考え方で、ある程度の前提が共有できてないとそもそも話にならないような気がする。
+なので、お互いの手間を省くために、なるべくシンプルに記述してみた。とはいえ１時間程度で書いたので、粗いところはあるだろう。なので、このテキストは適宜アップデートされると思う。
+もちろん、書籍：メイカーズのエコシステム{.markup&ndash;anchor
+.markup&ndash;p-anchor}を読んでもらえるのがいちばん効率的に知見を得られるだろう。僕の話を３時間聞くより、２時間で本を読んで１時間僕と話す方が、価値のある時間の使い方ができるはずだ。
+■深圳（というよりも2012年以降の近代）でおきている「メイカームーブメント」
+-2000年より前「個人のアイデアを世界に届けること」に対する障害
+A.アイデアをキッチリと開発することがそもそも難しい（調査、レビュー、継続的な改善は、研究機関や大手メーカーといったプロだけが可能）
+B.世界に届けることが難しい(資金調達、marketing、宣伝）
+Aは企画・開発の問題、Bは製造や販売、資金調達の問題と言い換えられる。
+結果として、A.の問題により、個人の発明はたまに出る永久機関もどきとかEM菌みたいなものがほとんどだった。野球選手にたとえると、野球の強い高校の野球部に入らなければ、野球選手としての身体の使い方ができず、プロ野球選手になるのは難しい。発明も同じで、大きいメーカーや大学の研究室に入らないと、良書と悪書の区別もつかないし、ちゃんとしたレビューも受けられず、何より人類が培ってきた科学の積み重ねの恩恵が受けられない。
+あまり蓄積のいらない、アイデア商品（絶対的な性能で勝負がつくものでなく、「使いやすい」などの人によって評価の変わるもの）は個人でもヒットすることがたまにあるが、B.の問題で社会に出ず死蔵されるよいアイデアも多かった。
+-2000年頃~
+インターネットによる情報共有の民主化、オープンソースによる知的財産の共有の民主化、クラウドコンピューティングによる大規模化の民主化
+ソフトウェアについてはA.Bともに問題がほぼ解決し、「大ソフトウェアメーカーや研究機関に入らなくても、自由に大規模ソフトウェアが作れる」ようになった。その結果シリコンバレーから多くのソフトウェアベンチャーが出てくるに至る。
+B.についてはGoogleのようなサイエンス畑出身のベンチャーが多く誕生する一方、FacebookやInstagramのような大学の研究分野とは特に関係ない、正解のない技術を提供するタイプのベンチャーも、「使えるものを提供し、ユーザの反応を見ながら大規模化し、資金調達する」ことができるようになった。
+-2012年頃~ ハードウェアについても民主化されつつある
+A.デジタル工作機械の普及やそうした知識を交換するコミュニティがでてきた。かつては専門家が社内で共有していたような知識をアクセスし、試せる
+B.クラウドファンディングやオンライン販売などで小ベンチャーが世界に届くプロジェクトを作ることができつつある。
+■なぜハードウェアをやるのか
+「民主化」といっても、「誰でもチャレンジできる」と「簡単にできる」と「必ずできる」は違う。
+ハードウェアは誰でもチャレンジできるようになりつつあるが、ソフトウェアと比べてA.B.ともに課題が多く、今のところリターンも少なく、どうやれば成功するかも見えてこない。数年後に「じつはハードウェアではGoogleみたいなベンチャーが生まれなかった」とわかることもありえる。
+が、ソフトウェアに比べるとその分ベンチャー投資側にとってライバルが少ない。確実性が少ないことは、投資側にとって先物買いができることにつながるので、悪い材料ばかりではない。
+HAXの親会社にあたるSOSVentureファンドは、バイオ・モバイル・フード・中国などの複数の産業分野のアクセラレータを配下に持ち、HAXはそのなかのハードウェア分野のアクセラレータである。
+■深圳とアメリカのベンチャー投資家HAX
+これまでの産業集積により小規模製造業が集まっている深圳は、Bを安く・早く進めるために世界で最も向いた場所である。なのでHAXはここにラボをつくり、応募したベンチャーに対して111日間のプロトタイピング合宿を行い、アイデアを製品（の手前、クラウドファンディングに出せたり、投資家からさらなる投資を募れる段階）まで持っていく手助けをする。
+サンフランシスコで企業間提携やマーケティングのプログラムを行うなど、HAX内でもいくつかあるプログラムの一つである。
+■DIYの可能性 （正解のある問題とない問題）
+最高速度を上げる、コストを下げる、バッテリーの効率を上げるなどの「数値化できる性能」は現在のサイエンスの分野である。DIYやホビー出身の発明家がこの分野でできることは少ない。（巨大企業から研究者がスピンアウトした方がいい製品が出せる、などの形はあるし、別分野の技術の転用はありえる。統計やコンピュータサイエンスの技術を別の分野に応用するなど）
+一方、「面白い」「好ましい」などの価値を提供するものは既存のサイエンスの外側にあることが多く、たとえばゲームやユーザーインターフェースなどは学問分野としてもあるが、「いい大学を出ればいいゲームが作れる」というほどにはなっていない。この分野のイノベーションは「本人達が好きで始めたことが大きくなる」可能性が高く、プロトタイプがユーザに支持されて洗練されるような進化の仕方が向いていて、むしろ合議制で承認ベースで進めて最後に具現化する大組織的でビジネス的なやり方（ダムやビルをつくるようなやりかた）はうまく行かないことが多い。
+この「つくりたいものをつくることが、多くのユーザを巻き込んだコミュニティに支持されることにより、イノベーションにつながる」一連の流れを指してメイカームーブメントと呼ばれる。
+■DIYの可能性 （プロトタイピング、コミュニティ）
+短い文章でDIYの可能性を２回も書くのは、ここがもっとも大事だからだ。
+合議制で承認ベースで進めて最後に具現化する大組織的でビジネス的なやり方（ダムやビルをつくるようなやりかた）を、ここでは「合理的なやり方」と呼ぼう。合理的なやり方は、「優秀な人なら誰がやっても同じ問題が出る問題」に向いている。このやり方だと「今市場が見えて、ヒットしている製品をちょっと改良するとか、安くする」みたいなものが多い。天動説と地動説のように、大きく世の中が変わるときは、いつも新しい意見の人はマイノリティになる。ハズレを恐れるばかりに大当たりから最も遠い仕組みと言える。">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/archive/2021/03/hax-2017-3-16/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/archive/2021/03/hax-2017-3-16/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Takasu Articles (Alt + H)">Takasu Articles</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+                               HAX    2017 3 16          
+    </h1>
+    <div class="post-meta"><span title='2021-03-23 00:00:00 +0000 UTC'>March 23, 2021</span>
+
+</div>
+  </header> 
+  <div class="post-content"><h1 id="深圳で起こっていることメイカースタートアップhaxなど-2017年3月16日コンテンツを移転" class="p-name">深圳で起こっていること、メイカー、スタートアップ、HAXなど (2017年3月16日コンテンツを移転)<a hidden class="anchor" aria-hidden="true" href="#深圳で起こっていることメイカースタートアップhaxなど-2017年3月16日コンテンツを移転">#</a></h1>
+<p>::: {.section .p-summary field=&ldquo;subtitle&rdquo;}
+■この文書で言いたいこと
+:::</p>
+<p>::: {.section .e-content field=&ldquo;body&rdquo;}
+::: {.section .section .section&ndash;body .section&ndash;first .section&ndash;last name=&ldquo;f955&rdquo;}
+::: {.section-divider}</p>
+<hr>
+<p>:::</p>
+<p>::: {.section-content}
+::: {.section-inner .sectionLayout&ndash;insetColumn}</p>
+<h3 id="c99f" class="graf graf--h3 graf--leading graf--title" name="c99f">深圳で起こっていること、メイカー、スタートアップ、HAXなど (2017年3月16日コンテンツを移転)<a hidden class="anchor" aria-hidden="true" href="#c99f">#</a></h3>
+<p><strong>■この文書で言いたいこと</strong></p>
+<p>最近HAXとかメイカーとか深圳とかの話を、東京メイカーフェアに来たことがない、メイカーフェアという単語をそもそも知らない（経済研究が専門とか）人に話すことが増えてきた。</p>
+<p>僕がその手の話で言いたいことは、これまで世間の常識となっていることとは別方向の新しい考え方で、ある程度の前提が共有できてないとそもそも話にならないような気がする。</p>
+<p>なので、お互いの手間を省くために、なるべくシンプルに記述してみた。とはいえ１時間程度で書いたので、粗いところはあるだろう。なので、このテキストは適宜アップデートされると思う。</p>
+<p>もちろん、<a href="http://ch.nicovideo.jp/tks/blomaga/ar941066">書籍：メイカーズのエコシステム</a>{.markup&ndash;anchor
+.markup&ndash;p-anchor}を読んでもらえるのがいちばん効率的に知見を得られるだろう。僕の話を３時間聞くより、２時間で本を読んで１時間僕と話す方が、価値のある時間の使い方ができるはずだ。</p>
+<p><strong>■深圳（というよりも2012年以降の近代）でおきている「メイカームーブメント」</strong></p>
+<p><strong>-2000年より前「個人のアイデアを世界に届けること」に対する障害</strong></p>
+<p>A.アイデアをキッチリと開発することがそもそも難しい（調査、レビュー、継続的な改善は、研究機関や大手メーカーといったプロだけが可能）</p>
+<p>B.世界に届けることが難しい(資金調達、marketing、宣伝）</p>
+<p>Aは企画・開発の問題、Bは製造や販売、資金調達の問題と言い換えられる。</p>
+<p>結果として、A.の問題により、個人の発明はたまに出る永久機関もどきとかEM菌みたいなものがほとんどだった。野球選手にたとえると、野球の強い高校の野球部に入らなければ、野球選手としての身体の使い方ができず、プロ野球選手になるのは難しい。発明も同じで、大きいメーカーや大学の研究室に入らないと、良書と悪書の区別もつかないし、ちゃんとしたレビューも受けられず、何より人類が培ってきた科学の積み重ねの恩恵が受けられない。</p>
+<p>あまり蓄積のいらない、アイデア商品（絶対的な性能で勝負がつくものでなく、「使いやすい」などの人によって評価の変わるもの）は個人でもヒットすることがたまにあるが、B.の問題で社会に出ず死蔵されるよいアイデアも多かった。</p>
+<p><strong>-2000年頃~
+インターネットによる情報共有の民主化、オープンソースによる知的財産の共有の民主化、クラウドコンピューティングによる大規模化の民主化</strong></p>
+<p>ソフトウェアについてはA.Bともに問題がほぼ解決し、「大ソフトウェアメーカーや研究機関に入らなくても、自由に大規模ソフトウェアが作れる」ようになった。その結果シリコンバレーから多くのソフトウェアベンチャーが出てくるに至る。</p>
+<p>B.についてはGoogleのようなサイエンス畑出身のベンチャーが多く誕生する一方、FacebookやInstagramのような大学の研究分野とは特に関係ない、正解のない技術を提供するタイプのベンチャーも、「使えるものを提供し、ユーザの反応を見ながら大規模化し、資金調達する」ことができるようになった。</p>
+<p><strong>-2012年頃~ ハードウェアについても民主化されつつある</strong></p>
+<p>A.デジタル工作機械の普及やそうした知識を交換するコミュニティがでてきた。かつては専門家が社内で共有していたような知識をアクセスし、試せる</p>
+<p>B.クラウドファンディングやオンライン販売などで小ベンチャーが世界に届くプロジェクトを作ることができつつある。</p>
+<p><strong>■なぜハードウェアをやるのか</strong></p>
+<p>「民主化」といっても、「誰でもチャレンジできる」と「簡単にできる」と「必ずできる」は違う。</p>
+<p>ハードウェアは誰でもチャレンジできるようになりつつあるが、ソフトウェアと比べてA.B.ともに課題が多く、今のところリターンも少なく、どうやれば成功するかも見えてこない。数年後に「じつはハードウェアではGoogleみたいなベンチャーが生まれなかった」とわかることもありえる。</p>
+<p>が、ソフトウェアに比べるとその分ベンチャー投資側にとってライバルが少ない。確実性が少ないことは、投資側にとって先物買いができることにつながるので、悪い材料ばかりではない。</p>
+<p>HAXの親会社にあたるSOSVentureファンドは、バイオ・モバイル・フード・中国などの複数の産業分野のアクセラレータを配下に持ち、HAXはそのなかのハードウェア分野のアクセラレータである。</p>
+<p><strong>■深圳とアメリカのベンチャー投資家HAX</strong></p>
+<p>これまでの産業集積により小規模製造業が集まっている深圳は、Bを安く・早く進めるために世界で最も向いた場所である。なのでHAXはここにラボをつくり、応募したベンチャーに対して111日間のプロトタイピング合宿を行い、アイデアを製品（の手前、クラウドファンディングに出せたり、投資家からさらなる投資を募れる段階）まで持っていく手助けをする。</p>
+<p>サンフランシスコで企業間提携やマーケティングのプログラムを行うなど、HAX内でもいくつかあるプログラムの一つである。</p>
+<p><strong>■DIYの可能性 （正解のある問題とない問題）</strong></p>
+<p>最高速度を上げる、コストを下げる、バッテリーの効率を上げるなどの「数値化できる性能」は現在のサイエンスの分野である。DIYやホビー出身の発明家がこの分野でできることは少ない。（巨大企業から研究者がスピンアウトした方がいい製品が出せる、などの形はあるし、別分野の技術の転用はありえる。統計やコンピュータサイエンスの技術を別の分野に応用するなど）</p>
+<p>一方、「面白い」「好ましい」などの価値を提供するものは既存のサイエンスの外側にあることが多く、たとえばゲームやユーザーインターフェースなどは学問分野としてもあるが、「いい大学を出ればいいゲームが作れる」というほどにはなっていない。この分野のイノベーションは「本人達が好きで始めたことが大きくなる」可能性が高く、プロトタイプがユーザに支持されて洗練されるような進化の仕方が向いていて、むしろ合議制で承認ベースで進めて最後に具現化する大組織的でビジネス的なやり方（ダムやビルをつくるようなやりかた）はうまく行かないことが多い。</p>
+<p>この「つくりたいものをつくることが、多くのユーザを巻き込んだコミュニティに支持されることにより、イノベーションにつながる」一連の流れを指してメイカームーブメントと呼ばれる。</p>
+<p><strong>■DIYの可能性 （プロトタイピング、コミュニティ）</strong></p>
+<p>短い文章でDIYの可能性を２回も書くのは、ここがもっとも大事だからだ。<br>
+合議制で承認ベースで進めて最後に具現化する大組織的でビジネス的なやり方（ダムやビルをつくるようなやりかた）を、ここでは「合理的なやり方」と呼ぼう。合理的なやり方は、「優秀な人なら誰がやっても同じ問題が出る問題」に向いている。このやり方だと「今市場が見えて、ヒットしている製品をちょっと改良するとか、安くする」みたいなものが多い。天動説と地動説のように、大きく世の中が変わるときは、いつも<strong>新しい意見の人はマイノリティ</strong>になる。ハズレを恐れるばかりに大当たりから最も遠い仕組みと言える。</p>
+<p>「自分がやりたいからやる」形の製品開発はその問題と無縁だ。<strong>その人以外誰もやりたいと思わなかったが、世間に出たら大当たりして、その後むしろ主流になった</strong>ようなストーリーはいっぱいある。そうしたアイデアはプランニングでは価値がわからないことが多くて、早く形にして実際に見せることが重要だ。プロトタイピングしてみることが重要だし、たとえば１００個でも作ってみて、使ってもらうことが重要だ。昔からテストマーケティングは行われていたが、今はコミュニティと一体となった製品開発とも言える。一体＝同じ事をする、というわけではなく、両方が揃う必要がある。<br>
+プロトタイピングの結果を自分と感覚が近いコミュニティが受け入れ、コミュニティがアーリーアダプターとなって、最終的には世界中が使うようなイノベーションは、iPhoneやFacebookなどいくらでもある。アーリーアダプター、コミュニティはは発明家と同じぐらい重要で、ないとイノベーションが生まれない。</p>
+<p>上と同じまとめを書く。<br>
+この「つくりたいものをつくることが、多くのユーザを巻き込んだコミュニティに支持されることにより、イノベーションにつながる」一連の流れを指してメイカームーブメントと呼ばれる。</p>
+<p><strong>■市場としてのメイカー</strong><br>
+最後に、今は小さいけどまったく新しい話として、市場としてのメイカーの話も少し書く。これまで書いてきたようなDIY出身の製品は、大メーカーのものに比べてコストも高いし品質も低く、サポートなど含めてそこまで売れるわけではない。今のところうまくいっているのは、3Dプリンタなどの工作機械やマイコンボードのような、「買う方もホビイスト」である製品だ。１０年前は無視できる市場だったが、今は大きくなってきていて、さらに世界のいろんな国の政府がSTEMと呼ばれるメイカー向け教育プログラムを導入しつつあることもあり、ますます大きくなりそうだし、メイカー向けのコミュニティスペースなどの関連産業も大きくなりそうだ。パーソナルコンピュータやスマートホンの例に漏れず、最初は趣味でも開発をするようなアーリーアダプターの間から普及する。結局年賀状の印刷ぐらいでしか使われなくなった家庭用のプリンタみたいにそのまま終わるのか、パーソナルコンピュータやスマートホンみたいに社会全体のインフラになり、社会を変えるまでそうしたものが普及するのかは、まだ誰にもわからないが、市場としてのメイカーも無視できない要素になってきている。</p>
+<p><strong>■参考リンク</strong></p>
+<p>アメリカ・オバマ前大統領のホワイトハウス・メイカーフェア（DIYの祭典）での挨拶</p>
+<p><a href="http://makezine.jp/blog/2014/06/the-presidents-address-at-the-white-house-maker-faire.html">http://makezine.jp/blog/2014/06/the-presidents-address-at-the-white-house-maker-faire.html</a></p>
+<p>→ここには、僕が書いてきたようなことと同様のことがアメリカの国策になっていること、「DIY、ホビー、コミュニティへの支援」を最重視しているのがわかる。だいじなのは、「DIYの普及が産業を生む」と本気で信じていることだ。僕宛に取材いただいたり、意見を求められるときに、その前提が共有できていることはほとんどない。みんな、プロをアマチュアの上位に置いている。<br>
+ もちろんそういう世界や視点もあるけど、それならHAXだのメイカーだのスタートアップだのでなく、別の方向を見ていく方がいいんじゃないかと思う。</p>
+<p>上記の構造と深圳の関係を詳述した書籍「メイカーズのエコシステム」</p>
+<p><a href="http://ch.nicovideo.jp/tks/blomaga/ar941066">http://ch.nicovideo.jp/tks/blomaga/ar941066</a></p>
+<p>→山形浩生（翻訳家、評論家）,江渡浩一郎（産総研、ニコニコ学会）などとともに、メイカーズと深圳が起こしているイノベーションをまとめました。</p>
+<p>深圳(深セン)のスタートアップ環境を見学して受けた衝撃について
+東工大長谷川先生のブログ</p>
+<p><a href="http://hasevr.hateblo.jp/entry/2016/05/04/220014">http://hasevr.hateblo.jp/entry/2016/05/04/220014<br>
+</a>{.markup&ndash;anchor
+.markup&ndash;p-anchor}
+大学の研究者から深圳の支援環境を見た場合の感想と問題意識</p>
+<p>ニコ技深圳観察会2016春に参加してきた 湯村さん（東芝出身で社会人博士）</p>
+<p><a href="http://yumulog.hatenablog.com/entry/2016/05/15/195608">http://yumulog.hatenablog.com/entry/2016/05/15/195608</a></p>
+<p>大企業、ベンチャー企業、社会人博士とさまざまな分野からの知見が見られる。「量産型イノベーション」という概念は面白い</p>
+<p>高須の原稿でHAXについて書いたもの</p>
+<p>中国・深圳を「ハードウエアスタートアップの聖地」に押し上げたHAXLR8R</p>
+<p><a href="http://type.jp/et/log/article/tks-11">http://type.jp/et/log/article/tks-11</a></p>
+<p>「Xiaomization（シャオミ化）」に抗え～コピー製品天国の中国で始まったHAXのモノづくり革命</p>
+<p><a href="http://type.jp/et/log/article/tks-12">http://type.jp/et/log/article/tks-12</a>
+:::
+:::
+:::
+:::</p>
+<p>By <a href="https://medium.com/@tks">TAKASU Masakazu/高須正和</a>{.p-author
+.h-card} on <a href="https://medium.com/p/31ab96ab4e2e">March 23, 2021</a>.</p>
+<p><a href="https://medium.com/@tks/20170317-31ab96ab4e2e">Canonical
+link</a>{.p-canonical}</p>
+<p>Exported from <a href="https://medium.com">Medium</a> on February 6, 2026.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Takasu Articles</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

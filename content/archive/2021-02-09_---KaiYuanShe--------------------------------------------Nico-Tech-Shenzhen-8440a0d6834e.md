@@ -1,5 +1,7 @@
 ---
 title: "   KaiYuanShe                                            Nico Tech Shenzhen"
+aliases: ["/2021/02/kaiyuanshe-nico-tech-shenzhen/"]
+slug: kaiyuanshe-nico-tech-shenzhen
 date: 2021-02-09
 ---
 

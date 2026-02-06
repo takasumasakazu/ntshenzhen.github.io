@@ -1,5 +1,7 @@
 ---
 title: "         14         AirPods         Oculus   TWS        RISC V                  "
+aliases: ["/2022/07/14-airpods-oculus-tws-risc-v/"]
+slug: 14-airpods-oculus-tws-risc-v
 date: 2022-07-18
 ---
 

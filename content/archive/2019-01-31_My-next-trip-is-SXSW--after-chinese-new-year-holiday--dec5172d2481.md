@@ -1,5 +1,7 @@
 ---
 title: "My next trip is SXSW  after chinese new year holiday "
+aliases: ["/2019/01/my-next-trip-is-sxsw-after-chinese-new-year-holiday/"]
+slug: my-next-trip-is-sxsw-after-chinese-new-year-holiday
 date: 2019-01-31
 ---
 

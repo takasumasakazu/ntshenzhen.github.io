@@ -1,5 +1,7 @@
 ---
 title: "I just arrived CES  Then to go BETT2020  354369c0a03"
+aliases: ["/2020/01/i-just-arrived-ces-then-to-go-bett2020-354369c0a03/"]
+slug: i-just-arrived-ces-then-to-go-bett2020-354369c0a03
 date: 2020-01-04
 ---
 

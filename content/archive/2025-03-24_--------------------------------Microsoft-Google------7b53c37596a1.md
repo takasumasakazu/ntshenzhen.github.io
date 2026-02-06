@@ -1,5 +1,7 @@
 ---
 title: "                                Microsoft Google     "
+aliases: ["/2025/03/microsoft-google/"]
+slug: microsoft-google
 date: 2025-03-24
 ---
 

@@ -2,3 +2,9 @@ baseURL = "http://localhost:1313/"
 title = "Takasu Articles"
 theme = "PaperMod"
 disableKinds = ["RSS"]
+[permalinks]
+  archive  = "/archive/:year/:month/:slug/"
+  teardown = "/teardown/:year/:month/:slug/"
+  shenzhen = "/shenzhen/:year/:month/:slug/"
+  fabcross = "/fabcross/:year/:month/:slug/"
+

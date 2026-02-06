@@ -1,5 +1,7 @@
 ---
 title: "Talk Asian Maker Faire at Maker Faire Tokyo 2015"
+aliases: ["/2015/08/talk-asian-maker-faire-at-maker-faire-tokyo-2015/"]
+slug: talk-asian-maker-faire-at-maker-faire-tokyo-2015
 date: 2015-08-06
 ---
 

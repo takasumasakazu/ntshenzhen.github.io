@@ -1,5 +1,7 @@
 ---
 title: "January 2018 Report  TAKASU Shenzhen High Tour "
+aliases: ["/2017/12/january-2018-report-takasu-shenzhen-high-tour/"]
+slug: january-2018-report-takasu-shenzhen-high-tour
 date: 2017-12-31
 ---
 

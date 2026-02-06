@@ -1,5 +1,7 @@
 ---
 title: "What we should do now  TAKASU   Nico Tech Shenzhen Community Monthly news March 2020 1f30405516c"
+aliases: ["/2020/03/what-we-should-do-now-takasu-nico-tech-shenzhen-community-monthly-news-march-2020-1f30405516c/"]
+slug: what-we-should-do-now-takasu-nico-tech-shenzhen-community-monthly-news-march-2020-1f30405516c
 date: 2020-03-31
 ---
 

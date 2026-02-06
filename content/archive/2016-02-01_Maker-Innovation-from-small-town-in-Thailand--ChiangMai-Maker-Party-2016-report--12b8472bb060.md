@@ -1,5 +1,7 @@
 ---
 title: "Maker Innovation from small town in Thailand  ChiangMai Maker Party 2016 report "
+aliases: ["/2016/02/maker-innovation-from-small-town-in-thailand-chiangmai-maker-party-2016-report/"]
+slug: maker-innovation-from-small-town-in-thailand-chiangmai-maker-party-2016-report
 date: 2016-02-01
 ---
 

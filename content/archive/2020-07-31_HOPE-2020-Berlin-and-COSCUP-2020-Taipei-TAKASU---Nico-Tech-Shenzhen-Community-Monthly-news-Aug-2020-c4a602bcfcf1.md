@@ -1,5 +1,7 @@
 ---
 title: "HOPE 2020 Berlin and COSCUP 2020 Taipei TAKASU   Nico Tech Shenzhen Community Monthly news Aug 2020"
+aliases: ["/2020/07/hope-2020-berlin-and-coscup-2020-taipei-takasu-nico-tech-shenzhen-community-monthly-news-aug-2020/"]
+slug: hope-2020-berlin-and-coscup-2020-taipei-takasu-nico-tech-shenzhen-community-monthly-news-aug-2020
 date: 2020-07-31
 ---
 

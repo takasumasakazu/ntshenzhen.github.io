@@ -1,5 +1,7 @@
 ---
 title: "Dance Party for Geeks at Maker Faire Shenzhen "
+aliases: ["/2015/07/dance-party-for-geeks-at-maker-faire-shenzhen/"]
+slug: dance-party-for-geeks-at-maker-faire-shenzhen
 date: 2015-07-04
 ---
 

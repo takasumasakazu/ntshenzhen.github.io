@@ -1,12 +1,9 @@
 ---
-title: "Forum Making in Education MakerFaire Singapore 2015"
+title: 'Forum:Making in Education MakerFaire Singapore 2015'
 aliases: ["/2015/07/forum-making-in-education-makerfaire-singapore-2015/"]
 slug: forum-making-in-education-makerfaire-singapore-2015
 date: 2015-07-17
 ---
-
-Forum:Making in Education MakerFaire Singapore 2015 {#forummaking-in-education-makerfaire-singapore-2015 .p-name}
-===================================================
 
 Speakers: Sonak Anshul, Intel Mobile Telecommunications Dale Dougherty,
 CEO, Maker Media Saminathan Gopal, Pricipal, STEM Inc Erik...
@@ -103,6 +100,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [July 17, 2015](https://medium.com/p/7dde954a7961).
 
 [Canonical
-link](https://medium.com/@tks/forum-making-in-education-makerfaire-singapore-2015-7dde954a7961){.p-canonical}
-
+link](https://medium.com/@tks/forum-making-in-education-makerfaire-singapore-2015-7dde954a7961)
 Exported from [Medium](https://medium.com) on February 6, 2026.

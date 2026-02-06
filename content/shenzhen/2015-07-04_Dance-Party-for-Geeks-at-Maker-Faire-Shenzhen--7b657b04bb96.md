@@ -1,19 +1,16 @@
 ---
-title: "Dance Party for Geeks at Maker Faire Shenzhen "
+title: 'Dance Party for Geeks at Maker Faire Shenzhen!'
 aliases: ["/2015/07/dance-party-for-geeks-at-maker-faire-shenzhen/"]
 slug: dance-party-for-geeks-at-maker-faire-shenzhen
 date: 2015-07-04
 ---
-
-Dance Party for Geeks at Maker Faire Shenzhen! {#dance-party-for-geeks-at-maker-faire-shenzhen .p-name}
-==============================================
 
 https://www.youtube.com/watch?v=i85y0PRhwng
 
 
 ------------------------------------------------------------------------
 
-Dance Party for Geeks at Maker Faire Shenzhen! {#6cd4 .graf .graf--h2 .graf--leading .graf--title name="6cd4"}
+Dance Party for Geeks at Maker Faire Shenzhen!
 ----------------------------------------------
 
 <https://www.youtube.com/watch?v=i85y0PRhwng>
@@ -45,6 +42,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [July 4, 2015](https://medium.com/p/7b657b04bb96).
 
 [Canonical
-link](https://medium.com/@tks/https-www-youtube-com-watch-v-i85y0prhwng-7b657b04bb96){.p-canonical}
-
+link](https://medium.com/@tks/https-www-youtube-com-watch-v-i85y0prhwng-7b657b04bb96)
 Exported from [Medium](https://medium.com) on February 6, 2026.

@@ -1,5 +1,5 @@
 ---
-title: "QuickStarter  More inde hardware in Kickstarter  TAKASU   Nico Tech Shenzhen Community Monthly news"
+title: 'QuickStarter! More inde hardware in Kickstarter. TAKASU & Nico-Tech Shenzhen Community Monthly news'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*YGZLVFpaXYHBdgglk1uVnA.jpeg"
   relative: false
@@ -7,9 +7,6 @@ aliases: ["/2018/05/quickstarter-more-inde-hardware-in-kickstarter-takasu-nico-t
 slug: quickstarter-more-inde-hardware-in-kickstarter-takasu-nico-tech-shenzhen-community-monthly-news
 date: 2018-05-31
 ---
-
-QuickStarter! More inde hardware in Kickstarter. TAKASU & Nico-Tech Shenzhen Community Monthly news {#quickstarter-more-inde-hardware-in-kickstarter.-takasu-nico-tech-shenzhen-community-monthly-news .p-name}
-===================================================================================================
 
 Great days in MFBA, I so satisfied that. I want to tell the good news
 about crowdfunding, called Quickstarter.
@@ -21,9 +18,7 @@ Indie, Hobby project!
 
 ------------------------------------------------------------------------
 
-### QuickStarter! More inde hardware in Kickstarter. TAKASU & Nico-Tech Shenzhen Community Monthly news June/2018 {#7d3a .graf .graf--h3 .graf--leading .graf--title name="7d3a"}
-
-![](https://cdn-images-1.medium.com/max/800/1*YGZLVFpaXYHBdgglk1uVnA.jpeg)
+### QuickStarter! More inde hardware in Kickstarter. TAKASU & Nico-Tech Shenzhen Community Monthly news June/2018
 
 Great days in MFBA, I so satisfied that. I want to tell the good news
 about crowdfunding, called Quickstarter.
@@ -47,9 +42,7 @@ performance video)**\
 *AkiParty --- Dance Party for the Geeks, by the Geeks, of the Geeks.That
 starts from 2014 in Akihabara, Tokyo, and
 grown...*medium.com](https://medium.com/shenzhen-high-tour-by-makers/akiparty-2016-tokyo-fantastic-dance-party-for-geeks-90fec8443c25 "https://medium.com/shenzhen-high-tour-by-makers/akiparty-2016-tokyo-fantastic-dance-party-for-geeks-90fec8443c25"){.markup--anchor
-.markup--mixtapeEmbed-anchor}[](https://medium.com/shenzhen-high-tour-by-makers/akiparty-2016-tokyo-fantastic-dance-party-for-geeks-90fec8443c25){.js-mixtapeImage
-.mixtapeImage .u-ignoreBlock}
-
+.markup--mixtapeEmbed-anchor}[](https://medium.com/shenzhen-high-tour-by-makers/akiparty-2016-tokyo-fantastic-dance-party-for-geeks-90fec8443c25)
 I had a good time in Maker Faire Bay Area and Shenzhen.
 
 Next My Trip
@@ -82,6 +75,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [May 31, 2018](https://medium.com/p/770231c2d57b).
 
 [Canonical
-link](https://medium.com/@tks/201806-770231c2d57b){.p-canonical}
-
+link](https://medium.com/@tks/201806-770231c2d57b)
 Exported from [Medium](https://medium.com) on February 6, 2026.

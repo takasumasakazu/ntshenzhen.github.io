@@ -1,5 +1,5 @@
 ---
-title: "5 24  14 00        AI              SUMIDA INNOVATION CORE SIC "
+title: '5月24日 14:00- 深圳-日本 AI産業連携イベント開催：墨田区SUMIDA INNOVATION CORE（SIC）'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*K3WakdlS1I9HKI1Qt4VAsw.jpeg"
   relative: false
@@ -8,27 +8,19 @@ slug: 5-24-14-00-ai-sumida-innovation-core-sic
 date: 2024-04-30
 ---
 
-5月24日 14:00- 深圳-日本 AI産業連携イベント開催：墨田区SUMIDA INNOVATION CORE（SIC） {#月24日-1400--深圳-日本-ai産業連携イベント開催墨田区sumida-innovation-coresic .p-name}
-====================================================================================
-
 ニコ技深圳と協力しているiMakerbaseの主催で、墨田区産業共創施設SUMIDA
 INNOVATION
 CORE（SIC）にてイベントを行います。受付フォーム公開中です。ぜひご興味ある方来場お願いします。
 
 
 ------------------------------------------------------------------------
-
-### 5月24日 14:00- 深圳-日本 AI産業連携イベント開催：墨田区SUMIDA INNOVATION CORE（SIC） {#4727 .graf .graf--h3 .graf--leading .graf--title name="4727"}
-
 ニコ技深圳と協力しているiMakerbaseの主催で、墨田区産業共創施設SUMIDA
 INNOVATION
 CORE（SIC）にてイベントを行います。[受付フォーム](https://wj.qq.com/s2/14514738/nu64/){.markup--anchor
 .markup--p-anchor}公開中です。ぜひご興味ある方来場お願いします。
 
-![](https://cdn-images-1.medium.com/max/800/1*K3WakdlS1I9HKI1Qt4VAsw.jpeg)
 
-### **2024中国（深圳）-日本（東京）人工知能産業連携交流会及び深圳市人材政策説明会 イベント概要** {#4cd7 .graf .graf--h3 .graf-after--figure name="4cd7"}
-
+### **2024中国（深圳）-日本（東京）人工知能産業連携交流会及び深圳市人材政策説明会 イベント概要**
 中日間新技術の交流と協力を進めるため、中国国際貿易促進委員会深圳市委員会はiMakerbase国際ハードウェアアクセラレーター、深圳市人工知能産業協会と提携し、2024年5月24日東京で中日人工知能産業連携交流会を開催し、当日、18社の深圳人工知能関連会社は参加します。
 
 皆様のご来場心よりお待ちしています！
@@ -66,16 +58,14 @@ SUMIDA INNOVATION CORE（SIC）
 
 17:45--17:30 フリートーク
 
-### **参加申込フォーム** {#d1dd .graf .graf--h3 .graf-after--p name="d1dd"}
-
+### **参加申込フォーム**
 ![](https://cdn-images-1.medium.com/max/800/1*F0sX700BohY80X37eX_f8w.png)
 
 **参加申込み：**
 
 <https://wj.qq.com/s2/14514738/nu64/>
 
-### **参加企業リスト** {#c058 .graf .graf--h3 .graf-after--p name="c058"}
-
+### **参加企業リスト**
 1、深圳市貿易促進委員会
 
 深セン市政府の公共サービス机関として、国際経済貿易交流、国際展示、国際貿易投資情報、海外での経済貿易研修、海外での経済貿易紛争解決、法律コンサルティングなどの方面で国内外の企業にサービスを提供し、国際経済貿易協力を促進し、深センのビジネス環境を宣伝します。
@@ -86,9 +76,7 @@ SUMIDA INNOVATION CORE（SIC）
 
 iMakerbaseは「深セン十大海外イノベーションセンター」「深セン十大創新創業模範基地」と認定された唯一の国際アクセラレーターで、「国際協同インキュベーションにより、全世界のハードウェアスタートアップチームがアイデアから製品、そして製品から市場へと迅速かつ効率的に移行できるよう支援すること」を目的とした世界をリードするハードサイエンスイノベーションインキュベーションプラットフォームです。
 
-[www.imakerbase.com](http://www.imakerbase.com){.markup--anchor
-.markup--p-anchor}
-
+[www.imakerbase.com](http://www.imakerbase.com)
 3、深圳市人工智能産業協会
 
 深圳市人工智能産業協会は人工智能産業の研究開発、設計、製造、販売、応用に従事する会社、投資机関、科学研究机関、大学からなっています。協会には467人の人工知能産業専門家、268人の人工知能学術専門家が集まり、700社以上の会員企業を擁しています。そのうち上場企業13社、新規専門企業130社、小巨人企業42社が含まれています。<https://www.szaicx.com/>
@@ -105,17 +93,13 @@ Orbbecは、ロボットビジョンとAIビジョンの業界をリードする
 AIビジョン解決策を提供し、伝統業界のスマート化アップグレードを推進します。Orbbecは世界中の1000社以上の顧客と開発者に「R&D
 +製造」のワンストップ製品とサービスを提供しました、中でもロボットビジョン事業は中国のサービスロボット市場で70%以上のシェアを占めています。2022年に会社は上場しました。
 
-[www.orbbec.com.cn](http://www.orbbec.com.cn){.markup--anchor
-.markup--p-anchor}
-
+[www.orbbec.com.cn](http://www.orbbec.com.cn)
 6、影石創新科技股份有限公司（Insta 360）
 
 Insta360
 は、プロ向けVRパノラマカメラ、アクションカメラ、コンシューマーパノラマカメラを研究開発・販売している。世界トップのパノラマ画像ブランドです、2023年まで360°カメラの世界シェアが50%を超えました。
 
-[www.insta360.com](http://www.insta360.com){.markup--anchor
-.markup--p-anchor}
-
+[www.insta360.com](http://www.insta360.com)
 7、深圳市普渡科技有限公司（Pudu Robotics）
 
 Pudu
@@ -163,9 +147,7 @@ TECHNOLOGY](https://www.company.gnaiot.com/){.markup--anchor
 RONTEX
 TECHNOLOGYは、急速に成長しているAIoTソリューション会社と製品サプライヤーであり、IoT通信と人工知能技術を中心に工業製品とソリューションを開発し、世界中の販売店を通じて展開しています。
 
-[www.company.gnaiot.com](http://www.company.gnaiot.com){.markup--anchor
-.markup--p-anchor}
-
+[www.company.gnaiot.com](http://www.company.gnaiot.com)
 14、深圳市金裕环球实业有限公司（Jinyu Global）
 
 Jinyu
@@ -199,13 +181,10 @@ Intelligentは低速無人運転ソリューションプロバイダーです。
 NS
 Displayは上場した会社世紀瑞爾の新規事業子会社です。AIGCデジタル経済の最前線に力を入れて、人工知能、ホログラムライト・フィールド、反射透明スクリーン、空中結像、技術とAIモデル訓練を統合して、AIホログラムデジタル人間シリーズ製品を出しました。当社製品AI-holoboxは2024年にKickstarterで初公開され、アメリカCES、香港電子展覧会、広州交易会で高い注目と称賛を集めました。
 
-[www.nsdisplay.com](http://www.nsdisplay.com){.markup--anchor
-.markup--p-anchor}
-
+[www.nsdisplay.com](http://www.nsdisplay.com)
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [April 30, 2024](https://medium.com/p/cfbca4d0b08e).
 
 [Canonical
-link](https://medium.com/@tks/5%E6%9C%8824%E6%97%A5-%E6%B7%B1%E5%9C%B3-%E6%97%A5%E6%9C%AC-ai%E7%94%A3%E6%A5%AD%E9%80%A3%E6%90%BA%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E9%96%8B%E5%82%AC-%E5%A2%A8%E7%94%B0%E5%8C%BA%E3%81%AB%E3%81%A6-cfbca4d0b08e){.p-canonical}
-
+link](https://medium.com/@tks/5%E6%9C%8824%E6%97%A5-%E6%B7%B1%E5%9C%B3-%E6%97%A5%E6%9C%AC-ai%E7%94%A3%E6%A5%AD%E9%80%A3%E6%90%BA%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E9%96%8B%E5%82%AC-%E5%A2%A8%E7%94%B0%E5%8C%BA%E3%81%AB%E3%81%A6-cfbca4d0b08e)
 Exported from [Medium](https://medium.com) on February 6, 2026.

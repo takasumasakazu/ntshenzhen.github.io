@@ -1,5 +1,5 @@
 ---
-title: "Why DIY popular music cause creative ecosystem in Japan "
+title: 'Why DIY popular music cause creative ecosystem in Japan?'
 cover:
   image: "http://www.vocaloid.com/en/"
   relative: false
@@ -8,17 +8,13 @@ slug: why-diy-popular-music-cause-creative-ecosystem-in-japan
 date: 2016-03-04
 ---
 
-Why DIY popular music cause creative ecosystem in Japan? {#why-diy-popular-music-cause-creative-ecosystem-in-japan .p-name}
-========================================================
-
 Voice Synthesizer called Vocaloid is famous software technology. For
 represented example HATSUNE MIKU, that software made Google theme...
 
 
 ------------------------------------------------------------------------
 
-### Why DIY popular music cause creative ecosystem in Japan? {#b29d .graf .graf--h3 .graf--leading .graf--title name="b29d"}
-
+### Why DIY popular music cause creative ecosystem in Japan?
 ![[Vocaloid](http://www.vocaloid.com/en/){.markup--anchor
 .markup--figure-anchor} software
 by YAMAHA.](https://cdn-images-1.medium.com/max/800/1*rCv-lxLY--SR7iz4SNODPQ.png)
@@ -46,8 +42,7 @@ culture as open source community.\
 appears in the Japanese video sharing service?\
 **This essay will try to express that.
 
-#### What is DIY popular music? Why Vocaloid software is important? {#9e84 .graf .graf--h4 .graf-after--p name="9e84"}
-
+#### What is DIY popular music? Why Vocaloid software is important?
 Computer music by amateur musician and the hobbyist is not new things,
 you can see hobby computer music history before 1990. \
 But typical computer musics before the Vocaloild, these songs are
@@ -70,8 +65,7 @@ such as a drawer, Movie makers, bloggers. Finally, The song makers and
 other creators start collaboration for making movie clip together. That
 is an ecosystem.
 
-#### What is Ecosystem? Why an Ecosystem is important? {#d389 .graf .graf--h4 .graf-after--p name="d389"}
-
+#### What is Ecosystem? Why an Ecosystem is important?
 That movie structure includes beautiful movie, picture and appearance.
 These things by DIY but not only track maker, collaboration by three
 different people. Produced and music by KUROUSA-P, Illustrated by
@@ -94,8 +88,7 @@ for the original Vocaloid character. Then, HATSUNE MIKU getting a lot of
 stories of the songs and pictures, start from only one picture, by
 **collaborative creation**.
 
-#### Collaborative creation {#ead6 .graf .graf--h4 .graf-after--p name="ead6"}
-
+#### Collaborative creation
 **Music select system of democratic collaboration.**\
 Notable Vocaloid songs are almost 1500 songs in video sharing service.
 These are chosen from so many (uncountable) DIY computer music by the
@@ -147,8 +140,7 @@ personality didn't monopoly by anybody, every creator has own Singer.
 Vocaloid has both of apparently contradictory, they have shared
 personality.
 
-#### Open collaboration ecosystem. {#6372 .graf .graf--h4 .graf-after--p name="6372"}
-
+#### Open collaboration ecosystem.
 In conclusion, the people surrounding Vocaloid are making ecosystem.
 They helped each other for growing ecosystem. Additionally centre of
 ecosystem in attractive personality of Vocalid, that is not only
@@ -163,6 +155,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 4, 2016](https://medium.com/p/16c4b0e2a23b).
 
 [Canonical
-link](https://medium.com/@tks/why-diy-popular-music-ecosystem-born-in-japan-16c4b0e2a23b){.p-canonical}
-
+link](https://medium.com/@tks/why-diy-popular-music-ecosystem-born-in-japan-16c4b0e2a23b)
 Exported from [Medium](https://medium.com) on February 6, 2026.

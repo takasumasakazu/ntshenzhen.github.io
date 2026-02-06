@@ -1,5 +1,5 @@
 ---
-title: "HOPE 2020 Berlin and COSCUP 2020 Taipei TAKASU   Nico Tech Shenzhen Community Monthly news Aug 2020"
+title: 'HOPE 2020 Berlin and COSCUP 2020 Taipei TAKASU & Nico-Tech Shenzhen Community Monthly news Aug/2020'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*iIX3OJTYblxFoybU6uy8gQ.jpeg"
   relative: false
@@ -8,17 +8,13 @@ slug: hope-2020-berlin-and-coscup-2020-taipei-takasu-nico-tech-shenzhen-communit
 date: 2020-07-31
 ---
 
-HOPE 2020 Berlin and COSCUP 2020 Taipei TAKASU & Nico-Tech Shenzhen Community Monthly news Aug/2020 {#hope-2020-berlin-and-coscup-2020-taipei-takasu-nico-tech-shenzhen-community-monthly-news-aug2020 .p-name}
-===================================================================================================
-
 I did two online talk in this week, HOPE 2020 Berlin and COSCUP 2020
 Taipei.
 
 
 ------------------------------------------------------------------------
 
-### HOPE 2020 Berlin and COSCUP 2020 Taipei TAKASU & Nico-Tech Shenzhen Community Monthly news Aug/2020 {#b284 .graf .graf--h3 .graf--leading .graf--title name="b284"}
-
+### HOPE 2020 Berlin and COSCUP 2020 Taipei TAKASU & Nico-Tech Shenzhen Community Monthly news Aug/2020
 I did two online talk in this week, HOPE 2020 Berlin and COSCUP 2020
 Taipei.
 
@@ -34,7 +30,6 @@ Event\
 Our talk detail (Probably they will upload recorded video)\
 <https://scheduler.hope.net/hope2020/talk/KP9ZUV/>
 
-![](https://cdn-images-1.medium.com/max/800/1*iIX3OJTYblxFoybU6uy8gQ.jpeg)
 
 The other one, COSCUP 2020 is an Open Source conference in Taipei. That
 conference is on the site, but almost all foreigners can\`t join that
@@ -79,6 +74,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [July 31, 2020](https://medium.com/p/c4a602bcfcf1).
 
 [Canonical
-link](https://medium.com/@tks/202008-c4a602bcfcf1){.p-canonical}
-
+link](https://medium.com/@tks/202008-c4a602bcfcf1)
 Exported from [Medium](https://medium.com) on February 6, 2026.

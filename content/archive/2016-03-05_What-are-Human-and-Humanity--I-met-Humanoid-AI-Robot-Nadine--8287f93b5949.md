@@ -1,5 +1,5 @@
 ---
-title: "What are Human and Humanity  I met Humanoid AI Robot Nadine "
+title: 'What are Human and Humanity? I met Humanoid AI Robot Nadine.'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*3A8-SZs7QMsaBnv_v9WQAw.jpeg"
   relative: false
@@ -8,17 +8,13 @@ slug: what-are-human-and-humanity-i-met-humanoid-ai-robot-nadine
 date: 2016-03-05
 ---
 
-What are Human and Humanity? I met Humanoid AI Robot Nadine. {#what-are-human-and-humanity-i-met-humanoid-ai-robot-nadine. .p-name}
-============================================================
-
 I met Humanoid robot called Nadine. That is research project by Prof
 Nadia at Instutitute for Media Innovation, Nanyang Technology...
 
 
 ------------------------------------------------------------------------
 
-### What are Human and Humanity? I met Humanoid AI Robot Nadine. {#411b .graf .graf--h3 .graf--leading .graf--title name="411b"}
-
+### What are Human and Humanity? I met Humanoid AI Robot Nadine.
 I met Humanoid robot called Nadine. That is research project by Prof
 Nadia at [Instutitute for Media
 Innovation](http://imi.ntu.edu.sg/AboutIMI/Pages/vision.aspx){.markup--anchor
@@ -69,6 +65,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 5, 2016](https://medium.com/p/8287f93b5949).
 
 [Canonical
-link](https://medium.com/@tks/what-are-human-and-humanity-i-met-humanoid-ai-robot-nadine-8287f93b5949){.p-canonical}
-
+link](https://medium.com/@tks/what-are-human-and-humanity-i-met-humanoid-ai-robot-nadine-8287f93b5949)
 Exported from [Medium](https://medium.com) on February 6, 2026.

@@ -1,5 +1,5 @@
 ---
-title: "Shenzhen High Tour 18 21 Mar application started             2018 3           "
+title: 'Shenzhen High Tour 18--21/Mar application started 次回のニコ技深圳観察会（2018年3月）募集開始しました。'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*Ahk9CWmf8NAUrlOeF_epcw.jpeg"
   relative: false
@@ -8,9 +8,6 @@ slug: shenzhen-high-tour-18-21-mar-application-started-2018-3
 date: 2018-01-13
 ---
 
-Shenzhen High Tour 18--21/Mar application started 次回のニコ技深圳観察会（2018年3月）募集開始しました。 {#shenzhen-high-tour-1821mar-application-started-次回のニコ技深圳観察会2018年3月募集開始しました .p-name}
-=======================================================================================================
-
 2018/3/18--21で予定しているニコ技深圳観察会と、次回の申し込みフローについての説明
 
 ※この観察会は、「
@@ -18,10 +15,6 @@ Shenzhen High Tour 18--21/Mar application started 次回のニコ技深圳観察
 
 
 ------------------------------------------------------------------------
-
-### Shenzhen High Tour 18--21/Mar application started 次回のニコ技深圳観察会（2018年3月）募集開始しました。 {#9c41 .graf .graf--h3 .graf--leading .graf--title name="9c41"}
-
-![第7回（2017年4月）の様子](https://cdn-images-1.medium.com/max/800/1*Ahk9CWmf8NAUrlOeF_epcw.jpeg)
 
 **■2月4日追記：\
 申込受付は終了しました。\
@@ -80,9 +73,7 @@ Payの有効化方法](http://shao.hateblo.jp/entry/wechat-pay-for-japanese){.ma
 (NextPublishing)**\
 *Amazonで藤岡
 淳一の{ProductTitle}。アマゾンならポイント還元本が多数。一度購入いただいた電子書籍は、KindleおよびFire端末、スマートフォンやタブレットなど、様々な端末でもお楽しみいただけます。*www.amazon.co.jp](http://www.amazon.co.jp/exec/obidos/ASIN/B077HX882D/hirayasutakas-22/ref=nosim/ "http://www.amazon.co.jp/exec/obidos/ASIN/B077HX882D/hirayasutakas-22/ref=nosim/"){.markup--anchor
-.markup--mixtapeEmbed-anchor}[](http://www.amazon.co.jp/exec/obidos/ASIN/B077HX882D/hirayasutakas-22/ref=nosim/){.js-mixtapeImage
-.mixtapeImage .u-ignoreBlock}
-
+.markup--mixtapeEmbed-anchor}[](http://www.amazon.co.jp/exec/obidos/ASIN/B077HX882D/hirayasutakas-22/ref=nosim/)
 **■次回の申し込みフロー**\
 観察会の最大の価値は、参加者がシェアする情報です。まったく同じ事が書いてあっても、「どういう人がどう感じたか」がそこに書いてあることは意味があります。\
 なので、これまでも「参加後にブログを書いてシェアすること」を条件にしていましたが、ブログ率は6割程度でした。その後特に**成果でてない人や深圳で失敗した人（ダメな製造サポートに引っかかったとか）は例外なくブログ書いてない人**、上司を連れて参加して自分の会社に部署を作るのに成功した人（「メイカーズのエコシステム」の、RICOHつくるーむの章を参照）やその後も関係を持ち続けてる人は例外なくブログ書いてる人なので、今回は申し込みフローを変更します。
@@ -95,8 +86,7 @@ Payの有効化方法](http://shao.hateblo.jp/entry/wechat-pay-for-japanese){.ma
 --- 自己紹介※必須\
  --- 何やってお金を稼いでるか※必須\
  --- 好きで作ったもの、好きでやってること※必須（お金稼いでることとイコールでもいいです）\
- --- [ハードウェアのシリコンバレー深圳に学ぶ](http://www.amazon.co.jp/exec/obidos/ASIN/B077HX882D/hirayasutakas-22/ref=nosim/){.markup--anchor
-.markup--p-anchor}
+ --- [ハードウェアのシリコンバレー深圳に学ぶ](http://www.amazon.co.jp/exec/obidos/ASIN/B077HX882D/hirayasutakas-22/ref=nosim/)
 および[メイカーズのエコシステム](http://www.amazon.co.jp/exec/obidos/ASIN/B01AXRCDTU/amazletjp-22/ref=nosim/){.markup--anchor
 .markup--p-anchor}感想
 ※必須。無理に褒めなくていいです。本の内容を理解いただいて、体験でそれを越えていくためです。
@@ -108,13 +98,10 @@ Payの有効化方法](http://shao.hateblo.jp/entry/wechat-pay-for-japanese){.ma
 Books（NextPublishing）)**\
 *Amazonで高須
 正和の{ProductTitle}。アマゾンならポイント還元本が多数。一度購入いただいた電子書籍は、KindleおよびFire端末、スマートフォンやタブレットなど、様々な端末でもお楽しみいただけます。*www.amazon.co.jp](http://www.amazon.co.jp/exec/obidos/ASIN/B01AXRCDTU/amazletjp-22/ref=nosim/ "http://www.amazon.co.jp/exec/obidos/ASIN/B01AXRCDTU/amazletjp-22/ref=nosim/"){.markup--anchor
-.markup--mixtapeEmbed-anchor}[](http://www.amazon.co.jp/exec/obidos/ASIN/B01AXRCDTU/amazletjp-22/ref=nosim/){.js-mixtapeImage
-.mixtapeImage .u-ignoreBlock}
-
+.markup--mixtapeEmbed-anchor}[](http://www.amazon.co.jp/exec/obidos/ASIN/B01AXRCDTU/amazletjp-22/ref=nosim/)
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [January 13, 2018](https://medium.com/p/c7620d107398).
 
 [Canonical
-link](https://medium.com/@tks/hightour201803-c7620d107398){.p-canonical}
-
+link](https://medium.com/@tks/hightour201803-c7620d107398)
 Exported from [Medium](https://medium.com) on February 6, 2026.

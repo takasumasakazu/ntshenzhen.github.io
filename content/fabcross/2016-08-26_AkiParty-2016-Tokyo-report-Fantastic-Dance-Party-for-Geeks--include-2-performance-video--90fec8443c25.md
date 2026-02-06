@@ -1,5 +1,5 @@
 ---
-title: "AkiParty 2016 Tokyo report Fantastic Dance Party for Geeks  include 2 performance video "
+title: 'AkiParty 2016 Tokyo report-Fantastic Dance Party for Geeks (include 2 performance video)'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*W_eHj9qy3vUKBTxuChSW9A.jpeg"
   relative: false
@@ -8,17 +8,11 @@ slug: akiparty-2016-tokyo-report-fantastic-dance-party-for-geeks-include-2-perfo
 date: 2016-08-26
 ---
 
-AkiParty 2016 Tokyo report-Fantastic Dance Party for Geeks (include 2 performance video) {#akiparty-2016-tokyo-report-fantastic-dance-party-for-geeks-include-2-performance-video .p-name}
-========================================================================================
-
 AkiParty --- Dance Party for the Geeks, by the Geeks, of the Geeks.That
 starts from 2014 in Akihabara, Tokyo, and grown in Shenzhen. Then...
 
 
 ------------------------------------------------------------------------
-
-### AkiParty 2016 Tokyo report-Fantastic Dance Party for Geeks (include 2 performance video) {#9f54 .graf .graf--h3 .graf--leading .graf--title name="9f54"}
-
 ![AkiParty --- Dance Party for the Geeks, by the Geeks, of the Geeks
 (Photo by
 Akira Kumagai)](https://cdn-images-1.medium.com/max/800/1*W_eHj9qy3vUKBTxuChSW9A.jpeg)
@@ -29,9 +23,7 @@ Geeks](https://www.facebook.com/Akiparty4Geeks/){.markup--anchor
 in Shenzhen.\
 Then, AkiParty be an official party at Maker Faire Shenzhen 2015.\
 Official Facebook Page:[AkiParty --- Dance Party for the
-Geeks](https://www.facebook.com/Akiparty4Geeks/){.markup--anchor
-.markup--p-anchor}
-
+Geeks](https://www.facebook.com/Akiparty4Geeks/)
 Akimake Party Shenzhen MakerFaire 2015 from stage! You can see some
 famous Makers, such as Eric Pan, Kevin Lau, Meiwa Denki, Massimo Benzi
 and Tom Igoe. (but this video's taken by Smartphone, bad quality sound)
@@ -94,6 +86,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [August 26, 2016](https://medium.com/p/90fec8443c25).
 
 [Canonical
-link](https://medium.com/@tks/akiparty-2016-tokyo-fantastic-dance-party-for-geeks-90fec8443c25){.p-canonical}
-
+link](https://medium.com/@tks/akiparty-2016-tokyo-fantastic-dance-party-for-geeks-90fec8443c25)
 Exported from [Medium](https://medium.com) on February 6, 2026.

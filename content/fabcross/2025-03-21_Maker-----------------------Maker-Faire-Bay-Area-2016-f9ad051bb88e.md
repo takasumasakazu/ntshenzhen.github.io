@@ -1,5 +1,5 @@
 ---
-title: "Maker                       Maker Faire Bay Area 2016"
+title: 'Makerマインドの原点と最新形がここにある 世界最大のMaker Faire Bay Area 2016'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*57DHFJsuq-wDk9Uh3Ga-Qw.jpeg"
   relative: false
@@ -8,19 +8,13 @@ slug: maker-maker-faire-bay-area-2016
 date: 2025-03-21
 ---
 
-Makerマインドの原点と最新形がここにある 世界最大のMaker Faire Bay Area 2016 {#makerマインドの原点と最新形がここにある-世界最大のmaker-faire-bay-area-2016 .p-name}
-===========================================================================
-
 2016/08/04 08:00
 
 
 ------------------------------------------------------------------------
 
-### Makerマインドの原点と最新形がここにある 世界最大のMaker Faire Bay Area 2016 {#e77e .graf .graf--h3 .graf--leading .graf--title name="e77e"}
-
+### Makerマインドの原点と最新形がここにある 世界最大のMaker Faire Bay Area 2016
 2016/08/04 08:00
-
-![](https://cdn-images-1.medium.com/max/800/1*57DHFJsuq-wDk9Uh3Ga-Qw.jpeg)
 
 
 ------------------------------------------------------------------------
@@ -34,8 +28,7 @@ Faireをレポートする。
 
 ------------------------------------------------------------------------
 
-### Maker Faireの原点であるDIYマインド {#342c .graf .graf--h3 .graf--leading name="342c"}
-
+### Maker Faireの原点であるDIYマインド
 Makerムーブメントがここまで注目され、連日ニュースを賑わすようになったのは、急成長するハードウェアの新興企業、スタートアップが続々生まれるようになってからだ。ただ、11年前にベイエリアで最初のMaker
 Faireが開かれたとき、そこにスタートアップの姿はほとんどなかった。
 
@@ -72,8 +65,7 @@ Faireでは目立たないものだ。
 ![金属製のスカルと筐体にピンクのリボン。アメリカのMaker
 Faireでしか見られないこのロボットは、ブースを持たず場内を走り回っていた。](https://cdn-images-1.medium.com/max/800/1*I--CwG2K9ZzeYLEDNDr2GA.jpeg)
 
-### Makerのためのスタートアップ、工作機械 {#e656 .graf .graf--h3 .graf-after--figure name="e656"}
-
+### Makerのためのスタートアップ、工作機械
 もちろん多くのスタートアップがブースを構えている。特徴的なのは消費者家電ではない、工作機械のスタートアップが多く出展されていることだ。
 
 世界のMakerシーンはますます拡大していて、アメリカはその先頭に立っている。Makerの数が増えるにつれて、以前なら買い手の数が少なすぎてビジネスに乗らなかったようなものがスタートアップの対象になりつつある。今や家電量販店にも並ぶようになった3Dプリンタはその好例だ。Maker
@@ -84,8 +76,7 @@ Faireだけに、コンシューマエレクトロニクスよりも工作機械
 
 ![木材、アルミなどの削り出しを行うCNCルーターも会場内でデモされ、ウクレレのボディを次々に削り出していた。](https://cdn-images-1.medium.com/max/800/1*pV0dfeYWjJQ2_FQgVwxH0w.jpeg)
 
-### 拡大するMakerシーンが生み出す、Makerのためのサービス業 {#5447 .graf .graf--h3 .graf-after--figure name="5447"}
-
+### 拡大するMakerシーンが生み出す、Makerのためのサービス業
 上記のようなMaker向けツールを開発／販売する形でのエコシステムへの関わり方もあれば、Maker向けのサービス業を手がける形もある。
 
 こちらFabcrossでも紹介したSeeedは、さらにブースを拡大して出展。Seeedは中国への渡航はビザが必要になって難しいアメリカ人向けに、サンフランシスコにも拠点を置いている。
@@ -111,8 +102,7 @@ Hooiも出展。ほかにもArduino互換ボードは数十社集まって一つ
 ![コンピュータ歴史博物館は、初期のパーソナルコンピュータをレストアして展示していた。テクノロジー、DIYの歴史がMaker
 Faireにみごとに合流している。](https://cdn-images-1.medium.com/max/800/1*xdqY1JjLDoDu0-qdaTzh2A.jpeg)
 
-### 次世代のMakerを生み出すMaker教育 {#901f .graf .graf--h3 .graf-after--figure name="901f"}
-
+### 次世代のMakerを生み出すMaker教育
 ![Maker
 Educationパビリオンの混雑ぶり。](https://cdn-images-1.medium.com/max/800/1*BfiBfjsCfNUFS8QHmQtU6w.jpeg)
 
@@ -129,8 +119,7 @@ ROBOTICS](http://www.barnabasrobotics.com/){.markup--anchor
 
 ![教育パビリオンではないが、科学者に直接質問できるブース。](https://cdn-images-1.medium.com/max/800/1*3Ff6ZuSSBBDCDfevVyZnSw.jpeg)
 
-### 拡大しつつあるDIYの全てがここにある {#81fc .graf .graf--h3 .graf-after--figure name="81fc"}
-
+### 拡大しつつあるDIYの全てがここにある
 インターネットの普及以後、技術やサービスの発展に伴って、ルーチン化された作業はどんどんコンピュータに接続された機械や、コンピュータそのものが行うようになってきている。
 
 答えがあらかじめわかっている問題を担当する人間よりも、正解があるかわからない新規事業や企画を担当する人の割合が増えてきている。どんな仕事をしていても、例えば看板のデザインや、メールの文章を「考えて、作る」場面が、仕事の中で増えてきている。
@@ -143,8 +132,7 @@ Areaは、作る人たちの、作る人たちによる、作る人たちのた�
 
 ここにはDIYのすべてがある。
 
-### 告知 {#d110 .graf .graf--h3 .graf-after--p name="d110"}
-
+### 告知
 8月6～7日、ついにMaker Faire
 Tokyoが開催されます。高須もチームラボMake部のブースに出展しています。また、8月7日の夜、Maker
 Faire
@@ -157,6 +145,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 21, 2025](https://medium.com/p/f9ad051bb88e).
 
 [Canonical
-link](https://medium.com/@tks/20160804-f9ad051bb88e){.p-canonical}
-
+link](https://medium.com/@tks/20160804-f9ad051bb88e)
 Exported from [Medium](https://medium.com) on February 6, 2026.

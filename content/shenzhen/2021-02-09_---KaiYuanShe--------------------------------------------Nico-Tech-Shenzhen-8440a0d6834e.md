@@ -1,5 +1,5 @@
 ---
-title: "   KaiYuanShe                                            Nico Tech Shenzhen"
+title: '开源社KaiYuanShe（中国最大のオープンソースアライアンス）の正式メンバーになりました。 \#ニコニコ技術部 Nico-Tech Shenzhen'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*rOHYo6Mh1wEZJ4IX6Wi1Cg.png"
   relative: false
@@ -8,18 +8,11 @@ slug: kaiyuanshe-nico-tech-shenzhen
 date: 2021-02-09
 ---
 
-开源社KaiYuanShe（中国最大のオープンソースアライアンス）の正式メンバーになりました。 \#ニコニコ技術部 Nico-Tech Shenzhen {#开源社kaiyuanshe中国最大のオープンソースアライアンスの正式メンバーになりました-ニコニコ技術部-nico-tech-shenzhen .p-name}
-========================================================================================================================
-
 FSF,ASFなどのオープンソース支援団体
 
 
 ------------------------------------------------------------------------
-
-### 开源社KaiYuanShe（中国最大のオープンソースアライアンス）の正式メンバーになりました。 \#ニコニコ技術部 Nico-Tech Shenzhen {#886a .graf .graf--h3 .graf--leading .graf--title name="886a"}
-
-### 开源社KaiYuanSheはFSF,ASFなどと並ぶ、中国の代表的なオープンソース支援アライアンス {#a299 .graf .graf--h3 .graf-after--h3 name="a299"}
-
+### 开源社KaiYuanSheはFSF,ASFなどと並ぶ、中国の代表的なオープンソース支援アライアンス
 世界にはさまざまなオープンソースを支援する団体はあります。多様な数多い団体があることは、オープンソースの世界の豊かさを示しています。Nico-Tech
 Shenzhen(ニコ技深圳コミュニティ）もその１つです。
 
@@ -47,29 +40,24 @@ Foundationの理事やメンバーでもあり、開源社のスポンサーに�
 現在開源社には7名の理事と、70名強のメンバーがいます。理事はメンバー間の選挙、新メンバーは現メンバーの推薦と投票で決まります。\
 今のメンバーには、中国最大の技術コミュニティウェブサイトSegmentfaultの発起人や、VSCodeコミュニティのリーダー、HuaweiハーモニーOSのオープンソース担当、Yコンビネータの中国版と言えるアクセラレータ奇績創壇のパートナーなどが選ばれ、中国のソースコードリポジトリGiteeを運営するOSSChina（開源中国）やエンジニアメディアCSDNのメンバーも参加しています。
 
-### **初めての、ノンネイティブ中国語のメンバー** {#3d06 .graf .graf--h3 .graf-after--p name="3d06"}
-
+### **初めての、ノンネイティブ中国語のメンバー**
 僕は中国オープンソース年次大会/Apache
 Foundation中国ロードショー2020で登壇し、彼らのホワイトペーパーなどをいくつか翻訳してきました。中国オープンソース研究という名前のGitHubリポジトリで公開しています。最新版の2020年報告も春節まっただなかの2/14に公開しました。
 
 [**takasumasakazu/ChinaOpensourceResearch**\
 *Research about Chinese Open Source by Japanese Tech Community.
 中国のオープンソースムーブメントについて調査し、結果を共有する非営利のコミュニティです。...*github.com](https://github.com/takasumasakazu/ChinaOpensourceResearch "https://github.com/takasumasakazu/ChinaOpensourceResearch"){.markup--anchor
-.markup--mixtapeEmbed-anchor}[](https://github.com/takasumasakazu/ChinaOpensourceResearch){.js-mixtapeImage
-.mixtapeImage .u-ignoreBlock}
-
+.markup--mixtapeEmbed-anchor}[](https://github.com/takasumasakazu/ChinaOpensourceResearch)
 開源社のコミュニケーション言語は中国語です。国籍縛りはなく、台湾から参加するメンバーや、カナダ国籍の華人とかもいるとは思いますが、これまでのメンバーはいずれも中国語ネイティブでした。\
 今回2021年度、はじめての「ノンネイティブの正式メンバー」として、2人の推薦と全体会議での投票を経て、僕（所属組織はNico-Tech
 Shenzhen）はメンバーに選ばれました。担当は社区合作組（コミュニティ連携）と、媒体組になると思います。
 
-![](https://cdn-images-1.medium.com/max/800/1*rOHYo6Mh1wEZJ4IX6Wi1Cg.png)
 
 中国のオープンソースコミュニティが、日本や東南アジアとの関係をもっと深め、一緒に活動することを楽しくしていくことが僕に期待されていることで、それは自分やNico-Tech
 Shenzhenがやりたいことと合致します。担当は、コミュニティ連携チームです。日本のオープンソースコミュニティで、開源社の詳細や、連携に興味ある方は、いつでも連絡ください。\
 （のちほど英語でも同様の内容をアップする予定）
 
-### **我々はお互いのコードが読める。それが一番大事。** {#c6d3 .graf .graf--h3 .graf-after--p name="c6d3"}
-
+### **我々はお互いのコードが読める。それが一番大事。**
 国や言語は違えど、僕たちは技術とシェアに対する共通の興味を持ち、お互いのコードを読み、修正することができます。どこに住んでいる技術者も、もっと気持ちよくコードが書けることはよいことで、そのためにエネルギーを使うに足ることであり、楽しいことです。それ以外のことはすべて二の次です。\
 今後とも宜しくお願いします。
 
@@ -79,6 +67,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [February 9, 2021](https://medium.com/p/8440a0d6834e).
 
 [Canonical
-link](https://medium.com/@tks/kaiyuanshe-8440a0d6834e){.p-canonical}
-
+link](https://medium.com/@tks/kaiyuanshe-8440a0d6834e)
 Exported from [Medium](https://medium.com) on February 6, 2026.

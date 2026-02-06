@@ -1,5 +1,5 @@
 ---
-title: "Videos Shenzhen High Tour for Makers Vol 7 Apr 2017"
+title: 'Videos:Shenzhen High Tour for Makers Vol.7 Apr/2017'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*fAaxKmbd6xtVkPDT2HnIww.jpeg"
   relative: false
@@ -8,18 +8,13 @@ slug: videos-shenzhen-high-tour-for-makers-vol-7-apr-2017
 date: 2017-04-10
 ---
 
-Videos:Shenzhen High Tour for Makers Vol.7 Apr/2017 {#videosshenzhen-high-tour-for-makers-vol.7-apr2017 .p-name}
-===================================================
-
 We saw the Hardware capital Shenzhen city by High tour for makers. That
 tour are organized Seeed, Chaihuo, and TAKASU, they are Maker Faire...
 
 
 ------------------------------------------------------------------------
 
-### Videos:Shenzhen High Tour for Makers Vol.7 Apr/2017 {#7231 .graf .graf--h3 .graf--leading .graf--title name="7231"}
-
-![](https://cdn-images-1.medium.com/max/800/1*fAaxKmbd6xtVkPDT2HnIww.jpeg)
+### Videos:Shenzhen High Tour for Makers Vol.7 Apr/2017
 
 We saw the Hardware capital Shenzhen city by High tour for makers. That
 tour are organized Seeed, Chaihuo, and TAKASU, they are Maker Faire
@@ -100,6 +95,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [April 10, 2017](https://medium.com/p/f027e1e72f7c).
 
 [Canonical
-link](https://medium.com/@tks/shenzhen-high-tour-for-makers-vol-7-apr-2017-f027e1e72f7c){.p-canonical}
-
+link](https://medium.com/@tks/shenzhen-high-tour-for-makers-vol-7-apr-2017-f027e1e72f7c)
 Exported from [Medium](https://medium.com) on February 6, 2026.

@@ -1,5 +1,5 @@
 ---
-title: "January 2018 Report  TAKASU Shenzhen High Tour "
+title: 'January 2018 Report 【TAKASU/Shenzhen High Tour】'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*Wcnh2w8bnE2hh16NJcEIsw.jpeg"
   relative: false
@@ -8,17 +8,13 @@ slug: january-2018-report-takasu-shenzhen-high-tour
 date: 2017-12-31
 ---
 
-January 2018 Report 【TAKASU/Shenzhen High Tour】 {#january-2018-report-takasushenzhen-high-tour .p-name}
-=================================================
-
 If you need monthly report by email, please apply from here.
 https://goo.gl/forms/rvFfee8ZFEbriezR2
 
 
 ------------------------------------------------------------------------
 
-### January 2018 Report 【TAKASU/Shenzhen High Tour】 {#0ec0 .graf .graf--h3 .graf--leading .graf--title name="0ec0"}
-
+### January 2018 Report 【TAKASU/Shenzhen High Tour】
 If you need monthly report by email, [please apply from
 here](https://goo.gl/forms/rvFfee8ZFEbriezR2){.markup--anchor
 .markup--p-anchor}.\
@@ -31,14 +27,11 @@ the world's tea culture**\
 *Traditional tea house himself makes hardware products and delivers them
 directly to the Early
 Adapter.*medium.com](https://medium.com/shenzhen-high-tour-by-makers/teamosa-hax-f3f48c1fcf46 "https://medium.com/shenzhen-high-tour-by-makers/teamosa-hax-f3f48c1fcf46"){.markup--anchor
-.markup--mixtapeEmbed-anchor}[](https://medium.com/shenzhen-high-tour-by-makers/teamosa-hax-f3f48c1fcf46){.js-mixtapeImage
-.mixtapeImage .u-ignoreBlock}
-
+.markup--mixtapeEmbed-anchor}[](https://medium.com/shenzhen-high-tour-by-makers/teamosa-hax-f3f48c1fcf46)
 I went Shekou School Maker Faire, and Leaning and Teaching Expo in
 Hongkong.\
 STEM in this area is so active.
 
-![](https://cdn-images-1.medium.com/max/800/1*Wcnh2w8bnE2hh16NJcEIsw.jpeg)
 
 And I interned in Factory Line in JENESIS Shenzhen, This is my first
 manucafcurling experience by my hand, that\`s also impressive. I will
@@ -75,6 +68,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [December 31, 2017](https://medium.com/p/b1e4579bb3b8).
 
 [Canonical
-link](https://medium.com/@tks/201801-b1e4579bb3b8){.p-canonical}
-
+link](https://medium.com/@tks/201801-b1e4579bb3b8)
 Exported from [Medium](https://medium.com) on February 6, 2026.

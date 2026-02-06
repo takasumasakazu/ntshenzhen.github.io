@@ -1,5 +1,5 @@
 ---
-title: "     Regarding Proposed US Restrictions on RISC V "
+title: '日本語訳：Regarding Proposed US Restrictions on RISC-V...'
 cover:
   image: "https://twitter.com/tks/status/1721650674990252191"
   relative: false
@@ -8,16 +8,12 @@ slug: regarding-proposed-us-restrictions-on-risc-v
 date: 2023-11-06
 ---
 
-日本語訳：Regarding Proposed US Restrictions on RISC-V... {#日本語訳regarding-proposed-us-restrictions-on-risc-v .p-name}
-=========================================================
-
 ハードウェアハッカーの著者バニー・ファン\@bunniestudioは、11月6日にアメリカで提出された「中国の優位を防ぐため、アメリカでRISC-Vへの協力を規制しよう」案について反対する公開書簡をブログで発表した。ツイートでは「この案はむしろアメリカのパワーを削ぐ」としている。...
 
 
 ------------------------------------------------------------------------
 
-### 日本語訳：Regarding Proposed US Restrictions on RISC-V バニー・ファン、アメリカで提出された「中国の優位を防ぐため、アメリカでRISC-Vへの協力を規制しよう」案について反対する公開書簡 {#303f .graf .graf--h3 .graf--leading .graf--title name="303f"}
-
+### 日本語訳：Regarding Proposed US Restrictions on RISC-V バニー・ファン、アメリカで提出された「中国の優位を防ぐため、アメリカでRISC-Vへの協力を規制しよう」案について反対する公開書簡
 [ハードウェアハッカー](https://amzn.to/470UQKi){.markup--anchor
 .markup--p-anchor}の著者バニー・ファン[\@bunniestudio](https://twitter.com/bunniestudios){.markup--anchor
 .markup--p-anchor}は、11月6日にアメリカで提出された「中国の優位を防ぐため、アメリカでRISC-Vへの協力を規制しよう」案について反対する公開書簡を[ブログ](https://www.bunniestudios.com/blog/?p=6862){.markup--anchor
@@ -29,8 +25,7 @@ date: 2023-11-06
 RISC-V](https://www.bunniestudios.com/blog/?p=6862){.markup--anchor
 .markup--p-anchor}\]翻訳
 
-### 米国のRISC-V規制案について {#2212 .graf .graf--h3 .graf-after--p name="2212"}
-
+### 米国のRISC-V規制案について
 米国議会の18人の超党派議員からなるグループは最近、ホワイトハウスと商務長官に対し、中国がCPU技術で優位に立つのを防ぐため、[アメリカで](https://www.reuters.com/technology/us-lawmakers-press-biden-plans-chinese-use-open-chip-technology-2023-11-02/){.markup--anchor
 .markup--p-anchor}[RISC-V](https://www.reuters.com/technology/us-lawmakers-press-biden-plans-chinese-use-open-chip-technology-2023-11-02/){.markup--anchor
 .markup--p-anchor}[を扱うことについて制限を設ける](https://www.reuters.com/technology/us-lawmakers-press-biden-plans-chinese-use-open-chip-technology-2023-11-02/){.markup--anchor
@@ -46,8 +41,7 @@ RISC-V](https://www.bunniestudios.com/blog/?p=6862){.markup--anchor
 
 最後に、もし僕の考えやスタンスに異論があったり、異なる視点をお持ちの方は、政府高官各位にご自分の考えを表明する書簡を送ることもお勧めする。このやり方である必要はないけど、このテーマに対する国民の幅広い関心を示すことで、政策立案者はこの問題についてもう少し慎重に考え、より多くの意見を聞くようになるかもしれない。
 
-### Letter {#eb56 .graf .graf--h3 .graf-after--p name="eb56"}
-
+### Letter
 バイデン大統領とホワイトハウスのスタッフへ：
 
 最近、18人の議員がホワイトハウスと商務長官に書簡を送り、「中国がRISC-V技術で優位に立ち、その優位性を利用して米国の国家安全保障と経済安全保障を犠牲にする」ことを米国はどのように阻止するつもりなのかを尋ねた。
@@ -94,6 +88,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [November 6, 2023](https://medium.com/p/0cb41fac197f).
 
 [Canonical
-link](https://medium.com/@tks/%E6%97%A5%E6%9C%AC%E8%AA%9E%E8%A8%B3-regarding-proposed-us-restrictions-on-risc-v-0cb41fac197f){.p-canonical}
-
+link](https://medium.com/@tks/%E6%97%A5%E6%9C%AC%E8%AA%9E%E8%A8%B3-regarding-proposed-us-restrictions-on-risc-v-0cb41fac197f)
 Exported from [Medium](https://medium.com) on February 6, 2026.

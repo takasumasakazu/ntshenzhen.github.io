@@ -1,5 +1,5 @@
 ---
-title: "                     Nico Tech Shenzhen HuaQiangBei Office "
+title: 'ニコ技深圳コミュニティ 華強北オフィス (Nico-Tech Shenzhen HuaQiangBei Office)'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*5bGmnAe37cRBju5DTgBUvQ.jpeg"
   relative: false
@@ -8,22 +8,14 @@ slug: nico-tech-shenzhen-huaqiangbei-office
 date: 2017-06-20
 ---
 
-ニコ技深圳コミュニティ 華強北オフィス (Nico-Tech Shenzhen HuaQiangBei Office) {#ニコ技深圳コミュニティ-華強北オフィス-nico-tech-shenzhen-huaqiangbei-office .p-name}
-=============================================================================
-
 深セン電気街に位置するオフィス
 
 
 ------------------------------------------------------------------------
-
-### ニコ技深圳コミュニティ 華強北オフィス (Nico-Tech Shenzhen HuaQiangBei Office) {#6a07 .graf .graf--h3 .graf--leading .graf--title name="6a07"}
-
-### 深セン電気街に位置するオフィス {#ee6a .graf .graf--h3 .graf-after--h3 name="ee6a"}
-
+### 深セン電気街に位置するオフィス
 深圳の電気街華強北（HuaQiangBei)コワーキングスペースに位置する、ニコ技深圳コミュニティのオフィスです。（アポ無し訪問が多いため、住所詳細は非公開）\
 2014年のオープン以来何度か移転し、2024年3月より現在の場所で運営しています。
 
-![オフィス入口](https://cdn-images-1.medium.com/max/800/1*5bGmnAe37cRBju5DTgBUvQ.jpeg)
 
 ![オフィス内部（棚などを運び込む前）](https://cdn-images-1.medium.com/max/800/1*_-G7WgBIkQIITkhLE9Wixg.jpeg)
 
@@ -31,15 +23,13 @@ date: 2017-06-20
 
 オフィスエリア全体への指紋登録は人数制限ないですが、同時にオフィスを利用できるのは2--3名程度です。
 
-### ■訪問ルール {#4f2e .graf .graf--h3 .graf-after--p name="4f2e"}
-
+### ■訪問ルール
 ニコ技コミュニティ華強北オフィスおよび、入居しているコワーキングスペース[创富港](https://bzsns.com.cn/){.markup--anchor
 .markup--p-anchor}とも、アポイントメントなしの訪問はお断りしています。表敬訪問や見学はオープンデイに合わせてください。
 
 訪問される際はメンバー個別か、WeChatのyingzhao928773またはtakasumasakazuにアポイントをお願いします。
 
-### **■使用手続き・ルール** {#2db8 .graf .graf--h3 .graf-after--p name="2db8"}
-
+### **■使用手続き・ルール**
 **できること\
 **- 数日～数週間にわたってのオフィスでの作業(電源/wifiあり）\
 -ハンダ付け程度の軽作業（工作機械やマイニング機の持ち込みは規約で禁止されている）\
@@ -69,14 +59,9 @@ yingzhao928773 Wechat:takasumasakazu）。
 
 [**ニコ技深圳コミュニティではオンラインイベントを強化していきます。**\
 *ニコ技深圳コミュニティでは、企業スポンサーを頂いて、深圳のコワーキングスペースにオフィスを確保しています。*medium.com](https://medium.com/ecosystembymakers/online-abdaaa529470 "https://medium.com/ecosystembymakers/online-abdaaa529470"){.markup--anchor
-.markup--mixtapeEmbed-anchor}[](https://medium.com/ecosystembymakers/online-abdaaa529470){.js-mixtapeImage
-.mixtapeImage .u-ignoreBlock}
-
-### **■経緯・活動内容紹介** {#bde9 .graf .graf--h3 .graf-after--mixtapeEmbed name="bde9"}
-
-[最新のイベントはこちらをご覧ください。](https://www.facebook.com/groups/ntshenzhen/events/){.markup--anchor
-.markup--p-anchor}
-
+.markup--mixtapeEmbed-anchor}[](https://medium.com/ecosystembymakers/online-abdaaa529470)
+### **■経緯・活動内容紹介**
+[最新のイベントはこちらをご覧ください。](https://www.facebook.com/groups/ntshenzhen/events/)
 東京大学から深圳大学に訪問研究している[伊藤亜聖](https://aseiito.net/){.markup--anchor
 .markup--p-anchor}さんが2017年に発起、[高須正和](https://medium.com/@tks/takasu-profile-c50feee078ac){.markup--anchor
 .markup--p-anchor}が2018～現担当者としてテーブルを確保し、スポンサーの皆様から運営費をいただいています。
@@ -94,8 +79,7 @@ yingzhao928773 Wechat:takasumasakazu）。
 
 <https://goo.gl/forms/jmcrzneW0lOSXvIS2>
 
-### ■協賛・ご支援 {#f36a .graf .graf--h3 .graf-after--p name="f36a"}
-
+### ■協賛・ご支援
 現在、華強北オフィスは、以下の支援者みなさまのおかげで成り立っています。
 協賛金1ヶ月一口1000人民元（３ヶ月ターム）
 
@@ -207,17 +191,13 @@ MUNE SATO 100\
 Nichi 200\
 江里口 500
 
-### 2024年01月～引っ越し対応中 (おわりました) {#37b5 .graf .graf--h3 .graf-after--p name="37b5"}
-
+### 2024年01月～引っ越し対応中 (おわりました)
 [**報告：ニコ技深圳华强北オフィス、再度移転中 2024年1--2月**\
 *2015年のオープンから、ニコ技深圳オフィスは何度か移転を繰り返してきましたが、2021年から借りている中电迪富大厦内にある、CECが管理するメイカースペースが、今日1/18から一ヶ月後の2/18を持ってクローズという連絡が入りました。...*medium.com](https://medium.com/ecosystembymakers/202401cec-moving-72f54c37762c "https://medium.com/ecosystembymakers/202401cec-moving-72f54c37762c"){.markup--anchor
-.markup--mixtapeEmbed-anchor}[](https://medium.com/ecosystembymakers/202401cec-moving-72f54c37762c){.js-mixtapeImage
-.mixtapeImage .u-ignoreBlock}
-
+.markup--mixtapeEmbed-anchor}[](https://medium.com/ecosystembymakers/202401cec-moving-72f54c37762c)
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [June 20, 2017](https://medium.com/p/b3ff42ce3265).
 
 [Canonical
-link](https://medium.com/@tks/segmaker-b3ff42ce3265){.p-canonical}
-
+link](https://medium.com/@tks/segmaker-b3ff42ce3265)
 Exported from [Medium](https://medium.com) on February 6, 2026.

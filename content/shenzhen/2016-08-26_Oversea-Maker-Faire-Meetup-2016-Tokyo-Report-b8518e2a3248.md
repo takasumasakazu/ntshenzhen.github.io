@@ -1,5 +1,5 @@
 ---
-title: "Oversea Maker Faire Meetup 2016 Tokyo Report"
+title: 'Oversea Maker Faire Meetup 2016 Tokyo Report'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*Bx3gTU1riotqPMdDkgSR2w.jpeg"
   relative: false
@@ -8,18 +8,13 @@ slug: oversea-maker-faire-meetup-2016-tokyo-report
 date: 2016-08-26
 ---
 
-Oversea Maker Faire Meetup 2016 Tokyo Report {#oversea-maker-faire-meetup-2016-tokyo-report .p-name}
-============================================
-
 We MakerFaire Organizer from 7 citiys meet at 5/Aug 2016 at Tokyo,
 present day of Maker Faire Tokyo...
 
 
 ------------------------------------------------------------------------
 
-### Oversea Maker Faire Meetup 2016 Tokyo Report {#36bc .graf .graf--h3 .graf--leading .graf--title name="36bc"}
-
-![](https://cdn-images-1.medium.com/max/800/1*Bx3gTU1riotqPMdDkgSR2w.jpeg)
+### Oversea Maker Faire Meetup 2016 Tokyo Report
 
 We MakerFaire Organizer from 7 citiys meet at 5/Aug 2016 at Tokyo,
 present day of Maker Faire Tokyo. \
@@ -54,9 +49,7 @@ Trondheim Maker Faire by [Arnfinn Stendahl
 Rokne](https://www.facebook.com/arnfinn.rokne){.markup--anchor
 .markup--p-anchor}\
 Singapore Maker Faire by [TAKASU
-Masakazu](https://www.facebook.com/takasumasakazu){.markup--anchor
-.markup--p-anchor}
-
+Masakazu](https://www.facebook.com/takasumasakazu)
 Seoul Maker Faire by Kai Song \[ Oversea Maker Faire Meetup 2016 Tokyo
 \]
 
@@ -66,9 +59,7 @@ Seoul become Maker Faire from Mini one at 2015. They started 2012, only
 battle, Light art and traditonal drowing.
 
 Hongkong Maker Faire by [Clifford
-Choy](https://www.facebook.com/clifford.choy.9){.markup--anchor
-.markup--figure-anchor}
-
+Choy](https://www.facebook.com/clifford.choy.9)
 Hongkong are nearby Shenzhen, grown and traditional city. Their Maker
 Faire have more western style creativity than other China Cities.\
 Maker Faire Hongkong at HongKong politecnich university building
@@ -119,6 +110,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [August 26, 2016](https://medium.com/p/b8518e2a3248).
 
 [Canonical
-link](https://medium.com/@tks/oversea-maker-faire-meetup-2016-tokyo-b8518e2a3248){.p-canonical}
-
+link](https://medium.com/@tks/oversea-maker-faire-meetup-2016-tokyo-b8518e2a3248)
 Exported from [Medium](https://medium.com) on February 6, 2026.

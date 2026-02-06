@@ -1,5 +1,5 @@
 ---
-title: "Monthly News July 2018 Amazing Maker Faire Prague and Finally come to AKIPARTY Tokyo"
+title: 'Monthly News July/2018 Amazing Maker Faire Prague and Finally come to AKIPARTY Tokyo'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*9PTQxa22f_puX3oZTp092A.jpeg"
   relative: false
@@ -8,17 +8,13 @@ slug: monthly-news-july-2018-amazing-maker-faire-prague-and-finally-come-to-akip
 date: 2018-06-30
 ---
 
-Monthly News July/2018 Amazing Maker Faire Prague and Finally come to AKIPARTY Tokyo {#monthly-news-july2018-amazing-maker-faire-prague-and-finally-come-to-akiparty-tokyo .p-name}
-====================================================================================
-
 One week in Shenzhen like a month. But my time was more accelerated.
 I\`m away from Shenzhen now, in Dublin airport. This trip around a...
 
 
 ------------------------------------------------------------------------
 
-### Monthly News July/2018 Amazing Maker Faire Prague and Finally come to AKIPARTY Tokyo {#e8a7 .graf .graf--h3 .graf--leading .graf--title name="e8a7"}
-
+### Monthly News July/2018 Amazing Maker Faire Prague and Finally come to AKIPARTY Tokyo
 One week in Shenzhen like a month. But my time was more accelerated.
 I\`m away from Shenzhen now, in Dublin airport. This trip around a
 month, that kind of trips are thrid times in this year.
@@ -64,6 +60,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [June 30, 2018](https://medium.com/p/fd45c8ae8bce).
 
 [Canonical
-link](https://medium.com/@tks/201807-fd45c8ae8bce){.p-canonical}
-
+link](https://medium.com/@tks/201807-fd45c8ae8bce)
 Exported from [Medium](https://medium.com) on February 6, 2026.

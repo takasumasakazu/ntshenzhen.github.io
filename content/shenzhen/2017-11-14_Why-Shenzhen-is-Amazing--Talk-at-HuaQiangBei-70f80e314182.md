@@ -1,5 +1,5 @@
 ---
-title: "Why Shenzhen is Amazing  Talk at HuaQiangBei"
+title: 'Why Shenzhen is Amazing? Talk at HuaQiangBei'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*d7Wy4DQqcqC9Pm5MdSHvMw.jpeg"
   relative: false
@@ -8,18 +8,12 @@ slug: why-shenzhen-is-amazing-talk-at-huaqiangbei
 date: 2017-11-14
 ---
 
-Why Shenzhen is Amazing? Talk at HuaQiangBei {#why-shenzhen-is-amazing-talk-at-huaqiangbei .p-name}
-============================================
-
 One Maker and One Ecomomic researcher, and One Shop owner told at
 HuaQiangBei. A quite interesting talk, I recorded 3 of presentation
 and...
 
 
 ------------------------------------------------------------------------
-
-### Why Shenzhen is Amazing? Talk at HuaQiangBei {#2421 .graf .graf--h3 .graf--leading .graf--title name="2421"}
-
 One Maker and One Ecomomic researcher, and One Shop owner told at
 HuaQiangBei.\
 A quite interesting talk, I recorded 3 of presentation and QA Session.
@@ -48,7 +42,6 @@ the Shenzhen and how thing for the future.
 We really enjoyed talking each other, mostly QA session, We still going
 on how understand and share about here awesome city Shenzhen!
 
-![](https://cdn-images-1.medium.com/max/800/1*d7Wy4DQqcqC9Pm5MdSHvMw.jpeg)
 
 ![](https://cdn-images-1.medium.com/max/800/1*E9e37w74tD27eV-FpjSYXg.jpeg)
 
@@ -56,6 +49,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [November 14, 2017](https://medium.com/p/70f80e314182).
 
 [Canonical
-link](https://medium.com/@tks/amazingshenzhen-70f80e314182){.p-canonical}
-
+link](https://medium.com/@tks/amazingshenzhen-70f80e314182)
 Exported from [Medium](https://medium.com) on February 6, 2026.

@@ -1,5 +1,5 @@
 ---
-title: "Will a culture be born from Shenzhen  OCT loft area"
+title: 'Will a culture be born from Shenzhen? OCT-loft area'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*JHM3NsejxguDg0jxfFn0ug.jpeg"
   relative: false
@@ -8,17 +8,13 @@ slug: will-a-culture-be-born-from-shenzhen-oct-loft-area
 date: 2017-03-08
 ---
 
-Will a culture be born from Shenzhen? OCT-loft area {#will-a-culture-be-born-from-shenzhen-oct-loft-area .p-name}
-===================================================
-
 The overseas Chinese castle (OCT) area in the center of Shenzhen city is
 renewing the area where the factories of electric appliances are...
 
 
 ------------------------------------------------------------------------
 
-### Will a culture be born from Shenzhen? OCT-loft area {#a81b .graf .graf--h3 .graf--leading .graf--title name="a81b"}
-
+### Will a culture be born from Shenzhen? OCT-loft area
 The overseas Chinese castle (OCT) area in the center of Shenzhen city is
 renewing the area where the factories of electric appliances are lined
 up, making it a cultural district like Soho in New York. Its name is
@@ -154,6 +150,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 8, 2017](https://medium.com/p/21f5e756e94d).
 
 [Canonical
-link](https://medium.com/@tks/will-a-culture-be-born-from-shenzhen-oct-loft-area-21f5e756e94d){.p-canonical}
-
+link](https://medium.com/@tks/will-a-culture-be-born-from-shenzhen-oct-loft-area-21f5e756e94d)
 Exported from [Medium](https://medium.com) on February 6, 2026.

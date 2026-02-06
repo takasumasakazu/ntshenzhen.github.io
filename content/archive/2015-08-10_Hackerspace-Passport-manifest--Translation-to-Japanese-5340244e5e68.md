@@ -1,5 +1,5 @@
 ---
-title: "Hackerspace Passport manifest  Translation to Japanese"
+title: 'Hackerspace Passport manifest: Translation to Japanese'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*2Sr51Jz2YAUoYdWdFFZCCA.jpeg"
   relative: false
@@ -8,24 +8,20 @@ slug: hackerspace-passport-manifest-translation-to-japanese
 date: 2015-08-10
 ---
 
-Hackerspace Passport manifest: Translation to Japanese {#hackerspace-passport-manifest-translation-to-japanese .p-name}
-======================================================
-
 I have Hackerspace Passport from Last year. My friend Kevin and
 Seeedstudio present for me.
 
 
 ------------------------------------------------------------------------
 
-### Hackerspace Passport manifest: Translation to Japanese {#e4e2 .graf .graf--h3 .graf--leading .graf--title name="e4e2"}
-
+### Hackerspace Passport manifest: Translation to Japanese
 I have [Hackerspace
 Passport](http://www.seeedstudio.com/depot/Hackerspace-Passport-p-1027.html){.markup--anchor
 .markup--p-anchor} from Last year. My friend Kevin and Seeedstudio
 present for me.
 
 OpenSource Trancerate to Japanese project [PROJECT
-杉田玄白](http://www.genpaku.org/){.markup--anchor .markup--p-anchor}
+杉田玄白](http://www.genpaku.org/)
 参加作品(CC-BY=SA, DISTRYBUTE WIDELY!)
 
 ![Hackerspace
@@ -41,8 +37,7 @@ I love this manifest from My great Hacker friend
 [Mitch](https://en.wikipedia.org/wiki/Mitch_Altman){.markup--anchor
 .markup--p-anchor}, I tried to tranceration to Japanese.
 
-#### Original {#eefb .graf .graf--h4 .graf-after--p name="eefb"}
-
+#### Original
 ![](https://cdn-images-1.medium.com/max/800/1*s4QtyRXnvR-2KBmfUeNoiA.png)
 
 > *There is a world of hackdom out there. Please go out and explore it!
@@ -79,8 +74,7 @@ I love this manifest from My great Hacker friend
 > place merely by living the life you enjoy. So, please, go out into the
 > world and enjoy! Explore what you love!*
 
-#### 日本語 {#8219 .graf .graf--h4 .graf-after--blockquote name="8219"}
-
+#### 日本語
 *世界に広がるハッカーの世界を探索しに行こう！ハッカースペースやハッカーカンファレンスを訪れ、仲良くなれそうな「おまいら」を探し、どんなテクノロジーが好きかについてアツく語り合い、教えあおう。僕らはもっと知りたい、語りたいと思っていて、もっと多くのハッカースペースにつながろうと思っているんだ。*
 
 *僕らはコミュニティが必要だ。宇宙から地球の各地にバラまかれた種のような僕たちが、互いに学び・教えあうために。さらに僕らは、互いにつながることで自分たちそれぞれのクリエイティビティを超えていける。僕らはそうやってこれまで生き残ってきたんだ。*
@@ -100,6 +94,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [August 10, 2015](https://medium.com/p/5340244e5e68).
 
 [Canonical
-link](https://medium.com/@tks/hackerspace-passport-manifest-translation-to-japanese-5340244e5e68){.p-canonical}
-
+link](https://medium.com/@tks/hackerspace-passport-manifest-translation-to-japanese-5340244e5e68)
 Exported from [Medium](https://medium.com) on February 6, 2026.

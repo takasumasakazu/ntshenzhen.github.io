@@ -1,5 +1,5 @@
 ---
-title: "TAKASU S Maker activity at 2016  around 70 80 events"
+title: 'TAKASU''S Maker activity at 2016, around 70--80 events'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*M_IchbFWUDuIMbnYS5CovQ.jpeg"
   relative: false
@@ -8,21 +8,16 @@ slug: takasu-s-maker-activity-at-2016-around-70-80-events
 date: 2016-12-31
 ---
 
-TAKASU'S Maker activity at 2016, around 70--80 events {#takasus-maker-activity-at-2016-around-7080-events .p-name}
-=====================================================
-
 My activity at 2016. I joined around 70--80 Makers event. I really
 looking to see next event.
 
 
 ------------------------------------------------------------------------
 
-### TAKASU'S Maker activity at 2016, around 70--80 events {#0493 .graf .graf--h3 .graf--leading .graf--title name="0493"}
-
+### TAKASU'S Maker activity at 2016, around 70--80 events
 My activity at 2016. I joined around 70--80 Makers event.\
 I really looking to see next event.
 
-![](https://cdn-images-1.medium.com/max/800/1*M_IchbFWUDuIMbnYS5CovQ.jpeg)
 
 **February**\
 [Visit NTU
@@ -31,9 +26,7 @@ Naddine](https://medium.com/@tks/what-are-human-and-humanity-i-met-humanoid-ai-r
 Singapore Air Show
 
 **March**\
-[FOSSASIA](http://Why%20DIY%20popular%20music%20cause%20creative%20ecosystem%20in%20Japan?){.markup--anchor
-.markup--p-anchor}
-
+[FOSSASIA](http://Why%20DIY%20popular%20music%20cause%20creative%20ecosystem%20in%20Japan?)
 **April**\
 Nico Tech Kanazawa Hanami\
 [Shenzhen High Tour
@@ -80,9 +73,7 @@ Meetup](http://www.slideshare.net/takasu/20160619-tks){.markup--anchor
 meetup](http://www.slideshare.net/takasu/201600619-officehackteamlab){.markup--anchor
 .markup--p-anchor}\
 [Maker Faire
-Singapore](https://fabcross.jp/topics/tks/20160907_maker_faire_singapore.html){.markup--anchor
-.markup--p-anchor}
-
+Singapore](https://fabcross.jp/topics/tks/20160907_maker_faire_singapore.html)
 **July**\
 TEDxHaneda\
 Shenzhen High Tour Meetup\
@@ -156,13 +147,10 @@ ASIA](http://www.slideshare.net/takasu/ss-70080020){.markup--anchor
 .markup--p-anchor}\
 GUGEN 2016\
 [SEG+ afternoon
-tea](http://www.slideshare.net/takasu/maker-movement-in-asia-shenzhen-singapore-chengdu){.markup--anchor
-.markup--p-anchor}
-
+tea](http://www.slideshare.net/takasu/maker-movement-in-asia-shenzhen-singapore-chengdu)
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [December 31, 2016](https://medium.com/p/9c1e0ddd7f36).
 
 [Canonical
-link](https://medium.com/@tks/takasus-maker-activity-at-2016-around-70-80-events-9c1e0ddd7f36){.p-canonical}
-
+link](https://medium.com/@tks/takasus-maker-activity-at-2016-around-70-80-events-9c1e0ddd7f36)
 Exported from [Medium](https://medium.com) on February 6, 2026.

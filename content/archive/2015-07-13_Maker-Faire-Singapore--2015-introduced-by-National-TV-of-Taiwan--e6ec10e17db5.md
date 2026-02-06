@@ -1,12 +1,9 @@
 ---
-title: "Maker Faire Singapore  2015 introduced by National TV of Taiwan "
+title: 'Maker Faire Singapore​ 2015 introduced by National TV of Taiwan!'
 aliases: ["/2015/07/maker-faire-singapore-2015-introduced-by-national-tv-of-taiwan/"]
 slug: maker-faire-singapore-2015-introduced-by-national-tv-of-taiwan
 date: 2015-07-13
 ---
-
-Maker Faire Singapore​ 2015 introduced by National TV of Taiwan! {#maker-faire-singapore-2015-introduced-by-national-tv-of-taiwan .p-name}
-================================================================
 
 I'm not sure for Chinese, but looks They so surely understanding Maker
 Movement, and Incubater, croudfunding, Prototyping... Maker Ecosystem...
@@ -14,7 +11,7 @@ Movement, and Incubater, croudfunding, Prototyping... Maker Ecosystem...
 
 ------------------------------------------------------------------------
 
-Maker Faire Singapore​ 2015 introduced by National TV of Taiwan! {#879f .graf .graf--h2 .graf--leading .graf--title name="879f"}
+Maker Faire Singapore​ 2015 introduced by National TV of Taiwan!
 ----------------------------------------------------------------
 
 「自已製造」時代來臨！ Maker創客經濟發燒
@@ -38,6 +35,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [July 13, 2015](https://medium.com/p/e6ec10e17db5).
 
 [Canonical
-link](https://medium.com/@tks/maker-faire-singapore-2015-introduced-by-national-tv-of-taiwan-e6ec10e17db5){.p-canonical}
-
+link](https://medium.com/@tks/maker-faire-singapore-2015-introduced-by-national-tv-of-taiwan-e6ec10e17db5)
 Exported from [Medium](https://medium.com) on February 6, 2026.

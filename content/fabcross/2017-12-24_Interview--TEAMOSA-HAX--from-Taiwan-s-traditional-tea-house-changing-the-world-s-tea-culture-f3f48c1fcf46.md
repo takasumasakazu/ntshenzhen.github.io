@@ -1,5 +1,5 @@
 ---
-title: "Interview  TEAMOSA HAX  from Taiwan s traditional tea house changing the world s tea culture"
+title: 'Interview: TEAMOSA(HAX) from Taiwan''s traditional tea house changing the world''s tea culture'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*z71Ky01lsSp4UsYNJNQtAA.jpeg"
   relative: false
@@ -7,9 +7,6 @@ aliases: ["/2017/12/interview-teamosa-hax-from-taiwan-s-traditional-tea-house-ch
 slug: interview-teamosa-hax-from-taiwan-s-traditional-tea-house-changing-the-world-s-tea-culture
 date: 2017-12-24
 ---
-
-Interview: TEAMOSA(HAX) from Taiwan's traditional tea house changing the world's tea culture {#interview-teamosahax-from-taiwans-traditional-tea-house-changing-the-worlds-tea-culture .p-name}
-============================================================================================
 
 Traditional tea house himself makes hardware products and delivers them
 directly to the Early Adapter.
@@ -21,8 +18,7 @@ pre-ordered order at Indiegogo, which also accepted a back
 
 ------------------------------------------------------------------------
 
-### Interview: TEAMOSA(HAX) from Taiwan's traditional tea house, changing the world's tea culture {#47af .graf .graf--h3 .graf--leading .graf--title name="47af"}
-
+### Interview: TEAMOSA(HAX) from Taiwan's traditional tea house, changing the world's tea culture
 Born in a family who runs a tea house in Taiwan and studied chemistry in
 the USA Irven started a hardware startup TEAMOSA with his older sister
 who learned system engineering and a brother --- in --- law who studied
@@ -50,8 +46,7 @@ in the West "and then tea is extracted by applying ultrasound to the tea
 leaves The presentation introducing the product TEAMOSA was impressive
 and interviewed on another day.
 
-### **CEO** Irven**\`s family runs a tea house in Taiwan** {#9b78 .graf .graf--h3 .graf-after--figure name="9b78"}
-
+### **CEO** Irven**\`s family runs a tea house in Taiwan**
 **Irven:** My parents have been running teahouses for 34 years in
 Taiwan. I have my own tea farm in Nantou County, Taiwan. The Taiwanese
 enjoy a variety of tea, but at my house I treat only oolong tea. It is a
@@ -88,8 +83,7 @@ and PET bottle green tea is often drunk among Silicon Valley engineers.
 There is a possibility that the natural "genuine tea" without mixing may
 become more popular. Of course, there are further possibilities in Asia.
 
-### **What is genuine tea?** {#901f .graf .graf--h3 .graf-after--p name="901f"}
-
+### **What is genuine tea?**
 **Irven:** There are six kinds of tea, but all are made from tea tree.
 For high-quality tea, tea leaves must first be of high quality.\
 Therefore, the most important thing is the environment of the tea plant
@@ -139,8 +133,7 @@ advantages.
 ![He is really the master of tea, my interview\`s 80% time is only
 about tea.](https://cdn-images-1.medium.com/max/800/1*pMnRgDxGfRB8ZHfK30_Xlg.jpeg)
 
-### **TEAMOSA as a product and business model** {#1718 .graf .graf--h3 .graf-after--figure name="1718"}
-
+### **TEAMOSA as a product and business model**
 **Irven:** I applied for HAX in October 2016 and was selected over about
 two months. The first proposal was a tea ceremony machine for business
 use as put in hotels and coffee shops. As a result of the interview with
@@ -178,8 +171,7 @@ experienced so good tea.
 ![Irvine at HAX Demo Day in
 Shenzhen.](https://cdn-images-1.medium.com/max/800/1*40fQHO6KdMnLkvBDTuedcQ.jpeg)
 
-### **TEAMOSA has amazing success on kickstarter** {#ef3f .graf .graf--h3 .graf-after--figure name="ef3f"}
-
+### **TEAMOSA has amazing success on kickstarter**
 TEAMOSA launched [the Kickstarter
 campaign](https://www.kickstarter.com/projects/teamosa/teamosa-your-personal-tea-brewing-master){.markup--anchor
 .markup--p-anchor} on September 13, 2017 and finally got a total success
@@ -212,6 +204,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [December 24, 2017](https://medium.com/p/f3f48c1fcf46).
 
 [Canonical
-link](https://medium.com/@tks/teamosa-hax-f3f48c1fcf46){.p-canonical}
-
+link](https://medium.com/@tks/teamosa-hax-f3f48c1fcf46)
 Exported from [Medium](https://medium.com) on February 6, 2026.

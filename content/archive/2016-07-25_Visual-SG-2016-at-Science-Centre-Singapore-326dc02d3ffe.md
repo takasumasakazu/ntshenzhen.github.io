@@ -1,21 +1,15 @@
 ---
-title: "Visual SG 2016 at Science Centre Singapore"
+title: 'Visual SG 2016 at Science Centre Singapore'
 aliases: ["/2016/07/visual-sg-2016-at-science-centre-singapore/"]
 slug: visual-sg-2016-at-science-centre-singapore
 date: 2016-07-25
 ---
-
-Visual SG 2016 at Science Centre Singapore {#visual-sg-2016-at-science-centre-singapore .p-name}
-==========================================
 
 Visual SG is a data visualization and VR event, a bit similar theme of
 SIGGRAPH.
 
 
 ------------------------------------------------------------------------
-
-### Visual SG 2016 at Science Centre Singapore {#1284 .graf .graf--h3 .graf--leading .graf--title name="1284"}
-
 Visual SG is a data visualization and VR event, a bit similar theme of
 SIGGRAPH.
 
@@ -65,6 +59,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [July 25, 2016](https://medium.com/p/326dc02d3ffe).
 
 [Canonical
-link](https://medium.com/@tks/visual-sg-2016-at-science-centre-singapore-326dc02d3ffe){.p-canonical}
-
+link](https://medium.com/@tks/visual-sg-2016-at-science-centre-singapore-326dc02d3ffe)
 Exported from [Medium](https://medium.com) on February 6, 2026.

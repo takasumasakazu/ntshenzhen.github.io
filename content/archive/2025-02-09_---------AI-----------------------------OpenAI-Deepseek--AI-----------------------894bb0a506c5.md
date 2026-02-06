@@ -1,5 +1,5 @@
 ---
-title: "         AI                             OpenAI Deepseek  AI                      "
+title: '真のオープンソースAI社会,多くの人が透明に開発に参加することによる安全を望む：OpenAIとDeepseek, AIのオープンソースに対する開源社からのコメント'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/0*ktt_6UyAd1E-BQXu.jpeg"
   relative: false
@@ -8,20 +8,12 @@ slug: ai-openai-deepseek-ai
 date: 2025-02-09
 ---
 
-真のオープンソースAI社会,多くの人が透明に開発に参加することによる安全を望む：OpenAIとDeepseek, AIのオープンソースに対する開源社からのコメント {#真のオープンソースai社会多くの人が透明に開発に参加することによる安全を望むopenaiとdeepseek-aiのオープンソースに対する開源社からのコメント .p-name}
-=============================================================================================================================================
-
 アルトマンは、オープンソース戦略について間違っていたと語った。DeepseekはOpenAIの優位性を低下させ、次はGPT-5になるだろう。
 
 
 ------------------------------------------------------------------------
 
-### 真のオープンソースAI社会,多くの人が透明に開発に参加することによる安全を望む：OpenAIとDeepseek, AIのオープンソースに対する開源社からのコメント {#392d .graf .graf--h3 .graf--leading .graf--title name="392d"}
-
-![](https://cdn-images-1.medium.com/max/800/0*ktt_6UyAd1E-BQXu.jpeg)
-
-### アルトマンは、オープンソース戦略について間違っていたと語った。DeepseekはOpenAIの優位性を低下させ、次はGPT-5になるだろう。 {#28bf .graf .graf--h3 .graf-after--figure name="28bf"}
-
+### アルトマンは、オープンソース戦略について間違っていたと語った。DeepseekはOpenAIの優位性を低下させ、次はGPT-5になるだろう。
 高須は開源社（中国オープンソースアライアンス）の正式メンバー（毎年一度選挙で選ばれる）です。以下の記事は許可を得て翻訳しています。
 
 --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- \
@@ -42,8 +34,7 @@ AIのゴッドファーザーであるジェフリー・ヒントンは、モデ
  --- --- 劉天棟 Ted, 開源社（中国オープンソースアライアンス) Co-Founder,
 2024理事
 
-### 原文: 在开源AI上，我们错了！DeepSeek让OpenAI优势不再，下一个是GPT-5 {#b4a1 .graf .graf--h3 .graf-after--p name="b4a1"}
-
+### 原文: 在开源AI上，我们错了！DeepSeek让OpenAI优势不再，下一个是GPT-5
 OpenAI 的硅谷速度反应令人佩服，Altman 承认 DeepSeek R1
 的优越性，也承认了面对开源，OpenAI 站在了错误的一方。但是 Altman
 还是犹抱琵琶半遮面地说："开源策略不是 OpenAI
@@ -69,13 +60,10 @@ actors）用来作恶。例如，利用开源 AI
 --- --- 刘天栋 Ted，开源社联合创始人暨 2024 年理事
 
 [原文
-開源社の公式wechat](https://mp.weixin.qq.com/s/7GDxFipcyGnW3H1Nlc976A){.markup--anchor
-.markup--p-anchor}
-
+開源社の公式wechat](https://mp.weixin.qq.com/s/7GDxFipcyGnW3H1Nlc976A)
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [February 9, 2025](https://medium.com/p/894bb0a506c5).
 
 [Canonical
-link](https://medium.com/@tks/deepseek-kaiyuanshe-894bb0a506c5){.p-canonical}
-
+link](https://medium.com/@tks/deepseek-kaiyuanshe-894bb0a506c5)
 Exported from [Medium](https://medium.com) on February 6, 2026.

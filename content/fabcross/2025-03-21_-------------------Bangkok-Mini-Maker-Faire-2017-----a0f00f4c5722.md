@@ -1,5 +1,5 @@
 ---
-title: "                   Bangkok Mini Maker Faire 2017    "
+title: 'タイらしさ爆発、大人も子どもも楽しめるBangkok Mini Maker Faire 2017レポート'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*pW5iLIRPjugiUeV7q83cNQ.jpeg"
   relative: false
@@ -8,27 +8,21 @@ slug: bangkok-mini-maker-faire-2017
 date: 2025-03-21
 ---
 
-タイらしさ爆発、大人も子どもも楽しめるBangkok Mini Maker Faire 2017レポート {#タイらしさ爆発大人も子どもも楽しめるbangkok-mini-maker-faire-2017レポート .p-name}
-===========================================================================
-
 2017/02/22 08:00
 
 
 ------------------------------------------------------------------------
 
-### タイらしさ爆発、大人も子どもも楽しめるBangkok Mini Maker Faire 2017レポート {#c328 .graf .graf--h3 .graf--leading .graf--title name="c328"}
-
+### タイらしさ爆発、大人も子どもも楽しめるBangkok Mini Maker Faire 2017レポート
 2017/02/22 08:00
 
-![](https://cdn-images-1.medium.com/max/800/1*pW5iLIRPjugiUeV7q83cNQ.jpeg)
 
 「微笑みの国」と呼ばれ日本人から人気の高いタイ。2017年で2回目になる「Bangkok
 Mini Maker
 Faire」は、昼過ぎから始まる／夜はパレードが行われるなど、シンボルマーク含めてキャラクターが立ったイベントとなった。遊び心に満ちた出展物が並んだ、バンコクのMaker
 Faireをレポートする。
 
-### タイらしさ爆発、昼からスタート、夜はパレードのMaker Faire {#5c70 .graf .graf--h3 .graf-after--p name="5c70"}
-
+### タイらしさ爆発、昼からスタート、夜はパレードのMaker Faire
 [**Bangkok Mini Maker Faire
 2017**](https://www.facebook.com/bangkokmakerfaire/){.markup--anchor
 .markup--p-anchor}は1月21～22日の2日間、バンコク中心部の[**The Street
@@ -61,8 +55,7 @@ Somsamanも参加。子どもがたくさん来る科学のイベントで「ド
 
 ![夕暮れ、電灯が灯ってからが本番モード。](https://cdn-images-1.medium.com/max/800/1*AvBYmyLSwXbV2KqIy7S7Hw.jpeg)
 
-### 遊び心に満ちた出展物たち {#2bf0 .graf .graf--h3 .graf-after--figure name="2bf0"}
-
+### 遊び心に満ちた出展物たち
 Bangkok Mini Maker Faireの運営は[**National Science and Technology
 Development Agency**](https://www.nstda.or.th/en/){.markup--anchor
 .markup--p-anchor}（以下NSTDA）というタイの公的機関によって行われている。日本の経産省や産総研などにあたる組織であり、子ども向けのテクノロジー教育なども担当している。運営委員長のDr.
@@ -97,8 +90,7 @@ Mornが訪れたときに一目ぼれして招聘（しょうへい）につな�
 ![佐藤ロボット研究所。Maker Faire Tokyo
 2016への出展がこの出会いにつながった。](https://cdn-images-1.medium.com/max/800/1*-8jyHgio4AAZuu3fFrHI3Q.jpeg)
 
-### メカトロ、ロボットも満載 {#300c .graf .graf--h3 .graf-after--figure name="300c"}
-
+### メカトロ、ロボットも満載
 マイコンや電子工作といった家庭でできるDIYにくらべ、アルミを切ったり溶接したりが必要なモビリティやロボットはハードルが高い。バンコクのMaker
 Faireではそのロボットが主役になるほど大量に出品されていて、ここにもほかのMaker
 Faireとの違いが見られた。
@@ -124,8 +116,7 @@ Contestでは障害者や老人のためのデザインコンテストが行わ�
 バンコクの場合、会場中いたるところで目に付き、通行人に多少ぶつかっても走り回る面白工作が、それを打ち消してMaker
 Faireっぽさを拡散していて、こういうクオリティの高いプロジェクトへの関心も引き上げていたように思う。
 
-### タイのメイカースペースやスタートアップ {#6bb8 .graf .graf--h3 .graf-after--p name="6bb8"}
-
+### タイのメイカースペースやスタートアップ
 タイでもスタートアップやIoTのカンファレンスが頻繁に行われるなど、「Makerからプロへ」の声がけは盛んにされている。とはいえシリコンバレーや深センのような地の利はなく、ドメスティックに動いているとうまくいきづらい。
 
 カリフォルニアで[**Gravitech**](http://store.gravitech.us/){.markup--anchor
@@ -158,8 +149,7 @@ Pan。](https://cdn-images-1.medium.com/max/800/1*_vxK-m7JxEPRhae5-WJLrA.jpeg)
 ![タイではSTEM教育も盛り上がりを見せていて、深センのMakeblock[（fabcrossのレポート）](https://fabcross.jp/topics/tks/20160527_makeblock_01.html){.markup--anchor
 .markup--figure-anchor}を現地の代理店が大々的に出展していた。](https://cdn-images-1.medium.com/max/800/1*hfEEpApwud4PH9DFiO_ySA.jpeg)
 
-### アジア中がつながりつつある。 {#754c .graf .graf--h3 .graf-after--figure name="754c"}
-
+### アジア中がつながりつつある。
 前述の日本の佐藤ロボット研究所や深センのMakeblockだけでなく、バンコクのMaker
 Faireには海外からの参加者も多く来訪・出展していた。バンコクは東南アジアの中心部に近く、とても訪問しやすい位置にある。
 
@@ -192,6 +182,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 21, 2025](https://medium.com/p/a0f00f4c5722).
 
 [Canonical
-link](https://medium.com/@tks/%E3%82%BF%E3%82%A4%E3%82%89%E3%81%97%E3%81%95%E7%88%86%E7%99%BA-%E5%A4%A7%E4%BA%BA%E3%82%82%E5%AD%90%E3%81%A9%E3%82%82%E3%82%82%E6%A5%BD%E3%81%97%E3%82%81%E3%82%8Bbangkok-mini-maker-faire-2017%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88-a0f00f4c5722){.p-canonical}
-
+link](https://medium.com/@tks/%E3%82%BF%E3%82%A4%E3%82%89%E3%81%97%E3%81%95%E7%88%86%E7%99%BA-%E5%A4%A7%E4%BA%BA%E3%82%82%E5%AD%90%E3%81%A9%E3%82%82%E3%82%82%E6%A5%BD%E3%81%97%E3%82%81%E3%82%8Bbangkok-mini-maker-faire-2017%E3%83%AC%E3%83%9D%E3%83%BC%E3%83%88-a0f00f4c5722)
 Exported from [Medium](https://medium.com) on February 6, 2026.

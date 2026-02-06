@@ -1,5 +1,5 @@
 ---
-title: "See you in CES  TAKASU   Nico Tech Shenzhen Community Monthly news Jan 2019"
+title: 'See you in CES! TAKASU & Nico-Tech Shenzhen Community Monthly news Jan/2019'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*TJyjvUjgS0rS7q8kmi5pZg.jpeg"
   relative: false
@@ -8,16 +8,12 @@ slug: see-you-in-ces-takasu-nico-tech-shenzhen-community-monthly-news-jan-2019
 date: 2018-12-31
 ---
 
-See you in CES! TAKASU & Nico-Tech Shenzhen Community Monthly news Jan/2019 {#see-you-in-ces-takasu-nico-tech-shenzhen-community-monthly-news-jan2019 .p-name}
-===========================================================================
-
 你好，好久不见。我有春节寒假，离开深圳起1月18号到2月27号。
 
 
 ------------------------------------------------------------------------
 
-### See you in CES! TAKASU & Nico-Tech Shenzhen Community Monthly news Jan/2019 {#807c .graf .graf--h3 .graf--leading .graf--title name="807c"}
-
+### See you in CES! TAKASU & Nico-Tech Shenzhen Community Monthly news Jan/2019
 你好，好久不见。我有春节寒假，离开深圳起1月18号到2月27号。
 
 Happy new year! Finally winter comes around in south China town
@@ -48,6 +44,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [December 31, 2018](https://medium.com/p/8ab8a36ce1ae).
 
 [Canonical
-link](https://medium.com/@tks/201901-8ab8a36ce1ae){.p-canonical}
-
+link](https://medium.com/@tks/201901-8ab8a36ce1ae)
 Exported from [Medium](https://medium.com) on February 6, 2026.

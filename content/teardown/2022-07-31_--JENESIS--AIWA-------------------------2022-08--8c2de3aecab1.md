@@ -1,5 +1,5 @@
 ---
-title: "  JENESIS  AIWA                         2022 08 "
+title: '深圳JENESISよりAIWAデジタルが誕生 ニコ技深センコミュニティ月次報告 2022年08月'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/0*PCSmeSsF84Rklv5z.jpg"
   relative: false
@@ -8,17 +8,10 @@ slug: jenesis-aiwa-2022-08
 date: 2022-07-31
 ---
 
-深圳JENESISよりAIWAデジタルが誕生 ニコ技深センコミュニティ月次報告 2022年08月 {#深圳jenesisよりaiwaデジタルが誕生-ニコ技深センコミュニティ月次報告-2022年08月 .p-name}
-=============================================================================
-
 深圳JENESISからAIWAデジタルが誕生
 
 
 ------------------------------------------------------------------------
-
-### 深圳JENESISよりAIWAデジタルが誕生 ニコ技深センコミュニティ月次報告 2022年08月 {#d343 .graf .graf--h3 .graf--leading .graf--title name="d343"}
-
-![](https://cdn-images-1.medium.com/max/800/0*PCSmeSsF84Rklv5z.jpg)
 
 深圳JENESISからAIWAデジタルが誕生
 
@@ -65,9 +58,7 @@ Foolishへのよくある誤解と、ジョブズのキャリアから僕たち�
 
 ブログでも確認できます。
 
-[https://medium.com/ecosystembymakers/](https://medium.com/ecosystembymakers/201901-2fac70a7a816){.markup--anchor
-.markup--p-anchor}
-
+[https://medium.com/ecosystembymakers/](https://medium.com/ecosystembymakers/201901-2fac70a7a816)
 --- --- -報告（ブログ書いた、記事書いた、本だしたなど。） --- --- --- -
 
 サバティカル研修（大学教員が海外などで半年-1年間、研究だけできる研修制度）を使って、4月から深センに来ていて、9月中旬の帰国予定まで、早いもので半分が過ぎました。南方科学技術大学に客員教員として籍をおきつつ、M5Stackで製品開発をさせてもらったり、半導体関連も含めた企業訪問やTaoBao・基板発注などの日々です。こちらに日々の経験をまとめていますので、ご覧ください。
@@ -79,13 +70,11 @@ Foolishへのよくある誤解と、ジョブズのキャリアから僕たち�
 1\. 月刊I/O 2022年8月号に記事掲載(2本)
 
 -   [連載「100円ショップガジェット分解」:
-    ダイソーの「完全ワイヤレスイヤホン2」]{#cbc1}
-
+    ダイソーの「完全ワイヤレスイヤホン2」]
 ダイソーTWSの３代目を分解しました。JieLiのSoC採用。
 
 -   [特集「100均」ガジェットで作る電子工作:
-    「100均センサライト」で作る「遠隔監視システム」]{#248d}
-
+    「100均センサライト」で作る「遠隔監視システム」]
 330円の「明るさ&人感センサ付きライト」に「ATOM
 Lite」を組み合わせて、無線で通知するシステムの作り方を紹介
 
@@ -93,23 +82,20 @@ Lite」を組み合わせて、無線で通知するシステムの作り方を�
 
 2\. note「100円ショップのガジェットを分解してみる」7月の追加分
 
--   [ダイソーの「ニッケル水素電池専用USB充電器」]{#b4f5}
-
+-   [ダイソーの「ニッケル水素電池専用USB充電器」]
 超シンプルな回路ですが、意外と考えられた設計でした。
 
 <https://note.com/tomorrow56/n/nf3fc1d4b2d0b>
 
--   [バックナンバー(noteのマガジン)]{#56d1}
-
+-   [バックナンバー(noteのマガジン)]
 <https://note.com/tomorrow56/m/ma0073059b5ac>
 
 3\. ITmedia「エンジニアライフ」 コラム更新(2本)
 
 -   [第13回: USB充電の歴史について簡単にまとめてみる その1
-    〜野良チャージャー時代〜]{#d543}
+    〜野良チャージャー時代〜]
 -   [第14回: USB充電の歴史について簡単にまとめてみる その2 〜USB Battery
-    Charging Specification 1.2〜]{#6e6b}
-
+    Charging Specification 1.2〜]
 USB充電の技術的な部分をまとめている日本語のサイトがあまりないので、数回に分けて自分の知っている範囲を書いていきます。
 
 ThousanDIYの「ガジェット分解ライフ」
@@ -256,6 +242,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [July 31, 2022](https://medium.com/p/8c2de3aecab1).
 
 [Canonical
-link](https://medium.com/@tks/202207-8c2de3aecab1){.p-canonical}
-
+link](https://medium.com/@tks/202207-8c2de3aecab1)
 Exported from [Medium](https://medium.com) on February 6, 2026.

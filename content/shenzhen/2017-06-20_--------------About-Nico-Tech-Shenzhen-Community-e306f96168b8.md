@@ -1,5 +1,5 @@
 ---
-title: "              About Nico Tech Shenzhen Community"
+title: 'ニコ技深圳コミュニティとは About Nico-Tech Shenzhen Community'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/0*UH4pn_gT4J0vIV3x"
   relative: false
@@ -8,16 +8,10 @@ slug: about-nico-tech-shenzhen-community
 date: 2017-06-20
 ---
 
-ニコ技深圳コミュニティとは About Nico-Tech Shenzhen Community {#ニコ技深圳コミュニティとは-about-nico-tech-shenzhen-community .p-name}
-=============================================================
-
 ■ニコ技深圳コミュニティの活動:Nico-Tech Shenzhen Activity
 
 
 ------------------------------------------------------------------------
-
-### ニコ技深圳コミュニティとは About Nico-Tech Shenzhen Community {#9d14 .graf .graf--h3 .graf--leading .graf--title name="9d14"}
-
 ![深圳で行われているミートアップの様子。この写真に写ってる人たちが、僕たちの多様性を表しています。Eric
 Pan (SeeedStudio and Chaihuo CEO), Benzi (Swie AI hardware Start up
 CEO), Robin Wu (Hardware Startup CEO, a.k.a King of Shanzhai), Nico (
@@ -32,9 +26,7 @@ are diverse\]](https://cdn-images-1.medium.com/max/800/1*18r5Wu9wDMCaPngLqpX12w
 [**書籍「プロトタイプシティ」 第37回大平正芳記念賞 特別賞を受賞**\
 *ニコ技深圳コミュニティのメンバーが中心になって執筆され、2020年06月にKADOKAWAより刊行された「プロトタイプシティ」は、この度第37回大平正芳記念賞
 特別賞を受賞しました。*medium.com](https://medium.com/ecosystembymakers/prototypecity-f500a8377897 "https://medium.com/ecosystembymakers/prototypecity-f500a8377897"){.markup--anchor
-.markup--mixtapeEmbed-anchor}[](https://medium.com/ecosystembymakers/prototypecity-f500a8377897){.js-mixtapeImage
-.mixtapeImage .u-ignoreBlock}
-
+.markup--mixtapeEmbed-anchor}[](https://medium.com/ecosystembymakers/prototypecity-f500a8377897)
 We are Shenzhen based, Open Hardware community. Our office is
 HuaQiangBei, and over 3000 members on the Facebook group online. We were
 running the event 1--2 per month, writing the report for famous Japanese
@@ -87,8 +79,7 @@ Maker Ecosystem Ltd also support this community.
 ![Office in HuaQiangBei CEC-iValley. 17th Jan 2020
 ニコ技深圳コミュニティ華強北オフィス](https://cdn-images-1.medium.com/max/800/0*UH4pn_gT4J0vIV3x)
 
-### **Partner as Maker Faire Shenzhen/ニコ技深圳コミュニティはメイカーフェア深圳のパートナーです** {#206c .graf .graf--h3 .graf-after--figure name="206c"}
-
+### **Partner as Maker Faire Shenzhen/ニコ技深圳コミュニティはメイカーフェア深圳のパートナーです**
 ![](https://cdn-images-1.medium.com/max/800/1*k-M0YZwOfbluvoCRlSbAuw.png)
 
 ニコ技深圳コミュニティは、深圳に本拠を置くオープンハードウェアのためのコミュニティです。深圳の電気街華強北にオフィスがあり、Facebook上に3000名を超えるメンバーがいます。\
@@ -130,9 +121,7 @@ Shenzhen Community)としています。」\
 *形式：PDF (スマホでも読めるサイズで書いてます） ページ数：86
 (2018年版は64) 文字数：21530文字(2018年版より5000文字追加）
 このマッハ新書は個人版とエンタープライズ版があります。...*booth.pm](https://booth.pm/ja/items/1192465 "https://booth.pm/ja/items/1192465"){.markup--anchor
-.markup--mixtapeEmbed-anchor}[](https://booth.pm/ja/items/1192465){.js-mixtapeImage
-.mixtapeImage .u-ignoreBlock}
-
+.markup--mixtapeEmbed-anchor}[](https://booth.pm/ja/items/1192465)
 **■ニコ技深圳観察会とは**\
 ・ホテル、飛行機などの手配は各自\
 ・参加者は全員感想をインターネットに公開すること\
@@ -208,18 +197,14 @@ amazon等で入手できます。
 Books（NextPublishing）)**\
 *Amazonで高須
 正和の{ProductTitle}。アマゾンならポイント還元本が多数。一度購入いただいた電子書籍は、KindleおよびFire端末、スマートフォンやタブレットなど、様々な端末でもお楽しみいただけます。*www.amazon.co.jp](http://www.amazon.co.jp/exec/obidos/ASIN/B01AXRCDTU/amazletjp-22/ref=nosim/ "http://www.amazon.co.jp/exec/obidos/ASIN/B01AXRCDTU/amazletjp-22/ref=nosim/"){.markup--anchor
-.markup--mixtapeEmbed-anchor}[](http://www.amazon.co.jp/exec/obidos/ASIN/B01AXRCDTU/amazletjp-22/ref=nosim/){.js-mixtapeImage
-.mixtapeImage .u-ignoreBlock}
-
+.markup--mixtapeEmbed-anchor}[](http://www.amazon.co.jp/exec/obidos/ASIN/B01AXRCDTU/amazletjp-22/ref=nosim/)
 毎回観察会で訪れているJENESIS藤岡社長の単著が出ました。上記「メイカーズのエコシステム」にも寄稿いただいている藤岡さんの言葉は、深圳のハードウェア製造現場の生の声で満ちていて、特にハードウェア製造に興味ある人は必見です。
 
 [**「ハードウェアのシリコンバレー深セン」に学ぶ−これからの製造のトレンドとエコシステム
 (NextPublishing)**\
 *Amazonで藤岡
 淳一の{ProductTitle}。アマゾンならポイント還元本が多数。一度購入いただいた電子書籍は、KindleおよびFire端末、スマートフォンやタブレットなど、様々な端末でもお楽しみいただけます。*www.amazon.co.jp](http://www.amazon.co.jp/exec/obidos/ASIN/B077HX882D/hirayasutakas-22/ref=nosim/ "http://www.amazon.co.jp/exec/obidos/ASIN/B077HX882D/hirayasutakas-22/ref=nosim/"){.markup--anchor
-.markup--mixtapeEmbed-anchor}[](http://www.amazon.co.jp/exec/obidos/ASIN/B077HX882D/hirayasutakas-22/ref=nosim/){.js-mixtapeImage
-.mixtapeImage .u-ignoreBlock}
-
+.markup--mixtapeEmbed-anchor}[](http://www.amazon.co.jp/exec/obidos/ASIN/B077HX882D/hirayasutakas-22/ref=nosim/)
 2020年7月末に、最新書籍の「プロトタイプシティ
 深センと世界的イノベーション」が出ました。\
 高須正和、高口康太、澤田翔、藤岡淳一、伊藤亜聖、山形浩生、GOROman,ナオミ・ウーの各氏が寄稿やインタビューを通じて、深圳で起きているイノベーションについて解き明かそうとしています。
@@ -228,9 +213,7 @@ Books（NextPublishing）)**\
 *Amazonで高須 正和, 高口 康太, 澤田 翔, 藤岡 淳一, 伊藤 亜聖, 山形
 浩生のプロトタイプシティ
 深センと世界的イノベーション...*amzn.to](https://amzn.to/2QTRpzO "https://amzn.to/2QTRpzO"){.markup--anchor
-.markup--mixtapeEmbed-anchor}[](https://amzn.to/2QTRpzO){.js-mixtapeImage
-.mixtapeImage .u-ignoreBlock}
-
+.markup--mixtapeEmbed-anchor}[](https://amzn.to/2QTRpzO)
 **■深圳地図、サイズ\
 **この地図にあるように、端から端までだと2時間ぐらいあるサイズの都市なので、それなりに何を見るか計画してから来た方がいいと思います。\
 この地図はこのニコ技深圳交流会で制作したもので、クリエイティブコモンズ4.0(国際)で配布しています。クレジット表示いただければ、改変も商用利用も可能です。
@@ -275,6 +258,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [June 20, 2017](https://medium.com/p/e306f96168b8).
 
 [Canonical
-link](https://medium.com/@tks/about-e306f96168b8){.p-canonical}
-
+link](https://medium.com/@tks/about-e306f96168b8)
 Exported from [Medium](https://medium.com) on February 6, 2026.

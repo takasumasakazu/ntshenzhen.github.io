@@ -1,5 +1,5 @@
 ---
-title: "Happy CNY  I m still in Shenzhen  Feb 2021 monthly report"
+title: 'Happy CNY, I\`m still in Shenzhen. Feb/2021 monthly report'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*woiUBVjfVrQbI71eiHdptw.jpeg"
   relative: false
@@ -8,16 +8,12 @@ slug: happy-cny-i-m-still-in-shenzhen-feb-2021-monthly-report
 date: 2021-01-31
 ---
 
-Happy CNY, I\`m still in Shenzhen. Feb/2021 monthly report {#happy-cny-im-still-in-shenzhen.-feb2021-monthly-report .p-name}
-==========================================================
-
 This is TAKASU. Long time no see! I\`m in Shenzhen and happy busy days.
 
 
 ------------------------------------------------------------------------
 
-### Happy CNY, I\`m still in Shenzhen. Feb/2021 monthly report {#ab4b .graf .graf--h3 .graf--leading .graf--title name="ab4b"}
-
+### Happy CNY, I\`m still in Shenzhen. Feb/2021 monthly report
 ![I met Dr.Yin, She graduate from KANAZAWA university Japan, and working
 in Shenzhen
 goverment!](https://cdn-images-1.medium.com/max/800/1*woiUBVjfVrQbI71eiHdptw.jpeg)
@@ -45,6 +41,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [January 31, 2021](https://medium.com/p/fa6a18f9a3cb).
 
 [Canonical
-link](https://medium.com/@tks/202102-fa6a18f9a3cb){.p-canonical}
-
+link](https://medium.com/@tks/202102-fa6a18f9a3cb)
 Exported from [Medium](https://medium.com) on February 6, 2026.

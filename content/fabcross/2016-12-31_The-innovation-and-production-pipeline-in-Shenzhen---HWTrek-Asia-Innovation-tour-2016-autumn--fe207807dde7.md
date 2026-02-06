@@ -1,5 +1,5 @@
 ---
-title: "The innovation and production pipeline in Shenzhen   HWTrek Asia Innovation tour 2016 autumn "
+title: 'The innovation and production pipeline in Shenzhen. -HWTrek Asia Innovation tour 2016 autumn-'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*jgInW40ou8_E3ux4RE1DfA.jpeg"
   relative: false
@@ -8,17 +8,13 @@ slug: the-innovation-and-production-pipeline-in-shenzhen-hwtrek-asia-innovation-
 date: 2016-12-31
 ---
 
-The innovation and production pipeline in Shenzhen. -HWTrek Asia Innovation tour 2016 autumn- {#the-innovation-and-production-pipeline-in-shenzhen.--hwtrek-asia-innovation-tour-2016-autumn- .p-name}
-=============================================================================================
-
 HWTrek is doing business that connects world startup and mainly Shenzhen
 manufacturer. They hold a tour to introduce the manufacturing...
 
 
 ------------------------------------------------------------------------
 
-### The innovation and production pipeline in Shenzhen. -HWTrek Asia Innovation tour 2016 autumn- {#9192 .graf .graf--h3 .graf--leading .graf--title name="9192"}
-
+### The innovation and production pipeline in Shenzhen. -HWTrek Asia Innovation tour 2016 autumn-
 HWTrek is doing business that connects world startup and mainly Shenzhen
 manufacturer. They hold a tour to introduce the manufacturing network to
 the startup twice a year. I will introduce the situation of the tour and
@@ -453,6 +449,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [December 31, 2016](https://medium.com/p/fe207807dde7).
 
 [Canonical
-link](https://medium.com/@tks/prototype-for-production-ecosystem-at-shenzhen-fe207807dde7){.p-canonical}
-
+link](https://medium.com/@tks/prototype-for-production-ecosystem-at-shenzhen-fe207807dde7)
 Exported from [Medium](https://medium.com) on February 6, 2026.

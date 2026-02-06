@@ -1,5 +1,5 @@
 ---
-title: "Maker Faire Tokyo 2019                                             "
+title: 'Maker Faire Tokyo 2019 講演動画「ハードウェアハッカーと同人ハードウェア」 高須正和 + ニコ技深圳コミュニティ'
 cover:
   image: "http://@masashiokawa"
   relative: false
@@ -8,16 +8,10 @@ slug: maker-faire-tokyo-2019
 date: 2019-08-07
 ---
 
-Maker Faire Tokyo 2019 講演動画「ハードウェアハッカーと同人ハードウェア」 高須正和 + ニコ技深圳コミュニティ {#maker-faire-tokyo-2019-講演動画ハードウェアハッカーと同人ハードウェア-高須正和-ニコ技深圳コミュニティ .p-name}
-===========================================================================================================
-
 メイカーフェア東京2019での講演動画とスライドを公開します。立ち見もたくさん出て、大好評の講演でした。
 
 
 ------------------------------------------------------------------------
-
-### Maker Faire Tokyo 2019 講演動画「ハードウェアハッカーと同人ハードウェア」 高須正和 + ニコ技深圳コミュニティ {#26a3 .graf .graf--h3 .graf--leading .graf--title name="26a3"}
-
 ![ハードウェアハッカーとそこから学べることについて話しました（写真は[オオカワマサシ](http://@masashiokawa){.markup--anchor
 .markup--figure-anchor}さんから、ありがとうございます！）](https://cdn-images-1.medium.com/max/800/1*SPD7MUlw_pnN_1EzDFxb_w.jpeg)
 
@@ -51,6 +45,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [August 7, 2019](https://medium.com/p/4a038355bfca).
 
 [Canonical
-link](https://medium.com/@tks/mftokyo2019-4a038355bfca){.p-canonical}
-
+link](https://medium.com/@tks/mftokyo2019-4a038355bfca)
 Exported from [Medium](https://medium.com) on February 6, 2026.

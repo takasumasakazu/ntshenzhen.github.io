@@ -1,5 +1,5 @@
 ---
-title: "draft_Finally  I will be back to Shenzhen soon "
+title: 'Finally, I will be back to Shenzhen soon.'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*61dFtiD4sTCsf7q8NbRa6Q.png"
   relative: false
@@ -9,17 +9,13 @@ slug: draft-finally-i-will-be-back-to-shenzhen-soon
 date: 2000-01-01
 ---
 
-Finally, I will be back to Shenzhen soon. {#finally-i-will-be-back-to-shenzhen-soon. .p-name}
-=========================================
-
 I told on COSCON'20 Chinese Open Source CONference. I saw that Open
 Source movement in China growing so rapidly. That huge supported from...
 
 
 ------------------------------------------------------------------------
 
-### Finally, I will be back to Shenzhen soon. And explore for Open Source movement in China. TAKASU & Nico-Tech Shenzhen Community Monthly news Nov/2020 {#ee2f .graf .graf--h3 .graf--leading .graf--title name="ee2f"}
-
+### Finally, I will be back to Shenzhen soon. And explore for Open Source movement in China. TAKASU & Nico-Tech Shenzhen Community Monthly news Nov/2020
 ![COSCON\`20 so
 impressive.](https://cdn-images-1.medium.com/max/800/1*61dFtiD4sTCsf7q8NbRa6Q.png)
 

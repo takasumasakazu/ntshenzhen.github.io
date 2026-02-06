@@ -1,5 +1,5 @@
 ---
-title: "   Maker                  4    Maker Faire Mini Maker Faire    2016    "
+title: '「人がMakerになる場所」古都・成都で開かれた中国4カ所目のMaker Faire、Mini Maker Faire 成都 2016レポート'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*pZQkTXGOcNcjvjYh3HEHFw.jpeg"
   relative: false
@@ -8,19 +8,14 @@ slug: maker-4-maker-faire-mini-maker-faire-2016
 date: 2025-03-21
 ---
 
-「人がMakerになる場所」古都・成都で開かれた中国4カ所目のMaker Faire、Mini Maker Faire 成都 2016レポート {#人がmakerになる場所古都成都で開かれた中国4カ所目のmaker-fairemini-maker-faire-成都-2016レポート .p-name}
-=======================================================================================================
-
 2017/01/24 08:00
 
 
 ------------------------------------------------------------------------
 
-### 「人がMakerになる場所」古都・成都で開かれた中国4カ所目のMaker Faire、Mini Maker Faire 成都 2016レポート {#b81f .graf .graf--h3 .graf--leading .graf--title name="b81f"}
-
+### 「人がMakerになる場所」古都・成都で開かれた中国4カ所目のMaker Faire、Mini Maker Faire 成都 2016レポート
 2017/01/24 08:00
 
-![](https://cdn-images-1.medium.com/max/800/1*pZQkTXGOcNcjvjYh3HEHFw.jpeg)
 
 三国志の蜀の都、諸葛孔明を祀る武候祠があり、パンダや麻婆豆腐といった名物でも有名な四川省の成都で「Mini
 Maker Faire 成都 2016」が開かれた。
@@ -33,8 +28,7 @@ Maker Faire 成都 2016をレポートする。
 
 ------------------------------------------------------------------------
 
-### 古都・成都のMaker Faireに11万人が集まる {#7334 .graf .graf--h3 .graf--leading name="7334"}
-
+### 古都・成都のMaker Faireに11万人が集まる
 四川省の省都であり、数千年前の殷の時代の遺構が残る古都・成都で2016年12月3～4日に開催された[**ChengDu
 Mini Maker
 Faire**](https://www.facebook.com/events/120039931803577/){.markup--anchor
@@ -58,8 +52,7 @@ Faire会場の中に巨大な野外ステージが作られ、地元のバンド
 
 ![ロボットコンテストも大人気。中国全土でいまロボットコンテストが人気で、各地区で行われているほか、DJIなどの大企業が開くものもある。ロボコン関連のテレビ番組も多い。](https://cdn-images-1.medium.com/max/800/1*dljZ9cSnv3jGH5txWrGPRw.jpeg)
 
-### 文化・教育・伝統工芸など多様な出展物 {#6890 .graf .graf--h3 .graf-after--figure name="6890"}
-
+### 文化・教育・伝統工芸など多様な出展物
 出展100組というのはMini Maker
 Faireらしい小規模さだが、スタートアップが多くを占める[**深センのMaker
 Faire**](https://fabcross.jp/topics/event_report/20161109_maker_faire_shenzhen_01.html){.markup--anchor
@@ -97,8 +90,7 @@ Faireでは、ハンドクラフトとスタートアップばかりで、いわ
 Faireっぽい電子工作をあまり見かけなかった。成都のMaker
 Faireではスタートアップとアマチュアの工作、テクノロジーのものとクラフトよりのものがバランスよく集められていて、どういう人が訪れても楽しめるようになっているのを感じた。うまいオーガナイズだ。
 
-### 成都のMaker文化を豊かにする海外からの出展者 {#bf0a .graf .graf--h3 .graf-after--p name="bf0a"}
-
+### 成都のMaker文化を豊かにする海外からの出展者
 今回のMaker Faire 成都には海外からの出展者も多く招かれている。[**Maker
 Media**](https://makermedia.com/){.markup--anchor
 .markup--p-anchor}のデール、サンフランシスコの[**Exploratorium**](https://www.exploratorium.edu/){.markup--anchor
@@ -117,8 +109,7 @@ Faireでおなじみの顔ぶれが成都に集まった。いずれもスター
 
 ![MakeMediaのデールも講演を行った。「MakerマインドはCando,できるということ。成都(ChengDu)はCandoに通じる」](https://cdn-images-1.medium.com/max/800/1*zwBoR6Y7q29jnxqyhBTozw.jpeg)
 
-### 成都でMaker Faireを開くに至った「天の時・地の利・人の和」 {#3f32 .graf .graf--h3 .graf-after--figure name="3f32"}
-
+### 成都でMaker Faireを開くに至った「天の時・地の利・人の和」
 今回のMaker Faire 成都は、深センのMaker
 Faireをオーガナイズしている柴火創客空間（Chaihuo
 MakerSpace以下Chaihuo）が成都にも進出してきて行っている。Chaihuoは、この連載でも紹介した[**Seeedのエリック・パン**](https://fabcross.jp/topics/tks/20160223_tks_01.html){.markup--anchor
@@ -174,6 +165,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 21, 2025](https://medium.com/p/2521d402d61e).
 
 [Canonical
-link](https://medium.com/@tks/20170124-2521d402d61e){.p-canonical}
-
+link](https://medium.com/@tks/20170124-2521d402d61e)
 Exported from [Medium](https://medium.com) on February 6, 2026.

@@ -1,5 +1,5 @@
 ---
-title: "Dale Dougherty said  Makermovement is still glowing  but Maker Faire Bay Area is difficult to "
+title: 'Dale Dougherty said, Makermovement is still glowing, but Maker Faire Bay Area is difficult to...'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*EgE9xT9Lr_tTP1IE0TWIGw.jpeg"
   relative: false
@@ -8,17 +8,13 @@ slug: dale-dougherty-said-makermovement-is-still-glowing-but-maker-faire-bay-are
 date: 2019-05-18
 ---
 
-Dale Dougherty said, Makermovement is still glowing, but Maker Faire Bay Area is difficult to... {#dale-dougherty-said-makermovement-is-still-glowing-but-maker-faire-bay-area-is-difficult-to .p-name}
-================================================================================================
-
 I heard from MakerMedia CEO Dale today at a press conference in Maker
 Faire Bay Area. This news is true.
 
 
 ------------------------------------------------------------------------
 
-### Dale Dougherty said, Makermovement is still glowing, but Maker Faire Bay Area is difficult to continue\... {#d824 .graf .graf--h3 .graf--leading .graf--title name="d824"}
-
+### Dale Dougherty said, Makermovement is still glowing, but Maker Faire Bay Area is difficult to continue\...
 I heard from MakerMedia CEO Dale (And also my good friend, I still
 respect and big hand to him)today at a press conference in Maker Faire
 Bay Area.\
@@ -28,9 +24,7 @@ This news is true.
 *The annual Maker Faire has been drawing inventors, craft-makers and
 engineers for more than a decade, but next
 week\'s...*www.sfchronicle.com](https://www.sfchronicle.com/business/article/Next-week-s-Maker-Faire-in-San-Mateo-could-be-13836040.php?psid=5fi3m#photo-10106992 "https://www.sfchronicle.com/business/article/Next-week-s-Maker-Faire-in-San-Mateo-could-be-13836040.php?psid=5fi3m#photo-10106992"){.markup--anchor
-.markup--mixtapeEmbed-anchor}[](https://www.sfchronicle.com/business/article/Next-week-s-Maker-Faire-in-San-Mateo-could-be-13836040.php?psid=5fi3m#photo-10106992){.js-mixtapeImage
-.mixtapeImage .u-ignoreBlock}
-
+.markup--mixtapeEmbed-anchor}[](https://www.sfchronicle.com/business/article/Next-week-s-Maker-Faire-in-San-Mateo-could-be-13836040.php?psid=5fi3m#photo-10106992)
 The MAKER is still valuable, and maker movement is still growing. But
 MFBA is a bit difficult by financing.
 
@@ -69,13 +63,10 @@ conference.
 [**dale-MFBApress on 20190518.mp3**\
 *Edit
 description*drive.google.com](https://drive.google.com/open?id=11Oo34d7dPxjBWBIJS0XJTVvydPpSSI9H "https://drive.google.com/open?id=11Oo34d7dPxjBWBIJS0XJTVvydPpSSI9H"){.markup--anchor
-.markup--mixtapeEmbed-anchor}[](https://drive.google.com/open?id=11Oo34d7dPxjBWBIJS0XJTVvydPpSSI9H){.js-mixtapeImage
-.mixtapeImage .mixtapeImage--empty .u-ignoreBlock}
-
+.markup--mixtapeEmbed-anchor}[](https://drive.google.com/open?id=11Oo34d7dPxjBWBIJS0XJTVvydPpSSI9H)
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [May 18, 2019](https://medium.com/p/4cf30ad4db6f).
 
 [Canonical
-link](https://medium.com/@tks/talkwithdale-4cf30ad4db6f){.p-canonical}
-
+link](https://medium.com/@tks/talkwithdale-4cf30ad4db6f)
 Exported from [Medium](https://medium.com) on February 6, 2026.

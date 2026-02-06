@@ -1,5 +1,5 @@
 ---
-title: "How to create a Hackerspace  A Night with Mitch Altman at Tokyo"
+title: 'How to create a Hackerspace -A Night with Mitch Altman at Tokyo'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*WJFnMTNJicC4eznUg08--g.jpeg"
   relative: false
@@ -8,17 +8,13 @@ slug: how-to-create-a-hackerspace-a-night-with-mitch-altman-at-tokyo
 date: 2016-07-19
 ---
 
-How to create a Hackerspace -A Night with Mitch Altman at Tokyo {#how-to-create-a-hackerspace--a-night-with-mitch-altman-at-tokyo .p-name}
-===============================================================
-
 Mitch Altman, He is great hacker, one of the famous gurus of the Hacker
 Space movement, and my old friend. We often met hacker event on the...
 
 
 ------------------------------------------------------------------------
 
-### How to create a Hackerspace -A Night with Mitch Altman at Tokyo {#5d98 .graf .graf--h3 .graf--leading .graf--title name="5d98"}
-
+### How to create a Hackerspace -A Night with Mitch Altman at Tokyo
 Mitch Altman, He is great hacker, one of the famous gurus of the Hacker
 Space movement, and my old friend. We often met hacker event on the
 glove.\
@@ -32,7 +28,6 @@ Hackerspace](http://www.tokyohackerspace.org/){.markup--anchor
 .markup--p-anchor}, we told about How to create a Hackerspace each
 other.
 
-![](https://cdn-images-1.medium.com/max/800/1*WJFnMTNJicC4eznUg08--g.jpeg)
 
 That was so good time with full seats of audience.
 
@@ -46,6 +41,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [July 19, 2016](https://medium.com/p/cf58e6e8e252).
 
 [Canonical
-link](https://medium.com/@tks/how-to-create-a-hackerspace-a-night-with-mitch-altman-at-tokyo-cf58e6e8e252){.p-canonical}
-
+link](https://medium.com/@tks/how-to-create-a-hackerspace-a-night-with-mitch-altman-at-tokyo-cf58e6e8e252)
 Exported from [Medium](https://medium.com) on February 6, 2026.

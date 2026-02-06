@@ -1,5 +1,5 @@
 ---
-title: "See you in NY and Singapore  Monthly Report 2020 March"
+title: 'See you in NY and Singapore! Monthly Report 2020/March'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*AYLFJn-jk0RoZ6AmLx562Q.jpeg"
   relative: false
@@ -8,17 +8,11 @@ slug: see-you-in-ny-and-singapore-monthly-report-2020-march
 date: 2020-02-29
 ---
 
-See you in NY and Singapore! Monthly Report 2020/March {#see-you-in-ny-and-singapore-monthly-report-2020march .p-name}
-======================================================
-
 Long time no see, I\`m not able to send monthly reports from Shenzhen,
 because too much trip.
 
 
 ------------------------------------------------------------------------
-
-### See you in NY and Singapore! Monthly Report 2020/March {#21ac .graf .graf--h3 .graf--leading .graf--title name="21ac"}
-
 Long time no see, I\`m not able to send monthly reports from Shenzhen,
 because too much trip.
 
@@ -31,7 +25,6 @@ lecturer there, talk about Mass innovation from Shenzhen. I invite some
 guest talk in my lecture, you can see our friend, Jie Qi talk about MIT
 Media Lab / TODAI in Shenzhen and the story of her.
 
-![](https://cdn-images-1.medium.com/max/800/1*AYLFJn-jk0RoZ6AmLx562Q.jpeg)
 
 MIT Media Lab Shenzhen
 
@@ -81,6 +74,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [February 29, 2020](https://medium.com/p/eea8e268ac80).
 
 [Canonical
-link](https://medium.com/@tks/202003-eng-eea8e268ac80){.p-canonical}
-
+link](https://medium.com/@tks/202003-eng-eea8e268ac80)
 Exported from [Medium](https://medium.com) on February 6, 2026.

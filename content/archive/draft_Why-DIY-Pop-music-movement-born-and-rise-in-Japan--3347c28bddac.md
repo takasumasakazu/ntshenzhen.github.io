@@ -1,13 +1,10 @@
 ---
-title: "draft_Why DIY Pop music movement born and rise in Japan "
+title: 'Why DIY Pop music movement born and rise in Japan?'
 draft: true
 aliases: ["/2000/01/draft-why-diy-pop-music-movement-born-and-rise-in-japan/"]
 slug: draft-why-diy-pop-music-movement-born-and-rise-in-japan
 date: 2000-01-01
 ---
-
-Why DIY Pop music movement born and rise in Japan? {#why-diy-pop-music-movement-born-and-rise-in-japan .p-name}
-==================================================
 
 HATSUNE Miku and other voice synthesizer chalactors are famous in the
 world. Most one HATSUNE Miku selected by Google theme song singer...

@@ -1,5 +1,5 @@
 ---
-title: "  Maker Faire        100       Maker          "
+title: '海外Maker Faireへの出展ブーム 100人規模の日本人Makerが台湾や深センなどへ'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*9rIlmY2mATuT93fdyNnPzw.jpeg"
   relative: false
@@ -8,19 +8,12 @@ slug: maker-faire-100-maker
 date: 2025-03-23
 ---
 
-海外Maker Faireへの出展ブーム 100人規模の日本人Makerが台湾や深センなどへ {#海外maker-faireへの出展ブーム-100人規模の日本人makerが台湾や深センなどへ .p-name}
-========================================================================
-
 2017/11/06 11:45
 
 
 ------------------------------------------------------------------------
-
-### 海外Maker Faireへの出展ブーム 100人規模の日本人Makerが台湾や深センなどへ {#d830 .graf .graf--h3 .graf--leading .graf--title name="d830"}
-
 2017/11/06 11:45
 
-![](https://cdn-images-1.medium.com/max/800/1*9rIlmY2mATuT93fdyNnPzw.jpeg)
 
 11月に相次いで行われるMaker Faire Taipei（2017年11月3～5日）、Maker
 Faire
@@ -29,8 +22,7 @@ Shenzhen（2017年11月10～12日）にはどちらも多くの日本人出展�
 
 ------------------------------------------------------------------------
 
-### 今年は日本人メインのミートアップも行われる {#d525 .graf .graf--h3 .graf--leading name="d525"}
-
+### 今年は日本人メインのミートアップも行われる
 ミートアップは「同じ場所に集まって、会う」という意味で、オフ会と同じような感じだ。ビジネス系のミートアップはお互いの名刺交換から始まるし、Maker系だとデモを持ってくることがある。今のMaker
 Faire Tokyoは昔はMake Tokyo
 Meetingと称していて、DIYをしている同士が出会う、より同人的なイベントだった。お祭り、「フェア」となった今もその精神は受け継がれている。
@@ -57,8 +49,7 @@ Shenzhen**](https://www.facebook.com/events/824711091041533/){.markup--anchor
 .markup--p-anchor}（白石州美食街、Shenzhen）として、日本人メインのミートアップを行う。いずれもキャッシュオンデリバリーの参加しやすいミーティングなので、それぞれのMaker
 Faireを訪れるならぜひミートアップにも参加してみるのをおすすめする。
 
-### 「ニコニコ技術部」が加速させたMaker Faire Taipeiへの出展 {#81f2 .graf .graf--h3 .graf-after--p name="81f2"}
-
+### 「ニコニコ技術部」が加速させたMaker Faire Taipeiへの出展
 台北と深センはどちらも日本から近いほうのMaker
 Faireだが、同程度に近いソウル、香港、台南などに比べても日本からの参加者が増加しているのはそれぞれ理由がある。
 
@@ -106,8 +97,7 @@ Faire Taipeiに集まると思われる。
 Tokyoへの出展や参加は毎年かなり多く（僕がざっくりMaker Faire
 Tokyoをまわったり知人に尋ねた感じでは30人ほど）、今後もますます盛んに交流していくことになるだろう。
 
-### 中国への経済的な興味から増えるMaker Faire Shenzhenの訪問者 {#5e48 .graf .graf--h3 .graf-after--p name="5e48"}
-
+### 中国への経済的な興味から増えるMaker Faire Shenzhenの訪問者
 Maker Faire
 Shenzhenも同じく2015年に共同出展を行ったが、台北よりも暑いうえに野外展示になることや、インターネットや交通の問題などがあり、台北よりは出展のハードルが高く、現在は共同出展を行っていない。
 
@@ -145,6 +135,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 23, 2025](https://medium.com/p/2e5b76f64fb2).
 
 [Canonical
-link](https://medium.com/@tks/20171106-2e5b76f64fb2){.p-canonical}
-
+link](https://medium.com/@tks/20171106-2e5b76f64fb2)
 Exported from [Medium](https://medium.com) on February 6, 2026.

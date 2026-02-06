@@ -1,5 +1,5 @@
 ---
-title: "My first trip to Manila  for Maker Faire "
+title: 'My first trip to Manila, for Maker Faire!'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*TUb3r57zaWzZ9d5DOddxXQ.jpeg"
   relative: false
@@ -8,17 +8,13 @@ slug: my-first-trip-to-manila-for-maker-faire
 date: 2019-05-31
 ---
 
-My first trip to Manila, for Maker Faire! {#my-first-trip-to-manila-for-maker-faire .p-name}
-=========================================
-
 I had a good rest in Shenzhen in these few weeks, after Maker Faire Bay
 Area. MFBA this year became a bit smaller by a financial issue, but...
 
 
 ------------------------------------------------------------------------
 
-### My first trip to Manila, for Maker Faire! TAKASU & Nico-Tech Shenzhen Community Monthly news June/2019 {#7f6b .graf .graf--h3 .graf--leading .graf--title name="7f6b"}
-
+### My first trip to Manila, for Maker Faire! TAKASU & Nico-Tech Shenzhen Community Monthly news June/2019
 I had a good rest in Shenzhen in these few weeks, after Maker Faire Bay
 Area. MFBA this year became a bit smaller by a financial issue, but
 still beautiful. I heard from Dale about the issue, sounds a bit
@@ -80,6 +76,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [May 31, 2019](https://medium.com/p/f0ac11dd850f).
 
 [Canonical
-link](https://medium.com/@tks/201906-f0ac11dd850f){.p-canonical}
-
+link](https://medium.com/@tks/201906-f0ac11dd850f)
 Exported from [Medium](https://medium.com) on February 6, 2026.

@@ -1,5 +1,5 @@
 ---
-title: "Make Vol 61        SINO BIT             "
+title: 'Make:Vol.61 「サイボーグとSINO:BIT」セクシーサイボーグ様寄稿'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*b3j3H9PTHoqlyHr1jx-QxA.png"
   relative: false
@@ -8,9 +8,6 @@ slug: make-vol-61-sino-bit
 date: 2018-02-16
 ---
 
-Make:Vol.61 「サイボーグとSINO:BIT」セクシーサイボーグ様寄稿 {#makevol.61-サイボーグとsinobitセクシーサイボーグ様寄稿 .p-name}
-============================================================
-
 セクシーサイボーグとして知られる深センのメイカーNaomi
 Wuが語る、彼女の旅、インスピレーション、そして中国初の認定オープンソースハードウェアプロジェクト
 オリジナル Make:Vol61 プロジェクト杉田玄白参加作品 翻訳：高須正和
@@ -18,14 +15,10 @@ Wuが語る、彼女の旅、インスピレーション、そして中国初の
 
 
 ------------------------------------------------------------------------
-
-### Make:Vol.61 「サイボーグとSINO:BIT」セクシーサイボーグ様寄稿 {#5d3f .graf .graf--h3 .graf--leading .graf--title name="5d3f"}
-
 **セクシーサイボーグとして知られる深センのメイカーNaomi
 Wuが語る、彼女の旅、インスピレーション、そして中国初の認定オープンソースハードウェアプロジェクト**\
  [オリジナル
-Make:Vol61](https://makezine.com/2018/01/11/announcing-make-vol-61/){.markup--anchor
-.markup--p-anchor}
+Make:Vol61](https://makezine.com/2018/01/11/announcing-make-vol-61/)
 [プロジェクト杉田玄白](http://www.genpaku.org/){.markup--anchor
 .markup--p-anchor}参加作品
 翻訳：[高須正和](https://note.mu/takasu/m/m55763d81ba8e){.markup--anchor
@@ -35,7 +28,6 @@ Make:Vol61](https://makezine.com/2018/01/11/announcing-make-vol-61/){.markup--an
 Wu](https://twitter.com/RealSexyCyborg){.markup--anchor
 .markup--p-anchor})
 
-![](https://cdn-images-1.medium.com/max/800/1*b3j3H9PTHoqlyHr1jx-QxA.png)
 
 **私はNaomi
 Wu（**[**\@realsexycyborg**](http://twitter.com/realsexycyborg "Twitter profile for @realsexycyborg"){.markup--anchor
@@ -190,18 +182,13 @@ Make:Magazine)に感謝します。インタビューを読んでいて日本の
 *2016年12月20日 1400－1630 Holly\'s Coffee @ 深圳 新世界購買中心
 聞き手：高須正和、
 山形浩生...*cruel.hatenablog.com](http://cruel.hatenablog.com/entry/2016/12/24/152545 "http://cruel.hatenablog.com/entry/2016/12/24/152545"){.markup--anchor
-.markup--mixtapeEmbed-anchor}[](http://cruel.hatenablog.com/entry/2016/12/24/152545){.js-mixtapeImage
-.mixtapeImage .u-ignoreBlock}
-
+.markup--mixtapeEmbed-anchor}[](http://cruel.hatenablog.com/entry/2016/12/24/152545)
 [**書籍「世界ハッカースペースガイド」**\
 *目先の利益なんか関係なしに、面白い！と思う能力さえあれば、ハッカースペースは実に楽しい場所になりうる。そして本書はそのまたとないガイドになるだろう。（解説：山形浩生）*medium.com](https://medium.com/ecosystembymakers/hackerspace-d1cb55e77c50 "https://medium.com/ecosystembymakers/hackerspace-d1cb55e77c50"){.markup--anchor
-.markup--mixtapeEmbed-anchor}[](https://medium.com/ecosystembymakers/hackerspace-d1cb55e77c50){.js-mixtapeImage
-.mixtapeImage .u-ignoreBlock}
-
+.markup--mixtapeEmbed-anchor}[](https://medium.com/ecosystembymakers/hackerspace-d1cb55e77c50)
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [February 16, 2018](https://medium.com/p/bd590ad505c4).
 
 [Canonical
-link](https://medium.com/@tks/sexycyborg-bd590ad505c4){.p-canonical}
-
+link](https://medium.com/@tks/sexycyborg-bd590ad505c4)
 Exported from [Medium](https://medium.com) on February 6, 2026.

@@ -1,5 +1,5 @@
 ---
-title: "Stamp Fly  A  50 Open Source Drone Co Created in Shenzhen and Japan"
+title: 'Stamp Fly: A \$50 Open-Source Drone Co-Created in Shenzhen and Japan'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*1uqOgsNguiILuAR6v0GCrQ.jpeg"
   relative: false
@@ -8,17 +8,12 @@ slug: stamp-fly-a-50-open-source-drone-co-created-in-shenzhen-and-japan
 date: 2025-04-29
 ---
 
-Stamp Fly: A \$50 Open-Source Drone Co-Created in Shenzhen and Japan {#stamp-fly-a-50-open-source-drone-co-created-in-shenzhen-and-japan .p-name}
-====================================================================
-
 Why We Built Stamp Fly
 
 
 ------------------------------------------------------------------------
 
-### Stamp Fly: A \$50 Open-Source Drone Co-Created in Shenzhen and Japan {#a87f .graf .graf--h3 .graf--leading .graf--title name="a87f"}
-
-![](https://cdn-images-1.medium.com/max/800/1*1uqOgsNguiILuAR6v0GCrQ.jpeg)
+### Stamp Fly: A \$50 Open-Source Drone Co-Created in Shenzhen and Japan
 
 **Why We Built Stamp Fly**
 
@@ -84,9 +79,7 @@ kits**\
 *Open-source modular toolkits for IoT devices based on ESP32-updated
 version of ESP8266. With stackable
 modules...*m5stack.com](https://m5stack.com/ "https://m5stack.com/"){.markup--anchor
-.markup--mixtapeEmbed-anchor}[](https://m5stack.com/){.js-mixtapeImage
-.mixtapeImage .u-ignoreBlock}
-
+.markup--mixtapeEmbed-anchor}[](https://m5stack.com/)
 🏫 Interested in using Stamp Fly in your class or workshop? Let's
 connect!
 
@@ -97,6 +90,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [April 29, 2025](https://medium.com/p/d6db5d30179c).
 
 [Canonical
-link](https://medium.com/@tks/stampfly-d6db5d30179c){.p-canonical}
-
+link](https://medium.com/@tks/stampfly-d6db5d30179c)
 Exported from [Medium](https://medium.com) on February 6, 2026.

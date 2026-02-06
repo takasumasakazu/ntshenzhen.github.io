@@ -1,5 +1,5 @@
 ---
-title: "My new challenge  lecture in the Waseda Univercity MBA course "
+title: 'My new challenge, lecture in the Waseda Univercity MBA course.'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*jfxBsnnZtPIP5dsTsNK9sQ.jpeg"
   relative: false
@@ -8,17 +8,13 @@ slug: my-new-challenge-lecture-in-the-waseda-univercity-mba-course
 date: 2019-02-28
 ---
 
-My new challenge, lecture in the Waseda Univercity MBA course. {#my-new-challenge-lecture-in-the-waseda-univercity-mba-course. .p-name}
-==============================================================
-
 Takaku just back to Shenzhen, Back to the future, back to busy
 days.Finally, I ended my CNY holiday in the Philippines.
 
 
 ------------------------------------------------------------------------
 
-### My new challenge, lecture in the Waseda Univercity MBA course. TAKASU & Nico-Tech Shenzhen Community Monthly news Mar/2019 {#dd60 .graf .graf--h3 .graf--leading .graf--title name="dd60"}
-
+### My new challenge, lecture in the Waseda Univercity MBA course. TAKASU & Nico-Tech Shenzhen Community Monthly news Mar/2019
 Takaku just back to Shenzhen, Back to the future, back to busy
 days.Finally, I ended my CNY holiday in the Philippines.
 
@@ -80,6 +76,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [February 28, 2019](https://medium.com/p/ddad8b26554c).
 
 [Canonical
-link](https://medium.com/@tks/201903-ddad8b26554c){.p-canonical}
-
+link](https://medium.com/@tks/201903-ddad8b26554c)
 Exported from [Medium](https://medium.com) on February 6, 2026.

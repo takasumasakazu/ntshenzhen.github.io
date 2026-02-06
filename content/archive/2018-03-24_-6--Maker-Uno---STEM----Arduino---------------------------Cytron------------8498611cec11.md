@@ -1,5 +1,5 @@
 ---
-title: " 6  Maker Uno   STEM    Arduino                           Cytron           "
+title: '\$6の「Maker Uno」は STEM教育特化Arduino。マジックで名前を書ける。マレーシアのスタートアップ Cytronが教育者と連携して開発'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*v7SSKAwo7Ztb7gtFLvVa1w.jpeg"
   relative: false
@@ -8,23 +8,16 @@ slug: 6-maker-uno-stem-arduino-cytron
 date: 2018-03-24
 ---
 
-\$6の「Maker Uno」は STEM教育特化Arduino。マジックで名前を書ける。マレーシアのスタートアップ Cytronが教育者と連携して開発 {#のmaker-unoは-stem教育特化arduinoマジックで名前を書けるマレーシアのスタートアップ-cytronが教育者と連携して開発 .p-name}
-=========================================================================================================================
-
 スイッチサイエンスのパートナーでもある、マレーシア・ペナンのCytronが作った
 Maker Uno すごく面白い製品です。 学校教育に特化したArduino互換品。
 
 
 ------------------------------------------------------------------------
-
-### \$6の「Maker Uno」は STEM教育特化Arduino。マジックで名前を書ける。マレーシアのスタートアップ Cytronが教育者と連携して開発 {#2db2 .graf .graf--h3 .graf--leading .graf--title name="2db2"}
-
 [スイッチサイエンス](https://www.facebook.com/SwitchScience/?fref=mentions){.markup--anchor
 .markup--p-anchor}のパートナーでもある、マレーシア・ペナンの[Cytron](https://www.cytron.io/){.markup--anchor
 .markup--p-anchor}が作った Maker Uno すごく面白い製品です。\
 学校教育に特化したArduino互換品。
 
-![学校用。名前を書ける](https://cdn-images-1.medium.com/max/800/1*v7SSKAwo7Ztb7gtFLvVa1w.jpeg)
 
 Kickstarterキャンペーン中
 
@@ -73,6 +66,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 24, 2018](https://medium.com/p/8498611cec11).
 
 [Canonical
-link](https://medium.com/@tks/makeruno-8498611cec11){.p-canonical}
-
+link](https://medium.com/@tks/makeruno-8498611cec11)
 Exported from [Medium](https://medium.com) on February 6, 2026.

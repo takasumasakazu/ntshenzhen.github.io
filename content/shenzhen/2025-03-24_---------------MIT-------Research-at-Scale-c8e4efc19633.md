@@ -1,5 +1,5 @@
 ---
-title: "               MIT       Research at Scale"
+title: '研究者と製造現場の間を埋める MITメディアラボのResearch at Scale'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*lplDvpPRJHAfhkWenF7LNw.jpeg"
   relative: false
@@ -8,26 +8,20 @@ slug: mit-research-at-scale
 date: 2025-03-24
 ---
 
-研究者と製造現場の間を埋める MITメディアラボのResearch at Scale {#研究者と製造現場の間を埋める-mitメディアラボのresearch-at-scale .p-name}
-===============================================================
-
 2019/09/02 07:30
 
 
 ------------------------------------------------------------------------
 
-### 研究者と製造現場の間を埋める MITメディアラボのResearch at Scale {#209c .graf .graf--h3 .graf--leading .graf--title name="209c"}
-
+### 研究者と製造現場の間を埋める MITメディアラボのResearch at Scale
 2019/09/02 07:30
 
 この連載でも何度か取りあげた「ハードウェアハッカー」（技術評論社刊）の著者、アンドリュー"バニー"ファンは、MITメディアラボの研究者でもある。彼は、MITの研究者を製造現場と連携させて研究の社会実装を後押しするプロジェクト、「Research
 at
 Scale」としての深セン／東莞合宿を2013年から主導している。スタートアップに向けたアドバイス、工場と研究者がコラボすることの可能性など、さまざまな知見を得られるプロジェクトだ。今回はプロジェクトが生まれた経緯と全体像について紹介する。
 
-![印刷工場内で製造プロセスについて説明する「ハードウェアハッカー」著者バニー。](https://cdn-images-1.medium.com/max/800/1*lplDvpPRJHAfhkWenF7LNw.jpeg)
 
-### 「Deploy」社会実装をスローガンにしたラボ {#5819 .graf .graf--h3 .graf-after--figure name="5819"}
-
+### 「Deploy」社会実装をスローガンにしたラボ
 MITメディアラボは研究の社会実装を旗印にしている。研究者が自らの発見を共有する方法としてはまず学会と論文がある。論文発表を推奨するために、「Publish
 or
 Perish」という言葉がある。「発表しなければ去れ」という意味の言葉だ。MITメディアラボの共同設立者ニコラス・ネグロポンテは、それをアレンジした「Demo
@@ -41,8 +35,7 @@ MITメディアラボからはビジュアルプログラミング言語の[**Sc
 .markup--p-anchor}や教育用ハードウェアの[**littleBits**](https://www.littlebits-jp.com/){.markup--anchor
 .markup--p-anchor}など、実際に直接社会で役立っているアウトプットがいくつも出てきている。研究プロジェクトの社会実装のためにクラウドファンディングが行われ、そのままスタートアップ企業になるケースもある。
 
-### プロジェクトから生まれたスタートアップが、次の研究者を生む {#2ca1 .graf .graf--h3 .graf-after--p name="2ca1"}
-
+### プロジェクトから生まれたスタートアップが、次の研究者を生む
 2013年から一貫してプロジェクトをけん引しているバニーは、MITメディアラボの研究者とスタートアップ企業Chibitronicsの創業者、二つの顔を持っている。
 
 ChibitronicsはこのResearch at
@@ -68,8 +61,7 @@ Scale単体で現地の会社の利益が出ているわけではないが、い
 at
 ScaleはMITと東京大学との合同プロジェクトになった。また、僕はハードウェアハッカーの翻訳やChibitronicsの販売などで、ここ1年バニーやジーほか関係者との連絡を密に取っていて、深センに住んでいることから、サポートとして参加することになった。
 
-### 最も難しいのはプロジェクトの選び方 {#6d6f .graf .graf--h3 .graf-after--p name="6d6f"}
-
+### 最も難しいのはプロジェクトの選び方
 MITメディアラボの深センプロジェクトは、Research at
 Scaleというタイトルが付いている。文字の通り、研究成果をスケールアップ、数千個以上の量産につなげるというスローガンだ。また、技術やノウハウの塊である工場に工学系の研究者が長期にわたってコミットすることで、量産プロセスを改変して新しい製造をすることも含まれ、そちらの試みはHacking
 the Manufacturlingというタイトルが付けられている。
@@ -87,6 +79,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 24, 2025](https://medium.com/p/c8e4efc19633).
 
 [Canonical
-link](https://medium.com/@tks/20190902-c8e4efc19633){.p-canonical}
-
+link](https://medium.com/@tks/20190902-c8e4efc19633)
 Exported from [Medium](https://medium.com) on February 6, 2026.

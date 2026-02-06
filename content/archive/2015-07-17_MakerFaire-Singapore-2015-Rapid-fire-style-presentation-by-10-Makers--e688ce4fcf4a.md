@@ -1,12 +1,9 @@
 ---
-title: "MakerFaire Singapore 2015 Rapid fire style presentation by 10 Makers "
+title: 'MakerFaire Singapore 2015 Rapid fire style presentation by 10 Makers.'
 aliases: ["/2015/07/makerfaire-singapore-2015-rapid-fire-style-presentation-by-10-makers/"]
 slug: makerfaire-singapore-2015-rapid-fire-style-presentation-by-10-makers
 date: 2015-07-17
 ---
-
-MakerFaire Singapore 2015 Rapid fire style presentation by 10 Makers. {#makerfaire-singapore-2015-rapid-fire-style-presentation-by-10-makers. .p-name}
-=====================================================================
 
 In MakerFaire Singapore 2015, We made NicoNico Gakkai Beta Style
 presentation. That is only 3 min presentation by makers, more focusing
@@ -15,8 +12,7 @@ and...
 
 ------------------------------------------------------------------------
 
-### MakerFaire Singapore 2015 Rapid fire style presentation by 10 Makers. {#1f7b .graf .graf--h3 .graf--leading .graf--title name="1f7b"}
-
+### MakerFaire Singapore 2015 Rapid fire style presentation by 10 Makers.
 In MakerFaire Singapore 2015, We made NicoNico Gakkai Beta Style
 presentation.\
 That is only 3 min presentation by makers, more focusing and more
@@ -128,6 +124,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [July 17, 2015](https://medium.com/p/e688ce4fcf4a).
 
 [Canonical
-link](https://medium.com/@tks/makerfaire-singapore-2015-rapid-fire-style-presentation-by-10-makers-e688ce4fcf4a){.p-canonical}
-
+link](https://medium.com/@tks/makerfaire-singapore-2015-rapid-fire-style-presentation-by-10-makers-e688ce4fcf4a)
 Exported from [Medium](https://medium.com) on February 6, 2026.

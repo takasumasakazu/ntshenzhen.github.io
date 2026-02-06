@@ -1,5 +1,5 @@
 ---
-title: "             Maker Faire           Maker Faire       "
+title: "日本から出展しやすい海外のMaker Faire --- --- 国ごとに違うMaker Faireのキャラクター"
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*bRmGx4TkXv_Q06_h3qQhVA.jpeg"
   relative: false
@@ -8,19 +8,12 @@ slug: maker-faire-maker-faire
 date: 2025-03-23
 ---
 
-日本から出展しやすい海外のMaker Faire --- --- 国ごとに違うMaker Faireのキャラクター {#日本から出展しやすい海外のmaker-faire-国ごとに違うmaker-faireのキャラクター .p-name}
-===================================================================================
-
 2017/07/03 08:00
 
 
 ------------------------------------------------------------------------
-
-### 日本から出展しやすい海外のMaker Faire --- --- 国ごとに違うMaker Faireのキャラクター {#8395 .graf .graf--h3 .graf--leading .graf--title name="8395"}
-
 2017/07/03 08:00
 
-![](https://cdn-images-1.medium.com/max/800/1*bRmGx4TkXv_Q06_h3qQhVA.jpeg)
 
 8月にはMaker Faire Tokyoが開催されるが、この夏はアジア各国でもMaker
 Faireが行われている。アジアにはまだ「はじめてのMaker
@@ -31,8 +24,7 @@ Faireを紹介する。
 
 ------------------------------------------------------------------------
 
-### Make Tokyo Meeting、マイナーなイベントだった頃を懐かしむ {#31c5 .graf .graf--h3 .graf--leading name="31c5"}
-
+### Make Tokyo Meeting、マイナーなイベントだった頃を懐かしむ
 今年もMaker Faire
 Tokyoへの出展の当選・落選が発表され、Makerたちの悲喜こもごもが見られた。Maker
 Faire
@@ -72,8 +64,7 @@ Makeの世界は広い。Maker Faire
 Tokyoとは違った楽しみ方ができて、日本から気軽に出展できるいくつかのMaker
 Faireを紹介しよう。
 
-### 中国らしい大規模さが期待できる Maker Faire Xian（中国・西安） {#f781 .graf .graf--h3 .graf-after--p name="f781"}
-
+### 中国らしい大規模さが期待できる Maker Faire Xian（中国・西安）
 ![Maker Faire
 Xianのサイン。秦始皇帝陵の兵馬俑で知られる西安だけに、Maker
 FaireのシンボルMakeyが兵馬俑型になっている。](https://cdn-images-1.medium.com/max/800/1*Kw0Lv_h1lkdkLb2PnPYuKA.jpeg)
@@ -112,13 +103,10 @@ Faire
 会場：中国陝西省西安市 曲江国際会展中心\
 公式サイト：情報少なく、[**Facebookグループ**](https://www.facebook.com/makerfairexian/){.markup--anchor
 .markup--p-anchor}を確認するのがお勧め\
-日本人向け共同出展案内：[**http://j.nicotech.jp/ntxian2017**](http://j.nicotech.jp/ntxian2017){.markup--anchor
-.markup--p-anchor}
-
+日本人向け共同出展案内：[**http://j.nicotech.jp/ntxian2017**](http://j.nicotech.jp/ntxian2017)
 ![中国のロボット作者による鉄製のMakeyも制作中。口から火を噴くという。](https://cdn-images-1.medium.com/max/800/1*Bp1NV1QLVh9wK2rlIU0QwA.jpeg)
 
-### STEM教育とMakeの融合が見られる Maker Faire Singapore （シンガポール） {#b6fb .graf .graf--h3 .graf-after--figure name="b6fb"}
-
+### STEM教育とMakeの融合が見られる Maker Faire Singapore （シンガポール）
 Maker Faire Xianの翌週、東南アジアの都市国家シンガポールでMaker
 Faireが開かれる。教育省の配下にあるサイエンスセンターシンガポールが主催で、Fabcrossでは[**シンガポールの国家戦略に組み込まれる
 Maker Faire Singapore
@@ -148,11 +136,8 @@ Faireとしてお勧めでもある。
 会場：Science Centre Singapore\
 公式サイト：[**http://makerfairesingapore.com/**](http://makerfairesingapore.com/){.markup--anchor
 .markup--p-anchor}\
-日本人向け共同出展案内：[**http://j.nicotech.jp/nt\_Singapore\_2017**](http://j.nicotech.jp/nt_Singapore_2017){.markup--anchor
-.markup--p-anchor}
-
-### もっとも日本に近いカルチャーのMaker Faire Taipei（台湾・台北） {#3eca .graf .graf--h3 .graf-after--p name="3eca"}
-
+日本人向け共同出展案内：[**http://j.nicotech.jp/nt\_Singapore\_2017**](http://j.nicotech.jp/nt_Singapore_2017)
+### もっとも日本に近いカルチャーのMaker Faire Taipei（台湾・台北）
 台湾のMaker
 Faireは、日本と同じく出版社が運営しているせいか、ホビーベースの出展が多く、Maker
 Faire
@@ -176,13 +161,10 @@ Faireは現在も申し込みを受け付けているが、出展費とデポジ
 会場：華山1914創意文化園區\
 公式サイト：[**http://www.makerfaire.com.tw/**](http://www.makerfaire.com.tw/){.markup--anchor
 .markup--p-anchor}\
-日本人向け共同出展案内：[**http://j.nicotech.jp/nt\_taipei\_2017**](http://j.nicotech.jp/nt_taipei_2017){.markup--anchor
-.markup--p-anchor}
-
+日本人向け共同出展案内：[**http://j.nicotech.jp/nt\_taipei\_2017**](http://j.nicotech.jp/nt_taipei_2017)
 ![昨年、日本から共同出展したブース。](https://cdn-images-1.medium.com/max/800/1*kXdTJQWb1j8CZKdgR605Ww.jpeg)
 
-### アジア全体に広がっているMaker Faire {#5e75 .graf .graf--h3 .graf-after--figure name="5e75"}
-
+### アジア全体に広がっているMaker Faire
 ほかにも8月12～13日にMaker Faire Beijing（中国・北京）、9月2～3日でMini
 Maker Faire
 Penang（マレーシア・ペナン）など、アジア全体では1カ月に数度Maker
@@ -198,6 +180,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 23, 2025](https://medium.com/p/29de3fe9638a).
 
 [Canonical
-link](https://medium.com/@tks/20170703-29de3fe9638a){.p-canonical}
-
+link](https://medium.com/@tks/20170703-29de3fe9638a)
 Exported from [Medium](https://medium.com) on February 6, 2026.

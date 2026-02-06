@@ -1,5 +1,5 @@
 ---
-title: "                      Makeblock"
+title: 'ロボティクス教育のための最後のピースを埋めるMakeblock'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*Ir50oCVt_y4UNT1eRS_d4Q.jpeg"
   relative: false
@@ -8,22 +8,15 @@ slug: makeblock
 date: 2025-03-21
 ---
 
-ロボティクス教育のための最後のピースを埋めるMakeblock {#ロボティクス教育のための最後のピースを埋めるmakeblock .p-name}
-=====================================================
-
 2016/05/27 08:00
 
 
 ------------------------------------------------------------------------
-
-### ロボティクス教育のための最後のピースを埋めるMakeblock {#b5a6 .graf .graf--h3 .graf--leading .graf--title name="b5a6"}
-
 2016/05/27 08:00
 
 深センのShenzhen Maker Works
 Technologyは、誰でもロボティクスが学べるツール、21世紀の大人のためのレゴとして、Makeblockという製品を開発した。2012年に5人で創業した彼らは、2016年5月現在で社員200人を超える大手企業に急成長し、さらに子ども向けのロボティクス教育ツールを開発している。
 
-![](https://cdn-images-1.medium.com/max/800/1*Ir50oCVt_y4UNT1eRS_d4Q.jpeg)
 
 ロボティクス教育のための最後のピース
 
@@ -48,8 +41,7 @@ Arduinoのようなマイコンを使って、ラジコンカーを作ること�
 
 Makeblockはこの機構の部分を学ぶためのツール、または楽しむためのオモチャだ。丁寧に面取りされたアルミ押し出し材で作られたパーツは堅牢で、簡単にはゆがまず、精度の高いものが作れる。等間隔に開いているネジ穴の他に中心部の溝にもネジ山が切ってあって、任意の位置に他のパーツを固定できる。基本のアルミパーツの他にジョイントやさまざまなモーターなど、機構を実現するパーツ類があり、さまざまなロボットを作ることができる。
 
-### さまざまなキット {#66e5 .graf .graf--h3 .graf-after--p name="66e5"}
-
+### さまざまなキット
 パーツをバラバラに買うこともできるが、さまざまなロボットを実現するためのキットが何種類も販売されている。
 
 キットの中心になるマイクロコントローラはどれも共通で、Arduino
@@ -59,15 +51,13 @@ Unoと互換性がある。キットを想定通りに組みあげたら、キ�
 Kit-Blue」。](https://cdn-images-1.medium.com/max/800/1*GDMfE8gnwXLck4Z-Nphd7Q.jpeg)
 
 例えば、この[**「XY Plotter Robot
-Kit」**](http://makeblock.com/xy-plotter-robot-kit){.markup--anchor
-.markup--p-anchor}
+Kit」**](http://makeblock.com/xy-plotter-robot-kit)
 の二次元（縦横）上で思い通りの位置に移動する仕組みと、[**「Ultimate
 Robot
 Kit-Blue」**](http://makeblock.com/ultimate-robot-kit-blue){.markup--anchor
 .markup--p-anchor}の何かをつかむ機構をクレーンでつり下げたら、UFOキャッチャーのようなものを作ることができる。作ったことがある機構、どうやって実現できるかの仕組みが作り手に蓄積されるたびにできることが広がっていく。
 
-### 新しいキットを生み出すハッカソン {#992e .graf .graf--h3 .graf-after--p name="992e"}
-
+### 新しいキットを生み出すハッカソン
 Makeblockでは、Makeblockを用いたハッカソンを頻繁に行っている。下の動画は連載の第一回で触れた[**Seeed**](https://fabcross.jp/topics/tks/20160223_tks_01.html){.markup--anchor
 .markup--p-anchor}のエンジニアと一緒に行ったハッカソンで、36時間で「実用的なもの（pragmatism）」を作るのがテーマだ。テーマは「アート」「楽器」などそのたびに変わる。
 
@@ -88,8 +78,7 @@ V2.0」**](http://makeblock.com/music-robot-kit-v2-0-with-electronics){.markup--
 
 鉄筋をたたく「Makeblock Music Robot Kit V2.0」。
 
-### 出世作の「mBot」をきっかけに、より子ども向けに {#7b69 .graf .graf--h3 .graf-after--figure name="7b69"}
-
+### 出世作の「mBot」をきっかけに、より子ども向けに
 Makeblockは大学でロボティクスを学んだJasen
 Wangたち5人が起業した会社だ。Wangはいまも、なるべく長い時間オフィスにいて、新たなMakeblockの機構を考えている。主力製品のギヤと履帯がかみあう機構などは社長の彼が自らデザインしている。
 
@@ -113,8 +102,7 @@ Wangたち5人が起業した会社だ。Wangはいまも、なるべく長い�
 
 創業当時のMakeblockはソフトウェアを専門にするエンジニアがいなかった。当初のMakeblockも、赤外線で操作できたが、Bluetoothでスマートフォンをコントローラにしてラジコンのように動かせるのは、スマートフォンのアプリが書けるエンジニアが入社してきてからだ。
 
-### 完全にコンシューマー向けのmBot {#b003 .graf .graf--h3 .graf-after--p name="b003"}
-
+### 完全にコンシューマー向けのmBot
 そして今年Makeblockは、さらにコンシューマ向けの製品として[**「CodeyBot」**](http://www.codeybot.com/){.markup--anchor
 .markup--p-anchor}をリリースした。
 
@@ -131,8 +119,7 @@ Wangたち5人が起業した会社だ。Wangはいまも、なるべく長い�
 
 CodeyBotはラジコンカーのように扱えるし、タブレットから顔の部分のLEDをデザインすることもできる。MP3を再生させて踊るスピーカーとしても使える。より「オモチャ」としての魅力もあり、これまでロボットにもプログラムにも無縁だった子どもへの最初の一歩を提供することを意図している。
 
-### 高速でプロトタイピングする姿勢が進化を後押ししている {#6243 .graf .graf--h3 .graf-after--p name="6243"}
-
+### 高速でプロトタイピングする姿勢が進化を後押ししている
 4月に僕が彼らのオフィスを訪ねたときは、社内ハッカソンの最中で、その場で週末に再訪して審査員に加わることになった。
 
 ![社内ハッカソンの決勝。中央の箱をどれだけ自分の陣地に集めたかで勝敗が決まるロボコン的なもの。](https://cdn-images-1.medium.com/max/800/1*9PcbxxaU6Ut34Y919qj4JQ.jpeg)
@@ -154,6 +141,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 21, 2025](https://medium.com/p/b94f721ffaa7).
 
 [Canonical
-link](https://medium.com/@tks/20160527-b94f721ffaa7){.p-canonical}
-
+link](https://medium.com/@tks/20160527-b94f721ffaa7)
 Exported from [Medium](https://medium.com) on February 6, 2026.

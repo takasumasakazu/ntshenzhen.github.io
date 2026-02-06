@@ -1,5 +1,5 @@
 ---
-title: "Maker Faire Beijing  2017"
+title: 'Maker Faire Beijing北京2017'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*6EDZ3nYn61zUzdEemHG85A.jpeg"
   relative: false
@@ -8,19 +8,11 @@ slug: maker-faire-beijing-2017
 date: 2017-08-23
 ---
 
-Maker Faire Beijing北京2017 {#maker-faire-beijing北京2017 .p-name}
-===========================
-
 北京全体のレポートまとめはこちら
 
 
 ------------------------------------------------------------------------
-
-### Maker Faire Beijing北京2017 {#57b1 .graf .graf--h3 .graf--leading .graf--title name="57b1"}
-
-北京全体の[レポートまとめはこちら](https://medium.com/ecosystembymakers/makerfaire-bejing-2017-2636e9a3cb6d){.markup--anchor
-.markup--p-anchor}
-
+北京全体の[レポートまとめはこちら](https://medium.com/ecosystembymakers/makerfaire-bejing-2017-2636e9a3cb6d)
 会場の雰囲気は[Makezineのレポート](http://makezine.com/2017/08/17/maker-faire-beijing-2017-pictures/){.markup--anchor
 .markup--p-anchor}に写真がたっぷり載っていて詳しい。\
 僕らが撮影した写真はこちら。
@@ -28,10 +20,7 @@ Maker Faire Beijing北京2017 {#maker-faire-beijing北京2017 .p-name}
 [**201708 Maker Faire Beijing 2017**\
 *194 new photos · Album by takasu
 masakazu*goo.gl](https://goo.gl/photos/uq8HTjKXAriYhn3x9 "https://goo.gl/photos/uq8HTjKXAriYhn3x9"){.markup--anchor
-.markup--mixtapeEmbed-anchor}[](https://goo.gl/photos/uq8HTjKXAriYhn3x9){.js-mixtapeImage
-.mixtapeImage .u-ignoreBlock}
-
-![もっともグッときた合体型ロボ。北京の会社でHAXのOB](https://cdn-images-1.medium.com/max/800/1*6EDZ3nYn61zUzdEemHG85A.jpeg)
+.markup--mixtapeEmbed-anchor}[](https://goo.gl/photos/uq8HTjKXAriYhn3x9)
 
 Maker Faire
 Beijingは2015年からスタートしていて、僕はその第1回に行きました。呼んでもらったのであまりネガティブな事は言いたくないけど、知名度がほしいスタートアップ（しかも北京じゃない会社のほうが多い）と、中国伝統工芸の職人（扇子に書道するとか）ばっかりで規模も大きくなく、実際のMaker
@@ -48,6 +37,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [August 23, 2017](https://medium.com/p/2636e9a3cb6d).
 
 [Canonical
-link](https://medium.com/@tks/makerfaire-bejing-2017-2636e9a3cb6d){.p-canonical}
-
+link](https://medium.com/@tks/makerfaire-bejing-2017-2636e9a3cb6d)
 Exported from [Medium](https://medium.com) on February 6, 2026.

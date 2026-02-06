@@ -1,5 +1,5 @@
 ---
-title: "Maker Innovation from small town in Thailand  ChiangMai Maker Party 2016 report "
+title: 'Maker Innovation from small town in Thailand, ChiangMai Maker Party 2016 report.'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*iuGHCYxoVYU6iWUMOcuV6g.jpeg"
   relative: false
@@ -8,17 +8,13 @@ slug: maker-innovation-from-small-town-in-thailand-chiangmai-maker-party-2016-re
 date: 2016-02-01
 ---
 
-Maker Innovation from small town in Thailand, ChiangMai Maker Party 2016 report. {#maker-innovation-from-small-town-in-thailand-chiangmai-maker-party-2016-report. .p-name}
-================================================================================
-
 ChiangMai well known beautiful and historical city, at north of the
 Thailand. There is not only ensient city but also creative city by...
 
 
 ------------------------------------------------------------------------
 
-### Maker Innovation from small town in Thailand, ChiangMai Maker Party 2016 report. {#2313 .graf .graf--h3 .graf--leading .graf--title name="2313"}
-
+### Maker Innovation from small town in Thailand, ChiangMai Maker Party 2016 report.
 ![Hippie westan people make a community in ChiangMai, some people are
 nomad worker.](https://cdn-images-1.medium.com/max/800/1*iuGHCYxoVYU6iWUMOcuV6g.jpeg)
 
@@ -104,6 +100,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [February 1, 2016](https://medium.com/p/12b8472bb060).
 
 [Canonical
-link](https://medium.com/@tks/maker-innovation-from-small-town-in-thailand-chiangmai-maker-party-2016-report-12b8472bb060){.p-canonical}
-
+link](https://medium.com/@tks/maker-innovation-from-small-town-in-thailand-chiangmai-maker-party-2016-report-12b8472bb060)
 Exported from [Medium](https://medium.com) on February 6, 2026.

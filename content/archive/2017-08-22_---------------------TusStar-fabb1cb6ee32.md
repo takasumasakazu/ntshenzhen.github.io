@@ -1,5 +1,5 @@
 ---
-title: "                     TusStar"
+title: '清華大学卒業生達が作ったベンチャー支援会社TusStar'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*mu4XnJgpNFwbdCyXqr1U-A.png"
   relative: false
@@ -8,16 +8,10 @@ slug: tusstar
 date: 2017-08-22
 ---
 
-清華大学卒業生達が作ったベンチャー支援会社TusStar {#清華大学卒業生達が作ったベンチャー支援会社tusstar .p-name}
-=================================================
-
 北京で見たベンチャー全体のまとめはこちら この記事は全4記事の4本目
 
 
 ------------------------------------------------------------------------
-
-### 清華大学卒業生達が作ったベンチャー支援会社TusStar {#a7b4 .graf .graf--h3 .graf--leading .graf--title name="a7b4"}
-
 北京で見たベンチャー全体の[まとめ](https://medium.com/ecosystembymakers/beijing-venture-f2e77d93c313){.markup--anchor
 .markup--p-anchor}はこちら\
 この記事は全4記事の4本目
@@ -42,7 +36,6 @@ MIT「清華大学」周辺のスタートアップエコシステムに圧倒�
 超音波電動歯ブラシを作っているスタートアップです。中国製＝安物というわけではなく、中国のECサイトでは699人民元=11500円ほどで売られています。\
 歯ブラシの中に複数のセンサーが内蔵されていて、どういう状態でどこを磨いているかを検知し、スマートホンに送り、アプリできちんと磨けているかを解析してくれる機能が売りです。
 
-![Wifiで歯ブラシとつながり、磨き方の状態を解析・レポートしてくれる](https://cdn-images-1.medium.com/max/800/1*mu4XnJgpNFwbdCyXqr1U-A.png)
 
 同様のスマホ連動歯ブラシとしてはブラウンが12000円ぐらいの製品を出しているので、AVORIとは価格帯が同じで、真っ向勝負と言えます。\
 欧米の製品でも、Philipsの超音波電動歯ブラシなどはamazonで5000円以下で販売されているので、安さを武器に劣化コピーを売っている会社ではありません。\
@@ -89,6 +82,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [August 22, 2017](https://medium.com/p/fabb1cb6ee32).
 
 [Canonical
-link](https://medium.com/@tks/tusstar-fabb1cb6ee32){.p-canonical}
-
+link](https://medium.com/@tks/tusstar-fabb1cb6ee32)
 Exported from [Medium](https://medium.com) on February 6, 2026.

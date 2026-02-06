@@ -1,5 +1,5 @@
 ---
-title: "Chinese Shanzhai  what and how making and hacking the manufacturing models now "
+title: 'Chinese Shanzhai, what and how making and hacking the manufacturing models now?'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*k5yclApcAnM5PhKiQIek7A.jpeg"
   relative: false
@@ -8,17 +8,13 @@ slug: chinese-shanzhai-what-and-how-making-and-hacking-the-manufacturing-models-
 date: 2019-11-04
 ---
 
-Chinese Shanzhai, what and how making and hacking the manufacturing models now? {#chinese-shanzhai-what-and-how-making-and-hacking-the-manufacturing-models-now .p-name}
-===============================================================================
-
 I want to share that report about Shanzhai 2019 at OSHS2020. Please any
 feedback, comment or review before submitting, at 14th Nov 2019...
 
 
 ------------------------------------------------------------------------
 
-### Chinese Shanzhai, what and how making and hacking the manufacturing models now? (Proposal for OSHS 2020) {#2460 .graf .graf--h3 .graf--leading .graf--title name="2460"}
-
+### Chinese Shanzhai, what and how making and hacking the manufacturing models now? (Proposal for OSHS 2020)
 I want to share that report about Shanzhai 2019 at
 [OSHS2020](https://2020.oshwa.org/){.markup--anchor .markup--p-anchor}.
 Please any feedback, comment or review before submitting, at 14th Nov
@@ -137,9 +133,7 @@ Why Shenzhen is amazing in the maker movement --- TAKASU Masakazu\
 The Hardware Hacker --- bunnie Huang book 2017
 
 [From Gongkai to Open source\
-https://www.bunniestudios.com/blog/?p=4297](https://www.bunniestudios.com/blog/?p=4297){.markup--anchor
-.markup--p-anchor}
-
+https://www.bunniestudios.com/blog/?p=4297](https://www.bunniestudios.com/blog/?p=4297)
 The \$12 "Gongkai" Phone -bunnie\
 <https://www.bunniestudios.com/blog/?page_id=3107>
 
@@ -147,6 +141,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [November 4, 2019](https://medium.com/p/2381ae435945).
 
 [Canonical
-link](https://medium.com/@tks/oshs2020-2381ae435945){.p-canonical}
-
+link](https://medium.com/@tks/oshs2020-2381ae435945)
 Exported from [Medium](https://medium.com) on February 6, 2026.

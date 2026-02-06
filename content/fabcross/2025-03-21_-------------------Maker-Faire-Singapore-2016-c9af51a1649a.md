@@ -1,5 +1,5 @@
 ---
-title: "                   Maker Faire Singapore 2016"
+title: 'シンガポールの国家戦略に組み込まれる Maker Faire Singapore 2016'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*qgjCDqJJzn5vOI9PflMVOQ.jpeg"
   relative: false
@@ -8,19 +8,11 @@ slug: maker-faire-singapore-2016
 date: 2025-03-21
 ---
 
-シンガポールの国家戦略に組み込まれる Maker Faire Singapore 2016 {#シンガポールの国家戦略に組み込まれる-maker-faire-singapore-2016 .p-name}
-===============================================================
-
 2016/09/07 08:00
 
 
 ------------------------------------------------------------------------
-
-### シンガポールの国家戦略に組み込まれる Maker Faire Singapore 2016 {#7859 .graf .graf--h3 .graf--leading .graf--title name="7859"}
-
 2016/09/07 08:00
-
-![](https://cdn-images-1.medium.com/max/800/1*qgjCDqJJzn5vOI9PflMVOQ.jpeg)
 
 
 ------------------------------------------------------------------------
@@ -36,8 +28,7 @@ Singaporeは、急成長するシンガポールのMakerシーンを象徴する
 
 ------------------------------------------------------------------------
 
-### 急成長するシンガポールのMaker Faire {#bd69 .graf .graf--h3 .graf--leading name="bd69"}
-
+### 急成長するシンガポールのMaker Faire
 僕が住んでいるシンガポールは、Maker
 Faireを開催している国の中ではいちばん小さい国だと思われる。国土はわずか南北23kmに東西42km。東京23区とほぼ同じぐらいの面積に約550万人が居住している。この550万人は、僕みたいな期限付き労働ビザや外国人留学生を含めた数で、シンガポール人は330万人あまりだ。横浜市が360万人なので、市がそのまま国になっているような都市国家である。
 
@@ -54,8 +45,7 @@ Faireの急発展ぶりが示されている。](https://cdn-images-1.medium.com
 Spaceが生まれている。Maker Faire
 Tokyoや台湾などと比肩するサイズのフェアが小国シンガポールで行われている。
 
-### なぜ国の機関がMaker Faireを運営するのか？ {#06c2 .graf .graf--h3 .graf-after--p name="06c2"}
-
+### なぜ国の機関がMaker Faireを運営するのか？
 Maker Faire Singaporeは、この連載でも[**Tinkerling
 Studio**](https://fabcross.jp/topics/tks/20160314_tks_01.html){.markup--anchor
 .markup--p-anchor}を紹介した、[**Science Centre
@@ -76,8 +66,7 @@ University Technology and Design）で開催された。
 ![会場のSUTD（Singapore University Technology and
 Design）は超近代的なキャンパス。MITと単位互換が行われている世界でも珍しい大学である。](https://cdn-images-1.medium.com/max/800/1*nhVVeXwZDYBvghlC7O8xrA.jpeg)
 
-### ヴィヴィアン大臣が語る「テクノロジーの普及により、Makeはみんなのものとなった」 {#f9d6 .graf .graf--h3 .graf-after--figure name="f9d6"}
-
+### ヴィヴィアン大臣が語る「テクノロジーの普及により、Makeはみんなのものとなった」
 Maker Faire
 Singaporeの初日夜には、外務大臣にしてスマートネーション推進担当大臣を勤めるヴィヴィアン大臣がキーノートスピーチを行った。
 
@@ -108,8 +97,7 @@ Faireに訪れるのも、シンガポール以外の国では珍しい風景だ
 ![ヤコブ・イムラヒム大臣は、今年のMaker
 Faireに協力した人たちへの表彰も行った。ニコニコ技術部もコミュニティパートナーとして表彰を受けた。](https://cdn-images-1.medium.com/max/800/1*3g8zuvAy56Qwkg02QKE6FA.jpeg)
 
-### 「オカンアート」とクラフトコーナー、シンガポールのホビーが花開く {#eb46 .graf .graf--h3 .graf-after--figure name="eb46"}
-
+### 「オカンアート」とクラフトコーナー、シンガポールのホビーが花開く
 もちろん、政治家や官僚だけが盛り上がっているわけではない。華人の多いシンガポールほかマレー半島では、伝統的に手芸やハンドクラフトの文化があった。金融国家となった今もクラフト「オカンアート」などを楽しむシンガポール人は多い。Maker
 Faire Singaporeでも、1フロアがまるごとクラフトゾーンにあてられていた。
 
@@ -128,8 +116,7 @@ Faire Singaporeでも、1フロアがまるごとクラフトゾーンにあて�
 Faireの会場を編み進めていく、日本でいう[**203gow**](http://203gow.weebly.com/){.markup--anchor
 .markup--p-anchor}さんのようなアートだ。
 
-### シンガポールのMakerシーンを支えるスタートアップたち {#fce7 .graf .graf--h3 .graf-after--p name="fce7"}
-
+### シンガポールのMakerシーンを支えるスタートアップたち
 もちろん、政治家やクラフトだけがMaker Faire Singapore
 ではない。一般的にMaker
 Faireと聞いたときに予想するようなブースも多く見られる。
@@ -152,8 +139,7 @@ Faireっぽい」空間ができている。
 Makey**](http://makeymakey.com/){.markup--anchor
 .markup--p-anchor}のようなツールキットを入手する人多くが、12GEEKSから購入している。
 
-### ますます拡大が予測される {#4ecd .graf .graf--h3 .graf-after--p name="4ecd"}
-
+### ますます拡大が予測される
 シンガポールは、未来に向けて年齢を問わない科学教育を大きな目標にしている。ほぼすべての国民がエンジニアリングやプログラミングの素養を持ち、テクノロジーを活用して新たな発明がドンドン生まれてくる国になることをさまざまな施策で志向している。例えばMaker
 Faire Singaporeの運営母体であるScience Centre
 Singaporeは、2020年を目処に数倍の大きさの新しい科学館に[**リニューアルする**](http://www.straitstimes.com/singapore/5-fun-facts-about-science-centre-which-will-get-a-new-home-in-2020){.markup--anchor
@@ -167,6 +153,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 21, 2025](https://medium.com/p/c9af51a1649a).
 
 [Canonical
-link](https://medium.com/@tks/20160907-c9af51a1649a){.p-canonical}
-
+link](https://medium.com/@tks/20160907-c9af51a1649a)
 Exported from [Medium](https://medium.com) on February 6, 2026.

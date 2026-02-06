@@ -1,5 +1,5 @@
 ---
-title: "TAKASU   Nico Tech Shenzhen Community Monthly news May 2018"
+title: 'TAKASU & Nico-Tech Shenzhen Community Monthly news May/2018'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*Me3yNOD1QqmJnq71lt2YFA.jpeg"
   relative: false
@@ -7,9 +7,6 @@ aliases: ["/2018/05/takasu-nico-tech-shenzhen-community-monthly-news-may-2018/"]
 slug: takasu-nico-tech-shenzhen-community-monthly-news-may-2018
 date: 2018-05-01
 ---
-
-TAKASU & Nico-Tech Shenzhen Community Monthly news May/2018 {#takasu-nico-tech-shenzhen-community-monthly-news-may2018 .p-name}
-===========================================================
 
 I did 3 weeks EURO tour, Prague → Sachsen → Nantes → London → Cambridge
 → Nottingham → Sheffield → Newcastle, for Maker Faire UK.
@@ -21,8 +18,7 @@ May, I will go Maker Faire Bay Area 2018, and talk about Make
 
 ------------------------------------------------------------------------
 
-### TAKASU & Nico-Tech Shenzhen Community Monthly news May/2018 {#de8e .graf .graf--h3 .graf--leading .graf--title name="de8e"}
-
+### TAKASU & Nico-Tech Shenzhen Community Monthly news May/2018
 ![Raspberry Pi Foundation, Even Upton & Mike Buffam, I got stamp on My
 Makerspace
 Passport!](https://cdn-images-1.medium.com/max/800/1*Me3yNOD1QqmJnq71lt2YFA.jpeg)
@@ -58,9 +54,7 @@ growing up!
 still growing up!**\
 *Japanese Maker Pro (Indie Hardware) is grown
 rapidly.*medium.com](https://medium.com/shenzhen-high-tour-by-makers/japanesemakerpro-b788f1ba96f "https://medium.com/shenzhen-high-tour-by-makers/japanesemakerpro-b788f1ba96f"){.markup--anchor
-.markup--mixtapeEmbed-anchor}[](https://medium.com/shenzhen-high-tour-by-makers/japanesemakerpro-b788f1ba96f){.js-mixtapeImage
-.mixtapeImage .u-ignoreBlock}
-
+.markup--mixtapeEmbed-anchor}[](https://medium.com/shenzhen-high-tour-by-makers/japanesemakerpro-b788f1ba96f)
 I am really looking to see you in the Bay Area, see you there!
 
 Next My Trip
@@ -91,6 +85,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [May 1, 2018](https://medium.com/p/39f81c5de192).
 
 [Canonical
-link](https://medium.com/@tks/201805-39f81c5de192){.p-canonical}
-
+link](https://medium.com/@tks/201805-39f81c5de192)
 Exported from [Medium](https://medium.com) on February 6, 2026.

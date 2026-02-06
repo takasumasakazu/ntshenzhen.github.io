@@ -1,5 +1,5 @@
 ---
-title: "                                     Cai Wenya Agatha      12e8d2a1998"
+title: '「深圳の産業集積とハードウェアのマスイノベーション\`イノベーションの力\`」Cai Wenya(Agatha)日本語訳'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/0*uJN99xyCSt6odziq.jpeg"
   relative: false
@@ -8,17 +8,11 @@ slug: cai-wenya-agatha-12e8d2a1998
 date: 2020-04-10
 ---
 
-「深圳の産業集積とハードウェアのマスイノベーション\`イノベーションの力\`」Cai Wenya(Agatha)日本語訳 {#深圳の産業集積とハードウェアのマスイノベーションイノベーションの力cai-wenyaagatha日本語訳 .p-name}
-===================================================================================================
-
 2020年2月に行った早稲田ビジネススクールでの講義で、深圳から日本に留学しているAgathaが感想コラムを書いてくれました。
 ここに高須による日本語訳を掲載します。翻訳時にwww.DeepL.com/Translator（無料版）を使用しました。
 
 
 ------------------------------------------------------------------------
-
-### 「深圳の産業集積とハードウェアのマスイノベーション\`イノベーションの力\`」Cai Wenya(Agatha)日本語訳 {#cdce .graf .graf--h3 .graf--leading .graf--title name="cdce"}
-
 2020年2月に行った早稲田ビジネススクールでの講義で、深圳から日本に留学しているAgathaが[感想コラム](https://www.stentre.net/column/087){.markup--anchor
 .markup--p-anchor}を書いてくれました。[STE relay
 column](https://www.stentre.net/column/){.markup--anchor
@@ -28,7 +22,6 @@ column](https://www.stentre.net/column/){.markup--anchor
 ここにAgathaのコラムの、高須による日本語訳を掲載します。翻訳時に[www.DeepL.com/Translator](http://www.DeepL.com/Translator){.markup--anchor
 .markup--p-anchor}（無料版）を使用しました。
 
-![](https://cdn-images-1.medium.com/max/800/0*uJN99xyCSt6odziq.jpeg)
 
 **Cai Wenya(Agatha)プロフィール**\
 香港中文大学卒業後、深セン、広州、東京のIT/テクノロジー企業に勤務。現在、早稲田大学ビジネススクールに在籍中（金融修士）、2021年9月卒業予定。
@@ -89,6 +82,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [April 10, 2020](https://medium.com/p/12e8d2a1998).
 
 [Canonical
-link](https://medium.com/@tks/agatha-12e8d2a1998){.p-canonical}
-
+link](https://medium.com/@tks/agatha-12e8d2a1998)
 Exported from [Medium](https://medium.com) on February 6, 2026.

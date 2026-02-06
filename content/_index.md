@@ -1,5 +1,5 @@
 ---
-title: "ニコ技深セン / Nico-Tech Shenzhen website"
+title: 'ニコ技深セン / Nico-Tech Shenzhen website'
 ---
 
 ## Sections

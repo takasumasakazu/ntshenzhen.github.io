@@ -1,5 +1,5 @@
 ---
-title: "Published book  Makers  ecosystem  reporting innovation in Asia  Shenzhen and Singapore"
+title: 'Published book \"Makers'' ecosystem\" reporting innovation in Asia, Shenzhen and Singapore'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*ox-i0xXxFfagf2QlTdys7g.jpeg"
   relative: false
@@ -8,18 +8,12 @@ slug: published-book-makers-ecosystem-reporting-innovation-in-asia-shenzhen-and-
 date: 2017-03-08
 ---
 
-Published book "Makers' ecosystem" reporting innovation in Asia, Shenzhen and Singapore {#published-book-makers-ecosystem-reporting-innovation-in-asia-shenzhen-and-singapore .p-name}
-=======================================================================================
-
 This book is an ecosystem that brings inventions to Shenzhen and
 Singapore and other worlds. Singapore is trying to create innovation
 with...
 
 
 ------------------------------------------------------------------------
-
-### Published book "Makers' ecosystem" reporting innovation in Asia, Shenzhen and Singapore {#3b9a .graf .graf--h3 .graf--leading .graf--title name="3b9a"}
-
 This book is an ecosystem that brings inventions to Shenzhen and
 Singapore and other worlds.\
 Singapore is trying to create innovation with Smart Nation Initiative,
@@ -28,7 +22,6 @@ systems and venture companies.\
 Singapore's approach is symbolized by Vivian, Minister for Foreign
 Affairs and Minister for Smart Nation.
 
-![](https://cdn-images-1.medium.com/max/800/1*ox-i0xXxFfagf2QlTdys7g.jpeg)
 
 **Content volume\
 **391P (In Japanese)\
@@ -123,6 +116,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 8, 2017](https://medium.com/p/359b360acbfe).
 
 [Canonical
-link](https://medium.com/@tks/published-book-makers-ecosystem-reporting-innovation-in-asia-shenzhen-and-singapore-359b360acbfe){.p-canonical}
-
+link](https://medium.com/@tks/published-book-makers-ecosystem-reporting-innovation-in-asia-shenzhen-and-singapore-359b360acbfe)
 Exported from [Medium](https://medium.com) on February 6, 2026.

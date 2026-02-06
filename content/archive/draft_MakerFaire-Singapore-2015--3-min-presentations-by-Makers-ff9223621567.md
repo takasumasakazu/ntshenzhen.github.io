@@ -1,18 +1,14 @@
 ---
-title: "draft_MakerFaire Singapore 2015  3 min presentations by Makers"
+title: 'MakerFaire Singapore 2015, 3 min presentations by Makers'
 draft: true
 aliases: ["/2000/01/draft-makerfaire-singapore-2015-3-min-presentations-by-makers/"]
 slug: draft-makerfaire-singapore-2015-3-min-presentations-by-makers
 date: 2000-01-01
 ---
 
-MakerFaire Singapore 2015, 3 min presentations by Makers {#makerfaire-singapore-2015-3-min-presentations-by-makers .p-name}
-========================================================
-
-
 ------------------------------------------------------------------------
 
-MakerFaire Singapore 2015, 3 min presentations by Makers {#1b4f .graf .graf--h2 .graf--leading .graf--title name="1b4f"}
+MakerFaire Singapore 2015, 3 min presentations by Makers
 --------------------------------------------------------
 
 \

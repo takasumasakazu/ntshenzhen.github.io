@@ -1,12 +1,9 @@
 ---
-title: "Example  Introduce yourself for High Tour 2018 March"
+title: 'Example: Introduce yourself for High Tour 2018 March'
 aliases: ["/2018/01/example-introduce-yourself-for-high-tour-2018-march/"]
 slug: example-introduce-yourself-for-high-tour-2018-march
 date: 2018-01-18
 ---
-
-Example: Introduce yourself for High Tour 2018 March {#example-introduce-yourself-for-high-tour-2018-march .p-name}
-====================================================
 
 You have to write up blog article about introducing yourself for
 application Shenzhen High Tour, in English or in Japanese.
@@ -18,8 +15,7 @@ introduction I\`m Takasu, organizer of this High Tour. And also I...
 
 ------------------------------------------------------------------------
 
-### Example: Introduce yourself for Shenzhen High Tour 2018 March {#faf5 .graf .graf--h3 .graf--leading .graf--title name="faf5"}
-
+### Example: Introduce yourself for Shenzhen High Tour 2018 March
 You have to write up blog article about introducing yourself for
 application Shenzhen High Tour, in English or in Japanese.\
 This article is for introduceing other member, not for me. We are
@@ -59,6 +55,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [January 18, 2018](https://medium.com/p/a301e56c43b9).
 
 [Canonical
-link](https://medium.com/@tks/example-introduce-yourself-a301e56c43b9){.p-canonical}
-
+link](https://medium.com/@tks/example-introduce-yourself-a301e56c43b9)
 Exported from [Medium](https://medium.com) on February 6, 2026.

@@ -1,5 +1,5 @@
 ---
-title: "About Shenzhen High Tour and Community"
+title: 'About Shenzhen High Tour and Community'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*mXyN_g4yPAg8b58xNA1uqA.jpeg"
   relative: false
@@ -7,9 +7,6 @@ aliases: ["/2017/12/about-shenzhen-high-tour-and-community/"]
 slug: about-shenzhen-high-tour-and-community
 date: 2017-12-28
 ---
-
-About Shenzhen High Tour and Community {#about-shenzhen-high-tour-and-community .p-name}
-======================================
 
 We want to make the relationship between Shenzhen and others. Some our
 community member did collaboration works with Maker Space in...
@@ -21,9 +18,7 @@ TAKASU Masakazu, Maker Faire Shenzhen and Singapore, takes us...
 
 ------------------------------------------------------------------------
 
-### About Nico-Tech Shenzhen Community and Maker Ecosystem Limited(HK) {#86ce .graf .graf--h3 .graf--leading .graf--title name="86ce"}
-
-![](https://cdn-images-1.medium.com/max/800/1*mXyN_g4yPAg8b58xNA1uqA.jpeg)
+### About Nico-Tech Shenzhen Community and Maker Ecosystem Limited(HK)
 
 We are Shenzhen based, Open Hardware community. Our office is
 HuaQiangBei, and over 3000 members on the Facebook group online. We were
@@ -102,12 +97,10 @@ This group is international, but many discussion only in Japanese, no
 worry about language issue, we can use some computer translate system.\
 <https://www.facebook.com/groups/ntshenzhen/>
 
-### We are Partner as Maker Faire Shenzhen {#038c .graf .graf--h3 .graf-after--p name="038c"}
-
+### We are Partner as Maker Faire Shenzhen
 ![](https://cdn-images-1.medium.com/max/800/1*k-M0YZwOfbluvoCRlSbAuw.png)
 
-### **About** MAKERS ECOSYSTEM LIMITED**.(Hongkong)** {#c0bc .graf .graf--h3 .graf-after--figure name="c0bc"}
-
+### **About** MAKERS ECOSYSTEM LIMITED**.(Hongkong)**
 Established in 2018, Maker Ecosystem Limited is dedicated to fostering
 innovation and collaboration in the technology sector. Our core business
 areas include:
@@ -115,19 +108,18 @@ areas include:
 -   [**Business Development in Technology**: Supporting and driving
     growth in the tech industry through strategic initiatives and
     partnerships.\
-    <https://shop.m5stack.com/blogs/news/m5stack-s-story-from-shenzhen-to-the-world?srsltid=AfmBOoqlW_OYpbmsSq_yr2AtpScZgic33xyXel18VuPjfXlnet2OMBFL>]{#c321}
+    <https://shop.m5stack.com/blogs/news/m5stack-s-story-from-shenzhen-to-the-world?srsltid=AfmBOoqlW_OYpbmsSq_yr2AtpScZgic33xyXel18VuPjfXlnet2OMBFL>]
 -   [**Publishing**: Producing high-quality publications that empower
     and educate communities in the tech domain.\
     <https://www.sz.gov.cn/en_szgov/news/latest/content/post_8197507.html>\
-    <https://makezine.com/article/maker-news/beirut-mini-maker-faire-2019-culture-mixed-by-east-west-and-makers/>]{#00e5}
+    <https://makezine.com/article/maker-news/beirut-mini-maker-faire-2019-culture-mixed-by-east-west-and-makers/>]
 -   [**Event Planning and Management**: Organizing impactful events that
     bring together innovators, creators, and businesses.\
     <https://makerfairesingapore.wordpress.com/team-2016/>\
-    <https://makerfaire.com/maker/entry/68046/>]{#64c1}
+    <https://makerfaire.com/maker/entry/68046/>]
 -   [**Community Management**: Building and nurturing vibrant tech
     communities to encourage shared learning and growth.\
-    <https://www.shenzhenmakerfaire.com/2023/08/29/embracing-the-maker-spirit-a-journey-of-innovation-and-community-in-shenzhen/>]{#522a}
-
+    <https://www.shenzhenmakerfaire.com/2023/08/29/embracing-the-maker-spirit-a-journey-of-innovation-and-community-in-shenzhen/>]
 Our operations span Southeast Asia, Hong Kong, Shenzhen, and Japan,
 creating a dynamic network that bridges regions and promotes
 cross-border collaboration.
@@ -142,6 +134,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [December 28, 2017](https://medium.com/p/c9123d2dd16a).
 
 [Canonical
-link](https://medium.com/@tks/about-c9123d2dd16a){.p-canonical}
-
+link](https://medium.com/@tks/about-c9123d2dd16a)
 Exported from [Medium](https://medium.com) on February 6, 2026.

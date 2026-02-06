@@ -1,5 +1,5 @@
 ---
-title: "Meet again Mitch in Shenzhen TAKASU   Nico Tech Shenzhen Community Monthly news Dec 2018"
+title: 'Meet again Mitch in Shenzhen TAKASU & Nico-Tech Shenzhen Community Monthly news Dec/2018'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*XE7IGR46xISVzYG7xu6gbA.jpeg"
   relative: false
@@ -8,16 +8,12 @@ slug: meet-again-mitch-in-shenzhen-takasu-nico-tech-shenzhen-community-monthly-n
 date: 2018-11-30
 ---
 
-Meet again Mitch in Shenzhen TAKASU & Nico-Tech Shenzhen Community Monthly news Dec/2018 {#meet-again-mitch-in-shenzhen-takasu-nico-tech-shenzhen-community-monthly-news-dec2018 .p-name}
-========================================================================================
-
 你好，好久不见。我在深圳上个月，好好学习中问吧。
 
 
 ------------------------------------------------------------------------
 
-### Meet again Mitch in Shenzhen TAKASU & Nico-Tech Shenzhen Community Monthly news Dec/2018 {#c61c .graf .graf--h3 .graf--leading .graf--title name="c61c"}
-
+### Meet again Mitch in Shenzhen TAKASU & Nico-Tech Shenzhen Community Monthly news Dec/2018
 你好，好久不见。我在深圳上个月，好好学习中问吧。
 
 This is Takasu, do you feel happy autumn days? I\`m in Shenzhen these
@@ -53,6 +49,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [November 30, 2018](https://medium.com/p/e182dabb9bc7).
 
 [Canonical
-link](https://medium.com/@tks/201812-e182dabb9bc7){.p-canonical}
-
+link](https://medium.com/@tks/201812-e182dabb9bc7)
 Exported from [Medium](https://medium.com) on February 6, 2026.

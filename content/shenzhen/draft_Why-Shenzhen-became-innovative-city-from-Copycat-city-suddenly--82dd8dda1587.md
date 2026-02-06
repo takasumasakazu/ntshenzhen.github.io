@@ -1,5 +1,5 @@
 ---
-title: "draft_Why Shenzhen became innovative city from Copycat city suddenly "
+title: 'Why Shenzhen became innovative city from Copycat city,suddenly?'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*I3M3TvhPxk9vN9F3grF6_g.jpeg"
   relative: false
@@ -9,18 +9,12 @@ slug: draft-why-shenzhen-became-innovative-city-from-copycat-city-suddenly
 date: 2000-01-01
 ---
 
-Why Shenzhen became innovative city from Copycat city,suddenly? {#why-shenzhen-became-innovative-city-from-copycat-citysuddenly .p-name}
-===============================================================
-
 I have the most participation in the world of Asian Maker Faire.
 Compared with other makers of other countries, the Chinese maker Fair
 has...
 
 
 ------------------------------------------------------------------------
-
-### Why Shenzhen became innovative city from Copycat city,suddenly? {#1016 .graf .graf--h3 .graf--leading .graf--title name="1016"}
-
 I have the most participation in the world of Asian Maker Faire.
 Compared with other makers of other countries, the Chinese maker Fair
 has a strong character to exhibit in the down of a product that is
@@ -36,7 +30,6 @@ The great attention was the tool for the new sport of walking on water,
 this "stray water". An inventor named Baohua and an entrepreneur
 exhibited it.
 
-![](https://cdn-images-1.medium.com/max/800/1*I3M3TvhPxk9vN9F3grF6_g.jpeg)
 
 The board arranged like the comb becomes like one board when sinking in
 water, the resistance grows, and the resistance decreases when raising
@@ -64,8 +57,7 @@ Regardless of whether he will succeed as an entrepreneur, I think that
 it is an original idea. From such an approach that searches for business
 seeds earlier, such inventions are hard to come out.
 
-### **A work that was influenced by animation, a project that started from play** {#098e .graf .graf--h3 .graf-after--p name="098e"}
-
+### **A work that was influenced by animation, a project that started from play**
 \
 
 What I am riding with delight is created by being influenced by the

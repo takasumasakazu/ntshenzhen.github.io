@@ -1,5 +1,5 @@
 ---
-title: "I just arrived CES  Then to go BETT2020  354369c0a03"
+title: 'I just arrived CES, Then to go BETT2020.'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*x9oBn2qhdvtPXmc-nDXNtQ.jpeg"
   relative: false
@@ -8,21 +8,16 @@ slug: i-just-arrived-ces-then-to-go-bett2020-354369c0a03
 date: 2020-01-04
 ---
 
-I just arrived CES, Then to go BETT2020. {#i-just-arrived-ces-then-to-go-bett2020. .p-name}
-========================================
-
 I just arrived in Las Vegas airport for CES 2020. I \`m here until 10th
 Jan. If you also come to CES, please say hi.
 
 
 ------------------------------------------------------------------------
 
-### I just arrived CES, Then to go BETT2020. See you! TAKASU & Nico-Tech Shenzhen Community Monthly news Jan/2020 {#f44b .graf .graf--h3 .graf--leading .graf--title name="f44b"}
-
+### I just arrived CES, Then to go BETT2020. See you! TAKASU & Nico-Tech Shenzhen Community Monthly news Jan/2020
 I just arrived in Las Vegas airport for CES 2020. I \`m here until 10th
 Jan. If you also come to CES, please say hi.
 
-![](https://cdn-images-1.medium.com/max/800/1*x9oBn2qhdvtPXmc-nDXNtQ.jpeg)
 
 After CES, I will be Maker Faire Bangkok on 18th-19th Jan. Then to go
 other event on UK, BETT 2020.\
@@ -68,6 +63,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [January 4, 2020](https://medium.com/p/354369c0a03).
 
 [Canonical
-link](https://medium.com/@tks/202001-ceseng-354369c0a03){.p-canonical}
-
+link](https://medium.com/@tks/202001-ceseng-354369c0a03)
 Exported from [Medium](https://medium.com) on February 6, 2026.

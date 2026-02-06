@@ -1,5 +1,5 @@
 ---
-title: "Japanese Maker Pro  five times bigger in this four years    And still growing  b788f1ba96f"
+title: 'Japanese Maker Pro, five times bigger in this four years, ... And still growing!'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*6HVXqLV9VLQRDbNY8FjsIw.png"
   relative: false
@@ -8,21 +8,16 @@ slug: japanese-maker-pro-five-times-bigger-in-this-four-years-and-still-growing-
 date: 2018-03-10
 ---
 
-Japanese Maker Pro, five times bigger in this four years, ... And still growing! {#japanese-maker-pro-five-times-bigger-in-this-four-years-and-still-growing .p-name}
-================================================================================
-
 Japanese Maker Pro (Indie Hardware) is grown rapidly.
 
 
 ------------------------------------------------------------------------
 
-### Japanese Maker Pro, five times bigger in this four years, ... And still growing! {#57aa .graf .graf--h3 .graf--leading .graf--title name="57aa"}
-
+### Japanese Maker Pro, five times bigger in this four years, ... And still growing!
 ![Sales of Maker Pro via Switch Science from
 2014--2017.](https://cdn-images-1.medium.com/max/800/1*6HVXqLV9VLQRDbNY8FjsIw.png)
 
-### **Japanese Maker Pro (Indie Hardware) is grown rapidly.** {#0717 .graf .graf--h3 .graf-after--figure name="0717"}
-
+### **Japanese Maker Pro (Indie Hardware) is grown rapidly.**
 Switch Science sells Japanese Maker Pro Product (Indie Hardware) sales
 have been five times over the past four years.\
 Of course, Indie Hardware is sold at various DIY events in Japan besides
@@ -46,8 +41,7 @@ know that this island is full of creative talents. Countries that
 produce content such as Super Mario and Dragon Ball have similarly
 produced Indie Products full of creativity and enthusiasm in hardware.
 
-### History, Creativity, and Enthusiasm {#00e4 .graf .graf--h3 .graf-after--p name="00e4"}
-
+### History, Creativity, and Enthusiasm
 Pick up some of the Indie products that I have noticed. I could not
 really look over the whole.
 
@@ -83,8 +77,7 @@ He prototyped, he borrowed Fusion PCBA and Maker Space UV printer,
 mass-produced 30 pieces, and published in detail the details on how they
 promoted.<https://qiita.com/junya28nya/items/3f28f7ff283c71c89730>
 
-### We are Maker Pro, not a Hardware Startup {#003a .graf .graf--h3 .graf-after--p name="003a"}
-
+### We are Maker Pro, not a Hardware Startup
 ![Seeed proposed
 MAKER PRO](https://cdn-images-1.medium.com/max/800/1*huGH0p1hppQqb8n6NMA1HQ.png)
 
@@ -98,9 +91,7 @@ Seeed of Shenzhen.
 > [HOW TO START A
 > STARTUP](http://www.paulgraham.com/start.html){.markup--anchor
 > .markup--blockquote-anchor}, by Paul Graham, [Y
-> combinator](http://ycombinator.com/apply.html){.markup--anchor
-> .markup--blockquote-anchor}
-
+> combinator](http://ycombinator.com/apply.html)
 Hardware startup is more than full time job.Crowdfunding, which once
 appeared on the extension line of hobby, became a pre-sales platform for
 hardware startups.\
@@ -119,8 +110,7 @@ entity.
 ![I got Make:Vol 61 at
 Kuala Lumpur!](https://cdn-images-1.medium.com/max/800/1*d8gW74pt3QLDh636A1YISg.jpeg)
 
-### **We Japanese Maker goes to MAKER PRO** {#a45b .graf .graf--h3 .graf-after--figure name="a45b"}
-
+### **We Japanese Maker goes to MAKER PRO**
 In recent years, the news surrounding the manufacturing industry in
 Japan is bad. In the past, Japan 's GDP momentum to overtake the United
 States is now only 20% of the US and 33% of the China. Probably the
@@ -136,6 +126,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 10, 2018](https://medium.com/p/b788f1ba96f).
 
 [Canonical
-link](https://medium.com/@tks/japanesemakerpro-b788f1ba96f){.p-canonical}
-
+link](https://medium.com/@tks/japanesemakerpro-b788f1ba96f)
 Exported from [Medium](https://medium.com) on February 6, 2026.

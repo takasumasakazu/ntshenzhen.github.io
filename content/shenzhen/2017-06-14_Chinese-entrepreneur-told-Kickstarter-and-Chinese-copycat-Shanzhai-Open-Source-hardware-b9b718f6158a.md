@@ -1,5 +1,5 @@
 ---
-title: "Chinese entrepreneur told Kickstarter and Chinese copycat Shanzhai Open Source hardware"
+title: 'Chinese entrepreneur told Kickstarter and Chinese copycat Shanzhai Open Source hardware'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*1N4pbCeB2YFO1fECvzcgKQ.jpeg"
   relative: false
@@ -7,9 +7,6 @@ aliases: ["/2017/06/chinese-entrepreneur-told-kickstarter-and-chinese-copycat-sh
 slug: chinese-entrepreneur-told-kickstarter-and-chinese-copycat-shanzhai-open-source-hardware
 date: 2017-06-14
 ---
-
-Chinese entrepreneur told Kickstarter and Chinese copycat Shanzhai Open Source hardware {#chinese-entrepreneur-told-kickstarter-and-chinese-copycat-shanzhai-open-source-hardware .p-name}
-=======================================================================================
 
 It is common for new products announced at Kickstarter to be
 inexpensively copied in China before they are actually shipped. In China
@@ -22,8 +19,7 @@ it refers to it and it is called " 山寨死 Shanzhai Si ". I...
 
 ------------------------------------------------------------------------
 
-### Interview with Chinese entrepreneur for Kickstarter and Chinese copycat {#03e5 .graf .graf--h3 .graf--leading .graf--title name="03e5"}
-
+### Interview with Chinese entrepreneur for Kickstarter and Chinese copycat
 It is common for new products announced at Kickstarter to be
 inexpensively copied in China before they are actually shipped. In China
 it refers to it and it is called " 山寨死 Shanzhai Si ".\
@@ -34,8 +30,7 @@ China.
 ![Robin Wu, Chinese inventer. He well know
 Shanzhai King](https://cdn-images-1.medium.com/max/800/1*1N4pbCeB2YFO1fECvzcgKQ.jpeg)
 
-### **Robin Wu handling four business in China and Africa** {#ea08 .graf .graf--h3 .graf-after--figure name="ea08"}
-
+### **Robin Wu handling four business in China and Africa**
 Maker My friend's Chinese, there is an inventor called Shanzhai King.
 The name is Robin Wu. When Apple released the iPad to Apple, in just 60
 days it became famous with marketing the fake of the iPad loaded with
@@ -92,8 +87,7 @@ Shenzhen government has given Maker support money to about 1,000
 inventors, but he is one of that 1000 people. It is not just making
 copies.
 
-### Kickstarter and Chinese copycat {#01b3 .graf .graf--h3 .graf-after--p name="01b3"}
-
+### Kickstarter and Chinese copycat
 When you submit a project to Crowd Funding, it is common for copies to
 be sold already in China before that idea comes out to the world as a
 product. Simple toys and gadgets that you can see just by looking at
@@ -131,8 +125,7 @@ so once copied items are hit, even cheaper copies are made. Shanzhai
 Death in China is called a state in which little profit comes out soon
 after all.
 
-### Robin told about invention and copycat {#e648 .graf .graf--h3 .graf-after--p name="e648"}
-
+### Robin told about invention and copycat
 > Wu:The Intel version of iPad (Mr. Wu calls her own iPad)", as the
 > performance of the touch panel has increased and the price is getting
 > cheaper, a laptop with no keyboard, that is, a tablet terminal comes
@@ -185,17 +178,14 @@ strategic position.
 > business in Africa earlier than others. I think that **continuing
 > inventing is one way to not compete**.
 
-### Chen Rex from Shanghai told Copycat and High-end product {#fda0 .graf .graf--h3 .graf-after--blockquote name="fda0"}
-
+### Chen Rex from Shanghai told Copycat and High-end product
 ![STARY, big succeed in Kickstarter, 1,178 backers pledged \$742,739 to
 help bring this project
 to life.](https://cdn-images-1.medium.com/max/800/1*ziGenk9MNZ5r_xYnCkXP5w.png)
 
 Another friend, Chen Rex of Shanghai developed an electric skateboard
 called STARY and gathered over [\$ 700,000 in
-Kickstarter.](https://www.kickstarter.com/projects/staryboards/stary-worlds-best-electric-skateboard-get-yours-fo){.markup--anchor
-.markup--p-anchor}
-
+Kickstarter.](https://www.kickstarter.com/projects/staryboards/stary-worlds-best-electric-skateboard-get-yours-fo)
 Mr. Chen is a startup, so I concentrate on STARY. I do not have
 extensive business like Mr. Wu.\
 Meeting at Chen's Maker event several times, "In the Backer who
@@ -242,6 +232,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [June 14, 2017](https://medium.com/p/b9b718f6158a).
 
 [Canonical
-link](https://medium.com/@tks/shanzhai-b9b718f6158a){.p-canonical}
-
+link](https://medium.com/@tks/shanzhai-b9b718f6158a)
 Exported from [Medium](https://medium.com) on February 6, 2026.

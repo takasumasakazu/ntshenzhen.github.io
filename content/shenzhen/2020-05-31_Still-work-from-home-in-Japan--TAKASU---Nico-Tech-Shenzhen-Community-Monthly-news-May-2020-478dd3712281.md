@@ -1,5 +1,5 @@
 ---
-title: "Still work from home in Japan  TAKASU   Nico Tech Shenzhen Community Monthly news May 2020"
+title: 'Still work from home in Japan. TAKASU & Nico-Tech Shenzhen Community Monthly news May/2020'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*H1mBfIwPamlgI4WxTquAkw.jpeg"
   relative: false
@@ -8,9 +8,6 @@ slug: still-work-from-home-in-japan-takasu-nico-tech-shenzhen-community-monthly-
 date: 2020-05-31
 ---
 
-Still work from home in Japan. TAKASU & Nico-Tech Shenzhen Community Monthly news May/2020 {#still-work-from-home-in-japan.-takasu-nico-tech-shenzhen-community-monthly-news-may2020 .p-name}
-==========================================================================================
-
 Surprisely, I was in Japan whole of the month! I had been on the
 aircraft hundred times per year in last 4--5years. I couldn\`t imagine
 I...
@@ -18,8 +15,7 @@ I...
 
 ------------------------------------------------------------------------
 
-### Still work from home in Japan. TAKASU & Nico-Tech Shenzhen Community Monthly news May/2020 {#531c .graf .graf--h3 .graf--leading .graf--title name="531c"}
-
+### Still work from home in Japan. TAKASU & Nico-Tech Shenzhen Community Monthly news May/2020
 ![Event
 with DFRobot](https://cdn-images-1.medium.com/max/800/1*H1mBfIwPamlgI4WxTquAkw.jpeg)
 
@@ -68,6 +64,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [May 31, 2020](https://medium.com/p/478dd3712281).
 
 [Canonical
-link](https://medium.com/@tks/202006-478dd3712281){.p-canonical}
-
+link](https://medium.com/@tks/202006-478dd3712281)
 Exported from [Medium](https://medium.com) on February 6, 2026.

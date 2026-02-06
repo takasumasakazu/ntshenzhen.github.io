@@ -1,5 +1,5 @@
 ---
-title: "Dr  Asei Ito told about  Shenzhen as Innovative City  for people from Edinburgh University "
+title: 'Dr. Asei Ito told about \`Shenzhen as Innovative City\` for people from Edinburgh University.'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*WKAvD-XUuond_ySqYjdnrg.jpeg"
   relative: false
@@ -7,9 +7,6 @@ aliases: ["/2018/01/dr-asei-ito-told-about-shenzhen-as-innovative-city-for-peopl
 slug: dr-asei-ito-told-about-shenzhen-as-innovative-city-for-people-from-edinburgh-university
 date: 2018-01-07
 ---
-
-Dr. Asei Ito told about \`Shenzhen as Innovative City\` for people from Edinburgh University. {#dr.-asei-ito-told-about-shenzhen-as-innovative-city-for-people-from-edinburgh-university. .p-name}
-=============================================================================================
 
 Some people visited Xfactory Maker Space in Shenzhen from Edinburgh
 University at last week, Dr.Ito talk about that \`Shenzhen as Innovative
@@ -21,8 +18,7 @@ Shenzhen. Some people visited Xfactory Maker Space in...
 
 ------------------------------------------------------------------------
 
-### Dr. Asei Ito told about \`Shenzhen as Innovative City\` for the people from Edinburgh University, a XFactory event. {#e6d2 .graf .graf--h3 .graf--leading .graf--title name="e6d2"}
-
+### Dr. Asei Ito told about \`Shenzhen as Innovative City\` for the people from Edinburgh University, a XFactory event.
 Dr. Asei Ito, well known as The leader of the Shenzhen ecosystem by his
 economical research. He also charges for our High-Tour community in
 Shenzhen.
@@ -49,6 +45,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [January 7, 2018](https://medium.com/p/bc7500552e7c).
 
 [Canonical
-link](https://medium.com/@tks/itoxfactory-bc7500552e7c){.p-canonical}
-
+link](https://medium.com/@tks/itoxfactory-bc7500552e7c)
 Exported from [Medium](https://medium.com) on February 6, 2026.

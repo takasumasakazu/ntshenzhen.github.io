@@ -1,5 +1,5 @@
 ---
-title: "What we should do now  TAKASU   Nico Tech Shenzhen Community Monthly news March 2020 1f30405516c"
+title: 'What we should do now. TAKASU & Nico-Tech Shenzhen Community Monthly news March/2020'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*QlZhv-VnE8RB88LvZaNplg.png"
   relative: false
@@ -8,16 +8,10 @@ slug: what-we-should-do-now-takasu-nico-tech-shenzhen-community-monthly-news-mar
 date: 2020-03-31
 ---
 
-What we should do now. TAKASU & Nico-Tech Shenzhen Community Monthly news March/2020 {#what-we-should-do-now.-takasu-nico-tech-shenzhen-community-monthly-news-march2020 .p-name}
-====================================================================================
-
 This is Takasu.
 
 
 ------------------------------------------------------------------------
-
-### What we should do now. TAKASU & Nico-Tech Shenzhen Community Monthly news March/2020 {#33fe .graf .graf--h3 .graf--leading .graf--title name="33fe"}
-
 This is Takasu.
 
 I couldn\`t go to Open Hardware Summit in NYC, because of COVID-19.And I
@@ -33,7 +27,6 @@ boarder temporary closed.
 
 I still am waiting in Singapore until an open Chinese boarder again.
 
-![](https://cdn-images-1.medium.com/max/800/1*QlZhv-VnE8RB88LvZaNplg.png)
 
 Chinese tech giant Alibaba publishes the Handbook of COVID-19 Prevention
 and Treatment in so many languages include English and Japanese.
@@ -75,6 +68,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 31, 2020](https://medium.com/p/1f30405516c).
 
 [Canonical
-link](https://medium.com/@tks/202004-en-1f30405516c){.p-canonical}
-
+link](https://medium.com/@tks/202004-en-1f30405516c)
 Exported from [Medium](https://medium.com) on February 6, 2026.

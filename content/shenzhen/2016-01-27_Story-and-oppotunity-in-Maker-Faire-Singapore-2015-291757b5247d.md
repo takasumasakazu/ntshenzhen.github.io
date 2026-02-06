@@ -1,20 +1,14 @@
 ---
-title: "Story and oppotunity in Maker Faire Singapore 2015"
+title: 'Story and oppotunity in Maker Faire Singapore 2015'
 aliases: ["/2016/01/story-and-oppotunity-in-maker-faire-singapore-2015/"]
 slug: story-and-oppotunity-in-maker-faire-singapore-2015
 date: 2016-01-27
 ---
 
-Story and oppotunity in Maker Faire Singapore 2015 {#story-and-oppotunity-in-maker-faire-singapore-2015 .p-name}
-==================================================
-
 I really like that video, Maker Faire Singapore 2015 digest.
 
 
 ------------------------------------------------------------------------
-
-### Story and oppotunity in Maker Faire Singapore 2015 {#0abc .graf .graf--h3 .graf--leading .graf--title name="0abc"}
-
 Maker Faire Singapore 2015 digest
 
 I really like that video, Maker Faire Singapore 2015 digest.
@@ -50,6 +44,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [January 27, 2016](https://medium.com/p/291757b5247d).
 
 [Canonical
-link](https://medium.com/@tks/story-and-oppotunity-in-maker-faire-singapore-2015-291757b5247d){.p-canonical}
-
+link](https://medium.com/@tks/story-and-oppotunity-in-maker-faire-singapore-2015-291757b5247d)
 Exported from [Medium](https://medium.com) on February 6, 2026.

@@ -1,5 +1,5 @@
 ---
-title: "        Vol 0                Qoobo Kickstarter           "
+title: 'ソフトロ研究会 Vol.0 やわらか系ロボのミートアップ&Qoobo Kickstarter達成記念 動画レポート'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*WwEO3iYZBvziqgUcdxY7tA.png"
   relative: false
@@ -8,18 +8,13 @@ slug: vol-0-qoobo-kickstarter
 date: 2017-11-26
 ---
 
-ソフトロ研究会 Vol.0 やわらか系ロボのミートアップ&Qoobo Kickstarter達成記念 動画レポート {#ソフトロ研究会-vol.0-やわらか系ロボのミートアップqoobo-kickstarter達成記念-動画レポート .p-name}
-========================================================================================
-
 『やわらかい世界』のロボ＆技術が実現される未来を描く
 実践者と実装者のためのソフトなミートアップ
 
 
 ------------------------------------------------------------------------
 
-### **ソフトロ研究会 Vol.0 やわらか系ロボのミートアップ&Qoobo Kickstarter達成記念** {#239e .graf .graf--h3 .graf--leading .graf--title name="239e"}
-
-![](https://cdn-images-1.medium.com/max/800/1*WwEO3iYZBvziqgUcdxY7tA.png)
+### **ソフトロ研究会 Vol.0 やわらか系ロボのミートアップ&Qoobo Kickstarter達成記念**
 
 **『やわらかい世界』のロボ＆技術が実現される未来を描く
 実践者と実装者のためのソフトなミートアップ\
@@ -27,9 +22,7 @@ date: 2017-11-26
 
 そんな中、ヒューマンコンピュータインタラクション（HCI）やロボティクス、エレクトロニクスの分野で、話題となっているキーワードの２つが「やわらかい◯◯◯」。そして、このタイミングで「やわらかい◯◯◯」を探求する有志が集まり「SoftRo研究会」を立ち上げました。\
 Facebookページ[\
-https://www.facebook.com/groups/softro/about/](https://www.facebook.com/groups/softro/about/){.markup--anchor
-.markup--p-anchor}
-
+https://www.facebook.com/groups/softro/about/](https://www.facebook.com/groups/softro/about/)
 オープニング by 杉浦裕太（慶應義塾大学）\
 Qooboの紹介 by 青木俊介（ユカイ工学）\
 「やわらか技術」 by 長谷川晶一（東京工業大学）\
@@ -47,13 +40,10 @@ Qooboの紹介 by 青木俊介（ユカイ工学）\
 [**ソフトロ研究会 Vol.0 tweetまとめ**\
 *当日のツイートまとめ
 togetter.com*](https://togetter.com/li/1175443 "https://togetter.com/li/1175443"){.markup--anchor
-.markup--mixtapeEmbed-anchor}[](https://togetter.com/li/1175443){.js-mixtapeImage
-.mixtapeImage .u-ignoreBlock}
-
+.markup--mixtapeEmbed-anchor}[](https://togetter.com/li/1175443)
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [November 26, 2017](https://medium.com/p/74365a756a19).
 
 [Canonical
-link](https://medium.com/@tks/softro00-74365a756a19){.p-canonical}
-
+link](https://medium.com/@tks/softro00-74365a756a19)
 Exported from [Medium](https://medium.com) on February 6, 2026.

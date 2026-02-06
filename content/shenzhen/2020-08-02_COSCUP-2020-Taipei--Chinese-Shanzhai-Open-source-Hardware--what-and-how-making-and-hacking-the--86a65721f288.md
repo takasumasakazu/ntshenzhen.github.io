@@ -1,5 +1,5 @@
 ---
-title: "COSCUP 2020 Taipei  Chinese Shanzhai Open source Hardware  what and how making and hacking the "
+title: 'COSCUP 2020 Taipei ''Chinese Shanzhai Open source Hardware, what and how making and hacking the...'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*NIL_c3ttnzK2NoR9ja65lQ.jpeg"
   relative: false
@@ -8,18 +8,13 @@ slug: coscup-2020-taipei-chinese-shanzhai-open-source-hardware-what-and-how-maki
 date: 2020-08-02
 ---
 
-COSCUP 2020 Taipei 'Chinese Shanzhai Open source Hardware, what and how making and hacking the... {#coscup-2020-taipei-chinese-shanzhai-open-source-hardware-what-and-how-making-and-hacking-the .p-name}
-=================================================================================================
-
 Abstract
 
 
 ------------------------------------------------------------------------
 
-### COSCUP 2020 Taipei 'Chinese Shanzhai Open source Hardware, what and how making and hacking the manufacturing model?' {#ed60 .graf .graf--h3 .graf--leading .graf--title name="ed60"}
-
-### Abstract {#f47d .graf .graf--h3 .graf-after--figure name="f47d"}
-
+### COSCUP 2020 Taipei 'Chinese Shanzhai Open source Hardware, what and how making and hacking the manufacturing model?'
+### Abstract
 Well known Chinese style copycat called SHANZHAI (山寨), and Chinese
 original style open source hardware model called GONGKAI (公開) named by
 bunnie are still living. Now Shanzhai engineer and entrepreneurs are
@@ -30,7 +25,6 @@ ecosystem and value in modern IoT development?
 
 They Shanzhai hacked What? How they hacked the Manufactualing?
 
-![](https://cdn-images-1.medium.com/max/800/1*NIL_c3ttnzK2NoR9ja65lQ.jpeg)
 
 If you find a product in TAOBAO, you can get them PCBA design like
 download from Github. And if you release a new product in TAOBAO,
@@ -45,8 +39,7 @@ Shanzhai is a Chinese style, innovation model.
 
 ![](https://cdn-images-1.medium.com/max/800/1*KZriMl_XxQ8GARisxf3vQA.jpeg)
 
-### **History of Origin** {#52e1 .graf .graf--h3 .graf-after--figure name="52e1"}
-
+### **History of Origin**
 In 1990, when China starts to develop, not manufacturing, some Chinese
 SoC distributors find new business model. If the distributor SoC on the
 PCBA by chipset reference design, that a better sales than only source.
@@ -57,8 +50,7 @@ with the shaver. Few thousand Shanzhai PCBA companies in Shanghai,
 Xiamen, and Shenzhen. Shanghai and Xiamen are most of SoC company like
 Qualcomm, MediaTek, Intel, Shenzhen is the most of cellphone company.
 
-### **Glow and distilled** {#edd2 .graf .graf--h3 .graf-after--p name="edd2"}
-
+### **Glow and distilled**
 A few thousand small company distilled to few tech giants, like Oppo,
 VIVO, Huawei and so on. Now over half of world top 10 smartphone company
 are located in Shenzhen. Shenzhen also reformed, City of Shanzhai to
@@ -68,8 +60,7 @@ Shanzhai distributor also changed the name, they called IDH (Independent
 Design House) now. Current IDH is a huge company like Xiaomi, one IDH
 hired few thousand engineers.
 
-### **Today\`s Shanzhai Business model** {#84fd .graf .graf--h3 .graf-after--p name="84fd"}
-
+### **Today\`s Shanzhai Business model**
 Why Apple make only high-end smartphone, only one or two model in each
 year? Why Xiaomi and Oppo, and other Chinese company make Low, Middle,
 High totally 10 new smartphone release each 3 months? Their developer
@@ -85,8 +76,7 @@ outsourced by IDH, also Lenovo\` 70%, TCL:25%, Meizu:95%, Huawei:38%...
 
 ![](https://cdn-images-1.medium.com/max/800/1*jg6vMFDHY08kkstcFX0q8g.jpeg)
 
-### **Why they can outsource, but Apple cannot?** {#9931 .graf .graf--h3 .graf-after--figure name="9931"}
-
+### **Why they can outsource, but Apple cannot?**
 Middle and Low spec smartphone is another market, like Africa and Asia.
 They prefer cost affordable, but also need good smart phone. And every
 Middle and Low spec smartphone gets better day by day by Moore\`s law.
@@ -99,8 +89,7 @@ make profit for the company in China.
 
 ![](https://cdn-images-1.medium.com/max/800/1*GkMZRJjLfWxO1hBfZQIw-w.jpeg)
 
-### **Other style Shanzhai Business** {#1112 .graf .graf--h3 .graf-after--figure name="1112"}
-
+### **Other style Shanzhai Business**
 Many factories make, new product by themselves. That means many
 innovations born in there. The current Chinese company sells an original
 product, they also sold only PCBA. This is the example company called
@@ -122,8 +111,7 @@ from Shenhzen.
 
 ![](https://cdn-images-1.medium.com/max/800/1*zh1UsDlAn9jyazCYO3j17g.jpeg)
 
-### **Conclusion** {#4435 .graf .graf--h3 .graf-after--figure name="4435"}
-
+### **Conclusion**
 Chinese ShanZhai IP sharing system is transformed.
 
 Current ShenZhai became more regal and distilled for IoT (Internet of
@@ -135,8 +123,7 @@ development board is also Open Source Hardware.
 That means We should consider how share more, how pushes the open source
 movement in our Society.
 
-### **Reference** {#e3e9 .graf .graf--h3 .graf-after--p name="e3e9"}
-
+### **Reference**
 差別化を諦めた｢垂直分裂｣のバリューチェーンで実現した異端のものづくり――現代中国・イノベーションの最前線 --- Kouta
 Takaguchi
 
@@ -161,15 +148,12 @@ The \$12 "Gongkai" Phone -bunnie
 *How cheap can you make a phone? Recently, I paid \$12 at Mingtong
 Digital Mall for a complete phone, featuring
 quad-band...*www.bunniestudios.com](https://www.bunniestudios.com/blog/?page_id=3107 "https://www.bunniestudios.com/blog/?page_id=3107"){.markup--anchor
-.markup--mixtapeEmbed-anchor}[](https://www.bunniestudios.com/blog/?page_id=3107){.js-mixtapeImage
-.mixtapeImage .u-ignoreBlock}
-
+.markup--mixtapeEmbed-anchor}[](https://www.bunniestudios.com/blog/?page_id=3107)
 ![](https://cdn-images-1.medium.com/max/800/1*L_m7yoiwMlkJoHgwm5c1FA.jpeg)
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [August 2, 2020](https://medium.com/p/86a65721f288).
 
 [Canonical
-link](https://medium.com/@tks/shanzhai-86a65721f288){.p-canonical}
-
+link](https://medium.com/@tks/shanzhai-86a65721f288)
 Exported from [Medium](https://medium.com) on February 6, 2026.

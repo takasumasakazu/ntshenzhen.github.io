@@ -1,20 +1,14 @@
 ---
-title: "  M5Stack       KANTAN Play core                               2024 07 "
+title: '深圳M5Stackを搭載した楽器KANTAN Play coreがクラウドファンディング中 ニコ技深センコミュニティ月次報告 2024年07月'
 aliases: ["/2024/06/m5stack-kantan-play-core-2024-07/"]
 slug: m5stack-kantan-play-core-2024-07
 date: 2024-06-30
 ---
 
-深圳M5Stackを搭載した楽器KANTAN Play coreがクラウドファンディング中 ニコ技深センコミュニティ月次報告 2024年07月 {#深圳m5stackを搭載した楽器kantan-play-coreがクラウドファンディング中-ニコ技深センコミュニティ月次報告-2024年07月 .p-name}
-===============================================================================================================
-
 M5Stackをコア機能に使い、誰でもコードを身につけられる新しい電子楽器がクラウドファンディング中です。
 
 
 ------------------------------------------------------------------------
-
-### 深圳M5Stackを搭載した楽器KANTAN Play coreがクラウドファンディング中 ニコ技深センコミュニティ月次報告 2024年07月 {#04fe .graf .graf--h3 .graf--leading .graf--title name="04fe"}
-
 M5Stackをコア機能に使い、誰でもコードを身につけられる新しい電子楽器がクラウドファンディング中です。
 
 作者ゆーいちさんはInstachordを藤岡さんの深圳JENESISで量産し、また今回M5Stackとクラウドファンディングに
@@ -29,11 +23,10 @@ M5Stackをコア機能に使い、誰でもコードを身につけられる新�
 
 いずれもニコ技深圳コミュニティには関連していますが、
 
--   [Interrop2014で基調講演 中国のオープンソース技術状況]{#9d3a}
--   [早稲田の創造理工学部 M5Stackなどハードウェア開発事例紹介]{#a048}
--   [NT金沢2024 深圳でのスタートアップ支援]{#3942}
--   [金沢大学の新機能集積回路設計特論 LSI開発とその影響]{#3705}
-
+-   [Interrop2014で基調講演 中国のオープンソース技術状況]
+-   [早稲田の創造理工学部 M5Stackなどハードウェア開発事例紹介]
+-   [NT金沢2024 深圳でのスタートアップ支援]
+-   [金沢大学の新機能集積回路設計特論 LSI開発とその影響]
 と、それぞれ異なるテーマのものです。
 
 いい機会なので、資料含めて録画公開しています。お時間あるときにご覧ください。
@@ -196,6 +189,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [June 30, 2024](https://medium.com/p/deb2ec8ed0fd).
 
 [Canonical
-link](https://medium.com/@tks/202407-deb2ec8ed0fd){.p-canonical}
-
+link](https://medium.com/@tks/202407-deb2ec8ed0fd)
 Exported from [Medium](https://medium.com) on February 6, 2026.

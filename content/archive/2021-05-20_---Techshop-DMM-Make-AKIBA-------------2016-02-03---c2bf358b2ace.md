@@ -1,5 +1,5 @@
 ---
-title: "   Techshop DMM Make AKIBA             2016 02 03  "
+title: 'タイにTechshopやDMM.Make AKIBAみたいなスペースができた(2016年02月03日)'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/0*bRXLHDP5KkvCjuvZ.jpg"
   relative: false
@@ -8,25 +8,17 @@ slug: techshop-dmm-make-akiba-2016-02-03
 date: 2021-05-20
 ---
 
-タイにTechshopやDMM.Make AKIBAみたいなスペースができた(2016年02月03日) {#タイにtechshopやdmm.make-akibaみたいなスペースができた2016年02月03日 .p-name}
-======================================================================
-
 アメリカでスイッチサイエンスみたいな会社をやって成功した、タイ出身のPan
 Tulabadiは、「できれば故郷のタイでもビジネスがやりたいし、いまならできるんじゃないか」と思って、2015年にタイ法人もつくって、アメリカ法人といっしょに経営している。...
 
 
 ------------------------------------------------------------------------
-
-### タイにTechshopやDMM.Make AKIBAみたいなスペースができた(2016年02月03日) {#83f1 .graf .graf--h3 .graf--leading .graf--title name="83f1"}
-
 アメリカでスイッチサイエンスみたいな会社をやって成功した、タイ出身のPan
 Tulabadiは、「できれば故郷のタイでもビジネスがやりたいし、いまならできるんじゃないか」と思って、2015年にタイ法人もつくって、アメリカ法人といっしょに経営している。\
 バンコクでのメイカームーブメントについては、去年Codezineに書いた。
 
 [急速に燃え上がるタイのMakerムーブメント
-～深圳で火がついたムーブメントが今、アジアに飛び火している](http://codezine.jp/article/detail/8728){.markup--anchor
-.markup--p-anchor}
-
+～深圳で火がついたムーブメントが今、アジアに飛び火している](http://codezine.jp/article/detail/8728)
 そのPanが、こんどは政府が作ったサイエンスセンターの中に、小規模量産までサポートするスペースをたちあげ、バンコクの新聞に取り上げられた。
 
 ・タイの電子工作の産業規模
@@ -37,7 +29,6 @@ Tulabadiは、「できれば故郷のタイでもビジネスがやりたいし
 
 なども書いてある面白い記事なので、許可を得て翻訳する。
 
-![](https://cdn-images-1.medium.com/max/800/0*bRXLHDP5KkvCjuvZ.jpg)
 
 英文記事
 
@@ -89,30 +80,23 @@ IoT製品開発を助けるためのツールキットも、数えられない�
 
 [Maker Innovation from small town in Thailand, ChiangMai Maker Party
 2016
-report.](https://ch.nicovideo.jp/tks/blomaga/ar963083){.markup--anchor
-.markup--p-anchor}
-
+report.](https://ch.nicovideo.jp/tks/blomaga/ar963083)
 ので、これも後ほどどこかのメディア（たぶんCodezine）でレポートします。
 
 ![](https://cdn-images-1.medium.com/max/800/0*fZJQmLf0sqexRo_x.jpg)
 
 [メイカーズのエコシステム 新しいモノづくりがとまらない。 (OnDeck
-Books（NextPublishing）)](http://www.amazon.co.jp/exec/obidos/ASIN/B01AXRCDTU/hirayasutakas-22/ref=nosim/){.markup--anchor
-.markup--p-anchor}
-
+Books（NextPublishing）)](http://www.amazon.co.jp/exec/obidos/ASIN/B01AXRCDTU/hirayasutakas-22/ref=nosim/)
 posted with [amazlet](http://www.amazlet.com/ "amazlet"){.markup--anchor
 .markup--p-anchor} at 16.02.03
 
 インプレスR&D (2016--01--29)\
 売り上げランキング: 1,121
 
-[Amazon.co.jpで詳細を見る](http://www.amazon.co.jp/exec/obidos/ASIN/B01AXRCDTU/hirayasutakas-22/ref=nosim/){.markup--anchor
-.markup--p-anchor}
-
+[Amazon.co.jpで詳細を見る](http://www.amazon.co.jp/exec/obidos/ASIN/B01AXRCDTU/hirayasutakas-22/ref=nosim/)
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [May 20, 2021](https://medium.com/p/c2bf358b2ace).
 
 [Canonical
-link](https://medium.com/@tks/20160203-c2bf358b2ace){.p-canonical}
-
+link](https://medium.com/@tks/20160203-c2bf358b2ace)
 Exported from [Medium](https://medium.com) on February 6, 2026.

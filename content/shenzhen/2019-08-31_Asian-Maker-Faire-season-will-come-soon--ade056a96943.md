@@ -1,5 +1,5 @@
 ---
-title: "Asian Maker Faire season will come soon "
+title: 'Asian Maker Faire season will come soon!'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*PI_wRuxTBi4BAAYeA9XYbQ.jpeg"
   relative: false
@@ -8,17 +8,13 @@ slug: asian-maker-faire-season-will-come-soon
 date: 2019-08-31
 ---
 
-Asian Maker Faire season will come soon! {#asian-maker-faire-season-will-come-soon .p-name}
-========================================
-
 This autumn from Oct-Nov two months, too much Maker event in all around
 Asia. I will be the event, more than every weekend.
 
 
 ------------------------------------------------------------------------
 
-### Asian Maker Faire season will come soon! TAKASU & Nico-Tech Shenzhen Community Monthly news Sep/2019 {#2234 .graf .graf--h3 .graf--leading .graf--title name="2234"}
-
+### Asian Maker Faire season will come soon! TAKASU & Nico-Tech Shenzhen Community Monthly news Sep/2019
 This autumn from Oct-Nov two months, too much Maker event in all around
 Asia. I will be the event, more than every weekend.
 
@@ -79,6 +75,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [August 31, 2019](https://medium.com/p/ade056a96943).
 
 [Canonical
-link](https://medium.com/@tks/201909-ade056a96943){.p-canonical}
-
+link](https://medium.com/@tks/201909-ade056a96943)
 Exported from [Medium](https://medium.com) on February 6, 2026.

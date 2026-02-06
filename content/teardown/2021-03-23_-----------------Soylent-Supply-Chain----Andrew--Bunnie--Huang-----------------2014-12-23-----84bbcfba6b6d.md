@@ -1,5 +1,5 @@
 ---
-title: "                 Soylent Supply Chain    Andrew  Bunnie  Huang                 2014 12 23    "
+title: 'サプライチェーンは人間がいっぱい(Soylent Supply Chain) 著：Andrew \"Bunnie\" Huang アンドリュー・バニー・ファン (2014年12月23日記事)'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/0*Z_vR83UOaBSHvCQt.jpg"
   relative: false
@@ -8,16 +8,10 @@ slug: soylent-supply-chain-andrew-bunnie-huang-2014-12-23
 date: 2021-03-23
 ---
 
-サプライチェーンは人間がいっぱい(Soylent Supply Chain) 著：Andrew "Bunnie" Huang アンドリュー・バニー・ファン (2014年12月23日記事) {#サプライチェーンは人間がいっぱいsoylent-supply-chain-著andrew-bunnie-huang-アンドリューバニーファン-2014年12月23日記事 .p-name}
-==================================================================================================================================
-
 友達のBunnieが、ブログに公開していた文章が、とても面白かったのと、なんとかして一回「プロジェクト杉田玄白」に参加してみたかったので、訳してみました。
 
 
 ------------------------------------------------------------------------
-
-### サプライチェーンは人間がいっぱい(Soylent Supply Chain) 著：Andrew "Bunnie" Huang アンドリュー・バニー・ファン (2014年12月23日記事) {#c735 .graf .graf--h3 .graf--leading .graf--title name="c735"}
-
 友達の[Bunnieが、ブログに公開していた文章](http://www.bunniestudios.com/blog/?p=4266){.markup--anchor
 .markup--p-anchor}が、とても面白かったのと、なんとかして一回「[プロジェクト杉田玄白](http://www.genpaku.org/){.markup--anchor
 .markup--p-anchor}」に参加してみたかったので、訳してみました。
@@ -25,45 +19,34 @@ date: 2021-03-23
 深圳、大量生産、ハードウェアスタートアップ、メイカームーブメント、そういうことに興味ある人はぜひどうぞ。\
 アメリカのMakerMediaで出してる本も面白そうです。僕は日本のamazonでKindleで買いました。
 
-![](https://cdn-images-1.medium.com/max/800/0*Z_vR83UOaBSHvCQt.jpg)
 
 [Maker
-Pro](http://www.amazon.co.jp/exec/obidos/ASIN/B00QUBHMBI/hirayasutakas-22/ref=nosim/){.markup--anchor
-.markup--p-anchor}
-
+Pro](http://www.amazon.co.jp/exec/obidos/ASIN/B00QUBHMBI/hirayasutakas-22/ref=nosim/)
 posted with [amazlet](http://www.amazlet.com/ "amazlet"){.markup--anchor
 .markup--p-anchor} at 14.12.23
 
 Maker Media, Inc (2014--12--09)
 
-[Amazon.co.jpで詳細を見る](http://www.amazon.co.jp/exec/obidos/ASIN/B00QUBHMBI/hirayasutakas-22/ref=nosim/){.markup--anchor
-.markup--p-anchor}
-
+[Amazon.co.jpで詳細を見る](http://www.amazon.co.jp/exec/obidos/ASIN/B00QUBHMBI/hirayasutakas-22/ref=nosim/)
 日本語版も出ました！日本語版は日本のMakerのインタビューがさらに面白い。特に[ヒゲキタ一代記](http://higekita.wix.com/kilostar#!%E3%83%92%E3%82%B2%E3%82%AD%E3%82%BF%E4%B8%80%E4%BB%A3%E8%A8%98/swohn/563abceb0cf28330832d981e){.markup--anchor
 .markup--p-anchor}は最高。
 
 ![](https://cdn-images-1.medium.com/max/800/0*KackvXVjd7g69j8H.jpg)
 
 [物を作って生きるには ―23人のMaker Proが語る仕事と生活 (Make:Japan
-Books)](http://www.amazon.co.jp/exec/obidos/ASIN/487311747X/hirayasutakas-22/ref=nosim/){.markup--anchor
-.markup--p-anchor}
-
+Books)](http://www.amazon.co.jp/exec/obidos/ASIN/487311747X/hirayasutakas-22/ref=nosim/)
 posted with [amazlet](http://www.amazlet.com/ "amazlet"){.markup--anchor
 .markup--p-anchor} at 16.05.29
 
 オライリージャパン\
 売り上げランキング: 110,305
 
-[Amazon.co.jpで詳細を見る](http://www.amazon.co.jp/exec/obidos/ASIN/487311747X/hirayasutakas-22/ref=nosim/){.markup--anchor
-.markup--p-anchor}
-
+[Amazon.co.jpで詳細を見る](http://www.amazon.co.jp/exec/obidos/ASIN/487311747X/hirayasutakas-22/ref=nosim/)
 僕の英語はひどいので、みなさまのコメントを得て、適宜アップデートしていくつもりです。それでも訳したのは、この深圳のサプライチェーンに友達が2ケタいる日本人でこういうことをやりそうな人があんまり思い浮かばなかった（たいてい、僕以外のそういう人は忙しいし、気まぐれで無駄なことはやらない）。アップデートはGoogle
 Docs上でおこなっていくつもりだし、脚注なども増やしていくつもりなので、きちんと読みたい人はこっちを見てくれた方が正確です。サプライチェーンとは、僕らが注文したモノが届くまでのすべてのことです。たいてい、材料と加工と組み立てと箱詰めとマニュアル作りなどは別々の人たちを経由するので、チェーンと呼ばれます。それらはスイッチを押したら動くような機械ではなく、行程それぞれについて検討や判断、細かい軌道修正が発生するものです。Bunnieは生粋のアメリカ人ですが、深圳で自らのハードウェアを量産していて、MITのリサーチャーとしてJoiなどが深圳に訪れるときの案内をしています。シンガポールの僕のオフィスのすぐそばに住んでいるので、よく会います。日本でもメイカーズがらみの講演で来たりします。
 
 [Google
-Docs](https://docs.google.com/a/team-lab.com/document/d/1VhI9p5o2ScXRvw-k46q4lqwhpVJfkLLPw82xJ7JzXvI/){.markup--anchor
-.markup--p-anchor}
-
+Docs](https://docs.google.com/a/team-lab.com/document/d/1VhI9p5o2ScXRvw-k46q4lqwhpVJfkLLPw82xJ7JzXvI/)
 --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- -\
 サプライチェーンは人間がいっぱい(Soylent Supply Chain)\
 著：Andrew "Bunnie" Huang CC BY-SA-3.0\
@@ -83,8 +66,7 @@ MakerMediaは自分の章について、クリエイティブ・コモンズのB
 Supply
 Chain)」として、物理的なモノを作るときの、様々な関係者とつきあうことについての重要性について書いたんだ。
 
-### サプライチェーンは人間がいっぱい {#609c .graf .graf--h3 .graf-after--p name="609c"}
-
+### サプライチェーンは人間がいっぱい
 今の小売店やECサイトは、サプライチェーンの複雑さをまったく見えなくさせている。手元のスマホをちょっといじれば、あらゆるモノを、誰にも会わずに次の日には届けてもらうことができる。\
 amazonが作ったビデオでは、ロボットが商品をピッキングして箱詰めしている。それを見ると、Googleが検索処理を自動で実行したり、ダイレクトメールが自動でコンピュータから送られてくるように、モノも自動で送られてくるように見えるだろう。
 
@@ -173,9 +155,7 @@ Tokyoに来ると出会えるそうしたMakerと、「仲間」になる人が�
 ![](https://cdn-images-1.medium.com/max/800/0*0LL_WpHAME7q1hIm.jpg)
 
 [メイカーズのエコシステム 新しいモノづくりがとまらない。
-(NextPublishing)](http://www.amazon.co.jp/exec/obidos/ASIN/4844397230/hirayasutakas-22/ref=nosim/){.markup--anchor
-.markup--p-anchor}
-
+(NextPublishing)](http://www.amazon.co.jp/exec/obidos/ASIN/4844397230/hirayasutakas-22/ref=nosim/)
 posted with [amazlet](http://www.amazlet.com/ "amazlet"){.markup--anchor
 .markup--p-anchor} at 17.04.30
 
@@ -183,13 +163,10 @@ posted with [amazlet](http://www.amazlet.com/ "amazlet"){.markup--anchor
 インプレスR&D\
 売り上げランキング: 76,234
 
-[Amazon.co.jpで詳細を見る](http://www.amazon.co.jp/exec/obidos/ASIN/4844397230/hirayasutakas-22/ref=nosim/){.markup--anchor
-.markup--p-anchor}
-
+[Amazon.co.jpで詳細を見る](http://www.amazon.co.jp/exec/obidos/ASIN/4844397230/hirayasutakas-22/ref=nosim/)
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 23, 2021](https://medium.com/p/84bbcfba6b6d).
 
 [Canonical
-link](https://medium.com/@tks/20141223-84bbcfba6b6d){.p-canonical}
-
+link](https://medium.com/@tks/20141223-84bbcfba6b6d)
 Exported from [Medium](https://medium.com) on February 6, 2026.

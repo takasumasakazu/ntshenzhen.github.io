@@ -1,5 +1,5 @@
 ---
-title: "Notable Maker Mr  Higekita  His DIY 3D planetarium is unforgettable project "
+title: 'Notable Maker Mr. Higekita, His DIY 3D planetarium is unforgettable project.'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*-XXdTKMlZykvy1HdpMTuRQ.jpeg"
   relative: false
@@ -8,17 +8,11 @@ slug: notable-maker-mr-higekita-his-diy-3d-planetarium-is-unforgettable-project
 date: 2016-09-27
 ---
 
-Notable Maker Mr. Higekita, His DIY 3D planetarium is unforgettable project. {#notable-maker-mr.-higekita-his-diy-3d-planetarium-is-unforgettable-project. .p-name}
-============================================================================
-
 Higekita is natural bone makers. He bore at Kanazawa prefecture, north
 part of Japan, his grandfather is Carpenter and father is a...
 
 
 ------------------------------------------------------------------------
-
-### Notable Maker Mr. Higekita, His DIY 3D planetarium is unforgettable project. {#df95 .graf .graf--h3 .graf--leading .graf--title name="df95"}
-
 ![DIY Inflatable dome by greenhouse plastic. He made an amazing 3D show
 in there.](https://cdn-images-1.medium.com/max/800/1*-XXdTKMlZykvy1HdpMTuRQ.jpeg)
 
@@ -83,6 +77,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [September 27, 2016](https://medium.com/p/f1be69cce10a).
 
 [Canonical
-link](https://medium.com/@tks/notable-maker-mr-higekita-his-diy-3d-planetarium-is-unforgettable-project-f1be69cce10a){.p-canonical}
-
+link](https://medium.com/@tks/notable-maker-mr-higekita-his-diy-3d-planetarium-is-unforgettable-project-f1be69cce10a)
 Exported from [Medium](https://medium.com) on February 6, 2026.

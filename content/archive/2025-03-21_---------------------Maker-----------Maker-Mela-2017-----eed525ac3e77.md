@@ -1,5 +1,5 @@
 ---
-title: "                     Maker           Maker Mela 2017    "
+title: "インド映画のように濃厚な喜びに満ちた、踊るMakerの祭 --- --- ムンバイMaker Mela 2017レポート"
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*UU74zruPkTEJWi8iZKKIeA.jpeg"
   relative: false
@@ -8,26 +8,20 @@ slug: maker-maker-mela-2017
 date: 2025-03-21
 ---
 
-インド映画のように濃厚な喜びに満ちた、踊るMakerの祭 --- --- ムンバイMaker Mela 2017レポート {#インド映画のように濃厚な喜びに満ちた踊るmakerの祭-ムンバイmaker-mela-2017レポート .p-name}
-===========================================================================================
-
 2017/02/14 08:00
 
 
 ------------------------------------------------------------------------
 
-### インド映画のように濃厚な喜びに満ちた、踊るMakerの祭 --- --- ムンバイMaker Mela 2017レポート {#4be9 .graf .graf--h3 .graf--leading .graf--title name="4be9"}
-
+### インド映画のように濃厚な喜びに満ちた、踊るMakerの祭 --- --- ムンバイMaker Mela 2017レポート
 2017/02/14 08:00
 
-![](https://cdn-images-1.medium.com/max/800/1*UU74zruPkTEJWi8iZKKIeA.jpeg)
 
 インドの大都市ムンバイにある工科大、K.J. Somaiya College Of
 Engineeringで開かれたDIYのイベント、Maker Mela
 2017は2日間で5万人を集める巨大イベントになった。電子工作、絵画、服飾、エンジン、そしてダンスが詰まった、インド映画のように濃厚なMakerの祭りをレポートする。
 
-### 踊らなければMela（祭り）じゃない！ {#e585 .graf .graf--h3 .graf-after--p name="e585"}
-
+### 踊らなければMela（祭り）じゃない！
 Makerイベントでいきなりダンス始まった
 
 2017年1月14～15日の2日間にわたったMaker
@@ -44,8 +38,7 @@ Faire」ではないが、イベントの内容はほとんど変わらない。
 インドは今も関税が高く、外資の活動にも制限があり、世界のネットワークにどう参加するかよりもインド国内の課題に集中する傾向がある。インドだけで、ヨーロッパ全部とアメリカを足したより多い12億を超える人口を抱えているとそうなるのかもしれない。このイベント名Maker
 MelaのMelaは、ヒンディー語の「祭り」だ。インドの祭りにはダンスがつきものらしい。
 
-### 世界で人気の発明からDIY自動車まで {#893d .graf .graf--h3 .graf-after--p name="893d"}
-
+### 世界で人気の発明からDIY自動車まで
 会場の[**K.J. Somaiya College Of
 Engineering**](https://www.somaiya.edu/kjsce){.markup--anchor
 .markup--p-anchor}（以下ソマイヤ工科大）は名前こそカレッジが入るが、情報、機械など多くの学科を備え、小学校から中学／高校も備えている巨大教育機関である。見た感じ学校関係者と一般出展者が半々ぐらいと見えたイベントは、個々のプロジェクトのレベルはともかく、100ブース程度の出展とは思えない幅の広さを持っていた。
@@ -73,8 +66,7 @@ Institute（自動車の開発がメインの工科大）が開発したクラ�
 
 ------------------------------------------------------------------------
 
-### ユニークな外見のロボット、教育ツール {#5e99 .graf .graf--h3 .graf--leading name="5e99"}
-
+### ユニークな外見のロボット、教育ツール
 ロボットも技術的ものからマスコット型のものまでいくつも出展されていた。
 
 ![パイプラインの中をチェックするロボ。](https://cdn-images-1.medium.com/max/800/1*hub8XMQs_UFgUwB_FrJ3sw.jpeg)
@@ -89,8 +81,7 @@ Melaのものが取り立ててレベルが高いとは感じなかったが、�
 
 ![こちらはフランスから来た出展者のロボット。ここにあるとデザインの違いが際立つ。](https://cdn-images-1.medium.com/max/800/1*BEhLjsIzAOtDeZrNGQXWdQ.jpeg)
 
-### オープンソースハードウェアの出展 {#cde0 .graf .graf--h3 .graf-after--figure name="cde0"}
-
+### オープンソースハードウェアの出展
 いかにもMakerイベントらしいオープンソースハードウェアや教育ツールも出展されている。
 
 ![インドのスタートアップeviveの開発したマルチツール。](https://cdn-images-1.medium.com/max/800/1*4RRbSTG2OfnmbxqXKMBksw.jpeg)
@@ -108,8 +99,7 @@ Melaのものが取り立ててレベルが高いとは感じなかったが、�
 
 ------------------------------------------------------------------------
 
-### 絵画、服飾なども展示 {#75c5 .graf .graf--h3 .graf--leading name="75c5"}
-
+### 絵画、服飾なども展示
 絵画や服飾などのクラフト系の展示も多い。絵画はインド独特の、ヒンドゥーの神々がモチーフになっている。別の日にムンバイの街を歩いたのだが、美術館がいくつもあり、そこに多くの学生が訪れているなど、絵画への興味がうかがえた。
 
 ![ヒンドゥーの神々を現代的なタッチで描いた絵画。](https://cdn-images-1.medium.com/max/800/1*R0lLOdQnRsFKPEs0HJmXPw.jpeg)
@@ -124,8 +114,7 @@ Melaのものが取り立ててレベルが高いとは感じなかったが、�
 
 ![中庭のような屋外ブースではいくつも、木やボール紙での構造体が2日間にわたって作り続けられていた。](https://cdn-images-1.medium.com/max/800/1*Pv4M1cOE5Kc0k9YvAR2QPA.jpeg)
 
-### 徹底的に楽しむマインド {#3fb5 .graf .graf--h3 .graf-after--figure name="3fb5"}
-
+### 徹底的に楽しむマインド
 個々のブースももちろん興味深いが、より強く印象を受けたのは徹底的に楽しむマインドだ。ずっと[**Necomimi**](http://www.ux-xu.com/product/necomimi){.markup--anchor
 .markup--p-anchor}をつけて歩いていたせいもあるだろうが、いろいろなブースで「どこから来たの？」「セルフィーを撮ろうよ」と呼び止められる。こっちから撮影する写真もどれもとびきりの笑顔。
 
@@ -146,6 +135,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 21, 2025](https://medium.com/p/eed525ac3e77).
 
 [Canonical
-link](https://medium.com/@tks/20170214-eed525ac3e77){.p-canonical}
-
+link](https://medium.com/@tks/20170214-eed525ac3e77)
 Exported from [Medium](https://medium.com) on February 6, 2026.

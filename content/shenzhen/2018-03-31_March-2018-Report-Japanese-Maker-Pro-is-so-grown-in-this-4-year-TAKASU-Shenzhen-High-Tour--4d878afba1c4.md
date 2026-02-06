@@ -1,5 +1,5 @@
 ---
-title: "March 2018 Report Japanese Maker Pro is so grown in this 4 year TAKASU Shenzhen High Tour "
+title: 'March 2018 Report,Japanese Maker Pro is so grown in this 4 year【TAKASU/Shenzhen High Tour】'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*JbEf9IdWRcakN4f56YuMPg.jpeg"
   relative: false
@@ -7,9 +7,6 @@ aliases: ["/2018/03/march-2018-report-japanese-maker-pro-is-so-grown-in-this-4-y
 slug: march-2018-report-japanese-maker-pro-is-so-grown-in-this-4-year-takasu-shenzhen-high-tour
 date: 2018-03-31
 ---
-
-March 2018 Report,Japanese Maker Pro is so grown in this 4 year【TAKASU/Shenzhen High Tour】 {#march-2018-reportjapanese-maker-pro-is-so-grown-in-this-4-yeartakasushenzhen-high-tour .p-name}
-============================================================================================
 
 I write-up that article, so important to me. Japanese Maker Pro, five
 times bigger in this four year,... And still growing up!
@@ -20,8 +17,7 @@ growing up!
 
 ------------------------------------------------------------------------
 
-### March 2018 Report,Japanese Maker Pro is so grown in this 4 year 【TAKASU/Shenzhen High Tour】 {#4be2 .graf .graf--h3 .graf--leading .graf--title name="4be2"}
-
+### March 2018 Report,Japanese Maker Pro is so grown in this 4 year 【TAKASU/Shenzhen High Tour】
 ![Our meetup at 白石州 beer bar, Shenzhen PCBA
 All stars](https://cdn-images-1.medium.com/max/800/1*JbEf9IdWRcakN4f56YuMPg.jpeg)
 
@@ -33,9 +29,7 @@ growing up!
 still growing up!**\
 *Japanese Maker Pro (Indie Hardware) is grown
 rapidly.*medium.com](https://medium.com/shenzhen-high-tour-by-makers/japanesemakerpro-b788f1ba96f "https://medium.com/shenzhen-high-tour-by-makers/japanesemakerpro-b788f1ba96f"){.markup--anchor
-.markup--mixtapeEmbed-anchor}[](https://medium.com/shenzhen-high-tour-by-makers/japanesemakerpro-b788f1ba96f){.js-mixtapeImage
-.mixtapeImage .u-ignoreBlock}
-
+.markup--mixtapeEmbed-anchor}[](https://medium.com/shenzhen-high-tour-by-makers/japanesemakerpro-b788f1ba96f)
 Hardware startup is more than full time job. Crowdfunding, which once
 appeared on the extension line of hobby, became a pre-sales platform for
 hardware startups.\
@@ -55,9 +49,7 @@ I will organize again the meet up in Shenzhen, please see you there.\
 [**Open Day/Meetup 3nd ニコ技深セン観察会 Seg+出張所**\
 *Edit
 description*www.facebook.com](https://www.facebook.com/events/2032027440454453/ "https://www.facebook.com/events/2032027440454453/"){.markup--anchor
-.markup--mixtapeEmbed-anchor}[](https://www.facebook.com/events/2032027440454453/){.js-mixtapeImage
-.mixtapeImage .u-ignoreBlock}
-
+.markup--mixtapeEmbed-anchor}[](https://www.facebook.com/events/2032027440454453/)
 I am still travelling all around Asia for maker movement, See you there!
 
 14/Apr to Euro
@@ -82,6 +74,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 31, 2018](https://medium.com/p/4d878afba1c4).
 
 [Canonical
-link](https://medium.com/@tks/201803-4d878afba1c4){.p-canonical}
-
+link](https://medium.com/@tks/201803-4d878afba1c4)
 Exported from [Medium](https://medium.com) on February 6, 2026.

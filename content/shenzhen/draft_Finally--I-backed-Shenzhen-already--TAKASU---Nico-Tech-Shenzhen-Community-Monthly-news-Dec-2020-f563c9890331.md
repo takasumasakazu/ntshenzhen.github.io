@@ -1,5 +1,5 @@
 ---
-title: "draft_Finally  I backed Shenzhen already  TAKASU   Nico Tech Shenzhen Community Monthly news Dec 2020"
+title: 'Finally, I backed Shenzhen already! TAKASU & Nico-Tech Shenzhen Community Monthly news Dec/2020'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*3BGRaKFwTu16OejsVm2n_Q.jpeg"
   relative: false
@@ -9,17 +9,13 @@ slug: draft-finally-i-backed-shenzhen-already-takasu-nico-tech-shenzhen-communit
 date: 2000-01-01
 ---
 
-Finally, I backed Shenzhen already! TAKASU & Nico-Tech Shenzhen Community Monthly news Dec/2020 {#finally-i-backed-shenzhen-already-takasu-nico-tech-shenzhen-community-monthly-news-dec2020 .p-name}
-===============================================================================================
-
 Finally, I backed Shenzhen, China, already. I just finished 14day's
 quarantine on last Sunday.
 
 
 ------------------------------------------------------------------------
 
-### Finally, I backed Shenzhen already! TAKASU & Nico-Tech Shenzhen Community Monthly news Dec/2020 {#f2c8 .graf .graf--h3 .graf--leading .graf--title name="f2c8"}
-
+### Finally, I backed Shenzhen already! TAKASU & Nico-Tech Shenzhen Community Monthly news Dec/2020
 Finally, I backed Shenzhen, China, already. I just finished 14day's
 quarantine on last Sunday.
 
@@ -28,7 +24,6 @@ Shenzhen, such as M5Stack, Seeed, JENESIS, iMakerBase, Sipeed,
 Dumang,Elecrow, TroubleMaker, HAX,,, and so on. And I will be able to
 meet new friend and Business partner! So much fun on these days.
 
-![](https://cdn-images-1.medium.com/max/800/1*3BGRaKFwTu16OejsVm2n_Q.jpeg)
 
 Today I visited Switch Science Business partner the named Shenzhen Minew
 Technology,

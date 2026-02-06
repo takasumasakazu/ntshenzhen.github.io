@@ -1,5 +1,5 @@
 ---
-title: "M5Stack         Stamp Fly       "
+title: 'M5Stackのドローンキット「Stamp Fly」製品化への道'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*pKwqRRiG82bJZw5UofPgAw.png"
   relative: false
@@ -8,19 +8,12 @@ slug: m5stack-stamp-fly
 date: 2025-03-27
 ---
 
-M5Stackのドローンキット「Stamp Fly」製品化への道 {#m5stackのドローンキットstamp-fly製品化への道 .p-name}
-================================================
-
 2024/11/19 06:30
 
 
 ------------------------------------------------------------------------
-
-### M5Stackのドローンキット「Stamp Fly」製品化への道 {#98c6 .graf .graf--h3 .graf--leading .graf--title name="98c6"}
-
 2024/11/19 06:30
 
-![](https://cdn-images-1.medium.com/max/800/1*pKwqRRiG82bJZw5UofPgAw.png)
 
 日本でも人気の「M5Stack」シリーズは、画面やボタンなどが一体型になっていて、手軽に使えるマイコンボードだ。
 
@@ -34,9 +27,7 @@ M5Stackのドローンキット「Stamp Fly」製品化への道 {#m5stackのド
 ------------------------------------------------------------------------
 
 [**日本で飛ばせるドローンを作ろう！
-M5StackのAtomFlyプロジェクト｜fabcross**](https://fabcross.jp/topics/tks/20230110_m5stack_drone.html){.markup--anchor
-.markup--p-anchor}
-
+M5StackのAtomFlyプロジェクト｜fabcross**](https://fabcross.jp/topics/tks/20230110_m5stack_drone.html)
 ただ、前回レポートしたのは2023年の1月。それから実際の製品[**「M5Stamp
 Fly」**](https://www.switch-science.com/products/9818){.markup--anchor
 .markup--p-anchor}と[**「M5Atom
@@ -54,17 +45,15 @@ Flyと、大人気となったStamp Flyの間では、どういう変更が行�
 ![製品となったStamp Fly。Atom
 Fly改善プロジェクトが始まってから2年近くが経過し、2024年8月に販売された。](https://cdn-images-1.medium.com/max/800/1*qvk7In8E8eSRxlYLwvdwUw.png)
 
-### 大規模改修を行っても、販売に至らなかった次世代Atom Fly {#63f1 .graf .graf--h3 .graf-after--figure name="63f1"}
-
+### 大規模改修を行っても、販売に至らなかった次世代Atom Fly
 旧製品Atom
 Flyの改善に日本のユーザーたち、特に飛行制御の専門家である金沢工大の伊藤恒平教授が協力するようになったことで、開発は急ピッチで進んだ。実際に飛行させるワークショップなども行えるようになった。
 
 2022年末～2023年初頭のX（旧twitter）のスレッドには、
 
--   [飛行制御のためのファームウェア適用]{#b4b2}
+-   [飛行制御のためのファームウェア適用]
 -   [Atom Fly
-    のハードウェア改修、センサーの追加やPCBで構成されたボディの設計改善]{#18f9}
-
+    のハードウェア改修、センサーの追加やPCBで構成されたボディの設計改善]
 など、毎週のように新しいファームウェアがテストされ、深圳にあるM5Stackからも頻繁にバージョンアップした試作品が届いている様子がうかがえる。
 
 > [](https://twitter.com/kouhei_kanazawa/status/1601734123160473601?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1601735702005575681%7Ctwgr%5E27899e29e67d442020b25723802f4ca568b4e414%7Ctwcon%5Es2_&ref_url=https%3A%2F%2Ffabcross.jp%2Ftopics%2Ftks%2F20241119_m5stack_stampfly.html)
@@ -85,8 +74,7 @@ Lite」**](https://www.switch-science.com/products/6262){.markup--anchor
 このままAtom Flyを改良してAtom
 Fly2として製品化する方向だと、製品化へのゴールははるかに遠いように思われた。
 
-### 2023年5月 筐体とMCUを変更し、別製品「Stamp Fly」が誕生 {#8f35 .graf .graf--h3 .graf-after--p name="8f35"}
-
+### 2023年5月 筐体とMCUを変更し、別製品「Stamp Fly」が誕生
 ![Atom
 Flyにガードを付けるなどさまざまな改善を行った（左）が、市販のトイドローン筐体に合わせてPCB基板を開発する（右）ことで耐久性、飛行安定性が大幅に改善（[**伊藤教授のスライド**](https://www.docswell.com/s/Kouhei_Ito/K228YN-2024-10-27-074715){.markup--anchor
 .markup--figure-anchor}より）。](https://cdn-images-1.medium.com/max/800/1*CXTtIACUsXKWr25y9ylDuQ.png)
@@ -107,8 +95,7 @@ Lite（12g）よりはるかに軽く（3.2g）、性能の高いESP32-S3を搭�
 S3を採用した。さらに伊藤教授のアドバイスを受けて、センサー類を再度精査することになった。Atom
 Flyの改良版でなく、新しいモデルとしてのStamp Flyの誕生である。
 
-### 深圳のドローン企業 BETAFPVとの協業により、バッテリー／筐体が改善 {#a7eb .graf .graf--h3 .graf-after--p name="a7eb"}
-
+### 深圳のドローン企業 BETAFPVとの協業により、バッテリー／筐体が改善
 筐体の購入や、それに合わせたモーター、ローターなどの購入では、筆者ほか日本のドローン愛好家がかねてから馴染みの深圳のドローン企業BETAFPVと協業できた。筐体サイズを同社が使用している65mmサイズのドローンフレームに合わせ、バッテリーも同社のもの（BT2.0コネクターの「LAVA
 1S」）を採用することになった。
 
@@ -117,8 +104,7 @@ Flyの改良版でなく、新しいモデルとしてのStamp Flyの誕生で�
 ![2023年8月、M5StackのCEO
 Jimmy（左から２人目）と共にBETAFPVで打ち合わせしたことにより、さまざまな問題が一気に解消された。](https://cdn-images-1.medium.com/max/800/1*tpjoEhsqU023_TjhhIv3lA.png)
 
-### コントローラーを再設計 Atom Joystick {#964f .graf .graf--h3 .graf-after--figure name="964f"}
-
+### コントローラーを再設計 Atom Joystick
 Stamp
 FlyがESP32-S3を使ったことから、コントローラーもESP32-S3を採用した[**ATOMS3**](https://www.switch-science.com/products/8670){.markup--anchor
 .markup--p-anchor}を前提にM5ATOM Joystickとして再設計された。
@@ -130,8 +116,7 @@ CEOで設計者であるJimmyのアイデア賞ですね」と伊藤教授も称
 ![コントローラーがそのままドローンバッテリーの充電器になるM5ATOM
 Joystick。操作も通常のコントローラーと同じ、左右2本のジョイスティックになった。](https://cdn-images-1.medium.com/max/800/1*PBWhJnJraNNcJRhHtFatBg.png)
 
-### マルチコプター制御の入門キットとして {#ae2a .graf .graf--h3 .graf-after--figure name="ae2a"}
-
+### マルチコプター制御の入門キットとして
 ハードウェアとして完成度が上がり、使いやすくなったことで、Stamp
 Flyはマルチコプター制御の入門キットとして広く受け入れられる可能性を秘めている。
 
@@ -142,8 +127,7 @@ Flyはマルチコプター制御の入門キットとして広く受け入れ�
 伊藤教授はStamp
 Flyを教材に、学生にマルチコプターの制御を20コマ（1日4コマ×5日）の集中講義で行う授業をすでに行っている。
 
-### オープンなハードウェアによる、別のファームウェアの適用／さらには教材化 {#2a94 .graf .graf--h3 .graf-after--p name="2a94"}
-
+### オープンなハードウェアによる、別のファームウェアの適用／さらには教材化
 ファームウェアが公開され、マイコンへの書き込み手段が整備されたオープンなドローンキットは珍しく、発売後には[**ArduPilot**](https://ardupilot.org/){.markup--anchor
 .markup--p-anchor}など別のファームウェアを書き込んだ事例も見られた。Stamp
 Flyの登場は、安価なハードウェアの誕生でさまざまなドローン制御ソフトウェアのコミュニティを勢いづかせている。
@@ -164,6 +148,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 27, 2025](https://medium.com/p/5fc792fb431c).
 
 [Canonical
-link](https://medium.com/@tks/20241119-5fc792fb431c){.p-canonical}
-
+link](https://medium.com/@tks/20241119-5fc792fb431c)
 Exported from [Medium](https://medium.com) on February 6, 2026.

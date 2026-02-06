@@ -1,5 +1,5 @@
 ---
-title: "Augment the Future                                "
+title: 'Augment the Future ヒューマンオーギュメンテーション学 ソニー寄付口座 (暦本研）'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*JySyzO1PdEYo7gnt50IaJQ.jpeg"
   relative: false
@@ -8,17 +8,12 @@ slug: augment-the-future
 date: 2017-11-23
 ---
 
-Augment the Future ヒューマンオーギュメンテーション学 ソニー寄付口座 (暦本研） {#augment-the-future-ヒューマンオーギュメンテーション学-ソニー寄付口座-暦本研 .p-name}
-==============================================================================
-
 ソニー寄付口座 Augment the Future...
 
 
 ------------------------------------------------------------------------
 
-### Augment the Future ヒューマンオーギュメンテーション学 ソニー寄付口座 (暦本研） {#ae57 .graf .graf--h3 .graf--leading .graf--title name="ae57"}
-
-![](https://cdn-images-1.medium.com/max/800/1*JySyzO1PdEYo7gnt50IaJQ.jpeg)
+### Augment the Future ヒューマンオーギュメンテーション学 ソニー寄付口座 (暦本研）
 
 ソニー寄付口座 Augment the Future
 ヒューマンオーギュメンテーション学に行ってきた。暦本先生が研究内容を紹介するイベントと勘違いしていたが、さまざまな業界で活躍するOBの各氏が、「研究者としての社会人生活を学生に向かって発表する」みたいな内容で、これはこれで面白かった。\
@@ -43,13 +38,10 @@ Augment the Future パネルディスカッション
 [**Augment the Future ヒューマンオーギュメンテーション学 ソニー寄付口座
 (暦本研）**\
 *当日のTwitterまとめ*togetter.com](https://togetter.com/li/1174465 "https://togetter.com/li/1174465"){.markup--anchor
-.markup--mixtapeEmbed-anchor}[](https://togetter.com/li/1174465){.js-mixtapeImage
-.mixtapeImage .u-ignoreBlock}
-
+.markup--mixtapeEmbed-anchor}[](https://togetter.com/li/1174465)
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [November 23, 2017](https://medium.com/p/f1369ac3a8ec).
 
 [Canonical
-link](https://medium.com/@tks/augumentthefuture-f1369ac3a8ec){.p-canonical}
-
+link](https://medium.com/@tks/augumentthefuture-f1369ac3a8ec)
 Exported from [Medium](https://medium.com) on February 6, 2026.

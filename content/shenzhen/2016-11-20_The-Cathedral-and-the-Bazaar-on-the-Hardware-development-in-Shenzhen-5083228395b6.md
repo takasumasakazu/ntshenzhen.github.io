@@ -1,5 +1,5 @@
 ---
-title: "The Cathedral and the Bazaar on the Hardware development in Shenzhen"
+title: 'The Cathedral and the Bazaar on the Hardware development in Shenzhen'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*5KRk0XwVLx4hsjNRQPu2Hw.jpeg"
   relative: false
@@ -8,17 +8,13 @@ slug: the-cathedral-and-the-bazaar-on-the-hardware-development-in-shenzhen
 date: 2016-11-20
 ---
 
-The Cathedral and the Bazaar on the Hardware development in Shenzhen {#the-cathedral-and-the-bazaar-on-the-hardware-development-in-shenzhen .p-name}
-====================================================================
-
 In Shenzhen, bazaar method hardware development which is finally finding
 out who the inventor is not understood is done.
 
 
 ------------------------------------------------------------------------
 
-### **The Cathedral and the Bazaar on the Hardware development in Shenzhen** {#2b1c .graf .graf--h3 .graf--leading .graf--title name="2b1c"}
-
+### **The Cathedral and the Bazaar on the Hardware development in Shenzhen**
 **In Shenzhen, bazaar method hardware development which is finally
 finding out who the inventor is not understood is done.**
 
@@ -97,7 +93,7 @@ resources and cost compared to software. Although it is a startup
 company, it is a full time, not a hobbyist.\
 And if you manufacture it badly, it will not be the original copy.\
 Still representative open source projects such as
-[Arduino](https://www.arduino.cc/){.markup--anchor .markup--p-anchor}
+[Arduino](https://www.arduino.cc/)
 and [RepRap](http://reprap.org/){.markup--anchor .markup--p-anchor} are
 born. Arduino was guaranteeing the condition that "everyone can use and
 freely develop and expand" by guaranteeing the "part that distributes
@@ -243,6 +239,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [November 20, 2016](https://medium.com/p/5083228395b6).
 
 [Canonical
-link](https://medium.com/@tks/the-cathedral-and-the-bazaar-on-the-hardware-development-5083228395b6){.p-canonical}
-
+link](https://medium.com/@tks/the-cathedral-and-the-bazaar-on-the-hardware-development-5083228395b6)
 Exported from [Medium](https://medium.com) on February 6, 2026.

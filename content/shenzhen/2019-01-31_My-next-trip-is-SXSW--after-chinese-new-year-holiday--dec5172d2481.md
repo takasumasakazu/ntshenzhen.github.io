@@ -1,5 +1,5 @@
 ---
-title: "My next trip is SXSW  after chinese new year holiday "
+title: 'My next trip is SXSW, after chinese new year holiday!'
 cover:
   image: "https://cdn-images-1.medium.com/max/800/1*tzb3ClpUDiFQciWQNx4XGw.jpeg"
   relative: false
@@ -8,16 +8,12 @@ slug: my-next-trip-is-sxsw-after-chinese-new-year-holiday
 date: 2019-01-31
 ---
 
-My next trip is SXSW, after chinese new year holiday! {#my-next-trip-is-sxsw-after-chinese-new-year-holiday .p-name}
-=====================================================
-
 新年快乐， 恭喜发财! 离开深圳起1月18号到2月27号。
 
 
 ------------------------------------------------------------------------
 
-### My next trip is SXSW, after chinese new year holiday! TAKASU & Nico-Tech Shenzhen Community Monthly news Feb/2019 {#7fe6 .graf .graf--h3 .graf--leading .graf--title name="7fe6"}
-
+### My next trip is SXSW, after chinese new year holiday! TAKASU & Nico-Tech Shenzhen Community Monthly news Feb/2019
 新年快乐， 恭喜发财!\
 离开深圳起1月18号到2月27号。
 
@@ -57,6 +53,5 @@ By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [January 31, 2019](https://medium.com/p/dec5172d2481).
 
 [Canonical
-link](https://medium.com/@tks/201902-dec5172d2481){.p-canonical}
-
+link](https://medium.com/@tks/201902-dec5172d2481)
 Exported from [Medium](https://medium.com) on February 6, 2026.

@@ -8,19 +8,11 @@ date: 2025-03-24
 「企業内メイカースペースは、社内外の垣根を越え、つながりを作る」Microsoft、Googleの取り組み {#企業内メイカースペースは社内外の垣根を越えつながりを作るmicrosoftgoogleの取り組み .p-name}
 ===========================================================================================
 
-::: {.section .p-summary field="subtitle"}
 2019/07/09 07:30
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="3fb6"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### 「企業内メイカースペースは、社内外の垣根を越え、つながりを作る」Microsoft、Googleの取り組み {#f5bb .graf .graf--h3 .graf--leading .graf--title name="f5bb"}
 
 2019/07/09 07:30
@@ -96,10 +88,6 @@ Tokyoに出展している。MicrosoftやGoogleがメイカースペースを作
 聴衆からの質問を含めて、「活動することそのものの意味」「社内の仕事との距離感」「役に立つこと（将来もうかりそうなこと）とそうじゃないものの距離感」などを含めた「メイカースペースの価値」については、落ち着いた理解が広まっていると感じたセッションだった。
 
 ![ほぼ満席、立ち見も出た注目セッションとなった。](https://cdn-images-1.medium.com/max/800/1*fJnaRndPnUEzpjAkIxGqEg.jpeg){.graf-image}
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 24, 2025](https://medium.com/p/7b53c37596a1).

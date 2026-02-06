@@ -8,20 +8,12 @@ date: 2019-02-28
 My new challenge, lecture in the Waseda Univercity MBA course. {#my-new-challenge-lecture-in-the-waseda-univercity-mba-course. .p-name}
 ==============================================================
 
-::: {.section .p-summary field="subtitle"}
 Takaku just back to Shenzhen, Back to the future, back to busy
 days.Finally, I ended my CNY holiday in the Philippines.
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="925c"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### My new challenge, lecture in the Waseda Univercity MBA course. TAKASU & Nico-Tech Shenzhen Community Monthly news Mar/2019 {#dd60 .graf .graf--h3 .graf--leading .graf--title name="dd60"}
 
 Takaku just back to Shenzhen, Back to the future, back to busy
@@ -80,10 +72,6 @@ See you there!
 
 ![I was talking a lot
 with Student!](https://cdn-images-1.medium.com/max/800/1*jfxBsnnZtPIP5dsTsNK9sQ.jpeg){.graf-image}
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [February 28, 2019](https://medium.com/p/ddad8b26554c).

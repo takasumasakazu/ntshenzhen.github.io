@@ -8,19 +8,11 @@ date: 2025-03-27
 M5Stackのドローンキット「Stamp Fly」製品化への道 {#m5stackのドローンキットstamp-fly製品化への道 .p-name}
 ================================================
 
-::: {.section .p-summary field="subtitle"}
 2024/11/19 06:30
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first name="2c0f"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### M5Stackのドローンキット「Stamp Fly」製品化への道 {#98c6 .graf .graf--h3 .graf--leading .graf--title name="98c6"}
 
 2024/11/19 06:30
@@ -34,18 +26,10 @@ M5Stackのドローンキット「Stamp Fly」製品化への道 {#m5stackのド
 .markup--p-anchor}氏、[**Necobut**](https://twitter.com/necobut){.markup--anchor
 .markup--p-anchor}氏など、日本のエンジニアたちが共同開発に参加し、急ピッチで開発が再開した。ここまでの経緯はfabcrossで[**前回のレポート**](https://fabcross.jp/topics/tks/20230110_m5stack_drone.html){.markup--anchor
 .markup--p-anchor}で報告したとおりだ。
-:::
-:::
-:::
 
-::: {.section .section .section--body .section--last name="142f"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 [**日本で飛ばせるドローンを作ろう！
 M5StackのAtomFlyプロジェクト｜fabcross**](https://fabcross.jp/topics/tks/20230110_m5stack_drone.html){.markup--anchor
 .markup--p-anchor}
@@ -172,10 +156,6 @@ Joystickも生産が再開され、日本での販売も再開された。M5Stac
 
 開発に多くの日本人エンジニアが関わったことにより、Stamp
 Flyを中心にした産業のエコシステムが日本でできつつある。こうした成果が世界に向けて広がっていくのが、とても楽しみなプロジェクトになっている。
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 27, 2025](https://medium.com/p/5fc792fb431c).

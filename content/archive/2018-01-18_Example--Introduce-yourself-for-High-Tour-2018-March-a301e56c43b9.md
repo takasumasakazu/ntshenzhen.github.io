@@ -8,26 +8,16 @@ date: 2018-01-18
 Example: Introduce yourself for High Tour 2018 March {#example-introduce-yourself-for-high-tour-2018-march .p-name}
 ====================================================
 
-::: {.section .p-summary field="subtitle"}
 You have to write up blog article about introducing yourself for
 application Shenzhen High Tour, in English or in Japanese.
-:::
 
-::: {.section .p-summary field="description"}
 You have to write up blog article about introducing yourself for
 application Shenzhen High Tour, in English or in Japanese. 1.Self
 introduction I\`m Takasu, organizer of this High Tour. And also I...
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="d265"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Example: Introduce yourself for Shenzhen High Tour 2018 March {#faf5 .graf .graf--h3 .graf--leading .graf--title name="faf5"}
 
 You have to write up blog article about introducing yourself for
@@ -64,10 +54,6 @@ year.
 **I can use the Didi (Taxi App) and some apps in Chinese, and Speak
 English and bit Chinese. But I guess I\`m quite busy in the tour for
 organizing, You should find other people.
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [January 18, 2018](https://medium.com/p/a301e56c43b9).

@@ -8,19 +8,11 @@ date: 2025-03-21
 世界の工場深センに見る、「製品化」を助けるサプライチェーン --- --- HWTrekのAsia Innovation Tour 世界のサプライチェーンレポート {#世界の工場深センに見る製品化を助けるサプライチェーン-hwtrekのasia-innovation-tour-世界のサプライチェーンレポート .p-name}
 ==============================================================================================================================
 
-::: {.section .p-summary field="subtitle"}
 2016/12/27 08:00
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="7b46"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### 世界の工場深センに見る、「製品化」を助けるサプライチェーン --- --- HWTrekのAsia Innovation Tour 世界のサプライチェーンレポート {#c779 .graf .graf--h3 .graf--leading .graf--title name="c779"}
 
 2016/12/27 08:00
@@ -156,10 +148,6 @@ Gouldでは引き受けていて、もちろんマニュアルだけ印刷して
 
 今回の記事の中心になっている深センのエコシステム、Makersとの関わりについては、[**メイカーズのエコシステム**](http://ch.nicovideo.jp/tks/blomaga/ar941066){.markup--anchor
 .markup--p-anchor}という書籍にまとまっています。
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 21, 2025](https://medium.com/p/8b4db20e3264).

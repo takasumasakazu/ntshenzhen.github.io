@@ -8,19 +8,11 @@ date: 2017-08-23
 Maker Faire Beijing北京2017 {#maker-faire-beijing北京2017 .p-name}
 ===========================
 
-::: {.section .p-summary field="subtitle"}
 北京全体のレポートまとめはこちら
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="b32d"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Maker Faire Beijing北京2017 {#57b1 .graf .graf--h3 .graf--leading .graf--title name="57b1"}
 
 北京全体の[レポートまとめはこちら](https://medium.com/ecosystembymakers/makerfaire-bejing-2017-2636e9a3cb6d){.markup--anchor
@@ -30,13 +22,11 @@ Maker Faire Beijing北京2017 {#maker-faire-beijing北京2017 .p-name}
 .markup--p-anchor}に写真がたっぷり載っていて詳しい。\
 僕らが撮影した写真はこちら。
 
-::: {#f0f9 .graf .graf--mixtapeEmbed .graf-after--p name="f0f9"}
 [**201708 Maker Faire Beijing 2017**\
 *194 new photos · Album by takasu
 masakazu*goo.gl](https://goo.gl/photos/uq8HTjKXAriYhn3x9 "https://goo.gl/photos/uq8HTjKXAriYhn3x9"){.markup--anchor
 .markup--mixtapeEmbed-anchor}[](https://goo.gl/photos/uq8HTjKXAriYhn3x9){.js-mixtapeImage
 .mixtapeImage .u-ignoreBlock}
-:::
 
 ![もっともグッときた合体型ロボ。北京の会社でHAXのOB](https://cdn-images-1.medium.com/max/800/1*6EDZ3nYn61zUzdEemHG85A.jpeg){.graf-image}
 
@@ -50,10 +40,6 @@ ShenzhenのMonicaが訪れた写真を見ると、それに比べるとだいぶ
 内容は教育系のブースかスタートアップという感じで「ここでしか見れない面白いもの」はさほどなく、「他のメイカーフェアに比べてどうか」という視点ではあまりオススメできません。北京は結構面白いスタートアップやメイカーがいるわりにメイカーフェアにブースを見なかったので、主催の歌華集団が北京のコミュニティ全体にうまくアプローチできてない感じはしました。
 
 多くの教育関係ブースが参加し、天津の大学から来たロボティクスのグループなど、他の地域のメイカーフェアで見られない人たちもいました。メイカー達のトークで構成されるカンファレンスはとても面白かったので、来年以降に向けてより北京のメイカー達のコミュニティが大きくなり、よりみんなが楽しみにするイベントになるといいなあと思ってます。
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [August 23, 2017](https://medium.com/p/2636e9a3cb6d).

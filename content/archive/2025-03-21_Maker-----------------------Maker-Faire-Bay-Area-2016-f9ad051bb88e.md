@@ -8,53 +8,29 @@ date: 2025-03-21
 Makerマインドの原点と最新形がここにある 世界最大のMaker Faire Bay Area 2016 {#makerマインドの原点と最新形がここにある-世界最大のmaker-faire-bay-area-2016 .p-name}
 ===========================================================================
 
-::: {.section .p-summary field="subtitle"}
 2016/08/04 08:00
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first name="8651"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Makerマインドの原点と最新形がここにある 世界最大のMaker Faire Bay Area 2016 {#e77e .graf .graf--h3 .graf--leading .graf--title name="e77e"}
 
 2016/08/04 08:00
 
 ![](https://cdn-images-1.medium.com/max/800/1*57DHFJsuq-wDk9Uh3Ga-Qw.jpeg){.graf-image}
-:::
-:::
-:::
 
-::: {.section .section .section--body name="12f3"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 世界のMaker Faireの元祖、アメリカ西海岸で行われるMaker Faire Bay Area
 2016は、11周年となる今回、来場20万人を超える世界最大規模のMaker
 Faireとなった。恐らく面積も世界最大と思われる広大な空間の中に、多様なDIYが見られるMakerムーブメントの原点と、世界のMakerムーブメントの高まりを反映した最新形が見られた。DIYから始まり、今は「明日のMade
 in America」と呼ばれるまでになった、ベイエリアのMaker
 Faireをレポートする。
-:::
-:::
-:::
 
-::: {.section .section .section--body .section--last name="5571"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Maker Faireの原点であるDIYマインド {#342c .graf .graf--h3 .graf--leading name="342c"}
 
 Makerムーブメントがここまで注目され、連日ニュースを賑わすようになったのは、急成長するハードウェアの新興企業、スタートアップが続々生まれるようになってからだ。ただ、11年前にベイエリアで最初のMaker
@@ -173,10 +149,6 @@ Tokyoの終了後に、ギークのギークによるギークのためのダン
 .markup--p-anchor}と、小規模な展示イベントの[**ニコニコ技術部東京（NT東京）**](http://wiki.nicotech.jp/nico_tech/index.php?NT%E6%9D%B1%E4%BA%AC2016){.markup--anchor
 .markup--p-anchor}を[**秋葉原MOGRA**](http://club-mogra.jp/2016/08/07/2786/){.markup--anchor
 .markup--p-anchor}にて開催する予定です。ぜひ会場でお会いしましょう。
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 21, 2025](https://medium.com/p/f9ad051bb88e).

@@ -8,20 +8,12 @@ date: 2015-07-17
 Forum:Making in Education MakerFaire Singapore 2015 {#forummaking-in-education-makerfaire-singapore-2015 .p-name}
 ===================================================
 
-::: {.section .p-summary field="subtitle"}
 Speakers: Sonak Anshul, Intel Mobile Telecommunications Dale Dougherty,
 CEO, Maker Media Saminathan Gopal, Pricipal, STEM Inc Erik...
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="90f5"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 **Forum:Making in Education MakerFaire Singapore 2015**
 
 **Speakers:**\
@@ -106,10 +98,6 @@ Her workshop are Co-creation experiance for Kids.\
 Sence made by experiance and education, not only kids mind. Her
 works --- Make sometihng together for beautiful, that is very good
 experiance to how to make more beautiful and emotional things.
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [July 17, 2015](https://medium.com/p/7dde954a7961).

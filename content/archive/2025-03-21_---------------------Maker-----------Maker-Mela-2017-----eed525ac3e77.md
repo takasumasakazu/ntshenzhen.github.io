@@ -8,19 +8,11 @@ date: 2025-03-21
 インド映画のように濃厚な喜びに満ちた、踊るMakerの祭 --- --- ムンバイMaker Mela 2017レポート {#インド映画のように濃厚な喜びに満ちた踊るmakerの祭-ムンバイmaker-mela-2017レポート .p-name}
 ===========================================================================================
 
-::: {.section .p-summary field="subtitle"}
 2017/02/14 08:00
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first name="52e7"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### インド映画のように濃厚な喜びに満ちた、踊るMakerの祭 --- --- ムンバイMaker Mela 2017レポート {#4be9 .graf .graf--h3 .graf--leading .graf--title name="4be9"}
 
 2017/02/14 08:00
@@ -74,18 +66,10 @@ Institute（自動車の開発がメインの工科大）が開発したクラ�
 ![可変ピッチの風車。足も含めて折りたたむと単なる竿になる。](https://cdn-images-1.medium.com/max/800/1*wYfcHbaDCMc40KbO6d8dNQ.jpeg){.graf-image}
 
 こちらのポータブル風車はピッチを可変することでどのような風量の風にも対応できるように工夫したもので、伸ばせば単なる竿になるので持ち運ぶこともでき、どこでもUSBで電源を取り出したり明かりをつけたりすることができる。美大のプロダクトデザインのようなセンスの産物だ。
-:::
-:::
-:::
 
-::: {.section .section .section--body name="eaa3"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### ユニークな外見のロボット、教育ツール {#5e99 .graf .graf--h3 .graf--leading name="5e99"}
 
 ロボットも技術的ものからマスコット型のものまでいくつも出展されていた。
@@ -117,18 +101,10 @@ Melaのものが取り立ててレベルが高いとは感じなかったが、�
 
 こちらはインドのスタートアップ企業が開発した、子ども向けの電子回路／ロボット教育ツール。littleBitsや[**Grove**](https://www.seeedstudio.com/category/Grove-c-45.html){.markup--anchor
 .markup--p-anchor}のように、ハンダ付けをしなくても電子回路を作ることができる。拍手ロボや口をあけるロボなどの作成がユーモラスでかわいい。
-:::
-:::
-:::
 
-::: {.section .section .section--body .section--last name="da1a"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### 絵画、服飾なども展示 {#75c5 .graf .graf--h3 .graf--leading name="75c5"}
 
 絵画や服飾などのクラフト系の展示も多い。絵画はインド独特の、ヒンドゥーの神々がモチーフになっている。別の日にムンバイの街を歩いたのだが、美術館がいくつもあり、そこに多くの学生が訪れているなど、絵画への興味がうかがえた。
@@ -162,10 +138,6 @@ Melaのものが取り立ててレベルが高いとは感じなかったが、�
 
 僕のTAKASUという名前はおぼえやすいし、プレゼンを2回やったのでイベントのパンフレットには名前が書いてある。イベントが終わったら、数十人からFacebookのリクエストが届いていた。インド・ムンバイの人々を身体中で感じられて、Makerとしての喜びをシェアできる。Maker
 Melaは素晴らしいイベントだった。
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 21, 2025](https://medium.com/p/eed525ac3e77).

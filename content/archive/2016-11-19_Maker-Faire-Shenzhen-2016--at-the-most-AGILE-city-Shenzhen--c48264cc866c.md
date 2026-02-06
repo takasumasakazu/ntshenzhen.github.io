@@ -8,20 +8,12 @@ date: 2016-11-19
 Maker Faire Shenzhen 2016, at the most AGILE city Shenzhen. {#maker-faire-shenzhen-2016-at-the-most-agile-city-shenzhen. .p-name}
 ===========================================================
 
-::: {.section .p-summary field="subtitle"}
 Asia's largest Maker Faire is being held in Shenzhen, the center of the
 world's hardware · China.
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="e7a9"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Maker Faire Shenzhen 2016, at the most AGILE city Shenzhen. {#990b .graf .graf--h3 .graf--leading .graf--title name="990b"}
 
 Asia's largest Maker Faire is being held in Shenzhen, the center of the
@@ -179,10 +171,6 @@ the most from all over the world. Of course, culture and business way,
 all of the city is for MAKERS.
 
 That is why I think that it is the capital of Makers.
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [November 19, 2016](https://medium.com/p/c48264cc866c).

@@ -1,5 +1,6 @@
 ---
 title: "draft_A Night with Mitch Altman"
+draft: true
 aliases: ["/2000/01/draft-a-night-with-mitch-altman/"]
 slug: draft-a-night-with-mitch-altman
 date: 2000-01-01
@@ -8,20 +9,12 @@ date: 2000-01-01
 A Night with Mitch Altman {#a-night-with-mitch-altman .p-name}
 =========================
 
-::: {.section .p-summary field="subtitle"}
 Mitch Altman, He is great hacker, one of the famous gurus of the Hacker
 Space movement, and my old friend. We often met hacker event on the...
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="db21"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 A Night with Mitch Altman
 
 Mitch Altman, He is great hacker, one of the famous gurus of the Hacker
@@ -35,10 +28,6 @@ Mitch, I and Emery from Tokyo Hackerspace, we told How to create a
 Hackerspace each other.
 
 That was so good time.
-:::
-:::
-:::
-:::
 
 [View original.](https://medium.com/p/17ddec32d5c0)
 

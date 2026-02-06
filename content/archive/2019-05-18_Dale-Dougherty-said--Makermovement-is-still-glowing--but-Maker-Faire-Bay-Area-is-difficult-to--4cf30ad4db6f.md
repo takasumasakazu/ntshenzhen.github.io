@@ -8,20 +8,12 @@ date: 2019-05-18
 Dale Dougherty said, Makermovement is still glowing, but Maker Faire Bay Area is difficult to... {#dale-dougherty-said-makermovement-is-still-glowing-but-maker-faire-bay-area-is-difficult-to .p-name}
 ================================================================================================
 
-::: {.section .p-summary field="subtitle"}
 I heard from MakerMedia CEO Dale today at a press conference in Maker
 Faire Bay Area. This news is true.
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="a42a"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Dale Dougherty said, Makermovement is still glowing, but Maker Faire Bay Area is difficult to continue\... {#d824 .graf .graf--h3 .graf--leading .graf--title name="d824"}
 
 I heard from MakerMedia CEO Dale (And also my good friend, I still
@@ -29,14 +21,12 @@ respect and big hand to him)today at a press conference in Maker Faire
 Bay Area.\
 This news is true.
 
-::: {#3c93 .graf .graf--mixtapeEmbed .graf-after--p name="3c93"}
 [**Next week\'s Maker Faire in San Mateo could be Bay Area\'s last**\
 *The annual Maker Faire has been drawing inventors, craft-makers and
 engineers for more than a decade, but next
 week\'s...*www.sfchronicle.com](https://www.sfchronicle.com/business/article/Next-week-s-Maker-Faire-in-San-Mateo-could-be-13836040.php?psid=5fi3m#photo-10106992 "https://www.sfchronicle.com/business/article/Next-week-s-Maker-Faire-in-San-Mateo-could-be-13836040.php?psid=5fi3m#photo-10106992"){.markup--anchor
 .markup--mixtapeEmbed-anchor}[](https://www.sfchronicle.com/business/article/Next-week-s-Maker-Faire-in-San-Mateo-could-be-13836040.php?psid=5fi3m#photo-10106992){.js-mixtapeImage
 .mixtapeImage .u-ignoreBlock}
-:::
 
 The MAKER is still valuable, and maker movement is still growing. But
 MFBA is a bit difficult by financing.
@@ -73,17 +63,11 @@ by my only personal wallet from Asia to San mateo.
 I attached the sound file about interview with Dale, on the press
 conference.
 
-::: {#7663 .graf .graf--mixtapeEmbed .graf-after--p .graf--trailing name="7663"}
 [**dale-MFBApress on 20190518.mp3**\
 *Edit
 description*drive.google.com](https://drive.google.com/open?id=11Oo34d7dPxjBWBIJS0XJTVvydPpSSI9H "https://drive.google.com/open?id=11Oo34d7dPxjBWBIJS0XJTVvydPpSSI9H"){.markup--anchor
 .markup--mixtapeEmbed-anchor}[](https://drive.google.com/open?id=11Oo34d7dPxjBWBIJS0XJTVvydPpSSI9H){.js-mixtapeImage
 .mixtapeImage .mixtapeImage--empty .u-ignoreBlock}
-:::
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [May 18, 2019](https://medium.com/p/4cf30ad4db6f).

@@ -8,20 +8,12 @@ date: 2015-07-13
 Maker Faire Singapore​ 2015 introduced by National TV of Taiwan! {#maker-faire-singapore-2015-introduced-by-national-tv-of-taiwan .p-name}
 ================================================================
 
-::: {.section .p-summary field="subtitle"}
 I'm not sure for Chinese, but looks They so surely understanding Maker
 Movement, and Incubater, croudfunding, Prototyping... Maker Ecosystem...
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="b72d"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 Maker Faire Singapore​ 2015 introduced by National TV of Taiwan! {#879f .graf .graf--h2 .graf--leading .graf--title name="879f"}
 ----------------------------------------------------------------
 
@@ -41,10 +33,6 @@ on video, Maker Movement in Asia will become more cloth over the
 borderline, but collaboration each other day by day.
 
 台湾のテレビに、メイカーフェアシンガポールが取材されている。メイカームーブメントや、それが経済にもたらす影響について、きちんと紹介されている。まだ日本だと、発明と量産の話がごっちゃになってちゃんと理解されてない、少なくともメディアの人が書いた原稿やテロップは間違ってることが多いように思うので、すごいとおもった。
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [July 13, 2015](https://medium.com/p/e6ec10e17db5).

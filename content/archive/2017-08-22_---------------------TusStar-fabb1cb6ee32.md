@@ -8,19 +8,11 @@ date: 2017-08-22
 清華大学卒業生達が作ったベンチャー支援会社TusStar {#清華大学卒業生達が作ったベンチャー支援会社tusstar .p-name}
 =================================================
 
-::: {.section .p-summary field="subtitle"}
 北京で見たベンチャー全体のまとめはこちら この記事は全4記事の4本目
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="7d4b"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### 清華大学卒業生達が作ったベンチャー支援会社TusStar {#a7b4 .graf .graf--h3 .graf--leading .graf--title name="a7b4"}
 
 北京で見たベンチャー全体の[まとめ](https://medium.com/ecosystembymakers/beijing-venture-f2e77d93c313){.markup--anchor
@@ -89,10 +81,6 @@ Tsinovaは、学外の
 **多くのケースでは誰もいなかった市場を大胆なアイデアで攻めるのがベンチャー、できあがった市場をクオリティ高い製品で販売していくのが大企業とされています。品質と利益をきちんとバランスした大量生産や、シェア争いで勝負できるような高品質製品は、ベンチャーの分野ではありません。\
 でも、AVORIやTsinovaはそうした大手企業と同じ価格帯でクオリティの高い製品を出して勝負しようとしています。訪問時に触れた製品を見る限り、たしかに全体的なクオリティは立ち上げ期のベンチャーと大きく異なるように見えました。人数も、独立したオフィスを構えるTsinovaは数十人規模の会社で、自転車だけの開発部隊であれば充分なボリュームがあるように見えました。\
 きわめて優秀な工科大である清華大にそのクオリティがあるのか、急速にスケーリングできる支援環境があるのか、有象無象のカオスが生み出す深圳のスタートアップとは違うキャラクターを感じました。
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [August 22, 2017](https://medium.com/p/fabb1cb6ee32).

@@ -8,19 +8,11 @@ date: 2025-03-21
 「人がMakerになる場所」古都・成都で開かれた中国4カ所目のMaker Faire、Mini Maker Faire 成都 2016レポート {#人がmakerになる場所古都成都で開かれた中国4カ所目のmaker-fairemini-maker-faire-成都-2016レポート .p-name}
 =======================================================================================================
 
-::: {.section .p-summary field="subtitle"}
 2017/01/24 08:00
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first name="2284"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### 「人がMakerになる場所」古都・成都で開かれた中国4カ所目のMaker Faire、Mini Maker Faire 成都 2016レポート {#b81f .graf .graf--h3 .graf--leading .graf--title name="b81f"}
 
 2017/01/24 08:00
@@ -34,18 +26,10 @@ Maker Faire 成都 2016」が開かれた。
 Faireは、同じ中国の深センのMaker
 Faireがスタートアップ尽くしなのとは異なるカルチャーを感じた。さまざまなMaker文化を交錯させ、「人がMakerになる場所」となったMini
 Maker Faire 成都 2016をレポートする。
-:::
-:::
-:::
 
-::: {.section .section .section--body .section--last name="0493"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### 古都・成都のMaker Faireに11万人が集まる {#7334 .graf .graf--h3 .graf--leading name="7334"}
 
 四川省の省都であり、数千年前の殷の時代の遺構が残る古都・成都で2016年12月3～4日に開催された[**ChengDu
@@ -182,10 +166,6 @@ Faireは企画されているようだ。
 成都のMaker
 Faireは日本語・英語の出展フォームを設けて、海外からの出展も歓迎している。2017年のMaker
 Faire 成都が楽しみである。
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 21, 2025](https://medium.com/p/2521d402d61e).

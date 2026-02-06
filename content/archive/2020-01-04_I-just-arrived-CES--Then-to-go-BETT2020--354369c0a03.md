@@ -8,20 +8,12 @@ date: 2020-01-04
 I just arrived CES, Then to go BETT2020. {#i-just-arrived-ces-then-to-go-bett2020. .p-name}
 ========================================
 
-::: {.section .p-summary field="subtitle"}
 I just arrived in Las Vegas airport for CES 2020. I \`m here until 10th
 Jan. If you also come to CES, please say hi.
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="af27"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### I just arrived CES, Then to go BETT2020. See you! TAKASU & Nico-Tech Shenzhen Community Monthly news Jan/2020 {#f44b .graf .graf--h3 .graf--leading .graf--title name="f44b"}
 
 I just arrived in Las Vegas airport for CES 2020. I \`m here until 10th
@@ -68,10 +60,6 @@ Feb\
 March\
 14th Open Source Hardware Summit (New York)\
 TBA speak at Hongkong Chinese Univ
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [January 4, 2020](https://medium.com/p/354369c0a03).

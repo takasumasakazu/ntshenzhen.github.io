@@ -8,20 +8,12 @@ date: 2020-04-10
 「深圳の産業集積とハードウェアのマスイノベーション\`イノベーションの力\`」Cai Wenya(Agatha)日本語訳 {#深圳の産業集積とハードウェアのマスイノベーションイノベーションの力cai-wenyaagatha日本語訳 .p-name}
 ===================================================================================================
 
-::: {.section .p-summary field="subtitle"}
 2020年2月に行った早稲田ビジネススクールでの講義で、深圳から日本に留学しているAgathaが感想コラムを書いてくれました。
 ここに高須による日本語訳を掲載します。翻訳時にwww.DeepL.com/Translator（無料版）を使用しました。
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="3da5"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### 「深圳の産業集積とハードウェアのマスイノベーション\`イノベーションの力\`」Cai Wenya(Agatha)日本語訳 {#cdce .graf .graf--h3 .graf--leading .graf--title name="cdce"}
 
 2020年2月に行った早稲田ビジネススクールでの講義で、深圳から日本に留学しているAgathaが[感想コラム](https://www.stentre.net/column/087){.markup--anchor
@@ -89,10 +81,6 @@ Agathaはその中国人学生のなかで、唯一の「深圳の会社出身�
 Japan）」の人でした。そこに向けて講義して、どうやら内容が正しく伝わったことと、興味をおぼえてくれたことは、とても自信になる、ありがたいことでもあります。
 
 ![別の日に深圳市駐日貿易代表所に行ったところ、「メイカーズのエコシステム」を読んでくれていた。こういう、深圳の人たちの力になれるのは嬉しいことです。](https://cdn-images-1.medium.com/max/800/1*FB9lgFltm7uZHBBr90QKiQ.jpeg){.graf-image}
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [April 10, 2020](https://medium.com/p/12e8d2a1998).

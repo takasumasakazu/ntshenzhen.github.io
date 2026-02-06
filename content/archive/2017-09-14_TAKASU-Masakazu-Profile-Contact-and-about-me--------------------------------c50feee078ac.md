@@ -8,20 +8,12 @@ date: 2017-09-14
 TAKASU Masakazu Profile,Contact,and about me 高須正和が書いてる記事、連載、プロフィール、連絡先などまとめ {#takasu-masakazu-profilecontactand-about-me-高須正和が書いてる記事連載プロフィール連絡先などまとめ .p-name}
 =========================================================================================================
 
-::: {.section .p-summary field="subtitle"}
 This is information about TAKASU Masakazu for the person who request to
 me, like speaker request...
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="aa72"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### TAKASU Masakazu Profile,Contact,and about me 高須正和が書いてる記事、連載、プロフィール、連絡先などまとめ {#0d61 .graf .graf--h3 .graf--leading .graf--title name="0d61"}
 
 This is information about TAKASU Masakazu for the person who request to
@@ -180,25 +172,20 @@ Skype,Wechat(微信): takasumasakazu
 
 ### 書籍(book) {#8937 .graf .graf--h3 .graf-after--p name="8937"}
 
-::: {#2381 .graf .graf--mixtapeEmbed .graf-after--h3 name="2381"}
 [**遠くへ行きたければ、みんなで行け
 ～「ビジネス」「ブランド」「チーム」を変革するコミュニティの原則**\
 *Amazonでジョノ・ベーコン, 高須 正和, 山形 浩生, 関 治之, 山形
 浩生の遠くへ行きたければ、みんなで行け...*amzn.to](https://amzn.to/3wliOAk "https://amzn.to/3wliOAk"){.markup--anchor
 .markup--mixtapeEmbed-anchor}[](https://amzn.to/3wliOAk){.js-mixtapeImage
 .mixtapeImage .u-ignoreBlock}
-:::
 
-::: {#7384 .graf .graf--mixtapeEmbed .graf-after--mixtapeEmbed name="7384"}
 [**プロトタイプシティ 深センと世界的イノベーション (角川書店単行本)**\
 *Amazonで高須 正和, 高口 康太, 澤田 翔, 藤岡 淳一, 伊藤 亜聖, 山形
 浩生のプロトタイプシティ
 深センと世界的イノベーション...*amzn.to](https://amzn.to/3Lms1wj "https://amzn.to/3Lms1wj"){.markup--anchor
 .markup--mixtapeEmbed-anchor}[](https://amzn.to/3Lms1wj){.js-mixtapeImage
 .mixtapeImage .u-ignoreBlock}
-:::
 
-::: {#d5d0 .graf .graf--mixtapeEmbed .graf-after--mixtapeEmbed name="d5d0"}
 [**ハードウェアハッカー \~新しいモノをつくる破壊と創造の冒険**\
 *Amazonでアンドリュー\"バニー\"ファン, 山形 浩生, 高須
 正和のハードウェアハッカー
@@ -207,9 +194,7 @@ Skype,Wechat(微信): takasumasakazu
 高須...*www.amazon.co.jp](http://www.amazon.co.jp/exec/obidos/ASIN/4297101068/hirayasutakas-22/ref=nosim/ "http://www.amazon.co.jp/exec/obidos/ASIN/4297101068/hirayasutakas-22/ref=nosim/"){.markup--anchor
 .markup--mixtapeEmbed-anchor}[](http://www.amazon.co.jp/exec/obidos/ASIN/4297101068/hirayasutakas-22/ref=nosim/){.js-mixtapeImage
 .mixtapeImage .u-ignoreBlock}
-:::
 
-::: {#025b .graf .graf--mixtapeEmbed .graf-after--mixtapeEmbed name="025b"}
 [**メイカーズのエコシステム 新しいモノづくりがとまらない。
 (NextPublishing)**\
 *Amazonで高須 正和のメイカーズのエコシステム
@@ -218,9 +203,7 @@ Skype,Wechat(微信): takasumasakazu
 正和作品ほか、お急ぎ便対象商品は当日お届けも可能。またメイカーズのエコシステム...*www.amazon.co.jp](http://www.amazon.co.jp/exec/obidos/ASIN/4844397230/hirayasutakas-22/ref=nosim/ "http://www.amazon.co.jp/exec/obidos/ASIN/4844397230/hirayasutakas-22/ref=nosim/"){.markup--anchor
 .markup--mixtapeEmbed-anchor}[](http://www.amazon.co.jp/exec/obidos/ASIN/4844397230/hirayasutakas-22/ref=nosim/){.js-mixtapeImage
 .mixtapeImage .u-ignoreBlock}
-:::
 
-::: {#d37c .graf .graf--mixtapeEmbed .graf-after--mixtapeEmbed name="d37c"}
 [**世界ハッカースペースガイド (CodeZine BOOKS)**\
 *Amazonで高須 正和の世界ハッカースペースガイド (CodeZine
 BOOKS)。アマゾンならポイント還元本が多数。高須
@@ -228,9 +211,7 @@ BOOKS)。アマゾンならポイント還元本が多数。高須
 (CodeZine...*www.amazon.co.jp](http://www.amazon.co.jp/exec/obidos/ASIN/4798150509/ref=hirayasutakas-22 "http://www.amazon.co.jp/exec/obidos/ASIN/4798150509/ref=hirayasutakas-22"){.markup--anchor
 .markup--mixtapeEmbed-anchor}[](http://www.amazon.co.jp/exec/obidos/ASIN/4798150509/ref=hirayasutakas-22){.js-mixtapeImage
 .mixtapeImage .u-ignoreBlock}
-:::
 
-::: {#3ad7 .graf .graf--mixtapeEmbed .graf-after--mixtapeEmbed name="3ad7"}
 [**深センの歩き方2019
 中国初めての人が公共交通機関で歩き回れる、スマホで読める \#深圳の歩き方
 \#マッハ新書 - - BOOTH**\
@@ -239,7 +220,6 @@ BOOKS)。アマゾンならポイント還元本が多数。高須
 このマッハ新書は個人版とエンタープライズ版があります。...*takasumasakazu.booth.pm](https://takasumasakazu.booth.pm/items/1192465 "https://takasumasakazu.booth.pm/items/1192465"){.markup--anchor
 .markup--mixtapeEmbed-anchor}[](https://takasumasakazu.booth.pm/items/1192465){.js-mixtapeImage
 .mixtapeImage .u-ignoreBlock}
-:::
 
 ### 日本語で連載しているもの {#bbf3 .graf .graf--h3 .graf-after--mixtapeEmbed name="bbf3"}
 
@@ -277,19 +257,15 @@ Goverment深圳市人民政府)](http://www.sz.gov.cn/en_szgov/news/latest/conte
 
 ### **Interview in Chinese** {#959a .graf .graf--h3 .graf-after--p name="959a"}
 
-::: {#d1a5 .graf .graf--mixtapeEmbed .graf-after--h3 name="d1a5"}
 [**外眼看福田｜高交会上的\"卡哇伊先生\"：爱创客、爱美食，更爱\"烟火气\"\_\_南方plus\_南方+**\
 *从华强北中电迪富大厦到1号线科学馆地铁站的路上，水果摊、烤串摊、小酒馆、小面馆、按摩店、中医馆、鸡煲店等陆续映入眼帘，再往前走，便是日本创客\"卡哇伊先生\"\--高须正和（Takasu...*static.nfapp.southcn.com](https://static.nfapp.southcn.com/content/202211/17/c7076978.html?colID=null&appversion=9400&firstColID=8820 "https://static.nfapp.southcn.com/content/202211/17/c7076978.html?colID=null&appversion=9400&firstColID=8820"){.markup--anchor
 .markup--mixtapeEmbed-anchor}[](https://static.nfapp.southcn.com/content/202211/17/c7076978.html?colID=null&appversion=9400&firstColID=8820){.js-mixtapeImage
 .mixtapeImage .u-ignoreBlock}
-:::
 
-::: {#5b81 .graf .graf--mixtapeEmbed .graf-after--mixtapeEmbed name="5b81"}
 [**中国メディア「南方Plus」に高須のインタビュー掲載、深圳のメイカー文化や日本との交流、食べ物などについて話す：日本語訳**\
 *華強北の中电迪富大厦ビルから地下鉄1号線の科学館駅に向かう途中、果物屋台、ケバブ屋台、ビストロ、ラーメン屋、マッサージ屋、漢方薬局、鶏鍋屋などが目に飛び込んでくる。...*tks.medium.com](https://tks.medium.com/%E4%B8%AD%E5%9B%BD%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2-%E5%8D%97%E6%96%B9plus-%E3%81%AB%E9%AB%98%E9%A0%88%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%93%E3%83%A5%E3%83%BC%E6%8E%B2%E8%BC%89-%E6%B7%B1%E5%9C%B3%E3%81%AE%E3%83%A1%E3%82%A4%E3%82%AB%E3%83%BC%E6%96%87%E5%8C%96%E3%82%84%E6%97%A5%E6%9C%AC%E3%81%A8%E3%81%AE%E4%BA%A4%E6%B5%81-%E9%A3%9F%E3%81%B9%E7%89%A9%E3%81%AA%E3%81%A9%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E8%A9%B1%E3%81%99-%E6%97%A5%E6%9C%AC%E8%AA%9E%E8%A8%B3-8d7f825e7409 "https://tks.medium.com/%E4%B8%AD%E5%9B%BD%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2-%E5%8D%97%E6%96%B9plus-%E3%81%AB%E9%AB%98%E9%A0%88%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%93%E3%83%A5%E3%83%BC%E6%8E%B2%E8%BC%89-%E6%B7%B1%E5%9C%B3%E3%81%AE%E3%83%A1%E3%82%A4%E3%82%AB%E3%83%BC%E6%96%87%E5%8C%96%E3%82%84%E6%97%A5%E6%9C%AC%E3%81%A8%E3%81%AE%E4%BA%A4%E6%B5%81-%E9%A3%9F%E3%81%B9%E7%89%A9%E3%81%AA%E3%81%A9%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E8%A9%B1%E3%81%99-%E6%97%A5%E6%9C%AC%E8%AA%9E%E8%A8%B3-8d7f825e7409"){.markup--anchor
 .markup--mixtapeEmbed-anchor}[](https://tks.medium.com/%E4%B8%AD%E5%9B%BD%E3%83%A1%E3%83%87%E3%82%A3%E3%82%A2-%E5%8D%97%E6%96%B9plus-%E3%81%AB%E9%AB%98%E9%A0%88%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%93%E3%83%A5%E3%83%BC%E6%8E%B2%E8%BC%89-%E6%B7%B1%E5%9C%B3%E3%81%AE%E3%83%A1%E3%82%A4%E3%82%AB%E3%83%BC%E6%96%87%E5%8C%96%E3%82%84%E6%97%A5%E6%9C%AC%E3%81%A8%E3%81%AE%E4%BA%A4%E6%B5%81-%E9%A3%9F%E3%81%B9%E7%89%A9%E3%81%AA%E3%81%A9%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E8%A9%B1%E3%81%99-%E6%97%A5%E6%9C%AC%E8%AA%9E%E8%A8%B3-8d7f825e7409){.js-mixtapeImage
 .mixtapeImage .u-ignoreBlock}
-:::
 
 ### Presentation {#41ca .graf .graf--h3 .graf-after--mixtapeEmbed name="41ca"}
 
@@ -419,10 +395,6 @@ ITMedia Monoist 中小製造業向けのものづくりメディア
 -   [[\[連載:社カツ！ チームラボMake部\]
     Makeで火がついたエンジニア魂が、本業でもシナジーを生み出す](http://engineer.typemag.jp/article/_make_make){.markup--anchor
     .markup--li-anchor} 2011/09/13]{#07b2}
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [September 14, 2017](https://medium.com/p/c50feee078ac).

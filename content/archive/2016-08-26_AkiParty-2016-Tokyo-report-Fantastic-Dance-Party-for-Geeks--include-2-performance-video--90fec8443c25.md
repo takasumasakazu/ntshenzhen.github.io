@@ -8,20 +8,12 @@ date: 2016-08-26
 AkiParty 2016 Tokyo report-Fantastic Dance Party for Geeks (include 2 performance video) {#akiparty-2016-tokyo-report-fantastic-dance-party-for-geeks-include-2-performance-video .p-name}
 ========================================================================================
 
-::: {.section .p-summary field="subtitle"}
 AkiParty --- Dance Party for the Geeks, by the Geeks, of the Geeks.That
 starts from 2014 in Akihabara, Tokyo, and grown in Shenzhen. Then...
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="5a3d"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### AkiParty 2016 Tokyo report-Fantastic Dance Party for Geeks (include 2 performance video) {#9f54 .graf .graf--h3 .graf--leading .graf--title name="9f54"}
 
 ![AkiParty --- Dance Party for the Geeks, by the Geeks, of the Geeks
@@ -94,10 +86,6 @@ Records](http://maltinerecords.cs8.biz/){.markup--anchor
 .markup--p-anchor}(Maker Faire Shenzhen/Singapore)\
 Official site (in Japanese):<http://akiba-maker-club.cs8.biz/2016/>\
 Sponsored: DMM.Make Akiba/TechShop Japan/Gugen 2016/Fabcross
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [August 26, 2016](https://medium.com/p/90fec8443c25).

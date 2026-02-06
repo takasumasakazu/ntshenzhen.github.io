@@ -8,19 +8,11 @@ date: 2025-03-24
 研究者と製造現場の間を埋める MITメディアラボのResearch at Scale {#研究者と製造現場の間を埋める-mitメディアラボのresearch-at-scale .p-name}
 ===============================================================
 
-::: {.section .p-summary field="subtitle"}
 2019/09/02 07:30
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="263b"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### 研究者と製造現場の間を埋める MITメディアラボのResearch at Scale {#209c .graf .graf--h3 .graf--leading .graf--title name="209c"}
 
 2019/09/02 07:30
@@ -87,10 +79,6 @@ MITメディアラボからバニーのコネクションを通じて深セン�
 
 Research at
 Scaleの中で何回か、深センのスタートアップアクセラレーターHAXを会場にして、ハードウェア製造／量産について、具体的なレクチャーがあった。次回はそのレクチャーの内容を紹介する。
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 24, 2025](https://medium.com/p/c8e4efc19633).

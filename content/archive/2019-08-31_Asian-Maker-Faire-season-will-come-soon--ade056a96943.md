@@ -8,20 +8,12 @@ date: 2019-08-31
 Asian Maker Faire season will come soon! {#asian-maker-faire-season-will-come-soon .p-name}
 ========================================
 
-::: {.section .p-summary field="subtitle"}
 This autumn from Oct-Nov two months, too much Maker event in all around
 Asia. I will be the event, more than every weekend.
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="51a2"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Asian Maker Faire season will come soon! TAKASU & Nico-Tech Shenzhen Community Monthly news Sep/2019 {#2234 .graf .graf--h3 .graf--leading .graf--title name="2234"}
 
 This autumn from Oct-Nov two months, too much Maker event in all around
@@ -79,10 +71,6 @@ Nov/13--17 China High Tech Fair (Shenzhen)
 Nov/15--16 Hongkong Arts Council
 
 TBA Hongkong Chinese Univ
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [August 31, 2019](https://medium.com/p/ade056a96943).

@@ -8,19 +8,11 @@ date: 2018-12-31
 See you in CES! TAKASU & Nico-Tech Shenzhen Community Monthly news Jan/2019 {#see-you-in-ces-takasu-nico-tech-shenzhen-community-monthly-news-jan2019 .p-name}
 ===========================================================================
 
-::: {.section .p-summary field="subtitle"}
 你好，好久不见。我有春节寒假，离开深圳起1月18号到2月27号。
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="d804"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### See you in CES! TAKASU & Nico-Tech Shenzhen Community Monthly news Jan/2019 {#807c .graf .graf--h3 .graf--leading .graf--title name="807c"}
 
 你好，好久不见。我有春节寒假，离开深圳起1月18号到2月27号。
@@ -48,10 +40,6 @@ Salada Robot!](https://cdn-images-1.medium.com/max/800/1*wh0b0Y3ceY4KmiJr_omZlw
 
 ![Teamosa!
 Irvain](https://cdn-images-1.medium.com/max/800/1*S6aNxvIYU6SHqRTmYP5OwA.jpeg){.graf-image}
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [December 31, 2018](https://medium.com/p/8ab8a36ce1ae).

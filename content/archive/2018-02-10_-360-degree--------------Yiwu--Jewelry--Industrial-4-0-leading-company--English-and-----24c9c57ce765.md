@@ -8,20 +8,12 @@ date: 2018-02-10
 \[360 degree\] 富佳知能製造, 義烏, Yiwu, Jewelry, Industrial 4.0 leading company, English and 日本語 {#degree-富佳知能製造-義烏-yiwu-jewelry-industrial-4.0-leading-company-english-and-日本語 .p-name}
 ====================================================================================================
 
-::: {.section .p-summary field="subtitle"}
 This is the 360 degree video, at Jewelry factory in Yiwu, Industrial 4.0
 leading factory there. China cheap goods factory line still...
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="fd09"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### \[360 degree\] 富佳知能製造, 義烏, Yiwu, Jewelry, Industrial 4.0 leading company, English and 日本語 {#d252 .graf .graf--h3 .graf--leading .graf--title name="d252"}
 
 This is the 360 degree video, at Jewelry factory in Yiwu, Industrial 4.0
@@ -38,10 +30,6 @@ Teruhiro Kaji, 和田 太郎 (Taro Wada)さんなどと見てきました。
 ![](https://cdn-images-1.medium.com/max/800/1*ysrtAU51xyhI6LSqvvcPRA.jpeg){.graf-image}
 
 ![](https://cdn-images-1.medium.com/max/800/1*xtPa5YDLxU1S_5JXzRNveQ.jpeg){.graf-image}
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [February 10, 2018](https://medium.com/p/24c9c57ce765).

@@ -8,20 +8,12 @@ date: 2020-07-31
 HOPE 2020 Berlin and COSCUP 2020 Taipei TAKASU & Nico-Tech Shenzhen Community Monthly news Aug/2020 {#hope-2020-berlin-and-coscup-2020-taipei-takasu-nico-tech-shenzhen-community-monthly-news-aug2020 .p-name}
 ===================================================================================================
 
-::: {.section .p-summary field="subtitle"}
 I did two online talk in this week, HOPE 2020 Berlin and COSCUP 2020
 Taipei.
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="0282"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### HOPE 2020 Berlin and COSCUP 2020 Taipei TAKASU & Nico-Tech Shenzhen Community Monthly news Aug/2020 {#b284 .graf .graf--h3 .graf--leading .graf--title name="b284"}
 
 I did two online talk in this week, HOPE 2020 Berlin and COSCUP 2020
@@ -79,10 +71,6 @@ Next My Trip on 2020 (But so unstable)
 
 The other, Taipei, Roma, Bangkok, Hongkong, Seoul, Shanghai and of
 course Shenzhen.
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [July 31, 2020](https://medium.com/p/c4a602bcfcf1).

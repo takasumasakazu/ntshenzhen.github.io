@@ -8,19 +8,11 @@ date: 2019-08-07
 Maker Faire Tokyo 2019 講演動画「ハードウェアハッカーと同人ハードウェア」 高須正和 + ニコ技深圳コミュニティ {#maker-faire-tokyo-2019-講演動画ハードウェアハッカーと同人ハードウェア-高須正和-ニコ技深圳コミュニティ .p-name}
 ===========================================================================================================
 
-::: {.section .p-summary field="subtitle"}
 メイカーフェア東京2019での講演動画とスライドを公開します。立ち見もたくさん出て、大好評の講演でした。
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="9f1d"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Maker Faire Tokyo 2019 講演動画「ハードウェアハッカーと同人ハードウェア」 高須正和 + ニコ技深圳コミュニティ {#26a3 .graf .graf--h3 .graf--leading .graf--title name="26a3"}
 
 ![ハードウェアハッカーとそこから学べることについて話しました（写真は[オオカワマサシ](http://@masashiokawa){.markup--anchor
@@ -51,10 +43,6 @@ Maker Faire Tokyo 2019 講演動画「ハードウェアハッカーと同人ハ
 「ハードウェアは面倒くさい、必ず誰かの所有物だし、君のハードウェアと僕のハードウェアは完全に同一ではないし。。。」等の部分で、元ネタはバニー・ファンの東大での講演。\
 「Atom is hard,very annoying,,
 メンドクサイ」って日本語で言ってる。書籍などでも彼は同様のことを言っているので、関連する話を繋げたのがメイカーフェア東京でのプレゼンになります。
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [August 7, 2019](https://medium.com/p/4a038355bfca).

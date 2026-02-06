@@ -1,5 +1,6 @@
 ---
 title: "draft_Why Shenzhen became innovative city from Copycat city suddenly "
+draft: true
 aliases: ["/2000/01/draft-why-shenzhen-became-innovative-city-from-copycat-city-suddenly/"]
 slug: draft-why-shenzhen-became-innovative-city-from-copycat-city-suddenly
 date: 2000-01-01
@@ -8,21 +9,13 @@ date: 2000-01-01
 Why Shenzhen became innovative city from Copycat city,suddenly? {#why-shenzhen-became-innovative-city-from-copycat-citysuddenly .p-name}
 ===============================================================
 
-::: {.section .p-summary field="subtitle"}
 I have the most participation in the world of Asian Maker Faire.
 Compared with other makers of other countries, the Chinese maker Fair
 has...
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="af18"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Why Shenzhen became innovative city from Copycat city,suddenly? {#1016 .graf .graf--h3 .graf--leading .graf--title name="1016"}
 
 I have the most participation in the world of Asian Maker Faire.
@@ -87,10 +80,6 @@ This is a picture of the rock 's foot mechanism which appears in
 "Nausicaa of the Valley of the Wind" in the picture. In case\
 When I showed the image of the royal cheeks with a smartphone, they
 responded "This is me!"....
-:::
-:::
-:::
-:::
 
 [View original.](https://medium.com/p/82dd8dda1587)
 

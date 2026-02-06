@@ -8,20 +8,12 @@ date: 2017-01-04
 Amazing part of Shenzhen China, support and logistics {#amazing-part-of-shenzhen-china-support-and-logistics .p-name}
 =====================================================
 
-::: {.section .p-summary field="subtitle"}
 I really surprised from that. I broken my gadget from Beijing by my miss
 operation. 28/Dec I asked Customer centre at Beijing, get repair...
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="841f"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Amazing part of Shenzhen China, support and logistics {#0841 .graf .graf--h3 .graf--leading .graf--title name="0841"}
 
 I really surprised from that.\
@@ -51,10 +43,6 @@ times!
 新年（中国では1日だけ休みだけど）を挟んでだけど、2200キロもの距離と、見積もりや支払いが間にあってこの速度は、めちゃめちゃ速い！
 
 見積もり挟むと、日本でもこんな速度出ないんじゃないかな、、ましてや国のサイズ的に比べられるべきアメリカでも。
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [January 4, 2017](https://medium.com/p/5886c6699a67).

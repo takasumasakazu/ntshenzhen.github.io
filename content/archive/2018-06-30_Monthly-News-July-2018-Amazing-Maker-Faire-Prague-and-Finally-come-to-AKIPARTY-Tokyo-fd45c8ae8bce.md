@@ -8,20 +8,12 @@ date: 2018-06-30
 Monthly News July/2018 Amazing Maker Faire Prague and Finally come to AKIPARTY Tokyo {#monthly-news-july2018-amazing-maker-faire-prague-and-finally-come-to-akiparty-tokyo .p-name}
 ====================================================================================
 
-::: {.section .p-summary field="subtitle"}
 One week in Shenzhen like a month. But my time was more accelerated.
 I\`m away from Shenzhen now, in Dublin airport. This trip around a...
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="1346"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Monthly News July/2018 Amazing Maker Faire Prague and Finally come to AKIPARTY Tokyo {#e8a7 .graf .graf--h3 .graf--leading .graf--title name="e8a7"}
 
 One week in Shenzhen like a month. But my time was more accelerated.
@@ -64,10 +56,6 @@ See you there!
 
 I told about the new innovation ecosystem in Shenzhen by English and
 Chinese, this is my newest talk video.
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [June 30, 2018](https://medium.com/p/fd45c8ae8bce).

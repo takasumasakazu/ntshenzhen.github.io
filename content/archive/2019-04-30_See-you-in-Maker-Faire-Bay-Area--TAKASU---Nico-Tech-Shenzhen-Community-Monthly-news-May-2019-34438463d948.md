@@ -8,20 +8,12 @@ date: 2019-04-30
 See you in Maker Faire Bay Area! TAKASU & Nico-Tech Shenzhen Community Monthly news May/2019 {#see-you-in-maker-faire-bay-area-takasu-nico-tech-shenzhen-community-monthly-news-may2019 .p-name}
 ============================================================================================
 
-::: {.section .p-summary field="subtitle"}
 My maker faire journey in April is Beirut. There is the first time trip
 to Beirut, and any other North Africa and Middle East area. Looks...
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="fba9"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### See you in Maker Faire Bay Area! TAKASU & Nico-Tech Shenzhen Community Monthly news May/2019 {#3b31 .graf .graf--h3 .graf--leading .graf--title name="3b31"}
 
 ![](https://cdn-images-1.medium.com/max/800/1*M3k4kv4yPxOkTy-HYuM0Pw.jpeg){.graf-image}
@@ -31,7 +23,6 @@ to Beirut, and any other North Africa and Middle East area.\
 Looks awesome event and fruitful people there, I really enjoyed that
 event, then write up the report for Make:magazine.
 
-::: {#cff3 .graf .graf--mixtapeEmbed .graf-after--p name="cff3"}
 [**Beirut Mini Maker Faire 2019, Culture Mixed by East, West, and Makers
 \| Make:**\
 *On April 6, a DIY festival Beirut Mini Maker Faire was held in Beirut,
@@ -39,7 +30,6 @@ the capital city of Lebanon, a small country
 in...*makezine.com](https://makezine.com/2019/04/29/beirut-mini-maker-faire-2019-culture-mixed-by-east-west-and-makers/ "https://makezine.com/2019/04/29/beirut-mini-maker-faire-2019-culture-mixed-by-east-west-and-makers/"){.markup--anchor
 .markup--mixtapeEmbed-anchor}[](https://makezine.com/2019/04/29/beirut-mini-maker-faire-2019-culture-mixed-by-east-west-and-makers/){.js-mixtapeImage
 .mixtapeImage .u-ignoreBlock}
-:::
 
 I will busy in the May, Maker Faire Kyoto, Fablab Asia Conf 5th Korea,
 and of course Maker Faire Bay Area.\
@@ -50,7 +40,6 @@ And the other thing, I met new company called Sipeed they are RISC-V AI
 based edge computing company, looks so nice!\
 (Sorry blog only in Japanese)
 
-::: {#6524 .graf .graf--mixtapeEmbed .graf-after--p name="6524"}
 [**深圳SipeedのRISC-V採用AIエッジコンピューティングボード**\
 *投稿者:
 \@tksです。中国には元号もGWもありませんがたくさんスタートアップとガジェットがあります。Ingiegogoで
@@ -58,7 +47,6 @@ Sipeed MAIX : The World First RISC-V 64 AI
 Module...*mag.switch-science.com](https://mag.switch-science.com/2019/04/27/%E6%B7%B1%E5%9C%B3sipeed%E3%81%AErisc-v%E6%8E%A1%E7%94%A8ai%E3%82%A8%E3%83%83%E3%82%B8%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E3%83%9C%E3%83%BC%E3%83%89/ "https://mag.switch-science.com/2019/04/27/%E6%B7%B1%E5%9C%B3sipeed%E3%81%AErisc-v%E6%8E%A1%E7%94%A8ai%E3%82%A8%E3%83%83%E3%82%B8%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E3%83%9C%E3%83%BC%E3%83%89/"){.markup--anchor
 .markup--mixtapeEmbed-anchor}[](https://mag.switch-science.com/2019/04/27/%E6%B7%B1%E5%9C%B3sipeed%E3%81%AErisc-v%E6%8E%A1%E7%94%A8ai%E3%82%A8%E3%83%83%E3%82%B8%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E3%83%9C%E3%83%BC%E3%83%89/){.js-mixtapeImage
 .mixtapeImage .u-ignoreBlock}
-:::
 
 Additional news, We Switch Science provide new LCD module by JDI. If you
 want MIP Reflective colour LCD module, These are good choices.
@@ -84,10 +72,6 @@ Next My Trip on 2019\
 18--20/Oct Singapore Maker Extrabaganza\
 Maker Faire Taipei, Shenzhen.....\
 Maker Faire around the world...
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [April 30, 2019](https://medium.com/p/34438463d948).

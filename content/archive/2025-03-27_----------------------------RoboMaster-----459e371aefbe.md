@@ -8,19 +8,11 @@ date: 2025-03-27
 ゲームの世界から飛び出そう --- --- 中国版学生ロボコン「RoboMaster」の狙い {#ゲームの世界から飛び出そう-中国版学生ロボコンrobomasterの狙い .p-name}
 =========================================================================
 
-::: {.section .p-summary field="subtitle"}
 2023/10/24 06:30
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first name="750c"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### ゲームの世界から飛び出そう --- --- 中国版学生ロボコン「RoboMaster」の狙い {#03b0 .graf .graf--h3 .graf--leading .graf--title name="03b0"}
 
 2023/10/24 06:30
@@ -135,18 +127,10 @@ RoboMaster見学は、次世代ロボットエンジニア支援機構Scramble�
 RoboMasterのようにマシンビジョンに寄せた複雑さを持ちながら、もう少し参加しやすくした日本のロボット競技「CoRE（The
 Championship of Robotics
 Engineers）」（CoREではエンジニアに焦点を当てるという狙いから、ロボットのコンテスト＝ロボコンという略称ではなく、ロボット競技としている）を立ち上げている。そのほか、小学生向けのロボット競技入門プログラムなど、次世代のロボットエンジニアを育成するさまざまな活動を行っている。
-:::
-:::
-:::
 
-::: {.section .section .section--body .section--last name="6fcc"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 2023年から開催されているCoREロボット大会。
 
 川節先生は今回の RoboMasterや華南虎視察の感想として、\
@@ -158,10 +142,6 @@ Engineers）」（CoREではエンジニアに焦点を当てるという狙い�
 と語っている。
 
 日本を含め、世界の各所でエンジニアに注目が集まっている。RoboMasterやCoREのように、学生のうちから力を試し、注目される環境が年々増えているのは素晴らしいことだ。
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 27, 2025](https://medium.com/p/459e371aefbe).

@@ -8,22 +8,14 @@ date: 2018-02-16
 Make:Vol.61 「サイボーグとSINO:BIT」セクシーサイボーグ様寄稿 {#makevol.61-サイボーグとsinobitセクシーサイボーグ様寄稿 .p-name}
 ============================================================
 
-::: {.section .p-summary field="subtitle"}
 セクシーサイボーグとして知られる深センのメイカーNaomi
 Wuが語る、彼女の旅、インスピレーション、そして中国初の認定オープンソースハードウェアプロジェクト
 オリジナル Make:Vol61 プロジェクト杉田玄白参加作品 翻訳：高須正和
 (Authorized by...
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="cd40"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Make:Vol.61 「サイボーグとSINO:BIT」セクシーサイボーグ様寄稿 {#5d3f .graf .graf--h3 .graf--leading .graf--title name="5d3f"}
 
 **セクシーサイボーグとして知られる深センのメイカーNaomi
@@ -190,7 +182,6 @@ Make:Magazine)に感謝します。インタビューを読んでいて日本の
 過去の彼女のインタビューは、中国人や女性メイカーについての僕のステレオタイプを修正してくれる素晴らしいものでした。\
 こうしたインタビューや考え方、作ることで学び、シェアすることでお互いを強くしていくメイカー達が、世界をメイカーの場所にしていくことを願っています。
 
-::: {#ba20 .graf .graf--mixtapeEmbed .graf-after--p name="ba20"}
 [**SexyCyborg様インタビュー（というか独演会）記録 -
 山形浩生の「経済のトリセツ」**\
 *2016年12月20日 1400－1630 Holly\'s Coffee @ 深圳 新世界購買中心
@@ -198,18 +189,11 @@ Make:Magazine)に感謝します。インタビューを読んでいて日本の
 山形浩生...*cruel.hatenablog.com](http://cruel.hatenablog.com/entry/2016/12/24/152545 "http://cruel.hatenablog.com/entry/2016/12/24/152545"){.markup--anchor
 .markup--mixtapeEmbed-anchor}[](http://cruel.hatenablog.com/entry/2016/12/24/152545){.js-mixtapeImage
 .mixtapeImage .u-ignoreBlock}
-:::
 
-::: {#2505 .graf .graf--mixtapeEmbed .graf-after--mixtapeEmbed .graf--trailing name="2505"}
 [**書籍「世界ハッカースペースガイド」**\
 *目先の利益なんか関係なしに、面白い！と思う能力さえあれば、ハッカースペースは実に楽しい場所になりうる。そして本書はそのまたとないガイドになるだろう。（解説：山形浩生）*medium.com](https://medium.com/ecosystembymakers/hackerspace-d1cb55e77c50 "https://medium.com/ecosystembymakers/hackerspace-d1cb55e77c50"){.markup--anchor
 .markup--mixtapeEmbed-anchor}[](https://medium.com/ecosystembymakers/hackerspace-d1cb55e77c50){.js-mixtapeImage
 .mixtapeImage .u-ignoreBlock}
-:::
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [February 16, 2018](https://medium.com/p/bd590ad505c4).

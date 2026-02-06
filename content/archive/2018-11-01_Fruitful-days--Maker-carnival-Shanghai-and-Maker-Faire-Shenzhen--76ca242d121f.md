@@ -8,19 +8,11 @@ date: 2018-11-01
 Fruitful days, Maker carnival Shanghai and Maker Faire Shenzhen! {#fruitful-days-maker-carnival-shanghai-and-maker-faire-shenzhen .p-name}
 ================================================================
 
-::: {.section .p-summary field="subtitle"}
 Fruitful days, Maker carnival Shanghai and Maker Faire Shenzhen!
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="425a"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Fruitful days, Maker carnival Shanghai and Maker Faire Shenzhen! TAKASU & Nico-Tech Shenzhen Community Monthly news Nov/2018 {#7fb4 .graf .graf--h3 .graf--leading .graf--title name="7fb4"}
 
 ![SONY come to Maker Faire
@@ -51,10 +43,6 @@ Next My Trip\
 23--26 BETT (London)
 
 Maker Faire Taipei, New York, Shenzhen.....
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [November 1, 2018](https://medium.com/p/76ca242d121f).

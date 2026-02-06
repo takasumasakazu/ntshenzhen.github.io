@@ -8,19 +8,11 @@ date: 2016-01-27
 Story and oppotunity in Maker Faire Singapore 2015 {#story-and-oppotunity-in-maker-faire-singapore-2015 .p-name}
 ==================================================
 
-::: {.section .p-summary field="subtitle"}
 I really like that video, Maker Faire Singapore 2015 digest.
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="6b8d"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Story and oppotunity in Maker Faire Singapore 2015 {#0abc .graf .graf--h3 .graf--leading .graf--title name="0abc"}
 
 Maker Faire Singapore 2015 digest
@@ -53,10 +45,6 @@ We can find more opportunity in Maker Faire Singapore. And we can make
 together unlimited opportunity.
 
 <https://www.youtube.com/watch?v=ympYjCwCPek>
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [January 27, 2016](https://medium.com/p/291757b5247d).

@@ -8,19 +8,11 @@ date: 2025-01-23
 Unleashing the Future of Hardware Innovation: Lessons from a Decade of Maker Ecosystems {#unleashing-the-future-of-hardware-innovation-lessons-from-a-decade-of-maker-ecosystems .p-name}
 =======================================================================================
 
-::: {.section .p-summary field="subtitle"}
 A Decade of Change in Hardware Innovation
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first name="05fd"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### **Unleashing the Future of Hardware Innovation: Lessons from a Decade of Maker Ecosystems** {#066f .graf .graf--h3 .graf--leading .graf--title name="066f"}
 
 **A Decade of Change in Hardware Innovation**
@@ -39,18 +31,10 @@ as them.](https://cdn-images-1.medium.com/max/800/1*hSmX1qTfu2kbga3_U2Hl4A.jpeg
 
 Here, we delve deeper into his insights to understand what this means
 for innovators, investors, and anyone shaping the future of technology.
-:::
-:::
-:::
 
-::: {.section .section .section--body name="409a"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### 1. The Democratization of Hardware Innovation {#3539 .graf .graf--h3 .graf--leading name="3539"}
 
 Takasu highlights how hardware innovation is mirroring the trajectory of
@@ -71,18 +55,10 @@ Valley of Hardware," has played a pivotal role in this transformation.
 > "Hardware innovation is no longer the exclusive domain of large
 > corporations. Startups and independent creators now wield the same
 > power to innovate."
-:::
-:::
-:::
 
-::: {.section .section .section--body name="c67f"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### 2. The Rise of Developer-Friendly Platforms {#4651 .graf .graf--h3 .graf--leading name="4651"}
 
 Accessible development tools have been the backbone of this shift.
@@ -100,18 +76,10 @@ maker ecosystem.
 Takasu also highlights **DJI**, which has not only dominated the drone
 market but also contributed to the robotics space by hosting
 competitions that inspire and enable young developers.
-:::
-:::
-:::
 
-::: {.section .section .section--body name="3657"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### 3. Entrepreneurs Empowering Entrepreneurs {#683e .graf .graf--h3 .graf--leading name="683e"}
 
 One of the most profound changes has been the creation of a virtuous
@@ -127,18 +95,10 @@ cycle where successful founders and investors reinvest in new ventures.
 
 > "The growth of a sustainable ecosystem relies on the cycle of giving
 > back --- where seasoned innovators help the next generation succeed."
-:::
-:::
-:::
 
-::: {.section .section .section--body name="9ed7"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### 4. AI and Hardware Convergence {#cb94 .graf .graf--h3 .graf--leading name="cb94"}
 
 China's rapid advancements in AI, particularly in **AI chips**, are a
@@ -156,18 +116,10 @@ accessibility and AI innovation has led to groundbreaking applications.
 
 This synergy has solidified China's position as a leader in AI-powered
 hardware innovation.
-:::
-:::
-:::
 
-::: {.section .section .section--body name="9e11"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### 5. What's Next for Hardware Innovation? {#4362 .graf .graf--h3 .graf--leading name="4362"}
 
 Takasu predicts continued momentum in hardware innovation, driven by:
@@ -183,18 +135,10 @@ Takasu predicts continued momentum in hardware innovation, driven by:
 
 > "We are entering an era where the boundaries between hardware and
 > software are blurring, enabling entirely new forms of innovation."
-:::
-:::
-:::
 
-::: {.section .section .section--body name="cb07"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### The Takeaway for Innovators {#e0cf .graf .graf--h3 .graf--leading name="e0cf"}
 
 Takasu's reflections underscore that the future of hardware innovation
@@ -206,26 +150,14 @@ technological breakthroughs.
 For hardware innovators, the message is clear: Embrace the ecosystem,
 share knowledge, and invest in the next generation. The opportunities
 are boundless for those willing to collaborate and experiment.
-:::
-:::
-:::
 
-::: {.section .section .section--body .section--last name="bf44"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 This blog is not just a retrospective look at the past decade --- it's a
 call to action for creators, investors, and thought leaders to take part
 in shaping the future. As Takasu aptly suggests, the best is yet to
 come.
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [January 23, 2025](https://medium.com/p/a9eb69a4494e).

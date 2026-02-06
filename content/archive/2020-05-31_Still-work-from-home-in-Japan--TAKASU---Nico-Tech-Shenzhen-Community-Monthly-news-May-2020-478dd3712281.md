@@ -8,21 +8,13 @@ date: 2020-05-31
 Still work from home in Japan. TAKASU & Nico-Tech Shenzhen Community Monthly news May/2020 {#still-work-from-home-in-japan.-takasu-nico-tech-shenzhen-community-monthly-news-may2020 .p-name}
 ==========================================================================================
 
-::: {.section .p-summary field="subtitle"}
 Surprisely, I was in Japan whole of the month! I had been on the
 aircraft hundred times per year in last 4--5years. I couldn\`t imagine
 I...
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="675b"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Still work from home in Japan. TAKASU & Nico-Tech Shenzhen Community Monthly news May/2020 {#531c .graf .graf--h3 .graf--leading .graf--title name="531c"}
 
 ![Event
@@ -68,10 +60,6 @@ Next My Trip on 2020 (But so unstable)
 
 The other, Taipei, Roma, Bangkok, Hongkong, Seoul, Shanghai and of
 course Shenzhen.
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [May 31, 2020](https://medium.com/p/478dd3712281).

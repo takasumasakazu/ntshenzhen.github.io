@@ -8,19 +8,11 @@ date: 2021-03-23
 サプライチェーンは人間がいっぱい(Soylent Supply Chain) 著：Andrew "Bunnie" Huang アンドリュー・バニー・ファン (2014年12月23日記事) {#サプライチェーンは人間がいっぱいsoylent-supply-chain-著andrew-bunnie-huang-アンドリューバニーファン-2014年12月23日記事 .p-name}
 ==================================================================================================================================
 
-::: {.section .p-summary field="subtitle"}
 友達のBunnieが、ブログに公開していた文章が、とても面白かったのと、なんとかして一回「プロジェクト杉田玄白」に参加してみたかったので、訳してみました。
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="f86b"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### サプライチェーンは人間がいっぱい(Soylent Supply Chain) 著：Andrew "Bunnie" Huang アンドリュー・バニー・ファン (2014年12月23日記事) {#c735 .graf .graf--h3 .graf--leading .graf--title name="c735"}
 
 友達の[Bunnieが、ブログに公開していた文章](http://www.bunniestudios.com/blog/?p=4266){.markup--anchor
@@ -190,10 +182,6 @@ posted with [amazlet](http://www.amazlet.com/ "amazlet"){.markup--anchor
 
 [Amazon.co.jpで詳細を見る](http://www.amazon.co.jp/exec/obidos/ASIN/4844397230/hirayasutakas-22/ref=nosim/){.markup--anchor
 .markup--p-anchor}
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 23, 2021](https://medium.com/p/84bbcfba6b6d).

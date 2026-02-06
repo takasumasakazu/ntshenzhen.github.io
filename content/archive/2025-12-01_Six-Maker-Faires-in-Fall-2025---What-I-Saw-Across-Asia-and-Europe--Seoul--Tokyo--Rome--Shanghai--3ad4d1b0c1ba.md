@@ -8,30 +8,18 @@ date: 2025-12-01
 Six Maker Faires in Fall 2025 --- What I Saw Across Asia and Europe  Seoul, Tokyo, Rome, Shanghai... {#six-maker-faires-in-fall-2025-what-i-saw-across-asia-and-europe-seoul-tokyo-rome-shanghai .p-name}
 ====================================================================================================
 
-::: {.section .p-summary field="subtitle"}
 Fall 2025 was an unusually dense season for Maker Faires.  As the global
 DIY movement slowly regains momentum after COVID, each region has...
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first name="fa74"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### **Six Maker Faires in Fall 2025 --- **A field report from Seoul, Tokyo, Rome, Shanghai, Shenzhen, and Taipei on how DIY/Maker culture has evolved after COVID. **(English and Chinese)** {#7174 .graf .graf--h3 .graf--leading .graf--title name="7174"}
 
 Chinese version follows below (简体中文在后半部分)
-:::
 
-::: {.section-inner .sectionLayout--outsetColumn}
 ![](https://cdn-images-1.medium.com/max/1200/1*T_KvbLgax9J6kTEcrYtIyw.jpeg){.graf-image}
-:::
 
-::: {.section-inner .sectionLayout--insetColumn}
 If you're a maker, educator, or startup founder wondering which cities
 feel most alive right now, these six fairs offer a pretty good snapshot.
 
@@ -46,18 +34,10 @@ Europe: **Seoul, Tokyo, Rome, Shanghai, Shenzhen, and Taipei**.\
 context.
 
 Here is a summary of what I saw.
-:::
-:::
-:::
 
-::: {.section .section .section--body name="3ef8"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Seoul --- A Museum-Driven DIY Fair, the Closest to Tokyo in Spirit {#9f0d .graf .graf--h3 .graf--leading name="9f0d"}
 
 **Maker Faire Seoul 2025** was held on Sept 27--28 at the Seoul Science
@@ -66,14 +46,12 @@ Center.\
 hosted by a public science museum**, strongly tied to the city's
 educational and cultural programs.
 
-::: {#ec45 .graf .graf--mixtapeEmbed .graf-after--p name="ec45"}
 [**Maker Faire Seoul 2025 高須**\
 *うお、屋根がほとんど吹っ飛んでる 台風やばい 深セン皇岡口岸
 自動運転車だ！ 香港空港内で、自動運転車がスタッフや荷物を運んでるらしい
 施設内のものがこうやってAGV化していくのはすごく良い...*posfie.com](https://posfie.com/@tks/p/TBjngU2 "https://posfie.com/@tks/p/TBjngU2"){.markup--anchor
 .markup--mixtapeEmbed-anchor}[](https://posfie.com/@tks/p/TBjngU2){.js-mixtapeImage
 .mixtapeImage .u-ignoreBlock}
-:::
 
 The vibe is less like Silicon Valley and much closer to "Tokyo several
 years ago" --- a balanced mix of personal makers, families, and student
@@ -85,39 +63,27 @@ The long-running organizational structure (science museum + municipal
 support + local communities) works surprisingly well; the fair has its
 own stable cast of regulars.
 
-::: {#121f .graf .graf--mixtapeEmbed .graf-after--p .graf--trailing name="121f"}
 [**메이커 페어 서울**\
 *상상을 현실로 만드는 즐거움, 메이커 페어
 서울!*www.makerfaireseoul.com](https://www.makerfaireseoul.com/2025 "https://www.makerfaireseoul.com/2025"){.markup--anchor
 .markup--mixtapeEmbed-anchor}[](https://www.makerfaireseoul.com/2025){.js-mixtapeImage
 .mixtapeImage .u-ignoreBlock}
-:::
-:::
-:::
-:::
 
-::: {.section .section .section--body name="c7e5"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Tokyo --- The World's Best Maker Faire, but Harder Than Ever to Exhibit {#6c90 .graf .graf--h3 .graf--leading name="6c90"}
 
 **Maker Faire Tokyo 2025** (Oct 4--5) remains, in my opinion and in the
 opinion of many international makers, **the most creative,
 highest-quality Maker Faire in the world**.
 
-::: {#067f .graf .graf--mixtapeEmbed .graf-after--p name="067f"}
 [**2025 メイカーフェア東京 高須**\
 *CNC開梱中 100KGあります \#Nestworks \#MakerFaireTokyo \#MFTokyo2025
 箱全体だともっとあった
 箱そのものもけっこう重そう...*posfie.com](https://posfie.com/@tks/p/2JLG0Qe "https://posfie.com/@tks/p/2JLG0Qe"){.markup--anchor
 .markup--mixtapeEmbed-anchor}[](https://posfie.com/@tks/p/2JLG0Qe){.js-mixtapeImage
 .mixtapeImage .u-ignoreBlock}
-:::
 
 The level of the projects --- technical depth, design, humor,
 presentation --- is unmatched. The diversity of exhibitors is also
@@ -139,25 +105,15 @@ chances to exhibit internationally.
 Still, Tokyo MF continues to survive despite major operational
 changes --- and that alone deserves huge respect.
 
-::: {#e9ab .graf .graf--mixtapeEmbed .graf-after--p .graf--trailing name="e9ab"}
 [**Maker Faire Tokyo 2025 \| Make: Japan**\
 *Maker Faire Tokyo
 2025は10月4日（土）、5日（日）東京ビッグサイトで開催します*makezine.jp](https://makezine.jp/event/mft2025/?utm_source=chatgpt.com "https://makezine.jp/event/mft2025/?utm_source=chatgpt.com"){.markup--anchor
 .markup--mixtapeEmbed-anchor}[](https://makezine.jp/event/mft2025/?utm_source=chatgpt.com){.js-mixtapeImage
 .mixtapeImage .u-ignoreBlock}
-:::
-:::
-:::
-:::
 
-::: {.section .section .section--body name="b1eb"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Rome --- Art-Driven DIY Reinforced by Government and Academia {#454f .graf .graf--h3 .graf--leading name="454f"}
 
 **Maker Faire Rome 2025** (Oct 17--19) was held at the industrial site
@@ -165,14 +121,12 @@ Gazometro Ostiense.\
  Rome --- and Southern Europe in general --- has traditionally had
 **strong design culture but weaker electronics/robotics** within DIY.
 
-::: {#795b .graf .graf--mixtapeEmbed .graf-after--p name="795b"}
 [**2025 10 Maker Faire Rome**\
 *Setup MakerFaire Rome We are front of , nearby これの \#スタックチャン
 版をつくるべきかも Maker Faire Roma 1st Day \#MFR2025
 \#MAKERFAIREROMA...*posfie.com](https://posfie.com/@tks/p/riLJvvb "https://posfie.com/@tks/p/riLJvvb"){.markup--anchor
 .markup--mixtapeEmbed-anchor}[](https://posfie.com/@tks/p/riLJvvb){.js-mixtapeImage
 .mixtapeImage .u-ignoreBlock}
-:::
 
 This year, however, Rome felt transformed. The organizers actively
 blended Maker Faire with **academic conferences on 3D printing,
@@ -189,18 +143,10 @@ As a result:
 
 Among the six fairs I attended this fall, **Rome showed the most
 "organizational improvement power."**
-:::
-:::
-:::
 
-::: {.section .section .section--body name="efa8"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Shanghai --- Mostly International Schools, Hard to Recommend {#bef3 .graf .graf--h3 .graf--leading name="bef3"}
 
 To be honest, **Maker Faire Shanghai** is tough.\
@@ -214,31 +160,21 @@ It works as a general weekend event at the Bund --- with food stalls and
 performances --- but as a Maker Faire, it lacks depth.\
  I wouldn't recommend flying to Shanghai *just* for this event unless
 you already have another reason to be in town.
-:::
-:::
-:::
 
-::: {.section .section .section--body name="5a1f"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Shenzhen --- Where Startups, DIY, and Government Are Fully Aligned {#92c5 .graf .graf--h3 .graf--leading name="92c5"}
 
 **Maker Faire Shenzhen 2025** (Nov 15--16) is introduced domestically as
 the "Greater Bay Area International Maker Summit," and indeed the fair
 is filled with **AI hardware and robotics startups**.
 
-::: {#7ea5 .graf .graf--mixtapeEmbed .graf-after--p name="7ea5"}
 [**2025大湾区国际创客峰会暨Maker Faire Shenzhen在深圳举办 \| 最前线**\
 *11月15日，\"AI无界·万物新生\"大湾区国际创客峰会暨Maker Faire Shenzhen
 2025在深圳南山万科云城设计公社盛大举办！*eu.36kr.com](https://eu.36kr.com/zh/p/3556872474967177?utm_source=chatgpt.com "https://eu.36kr.com/zh/p/3556872474967177?utm_source=chatgpt.com"){.markup--anchor
 .markup--mixtapeEmbed-anchor}[](https://eu.36kr.com/zh/p/3556872474967177?utm_source=chatgpt.com){.js-mixtapeImage
 .mixtapeImage .u-ignoreBlock}
-:::
 
 Companies that began as maker-focused service providers --- **JLCPCB,
 Seeed, WorldSemi, robotics startups** --- now play major roles in
@@ -259,18 +195,10 @@ At the after-party, Seeed's CEO Eric Pan performed a "maker rap."\
  He's 42, runs a 300-person company, had no time to rehearse,
 half-failed to sing --- and yet the moment was pure DIY spirit:
 imperfect, emotional, and real.
-:::
-:::
-:::
 
-::: {.section .section .section--body name="f0e5"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Taipei --- Finally Back, but Now Highly Government-Driven {#0344 .graf .graf--h3 .graf--leading name="0344"}
 
 **Maker Faire Taipei 2025** (Nov 29--30) was held at **Bottle Cap
@@ -285,7 +213,6 @@ filled with **school and vocational-training projects**, while
 **independent makers and individual creators have decreased
 significantly** compared to pre-COVID years.
 
-::: {#a3c0 .graf .graf--mixtapeEmbed .graf-after--p name="a3c0"}
 [**Maker Faire Taipei 開展！新北 17 校聯展炸出最強創客能量 - 生活新聞 -
 PChome Online 新聞**\
 *圖說：Maker Faire Taipei新北創客學校參展大合照。
@@ -293,7 +220,6 @@ PChome Online 新聞**\
 Taipei...*news.pchome.com.tw](https://news.pchome.com.tw/living/twpowernews/20251129/index-17643978738774647009.html "https://news.pchome.com.tw/living/twpowernews/20251129/index-17643978738774647009.html"){.markup--anchor
 .markup--mixtapeEmbed-anchor}[](https://news.pchome.com.tw/living/twpowernews/20251129/index-17643978738774647009.html){.js-mixtapeImage
 .mixtapeImage .u-ignoreBlock}
-:::
 
 Scale is smaller than the golden era of Taipei MF.
 
@@ -307,18 +233,10 @@ year.
 
 If Taipei MF ever returns to being a hub for indie makers, I hope we can
 help build that path.
-:::
-:::
-:::
 
-::: {.section .section .section--body name="12cc"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Conclusion --- Six Fairs, Six Directions {#8cf3 .graf .graf--h3 .graf--leading name="8cf3"}
 
 When seen side by side, these six Maker Faires reveal clear differences:
@@ -358,18 +276,10 @@ Maker Faire（有些是参展、有些是参观）。\
  每一座城市都呈现出完全不同的「当下 DIY 状况」。
 
 以下是整理与观察。
-:::
-:::
-:::
 
-::: {.section .section .section--body name="ac3d"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### 首尔：由科学馆主导的「教育 × DIY」型活动 {#c0fa .graf .graf--h3 .graf--leading name="c0fa"}
 
 **Maker Faire Seoul 2025** 于 9 月 27--28 日在首尔市立科学馆举行。\
@@ -380,18 +290,10 @@ Maker Faire（有些是参展、有些是参观）。\
 学校项目 + 家庭参与** 的组合。
 
 长期由科学馆与市政府支持，加上当地社区的参与，这个展会已经形成稳定而成熟的结构。
-:::
-:::
-:::
 
-::: {.section .section .section--body name="e3a9"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### 东京：全球水准最高，但参展门槛越来越高 {#ea81 .graf .graf--h3 .graf--leading name="ea81"}
 
 **Maker Faire Tokyo 2025**（10 月 4--5
@@ -410,18 +312,10 @@ Maker Faire（有些是参展、有些是参观）。\
  因为容量问题无法靠热情解决，我近年推动了深圳与台湾的联合展区，让新创客更容易踏出第一步。
 
 不过，无论主办方如何更换，东京 MF 能持续举办，本身就值得极大敬意。
-:::
-:::
-:::
 
-::: {.section .section .section--body name="2541"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### 罗马：原本偏设计的 DIY，被政府与学界强力导入"科技成分" {#2582 .graf .graf--h3 .graf--leading name="2582"}
 
 **Maker Faire Rome 2025**（10 月 17--19 日）在 Gazometro Ostiense 举行。
@@ -441,18 +335,10 @@ Maker Faire（有些是参展、有些是参观）。\
 3.  [规模变大 → 形成正向网络效应]{#b5bc}
 
 六场展会中，**罗马是「运营努力最明显、进化幅度最大」的一场。**
-:::
-:::
-:::
 
-::: {.section .section .section--body name="777e"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### 上海：几乎全是国际学校的展区 {#00e1 .graf .graf--h3 .graf--leading name="00e1"}
 
 坦白说，**上海的 Maker Faire 目前不太推荐。**\
@@ -460,18 +346,10 @@ Maker Faire（有些是参展、有些是参观）。\
 
 作为外滩的商业活动，它没问题；但作为 Maker Faire，它缺乏深度。\
  除非你本来就因其他行程来到上海，否则不建议专程前往。
-:::
-:::
-:::
 
-::: {.section .section .section--body name="069d"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### 深圳：创业公司 × DIY × 政策方向完全一致的独特生态 {#798c .graf .graf--h3 .graf--leading name="798c"}
 
 **Maker Faire Shenzhen 2025**（11 月 15--16
@@ -493,18 +371,10 @@ CM0 --- --- 这就是深圳供应链的力量。
 After-party 上，Seeed CEO Eric Pan 献上一段「创客说唱」。\
  42 岁、300 人公司的 CEO、几乎没时间练习、唱得乱七八糟 --- ---
 但正是这种不完美的真实，才是 DIY 精神本身。
-:::
-:::
-:::
 
-::: {.section .section .section--body name="19fc"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### 台北：终于回来了，但更像政府主导的教育展示 {#03ef .graf .graf--h3 .graf--leading name="03ef"}
 
 **Maker Faire Taipei 2025**（11 月 29--30 日）在 **瓶盖工厂台北制造所**
@@ -528,18 +398,10 @@ Taiwan（亚洲机器人赛事）合作，使泰国、马来西亚等队伍带�
  许多观众是冲着日本创客来的，我们每年也都能见到熟悉的访客。
 
 如果未来台北 MF 能重新成为独立创客聚集的地方，希望我们能继续贡献力量。
-:::
-:::
-:::
 
-::: {.section .section .section--body .section--last name="05ac"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### 结语：六场 Maker Faire，看见六种未来 {#1cfa .graf .graf--h3 .graf--leading name="1cfa"}
 
 对比六座城市，可以看到非常清晰的分化：
@@ -562,10 +424,6 @@ Taiwan（亚洲机器人赛事）合作，使泰国、马来西亚等队伍带�
 的联合展区更是门槛极低。
 
 **未来不是一个人造出来的，而是共同创造出来的。**
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [December 1, 2025](https://medium.com/p/3ad4d1b0c1ba).

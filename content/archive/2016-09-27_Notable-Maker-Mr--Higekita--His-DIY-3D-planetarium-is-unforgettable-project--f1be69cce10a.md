@@ -8,20 +8,12 @@ date: 2016-09-27
 Notable Maker Mr. Higekita, His DIY 3D planetarium is unforgettable project. {#notable-maker-mr.-higekita-his-diy-3d-planetarium-is-unforgettable-project. .p-name}
 ============================================================================
 
-::: {.section .p-summary field="subtitle"}
 Higekita is natural bone makers. He bore at Kanazawa prefecture, north
 part of Japan, his grandfather is Carpenter and father is a...
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="3d27"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Notable Maker Mr. Higekita, His DIY 3D planetarium is unforgettable project. {#df95 .graf .graf--h3 .graf--leading .graf--title name="df95"}
 
 ![DIY Inflatable dome by greenhouse plastic. He made an amazing 3D show
@@ -83,10 +75,6 @@ simulation of light and refraction, but his analog 3D system is the same
 result in directly.
 
 He starts full time maker by that.
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [September 27, 2016](https://medium.com/p/f1be69cce10a).

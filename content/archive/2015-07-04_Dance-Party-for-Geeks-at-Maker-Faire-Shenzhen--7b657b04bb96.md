@@ -8,19 +8,11 @@ date: 2015-07-04
 Dance Party for Geeks at Maker Faire Shenzhen! {#dance-party-for-geeks-at-maker-faire-shenzhen .p-name}
 ==============================================
 
-::: {.section .p-summary field="subtitle"}
 https://www.youtube.com/watch?v=i85y0PRhwng
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="f65e"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 Dance Party for Geeks at Maker Faire Shenzhen! {#6cd4 .graf .graf--h2 .graf--leading .graf--title name="6cd4"}
 ----------------------------------------------
 
@@ -48,10 +40,6 @@ That is makers dance party!
 
 Aki Party\
 <https://www.facebook.com/pages/AKI-Party/703104653168030>
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [July 4, 2015](https://medium.com/p/7b657b04bb96).

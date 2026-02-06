@@ -8,19 +8,11 @@ date: 2019-01-31
 My next trip is SXSW, after chinese new year holiday! {#my-next-trip-is-sxsw-after-chinese-new-year-holiday .p-name}
 =====================================================
 
-::: {.section .p-summary field="subtitle"}
 新年快乐， 恭喜发财! 离开深圳起1月18号到2月27号。
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="743f"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### My next trip is SXSW, after chinese new year holiday! TAKASU & Nico-Tech Shenzhen Community Monthly news Feb/2019 {#7fe6 .graf .graf--h3 .graf--leading .graf--title name="7fe6"}
 
 新年快乐， 恭喜发财!\
@@ -57,10 +49,6 @@ Next My Trip on 2019\
 7--18/Mar SXSW (Austin, US)\
 Open Source Hardware Summit 2019 in Shenzhen\
 Maker Faire Taipei, New York, Shenzhen.....
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [January 31, 2019](https://medium.com/p/dec5172d2481).

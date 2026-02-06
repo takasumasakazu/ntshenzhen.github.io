@@ -8,21 +8,13 @@ date: 2017-03-08
 Published book "Makers' ecosystem" reporting innovation in Asia, Shenzhen and Singapore {#published-book-makers-ecosystem-reporting-innovation-in-asia-shenzhen-and-singapore .p-name}
 =======================================================================================
 
-::: {.section .p-summary field="subtitle"}
 This book is an ecosystem that brings inventions to Shenzhen and
 Singapore and other worlds. Singapore is trying to create innovation
 with...
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="126a"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Published book "Makers' ecosystem" reporting innovation in Asia, Shenzhen and Singapore {#3b9a .graf .graf--h3 .graf--leading .graf--title name="3b9a"}
 
 This book is an ecosystem that brings inventions to Shenzhen and
@@ -123,10 +115,6 @@ Hardware startup from AKIBA Contributed by Osami Ogasawara
 Commentary:\
 Personal history, city development and innovation over Shenzhen Hiroo
 Yamagata
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 8, 2017](https://medium.com/p/359b360acbfe).

@@ -8,19 +8,11 @@ date: 2015-07-04
 TORIENA On Stage Make Fashion Show MakerFaire Shenzhen 2015 {#toriena-on-stage-make-fashion-show-makerfaire-shenzhen-2015 .p-name}
 ===========================================================
 
-::: {.section .p-summary field="subtitle"}
 Maker Faire Shenzhen 2015 http://www.makerfaireshenzhen.com/
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="1138"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 [TORIENA On Stage Make Fashion Show MakerFaire Shenzhen 2015](https://www.youtube.com/watch?v=3ElyAgAIILc "TORIENA On Stage Make Fashion Show MakerFaire Shenzhen 2015"){.markup--anchor .markup--h2-anchor} {#de07 .graf .graf--h2 .graf--leading .graf--title name="de07"}
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -43,10 +35,6 @@ LED Smart Shoes Orphe\
 
 Aki Party\
 <https://www.facebook.com/pages/AKI-Party/703104653168030>
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [July 4, 2015](https://medium.com/p/cdbf9a3218e1).

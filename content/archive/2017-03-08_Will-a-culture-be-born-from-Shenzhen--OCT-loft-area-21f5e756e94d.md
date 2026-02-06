@@ -8,20 +8,12 @@ date: 2017-03-08
 Will a culture be born from Shenzhen? OCT-loft area {#will-a-culture-be-born-from-shenzhen-oct-loft-area .p-name}
 ===================================================
 
-::: {.section .p-summary field="subtitle"}
 The overseas Chinese castle (OCT) area in the center of Shenzhen city is
 renewing the area where the factories of electric appliances are...
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="286e"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Will a culture be born from Shenzhen? OCT-loft area {#a81b .graf .graf--h3 .graf--leading .graf--title name="a81b"}
 
 The overseas Chinese castle (OCT) area in the center of Shenzhen city is
@@ -154,10 +146,6 @@ time I visit Shenzhen.
 
 ![The appearance of women who love shopping does not change anywhere in
 the world.](https://cdn-images-1.medium.com/max/800/1*2kutNOy8moRpugvkvoh1Jg.jpeg){.graf-image}
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 8, 2017](https://medium.com/p/21f5e756e94d).

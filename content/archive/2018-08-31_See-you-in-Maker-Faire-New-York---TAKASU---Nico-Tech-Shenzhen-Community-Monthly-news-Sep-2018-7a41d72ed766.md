@@ -8,20 +8,12 @@ date: 2018-08-31
 See you in Maker Faire New York ! TAKASU & Nico-Tech Shenzhen Community Monthly news Sep/2018 {#see-you-in-maker-faire-new-york-takasu-nico-tech-shenzhen-community-monthly-news-sep2018 .p-name}
 =============================================================================================
 
-::: {.section .p-summary field="subtitle"}
 Finally, I will go again Maker Faire New York, I will talk at 22nd
 Saturday 4:45PM afternoon at Make: Stage.
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="0c94"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### See you in Maker Faire New York ! TAKASU & Nico-Tech Shenzhen Community Monthly news Sep/2018 {#421f .graf .graf--h3 .graf--leading .graf--title name="421f"}
 
 Finally, I will go again Maker Faire New York, I will talk at 22nd
@@ -53,10 +45,6 @@ Next My Trip\
 11--14/Oct Hongkong Global Source\
 2--4/Nov Maker Faire Taipei\
 14--18/Nov Shenzhen High Tech Fair
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [August 31, 2018](https://medium.com/p/7a41d72ed766).

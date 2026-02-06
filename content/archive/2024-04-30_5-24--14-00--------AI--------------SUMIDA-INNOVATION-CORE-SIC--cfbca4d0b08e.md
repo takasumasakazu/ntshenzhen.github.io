@@ -8,21 +8,13 @@ date: 2024-04-30
 5月24日 14:00- 深圳-日本 AI産業連携イベント開催：墨田区SUMIDA INNOVATION CORE（SIC） {#月24日-1400--深圳-日本-ai産業連携イベント開催墨田区sumida-innovation-coresic .p-name}
 ====================================================================================
 
-::: {.section .p-summary field="subtitle"}
 ニコ技深圳と協力しているiMakerbaseの主催で、墨田区産業共創施設SUMIDA
 INNOVATION
 CORE（SIC）にてイベントを行います。受付フォーム公開中です。ぜひご興味ある方来場お願いします。
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="322d"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### 5月24日 14:00- 深圳-日本 AI産業連携イベント開催：墨田区SUMIDA INNOVATION CORE（SIC） {#4727 .graf .graf--h3 .graf--leading .graf--title name="4727"}
 
 ニコ技深圳と協力しているiMakerbaseの主催で、墨田区産業共創施設SUMIDA
@@ -206,10 +198,6 @@ Displayは上場した会社世紀瑞爾の新規事業子会社です。AIGCデ
 
 [www.nsdisplay.com](http://www.nsdisplay.com){.markup--anchor
 .markup--p-anchor}
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [April 30, 2024](https://medium.com/p/cfbca4d0b08e).

@@ -8,20 +8,12 @@ date: 2017-12-31
 January 2018 Report 【TAKASU/Shenzhen High Tour】 {#january-2018-report-takasushenzhen-high-tour .p-name}
 =================================================
 
-::: {.section .p-summary field="subtitle"}
 If you need monthly report by email, please apply from here.
 https://goo.gl/forms/rvFfee8ZFEbriezR2
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="cc38"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### January 2018 Report 【TAKASU/Shenzhen High Tour】 {#0ec0 .graf .graf--h3 .graf--leading .graf--title name="0ec0"}
 
 If you need monthly report by email, [please apply from
@@ -31,7 +23,6 @@ here](https://goo.gl/forms/rvFfee8ZFEbriezR2){.markup--anchor
 
 I write up blog about TEAMOSA (HAX)
 
-::: {#9223 .graf .graf--mixtapeEmbed .graf-after--p name="9223"}
 [**Interview: TEAMOSA(HAX) from Taiwan's traditional tea house changing
 the world's tea culture**\
 *Traditional tea house himself makes hardware products and delivers them
@@ -39,7 +30,6 @@ directly to the Early
 Adapter.*medium.com](https://medium.com/shenzhen-high-tour-by-makers/teamosa-hax-f3f48c1fcf46 "https://medium.com/shenzhen-high-tour-by-makers/teamosa-hax-f3f48c1fcf46"){.markup--anchor
 .markup--mixtapeEmbed-anchor}[](https://medium.com/shenzhen-high-tour-by-makers/teamosa-hax-f3f48c1fcf46){.js-mixtapeImage
 .mixtapeImage .u-ignoreBlock}
-:::
 
 I went Shekou School Maker Faire, and Leaning and Teaching Expo in
 Hongkong.\
@@ -77,10 +67,6 @@ Facebook group.\
 Maker Faire Hongkong, Singapore, Tokyo, New York, Shenzhen, Chengdu,
 Xian, Taipei, Beijing.....\
 See you somewhere\`s Maker Faire!
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [December 31, 2017](https://medium.com/p/b1e4579bb3b8).

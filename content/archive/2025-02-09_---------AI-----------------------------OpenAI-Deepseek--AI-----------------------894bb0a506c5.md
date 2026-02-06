@@ -8,19 +8,11 @@ date: 2025-02-09
 真のオープンソースAI社会,多くの人が透明に開発に参加することによる安全を望む：OpenAIとDeepseek, AIのオープンソースに対する開源社からのコメント {#真のオープンソースai社会多くの人が透明に開発に参加することによる安全を望むopenaiとdeepseek-aiのオープンソースに対する開源社からのコメント .p-name}
 =============================================================================================================================================
 
-::: {.section .p-summary field="subtitle"}
 アルトマンは、オープンソース戦略について間違っていたと語った。DeepseekはOpenAIの優位性を低下させ、次はGPT-5になるだろう。
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="fa8c"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### 真のオープンソースAI社会,多くの人が透明に開発に参加することによる安全を望む：OpenAIとDeepseek, AIのオープンソースに対する開源社からのコメント {#392d .graf .graf--h3 .graf--leading .graf--title name="392d"}
 
 ![](https://cdn-images-1.medium.com/max/800/0*ktt_6UyAd1E-BQXu.jpeg){.graf-image}
@@ -76,10 +68,6 @@ actors）用来作恶。例如，利用开源 AI
 [原文
 開源社の公式wechat](https://mp.weixin.qq.com/s/7GDxFipcyGnW3H1Nlc976A){.markup--anchor
 .markup--p-anchor}
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [February 9, 2025](https://medium.com/p/894bb0a506c5).

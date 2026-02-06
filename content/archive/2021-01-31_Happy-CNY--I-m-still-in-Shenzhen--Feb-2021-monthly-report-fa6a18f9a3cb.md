@@ -8,19 +8,11 @@ date: 2021-01-31
 Happy CNY, I\`m still in Shenzhen. Feb/2021 monthly report {#happy-cny-im-still-in-shenzhen.-feb2021-monthly-report .p-name}
 ==========================================================
 
-::: {.section .p-summary field="subtitle"}
 This is TAKASU. Long time no see! I\`m in Shenzhen and happy busy days.
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="8343"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Happy CNY, I\`m still in Shenzhen. Feb/2021 monthly report {#ab4b .graf .graf--h3 .graf--leading .graf--title name="ab4b"}
 
 ![I met Dr.Yin, She graduate from KANAZAWA university Japan, and working
@@ -45,10 +37,6 @@ I hope to see you again and surely hope to stay safe.
 
 Best\
 Takasu
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [January 31, 2021](https://medium.com/p/fa6a18f9a3cb).

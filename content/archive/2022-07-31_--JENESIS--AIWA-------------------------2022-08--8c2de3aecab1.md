@@ -8,19 +8,11 @@ date: 2022-07-31
 深圳JENESISよりAIWAデジタルが誕生 ニコ技深センコミュニティ月次報告 2022年08月 {#深圳jenesisよりaiwaデジタルが誕生-ニコ技深センコミュニティ月次報告-2022年08月 .p-name}
 =============================================================================
 
-::: {.section .p-summary field="subtitle"}
 深圳JENESISからAIWAデジタルが誕生
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="4359"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### 深圳JENESISよりAIWAデジタルが誕生 ニコ技深センコミュニティ月次報告 2022年08月 {#d343 .graf .graf--h3 .graf--leading .graf--title name="d343"}
 
 ![](https://cdn-images-1.medium.com/max/800/0*PCSmeSsF84Rklv5z.jpg){.graf-image}
@@ -256,10 +248,6 @@ ONLINE(ウェッジ・オンライン)
 鈴木涼太 \@JA1TYE 高須正和
 
 <https://makepcba02.peatix.com/>
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [July 31, 2022](https://medium.com/p/8c2de3aecab1).

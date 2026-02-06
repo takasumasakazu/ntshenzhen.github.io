@@ -8,19 +8,11 @@ date: 2021-02-09
 开源社KaiYuanShe（中国最大のオープンソースアライアンス）の正式メンバーになりました。 \#ニコニコ技術部 Nico-Tech Shenzhen {#开源社kaiyuanshe中国最大のオープンソースアライアンスの正式メンバーになりました-ニコニコ技術部-nico-tech-shenzhen .p-name}
 ========================================================================================================================
 
-::: {.section .p-summary field="subtitle"}
 FSF,ASFなどのオープンソース支援団体
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="1694"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### 开源社KaiYuanShe（中国最大のオープンソースアライアンス）の正式メンバーになりました。 \#ニコニコ技術部 Nico-Tech Shenzhen {#886a .graf .graf--h3 .graf--leading .graf--title name="886a"}
 
 ### 开源社KaiYuanSheはFSF,ASFなどと並ぶ、中国の代表的なオープンソース支援アライアンス {#a299 .graf .graf--h3 .graf-after--h3 name="a299"}
@@ -57,13 +49,11 @@ Foundationの理事やメンバーでもあり、開源社のスポンサーに�
 僕は中国オープンソース年次大会/Apache
 Foundation中国ロードショー2020で登壇し、彼らのホワイトペーパーなどをいくつか翻訳してきました。中国オープンソース研究という名前のGitHubリポジトリで公開しています。最新版の2020年報告も春節まっただなかの2/14に公開しました。
 
-::: {#5f9c .graf .graf--mixtapeEmbed .graf-after--p name="5f9c"}
 [**takasumasakazu/ChinaOpensourceResearch**\
 *Research about Chinese Open Source by Japanese Tech Community.
 中国のオープンソースムーブメントについて調査し、結果を共有する非営利のコミュニティです。...*github.com](https://github.com/takasumasakazu/ChinaOpensourceResearch "https://github.com/takasumasakazu/ChinaOpensourceResearch"){.markup--anchor
 .markup--mixtapeEmbed-anchor}[](https://github.com/takasumasakazu/ChinaOpensourceResearch){.js-mixtapeImage
 .mixtapeImage .u-ignoreBlock}
-:::
 
 開源社のコミュニケーション言語は中国語です。国籍縛りはなく、台湾から参加するメンバーや、カナダ国籍の華人とかもいるとは思いますが、これまでのメンバーはいずれも中国語ネイティブでした。\
 今回2021年度、はじめての「ノンネイティブの正式メンバー」として、2人の推薦と全体会議での投票を経て、僕（所属組織はNico-Tech
@@ -81,10 +71,6 @@ Shenzhenがやりたいことと合致します。担当は、コミュニティ
 今後とも宜しくお願いします。
 
 ![](https://cdn-images-1.medium.com/max/800/1*n-FhOeR_MxQ4-b0jNVg6sA.png){.graf-image}
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [February 9, 2021](https://medium.com/p/8440a0d6834e).

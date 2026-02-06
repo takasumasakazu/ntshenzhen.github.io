@@ -8,20 +8,12 @@ date: 2017-04-25
 Angelic Project and Demonic Project on Maker Movement {#angelic-project-and-demonic-project-on-maker-movement .p-name}
 =====================================================
 
-::: {.section .p-summary field="subtitle"}
 Angelic and Demonic, these Terminology used to represent invention
 project by Prof.Jun Rekimoto (Tokyo Univ). Angelic means -Great Idea...
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="1b26"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Angelic Project and Demonic Project  on Maker Movement {#d1e0 .graf .graf--h3 .graf--leading .graf--title name="d1e0"}
 
 Angelic and Demonic, these Terminology used to represent invention
@@ -43,10 +35,6 @@ But Angelic projects are easy to copied.
 
 **How can a Maker survive?** -We should learning from Chinese Makers-\
 My friend Chinese Makers gave me many suggests. Please check my slide.
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [April 25, 2017](https://medium.com/p/50f2bea1a243).

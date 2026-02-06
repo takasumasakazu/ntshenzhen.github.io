@@ -8,20 +8,12 @@ date: 2017-04-10
 Videos:Shenzhen High Tour for Makers Vol.7 Apr/2017 {#videosshenzhen-high-tour-for-makers-vol.7-apr2017 .p-name}
 ===================================================
 
-::: {.section .p-summary field="subtitle"}
 We saw the Hardware capital Shenzhen city by High tour for makers. That
 tour are organized Seeed, Chaihuo, and TAKASU, they are Maker Faire...
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="7511"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Videos:Shenzhen High Tour for Makers Vol.7 Apr/2017 {#7231 .graf .graf--h3 .graf--leading .graf--title name="7231"}
 
 ![](https://cdn-images-1.medium.com/max/800/1*fAaxKmbd6xtVkPDT2HnIww.jpeg){.graf-image}
@@ -100,10 +92,6 @@ Shenzhen High Tour for Makers / ニコ技深圳観察会\
 
 深圳で起こっていること、メイカー、スタートアップ、HAXなど\
 <http://ch.nicovideo.jp/tks/blomaga/ar1223682>
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [April 10, 2017](https://medium.com/p/f027e1e72f7c).

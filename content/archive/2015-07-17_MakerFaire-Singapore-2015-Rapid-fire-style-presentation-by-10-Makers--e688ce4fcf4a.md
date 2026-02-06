@@ -8,21 +8,13 @@ date: 2015-07-17
 MakerFaire Singapore 2015 Rapid fire style presentation by 10 Makers. {#makerfaire-singapore-2015-rapid-fire-style-presentation-by-10-makers. .p-name}
 =====================================================================
 
-::: {.section .p-summary field="subtitle"}
 In MakerFaire Singapore 2015, We made NicoNico Gakkai Beta Style
 presentation. That is only 3 min presentation by makers, more focusing
 and...
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="ab3f"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### MakerFaire Singapore 2015 Rapid fire style presentation by 10 Makers. {#1f7b .graf .graf--h3 .graf--leading .graf--title name="1f7b"}
 
 In MakerFaire Singapore 2015, We made NicoNico Gakkai Beta Style
@@ -131,10 +123,6 @@ an Android app. Today, they are here with us to introduce and demo some
 IoT apps they have made in their spare time.
 
 10 David --- Steampunk art
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [July 17, 2015](https://medium.com/p/e688ce4fcf4a).

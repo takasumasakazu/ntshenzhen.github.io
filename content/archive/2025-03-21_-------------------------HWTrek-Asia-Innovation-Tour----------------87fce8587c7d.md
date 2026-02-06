@@ -8,19 +8,11 @@ date: 2025-03-21
 世界の工場・深センのプロトタイピング環境 --- --- HWTrekのAsia Innovation Tour世界のサプライチェーンレポート {#世界の工場深センのプロトタイピング環境-hwtrekのasia-innovation-tour世界のサプライチェーンレポート .p-name}
 ===========================================================================================================
 
-::: {.section .p-summary field="subtitle"}
 2016/12/26 08:00
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first name="e303"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### 世界の工場・深センのプロトタイピング環境 --- --- HWTrekのAsia Innovation Tour世界のサプライチェーンレポート {#ec4f .graf .graf--h3 .graf--leading .graf--title name="ec4f"}
 
 2016/12/26 08:00
@@ -81,18 +73,10 @@ Venturesのプロトタイピングスペースには、小規模な生産ライ
 ![多くのサポートエンジニアも常駐していて、開発の相談や検証も行える。](https://cdn-images-1.medium.com/max/800/1*ycwaxZrtEvctwIkX6YC4iA.jpeg){.graf-image}
 
 ![コワーキングスペース](https://cdn-images-1.medium.com/max/800/1*6BT2A8dgE6kFEHaTyGYMpA.jpeg){.graf-image}
-:::
-:::
-:::
 
-::: {.section .section .section--body .section--last name="c67d"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 Shenzhen Valley
 Venturesの説明。ホビーというより、スタートアップのためのMakerスペースを志向している。
 
@@ -152,10 +136,6 @@ SkyPrototypeは、1個から数千個までをキャッチフレーズに少ロ�
 
 今回の記事の中心になっている深センのサプライチェーンやメイカーエコシステムについては、[**メイカーズのエコシステム**](http://ch.nicovideo.jp/tks/blomaga/ar941066){.markup--anchor
 .markup--p-anchor}という書籍にまとまっています。
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 21, 2025](https://medium.com/p/87fce8587c7d).

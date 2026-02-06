@@ -8,27 +8,17 @@ date: 2017-06-14
 Chinese entrepreneur told Kickstarter and Chinese copycat Shanzhai Open Source hardware {#chinese-entrepreneur-told-kickstarter-and-chinese-copycat-shanzhai-open-source-hardware .p-name}
 =======================================================================================
 
-::: {.section .p-summary field="subtitle"}
 It is common for new products announced at Kickstarter to be
 inexpensively copied in China before they are actually shipped. In China
 it...
-:::
 
-::: {.section .p-summary field="description"}
 It is common for new products announced at Kickstarter to be
 inexpensively copied in China before they are actually shipped. In China
 it refers to it and it is called " 山寨死 Shanzhai Si ". I...
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="7614"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Interview with Chinese entrepreneur for Kickstarter and Chinese copycat {#03e5 .graf .graf--h3 .graf--leading .graf--title name="03e5"}
 
 It is common for new products announced at Kickstarter to be
@@ -244,10 +234,6 @@ world of being copied, it is becoming more common for Maker to overflow
 the world and inventions are now becoming more common, so now the
 intellectual property surrounding it I feel that the environment may
 change as well.
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [June 14, 2017](https://medium.com/p/b9b718f6158a).

@@ -8,20 +8,12 @@ date: 2020-02-29
 See you in NY and Singapore! Monthly Report 2020/March {#see-you-in-ny-and-singapore-monthly-report-2020march .p-name}
 ======================================================
 
-::: {.section .p-summary field="subtitle"}
 Long time no see, I\`m not able to send monthly reports from Shenzhen,
 because too much trip.
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="c7dd"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### See you in NY and Singapore! Monthly Report 2020/March {#21ac .graf .graf--h3 .graf--leading .graf--title name="21ac"}
 
 Long time no see, I\`m not able to send monthly reports from Shenzhen,
@@ -81,10 +73,6 @@ Next My Trip on 2020
 2--3 Maker Faire Tokyo
 
 17--18 Maker Carnival Shanghai
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [February 29, 2020](https://medium.com/p/eea8e268ac80).

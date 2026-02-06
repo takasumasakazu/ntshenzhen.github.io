@@ -1,5 +1,5 @@
 baseURL = "http://localhost:1313/"
-title = "Takasu Articles"
+title = "ニコ技深セン / Nico-Tech Shenzhen website"
 theme = "PaperMod"
 disableKinds = ["RSS"]
 [permalinks]
@@ -7,4 +7,21 @@ disableKinds = ["RSS"]
   teardown = "/teardown/:year/:month/:slug/"
   shenzhen = "/shenzhen/:year/:month/:slug/"
   fabcross = "/fabcross/:year/:month/:slug/"
+[menu]
+  [[menu.main]]
+    name = "Teardown"
+    url = "/teardown/"
+    weight = 10
+  [[menu.main]]
+    name = "Shenzhen"
+    url = "/shenzhen/"
+    weight = 20
+  [[menu.main]]
+    name = "Fabcross"
+    url = "/fabcross/"
+    weight = 30
+  [[menu.main]]
+    name = "Archive"
+    url = "/archive/"
+    weight = 40
 

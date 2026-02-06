@@ -8,19 +8,11 @@ date: 2017-06-20
 ニコ技深圳コミュニティとは About Nico-Tech Shenzhen Community {#ニコ技深圳コミュニティとは-about-nico-tech-shenzhen-community .p-name}
 =============================================================
 
-::: {.section .p-summary field="subtitle"}
 ■ニコ技深圳コミュニティの活動:Nico-Tech Shenzhen Activity
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="1231"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### ニコ技深圳コミュニティとは About Nico-Tech Shenzhen Community {#9d14 .graf .graf--h3 .graf--leading .graf--title name="9d14"}
 
 ![深圳で行われているミートアップの様子。この写真に写ってる人たちが、僕たちの多様性を表しています。Eric
@@ -34,13 +26,11 @@ are diverse\]](https://cdn-images-1.medium.com/max/800/1*18r5Wu9wDMCaPngLqpX12w
 
 **■ニコ技深圳コミュニティの活動:Nico-Tech Shenzhen Activity**
 
-::: {#8076 .graf .graf--mixtapeEmbed .graf-after--p name="8076"}
 [**書籍「プロトタイプシティ」 第37回大平正芳記念賞 特別賞を受賞**\
 *ニコ技深圳コミュニティのメンバーが中心になって執筆され、2020年06月にKADOKAWAより刊行された「プロトタイプシティ」は、この度第37回大平正芳記念賞
 特別賞を受賞しました。*medium.com](https://medium.com/ecosystembymakers/prototypecity-f500a8377897 "https://medium.com/ecosystembymakers/prototypecity-f500a8377897"){.markup--anchor
 .markup--mixtapeEmbed-anchor}[](https://medium.com/ecosystembymakers/prototypecity-f500a8377897){.js-mixtapeImage
 .mixtapeImage .u-ignoreBlock}
-:::
 
 We are Shenzhen based, Open Hardware community. Our office is
 HuaQiangBei, and over 3000 members on the Facebook group online. We were
@@ -131,7 +121,6 @@ Maker Ecosystem Ltd HK CEO,
 Shenzhen Community)としています。」\
 2018年以降、深圳への旅行者が増えたことからガイドブックを書き始めました。
 
-::: {#012d .graf .graf--mixtapeEmbed .graf-after--p name="012d"}
 [**深センの歩き方2019
 中国初めての人が公共交通機関で歩き回れる、スマホで読める \#深圳の歩き方
 \#マッハ新書 - - BOOTH**\
@@ -140,7 +129,6 @@ Shenzhen Community)としています。」\
 このマッハ新書は個人版とエンタープライズ版があります。...*booth.pm](https://booth.pm/ja/items/1192465 "https://booth.pm/ja/items/1192465"){.markup--anchor
 .markup--mixtapeEmbed-anchor}[](https://booth.pm/ja/items/1192465){.js-mixtapeImage
 .mixtapeImage .u-ignoreBlock}
-:::
 
 **■ニコ技深圳観察会とは**\
 ・ホテル、飛行機などの手配は各自\
@@ -213,38 +201,32 @@ Muraya)さんが管理している、深圳のハードウェア系イベント�
 過去の参加者、現地での協力者などのお手をお借りして、集大成として書籍にまとまっています。深圳のメイカーエコシステムについての情報を、最も効率よく入手できるのはこの2冊だと思います。予習復習のどちらにもおすすめ。\
 amazon等で入手できます。
 
-::: {#a975 .graf .graf--mixtapeEmbed .graf-after--p name="a975"}
 [**メイカーズのエコシステム 新しいモノづくりがとまらない。 (OnDeck
 Books（NextPublishing）)**\
 *Amazonで高須
 正和の{ProductTitle}。アマゾンならポイント還元本が多数。一度購入いただいた電子書籍は、KindleおよびFire端末、スマートフォンやタブレットなど、様々な端末でもお楽しみいただけます。*www.amazon.co.jp](http://www.amazon.co.jp/exec/obidos/ASIN/B01AXRCDTU/amazletjp-22/ref=nosim/ "http://www.amazon.co.jp/exec/obidos/ASIN/B01AXRCDTU/amazletjp-22/ref=nosim/"){.markup--anchor
 .markup--mixtapeEmbed-anchor}[](http://www.amazon.co.jp/exec/obidos/ASIN/B01AXRCDTU/amazletjp-22/ref=nosim/){.js-mixtapeImage
 .mixtapeImage .u-ignoreBlock}
-:::
 
 毎回観察会で訪れているJENESIS藤岡社長の単著が出ました。上記「メイカーズのエコシステム」にも寄稿いただいている藤岡さんの言葉は、深圳のハードウェア製造現場の生の声で満ちていて、特にハードウェア製造に興味ある人は必見です。
 
-::: {#01c1 .graf .graf--mixtapeEmbed .graf-after--p name="01c1"}
 [**「ハードウェアのシリコンバレー深セン」に学ぶ−これからの製造のトレンドとエコシステム
 (NextPublishing)**\
 *Amazonで藤岡
 淳一の{ProductTitle}。アマゾンならポイント還元本が多数。一度購入いただいた電子書籍は、KindleおよびFire端末、スマートフォンやタブレットなど、様々な端末でもお楽しみいただけます。*www.amazon.co.jp](http://www.amazon.co.jp/exec/obidos/ASIN/B077HX882D/hirayasutakas-22/ref=nosim/ "http://www.amazon.co.jp/exec/obidos/ASIN/B077HX882D/hirayasutakas-22/ref=nosim/"){.markup--anchor
 .markup--mixtapeEmbed-anchor}[](http://www.amazon.co.jp/exec/obidos/ASIN/B077HX882D/hirayasutakas-22/ref=nosim/){.js-mixtapeImage
 .mixtapeImage .u-ignoreBlock}
-:::
 
 2020年7月末に、最新書籍の「プロトタイプシティ
 深センと世界的イノベーション」が出ました。\
 高須正和、高口康太、澤田翔、藤岡淳一、伊藤亜聖、山形浩生、GOROman,ナオミ・ウーの各氏が寄稿やインタビューを通じて、深圳で起きているイノベーションについて解き明かそうとしています。
 
-::: {#3d39 .graf .graf--mixtapeEmbed .graf-after--p name="3d39"}
 [**プロトタイプシティ 深センと世界的イノベーション (角川書店単行本)**\
 *Amazonで高須 正和, 高口 康太, 澤田 翔, 藤岡 淳一, 伊藤 亜聖, 山形
 浩生のプロトタイプシティ
 深センと世界的イノベーション...*amzn.to](https://amzn.to/2QTRpzO "https://amzn.to/2QTRpzO"){.markup--anchor
 .markup--mixtapeEmbed-anchor}[](https://amzn.to/2QTRpzO){.js-mixtapeImage
 .mixtapeImage .u-ignoreBlock}
-:::
 
 **■深圳地図、サイズ\
 **この地図にあるように、端から端までだと2時間ぐらいあるサイズの都市なので、それなりに何を見るか計画してから来た方がいいと思います。\
@@ -285,10 +267,6 @@ Q.深圳をまわる有料ガイドツアーがあるなかとの違いは何で
 [日本人のための深圳情報サイトShenzhen
 Fan](https://www.shenzhen-fan.com/){.markup--anchor
 .markup--p-anchor}にもっともわかりやすくまとまっています。
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [June 20, 2017](https://medium.com/p/e306f96168b8).

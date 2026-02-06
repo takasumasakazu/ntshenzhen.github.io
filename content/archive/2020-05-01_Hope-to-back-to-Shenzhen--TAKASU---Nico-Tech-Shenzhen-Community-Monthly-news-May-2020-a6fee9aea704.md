@@ -8,20 +8,12 @@ date: 2020-05-01
 Hope to back to Shenzhen. TAKASU & Nico-Tech Shenzhen Community Monthly news May/2020 {#hope-to-back-to-shenzhen.-takasu-nico-tech-shenzhen-community-monthly-news-may2020 .p-name}
 =====================================================================================
 
-::: {.section .p-summary field="subtitle"}
 I\`m move to Japan from Singapore, at april. That two city, Tokyo and
 Singapore are similar situated, under the lock down next 1--2 month...
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="6419"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Hope to back to Shenzhen. TAKASU & Nico-Tech Shenzhen Community Monthly news May/2020 {#8e7e .graf .graf--h3 .graf--leading .graf--title name="8e7e"}
 
 I\`m move to Japan from Singapore, at april. That two city, Tokyo and
@@ -38,13 +30,11 @@ home more 1--2 months. However, I often attend the event on online. I
 will join the open Meetup in Mushroom cloud Maker Space Shanghai on
 Bilibili, that is my first time talking on Bilibili, sounds so fun..
 
-::: {#2b2a .graf .graf--mixtapeEmbed .graf-after--p name="2b2a"}
 [**DFRobot智造星球的个人空间 - 哔哩哔哩 ( ゜- ゜)つロ 乾杯\~ Bilibili**\
 *DFRobot智造星球，技术宅，DIY，智能硬件，黑科技，3D打印，脑洞大开！
 微信公众号：DF创客社区，bilibili是国内知名的视频弹幕网站，这里有最及时的动漫新番，最棒的ACG氛围，最有创意的Up主。大家可以在这里找到许多欢乐。*space.bilibili.com](https://space.bilibili.com/29737524?from=search&seid=8276885594403507455 "https://space.bilibili.com/29737524?from=search&seid=8276885594403507455"){.markup--anchor
 .markup--mixtapeEmbed-anchor}[](https://space.bilibili.com/29737524?from=search&seid=8276885594403507455){.js-mixtapeImage
 .mixtapeImage .mixtapeImage--empty .u-ignoreBlock}
-:::
 
 ![](https://cdn-images-1.medium.com/max/800/1*gcss3RclU0OlwkWnPeJNXQ.jpeg){.graf-image}
 
@@ -77,10 +67,6 @@ Next My Trip on 2020 (But so unstable)
 
 the other, Taipei,Roma,Bangkok,Hongkong, Seoul, Shanghai and of cource
 Shenzhen.
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [May 1, 2020](https://medium.com/p/a6fee9aea704).

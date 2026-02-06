@@ -8,20 +8,12 @@ date: 2019-12-01
 See you in CES2020 US and BETT 2020 UK! TAKASU & Nico-Tech Shenzhen Community Monthly news Dec/2019 {#see-you-in-ces2020-us-and-bett-2020-uk-takasu-nico-tech-shenzhen-community-monthly-news-dec2019 .p-name}
 ===================================================================================================
 
-::: {.section .p-summary field="subtitle"}
 This is Takasu, really long time no see. I\`m not able to send updates
 on Oct and Nov, This email is behind 3 months. Now I back to...
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="e0f5"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### See you in CES2020 US and BETT 2020 UK! TAKASU & Nico-Tech Shenzhen Community Monthly news Dec/2019 {#e5f2 .graf .graf--h3 .graf--leading .graf--title name="e5f2"}
 
 This is Takasu, really long time no see. I\`m not able to send updates
@@ -104,10 +96,6 @@ March
 14th Open Source Hardware Summit (New York)
 
 TBA lecture Hongkong Chinese Univ
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [December 1, 2019](https://medium.com/p/4f3232e2d694).

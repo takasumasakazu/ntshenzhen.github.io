@@ -8,19 +8,11 @@ date: 2023-11-06
 日本語訳：Regarding Proposed US Restrictions on RISC-V... {#日本語訳regarding-proposed-us-restrictions-on-risc-v .p-name}
 =========================================================
 
-::: {.section .p-summary field="subtitle"}
 ハードウェアハッカーの著者バニー・ファン\@bunniestudioは、11月6日にアメリカで提出された「中国の優位を防ぐため、アメリカでRISC-Vへの協力を規制しよう」案について反対する公開書簡をブログで発表した。ツイートでは「この案はむしろアメリカのパワーを削ぐ」としている。...
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="efcd"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### 日本語訳：Regarding Proposed US Restrictions on RISC-V バニー・ファン、アメリカで提出された「中国の優位を防ぐため、アメリカでRISC-Vへの協力を規制しよう」案について反対する公開書簡 {#303f .graf .graf--h3 .graf--leading .graf--title name="303f"}
 
 [ハードウェアハッカー](https://amzn.to/470UQKi){.markup--anchor
@@ -94,10 +86,6 @@ DEED](https://creativecommons.org/licenses/by-sa/4.0/){.markup--anchor
 
 ![翻訳についてbunnieにも[ツイート](https://twitter.com/tks/status/1721650674990252191){.markup--anchor
 .markup--figure-anchor}](https://cdn-images-1.medium.com/max/800/1*cqiZUsn3fcOjuQQJBvz_3Q.png){.graf-image}
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [November 6, 2023](https://medium.com/p/0cb41fac197f).

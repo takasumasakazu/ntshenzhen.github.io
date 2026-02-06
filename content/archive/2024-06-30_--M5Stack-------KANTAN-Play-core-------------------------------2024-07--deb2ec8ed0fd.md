@@ -8,19 +8,11 @@ date: 2024-06-30
 深圳M5Stackを搭載した楽器KANTAN Play coreがクラウドファンディング中 ニコ技深センコミュニティ月次報告 2024年07月 {#深圳m5stackを搭載した楽器kantan-play-coreがクラウドファンディング中-ニコ技深センコミュニティ月次報告-2024年07月 .p-name}
 ===============================================================================================================
 
-::: {.section .p-summary field="subtitle"}
 M5Stackをコア機能に使い、誰でもコードを身につけられる新しい電子楽器がクラウドファンディング中です。
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="4ac2"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### 深圳M5Stackを搭載した楽器KANTAN Play coreがクラウドファンディング中 ニコ技深センコミュニティ月次報告 2024年07月 {#04fe .graf .graf--h3 .graf--leading .graf--title name="04fe"}
 
 M5Stackをコア機能に使い、誰でもコードを身につけられる新しい電子楽器がクラウドファンディング中です。
@@ -199,10 +191,6 @@ JENESIS(SHENZHEN) CO.,LTD
 再オープンしたオフィスの写真、利用ルールなどはこちらに記載してあります。特に中国国内のみ発送の荷物受け取りなどで
 
 使うコミュニティメンバーが多そうです。
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [June 30, 2024](https://medium.com/p/deb2ec8ed0fd).

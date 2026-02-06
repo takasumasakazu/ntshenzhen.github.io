@@ -1,5 +1,6 @@
 ---
 title: "draft_Finally  I backed Shenzhen already  TAKASU   Nico Tech Shenzhen Community Monthly news Dec 2020"
+draft: true
 aliases: ["/2000/01/draft-finally-i-backed-shenzhen-already-takasu-nico-tech-shenzhen-community-monthly-news-dec-2020/"]
 slug: draft-finally-i-backed-shenzhen-already-takasu-nico-tech-shenzhen-community-monthly-news-dec-2020
 date: 2000-01-01
@@ -8,20 +9,12 @@ date: 2000-01-01
 Finally, I backed Shenzhen already! TAKASU & Nico-Tech Shenzhen Community Monthly news Dec/2020 {#finally-i-backed-shenzhen-already-takasu-nico-tech-shenzhen-community-monthly-news-dec2020 .p-name}
 ===============================================================================================
 
-::: {.section .p-summary field="subtitle"}
 Finally, I backed Shenzhen, China, already. I just finished 14day's
 quarantine on last Sunday.
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="3369"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Finally, I backed Shenzhen already! TAKASU & Nico-Tech Shenzhen Community Monthly news Dec/2020 {#f2c8 .graf .graf--h3 .graf--leading .graf--title name="f2c8"}
 
 Finally, I backed Shenzhen, China, already. I just finished 14day's
@@ -60,10 +53,6 @@ will meet some people from Shenzhen University next week.
 Please keep updating about that, Stay tuned!
 
 \
-:::
-:::
-:::
-:::
 
 [View original.](https://medium.com/p/f563c9890331)
 

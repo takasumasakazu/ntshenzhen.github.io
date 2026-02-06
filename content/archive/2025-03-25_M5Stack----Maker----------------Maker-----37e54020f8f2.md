@@ -8,19 +8,11 @@ date: 2025-03-25
 M5Stackは今後もMaker市場でうまくいくと思う。僕自身がMakerだからだ {#m5stackは今後もmaker市場でうまくいくと思う僕自身がmakerだからだ .p-name}
 =================================================================
 
-::: {.section .p-summary field="subtitle"}
 2021/02/04 07:30
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="975f"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### M5Stackは今後もMaker市場でうまくいくと思う。僕自身がMakerだからだ {#1fe7 .graf .graf--h3 .graf--leading .graf--title name="1fe7"}
 
 2021/02/04 07:30
@@ -163,10 +155,6 @@ M5Stackの新オフィスで、CEOのジミー・ライは初めて「社長室�
 その姿は、同時代のスタートアップであるイーロン・マスクやスティーブ・ジョブズ、マーク・アンドリーセンといったシリコンバレーの起業家よりも、僕も伝説でしか知らない、本田宗一郎や豊田佐吉、盛田昭夫や松下幸之助といった日本の伝説の起業家エンジニアとかぶる。
 
 イノベーションの中心地と言われる深圳。今、僕たちが深圳から学ぶべきヒントは、M5Stackとジミーの姿の中にあると強く感じた。
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 25, 2025](https://medium.com/p/37e54020f8f2).

@@ -8,19 +8,11 @@ date: 2025-03-23
 日本から出展しやすい海外のMaker Faire --- --- 国ごとに違うMaker Faireのキャラクター {#日本から出展しやすい海外のmaker-faire-国ごとに違うmaker-faireのキャラクター .p-name}
 ===================================================================================
 
-::: {.section .p-summary field="subtitle"}
 2017/07/03 08:00
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first name="a9c6"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### 日本から出展しやすい海外のMaker Faire --- --- 国ごとに違うMaker Faireのキャラクター {#8395 .graf .graf--h3 .graf--leading .graf--title name="8395"}
 
 2017/07/03 08:00
@@ -32,18 +24,10 @@ Faireが行われている。アジアにはまだ「はじめてのMaker
 Faire」や、小さいイベントを盛り上げていこうとする途中の荒削りなMaker
 Faireがあり、東京とは違った魅力がある。Makeの世界は広い。今回は日本から出展しやすいアジアのMaker
 Faireを紹介する。
-:::
-:::
-:::
 
-::: {.section .section .section--body .section--last name="7bb9"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Make Tokyo Meeting、マイナーなイベントだった頃を懐かしむ {#31c5 .graf .graf--h3 .graf--leading name="31c5"}
 
 今年もMaker Faire
@@ -206,10 +190,6 @@ Faireが開かれている。
 海外のMaker
 Faireに出展した人たちは口々に、違うカルチャーに触れた驚きとMaker同士であれば充分に会話が通じることを語る。それは日本のMakerコミュニティをもっと面白くする。ぜひ海外のMaker
 Faireに出展してみよう。
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 23, 2025](https://medium.com/p/29de3fe9638a).

@@ -8,19 +8,11 @@ date: 2025-03-21
 ロボティクス教育のための最後のピースを埋めるMakeblock {#ロボティクス教育のための最後のピースを埋めるmakeblock .p-name}
 =====================================================
 
-::: {.section .p-summary field="subtitle"}
 2016/05/27 08:00
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first name="4f8d"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### ロボティクス教育のための最後のピースを埋めるMakeblock {#b5a6 .graf .graf--h3 .graf--leading .graf--title name="b5a6"}
 
 2016/05/27 08:00
@@ -31,18 +23,10 @@ Technologyは、誰でもロボティクスが学べるツール、21世紀の�
 ![](https://cdn-images-1.medium.com/max/800/1*Ir50oCVt_y4UNT1eRS_d4Q.jpeg){.graf-image}
 
 ロボティクス教育のための最後のピース
-:::
-:::
-:::
 
-::: {.section .section .section--body name="047b"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 下の画像は彼らが創業当時の[**プロモーションビデオ**](https://www.kickstarter.com/projects/1397854503/makeblock-next-generation-of-construct-platform/description){.markup--anchor
 .markup--p-anchor}にあるものだ。ロボティクス、ロボット技術を学ぶためには、プログラミングと電子回路（マイクロコントローラ）に加えて、メカニクスを学ぶ必要がある。
 
@@ -83,31 +67,15 @@ Kit-Blue」**](http://makeblock.com/ultimate-robot-kit-blue){.markup--anchor
 
 Makeblockでは、Makeblockを用いたハッカソンを頻繁に行っている。下の動画は連載の第一回で触れた[**Seeed**](https://fabcross.jp/topics/tks/20160223_tks_01.html){.markup--anchor
 .markup--p-anchor}のエンジニアと一緒に行ったハッカソンで、36時間で「実用的なもの（pragmatism）」を作るのがテーマだ。テーマは「アート」「楽器」などそのたびに変わる。
-:::
-:::
-:::
 
-::: {.section .section .section--body name="ba88"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 36時間ハッカソン。このときは「実用的なもの（pragmatism）」がテーマ。
-:::
-:::
-:::
 
-::: {.section .section .section--body name="9d37"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ハッカソンは審査員もいる真剣なものだ。僕は何度か審査員を務めたことがあるが、みな楽しみながらも本気でモノを作っていた。ギーク好みのガジェットが賞品になることも多い。Makeblockの社員の多くがエンジニアで、いつもオフィスは何かを作っている途中のMakeblockであふれている。
 
 こうしたハッカソンから、新しいキットが派生することが多くある。この[**「Makeblock
@@ -129,31 +97,15 @@ Wangたち5人が起業した会社だ。Wangはいまも、なるべく長い�
 
 もともとロボティクス教育を意図して開発されたMakeblockシリーズは、堅牢さと自由度の高さから大人がプロトタイピングツールとして使うことも多く、キットもどんどん高性能なものが出てきていたが、世界的なSTEM教育の流れの中でさらに低年齢の子供でも扱えるキットが必要になってきた。[**mBot**](http://makeblock.com/mbot-stem-educational-robot-kit-for-kids){.markup--anchor
 .markup--p-anchor}はクルマとしての機能だけに絞り込み、\$74.99（約8200円）という低価格で販売しているキットだ。
-:::
-:::
-:::
 
-::: {.section .section .section--body name="825a"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 よりビギナー向け製品のmBot。
-:::
-:::
-:::
 
-::: {.section .section .section--body name="c0b6"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ライントレースや超音波センサなどのセンサ類は豊富で、スマートフォンとBluetooth経由で接続でき、ビジュアルプログラミング言語のScratchをもとにした言語でプログラムできるなど、ソフトウェアから工夫できる部分は多いが、メカはこれまでのキットに比べてぐっとシンプルになっている。そして、このmBotはMakeblock最大のヒット商品となり、今はmBotにも派生製品がでてきた。
 
 創業当時のMakeblockはソフトウェアを専門にするエンジニアがいなかった。当初のMakeblockも、赤外線で操作できたが、Bluetoothでスマートフォンをコントローラにしてラジコンのように動かせるのは、スマートフォンのアプリが書けるエンジニアが入社してきてからだ。
@@ -162,31 +114,15 @@ Wangたち5人が起業した会社だ。Wangはいまも、なるべく長い�
 
 そして今年Makeblockは、さらにコンシューマ向けの製品として[**「CodeyBot」**](http://www.codeybot.com/){.markup--anchor
 .markup--p-anchor}をリリースした。
-:::
-:::
-:::
 
-::: {.section .section .section--body name="9c04"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 これまでのMakeblockとはまったく見た目の違う「CodeyBot」
-:::
-:::
-:::
 
-::: {.section .section .section--body .section--last name="38a9"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 この5月にちょうど[**クラウドファンディング**](https://fabcross.jp/news/2016/04/20160401_codeybot.html){.markup--anchor
 .markup--p-anchor}が終わったばかりのこの製品は、アルミフレームで作られているこれまでのMakeblockとは見た目がまったく違う。PCとUSBでつないでファームウェアを書き込むのではなく、タブレットやスマートホンのアプリ上でプログラミングを行う。「これはMakeblockとは違う新しい製品ラインで、よりコンシューマー向けのものだ」と、オフィスを訪ねたときに社長のWangは語った。
 
@@ -210,10 +146,6 @@ CodeyBotはラジコンカーのように扱えるし、タブレットから顔
 
 おそらくMakeblockは今年のMaker Faire
 Tokyoにもやってくるだろう。日本でCodeyBotに触れられるのはそのときが最初になるはずだ。新しい製品ラインをぜひ体験してみてもらいたい。
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 21, 2025](https://medium.com/p/b94f721ffaa7).

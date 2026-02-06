@@ -8,23 +8,13 @@ date: 2015-07-06
 Hackerspace Travelogure 2.0 {#hackerspace-travelogure-2.0 .p-name}
 ===========================
 
-::: {.section .p-summary field="subtitle"}
 I told at Hackerspace Traveloge 2.0 at Hackerspace Singapore.
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="1a2a"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--outsetColumn}
 ![](https://cdn-images-1.medium.com/max/1200/1*u8uOSPxgGql4Ky2lbmXeag.jpeg){.graf-image}
-:::
 
-::: {.section-inner .sectionLayout--insetColumn}
 ### Hackerspace Travelogure 2.0 report: And share my slide. MakerFaire Tokyo, Geek Dance Party, Nepal Art&Tech Event {#9ec0 .graf .graf--h3 .graf-after--figure .graf--title name="9ec0"}
 
 I told at Hackerspace Traveloge 2.0 at Hackerspace Singapore.
@@ -72,10 +62,6 @@ Melbourne, Paris Hackerspaces --- Hackerspace Travelogues 2.0
 Mekong ICT Camp, Thailand --- Hackerspace Travelogues 2.0
 
 Göttingen and Amsterdam hackerspaces --- Hackerspace Travelogues 2.0
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [July 6, 2015](https://medium.com/p/acebeb9fe208).

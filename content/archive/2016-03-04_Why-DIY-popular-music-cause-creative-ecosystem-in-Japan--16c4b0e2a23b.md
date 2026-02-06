@@ -8,20 +8,12 @@ date: 2016-03-04
 Why DIY popular music cause creative ecosystem in Japan? {#why-diy-popular-music-cause-creative-ecosystem-in-japan .p-name}
 ========================================================
 
-::: {.section .p-summary field="subtitle"}
 Voice Synthesizer called Vocaloid is famous software technology. For
 represented example HATSUNE MIKU, that software made Google theme...
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="ec8f"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Why DIY popular music cause creative ecosystem in Japan? {#b29d .graf .graf--h3 .graf--leading .graf--title name="b29d"}
 
 ![[Vocaloid](http://www.vocaloid.com/en/){.markup--anchor
@@ -163,10 +155,6 @@ That structure is a bit similar to open source projects, unless
 difference between a software and content.\
 These are not a cathedral and not a bazaar, but another kind of open
 collaboration ecosystem.
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 4, 2016](https://medium.com/p/16c4b0e2a23b).

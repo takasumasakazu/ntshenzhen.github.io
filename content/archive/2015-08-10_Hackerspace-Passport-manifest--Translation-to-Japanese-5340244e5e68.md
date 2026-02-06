@@ -8,20 +8,12 @@ date: 2015-08-10
 Hackerspace Passport manifest: Translation to Japanese {#hackerspace-passport-manifest-translation-to-japanese .p-name}
 ======================================================
 
-::: {.section .p-summary field="subtitle"}
 I have Hackerspace Passport from Last year. My friend Kevin and
 Seeedstudio present for me.
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="594b"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Hackerspace Passport manifest: Translation to Japanese {#e4e2 .graf .graf--h3 .graf--leading .graf--title name="e4e2"}
 
 I have [Hackerspace
@@ -100,10 +92,6 @@ I love this manifest from My great Hacker friend
 *君がこれまでハックしたものやその楽しさを、ぜひ広めてほしい。自分が何を知り、何を知らないかを広めることで、さらに新しいものを学ぶことができる。僕らはいつも、君かが来たときにもっといろいろ教えてもらいたいと思っている。好きなだけたくさんのハッカースペースのスタンプを集め、交換すればいい。君や僕たちが好きなこと、お互いの知識の交換は、世界をよりよくすることにつながっているんだ。*
 
 *世界的なハッカースペースのムーブメントは、君をサポートする。好きなものを探しに行こう！*
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [August 10, 2015](https://medium.com/p/5340244e5e68).

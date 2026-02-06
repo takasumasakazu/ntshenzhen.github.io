@@ -8,20 +8,12 @@ date: 2019-07-31
 Welcome to Maker Faire Tokyo and AkiParty Japan! Monthly report 2019 Aug {#welcome-to-maker-faire-tokyo-and-akiparty-japan-monthly-report-2019-aug .p-name}
 ========================================================================
 
-::: {.section .p-summary field="subtitle"}
 Long time no see! I\`m not able to send an email on july because of the
 too much trip a few weeks. However, The time has come. This weekend...
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="a60a"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Welcome to Maker Faire Tokyo and AkiParty Japan! Monthly report 2019 Aug {#55d6 .graf .graf--h3 .graf--leading .graf--title name="55d6"}
 
 ![Explore
@@ -42,13 +34,11 @@ Akihabara, Tokyo on 10th Aug, called AkiParty!\
 Please come to Akihabara on 10th Aug 4pm-9pm.\
 This is a dance party for Geeks, let\`s make happen together.
 
-::: {#081c .graf .graf--mixtapeEmbed .graf-after--p name="081c"}
 [**AKIPARTY TOKYO 2019 - MOGRA 秋葉原**\
 *【AKIPARTY TOKYO 2019】AkiPartyは、「 Dance Party for the rest of
 us...*club-mogra.jp](https://club-mogra.jp/2019/08/10/3935/ "https://club-mogra.jp/2019/08/10/3935/"){.markup--anchor
 .markup--mixtapeEmbed-anchor}[](https://club-mogra.jp/2019/08/10/3935/){.js-mixtapeImage
 .mixtapeImage .u-ignoreBlock}
-:::
 
 My activity report, almost all my activity in July is join that program,
 called research at scale in Dongguang, Shenhzen, China.
@@ -65,7 +55,6 @@ program, that is so huge impact for me...
 Hooray! Make Magazine recovered! I write up report about the Manila Mini
 Maker Faire! I still improve each other Maker Movement in Asia.
 
-::: {#2253 .graf .graf--mixtapeEmbed .graf-after--p name="2253"}
 [**The Third Manila Mini Maker Faire in the Philippines where DIY is
 booming \| Make:**\
 *The third mini-maker faire was held on April 22-23 in Manila, the
@@ -73,7 +62,6 @@ capital of the Philippines. The Mind Museum, which
 is...*makezine.com](https://makezine.com/2019/07/29/the-third-manila-mini-maker-faire-in-the-philippines-where-diy-is-booming/ "https://makezine.com/2019/07/29/the-third-manila-mini-maker-faire-in-the-philippines-where-diy-is-booming/"){.markup--anchor
 .markup--mixtapeEmbed-anchor}[](https://makezine.com/2019/07/29/the-third-manila-mini-maker-faire-in-the-philippines-where-diy-is-booming/){.js-mixtapeImage
 .mixtapeImage .u-ignoreBlock}
-:::
 
 **Next My Trip on 2019**\
 3--4/August Maker Faire Tokyo\
@@ -90,10 +78,6 @@ is...*makezine.com](https://makezine.com/2019/07/29/the-third-manila-mini-maker-
 9--10/Nov Maker Faire Shenzhen\
 15th/ Nov Panel discussion on HK Art Council\
 Maker Faire around the world...
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [July 31, 2019](https://medium.com/p/91315e885301).

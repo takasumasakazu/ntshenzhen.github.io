@@ -8,19 +8,11 @@ date: 2017-06-20
 ニコ技深圳コミュニティ 華強北オフィス (Nico-Tech Shenzhen HuaQiangBei Office) {#ニコ技深圳コミュニティ-華強北オフィス-nico-tech-shenzhen-huaqiangbei-office .p-name}
 =============================================================================
 
-::: {.section .p-summary field="subtitle"}
 深セン電気街に位置するオフィス
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="1e13"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### ニコ技深圳コミュニティ 華強北オフィス (Nico-Tech Shenzhen HuaQiangBei Office) {#6a07 .graf .graf--h3 .graf--leading .graf--title name="6a07"}
 
 ### 深セン電気街に位置するオフィス {#ee6a .graf .graf--h3 .graf-after--h3 name="ee6a"}
@@ -72,12 +64,10 @@ yingzhao928773 Wechat:takasumasakazu）。
 
 ![](https://cdn-images-1.medium.com/max/800/0*lLBsZWEKMZh3fLRB.){.graf-image}
 
-::: {#0e8c .graf .graf--mixtapeEmbed .graf-after--figure name="0e8c"}
 [**ニコ技深圳コミュニティではオンラインイベントを強化していきます。**\
 *ニコ技深圳コミュニティでは、企業スポンサーを頂いて、深圳のコワーキングスペースにオフィスを確保しています。*medium.com](https://medium.com/ecosystembymakers/online-abdaaa529470 "https://medium.com/ecosystembymakers/online-abdaaa529470"){.markup--anchor
 .markup--mixtapeEmbed-anchor}[](https://medium.com/ecosystembymakers/online-abdaaa529470){.js-mixtapeImage
 .mixtapeImage .u-ignoreBlock}
-:::
 
 ### **■経緯・活動内容紹介** {#bde9 .graf .graf--h3 .graf-after--mixtapeEmbed name="bde9"}
 
@@ -216,16 +206,10 @@ Nichi 200\
 
 ### 2024年01月～引っ越し対応中 (おわりました) {#37b5 .graf .graf--h3 .graf-after--p name="37b5"}
 
-::: {#57fb .graf .graf--mixtapeEmbed .graf-after--h3 .graf--trailing name="57fb"}
 [**報告：ニコ技深圳华强北オフィス、再度移転中 2024年1--2月**\
 *2015年のオープンから、ニコ技深圳オフィスは何度か移転を繰り返してきましたが、2021年から借りている中电迪富大厦内にある、CECが管理するメイカースペースが、今日1/18から一ヶ月後の2/18を持ってクローズという連絡が入りました。...*medium.com](https://medium.com/ecosystembymakers/202401cec-moving-72f54c37762c "https://medium.com/ecosystembymakers/202401cec-moving-72f54c37762c"){.markup--anchor
 .markup--mixtapeEmbed-anchor}[](https://medium.com/ecosystembymakers/202401cec-moving-72f54c37762c){.js-mixtapeImage
 .mixtapeImage .u-ignoreBlock}
-:::
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [June 20, 2017](https://medium.com/p/b3ff42ce3265).

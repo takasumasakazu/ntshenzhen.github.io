@@ -8,20 +8,12 @@ date: 2016-12-31
 The innovation and production pipeline in Shenzhen. -HWTrek Asia Innovation tour 2016 autumn- {#the-innovation-and-production-pipeline-in-shenzhen.--hwtrek-asia-innovation-tour-2016-autumn- .p-name}
 =============================================================================================
 
-::: {.section .p-summary field="subtitle"}
 HWTrek is doing business that connects world startup and mainly Shenzhen
 manufacturer. They hold a tour to introduce the manufacturing...
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first name="4e5a"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### The innovation and production pipeline in Shenzhen. -HWTrek Asia Innovation tour 2016 autumn- {#9192 .graf .graf--h3 .graf--leading .graf--title name="9192"}
 
 HWTrek is doing business that connects world startup and mainly Shenzhen
@@ -62,18 +54,10 @@ teamGiant (Battely)\
 Ryder (EMS)\
  [Stephen Gould](http://www.gouldny.com/){.markup--anchor
 .markup--p-anchor} (Packaging)
-:::
-:::
-:::
 
-::: {.section .section .section--body name="d729"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 **Nothing that can not be made here Shenzhen supply chain**
 
 This time they participated in a tour to guide the supply chain to the
@@ -97,18 +81,10 @@ I felt that it is characterized by being reliable in terms of quality
 and delivery time, and being able to respond flexibly to ambiguous
 orders of startups. In this report, we will introduce the incubator and
 cutting company, from "prototype to productization".
-:::
-:::
-:::
 
-::: {.section .section .section--body name="0513"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 **Shenzhen Valley Ventures "prototype to productization".**
 
 Start-ups will commercialize "ideas not found anywhere in the world".\
@@ -151,18 +127,10 @@ trying to actually make a business, not a hobby The place for "is
 provided. DMM.make AKIBA is close in Japan in the case of professional,
 but it is the first time to prepare for Maker space up to a small
 production line like Shenzhen.
-:::
-:::
-:::
 
-::: {.section .section .section--body name="2a91"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 **SKY Prototype 1 to 1000**
 
 SkyPrototype is a milling company. In trial production in Chinese, it
@@ -245,18 +213,10 @@ with the highest land and salary in China. SkyPrototype is considering
 moving to Xiamen (Xiamen) as the next one. In Xiamen, the quality of the
 workers does not change so much, but it seems that the operating cost of
 the factory will be reduced by 30%.
-:::
-:::
-:::
 
-::: {.section .section .section--body name="81dd"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 **Invox/Sun On Synbol of Manucatcurling**
 
 Injection molding, making metal exteriors in large quantities using
@@ -328,18 +288,10 @@ Sun On's factory also has a small assembly line, brought boards and
 electronic circuit parts from others and sometimes undertakes work to
 make it finished here. I feel that it is Shenzhen-like business style
 where accumulated know-how of various factories.
-:::
-:::
-:::
 
-::: {.section .section .section--body name="ffb6"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 **EMTEK Certification**
 
 The difference between the products that line up in the store and the
@@ -384,18 +336,10 @@ The time to create a test plan and end the test is on average 3 to 4
 weeks. There are also premises to break the product during the test, so
 if you have about 3 to 4 samples, it will be over in that period, but
 with only one there seems to be more time.
-:::
-:::
-:::
 
-::: {.section .section .section--body name="c5c0"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 **TeamGiant (Battely) and Stephen Gould(Packaging and Shipment)**
 
 In Shenzhen, packing service companies that undertake final stages of
@@ -462,18 +406,10 @@ ship products from customers, even if we decide to pack products made in
 Thailand etc. here, Taxes brought to China are not charged. Shenzhen /
 Hong Kong is close to Southeast Asia, and it seems to be using that
 locality well.
-:::
-:::
-:::
 
-::: {.section .section .section--body .section--last name="3b2c"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 **I saw whole of process in here Shenzhen, from Prototype to Product**
 
 The 3 days I experienced this time was a tour to see the accumulation of
@@ -509,10 +445,6 @@ Nonetheless, the future will be more globalized. It will be more
 urbanized and more merit will come out. The role will change, but it
 seems that it will continue to be in the place where "for the time being
 let's go to Shenzhen" for startup for a while.
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [December 31, 2016](https://medium.com/p/fe207807dde7).

@@ -8,26 +8,16 @@ date: 2018-05-01
 TAKASU & Nico-Tech Shenzhen Community Monthly news May/2018 {#takasu-nico-tech-shenzhen-community-monthly-news-may2018 .p-name}
 ===========================================================
 
-::: {.section .p-summary field="subtitle"}
 I did 3 weeks EURO tour, Prague → Sachsen → Nantes → London → Cambridge
 → Nottingham → Sheffield → Newcastle, for Maker Faire UK.
-:::
 
-::: {.section .p-summary field="description"}
 Such a frightful day, I was EURO! I have another trip to EURO in June
 for Maker Faire Prague and Barcelona, also looks amazing. This month
 May, I will go Maker Faire Bay Area 2018, and talk about Make
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="35ff"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### TAKASU & Nico-Tech Shenzhen Community Monthly news May/2018 {#de8e .graf .graf--h3 .graf--leading .graf--title name="de8e"}
 
 ![Raspberry Pi Foundation, Even Upton & Mike Buffam, I got stamp on My
@@ -61,14 +51,12 @@ about this theme,
 Japanese Maker Pro, five times bigger in this four year,... And still
 growing up!
 
-::: {#8815 .graf .graf--mixtapeEmbed .graf-after--p name="8815"}
 [**Japanese Maker Pro, five times bigger in this four years, ... And
 still growing up!**\
 *Japanese Maker Pro (Indie Hardware) is grown
 rapidly.*medium.com](https://medium.com/shenzhen-high-tour-by-makers/japanesemakerpro-b788f1ba96f "https://medium.com/shenzhen-high-tour-by-makers/japanesemakerpro-b788f1ba96f"){.markup--anchor
 .markup--mixtapeEmbed-anchor}[](https://medium.com/shenzhen-high-tour-by-makers/japanesemakerpro-b788f1ba96f){.js-mixtapeImage
 .mixtapeImage .u-ignoreBlock}
-:::
 
 I am really looking to see you in the Bay Area, see you there!
 
@@ -95,10 +83,6 @@ Next My Trip
 17--19/Aug Maker Faire Singapore
 
 Maker Faire Hongkong, Taipei, New York, Shenzhen.....
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [May 1, 2018](https://medium.com/p/39f81c5de192).

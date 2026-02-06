@@ -8,50 +8,26 @@ date: 2025-03-21
 日本発で海外に広がるMaker向けクラブイベントAkiPartyとニコニコ技術部東京 {#日本発で海外に広がるmaker向けクラブイベントakipartyとニコニコ技術部東京 .p-name}
 =======================================================================
 
-::: {.section .p-summary field="subtitle"}
 2016/08/16 08:00
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first name="627b"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### 日本発で海外に広がるMaker向けクラブイベントAkiPartyとニコニコ技術部東京 {#493a .graf .graf--h3 .graf--leading .graf--title name="493a"}
 
 2016/08/16 08:00
 
 ![](https://cdn-images-1.medium.com/max/800/1*IwA0RZo-Sc-K1n0lviMNOw.jpeg){.graf-image}
-:::
-:::
-:::
 
-::: {.section .section .section--body name="1d9c"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 Maker Faire Tokyo
 2016の終了直後から秋葉原のダンスクラブにて、クラブイベントと展示イベントを同時開催する形でニコニコ技術部の展示イベントNT東京が行われた。会場では、テクノロジーでウケを取りにいくニコニコ技術部ならではのインパクトの強い展示や、クラブイベントと同時開催ということでパーティー向けの工作など、通常のイベントでは見られない作品が見られ、新たなジャンルの誕生を感じさせた。NT東京の出展作品についてレポートする。
-:::
-:::
-:::
 
-::: {.section .section .section--body name="7703"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### NT東京は、ニコニコ技術部のオフ会 {#6291 .graf .graf--h3 .graf--leading name="6291"}
 
 8月7日の日曜日、Maker Faire Tokyo 2016
@@ -84,18 +60,10 @@ Maker Faire Tokyo
 NT東京の会場はクラブイベントという性質上、照明が暗めに抑えられているので、キーの文字がより鮮烈に見える。
 
 cyberkeyborad（\@yumu19氏がアップした動画）。
-:::
-:::
-:::
 
-::: {.section .section .section--body .section--last name="244f"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### ダンスクラブならではのパーティー向け作品 {#44f8 .graf .graf--h3 .graf--leading name="44f8"}
 
 ダンスパーティーと同時開催なイベントだけあり、クラブを想定した出品も多い。テクノコスプレ研究会は、FPGAによって個別制御されたフルカラーLEDでスカートを作り、スカートがそのままディスプレイになるテクノコスプレを出品。
@@ -147,10 +115,6 @@ Tokyoとはまた違った色合いの作品が集まることは、全体とし
 
 来年以降も、今回のようなAkiPartyと同時開催するNT東京は行われる見込みだ。AkiPartyはMaker
 Faire深圳／成都などから開催依頼を受けており、日本のDIY界から生まれた一つのフォーマットとして、海外に伝わっていくかもしれない。
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 21, 2025](https://medium.com/p/e3a1d7217a53).

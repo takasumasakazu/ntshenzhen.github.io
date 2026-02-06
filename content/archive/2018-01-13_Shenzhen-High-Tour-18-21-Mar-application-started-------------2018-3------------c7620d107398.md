@@ -8,24 +8,14 @@ date: 2018-01-13
 Shenzhen High Tour 18--21/Mar application started 次回のニコ技深圳観察会（2018年3月）募集開始しました。 {#shenzhen-high-tour-1821mar-application-started-次回のニコ技深圳観察会2018年3月募集開始しました .p-name}
 =======================================================================================================
 
-::: {.section .p-summary field="subtitle"}
 2018/3/18--21で予定しているニコ技深圳観察会と、次回の申し込みフローについての説明
-:::
 
-::: {.section .p-summary field="description"}
 ※この観察会は、「
 ホテル、飛行機などの手配は各自」「当日の朝に僕が体調不良なので全日程キャンセルになっても文句を言わない」「費用は割り勘だが、領収書等は発行しない」という条件で行われているものです。ご理解いただいている方々の参加をお待ちしています。
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="42e2"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Shenzhen High Tour 18--21/Mar application started 次回のニコ技深圳観察会（2018年3月）募集開始しました。 {#9c41 .graf .graf--h3 .graf--leading .graf--title name="9c41"}
 
 ![第7回（2017年4月）の様子](https://cdn-images-1.medium.com/max/800/1*Ahk9CWmf8NAUrlOeF_epcw.jpeg){.graf-image}
@@ -83,14 +73,12 @@ Payの有効化方法](http://shao.hateblo.jp/entry/wechat-pay-for-japanese){.ma
 次回の観察会は18夜にオープニングディナー、3月19朝-21夜にラップアップ（18日より前に深圳入り、22日以後に深圳出発してもらう必要がある）を予定しています。\
 そのうち1日、JENESIS藤岡社長のご厚意で、関係する射出成形、金属加工の工場を含めて紹介いただくことを企画しています。工場を見にいくのは2016年ぶりです。藤岡社長のサポートに改めて感謝します。
 
-::: {#841e .graf .graf--mixtapeEmbed .graf-after--p name="841e"}
 [**「ハードウェアのシリコンバレー深セン」に学ぶ−これからの製造のトレンドとエコシステム
 (NextPublishing)**\
 *Amazonで藤岡
 淳一の{ProductTitle}。アマゾンならポイント還元本が多数。一度購入いただいた電子書籍は、KindleおよびFire端末、スマートフォンやタブレットなど、様々な端末でもお楽しみいただけます。*www.amazon.co.jp](http://www.amazon.co.jp/exec/obidos/ASIN/B077HX882D/hirayasutakas-22/ref=nosim/ "http://www.amazon.co.jp/exec/obidos/ASIN/B077HX882D/hirayasutakas-22/ref=nosim/"){.markup--anchor
 .markup--mixtapeEmbed-anchor}[](http://www.amazon.co.jp/exec/obidos/ASIN/B077HX882D/hirayasutakas-22/ref=nosim/){.js-mixtapeImage
 .mixtapeImage .u-ignoreBlock}
-:::
 
 **■次回の申し込みフロー**\
 観察会の最大の価値は、参加者がシェアする情報です。まったく同じ事が書いてあっても、「どういう人がどう感じたか」がそこに書いてあることは意味があります。\
@@ -113,18 +101,12 @@ Payの有効化方法](http://shao.hateblo.jp/entry/wechat-pay-for-japanese){.ma
 ※この観察会は、「
 ホテル、飛行機などの手配は各自」「当日の朝に僕が体調不良なので全日程キャンセルになっても文句を言わない」「費用は割り勘だが、領収書等は発行しない」（ドタキャン者への対応やバス代が予想よりかかったなどの赤字を僕がかぶらないように、完全な割り勘でなくそれなりに多めに集めてます。前回の実績だと昼食夕食バス代全部込みで1日300元。）という条件で行われているものです。ご理解いただいている方々の参加をお待ちしています。
 
-::: {#37b3 .graf .graf--mixtapeEmbed .graf-after--p .graf--trailing name="37b3"}
 [**メイカーズのエコシステム 新しいモノづくりがとまらない。 (OnDeck
 Books（NextPublishing）)**\
 *Amazonで高須
 正和の{ProductTitle}。アマゾンならポイント還元本が多数。一度購入いただいた電子書籍は、KindleおよびFire端末、スマートフォンやタブレットなど、様々な端末でもお楽しみいただけます。*www.amazon.co.jp](http://www.amazon.co.jp/exec/obidos/ASIN/B01AXRCDTU/amazletjp-22/ref=nosim/ "http://www.amazon.co.jp/exec/obidos/ASIN/B01AXRCDTU/amazletjp-22/ref=nosim/"){.markup--anchor
 .markup--mixtapeEmbed-anchor}[](http://www.amazon.co.jp/exec/obidos/ASIN/B01AXRCDTU/amazletjp-22/ref=nosim/){.js-mixtapeImage
 .mixtapeImage .u-ignoreBlock}
-:::
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [January 13, 2018](https://medium.com/p/c7620d107398).

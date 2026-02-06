@@ -8,21 +8,13 @@ date: 2017-03-13
 Kickstarter is bad place for Simple idea gadget. {#kickstarter-is-bad-place-for-simple-idea-gadget. .p-name}
 ================================================
 
-::: {.section .p-summary field="subtitle"}
 「一発ネタはクラウドファンディングに向かない」事例がまた一つ。
 22ドルで予約注文中のFIDGET
 CUBEは、2-300円で深センですでに売られています。...
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="3714"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 **Kickstarter is bad place for Simple idea gadget.**\
 Example, this FIDGET CUBE USD22 and still pre-order, but you can find
 USD2.2 in Shenzhen already..
@@ -35,10 +27,6 @@ CUBEは、2-300円で深センですでに売られています。\
 https://www.antsylabs.com/products/fidget-cube
 
 ![](https://cdn-images-1.medium.com/max/800/1*Q1U1f6ERzalNGBCG2op8og.jpeg){.graf-image}
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 13, 2017](https://medium.com/p/f0b1f4928cfe).

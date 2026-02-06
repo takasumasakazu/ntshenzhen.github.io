@@ -8,19 +8,11 @@ date: 2018-11-30
 Meet again Mitch in Shenzhen TAKASU & Nico-Tech Shenzhen Community Monthly news Dec/2018 {#meet-again-mitch-in-shenzhen-takasu-nico-tech-shenzhen-community-monthly-news-dec2018 .p-name}
 ========================================================================================
 
-::: {.section .p-summary field="subtitle"}
 你好，好久不见。我在深圳上个月，好好学习中问吧。
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="7aba"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Meet again Mitch in Shenzhen TAKASU & Nico-Tech Shenzhen Community Monthly news Dec/2018 {#c61c .graf .graf--h3 .graf--leading .graf--title name="c61c"}
 
 你好，好久不见。我在深圳上个月，好好学习中问吧。
@@ -53,10 +45,6 @@ Next My Trip\
 Open Source Hardware Summit 2019 in Shenzhen
 
 Maker Faire Taipei, New York, Shenzhen.....
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [November 30, 2018](https://medium.com/p/e182dabb9bc7).

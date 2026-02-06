@@ -8,19 +8,11 @@ date: 2025-03-23
 Maker Proのためのクラウドファンディング、Quickstater --- --- 個人や小チームが、フルタイムでなくホビーで始めるプロジェクトのために {#maker-proのためのクラウドファンディングquickstater-個人や小チームがフルタイムでなくホビーで始めるプロジェクトのために .p-name}
 =================================================================================================================================
 
-::: {.section .p-summary field="subtitle"}
 2018/06/19 10:30
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first name="a30f"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Maker Proのためのクラウドファンディング、Quickstater --- --- 個人や小チームが、フルタイムでなくホビーで始めるプロジェクトのために {#fa58 .graf .graf--h3 .graf--leading .graf--title name="fa58"}
 
 2018/06/19 10:30
@@ -65,18 +57,10 @@ make/100もQuickstarterも狙いは似ていて、今のKickstarterハードウ�
 
 ゲージのついたステッカー、[Quickstarter](https://www.kickstarter.com/projects/1822742096/quickstarter-1-tape-stickers?lang=ja){.markup--anchor
 .markup--figure-anchor}。このようなシンプルだが興味深いプロジェクトを増やすために、KickstarterはQuickstarterという支援策を始める。
-:::
-:::
-:::
 
-::: {.section .section .section--body .section--last name="d1b4"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### プロの仕事とクラウドファンディング {#ea9d .graf .graf--h3 .graf--leading name="ea9d"}
 
 これはちょうど、今のKickstarterキャンペーンで多く行われていることへのアンチテーゼだ。僕の住んでいる深センはハードウェアスタートアップが多く、彼らを相手にしている専門のビデオ業者がいる。ハードウェアスタートアップのアクセラレーターであるHAXは、ラボの中に撮影スタジオと専門のチームがいて、ビデオの撮り方を指導／研鑽している。「一発でユーザに届き、シェアされる製品名や写真を試行錯誤するために、メールアドレスだけ登録するページを作って、いくつもSNS広告を出してみてタイトルを検証する」など、プロにはいくつものノウハウが溜まっている。HAXが公開している[**HAX
@@ -99,10 +83,6 @@ Faire Bay
 Areaでは多くのブースがKickstarterでプロジェクトをしていて、オフラインでのイベントに加えてオンラインでもつながれるのは素晴らしいことだと感じた。自分たちのプロジェクトがKickstarter上で世界に広がるのは面白そうだ。
 
 今回の記事を公開することで、fabcrossの読者からQuickstarterのプロジェクトが多く生まれるとうれしい。
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 23, 2025](https://medium.com/p/87075dafaaa9).

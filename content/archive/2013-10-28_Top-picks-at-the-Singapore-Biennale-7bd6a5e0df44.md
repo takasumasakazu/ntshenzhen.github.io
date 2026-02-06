@@ -8,19 +8,11 @@ date: 2013-10-28
 Top picks at the Singapore Biennale {#top-picks-at-the-singapore-biennale .p-name}
 ===================================
 
-::: {.section .p-summary field="subtitle"}
 teamLab art get 1st.
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 Top picks at the Singapore Biennale {#title .graf .graf--h2 .graf--leading .graf--title name="title"}
 -----------------------------------
 
@@ -35,23 +27,11 @@ to your presence via motion sensors as you tentatively walk around and
 immerse yourself in its uplifting, celebratory vibe.
 
 ![](https://cdn-images-1.medium.com/max/800/1*3KHuUBNii7W6JOrFhD1oVw.jpeg){.graf-image}
-:::
-:::
-:::
 
-::: {.section .section .section--body .section--last name="d350"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 <http://www.todayonline.com/entertainment/arts/top-picks-spore-biennale>
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [October 28, 2013](https://medium.com/p/7bd6a5e0df44).

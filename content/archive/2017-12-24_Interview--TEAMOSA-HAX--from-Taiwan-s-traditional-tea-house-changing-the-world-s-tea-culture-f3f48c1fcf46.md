@@ -8,26 +8,16 @@ date: 2017-12-24
 Interview: TEAMOSA(HAX) from Taiwan's traditional tea house changing the world's tea culture {#interview-teamosahax-from-taiwans-traditional-tea-house-changing-the-worlds-tea-culture .p-name}
 ============================================================================================
 
-::: {.section .p-summary field="subtitle"}
 Traditional tea house himself makes hardware products and delivers them
 directly to the Early Adapter.
-:::
 
-::: {.section .p-summary field="description"}
 TEAMOSA launched the Kickstarter campaign on September 13, 2017 and
 finally got a total success of 274,457 dollars. After that, we started a
 pre-ordered order at Indiegogo, which also accepted a back
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="d61a"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Interview: TEAMOSA(HAX) from Taiwan's traditional tea house, changing the world's tea culture {#47af .graf .graf--h3 .graf--leading .graf--title name="47af"}
 
 Born in a family who runs a tea house in Taiwan and studied chemistry in
@@ -214,10 +204,6 @@ mail with support. I want to pay attention to the future of TEAMOSA.
 This interview made the English version of what contributed to
 [Fabcross](https://fabcross.jp/topics/tks/20171218_teamosa.html){.markup--anchor
 .markup--p-anchor} in Japan by the author.
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [December 24, 2017](https://medium.com/p/f3f48c1fcf46).

@@ -8,19 +8,11 @@ date: 2025-03-21
 タイらしさ爆発、大人も子どもも楽しめるBangkok Mini Maker Faire 2017レポート {#タイらしさ爆発大人も子どもも楽しめるbangkok-mini-maker-faire-2017レポート .p-name}
 ===========================================================================
 
-::: {.section .p-summary field="subtitle"}
 2017/02/22 08:00
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="552a"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### タイらしさ爆発、大人も子どもも楽しめるBangkok Mini Maker Faire 2017レポート {#c328 .graf .graf--h3 .graf--leading .graf--title name="c328"}
 
 2017/02/22 08:00
@@ -192,10 +184,6 @@ Faire Tokyoの公式サイトに英語版ができ、年々充実するなど、
 Faireも国際化しつつある。
 
 タイのMakerたちに東京で会えるのが今から楽しみだ。
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 21, 2025](https://medium.com/p/a0f00f4c5722).

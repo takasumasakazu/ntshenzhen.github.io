@@ -8,20 +8,12 @@ date: 2019-05-31
 My first trip to Manila, for Maker Faire! {#my-first-trip-to-manila-for-maker-faire .p-name}
 =========================================
 
-::: {.section .p-summary field="subtitle"}
 I had a good rest in Shenzhen in these few weeks, after Maker Faire Bay
 Area. MFBA this year became a bit smaller by a financial issue, but...
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="a1d1"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### My first trip to Manila, for Maker Faire! TAKASU & Nico-Tech Shenzhen Community Monthly news June/2019 {#7f6b .graf .graf--h3 .graf--leading .graf--title name="7f6b"}
 
 I had a good rest in Shenzhen in these few weeks, after Maker Faire Bay
@@ -80,10 +72,6 @@ Maker Faire around the world...
 
 ![I met again Eric! long time
 no see!](https://cdn-images-1.medium.com/max/800/1*TUb3r57zaWzZ9d5DOddxXQ.jpeg){.graf-image}
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [May 31, 2019](https://medium.com/p/f0ac11dd850f).

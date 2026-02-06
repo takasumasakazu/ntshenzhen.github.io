@@ -8,20 +8,12 @@ date: 2016-02-01
 Maker Innovation from small town in Thailand, ChiangMai Maker Party 2016 report. {#maker-innovation-from-small-town-in-thailand-chiangmai-maker-party-2016-report. .p-name}
 ================================================================================
 
-::: {.section .p-summary field="subtitle"}
 ChiangMai well known beautiful and historical city, at north of the
 Thailand. There is not only ensient city but also creative city by...
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="2599"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Maker Innovation from small town in Thailand, ChiangMai Maker Party 2016 report. {#2313 .graf .graf--h3 .graf--leading .graf--title name="2313"}
 
 ![Hippie westan people make a community in ChiangMai, some people are
@@ -104,10 +96,6 @@ Innovation in the Era of the Maker Movement.
 
 \[Cross-Industry Innovation in the Era of the Maker Movement\] by
 Shigeru Kobayashi at ChiangMai Maker Party 2016
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [February 1, 2016](https://medium.com/p/12b8472bb060).

@@ -8,19 +8,11 @@ date: 2018-03-10
 Japanese Maker Pro, five times bigger in this four years, ... And still growing! {#japanese-maker-pro-five-times-bigger-in-this-four-years-and-still-growing .p-name}
 ================================================================================
 
-::: {.section .p-summary field="subtitle"}
 Japanese Maker Pro (Indie Hardware) is grown rapidly.
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="5ab4"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Japanese Maker Pro, five times bigger in this four years, ... And still growing! {#57aa .graf .graf--h3 .graf--leading .graf--title name="57aa"}
 
 ![Sales of Maker Pro via Switch Science from
@@ -136,10 +128,6 @@ I know that the makers in the "hardware capital / Shenzhen" where I
 currently live have respected Japanese makers.\
 And, as I gave a number of figures at the beginning of this article,
 Japanese Maker Pro story has only just begun.
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 10, 2018](https://medium.com/p/b788f1ba96f).

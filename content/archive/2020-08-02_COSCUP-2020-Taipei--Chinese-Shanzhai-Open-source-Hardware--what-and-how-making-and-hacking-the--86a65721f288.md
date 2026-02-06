@@ -8,19 +8,11 @@ date: 2020-08-02
 COSCUP 2020 Taipei 'Chinese Shanzhai Open source Hardware, what and how making and hacking the... {#coscup-2020-taipei-chinese-shanzhai-open-source-hardware-what-and-how-making-and-hacking-the .p-name}
 =================================================================================================
 
-::: {.section .p-summary field="subtitle"}
 Abstract
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="4036"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### COSCUP 2020 Taipei 'Chinese Shanzhai Open source Hardware, what and how making and hacking the manufacturing model?' {#ed60 .graf .graf--h3 .graf--leading .graf--title name="ed60"}
 
 ### Abstract {#f47d .graf .graf--h3 .graf-after--figure name="f47d"}
@@ -162,20 +154,14 @@ The Hardware Hacker --- bunnie Huang book 2017
 
 The \$12 "Gongkai" Phone -bunnie
 
-::: {#7df5 .graf .graf--mixtapeEmbed .graf-after--p name="7df5"}
 [**The \$12 \"Gongkai\" Phone \" bunnie\'s blog**\
 *How cheap can you make a phone? Recently, I paid \$12 at Mingtong
 Digital Mall for a complete phone, featuring
 quad-band...*www.bunniestudios.com](https://www.bunniestudios.com/blog/?page_id=3107 "https://www.bunniestudios.com/blog/?page_id=3107"){.markup--anchor
 .markup--mixtapeEmbed-anchor}[](https://www.bunniestudios.com/blog/?page_id=3107){.js-mixtapeImage
 .mixtapeImage .u-ignoreBlock}
-:::
 
 ![](https://cdn-images-1.medium.com/max/800/1*L_m7yoiwMlkJoHgwm5c1FA.jpeg){.graf-image}
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [August 2, 2020](https://medium.com/p/86a65721f288).

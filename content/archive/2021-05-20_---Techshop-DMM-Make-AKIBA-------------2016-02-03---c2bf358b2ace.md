@@ -8,20 +8,12 @@ date: 2021-05-20
 タイにTechshopやDMM.Make AKIBAみたいなスペースができた(2016年02月03日) {#タイにtechshopやdmm.make-akibaみたいなスペースができた2016年02月03日 .p-name}
 ======================================================================
 
-::: {.section .p-summary field="subtitle"}
 アメリカでスイッチサイエンスみたいな会社をやって成功した、タイ出身のPan
 Tulabadiは、「できれば故郷のタイでもビジネスがやりたいし、いまならできるんじゃないか」と思って、2015年にタイ法人もつくって、アメリカ法人といっしょに経営している。...
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="0b6d"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### タイにTechshopやDMM.Make AKIBAみたいなスペースができた(2016年02月03日) {#83f1 .graf .graf--h3 .graf--leading .graf--title name="83f1"}
 
 アメリカでスイッチサイエンスみたいな会社をやって成功した、タイ出身のPan
@@ -113,10 +105,6 @@ posted with [amazlet](http://www.amazlet.com/ "amazlet"){.markup--anchor
 
 [Amazon.co.jpで詳細を見る](http://www.amazon.co.jp/exec/obidos/ASIN/B01AXRCDTU/hirayasutakas-22/ref=nosim/){.markup--anchor
 .markup--p-anchor}
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [May 20, 2021](https://medium.com/p/c2bf358b2ace).

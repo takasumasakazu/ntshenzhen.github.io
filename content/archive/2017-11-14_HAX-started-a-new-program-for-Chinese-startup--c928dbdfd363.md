@@ -8,20 +8,12 @@ date: 2017-11-14
 HAX started a new program for Chinese startup. {#hax-started-a-new-program-for-chinese-startup. .p-name}
 ==============================================
 
-::: {.section .p-summary field="subtitle"}
 Well known most active hardware accelerator HAX, Them Lab is located in
 Shenzhen. HAX started 11th batch now, So rush and excited feeling...
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="0703"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### HAX started a new program for Chinese startup. {#3ecc .graf .graf--h3 .graf--leading .graf--title name="3ecc"}
 
 Well known most active hardware accelerator HAX, Them Lab is located in
@@ -46,10 +38,6 @@ for 10 startups for once of year, I will see 40 new projects from HAX
 per year.
 
 HAX still continue them way rapidly, called 'SHENZHEN SPEED'.
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [November 14, 2017](https://medium.com/p/c928dbdfd363).

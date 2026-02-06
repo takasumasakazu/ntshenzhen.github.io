@@ -8,19 +8,11 @@ date: 2020-03-31
 What we should do now. TAKASU & Nico-Tech Shenzhen Community Monthly news March/2020 {#what-we-should-do-now.-takasu-nico-tech-shenzhen-community-monthly-news-march2020 .p-name}
 ====================================================================================
 
-::: {.section .p-summary field="subtitle"}
 This is Takasu.
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="de26"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### What we should do now. TAKASU & Nico-Tech Shenzhen Community Monthly news March/2020 {#33fe .graf .graf--h3 .graf--leading .graf--title name="33fe"}
 
 This is Takasu.
@@ -75,10 +67,6 @@ Next My Trip on 2020 (But so unstable)
 
 11月 November\
 5--6 STEM Coneference Singapor
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 31, 2020](https://medium.com/p/1f30405516c).

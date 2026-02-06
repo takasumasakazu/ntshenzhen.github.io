@@ -8,36 +8,20 @@ date: 2025-03-21
 シンガポールの国家戦略に組み込まれる Maker Faire Singapore 2016 {#シンガポールの国家戦略に組み込まれる-maker-faire-singapore-2016 .p-name}
 ===============================================================
 
-::: {.section .p-summary field="subtitle"}
 2016/09/07 08:00
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first name="6eff"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### シンガポールの国家戦略に組み込まれる Maker Faire Singapore 2016 {#7859 .graf .graf--h3 .graf--leading .graf--title name="7859"}
 
 2016/09/07 08:00
 
 ![](https://cdn-images-1.medium.com/max/800/1*qgjCDqJJzn5vOI9PflMVOQ.jpeg){.graf-image}
-:::
-:::
-:::
 
-::: {.section .section .section--body name="3bf0"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 東京23区ぐらいの大きさの国土しかない小国シンガポールは、東南アジアで最初のMaker
 Faireを開催し、現役の閣僚がMakeを楽しみMaker
 Faireに続々と来訪する、Makerの国でもある。国営機関であるScience Centre
@@ -45,18 +29,10 @@ Singaporeが運営するMaker Faire
 Singaporeは、年々倍以上の規模に拡大し、「小さな国の大きなMaker
 Faire」を実現している。6月23--25日の週末に開催されたMaker Faire
 Singaporeは、急成長するシンガポールのMakerシーンを象徴するイベントとなった。その様子をレポートする。
-:::
-:::
-:::
 
-::: {.section .section .section--body .section--last name="f440"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### 急成長するシンガポールのMaker Faire {#bd69 .graf .graf--h3 .graf--leading name="bd69"}
 
 僕が住んでいるシンガポールは、Maker
@@ -183,10 +159,6 @@ Faireは、そうした目標にぴったり合っていると言える。
 
 ますます拡大が予測される来年のMaker Faire
 Singaporeが、今から楽しみである。
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 21, 2025](https://medium.com/p/c9af51a1649a).

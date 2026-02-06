@@ -8,19 +8,11 @@ date: 2025-03-23
 また英国がコンピューターの歴史を作るときが来た --- --- 「英国のMakerムーブメントは世界一」Raspberry Pi財団代表エベン・アプトンが語る {#また英国がコンピューターの歴史を作るときが来た-英国のmakerムーブメントは世界一raspberry-pi財団代表エベンアプトンが語る .p-name}
 ====================================================================================================================================
 
-::: {.section .p-summary field="subtitle"}
 2018/06/26 07:30
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first name="8f9f"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### また英国がコンピューターの歴史を作るときが来た --- --- 「英国のMakerムーブメントは世界一」Raspberry Pi財団代表エベン・アプトンが語る {#cab8 .graf .graf--h3 .graf--leading .graf--title name="cab8"}
 
 2018/06/26 07:30
@@ -30,18 +22,10 @@ date: 2025-03-23
 産業革命の国イギリスで、Maker向けの企業がとても元気だ。Raspberry
 PiがなければMakerムーブメントは成り立たないし、micro:bitはここ数年の大きなニュースのひとつといえる。Raspberry
 Pi財団のエベン・アプトン（写真中央）にインタビューしたところ、彼はイギリスのMakerムーブメントについてアツく語ってくれた。
-:::
-:::
-:::
 
-::: {.section .section .section--body .section--last name="1b39"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### ガレージのアメリカ、知識階級のイギリス {#db03 .graf .graf--h3 .graf--leading name="db03"}
 
 忙しいエベンとの短いインタビューが予想外に盛り上がったのは、僕がRaspberry
@@ -145,10 +129,6 @@ Piを使ってもらっている。使うだけじゃなくて、IchigoJamみた
 
 Raspberry
 Pi財団は彼らが発行している2つの雑誌、PiMagとHackspaceが日本でも発刊されることを強く望んでいる。プリントメディアは有料、デジタル版を無料で配布することにしてくれれば、コンテンツの料金などはどうとでもするとのことだ。僕もこれが日本語版になれば読みたい。この記事を読んだ出版社で興味ある人は僕まで連絡いただけるとありがたい。
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 23, 2025](https://medium.com/p/9e2f620957bb).

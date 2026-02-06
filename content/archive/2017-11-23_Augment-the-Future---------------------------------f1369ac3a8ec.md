@@ -8,19 +8,11 @@ date: 2017-11-23
 Augment the Future ヒューマンオーギュメンテーション学 ソニー寄付口座 (暦本研） {#augment-the-future-ヒューマンオーギュメンテーション学-ソニー寄付口座-暦本研 .p-name}
 ==============================================================================
 
-::: {.section .p-summary field="subtitle"}
 ソニー寄付口座 Augment the Future...
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="8360"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Augment the Future ヒューマンオーギュメンテーション学 ソニー寄付口座 (暦本研） {#ae57 .graf .graf--h3 .graf--leading .graf--title name="ae57"}
 
 ![](https://cdn-images-1.medium.com/max/800/1*JySyzO1PdEYo7gnt50IaJQ.jpeg){.graf-image}
@@ -45,17 +37,11 @@ Life & Happiness 三沢加奈
 
 Augment the Future パネルディスカッション
 
-::: {#ce6b .graf .graf--mixtapeEmbed .graf-after--figure .graf--trailing name="ce6b"}
 [**Augment the Future ヒューマンオーギュメンテーション学 ソニー寄付口座
 (暦本研）**\
 *当日のTwitterまとめ*togetter.com](https://togetter.com/li/1174465 "https://togetter.com/li/1174465"){.markup--anchor
 .markup--mixtapeEmbed-anchor}[](https://togetter.com/li/1174465){.js-mixtapeImage
 .mixtapeImage .u-ignoreBlock}
-:::
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [November 23, 2017](https://medium.com/p/f1369ac3a8ec).

@@ -8,20 +8,12 @@ date: 2016-11-20
 The Cathedral and the Bazaar on the Hardware development in Shenzhen {#the-cathedral-and-the-bazaar-on-the-hardware-development-in-shenzhen .p-name}
 ====================================================================
 
-::: {.section .p-summary field="subtitle"}
 In Shenzhen, bazaar method hardware development which is finally finding
 out who the inventor is not understood is done.
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="fb44"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### **The Cathedral and the Bazaar on the Hardware development in Shenzhen** {#2b1c .graf .graf--h3 .graf--leading .graf--title name="2b1c"}
 
 **In Shenzhen, bazaar method hardware development which is finally
@@ -243,10 +235,6 @@ published in 2012, it has been only four years ago.\
 It seems that the concept based on open source and community is still
 creating new events on various layers of society as well as hardware
 development.
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [November 20, 2016](https://medium.com/p/5083228395b6).

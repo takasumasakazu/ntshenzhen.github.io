@@ -8,21 +8,13 @@ date: 2017-11-14
 Why Shenzhen is Amazing? Talk at HuaQiangBei {#why-shenzhen-is-amazing-talk-at-huaqiangbei .p-name}
 ============================================
 
-::: {.section .p-summary field="subtitle"}
 One Maker and One Ecomomic researcher, and One Shop owner told at
 HuaQiangBei. A quite interesting talk, I recorded 3 of presentation
 and...
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="c569"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Why Shenzhen is Amazing? Talk at HuaQiangBei {#2421 .graf .graf--h3 .graf--leading .graf--title name="2421"}
 
 One Maker and One Ecomomic researcher, and One Shop owner told at
@@ -56,10 +48,6 @@ on how understand and share about here awesome city Shenzhen!
 ![](https://cdn-images-1.medium.com/max/800/1*d7Wy4DQqcqC9Pm5MdSHvMw.jpeg){.graf-image}
 
 ![](https://cdn-images-1.medium.com/max/800/1*E9e37w74tD27eV-FpjSYXg.jpeg){.graf-image}
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [November 14, 2017](https://medium.com/p/70f80e314182).

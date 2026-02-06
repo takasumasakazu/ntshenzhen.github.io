@@ -8,26 +8,16 @@ date: 2017-12-28
 About Shenzhen High Tour and Community {#about-shenzhen-high-tour-and-community .p-name}
 ======================================
 
-::: {.section .p-summary field="subtitle"}
 We want to make the relationship between Shenzhen and others. Some our
 community member did collaboration works with Maker Space in...
-:::
 
-::: {.section .p-summary field="description"}
 The Shenzhen High Tour is established August 2014 by TAKASU (Switch
 Science) and Violet Su(Seeed). Now TAKASU is charged for the event.
 TAKASU Masakazu, Maker Faire Shenzhen and Singapore, takes us...
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="f1cc"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### About Nico-Tech Shenzhen Community and Maker Ecosystem Limited(HK) {#86ce .graf .graf--h3 .graf--leading .graf--title name="86ce"}
 
 ![](https://cdn-images-1.medium.com/max/800/1*mXyN_g4yPAg8b58xNA1uqA.jpeg){.graf-image}
@@ -144,10 +134,6 @@ The company is led by CEO Takasu Masakazu, who brings extensive
 experience in the fields of makers, startups, supply chain, and
 manufacturing.\
 <https://mp.weixin.qq.com/s/h2hoFuNPBmUgIPrc2s23gQ>
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [December 28, 2017](https://medium.com/p/c9123d2dd16a).

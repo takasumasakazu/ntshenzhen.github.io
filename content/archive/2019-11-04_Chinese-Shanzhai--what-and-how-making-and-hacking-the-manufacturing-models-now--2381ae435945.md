@@ -8,20 +8,12 @@ date: 2019-11-04
 Chinese Shanzhai, what and how making and hacking the manufacturing models now? {#chinese-shanzhai-what-and-how-making-and-hacking-the-manufacturing-models-now .p-name}
 ===============================================================================
 
-::: {.section .p-summary field="subtitle"}
 I want to share that report about Shanzhai 2019 at OSHS2020. Please any
 feedback, comment or review before submitting, at 14th Nov 2019...
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="9c60"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Chinese Shanzhai, what and how making and hacking the manufacturing models now? (Proposal for OSHS 2020) {#2460 .graf .graf--h3 .graf--leading .graf--title name="2460"}
 
 I want to share that report about Shanzhai 2019 at
@@ -147,10 +139,6 @@ https://www.bunniestudios.com/blog/?p=4297](https://www.bunniestudios.com/blog/?
 
 The \$12 "Gongkai" Phone -bunnie\
 <https://www.bunniestudios.com/blog/?page_id=3107>
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [November 4, 2019](https://medium.com/p/2381ae435945).

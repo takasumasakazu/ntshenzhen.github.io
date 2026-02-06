@@ -8,20 +8,12 @@ date: 2016-07-25
 Visual SG 2016 at Science Centre Singapore {#visual-sg-2016-at-science-centre-singapore .p-name}
 ==========================================
 
-::: {.section .p-summary field="subtitle"}
 Visual SG is a data visualization and VR event, a bit similar theme of
 SIGGRAPH.
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="d173"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Visual SG 2016 at Science Centre Singapore {#1284 .graf .graf--h3 .graf--leading .graf--title name="1284"}
 
 Visual SG is a data visualization and VR event, a bit similar theme of
@@ -68,10 +60,6 @@ Co-Founder and CEO, Neeuro Pte Ltd\
 Brain Training and Mental Fitness: A Visual Insight
 
 TAKASU Masakazu teamLab
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [July 25, 2016](https://medium.com/p/326dc02d3ffe).

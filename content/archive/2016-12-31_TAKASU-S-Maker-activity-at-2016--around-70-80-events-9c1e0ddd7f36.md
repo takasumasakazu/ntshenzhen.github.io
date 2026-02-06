@@ -8,20 +8,12 @@ date: 2016-12-31
 TAKASU'S Maker activity at 2016, around 70--80 events {#takasus-maker-activity-at-2016-around-7080-events .p-name}
 =====================================================
 
-::: {.section .p-summary field="subtitle"}
 My activity at 2016. I joined around 70--80 Makers event. I really
 looking to see next event.
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="2af7"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### TAKASU'S Maker activity at 2016, around 70--80 events {#0493 .graf .graf--h3 .graf--leading .graf--title name="0493"}
 
 My activity at 2016. I joined around 70--80 Makers event.\
@@ -163,10 +155,6 @@ GUGEN 2016\
 [SEG+ afternoon
 tea](http://www.slideshare.net/takasu/maker-movement-in-asia-shenzhen-singapore-chengdu){.markup--anchor
 .markup--p-anchor}
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [December 31, 2016](https://medium.com/p/9c1e0ddd7f36).

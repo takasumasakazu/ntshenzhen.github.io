@@ -8,20 +8,12 @@ date: 2016-12-20
 PPAP Style hardware innovation in China {#ppap-style-hardware-innovation-in-china .p-name}
 =======================================
 
-::: {.section .p-summary field="subtitle"}
 In China and Shenzhen, due to the distribution of intermediate products
 such as GongBan (Public PCBA) and GongMo (Public Mold), design and...
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="304a"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### PPAP Style hardware innovation in China {#ebe4 .graf .graf--h3 .graf--leading .graf--title name="ebe4"}
 
 In China and Shenzhen, due to the distribution of intermediate products
@@ -59,10 +51,6 @@ You can see more detail in [The Cathedral and the Bazaar on the Hardware
 development in
 Shenzhen](https://medium.com/@tks/the-cathedral-and-the-bazaar-on-the-hardware-development-5083228395b6#.6w9s2bwlf){.markup--anchor
 .markup--p-anchor}
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [December 20, 2016](https://medium.com/p/ec5d29babdb1).

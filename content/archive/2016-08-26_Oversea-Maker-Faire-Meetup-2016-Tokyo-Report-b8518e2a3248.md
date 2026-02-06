@@ -8,20 +8,12 @@ date: 2016-08-26
 Oversea Maker Faire Meetup 2016 Tokyo Report {#oversea-maker-faire-meetup-2016-tokyo-report .p-name}
 ============================================
 
-::: {.section .p-summary field="subtitle"}
 We MakerFaire Organizer from 7 citiys meet at 5/Aug 2016 at Tokyo,
 present day of Maker Faire Tokyo...
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first .section--last name="d3bc"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### Oversea Maker Faire Meetup 2016 Tokyo Report {#36bc .graf .graf--h3 .graf--leading .graf--title name="36bc"}
 
 ![](https://cdn-images-1.medium.com/max/800/1*Bx3gTU1riotqPMdDkgSR2w.jpeg){.graf-image}
@@ -119,10 +111,6 @@ My slide about Maker Faire Singapore
 
 But we had really good time together, some new relationship start from
 here.
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [August 26, 2016](https://medium.com/p/b8518e2a3248).

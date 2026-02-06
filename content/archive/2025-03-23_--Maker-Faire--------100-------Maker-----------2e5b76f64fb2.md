@@ -8,19 +8,11 @@ date: 2025-03-23
 海外Maker Faireへの出展ブーム 100人規模の日本人Makerが台湾や深センなどへ {#海外maker-faireへの出展ブーム-100人規模の日本人makerが台湾や深センなどへ .p-name}
 ========================================================================
 
-::: {.section .p-summary field="subtitle"}
 2017/11/06 11:45
-:::
 
-::: {.section .e-content field="body"}
-::: {.section .section .section--body .section--first name="afe2"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### 海外Maker Faireへの出展ブーム 100人規模の日本人Makerが台湾や深センなどへ {#d830 .graf .graf--h3 .graf--leading .graf--title name="d830"}
 
 2017/11/06 11:45
@@ -30,18 +22,10 @@ date: 2025-03-23
 11月に相次いで行われるMaker Faire Taipei（2017年11月3～5日）、Maker
 Faire
 Shenzhen（2017年11月10～12日）にはどちらも多くの日本人出展者が参加している。日本から距離が近く、一度参加した人がまわりを誘うこともあって、参加者は倍々で増え続けている。今回の台湾ではおそらく50人ほど、深センでは100人ほどの規模になり、それぞれ現地では大ミートアップも行われる。
-:::
-:::
-:::
 
-::: {.section .section .section--body name="d1eb"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 ### 今年は日本人メインのミートアップも行われる {#d525 .graf .graf--h3 .graf--leading name="d525"}
 
 ミートアップは「同じ場所に集まって、会う」という意味で、オフ会と同じような感じだ。ビジネス系のミートアップはお互いの名刺交換から始まるし、Maker系だとデモを持ってくることがある。今のMaker
@@ -111,18 +95,10 @@ TokyoやAkiPartyでもおなじみの[**カサネタリウム**](http://kasaneta
 .markup--p-anchor}や[**こさんくんのロボットバンド**](http://www.asahi-net.or.jp/~hb9t-ktd/music/Japan/Research/Robot/kosankun_Series.html){.markup--anchor
 .markup--p-anchor}などの、日本からの出展者が相次ぎ、日本からの見学者や台北在住の日本人を含めると、50人以上はMaker
 Faire Taipeiに集まると思われる。
-:::
-:::
-:::
 
-::: {.section .section .section--body .section--last name="ca1a"}
-::: {.section-divider}
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
 台湾からMaker Faire
 Tokyoへの出展や参加は毎年かなり多く（僕がざっくりMaker Faire
 Tokyoをまわったり知人に尋ねた感じでは30人ほど）、今後もますます盛んに交流していくことになるだろう。
@@ -161,10 +137,6 @@ Faireも違うベクトルで楽しめるだろう。なにより経験者が口
 Faireを見に行った後の、Maker Faire Tokyoの面白さ」だ。
 
 ぜひ海外のMaker Faireに訪れてみるといいだろう。
-:::
-:::
-:::
-:::
 
 By [TAKASU Masakazu/高須正和](https://medium.com/@tks){.p-author
 .h-card} on [March 23, 2025](https://medium.com/p/2e5b76f64fb2).

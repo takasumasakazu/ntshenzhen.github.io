@@ -1,0 +1,211 @@
+<!doctype html><html lang=en dir=auto data-theme=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Teardown | ニコ技深セン / Nico-Tech Shenzhen website</title>
+<meta name=keywords content><meta name=description content="Reverse engineering, teardowns, chip decap notes."><meta name=author content><link rel=canonical href=https://takasumasakazu.github.io/teardown/><link crossorigin=anonymous href=https://takasumasakazu.github.io/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css integrity="sha256-2jIR5e+Ge/K3X9WmUVz+1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as=style><link rel=icon href=https://takasumasakazu.github.io/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://takasumasakazu.github.io/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://takasumasakazu.github.io/favicon-32x32.png><link rel=apple-touch-icon href=https://takasumasakazu.github.io/apple-touch-icon.png><link rel=mask-icon href=https://takasumasakazu.github.io/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate type=application/rss+xml href=https://takasumasakazu.github.io/teardown/index.xml title=rss><link rel=alternate hreflang=en href=https://takasumasakazu.github.io/teardown/><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--code-block-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51);color-scheme:dark}.list{background:var(--theme)}.toc{background:var(--entry)}}@media(prefers-color-scheme:light){.list::-webkit-scrollbar-thumb{border-color:var(--code-bg)}}</style></noscript><script>localStorage.getItem("pref-theme")==="dark"?document.querySelector("html").dataset.theme="dark":localStorage.getItem("pref-theme")==="light"?document.querySelector("html").dataset.theme="light":window.matchMedia("(prefers-color-scheme: dark)").matches?document.querySelector("html").dataset.theme="dark":document.querySelector("html").dataset.theme="light"</script><meta property="og:url" content="https://takasumasakazu.github.io/teardown/"><meta property="og:site_name" content="ニコ技深セン / Nico-Tech Shenzhen website"><meta property="og:title" content="Teardown"><meta property="og:description" content="Reverse engineering, teardowns, chip decap notes."><meta property="og:locale" content="en"><meta property="og:type" content="website"><meta name=twitter:card content="summary"><meta name=twitter:title content="Teardown"><meta name=twitter:description content><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Teardown","item":"https://takasumasakazu.github.io/teardown/"}]}</script></head><body class=list id=top><header class=header><nav class=nav><div class=logo><a href=https://takasumasakazu.github.io/ accesskey=h title="ニコ技深セン / Nico-Tech Shenzhen website (Alt + H)">ニコ技深セン / Nico-Tech Shenzhen website</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)" aria-label="Toggle theme"><svg id="moon" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu><li><a href=https://takasumasakazu.github.io/teardown/ title=Teardown><span class=active>Teardown</span></a></li><li><a href=https://takasumasakazu.github.io/shenzhen/ title=Shenzhen><span>Shenzhen</span></a></li><li><a href=https://takasumasakazu.github.io/years/ title=Years><span>Years</span></a></li></ul></nav></header><main class=main><header class=page-header><div class=breadcrumbs><a href=https://takasumasakazu.github.io/>Home</a></div><h1>Teardown</h1></header><div class=post-content><p>Reverse engineering, teardowns, chip decap notes.</p></div><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://cdn-images-1.medium.com/max/800/1*bfqHx7AbZjX3y1NOC0f8hQ.jpeg alt></figure><header class=entry-header><h2 class=entry-hint-parent>ニコ技深圳コミュニティ＆高須の月次報告 2019年01月</h2></header><div class=entry-content><p>■ハードウェアハッカー ITビジネス本大賞候補に
+■ハードウェアハッカー ITビジネス本大賞候補に
+候補に４０冊ある本のなかから「ハードウェアハッカー」を選んでクリックするだけで投票できます。1/14まで投票可能です。
+https://www.shoeisha.co.jp/campaign/award/2019/vote/
+ハードウェアハッカーについては、12月に解説するイベントを多く行いました。いずれも動画を公開しています。
+ハードウェアハッカー出版記念イベント 山形浩生 高須正和 秋葉原書泉ブックタワー
+明治大学 CE概論 ハードウェアハッカー オープンソースハードウェアという、個人や小規模イノベーター、ゲリラにとって合理的なやりかた
+NT加賀2018「ハードウェアハッカー:新しいモノをつくる破壊と創造の冒険 トークセッション」
+**■JENESIS移転、春節後に移転後最初のミートアップを3月2日、4日と行います。
+**ニコ技深圳コミュニティのCo-Founder 藤岡淳一社長の経営するJENESISは、業務拡張のために移転を行います。1月は深圳全体が春節前の繁忙期のため、これまで行っていたJENESISでのミートアップは行いません。
+2月も春節のためナシ、次のJENESISでのミートアップは3月となります。こちらでイベントを告知しています。
+Log into Facebook | Facebook
+*Log into Facebook to start sharing and connecting with your friends, family, and people you know.*www.facebook.com{.markup–anchor .markup–mixtapeEmbed-anchor} ■12月にSTEM教育のセッションを行いました。
+加賀市から企画依頼を受けて、シンガポールサイエンスセンターのDr.Tanを招き、スイッチエデュケーションの小室社長とJig.jpの福野社長を交えてトークセッションを行いました。非常に学びの多いイベントになりました。
+https://togetter.com/li/1298567
+— — -報告（ブログ書いた、記事書いた、本だしたなど。） — — — — — — — — — — — — — — — — — — — — — — 高須＠深圳コミュニティ
+...</p></div><footer class=entry-footer><span title='2018-12-31 00:00:00 +0000 UTC'>December 31, 2018</span>&nbsp;·&nbsp;<span>1 min</span></footer><a class=entry-link aria-label="post link to ニコ技深圳コミュニティ＆高須の月次報告 2019年01月" href=https://takasumasakazu.github.io/teardown/2019-01/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://cdn-images-1.medium.com/max/800/1*ynQrKi39tofe1JhjyheGyA.jpeg alt></figure><header class=entry-header><h2 class=entry-hint-parent>「広まらないオープンソース活動は、ないのとおなじ」セクシーサイボーグ様 COSCon\`18 (中国オープンソース会議）でのスピーチ</h2></header><div class=entry-content><p>セクシーサイボーグ様が、自分の活動についてCOSCon`18 (中国オープンソース会議）で話していた。前に彼女のMake:Magazineへの寄稿を訳したように、スピーチにも日本語の字幕をつけた。
+「広まらないオープンソース活動は、ないのとおなじ」セクシーサイボーグ様 COSCon`18 (中国オープンソース会議）での講演+日本語字幕 セクシーサイボーグ様が、自分の活動についてCOSCon`18 (中国オープンソース会議）で話していた。前に彼女のMake:Magazineへの寄稿を訳したように、スピーチにも日本語の字幕をつけた。
+内容はオープンソース活動と、そのエンゲージメントについて語る彼女らしいもので、とても興味深い。プロジェクトそのものについては以下に詳しい。
+Make:Vol.61 「サイボーグとSINO:BIT」セクシーサイボーグ様寄稿
+*セクシーサイボーグとして知られる深センのメイカーNaomi Wuが語る、彼女の旅、インスピレーション、そして中国初の認定オープンソースハードウェアプロジェクト
+オリジナル Make:Vol61 プロジェクト杉田玄白参加作品…*medium.com{.markup–anchor .markup–mixtapeEmbed-anchor} 彼女はトラブルメイカーで、深圳のオープンソースコミュニティをよく「白人ばかり呼んで中国人の女子である私を呼ばない！」と攻撃する。一方で彼女のマーケットは主に白人で、この動画にある3Dプリンタ屋にカメラ持って押しかけてスポンサードをゲットするやりかたはヤクザっぽい迫力がある。
+ここで出てくるオープンソースハードウェアアソシエーション(OSHWA)の中国側理事は、彼女の天敵のDavid Liが勤めたりしている。。。
+そういうダイナミズムがコミュニティの盛り上がりなんだろう。幕末の薩長土肥もまったく一枚岩ではなかったし、深圳なら坂本龍馬の死体がゴロゴロしててもおかしくない。
+が、西洋のオープンソース界や日本のメイカー界も面倒くさい人の集まりで、僕も好かれているのか嫌われているのかわからない。彼女がここで出しているアウトプットは見事なものだし、メイカーならアウトプットを見て語るべきだろう。
+前に彼女について、以下のように説明したことがある。ある意味モダンな中国やこの街の象徴だと思う。
+セクシーサイボーグ様みたいな個性が普通のバックグラウンドから出てきて、長期にわたって活動できるのは、今の中国の面白さと深センの特殊さの証でもある。
+北京にいたら、欧米人フォロワーが13万人いる中国人youtuber、もっと不自由になりそう。
+直接会っても何話してるかよくわからないしあまりためにならないんだけど、会うと「ああ、深センだなあ。勢いあるなあ」感が強烈に盛り上がる縁起物として考えてます。 獅子舞みたいな。
+By TAKASU Masakazu/高須正和{.p-author .h-card} on December 6, 2018.
+Canonical link Exported from Medium on February 6, 2026.</p></div><footer class=entry-footer><span title='2018-12-06 00:00:00 +0000 UTC'>December 6, 2018</span>&nbsp;·&nbsp;<span>1 min</span></footer><a class=entry-link aria-label="post link to 「広まらないオープンソース活動は、ないのとおなじ」セクシーサイボーグ様 COSCon\`18 (中国オープンソース会議）でのスピーチ" href=https://takasumasakazu.github.io/teardown/coscon-18-631c4bcd305/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://cdn-images-1.medium.com/max/800/1*E2PM1rkXo-7MCY_oJw_eDg.jpeg alt></figure><header class=entry-header><h2 class=entry-hint-parent>明治大学 \#CE概論 オープンソースハードウェアについて講演 そしてコピーバンドの大事さ</h2></header><div class=entry-content><p>いつもお世話になっている宮下芳明教授のアレンジで、明治大学の授業CE概論（たぶんFMS,先端メディア学科の授業）で１時間ほど、ハードウェアハッカーの話をしてきた。
+いつもお世話になっている宮下芳明教授のアレンジで、明治大学の授業CE概論（たぶんFMS,先端メディア学科の授業）で１時間ほど、ハードウェアハッカーの話をしてきた。
+明治大学 #CE概論 講演「オープンソースハードウェアという、個人や小規模イノベーター、ゲリラにとって合理的なやりかた」 動画
+明大FMSの学生はツイッターをよく使うので、まとめは良い感じのダイジェストになっている。
+明治大学 講義 「オープンソースハードウェアという、個人や小規模イノベーター、ゲリラにとって合理的なやりかた」 #ハードウェアハッカー 講演動画あり #CE概論
+動画togetter.com{.markup–anchor .markup–mixtapeEmbed-anchor} 今回の資料の何割かは、金沢大の秋田純一教授の資料からもらってきたものだ。僕と秋田先生は、大垣ミニメイカーフェアで秋田先生がハッキングの技解説、僕が製品やビジョンについて話す、「ワザの１号力の２号」（昔の仮面ライダーのキャッチコピー）合わせ技プレゼンをしている。こちらも、特に聴衆がメイカーたちばかりだったことから、すごい良い講演になった。
+大垣ミニメイカーフェア講演 「ハードウェアハッカーの世界 Chumby Novena Chibitronics」
+コピー演奏をする面白さと大事さ 最近、伊藤亜聖さん 藤岡淳一さん 秋田純一さんなど、最近よくイベントやる面々で話したときに、共通するテーマの他人が作った資料を自分で説明することを「コピーバンド」と言った。藤岡さんと僕と伊藤さんは、深圳について説明するときに、お互いの資料をよく引用する。ハードウェアハッカーの僕が好きなフレーズにこうある。（紙版では17P）
+他人に厳密に説明しようと思うまでは、理解したと自分で思い込むのはかんたんだ。
+読むことや聞くことは、話すことや書くことでより深く理解できる。聴衆の顔色や質問で、どのぐらい理解してもらえているかや、興味を惹けているかはわかる。どこかのミュージシャンが、「コピー演奏すると曲についてより深くわかる」と言っていた。パワーポイントのスライドは強調によって成立している。説明する順番とか「なんでここを強調したのか」などに、話していて改めて気づくことも多い。
+最近ペア読書{.markup–anchor .markup–p-anchor}というのが流行ってるみたい（やったことはない）だが、一部通じる試みかもしれない。
+ハードウェアハッカーについては、まだきちんとわかっていないことばかりだ。これからもいろんなところで話して、理解を深めていきたい。
+By TAKASU Masakazu/高須正和{.p-author .h-card} on December 5, 2018.
+Canonical link Exported from Medium on February 6, 2026.</p></div><footer class=entry-footer><span title='2018-12-05 00:00:00 +0000 UTC'>December 5, 2018</span>&nbsp;·&nbsp;<span>1 min</span></footer><a class=entry-link aria-label="post link to 明治大学 \#CE概論 オープンソースハードウェアについて講演 そしてコピーバンドの大事さ" href=https://takasumasakazu.github.io/teardown/ce/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://cdn-images-1.medium.com/max/800/1*4Ro3mHxHjfyyKMz0A36WXA.jpeg alt></figure><header class=entry-header><h2 class=entry-hint-parent>ハードウェアハッカーの世界(動画） 大垣ミニメイカーフェア 秋田純一 高須正和 \#OMMF2018</h2></header><div class=entry-content><p>今回の来日は5日間で3回ハードウェアハッカーのプレゼンをするが、全部時間もトーク内容も違う。今回の大垣ミニメイカーフェアでは、翻訳時に半導体、チップ製造まわりやムーアの法則についての確認・寄稿いただいた金沢大の秋田純一教授がハッキングの技、僕がバニーの製品やビジョンについてプレゼ…
+ハードウェアハッカー エントリー中 技術書・ビジネス書 大賞2019
+*「ITエンジニアに読んでほしい！技術書・ビジネス書 大賞 2019」今年も開催。ITエンジニアがみんなで選ぶ、今年のおすすめ本。*www.shoeisha.co.jp{.markup–anchor .markup–mixtapeEmbed-anchor} 今回の来日は5日間で3回ハードウェアハッカーのプレゼンをするが、全部時間もトーク内容も違う。今回の大垣ミニメイカーフェアでは、翻訳時に半導体、チップ製造まわりやムーアの法則についての確認・寄稿いただいた金沢大の秋田純一{.markup–anchor .markup–p-anchor}教授がハッキングの技、僕がバニーの製品やビジョンについてプレゼンする、技の１号・力の２号構成になった。今日はお互い10分ずつの20分だったが、12月15日のNT加賀{.markup–anchor .markup–p-anchor}ではお互い30分ずつのフルバージョンをお届けするつもりだ。
+大垣ミニメイカーフェアでのプレゼン
+秋田先生の資料
+高須の資料
+ハードウェアハッカーは翔泳社のITビジネス本大賞にノミネートされています。投票ぜひお願いします！
+ハードウェアハッカー エントリー中技術書・ビジネス書 大賞2019
+*「ITエンジニアに読んでほしい！技術書・ビジネス書 大賞 2019」今年も開催。ITエンジニアがみんなで選ぶ、今年のおすすめ本。*www.shoeisha.co.jp{.markup–anchor .markup–mixtapeEmbed-anchor}
+By TAKASU Masakazu/高須正和{.p-author .h-card} on December 1, 2018.
+Canonical link Exported from Medium on February 6, 2026.</p></div><footer class=entry-footer><span title='2018-12-01 00:00:00 +0000 UTC'>December 1, 2018</span>&nbsp;·&nbsp;<span>1 min</span></footer><a class=entry-link aria-label="post link to ハードウェアハッカーの世界(動画） 大垣ミニメイカーフェア 秋田純一 高須正和 \#OMMF2018" href=https://takasumasakazu.github.io/teardown/ommf2018/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://cdn-images-1.medium.com/max/800/1*8UaM9anYgO26kl5iKnIp1w.jpeg alt></figure><header class=entry-header><h2 class=entry-hint-parent>「さいはての中国」「野心 テリーゴウ伝」 僕が自覚した関心の持ち方</h2></header><div class=entry-content><p>安田峰俊さんの著書と編著。どちらもレポートとしてめちゃめちゃ面白く、一気に最後まで読んだ。
+安田峰俊さんの著書と編著。どちらもレポートとしてめちゃめちゃ面白く、一気に最後まで読んだ。
+さいはての中国 (小学館新書 や 13-1)
+*Amazonで安田 峰俊のさいはての中国 (小学館新書 や 13-1)。アマゾンならポイント還元本が多数。安田 峰俊作品ほか、お急ぎ便対象商品は当日お届けも可能。またさいはての中国 (小学館新書 や…*www.amazon.co.jp{.markup–anchor .markup–mixtapeEmbed-anchor} 野心 郭台銘伝
+「腐った卵を産む鶏は、場所や飼い主を替えても、決してよい卵を産まない」 2016年8www.amazon.co.jp{.markup–anchor .markup–mixtapeEmbed-anchor} 本としては「どっちも面白い、ぜひ読もう」と言えるが、僕にとって圧倒的に面白かったのはさいはての中国のほうだ。
+テリー・ゴウ伝は彼が家族思いだったり恋愛べただったというパーソナリティの話はたくさん出てくるが、フォックスコンの技術/システムやEMSというビジネスの話はほとんど出てこない。
+たとえばリーダーシップ（専制的）や大胆な投資という話は何度も出てくるが、そういう会社だと他のEMSに比べてどこが違ってどこが有利、という話は出てこない。フォックスコンと他の会社がシステム的にどう異なったのかという話は本書を読んでも僕はわからなかった。
+かわりにテリー・ゴウの故郷や幼馴染みの話、シャープのボロい独身寮に社長が泊まり込んだエピソードなどはいっぱい出てくる。子供の頃に読んだリンカーンの伝記にも、丸太小屋で生まれて苦労した話とかは出てくるがアメリカ大統領制の仕組みの話はでてこないので、つまりはそういう本だ。タイトルが「郭台銘伝」なので、タイトルどおりといえる。
+僕は「フォックスコンを支える技術」みたいな内容を勝手に期待してたのだが、そうではない。もちろん安田さんが書いてるので面白い。
+中国のプロパガンダや経済特区、中国というシステム
+さいはての中国はもっといろいろなテーマで、あまり他のメディアで取り上げられない中国や中国人の活躍するカンボジア、埼玉の西川口などまで含めてルポし、まとめたものだ。すごい取材力とインタビューで、まったく知らなかった中国の一面がたくさん出てくる。最高に面白くて一気に読んだ。
+「さいはての中国」ではすごく具体的に、経済政策などで強引で住民無視の政府のやり方はたくさん出てくる。そこにムリな書き方がされてることはまったくなく説得力に満ちている。こうした行政の大きいシステムの施策とその効果がうかがい知れるのは面白いし、僕はもっと中国政府が意図を持って組織的に仕掛けていると思っていたカナダの反日プロパガンダが、現地ではすごく善意ある人たちが本気で人道的に行い、そこにあまり質の良くない日本人の市民運動家たちが間違った情報を提供している、しかもその市民運動家達もやってる行動はジャーナリストの取材の邪魔とかしててきわめて社会悪そのものなんだけど、本人はどうやら善意で動いていそうなことなんかは読んでいてゾクゾクした。
+「さいはての中国」に紹介されている雄安新区や、ほか貴州などの国家主導プロジェクトの様子を見て、あまりうまく行かなそうだなと思えた。
+政府と政府からお金をもらう人たちだけが集まってもうまくいかない。自分で手を動かすエンジニアが、商売のタネが見つかって、自分たちで会社を作れてこそテクノロジーが生まれ、人々の生活が変わる。そうした社会の変化は政治家や社長のビジョンでなく、実際の作るという行為の結果だと思っている。テクノロジーの話にしか興味ないと書きつつ、「やりたいと思ってやらないと技術は成り立たない。思いは行動に現れ、言葉には現れない」という考えでいる。
+僕は現在の技術を国やお金のチカラだけで発展させるのは難しいと考えていて、いろいろな国でシリコンバレーもどき国家プロジェクトが行われているけど全部コケている。試行錯誤が必要な研究開発と計画手動の国家プロジェクトは相性が悪く、上海や深センといったエンジニアが集まりそうなポテンシャルのある場所だけで中国の経済特区は成功して他はコケている。
+xx地域にすごく投資がされててすごい、と言う話はよく聴くが発信してるのはその地域に人を呼び込むことがビジネスになる人だったりして、具体的にどういうことが行われているのかの話が少なくて理解しづらい。
+もちろん、実際は見に行ってそこのエンジニアがしてることを見ないとよくわからない。中国に限らずほとんどの国で、僕は行ってみると聞いてたのと全く違う体験を味わう。中国の経済特区やさいはてでも、間違いなくそうだろう。
+僕の書くもの、興味あるもの
+以下は書評と関係なく、2冊の本を読みながら考えたものだ。
+僕は技術そのもの、製品そのものへの関心が強くて、それに比べると人への関心は多くないみたいだ。
+たとえば発明家や会社の社長にインタビューしたとしたら、たぶん「どういう製品やサービスを作っているか」「どういう想いや想いでつくり、苦労したのはどういうところか」みたいな質問になるだろうし、僕がインタビュー記事はそんなのばかりだ。嫁さんとどこで出会ったとかどういう環境で育ったとかは、自分から聞いたことがない。
+ここでいう技術にはサービス、たとえば「STEM教育」みたいなものや、会社そのものなども含まれる。そういうものだと人間についての質問も含まれるけど、とにかく成果物やそれを生み出した手法に興味があり、パーソナリティや「日本と比べてどうですか？」みたいな本人と関係ないことは、それらに比べると気にならない。技術的なバックグラウンドは気になる。大学での専攻は必ず聞く。逆に聴いたことがないのは結婚してるかどうか、とかだ。
+「テクニウム」じゃないけど、技術にもキャラクターはある。
+たとえば一眼レフのレンズを作るような高精度のアナログ技術は高度の蓄積が必要になる。
+小ロット多品種の製品組み立てにはその地域全体の産業エコシステムが必要だ。逆にジーパンなどの衣服は大量の労働者がいる。たとえば1万円のスマホを買ったら製品原価（マーケティングなどを除く原価）の多くは部品代で労働コストは10–20%、ジーパンだと70%をだいぶ超える。
+AIにいま現在何ができて、この次に来そうなのはどのブレイクスルーで、その結果何が可能になるのか。
+たとえば最近話題になった中国政府がスパイ用のチップ開発して混入させた{.markup–anchor .markup–p-anchor}ニュースを見ても、本当にそういう「アンテナもコネクタもないチップが、上位のネットワークで監視されてるサーバの中でどうやって通信するのか」が気になるし、たぶん技術的に難しいのでその部分はトバシか報道間違いだろう、と予測したりする。
+まちがいなく中国の政府は色々悪いことをしてる。産業スパイも住民の監視もしている。けど、おそらく違うやり方ではないんじゃないか。
+こういう興味の持ち方は、技術オタク、エンジニアリング好きと言えるだろう。僕自身が、その中でどれぐらいきちんとエンジニアしてるかはともかく、友達もそういう気質の人が国籍を問わず多い。STEM教育分野の人には社会運動家っぽい人とエンジニアっぽい人がいるが、僕が仲良くなるのはたいてい後者である。最近訳したバニーのハードウェアハッカーでは、プロジェクトのほとんどがxobsという同僚と行われているが、200ページ近いその部分でxobsのパーソナリティに触れられたのは「ポニーテールで自分のペースをもっていてスコットランドのキルトを着てる」の2–3行だけだ。
+ハードウェアハッカー ~新しいモノをつくる破壊と創造の冒険
+*Amazonでアンドリュー"バニー"ファン, 山形 浩生, 高須 正和のハードウェアハッカー ~新しいモノをつくる破壊と創造の冒険。アマゾンならポイント還元本が多数。アンドリュー"バニー"ファン, 山形 浩生, 高須…*www.amazon.co.jp{.markup–anchor .markup–mixtapeEmbed-anchor} 一方で、今の中国に興味がある人のほとんどは人（歴史）かお金に興味がある。中国がテクノロジー好きの関心を引くようになったのは本当にここ4–5年ぐらいのものなので、それよりキャリアが長い人は別の面に惹かれててあたりまえだ。技術オタクで中国も好き、ガジェットの分解レポートを良く書くという書き手がもっと増えて欲しいなーと思うけど中国関係だとあまりいない。
+釣ることやエバることが目的に書かれたと感じるような記事はどうも好きになれないが、中国の記事だとそういうのが多いように感じる。
+安田さんや山谷さん、高口さんなどの書く中国の話は、「もっと知りたい」という好奇心をコアに、その行為を仕事として成り立たせる実力もあって大好きなのでいつも楽しみにしている。
+By TAKASU Masakazu/高須正和{.p-author .h-card} on October 7, 2018.
+Canonical link Exported from Medium on February 6, 2026.
+...</p></div><footer class=entry-footer><span title='2018-10-07 00:00:00 +0000 UTC'>October 7, 2018</span>&nbsp;·&nbsp;<span>1 min</span></footer><a class=entry-link aria-label="post link to 「さいはての中国」「野心 テリーゴウ伝」 僕が自覚した関心の持ち方" href=https://takasumasakazu.github.io/teardown/post/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://cdn-images-1.medium.com/max/800/1*Ty1BG9WTJh4cKirQ7irKQw.jpeg alt></figure><header class=entry-header><h2 class=entry-hint-parent>8/4 AkiParty 8/5メイカーフェア東京で講演など ニコ技深圳コミュニティ＆高須の月次報告 2018年08月</h2></header><div class=entry-content><p>久々に深圳白石州にて、ニコ技深圳コミュニティにてbeer partyを行いました。深圳のメイカー、日本のメイカーが系30人ほども集まる楽しいイベントになりました。
+久々に深圳白石州にて、ニコ技深圳コミュニティにてbeer partyを行いました。深圳のメイカー、日本のメイカーが系30人ほども集まる楽しいイベントになりました。
+今月は何より、秋葉原のライブハウスMograで、DIYの工作物とクラブミュージックが融合したイベントAkiPartyをやります。
+8月4日16:00–21:00 AkiParty
+http://club-mogra.jp/2018/08/04/3560/
+そして、翌日の8月5日に、メイカーフェア東京のメインステージで11:30–11:50 「日本と世界のMaker Pro」と題した講演を行います。
+他、早稲田大学の講演やStartup Weekendなどでも講演が決まっています。
+今日、東京に戻ってきました。
+今のところ、
+7/30 俯瞰サロン（多分Public） https://www.fukan.jp/%E4%BF%AF%E7%9E%B0%E3%82%B5%E3%83%AD%E3%83%B3/
+8/2 早稲田大学 ゼミ（担当教員の牧先生に問い合わせれば入れるhttps://www.facebook.com/photo.php?fbid=10156820534011189&amp;set=a.10151021761991189.481047.587741188&amp;type=3&amp;theater
+8/5 Startup Weekend 講演（要チケット購入） https://swtokyo.doorkeeper.jp/events/74506
+などが決まっています。
+■華強北コワーキングスペース
+ニコ技深圳コミュニティでは、華強北のコワーキングスペースを運営しています。
+https://medium.com/ecosystembymakers/segmaker-b3ff42ce3265
+運営費は企業スポンサーと寄付ベースで行っています。一ヶ月1000元で企業スポンサーを
+募集しているほか、随時寄付を受け付けています。（僕も毎月このスペースで書いた原稿料から
+寄付しています）
+僕とのアポイントやプレゼンは具体的な商談を除いてオープンデイの日に限らせていただいていますが、
+深圳への滞在中に作業したいとか、僕たちのコミュニティと繋がってビジネスに生かしていきたいとか、
+そういう拠点としてご協賛いただく・ご利用される際にはぜひお声がけください。
+■スマホで読める深圳ガイド
+深圳の歩き方2018 中国初めての人が公共交通機関で歩き回れる、スマホで読める #深センの歩き方 #マッハ新書
+https://takasumasakazu.booth.pm/items/874821
+先月もご案内したマッハ新書で、深圳の観光ガイドを出しました。
+来月以降は、このようなイベントに参加します。来る方ぜひお会いしましょう。
+メール最後の告知コーナーに募集中のイベントをリンクしてあります。
+4/Aug AKiParty Tokyo
+4–5/Aug Maker Faire Tokyo
+6/Aug STEM Meetup Asia in Tokyo
+17–19/Aug Maker Faire Singapore
+22–23/Sep Maker Faire New York
+Maker Faire Taipei, New York,Paris, Shenzhen…..
+...</p></div><footer class=entry-footer><span title='2018-07-29 00:00:00 +0000 UTC'>July 29, 2018</span>&nbsp;·&nbsp;<span>1 min</span></footer><a class=entry-link aria-label="post link to 8/4 AkiParty 8/5メイカーフェア東京で講演など ニコ技深圳コミュニティ＆高須の月次報告 2018年08月" href=https://takasumasakazu.github.io/teardown/8-4-akiparty-8-5-2018-08/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://cdn-images-1.medium.com/max/800/1*hBzRCflwk1yt1cqxFxu1TA.jpeg alt></figure><header class=entry-header><h2 class=entry-hint-parent>第8回ニコ技深セン観察会 参加者名簿：感想まとめ</h2></header><div class=entry-content><p>ニコ技深圳観察会、3/18夕方–21深夜で予定している第8回、多くの応募ありがとうございました。感想は順次ここに上がっていきます。
+ニコ技深圳観察会{.markup–anchor .markup–p-anchor}、3/18夕方–21深夜で予定している第8回、多くの応募{.markup–anchor .markup–p-anchor}ありがとうございました。感想は順次ここに上がっていきます。
+2018 03 ニコ技深圳観察会 第8回Twitterまとめ
+参加者一覧と感想まとめニコ技深圳観察会とはtogetter.com{.markup–anchor .markup–mixtapeEmbed-anchor} ■参加者名簿（名字の英語読みのA-Z順）
+江里口 晋 （三井住友海上火災保険株式会社）{.markup–anchor .markup–p-anchor}
+ブログ：第８回 ニコ技深圳観察会感想 今津 充正（株式会社144Lab）{.markup–anchor .markup–p-anchor}
+ブログ：201803 第8回ニコ技深圳観察会感想 伊藤亜聖{.markup–anchor .markup–p-anchor} ブログ：ニコ技深圳観察会第8回に参加～オープンイベントもやりながら深圳の土壌にもぐる三日間 岩城 良和（株式会社タイセー、Startup Weekend）{.markup–anchor .markup–p-anchor}
+ブログ：深センを体感してきました by ニコニコ深セン観察会 木村博巳(ソフトウェアエンジニア){.markup–anchor .markup–p-anchor} ブログ:第8回 ニコ技深圳観察会 感想 城下了輔（東京工業大学） 北川 岳寿（リコーつくる～む）{.markup–anchor .markup–p-anchor}
+ブログ：第８回ニコ技深セン観察会を体験して（感想編） maguro（ソフトウェアエンジニア、ゲーム会社、Techshop会員）{.markup–anchor .markup–p-anchor}
+ブログ：第８回深セン観察会の感想～ 深センで「ざわざわ」した件{.markup–anchor .markup–p-anchor}
+ニコ技深圳観察会第8回、交通宿泊とネットなど ミクミンP(ニコニコ技術部） Masaaki Moriyama（英進館シンガポール校） KOCHIWA MIRAI(金融機関) 中山 一貴(東洋経済） 永久健三(ソフトバンク株式会社){.markup–anchor .markup–p-anchor} ブログ: 第8回ニコ技深セン観察会の感想 大場勇太（DMG森精機）{.markup–anchor .markup–p-anchor}
+ブログ：第8回ニコ技深セン観察会を通して新入社員の私が感じたこと Shinichi Ohki（スイッチサイエンス）{.markup–anchor .markup–p-anchor}
+ブログ：深セン観察会行ってきました2018 大沼久美（金融機関） 頼勝一(不動産賃貸){.markup–anchor .markup–p-anchor}
+ブログ：深圳のエコシステムはMakersだけのものではない 坂巻匡彦（千葉大学工学部デザイン学科 非常勤講師） 佐藤啓一郎（シャープ株式会社,UXデザイナー）{.markup–anchor .markup–p-anchor}
+ブログ：深センカルチャーを感じてきた 佐藤宗彦（HCI/VR系の大学院→研究者の後、独立） Shao (エンジニア、シリアルアントレプレナー）{.markup–anchor .markup–p-anchor}
+ブログ：第8回 ニコ技深圳観察会 (2018/03) 参加レポート : Shenzhen Speed の正体を探る旅 木下 瑛裕（パイオニア株式会社）{.markup–anchor .markup–p-anchor}
+第8回ニコ技深圳観察会参加レポート：あの1週間の深圳滞在を振り返っ{.markup–anchor .markup–p-anchor}て「深圳すごい」とはどういうことだったか？{.markup–anchor .markup–p-anchor}
+Insta360のものづくりに感じる、深圳らしさ{.markup–anchor .markup–p-anchor}
+深圳を見た今、アキバについて思うこと 末次浩詩(sglab株式会社）{.markup–anchor .markup–p-anchor}
+ブログ：Shenzhen Report (201803) 鈴木陽大（札幌大学）{.markup–anchor .markup–p-anchor}
+ブログ：ニコ技深圳観察会に参加してみて 多田 興平(モータ、アクチュエータの Piezo Sonic Corporation) 高橋 範（株式会社ソラコム）{.markup–anchor .markup–p-anchor}
+ブログ：ニコ技深圳観察会感想-まとめ 武樋 恒（VR企業Synamon）{.markup–anchor .markup–p-anchor}
+ブログ： 「第８回ニコ技深圳観察会」に参加させて頂きました！ 竹迫良範（リクルートマーケティングパートナーズ） tanabe917 (リチウムイオンバッテリ会社antenna1st){.markup–anchor .markup–p-anchor}
+ブログ：ニコ技深圳観察会感想・まとめ1 Hirokazu Taniguchi（ a&amp;vein.Inc）{.markup–anchor .markup–p-anchor}
+ブログ：アジアのシリコンバレー深圳に行ってきました。（全9回） 戸田 拓（朝日新聞デジタル） 上村崇（フリーランスのITエンジニア） 山崎勇祐（ Hapbeat合同会社代表兼東工大博士課程1年）{.markup–anchor .markup–p-anchor} ブログ:大学発ベンチャー社長（）が見てきた深圳{.markup–anchor .markup–p-anchor} 初めての単独深圳会社＆工場訪問
+...</p></div><footer class=entry-footer><span title='2018-02-06 00:00:00 +0000 UTC'>February 6, 2018</span>&nbsp;·&nbsp;<span>1 min</span></footer><a class=entry-link aria-label="post link to 第8回ニコ技深セン観察会 参加者名簿：感想まとめ" href=https://takasumasakazu.github.io/teardown/8/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://cdn-images-1.medium.com/max/800/1*n1OXFXcS7_8yVj_Eeoq8Aw.jpeg alt></figure><header class=entry-header><h2 class=entry-hint-parent>北京ベンチャー訪問：中関村創業ストリート Inno way</h2></header><div class=entry-content><p>北京ベンチャー訪問全体のまとめはこちら
+北京ベンチャー訪問：中関村創業ストリート Inno way 北京ベンチャー訪問全体のまとめはこちら **中関村創業ストリートInno way
+**初日の午後は、中関村の創業ストリートと呼ばれるコワーキングスペースが集まっている一帯Inno wayを訪問しました。
+このストリートは、ちょっと前（おそらく2000年頃）には本屋などが集まっていた地域を、スタートアップ支援施設が集まる地域にリノベーションしたもので、ストリート両脇の路面はアクセラレータやインキュベータなどの支援施設で埋まっています。
+この地域の45のインキュベーターあわせて180億RMB(3000億円ほど)の投資が行われたとのこと。
+Inno Way公式サイト：www.z-innoway.com/en/
+どこの組織も、
+・1Fがカフェ。イベントスペース併設
+・2Fがコワーキングスペース。
+と、そっくり似たような構成になっているのが面白いところ。名前もギークxxとかスタートアップxxとかエンジェルxxなど、いかにも意識の高そうなものが続きます。コワーキングスペースに入居していて自前のオフィスを構えていないとのことで、午前中に見学した創業公社より{.markup–anchor .markup–p-anchor}さらに初期段階、企業準備中のSeeedステージのベンチャーを支援している組織が多そうです。
+入居しているインキュベーション施設の一つを見学しました。Inno WayはLenovo, IBM, Tencentなどの中国の大企業と連携し、500 StartupやPlug & Playなどの海外のインキュベータとも連携している施設です。2015年の5月には李克強首相も来訪したとか。政府系のインキュベータで、資金と場所は政府補助を受けています。北京の家賃相場から考えると安い金額でスタートアップを入居させられるのはその補助があるからとのこと。
+Innoway
+**高品質のPCB/PCBA製造 中国人がスイスで起業したSwie.io
+**ここ出身のスタートアップの一つ、中国人がスイスに渡って起業したSwie.ioのCTOがたまたま来ていて、話を聞けました。PCB制作やPCBアッセンブリ（以下PCBA）の会社です。PCBは電子回路そのものであるPrinted Circuit Board基板の製造サービス、PCBAはその基板にマイコンチップやセンサーなどの部品を組み付けしてくれて、完成品の基板が届くサービス。どちらもハードウェアのプロトタイプを仕事にするには不可欠なサービスです。
+説明してくれた Benjamin Zhaiが自らyoutubeに上げているSwie.ioの説明
+同種の会社としては深圳のSeeedや日本のP板.comなどがあります。SeeedのFusion PCB/PCBA{.markup–anchor .markup–p-anchor}は世界的に有名なサービスで、「安く・手軽に」を売りにしたサービスで、深圳に多くある協力会社に発注していて、品質や実装密度などはそれなりです。Swie.ioは自社工場を持ち、値段も品質ももう少し上の層をターゲットにしています。プレゼン中のデモを見ただけですが、ユーザからの注文をチェックし処理する画面も、基板そのもののエラーチェックなど含めて良くできているように思えました。
+ソフトウェアプログラマの数が世界で仕事・趣味どちらのワールドでも増え続けているように、ハードウェアプロトタイプ技術者の数も増え続けていくだろう、と僕は思っています。プログラムでいうコンパイラにあたる、アイデアを実際に動くものにするこのPCB製造サービスは、より使う人が増え、用途によって細分化されたたくさんの会社が出てくると思います。今一般的なものより高品質なサービスを展開するのは悪くないように思います。
+**FrenchTechに似たグローバル化
+**午前中に見た創業公社のベンチャー達は巨大な中国市場を想定してBtoBに近い販売をするドメスティックな起業達が多かったのに対し、InnoWayは世界とのつながりを意識しているように見えました。フランスが仕掛けているFrenchTechと似たアプローチで、国内にとどまりがちなベンチャーを世界に出していくためのサポートを行うものです。Swie.ioはスイスで起業していることもあり、社内は欧米人のほうがはるかに多いとのこと。現在では小さいが未来には大きくなりそうなニーズを取りに行くサービスをするのであれば、グローバルに展開する方が可能性があります。InnoWayと提携しているPlug&amp;Playや500 Startupsのようなシリコンバレー発インキュベータはどちらもそのような考え方で、シリコンバレーの強さは「そこで出てきたサービスがグローバルで通用する」ことでもあります。
+インキュベータがどこも似たような店構えなのはついつい笑いたくなりますが、世界の流行りにきちんと乗っかろうとしている試みだと感じました。
+北京ベンチャー訪問全体のまとめはこちら By TAKASU Masakazu/高須正和{.p-author .h-card} on August 19, 2017.
+Canonical link Exported from Medium on February 6, 2026.</p></div><footer class=entry-footer><span title='2017-08-19 00:00:00 +0000 UTC'>August 19, 2017</span>&nbsp;·&nbsp;<span>1 min</span></footer><a class=entry-link aria-label="post link to 北京ベンチャー訪問：中関村創業ストリート Inno way" href=https://takasumasakazu.github.io/teardown/inno-way/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>成長市場でのベンチャーはイージーモード 北京のスタートアップたち（まとめ）</h2></header><div class=entry-content><p>Maker Faire Beijing 2017に関連して、8月9–10日の2日間、自身が北京のグリーンテック関連のスタートアップに勤務し、清華大学でMBAを学んだ佐野さん(Wechat…
+Maker Faire Beijing 2017に関連して、8月9–10日の2日間、自身が北京のグリーンテック関連のスタートアップに勤務し、清華大学でMBAを学んだ佐野さん(Wechat ID:Sanonas)に案内していただいて、ニコ技深圳観察会{.markup–anchor .markup–p-anchor}で呼びかけた7人ほどと一緒に、北京・清華大関係のベンチャーを見てきました。
+佐野さんから「北京のスタートアップに注目してもらいたい」という意思でたくさんのアポイントとご案内をしていただいたので、内容をシェアします。ぜひ佐野さんに案内いただいて、北京のベンチャー達を見に行くといいかと。
+訪問先
+9日：北京市や北京の大企業が支援しているベンチャー地区2カ所(創業公社&中関村創業ストリート)と、そこに入居しているベンチャー3社
+創業公社 T-Sence VR (VR化した教育コンテンツ）
+Shelter (大学内の研究、特に化学の成果を市場化する会社）
+Populele 中関村創業ストリート
+Swie.io 10日：清華大学のベンチャー支援制度(授業+X-Lab)と、清華大学発のベンチャー支援企業TusStar、およびそこ出身のベンチャー
+X-lab
+-ZhenRobot（Justin Liu氏）
+-NumsTM Ultra-thin Smart Keyboard
+TusStar
+-AVORI
+北京創慧源科技創新有限公司(TusStarと協力関係にあるハードウェア製造支援会社)
+それぞれ別の種類の産業構造とベンチャーだったので、分けて書いていきます。
+[創業公社とその経由のベンチャー3社{.markup–anchor .markup–li-anchor}] [中関村創業ストリート Inno wayと中国人がスイスで起業したswie.io{.markup–anchor .markup–li-anchor}] [緩やかなスタートアップへの道：清華大学のベンチャー支援システムとベンチャー2社（大学内）{.markup–anchor .markup–li-anchor}] [清華大学卒業生達が作ったベンチャー支援会社TusStar{.markup–anchor .markup–li-anchor}] [おまけ：メイカーフェア北京短観{.markup–anchor .markup–li-anchor}
+おまけ：IT寺龍泉寺短観{.markup–anchor .markup–li-anchor}] 同行者：加藤さんのレポート
+深圳観察会にも参加している加藤さんもレポート書いてくれました。 北京・深圳ハードウェア企業見学会_その1驚くほど刺激的な観察先。旅程と顔ぶれとモバイルペイメント諸々{.markup–anchor .markup–p-anchor}
+その2 金太郎飴のようなスタートアップ支援、オシャレカフェの必要性とは **全体の感想：さすが北京、さすが中国。成長市場でのベンチャーはイージーモード
+**もともと僕はメイカーが好きなのでボトムアップが好きだし、アンコントローラブルな混沌が生み出す「理解できないもの」が好きです。なので、中央集権型の中国の中心地であり、何をやるにも中央から指示が振ってくる/お伺いを立てる北京にはいい印象がありませんでした。
+来る前に勝手に思い描いていたのはこんな感じでした。
+・英語ロクに喋れず、海外見たことないようなお役人が世界のトレンドから外れた支援システムを組んでいる
+・そうした連中が選考するため怪しいベンチャー（先進国のデッドコピーとか）ばかりが選ばれている
+・明らかに負けっぽい会社が多いのに、始めたことを止められない
+・さらに、支援者が中国独自技術とか国内企業からの調達とかにこだわり、世界市場からみたらゴミみたいなものを作って政府パワーでムリヤリ販売している
+↑この想像はほぼ裏切られました。戸別に訪問したレポートを見てもらえばわかると思いますが、僕が見たのは
+・世界的なトレンドをきっちりキャッチアップした合理的な支援システム
+・もともと優秀な人間が、世界的に成功する確率が高いスタートアップの仕組みにマジメに取り組んでいる
+・実務経験があり、金も能力もある人たちが支援をし、ベンチャーの決定はベンチャー自身が行っている
+・結果として、北京出身のベンチャーは大企業と勝負できる品質・価格でマーケットに出ている
+というものでした。
+深圳にあるような荒削りなスタートアップ、たとえばここで分解されているファービーもどきオモチャ{.markup–anchor .markup–p-anchor}のような怪しさは北京には見つからず、たいていのスタートアップは「なるほど、そういうのほかにもあるよ」ということをやっています。それでもほかの会社と勝負できるクオリティまでは軽々とビジネスを運んでいました。きっちりと送りバントしてくる野球チームは強い。
+もう一つ感じたのは、成長市場でのベンチャーはイージーモードという事でした。VR教育にしてもIoTのオーラルケアにしても、中国でこれから先伸びていくに決まっている市場です。一か八かの冒険をするのでなく、会社としてやるべき事をこなしていけば成功は予見され、さらにM&amp;Aやバイアウト,IPOのようなEXITも見えてくるでしょう。成長市場だと、世界を変えなくてもベンチャーは成功できる。社会が拡大するにつれ、スキマも大きくなっていくわけですから。
+似たようなことをやってる多くのインキュベータがそれなりに商売が成り立ってそうに見えたのは、その「どう支援してもパイは大きくなる」という構造があるように思います。
+なので、北京からはこれからもハイクオリティな、深圳とは違ったタイプのベンチャーが登場してきそうだなあと感じました。
+実際に見てみる前後で、北京のベンチャーエコシステムへの印象は大きく変わりました。全行程をアテンドしてくれた佐野さん(Wechat ID:Sanonas)、本当にありがとうございました。
+...</p></div><footer class=entry-footer><span title='2017-08-18 00:00:00 +0000 UTC'>August 18, 2017</span>&nbsp;·&nbsp;<span>1 min</span></footer><a class=entry-link aria-label="post link to 成長市場でのベンチャーはイージーモード 北京のスタートアップたち（まとめ）" href=https://takasumasakazu.github.io/teardown/post/></a></article><footer class=page-footer><nav class=pagination><a class=prev href=https://takasumasakazu.github.io/teardown/page/7/>«&nbsp;Prev&nbsp;</a></nav></footer></main><footer class=footer><span>&copy; 2026 <a href=https://takasumasakazu.github.io/>ニコ技深セン / Nico-Tech Shenzhen website</a></span> ·
+<span>Powered by
+<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
+        <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
+</a><script>let menu=document.getElementById("menu");if(menu){const e=localStorage.getItem("menu-scroll-position");e&&(menu.scrollLeft=parseInt(e,10)),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}}document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{const e=document.querySelector("html");e.dataset.theme==="dark"?(e.dataset.theme="light",localStorage.setItem("pref-theme","light")):(e.dataset.theme="dark",localStorage.setItem("pref-theme","dark"))})</script></body></html>

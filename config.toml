@@ -1,7 +1,7 @@
 baseURL = "https://ntshenzhen.github.io/"
 title = "ニコ技深セン / Nico-Tech Shenzhen website"
 theme = "PaperMod"
-
+publishDir = "public"
 
 # SEO 基本
 enableRobotsTXT = true

@@ -1,170 +1,5 @@
-<!DOCTYPE html>
-<html lang="en" dir="auto" data-theme="auto">
-
-<head><meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
-<title>Teardown | ニコ技深セン / Nico-Tech Shenzhen website</title>
-<meta name="keywords" content="">
-<meta name="description" content="Reverse engineering, teardowns, chip decap notes.">
-<meta name="author" content="">
-<link rel="canonical" href="https://takasumasakazu.github.io/teardown/">
-<link crossorigin="anonymous" href="https://takasumasakazu.github.io/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://takasumasakazu.github.io/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://takasumasakazu.github.io/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://takasumasakazu.github.io/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://takasumasakazu.github.io/apple-touch-icon.png">
-<link rel="mask-icon" href="https://takasumasakazu.github.io/safari-pinned-tab.svg">
-<meta name="theme-color" content="#2e2e33">
-<meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="https://takasumasakazu.github.io/teardown/index.xml" title="rss">
-<link rel="alternate" hreflang="en" href="https://takasumasakazu.github.io/teardown/">
-<noscript>
-    <style>
-        #theme-toggle,
-        .top-link {
-            display: none;
-        }
-
-    </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --code-block-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-                color-scheme: dark;
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .toc {
-                background: var(--entry);
-            }
-        }
-
-        @media (prefers-color-scheme: light) {
-            .list::-webkit-scrollbar-thumb {
-                border-color: var(--code-bg);
-            }
-        }
-
-    </style>
-</noscript>
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else if (localStorage.getItem("pref-theme") === "light") {
-       document.querySelector("html").dataset.theme = 'light';
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else {
-        document.querySelector("html").dataset.theme = 'light';
-    }
-
-</script><meta property="og:url" content="https://takasumasakazu.github.io/teardown/">
-  <meta property="og:site_name" content="ニコ技深セン / Nico-Tech Shenzhen website">
-  <meta property="og:title" content="Teardown">
-  <meta property="og:description" content="Reverse engineering, teardowns, chip decap notes.">
-  <meta property="og:locale" content="en">
-  <meta property="og:type" content="website">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Teardown">
-<meta name="twitter:description" content="">
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position":  1 ,
-      "name": "Teardown",
-      "item": "https://takasumasakazu.github.io/teardown/"
-    }
-  ]
-}
-</script>
-</head>
-<body class="list" id="top">
-    <header class="header">
-    <nav class="nav">
-        <div class="logo">
-            <a href="https://takasumasakazu.github.io/" accesskey="h" title="ニコ技深セン / Nico-Tech Shenzhen website (Alt + H)">ニコ技深セン / Nico-Tech Shenzhen website</a>
-            <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                    </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="5"></circle>
-                        <line x1="12" y1="1" x2="12" y2="3"></line>
-                        <line x1="12" y1="21" x2="12" y2="23"></line>
-                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                        <line x1="1" y1="12" x2="3" y2="12"></line>
-                        <line x1="21" y1="12" x2="23" y2="12"></line>
-                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                    </svg>
-                </button>
-            </div>
-        </div>
-        <ul id="menu">
-            <li>
-                <a href="https://takasumasakazu.github.io/teardown/" title="Teardown">
-                    <span class="active">Teardown</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://takasumasakazu.github.io/shenzhen/" title="Shenzhen">
-                    <span>Shenzhen</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://takasumasakazu.github.io/years/" title="Years">
-                    <span>Years</span>
-                </a>
-            </li>
-        </ul>
-    </nav>
-</header>
-<main class="main"> 
-<header class="page-header"><div class="breadcrumbs"><a href="https://takasumasakazu.github.io/">Home</a></div>
-  <h1>
-    Teardown
-  </h1>
-</header>
-<div class="post-content"><p>Reverse engineering, teardowns, chip decap notes.</p>
-
-
-</div>
-
-<article class="post-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/1*1efPqGGXkZWfPF9lF3J0EA.jpeg" alt="">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">目指すはオープンなAIプラットフォームの構築 深センSiPEEDの挑戦
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>2019/08/27 07:30
+<!doctype html><html lang=en dir=auto data-theme=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Teardown | ニコ技深セン / Nico-Tech Shenzhen website</title>
+<meta name=keywords content><meta name=description content="Reverse engineering, teardowns, chip decap notes."><meta name=author content><link rel=canonical href=https://takasumasakazu.github.io/teardown/><link crossorigin=anonymous href=https://takasumasakazu.github.io/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css integrity="sha256-2jIR5e+Ge/K3X9WmUVz+1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as=style><link rel=icon href=https://takasumasakazu.github.io/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://takasumasakazu.github.io/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://takasumasakazu.github.io/favicon-32x32.png><link rel=apple-touch-icon href=https://takasumasakazu.github.io/apple-touch-icon.png><link rel=mask-icon href=https://takasumasakazu.github.io/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate type=application/rss+xml href=https://takasumasakazu.github.io/teardown/index.xml title=rss><link rel=alternate hreflang=en href=https://takasumasakazu.github.io/teardown/><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--code-block-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51);color-scheme:dark}.list{background:var(--theme)}.toc{background:var(--entry)}}@media(prefers-color-scheme:light){.list::-webkit-scrollbar-thumb{border-color:var(--code-bg)}}</style></noscript><script>localStorage.getItem("pref-theme")==="dark"?document.querySelector("html").dataset.theme="dark":localStorage.getItem("pref-theme")==="light"?document.querySelector("html").dataset.theme="light":window.matchMedia("(prefers-color-scheme: dark)").matches?document.querySelector("html").dataset.theme="dark":document.querySelector("html").dataset.theme="light"</script><meta property="og:url" content="https://takasumasakazu.github.io/teardown/"><meta property="og:site_name" content="ニコ技深セン / Nico-Tech Shenzhen website"><meta property="og:title" content="Teardown"><meta property="og:description" content="Reverse engineering, teardowns, chip decap notes."><meta property="og:locale" content="en"><meta property="og:type" content="website"><meta name=twitter:card content="summary"><meta name=twitter:title content="Teardown"><meta name=twitter:description content><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Teardown","item":"https://takasumasakazu.github.io/teardown/"}]}</script></head><body class=list id=top><header class=header><nav class=nav><div class=logo><a href=https://takasumasakazu.github.io/ accesskey=h title="ニコ技深セン / Nico-Tech Shenzhen website (Alt + H)">ニコ技深セン / Nico-Tech Shenzhen website</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)" aria-label="Toggle theme"><svg id="moon" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu><li><a href=https://takasumasakazu.github.io/teardown/ title=Teardown><span class=active>Teardown</span></a></li><li><a href=https://takasumasakazu.github.io/shenzhen/ title=Shenzhen><span>Shenzhen</span></a></li><li><a href=https://takasumasakazu.github.io/years/ title=Years><span>Years</span></a></li></ul></nav></header><main class=main><header class=page-header><div class=breadcrumbs><a href=https://takasumasakazu.github.io/>Home</a></div><h1>Teardown</h1></header><div class=post-content><p>Reverse engineering, teardowns, chip decap notes.</p></div><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://cdn-images-1.medium.com/max/800/1*1efPqGGXkZWfPF9lF3J0EA.jpeg alt></figure><header class=entry-header><h2 class=entry-hint-parent>目指すはオープンなAIプラットフォームの構築 深センSiPEEDの挑戦</h2></header><div class=entry-content><p>2019/08/27 07:30
 2019/08/27 07:30
 特定の企業が開発しているのではない、オープンなCPU命令セットであるRISC-Vが、新しいIoTの開発が多く、貿易紛争の影響で他国の企業が独占的に提供する命令セットを使うことに懸念が生じてきた中国で盛り上がっている。アリババやXiaomi傘下の企業がそれぞれRISC-Vベースのチップ開発を発表する中、昨年2018年末に起業したばかりの新しいスタートアップから、RISC-Vを採用したAI開発ボードが発売され、話題を集めている。日本でも筆者の所属するスイッチサイエンスなどで取り扱いが始まった。「オープンなAI＋IoTのプラットフォームを作るために起業した」というCEOのオーグマーが語る、SiPEEDのビジョンとは。
 起業して1年足らずで、もう20人の開発部隊 CEOのオーグマーは中国TOP10に入る華中科技大学で物理学の修士を取得した科学者だが、在学中から「ESP32ベースのオープンな開発プラットフォーム」を掲げるNodeMCUをCo-Founder（共同創業者）として起業した起業家でもある。
@@ -184,23 +19,7 @@ AIの学習モデル共有も視野に入れるSiPEED SiPEEDは「オープン�
 「AIに関する知識をすべてオープンに共有し、簡単に扱えて高性能で安価な環境を提供していくのがSiPEEDのミッションだ。今市場にあるAIボードはその意味でオープンでも安価でもないので、弊社に競合他社は存在しないと考えている」とオーグマーは語る。
 SiPEEDは中国企業なので開発は中国語がメインで、MaixPyのサイトにも「中国語ドキュメントのほうが英語より新しいことが多く、Google翻訳などを使って読んでください」との注記がある。これまで中国の技術は他国のキャッチアップが多かったが、SiPEEDのような先進的な技術企業が出てきて、かつオープンなエコシステムを主導していくのは、新しい時代の到来を感じさせる。
 By TAKASU Masakazu/高須正和{.p-author .h-card} on March 24, 2025.
-Canonical link Exported from Medium on February 6, 2026.
-</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-03-24 00:00:00 +0000 UTC'>March 24, 2025</span>&nbsp;·&nbsp;<span>1 min</span></footer>
-  <a class="entry-link" aria-label="post link to 目指すはオープンなAIプラットフォームの構築 深センSiPEEDの挑戦" href="https://takasumasakazu.github.io/teardown/ai-sipeed/"></a>
-</article>
-
-<article class="post-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/1*dDeHs7WTlwDfDFEsnuOxBw.jpeg" alt="">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">製品に最適な統合カスタムチップをオンデマンドで安価に作るスタートアップ、zGlue
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>2019/04/23 07:30
+Canonical link Exported from Medium on February 6, 2026.</p></div><footer class=entry-footer><span title='2025-03-24 00:00:00 +0000 UTC'>March 24, 2025</span>&nbsp;·&nbsp;<span>1 min</span></footer><a class=entry-link aria-label="post link to 目指すはオープンなAIプラットフォームの構築 深センSiPEEDの挑戦" href=https://takasumasakazu.github.io/teardown/ai-sipeed/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://cdn-images-1.medium.com/max/800/1*dDeHs7WTlwDfDFEsnuOxBw.jpeg alt></figure><header class=entry-header><h2 class=entry-hint-parent>製品に最適な統合カスタムチップをオンデマンドで安価に作るスタートアップ、zGlue</h2></header><div class=entry-content><p>2019/04/23 07:30
 2019/04/23 07:30
 モデム、CPU、メモリーなどの複数の機能を統合したSoC（System on Chip）は最近のIoT機器に欠かせない。Qualcommの「Snapdragon」シリーズやMediaTekが投入する統合チップは、さまざまなスマートフォンが短期間で開発されるエコシステムの重要な一部だ。SoCそのものを作るのはこれまで大企業に限られた話だったが、そこを大衆化させるビジネスを手がけるベンチャーがzGlue{.markup–anchor .markup–p-anchor}だ。
 SoCによりIoT機器の開発速度は上がる CPUやメモリー、WifiやBluetoothといった通信機能を、一つの半導体チップ内にまとめたSoC（System on Chip）は、安価で高性能なICT／IoT機器が続々登場するエコシステムの一部になっている。ICT機器の開発においては、自作PCのようにCPU、メモリー、グラフィックボード、記憶素子、無線機能などにそれぞれ必要な機能を備えたチップを集め、基板を設計してまとめる形が一般的だが、部品点数が増えると設計・製造・テストそれぞれの工数は増えていき、最終的に工数はコストになっては製品に添加される。
@@ -218,20 +37,7 @@ CTOで創業者の一人Jawad氏はスタンフォード大学でPh.Dを取得�
 サービスリリース前のこの段階のスタートアップだと、ある程度リソースを割いて検証に付き合ってくれる、リテラシーの高いユーザーたちは宝物のような存在だ。まだChipBuilderにも未実装の機能やバグが残っているし、「このサービスが最終的にどのように社会に受け入れられるか」は誰にも分からない。今のwechatグループは僕か秋田先生が承認するクローズドな形だが、サービスリリース後など、ユーザーを増やしていく段階になると、Facebookなどでオープンにコミュニティを作っていく形になるだろう。
 こうしたスタートアップと深く付き合えると、こちらにも知見がたまる。他の投資家界隈などと話すときもネタになるし、僕の勤務先であるスイッチサイエンスとも何か関係が持てそうなビジネスだ。この段階のスタートアップだと単なる一ユーザーでも深いコミュニケーションができ、何かしら一緒にコミュニティを立ち上げたりできるのは面白い話なので、これからもサポートしていくつもりでいる。
 By TAKASU Masakazu/高須正和{.p-author .h-card} on March 24, 2025.
-Canonical link Exported from Medium on February 6, 2026.
-</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-03-24 00:00:00 +0000 UTC'>March 24, 2025</span>&nbsp;·&nbsp;<span>1 min</span></footer>
-  <a class="entry-link" aria-label="post link to 製品に最適な統合カスタムチップをオンデマンドで安価に作るスタートアップ、zGlue" href="https://takasumasakazu.github.io/teardown/zglue/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">9/20よりメイカーフェア東京で日本に向かいます。メイカーフェア深圳、台北も受付中 ニコ技深センコミュニティ月次報告 2024年09月
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>深圳と日本、エンジニア間で相互のコラボレーションが進む。9月後半に高須も来日します。
+Canonical link Exported from Medium on February 6, 2026.</p></div><footer class=entry-footer><span title='2025-03-24 00:00:00 +0000 UTC'>March 24, 2025</span>&nbsp;·&nbsp;<span>1 min</span></footer><a class=entry-link aria-label="post link to 製品に最適な統合カスタムチップをオンデマンドで安価に作るスタートアップ、zGlue" href=https://takasumasakazu.github.io/teardown/zglue/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>9/20よりメイカーフェア東京で日本に向かいます。メイカーフェア深圳、台北も受付中 ニコ技深センコミュニティ月次報告 2024年09月</h2></header><div class=entry-content><p>深圳と日本、エンジニア間で相互のコラボレーションが進む。9月後半に高須も来日します。
 深圳と日本、エンジニア間で相互のコラボレーションが進む。9月後半に高須も来日します。
 9/21,22のメイカーフェア東京は、M5Stack,Arducam,Alientek,SpinQの4企業の出展をスイッチサイエンスが仲介して隣り合わせにブース出展します。また、9/23月曜にはM5Stackのユーザミートアップを行います。https://m5stack.connpass.com/event/329550/
 こうしたコラボレーションは、去年に比べてかなり拡大していてます。
@@ -282,19 +88,7 @@ https://www.shenzhen-fan.com/2024-09-ht-chinese-events-1/
 https://www.shenzhen-fan.com/2024-recommend-goods-for-china-life/
 8.【保存版】中国旅行者向け Alipay／WeChatPay クレジットカード登録方法
 これまで中国の銀行口座を持たない外国人旅行者は、電子決済の代表格となっている Alipay（支付宝）やWeChatPay（微信支付）の登録が難しく不便を強いられてきましたが、近年は国際クレジットカードからの紐付けができるようになり、またQRコード決済も可能となったため利便性が向上しました。今回は、外国人向けの中国情報チャンネル「CityNewsService」や、アリペイ、微信支付公式からの情報をもとに、今後中国に来られる方向けの電子決済登録方法を解説します。他に必要な情報あれば追記したいと考えていますので、情報をお寄せいただけると大変助かります🙏
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2024-08-31 00:00:00 +0000 UTC'>August 31, 2024</span>&nbsp;·&nbsp;<span>1 min</span></footer>
-  <a class="entry-link" aria-label="post link to 9/20よりメイカーフェア東京で日本に向かいます。メイカーフェア深圳、台北も受付中 ニコ技深センコミュニティ月次報告 2024年09月" href="https://takasumasakazu.github.io/teardown/9-20-2024-09/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">深圳M5Stackを搭載した楽器KANTAN Play coreがクラウドファンディング中 ニコ技深センコミュニティ月次報告 2024年07月
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>M5Stackをコア機能に使い、誰でもコードを身につけられる新しい電子楽器がクラウドファンディング中です。
+...</p></div><footer class=entry-footer><span title='2024-08-31 00:00:00 +0000 UTC'>August 31, 2024</span>&nbsp;·&nbsp;<span>1 min</span></footer><a class=entry-link aria-label="post link to 9/20よりメイカーフェア東京で日本に向かいます。メイカーフェア深圳、台北も受付中 ニコ技深センコミュニティ月次報告 2024年09月" href=https://takasumasakazu.github.io/teardown/9-20-2024-09/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>深圳M5Stackを搭載した楽器KANTAN Play coreがクラウドファンディング中 ニコ技深センコミュニティ月次報告 2024年07月</h2></header><div class=entry-content><p>M5Stackをコア機能に使い、誰でもコードを身につけられる新しい電子楽器がクラウドファンディング中です。
 M5Stackをコア機能に使い、誰でもコードを身につけられる新しい電子楽器がクラウドファンディング中です。
 作者ゆーいちさんはInstachordを藤岡さんの深圳JENESISで量産し、また今回M5Stackとクラウドファンディングに
 取り組んでいます。自分もコーディネイターとして関わっている他、このコミュニティにも関連メンバーが多く、
@@ -329,22 +123,7 @@ https://note.com/tomorrow56/m/ma0073059b5ac
 広州市は先日、広州市総合立体交通網規則を発表し、数年前から話題となっている中国主要都市をリニア線で結ぶ計画について再度言及しました。時速600kmの中国リニアが開通すると、深センー上海間は約2.5時間で到着する計算となり、広大な中国の東西南北が新たなインフラでつながります。
 https://www.shenzhen-fan.com/news-2024-06-04-maglev-trains-sz-gz-sh/
 2. 【吾友コンサル】News Letter 2024/05
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2024-06-30 00:00:00 +0000 UTC'>June 30, 2024</span>&nbsp;·&nbsp;<span>1 min</span></footer>
-  <a class="entry-link" aria-label="post link to 深圳M5Stackを搭載した楽器KANTAN Play coreがクラウドファンディング中 ニコ技深センコミュニティ月次報告 2024年07月" href="https://takasumasakazu.github.io/teardown/m5stack-kantan-play-core-2024-07/"></a>
-</article>
-
-<article class="post-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/1*K3WakdlS1I9HKI1Qt4VAsw.jpeg" alt="">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">5月24日 14:00- 深圳-日本 AI産業連携イベント開催：墨田区SUMIDA INNOVATION CORE（SIC）
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>ニコ技深圳と協力しているiMakerbaseの主催で、墨田区産業共創施設SUMIDA INNOVATION CORE（SIC）にてイベントを行います。受付フォーム公開中です。ぜひご興味ある方来場お願いします。
+...</p></div><footer class=entry-footer><span title='2024-06-30 00:00:00 +0000 UTC'>June 30, 2024</span>&nbsp;·&nbsp;<span>1 min</span></footer><a class=entry-link aria-label="post link to 深圳M5Stackを搭載した楽器KANTAN Play coreがクラウドファンディング中 ニコ技深センコミュニティ月次報告 2024年07月" href=https://takasumasakazu.github.io/teardown/m5stack-kantan-play-core-2024-07/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://cdn-images-1.medium.com/max/800/1*K3WakdlS1I9HKI1Qt4VAsw.jpeg alt></figure><header class=entry-header><h2 class=entry-hint-parent>5月24日 14:00- 深圳-日本 AI産業連携イベント開催：墨田区SUMIDA INNOVATION CORE（SIC）</h2></header><div class=entry-content><p>ニコ技深圳と協力しているiMakerbaseの主催で、墨田区産業共創施設SUMIDA INNOVATION CORE（SIC）にてイベントを行います。受付フォーム公開中です。ぜひご興味ある方来場お願いします。
 ニコ技深圳と協力しているiMakerbaseの主催で、墨田区産業共創施設SUMIDA INNOVATION CORE（SIC）にてイベントを行います。受付フォーム{.markup–anchor .markup–p-anchor}公開中です。ぜひご興味ある方来場お願いします。
 2024中国（深圳）-日本（東京）人工知能産業連携交流会及び深圳市人材政策説明会 イベント概要 中日間新技術の交流と協力を進めるため、中国国際貿易促進委員会深圳市委員会はiMakerbase国際ハードウェアアクセラレーター、深圳市人工知能産業協会と提携し、2024年5月24日東京で中日人工知能産業連携交流会を開催し、当日、18社の深圳人工知能関連会社は参加します。
 皆様のご来場心よりお待ちしています！
@@ -376,22 +155,10 @@ www.imakerbase.com 3、深圳市人工智能産業協会
 2015年に設立され、世界初のデスクトップ協働ロボットを開発しました。0.5–20kgの耐荷重をカバーする最初のロボット企業です。CRA、CR、CRS、MG400、M1Pro、Nova、Magicianの7大シリーズ20種類余りの協働ロボットを保有しています。3C、自働車、半導体、化学工業、医療、金属加工、小売店など、100以上の国と地域に合計68000台を出荷しました。
 https://www.dobot.cn/
 5、奥比中光科技集团股份有限公司（Orbbec Technology）
-Orbbecは、ロボットビジョンとAIビジョンの業界をリードする企業で、ロボットとAIビジョン産業のプラットフォームですを構築し、ロボットの「目」を作ります。独自に開発したチップと技術に基づいて、Orbbecはロボット、3Dスキャン、生物認識などの業界顧客と世界の開発者に高性能の3Dビジョンセンサーとロボット&amp; AIビジョン解決策を提供し、伝統業界のスマート化アップグレードを推進します。Orbbecは世界中の1000社以上の顧客と開発者に「R&amp;D &#43;製造」のワンストップ製品とサービスを提供しました、中でもロボットビジョン事業は中国のサービスロボット市場で70%以上のシェアを占めています。2022年に会社は上場しました。
+Orbbecは、ロボットビジョンとAIビジョンの業界をリードする企業で、ロボットとAIビジョン産業のプラットフォームですを構築し、ロボットの「目」を作ります。独自に開発したチップと技術に基づいて、Orbbecはロボット、3Dスキャン、生物認識などの業界顧客と世界の開発者に高性能の3Dビジョンセンサーとロボット& AIビジョン解決策を提供し、伝統業界のスマート化アップグレードを推進します。Orbbecは世界中の1000社以上の顧客と開発者に「R&amp;D +製造」のワンストップ製品とサービスを提供しました、中でもロボットビジョン事業は中国のサービスロボット市場で70%以上のシェアを占めています。2022年に会社は上場しました。
 www.orbbec.com.cn 6、影石創新科技股份有限公司（Insta 360）
 Insta360 は、プロ向けVRパノラマカメラ、アクションカメラ、コンシューマーパノラマカメラを研究開発・販売している。世界トップのパノラマ画像ブランドです、2023年まで360°カメラの世界シェアが50%を超えました。
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2024-04-30 00:00:00 +0000 UTC'>April 30, 2024</span>&nbsp;·&nbsp;<span>1 min</span></footer>
-  <a class="entry-link" aria-label="post link to 5月24日 14:00- 深圳-日本 AI産業連携イベント開催：墨田区SUMIDA INNOVATION CORE（SIC）" href="https://takasumasakazu.github.io/teardown/5-24-14-00-ai-sumida-innovation-core-sic/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">今週末、愛知県刈谷市でメイカーフェア ニコ技深センコミュニティ月次報告 2024年03月
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>3月2-3の土日、愛知県刈谷市でKariya Micro Maker Faireが開かれます。デンソーのオープンメイカースペースDMCが中心になって声がけしたもので、モビリティが多めの特色あるメイカーフェアになるはずです。
+...</p></div><footer class=entry-footer><span title='2024-04-30 00:00:00 +0000 UTC'>April 30, 2024</span>&nbsp;·&nbsp;<span>1 min</span></footer><a class=entry-link aria-label="post link to 5月24日 14:00- 深圳-日本 AI産業連携イベント開催：墨田区SUMIDA INNOVATION CORE（SIC）" href=https://takasumasakazu.github.io/teardown/5-24-14-00-ai-sumida-innovation-core-sic/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>今週末、愛知県刈谷市でメイカーフェア ニコ技深センコミュニティ月次報告 2024年03月</h2></header><div class=entry-content><p>3月2-3の土日、愛知県刈谷市でKariya Micro Maker Faireが開かれます。デンソーのオープンメイカースペースDMCが中心になって声がけしたもので、モビリティが多めの特色あるメイカーフェアになるはずです。
 3月2-3の土日、愛知県刈谷市でKariya Micro Maker Faireが開かれます。デンソーのオープンメイカースペースDMCが中心になって声がけしたもので、モビリティが多めの特色あるメイカーフェアになるはずです。
 高須も3/2 15:20- コロナ以降の世界メイカーフェア事情 として講演します。
 https://makezine.jp/event/makerfaire/kmmf2024/
@@ -406,7 +173,7 @@ JA1TYE/Ryota Suzuki (@JA1TYE)
 今月は2件のBlog記事を書きました。
 「Maker Faire Taipei 2023に行ってきました」：2023年11月18-19日に台北で開催されたMaker Faire Taipei 2023の見学記です。
 https://t-techlab.com/2024/02/17/maker-faire-taipei-2023に行ってきました/ 「TinyTapeoutでオレオレICを作ろう」：オープンソースソフトウェアによる開発環境やオープンな半導体設計ライブラリ（PDK）を使うことでNDAに縛られずICを設計することができる環境が整ってきています。
-そのような環境を活用し、教育目的を兼ねて有志から設計を募ってICを製造する試みである&#34;TinyTapeout&#34;についての紹介記事です。現在第6回目の設計募集期間中です。
+そのような環境を活用し、教育目的を兼ねて有志から設計を募ってICを製造する試みである"TinyTapeout"についての紹介記事です。現在第6回目の設計募集期間中です。
 https://t-techlab.com/2024/02/18/tinytapeoutでオレオレicを作ろう/ ■ThousanDIY/Masao Yamazaki(@tomorrow56)
 1. 工学社 月刊I/O 連載「100円ショップガジェット分解」 ・2024年3月号: 「人感センサケーブル」
 PIRセンサー搭載のLEDテープ用の基板部分を汎用展開した商品です。既存製品も目の付け所次第で新しい売り方ができるという良い例だと思います。
@@ -424,19 +191,7 @@ https://note.com/tomorrow56/m/ma0073059b5ac
 https://www.shenzhen-fan.com/news-2024-02-sz-gdp-2023/
 2.2024 春節関連情報：今回の春節では以下のようなイベントが開催されました。
 深セン春節特別版ライトショー
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2024-02-29 00:00:00 +0000 UTC'>February 29, 2024</span>&nbsp;·&nbsp;<span>1 min</span></footer>
-  <a class="entry-link" aria-label="post link to 今週末、愛知県刈谷市でメイカーフェア ニコ技深センコミュニティ月次報告 2024年03月" href="https://takasumasakazu.github.io/teardown/2024-03/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">日本各地のイベントに参加します。 ニコ技深センコミュニティ月次報告 2024年02月
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>■分解のススメ：テカナリエ清水さん講演
+...</p></div><footer class=entry-footer><span title='2024-02-29 00:00:00 +0000 UTC'>February 29, 2024</span>&nbsp;·&nbsp;<span>1 min</span></footer><a class=entry-link aria-label="post link to 今週末、愛知県刈谷市でメイカーフェア ニコ技深センコミュニティ月次報告 2024年03月" href=https://takasumasakazu.github.io/teardown/2024-03/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>日本各地のイベントに参加します。 ニコ技深センコミュニティ月次報告 2024年02月</h2></header><div class=entry-content><p>■分解のススメ：テカナリエ清水さん講演
 ■分解のススメ：テカナリエ清水さん講演
 早稲田ビジネススクール講義 テカナリエ清水洋治代表 講演 2月8日木曜日18:20 オンライン
 #分解のススメ{.markup–anchor .markup–p-anchor} 特別編として、テカナリエ清水代表の講演をyoutube liveします！ブラックボックスをつくらない考え方は、ビジネスでも必須
@@ -471,19 +226,7 @@ https://note.com/tomorrow56/m/ma0073059b5ac
 ■荒木大地 日本人のための深セン情報サイト(shenzhen-fan.com{.markup–anchor .markup–p-anchor}) 深セン ファン
 1. 巨大アヒル「ラバーダック」など、12の公共アート作品が深センタレントパークに出現（-1/20）
 オランダやドイツなど各国の公共芸術家による12のパブリックアート作品が深セン人才公園（タレントパーク）にて展示中です。「深セン湾パブリックアートシーズン」と呼ばれる当展示の中でも特に話題となっているのが、世界的に有名なアート作品「ラバーダック」（Rubber Duck）。1月20日まで展示されていました。他の作品は3月末まで展示されます。
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2024-02-01 00:00:00 +0000 UTC'>February 1, 2024</span>&nbsp;·&nbsp;<span>2 min</span></footer>
-  <a class="entry-link" aria-label="post link to 日本各地のイベントに参加します。 ニコ技深センコミュニティ月次報告 2024年02月" href="https://takasumasakazu.github.io/teardown/2024-02/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">初島会議にて来日 ニコ技深センコミュニティ月次報告 2023年12月
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>12月の8–9日に軽井沢でで行われる「初島会議」に登壇するため、日本に向かいます。
+...</p></div><footer class=entry-footer><span title='2024-02-01 00:00:00 +0000 UTC'>February 1, 2024</span>&nbsp;·&nbsp;<span>2 min</span></footer><a class=entry-link aria-label="post link to 日本各地のイベントに参加します。 ニコ技深センコミュニティ月次報告 2024年02月" href=https://takasumasakazu.github.io/teardown/2024-02/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>初島会議にて来日 ニコ技深センコミュニティ月次報告 2023年12月</h2></header><div class=entry-content><p>12月の8–9日に軽井沢でで行われる「初島会議」に登壇するため、日本に向かいます。
 12月の8–9日に軽井沢でで行われる「初島会議」に登壇するため、日本に向かいます。
 https://dsdesign.org/
 12月27日には、1950年代にアメリカ国防予算でスタンフォード大学に予算が注ぎ込まれてから、
@@ -522,22 +265,7 @@ https://www.kazankai.org/media/ea/a1157
 急成長するEVに失速のきざしか？ Wedge ONLINE(ウェッジ・オンライン)
 https://wedge.ismedia.jp/articles/-/32220
 《現地事情》中国経済「まだら状の不況」――悲観論はどこまで正しいか：高口康太 | 記事 | 新潮社 Foresight(フォーサイト) | 会員制国際情報サイト
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2023-11-30 00:00:00 +0000 UTC'>November 30, 2023</span>&nbsp;·&nbsp;<span>2 min</span></footer>
-  <a class="entry-link" aria-label="post link to 初島会議にて来日 ニコ技深センコミュニティ月次報告 2023年12月" href="https://takasumasakazu.github.io/teardown/2023-12/"></a>
-</article>
-
-<article class="post-entry"> 
-<figure class="entry-cover">
-        <img loading="lazy" src="https://twitter.com/tks/status/1721650674990252191" alt="">
-</figure>
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">日本語訳：Regarding Proposed US Restrictions on RISC-V...
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>ハードウェアハッカーの著者バニー・ファン@bunniestudioは、11月6日にアメリカで提出された「中国の優位を防ぐため、アメリカでRISC-Vへの協力を規制しよう」案について反対する公開書簡をブログで発表した。ツイートでは「この案はむしろアメリカのパワーを削ぐ」としている。…
+...</p></div><footer class=entry-footer><span title='2023-11-30 00:00:00 +0000 UTC'>November 30, 2023</span>&nbsp;·&nbsp;<span>2 min</span></footer><a class=entry-link aria-label="post link to 初島会議にて来日 ニコ技深センコミュニティ月次報告 2023年12月" href=https://takasumasakazu.github.io/teardown/2023-12/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://twitter.com/tks/status/1721650674990252191 alt></figure><header class=entry-header><h2 class=entry-hint-parent>日本語訳：Regarding Proposed US Restrictions on RISC-V...</h2></header><div class=entry-content><p>ハードウェアハッカーの著者バニー・ファン@bunniestudioは、11月6日にアメリカで提出された「中国の優位を防ぐため、アメリカでRISC-Vへの協力を規制しよう」案について反対する公開書簡をブログで発表した。ツイートでは「この案はむしろアメリカのパワーを削ぐ」としている。…
 日本語訳：Regarding Proposed US Restrictions on RISC-V バニー・ファン、アメリカで提出された「中国の優位を防ぐため、アメリカでRISC-Vへの協力を規制しよう」案について反対する公開書簡 ハードウェアハッカー{.markup–anchor .markup–p-anchor}の著者バニー・ファン@bunniestudio{.markup–anchor .markup–p-anchor}は、11月6日にアメリカで提出された「中国の優位を防ぐため、アメリカでRISC-Vへの協力を規制しよう」案について反対する公開書簡をブログ{.markup–anchor .markup–p-anchor}で発表した。ツイートでは「この案はむしろアメリカのパワーを削ぐ」としている。
 以下[Regarding Proposed US Restrictions on RISC-V{.markup–anchor .markup–p-anchor}]翻訳
 米国のRISC-V規制案について 米国議会の18人の超党派議員からなるグループは最近、ホワイトハウスと商務長官に対し、中国がCPU技術で優位に立つのを防ぐため、アメリカで{.markup–anchor .markup–p-anchor}RISC-V{.markup–anchor .markup–p-anchor}を扱うことについて制限を設ける{.markup–anchor .markup–p-anchor}よう要請した（上院からの最初の要請も{.markup–anchor .markup–p-anchor}参照）。
@@ -564,19 +292,7 @@ Andrew ‘bunnie’ Huang
 An American Hacker, Maker, and Author
 [1] https://github.com/riscvarchive/riscv-cores-list
 バニー・ファンのブログbunniestudio.com{.markup–anchor .markup–p-anchor}は、CC BY-SA 4.0 DEED{.markup–anchor .markup–p-anchor}で公開されている。
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2023-11-06 00:00:00 +0000 UTC'>November 6, 2023</span>&nbsp;·&nbsp;<span>1 min</span></footer>
-  <a class="entry-link" aria-label="post link to 日本語訳：Regarding Proposed US Restrictions on RISC-V..." href="https://takasumasakazu.github.io/teardown/regarding-proposed-us-restrictions-on-risc-v/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">10月14--15日 メイカーフェア東京でお会いしましょう ニコ技深センコミュニティ月次報告 2023年10月
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>メイカーフェア東京10月14–15日、メイカーフェア深セン11月11–12日につづいて、メイカーフェア台北11月18–19日も募集が始まりました。
+...</p></div><footer class=entry-footer><span title='2023-11-06 00:00:00 +0000 UTC'>November 6, 2023</span>&nbsp;·&nbsp;<span>1 min</span></footer><a class=entry-link aria-label="post link to 日本語訳：Regarding Proposed US Restrictions on RISC-V..." href=https://takasumasakazu.github.io/teardown/regarding-proposed-us-restrictions-on-risc-v/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>10月14--15日 メイカーフェア東京でお会いしましょう ニコ技深センコミュニティ月次報告 2023年10月</h2></header><div class=entry-content><p>メイカーフェア東京10月14–15日、メイカーフェア深セン11月11–12日につづいて、メイカーフェア台北11月18–19日も募集が始まりました。
 メイカーフェア東京10月14–15日、メイカーフェア深セン11月11–12日につづいて、メイカーフェア台北11月18–19日も募集が始まりました。
 ニコ技深センコミュニティは、深セン・台北の両イベントに出展します。
 メイカーフェア深セン共同出展
@@ -605,7 +321,7 @@ https://www.shenzhen-fan.com/news-2023-09-04-starbucks-china-setup-innovation-an
 3.【吾友コンサル】日系企業の海外送金に関する無料相談会の開催
 深セン・広東省を中心に活躍されている吾友コンサルからのお知らせです。今回は、中国に進出している日系企業が直面しやすい「海外送金」（対外送金）に関する無料相談会が実施されます。税金や届出の有無、優遇措置などの様々な疑問について相談できます。
 https://www.shenzhen-fan.com/2023-09-goyuu-consulting/
-4.【うづき薬局 &#43; J Medi コネクション】中国各地へ日本の医薬品配送サービス開始！（期間限定お薬代20%OFF）
+4.【うづき薬局 + J Medi コネクション】中国各地へ日本の医薬品配送サービス開始！（期間限定お薬代20%OFF）
 2023年9月、Shenzhen Fanは「AKクロスボーダーズ社」と提携を行い、中国在住の方々に日本のお薬を配送するサービスを始めました。
 現在のところ、中国では日本の薬が転売ヤーにより薬価の4倍ほどで違法に取引されているケースが多く見受けられます。今回開始した当サービスは、そのような違法な転売を無くし日本側の薬剤師の指導のもと、安全にお薬の相談・配送を行えるようになる日本初のサービスです。
 https://www.shenzhen-fan.com/2023-09-jmedi-connection/
@@ -618,99 +334,11 @@ https://www.shenzhen-fan.com/news-2023-09-19-sz-metro-resumed-all-station/
 昨年より深セン市内でテスト運用が続けられていた「微信刷掌支付」（WeChat Pay 手のひら決済）が、ついに正式運用を開始しました。
 現在、全国に先駆けて広東省内のセブンイレブンや深セン市内の一部モールで決済端末が導入されています。現金やスマホを持ち歩かなくても手のひらだけで決済可能な中国初の新技術は、順次全国に拡大していきます。
 https://www.shenzhen-fan.com/news-2023-09-11-wechat-palm-payment-official-start-in-guangdong/
-7.深セン日本人対応クリニック「Vista-SK」にて第11回「HEALTH &amp; WELLNESS FAIR」開催(9/16)
-深センの日本人対応クリニック「Vista-SK国際医療センター」にて、 9/16(土)に無料のフィットネス・ダンスなどの大規模健康イベント ＜第11回「HEALTH &amp; WELLNESS FAIR」＞ が開催されました。そして、Shenzhen Fanも寿司郎（スシロー）、エイブル深センといった日系企業と共に初のブース出展を行いました。
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2023-09-30 00:00:00 +0000 UTC'>September 30, 2023</span>&nbsp;·&nbsp;<span>1 min</span></footer>
-  <a class="entry-link" aria-label="post link to 10月14--15日 メイカーフェア東京でお会いしましょう ニコ技深センコミュニティ月次報告 2023年10月" href="https://takasumasakazu.github.io/teardown/10-14-15-2023-10/"></a>
-</article>
-<footer class="page-footer">
-  <nav class="pagination">
-    <a class="prev" href="https://takasumasakazu.github.io/teardown/">
-      «&nbsp;Prev&nbsp;
-    </a>
-    <a class="next" href="https://takasumasakazu.github.io/teardown/page/3/">Next&nbsp;&nbsp;»
-    </a>
-  </nav>
-</footer>
-    </main>
-    
-<footer class="footer">
-        <span>&copy; 2026 <a href="https://takasumasakazu.github.io/">ニコ技深セン / Nico-Tech Shenzhen website</a></span> · 
-
-    <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-    </span>
-</footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
-    </svg>
-</a>
-
-<script>
-    let menu = document.getElementById('menu');
-    if (menu) {
-        
-        const scrollPosition = localStorage.getItem("menu-scroll-position");
-        if (scrollPosition) {
-            menu.scrollLeft = parseInt(scrollPosition, 10);
-        }
-        
-        menu.onscroll = function () {
-            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
-        }
-    }
-
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener("click", function (e) {
-            e.preventDefault();
-            var id = this.getAttribute("href").substr(1);
-            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
-                    behavior: "smooth"
-                });
-            } else {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
-            }
-            if (id === "top") {
-                history.replaceState(null, null, " ");
-            } else {
-                history.pushState(null, null, `#${id}`);
-            }
-        });
-    });
-
-</script>
-<script>
-    var mybutton = document.getElementById("top-link");
-    window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
-        } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
-        }
-    };
-
-</script>
-<script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        const html = document.querySelector("html");
-        if (html.dataset.theme === "dark") {
-            html.dataset.theme = 'light';
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            html.dataset.theme = 'dark';
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
-
-</script>
-</body>
-
-</html>
+7.深セン日本人対応クリニック「Vista-SK」にて第11回「HEALTH & WELLNESS FAIR」開催(9/16)
+深センの日本人対応クリニック「Vista-SK国際医療センター」にて、 9/16(土)に無料のフィットネス・ダンスなどの大規模健康イベント ＜第11回「HEALTH & WELLNESS FAIR」＞ が開催されました。そして、Shenzhen Fanも寿司郎（スシロー）、エイブル深センといった日系企業と共に初のブース出展を行いました。
+...</p></div><footer class=entry-footer><span title='2023-09-30 00:00:00 +0000 UTC'>September 30, 2023</span>&nbsp;·&nbsp;<span>1 min</span></footer><a class=entry-link aria-label="post link to 10月14--15日 メイカーフェア東京でお会いしましょう ニコ技深センコミュニティ月次報告 2023年10月" href=https://takasumasakazu.github.io/teardown/10-14-15-2023-10/></a></article><footer class=page-footer><nav class=pagination><a class=prev href=https://takasumasakazu.github.io/teardown/>«&nbsp;Prev&nbsp;
+</a><a class=next href=https://takasumasakazu.github.io/teardown/page/3/>Next&nbsp;&nbsp;»</a></nav></footer></main><footer class=footer><span>&copy; 2026 <a href=https://takasumasakazu.github.io/>ニコ技深セン / Nico-Tech Shenzhen website</a></span> ·
+<span>Powered by
+<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
+        <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
+</a><script>let menu=document.getElementById("menu");if(menu){const e=localStorage.getItem("menu-scroll-position");e&&(menu.scrollLeft=parseInt(e,10)),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}}document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{const e=document.querySelector("html");e.dataset.theme==="dark"?(e.dataset.theme="light",localStorage.setItem("pref-theme","light")):(e.dataset.theme="dark",localStorage.setItem("pref-theme","dark"))})</script></body></html>

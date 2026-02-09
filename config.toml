@@ -2,6 +2,7 @@ baseURL = "https://takasumasakazu.github.io/"
 title = "ニコ技深セン / Nico-Tech Shenzhen website"
 theme = "PaperMod"
 
+
 # SEO 基本
 enableRobotsTXT = true
 canonifyURLs = true

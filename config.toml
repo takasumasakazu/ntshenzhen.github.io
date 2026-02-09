@@ -43,6 +43,11 @@ name = "About"
 url = "/about/"
 weight = 5
 
+[[menu.main]]
+name = "Monthly"
+url = "/tags/monthly-report/"
+weight = 6
+
 # PaperMod SEO設定
 [params]
   env = "production"
@@ -55,6 +60,9 @@ weight = 5
   ShowToc = true
   ShowPostCover = true
   disableSpecial1stPost = true
+[params]
+  googleSiteVerification = "qZ8Cu4n2HHEflyE7J4NOIcXHW3tpZUkV7QvZEjlGEWQ"
+
 
 # Cover 表示
 [params.cover]

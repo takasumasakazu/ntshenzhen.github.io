@@ -1,10 +1,10 @@
 ---
 title: '深圳M5Stackを搭載した楽器KANTAN Play coreがクラウドファンディング中 ニコ技深センコミュニティ月次報告 2024年07月'
+tags: ["monthly-report"]
 aliases: ["/2024/06/m5stack-kantan-play-core-2024-07/"]
 slug: m5stack-kantan-play-core-2024-07
 date: 2024-06-30
 ---
-
 M5Stackをコア機能に使い、誰でもコードを身につけられる新しい電子楽器がクラウドファンディング中です。
 
 

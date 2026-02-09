@@ -1,5 +1,6 @@
 ---
 title: '深圳JENESISよりAIWAデジタルが誕生 ニコ技深センコミュニティ月次報告 2022年08月'
+tags: ["monthly-report"]
 cover:
   image: "https://cdn-images-1.medium.com/max/800/0*PCSmeSsF84Rklv5z.jpg"
   relative: false
@@ -7,7 +8,6 @@ aliases: ["/2022/07/jenesis-aiwa-2022-08/"]
 slug: jenesis-aiwa-2022-08
 date: 2022-07-31
 ---
-
 深圳JENESISからAIWAデジタルが誕生
 
 

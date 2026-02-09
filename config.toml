@@ -38,6 +38,11 @@ buildFuture = false
     url = "/years/"
     weight = 30
 
+[[menu.main]]
+name = "About"
+url = "/about/"
+weight = 5
+
 # PaperMod SEO設定
 [params]
   env = "production"

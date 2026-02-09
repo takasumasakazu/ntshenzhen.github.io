@@ -3,6 +3,7 @@ title: "ニコ技深圳コミュニティとは About Nico-Tech Shenzhen Communi
 date: 2017-06-19
 url: "/about/"
 layout: "single"
+description: "Nico-Tech Shenzhen（ニコ技深圳）の活動史、思想、国際的コミュニティとしての取り組みをまとめた紹介ページ。"
 ---
 
 ![深圳で行われているミートアップの様子](/images/about/1_18r5Wu9wDMCaPngLqpX12w.jpg)

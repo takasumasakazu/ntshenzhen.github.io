@@ -62,7 +62,6 @@ weight = 6
   disableSpecial1stPost = true
   googleSiteVerification = "qZ8Cu4n2HHEflyE7J4NOIcXHW3tpZUkV7QvZEjlGEWQ"
 
-
 # Cover 表示
 [params.cover]
   hidden = false

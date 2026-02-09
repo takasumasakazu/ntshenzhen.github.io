@@ -1,5 +1,167 @@
-<!doctype html><html lang=en dir=auto data-theme=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Teardown | ニコ技深セン / Nico-Tech Shenzhen website</title>
-<meta name=keywords content><meta name=description content="Reverse engineering, teardowns, chip decap notes."><meta name=author content><link rel=canonical href=https://takasumasakazu.github.io/teardown/><link crossorigin=anonymous href=https://takasumasakazu.github.io/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css integrity="sha256-2jIR5e+Ge/K3X9WmUVz+1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as=style><link rel=icon href=https://takasumasakazu.github.io/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://takasumasakazu.github.io/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://takasumasakazu.github.io/favicon-32x32.png><link rel=apple-touch-icon href=https://takasumasakazu.github.io/apple-touch-icon.png><link rel=mask-icon href=https://takasumasakazu.github.io/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate type=application/rss+xml href=https://takasumasakazu.github.io/teardown/index.xml title=rss><link rel=alternate hreflang=en href=https://takasumasakazu.github.io/teardown/><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--code-block-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51);color-scheme:dark}.list{background:var(--theme)}.toc{background:var(--entry)}}@media(prefers-color-scheme:light){.list::-webkit-scrollbar-thumb{border-color:var(--code-bg)}}</style></noscript><script>localStorage.getItem("pref-theme")==="dark"?document.querySelector("html").dataset.theme="dark":localStorage.getItem("pref-theme")==="light"?document.querySelector("html").dataset.theme="light":window.matchMedia("(prefers-color-scheme: dark)").matches?document.querySelector("html").dataset.theme="dark":document.querySelector("html").dataset.theme="light"</script><meta property="og:url" content="https://takasumasakazu.github.io/teardown/"><meta property="og:site_name" content="ニコ技深セン / Nico-Tech Shenzhen website"><meta property="og:title" content="Teardown"><meta property="og:description" content="Reverse engineering, teardowns, chip decap notes."><meta property="og:locale" content="en"><meta property="og:type" content="website"><meta name=twitter:card content="summary"><meta name=twitter:title content="Teardown"><meta name=twitter:description content><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Teardown","item":"https://takasumasakazu.github.io/teardown/"}]}</script></head><body class=list id=top><header class=header><nav class=nav><div class=logo><a href=https://takasumasakazu.github.io/ accesskey=h title="ニコ技深セン / Nico-Tech Shenzhen website (Alt + H)">ニコ技深セン / Nico-Tech Shenzhen website</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)" aria-label="Toggle theme"><svg id="moon" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu><li><a href=https://takasumasakazu.github.io/teardown/ title=Teardown><span class=active>Teardown</span></a></li><li><a href=https://takasumasakazu.github.io/shenzhen/ title=Shenzhen><span>Shenzhen</span></a></li><li><a href=https://takasumasakazu.github.io/years/ title=Years><span>Years</span></a></li></ul></nav></header><main class=main><header class=page-header><div class=breadcrumbs><a href=https://takasumasakazu.github.io/>Home</a></div><h1>Teardown</h1></header><div class=post-content><p>Reverse engineering, teardowns, chip decap notes.</p></div><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>CES2026と2月の来日お知らせ ニコ技深センコミュニティ月次報告 2026年02月</h2></header><div class=entry-content><p>2026年も1ヶ月があっという間に過ぎました。CES取材から早稲田講義スタートまでバタバタでしたが、StackchanのKickstarterが順調に進んでいて、コミュニティとしてもポジティブなムードです。
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Teardown | ニコ技深セン / Nico-Tech Shenzhen website</title>
+<meta name="keywords" content="">
+<meta name="description" content="Reverse engineering, teardowns, chip decap notes.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/teardown/">
+<link crossorigin="anonymous" href="http://localhost:1313/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/teardown/index.xml" title="rss">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/teardown/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="http://localhost:1313/teardown/">
+  <meta property="og:site_name" content="ニコ技深セン / Nico-Tech Shenzhen website">
+  <meta property="og:title" content="Teardown">
+  <meta property="og:description" content="Reverse engineering, teardowns, chip decap notes.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Teardown">
+<meta name="twitter:description" content="">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Teardown",
+      "item": "http://localhost:1313/teardown/"
+    }
+  ]
+}
+</script>
+</head>
+<body class="list" id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="ニコ技深セン / Nico-Tech Shenzhen website (Alt + H)">ニコ技深セン / Nico-Tech Shenzhen website</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/teardown/" title="Teardown">
+                    <span class="active">Teardown</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/shenzhen/" title="Shenzhen">
+                    <span>Shenzhen</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/years/" title="Years">
+                    <span>Years</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header"><div class="breadcrumbs"><a href="http://localhost:1313/">Home</a></div>
+  <h1>
+    Teardown
+  </h1>
+</header>
+<div class="post-content"><p>Reverse engineering, teardowns, chip decap notes.</p>
+
+
+</div>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">CES2026と2月の来日お知らせ ニコ技深センコミュニティ月次報告 2026年02月
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>2026年も1ヶ月があっという間に過ぎました。CES取材から早稲田講義スタートまでバタバタでしたが、StackchanのKickstarterが順調に進んでいて、コミュニティとしてもポジティブなムードです。
 2026年も1ヶ月があっという間に過ぎました。CES取材から早稲田講義スタートまでバタバタでしたが、StackchanのKickstarterが順調に進んでいて、コミュニティとしてもポジティブなムードです。
 ■CES 2026：深セン勢の存在感がさらにアップ
 1月上旬のCESは予想通り深セン企業が目立ちました。特にM5StackブースではStackchanが実機展示され、AI-Pyramidとの組み合わせデモ（エッジAIでクラウド不要の音声スマートホーム制御）が話題に。自分も現地で回りながら、多くの人と話せて有意義でした。Physical AI関連の理解も進んでいる印象で、日本語での発信機会が増えそうです。詳細報告はDiscordやメンバー向けメールでシェアしています。
@@ -29,7 +191,81 @@ Google Calendar（nicotechshenzhen@gmail.com を追加）で深圳のコンベ�
 各メンバーからのシェア：
 ■荒木大地 日本人のための深セン情報サイト( shenzhen-fan.com ) 深セン ファン
 1. Shenzhen Fan 2025年 人気記事トップ10位＋注目記事発表
-...</p></div><footer class=entry-footer><span title='2026-02-01 00:00:00 +0000 UTC'>February 1, 2026</span>&nbsp;·&nbsp;<span>2 min</span></footer><a class=entry-link aria-label="post link to CES2026と2月の来日お知らせ ニコ技深センコミュニティ月次報告 2026年02月" href=https://takasumasakazu.github.io/teardown/ces2026-2-2026-02/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://cdn-images-1.medium.com/max/800/0*Q7emwO6p1nrIRz6S alt></figure><header class=entry-header><h2 class=entry-hint-parent>国際ロボット展（ビッグサイト）で12月5,6と講演します。 ニコ技深センコミュニティ月次報告 2025年12月</h2></header><div class=entry-content><p>今はメイカーフェア台北に、日本からのニコ技共同出展グループで参加中です。今日30日の台北は28度と暖かく、メイカーフェアの他に街歩きも楽しいです。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-02-01 00:00:00 +0000 UTC'>February 1, 2026</span>&nbsp;·&nbsp;<span>2 min</span></footer>
+  <a class="entry-link" aria-label="post link to CES2026と2月の来日お知らせ ニコ技深センコミュニティ月次報告 2026年02月" href="http://localhost:1313/teardown/ces2026-2-2026-02/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">CES2026と2月の来日お知らせ ニコ技深センコミュニティ月次報告 2026年01月
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>国際ロボット展での講演は好評でした。有料講演だったので資料は参加者のみですが、ロボットについての資料はいくつか公開してあります。フィジカルAIについては誤解のほうがまだ多いな、と感じたイベントでした。
+国際ロボット展での講演は好評でした。有料講演だったので資料は参加者のみですが、ロボットについての資料はいくつか公開してあります。フィジカルAIについては誤解のほうがまだ多いな、と感じたイベントでした。
+2025年後半、PhysicalAIについて日本語で何度かプレゼンしてみて
+https://note.com/takasu/n/nf7e7586181da
+■オンラインコミュニティに参加ください！
+ハードウェア情報の共有 #分解のススメ コミュニティで、チャットグループDiscodeのサーバを運用しています。
+深セン関係の情報もここにpostしていこうと思っています。(Facebookがメインだったが、若い人が使ってないので）
+https://discord.gg/jYNCHxxR
+開設いらいそれほど活発でないですが、2026年はもう一度頑張ってみたい。
+もちろんFacebookグループで進捗をお知らせしていきます。
+https://www.facebook.com/groups/ntshenzhen
+■CESに多くの深セン企業が参加、2026年も続く海外活動
+2025年は日本から深センへのビザなし渡航が許可されたことで、
+[5月 国際ドローン展 https://media.dglab.com/2024/08/26-low-altitude-economy-01/] [7月 DJI Robomaster https://spc.jst.go.jp/experiences/science/st_24108.html] [8月 世界ヒューマノイドロボット運動会 https://spc.jst.go.jp/experiences/science/st_25075.html] [11月 Maker Faire Shenzhen https://note.com/takasu/n/nac0d9f9cc0b5] [12月 Maker Faire Taipei] と、多くの活動ができました。 また、M5Stackの大阪・函館ミートアップ、NT函館、NT金沢、メイカーフェア東京、iREXと、日本での活動に多くの中国メイカーが参加し、コミュニティとしての活動がより盛んになりました。
+2026年もビザ免除が続くことで、より多くの共創活動が行われるでしょう。
+まず最初に、2026年頭のCESで深センから多くの企業が出展します。ニコ技深センとかかわりあるのは以下の企業などです。
+自分もメディアとして1月3日-9日は会場にいます。いらっしゃる方ぜひお会いしましょう。出歩いていないときはM5Stackブースにいます。
+各ブースの位置はメール下記イベント情報のコーナーに書きました。
+■M5Stackからコミュニティベースのロボット Stackchan が製品化, Kickstarterを準備中
+日本のM5Stackユーザコミュニティから生まれたオープンソースのロボットプロジェクト「スタックチャン」
+https://github.com/stack-chan/stack-chan/blob/dev/v1.0/README_ja.md
+DIYキットとして多くの人に愛好されているこのプロジェクトを、M5Stack社としても箱を開けたら使える
+製品としてKickstarter準備中。プロジェクト開始前の年末時点で、すでに1000名規模の支持者がいるようです。
+https://shop.m5stack.com/pages/m5stack?srsltid=AfmBOop6hBlHB9Koj8F4EvHoDJWJ6NO02UNYC_UmN5X-oJGYauFmVmjy
+M5Stackの売り上げで日本は2番目の市場で、一貫して最も活発なユーザコミュニティがあることで、多くの新製品が生まれています。2026年もM5Stackの来日は増えそうです。これまでの活動に加えて、今年は名古屋でのミートアップを計画しています。
+■2月に早稲田大学の講義で来日します。
+2026年2月も早稲田大学の非常勤講師として「深センの産業集積とハードウェアのマスイノベーション」(14コマ）を担当することになり、1月30日-2月14日の約２週間来日します。講義はMBA社会人向けで夜間なので、平日昼間はまだ予定が空いています。
+久々にお会いできる方々ぜひ。
+◽️深圳でのイベントカレンダーを公開中
+Google Calender形式で、深圳に２か所あるコンベンションセンターのイベントを公開しています。
+nicotechshenzhen@gmail.com
+をgoogle calenderで追加するとイベントが出てきます。
+各メンバーからのシェア：
+■ThousanDIY/Masao Yamazaki(@tomorrow56)
+1. 工学社 月刊I/O 連載「100円ショップガジェット分解」
+・2026年1月号: ダイソーの「スケルトンデザインモバイルバッテリー」
+ダイソーの透明ケースで基板が見えるモバイルバッテリーです。(「スケルトン」という商品名は「まあそうか」という感じですが)
+秋葉原の老舗の「(株)磁気研究所」(MAG-Lab、 HIDISC)製でInjoinicの充電コントローラを採用。
+書籍情報ページ：https://www.kohgakusha.co.jp/books/detail/4891
+月刊I/Oは電子書籍でも買えます。
+https://digibook.kohgakusha.co.jp/
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-01-01 00:00:00 +0000 UTC'>January 1, 2026</span>&nbsp;·&nbsp;<span>1 min</span></footer>
+  <a class="entry-link" aria-label="post link to CES2026と2月の来日お知らせ ニコ技深センコミュニティ月次報告 2026年01月" href="http://localhost:1313/teardown/draft-ces2026-2-2026-01/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/0*Q7emwO6p1nrIRz6S" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">国際ロボット展（ビッグサイト）で12月5,6と講演します。 ニコ技深センコミュニティ月次報告 2025年12月
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>今はメイカーフェア台北に、日本からのニコ技共同出展グループで参加中です。今日30日の台北は28度と暖かく、メイカーフェアの他に街歩きも楽しいです。
 今はメイカーフェア台北に、日本からのニコ技共同出展グループで参加中です。今日30日の台北は28度と暖かく、メイカーフェアの他に街歩きも楽しいです。
 コロナ後のメイカーフェア台北は、運営が台湾政府の労働部 労働力発展局となり、他の部局や新竹市・桃園市・台北市などの地方自治体が協力して運営するかたちになっていることで、コロナ前の技術系出版社が運営していた頃と違い、地方のテクノセンター（台湾ではFablabとも呼ばれている）や小中学校の出展が目立つ形で、規模もだいぶ少なくなってしまいました。メイカーフェアが続くことが何より大事なので、コロナ後に再開したのはありがたいのですが、メイカーフェアはDIYイベントの集大成なので、主催の人・グループが、普段から個人のクリエイターたちとどう付き合っているかどうかが、出展者集めに大きく影響します。
 我々ニコ技組は、メイカーフェア台北全体でおそらくもっとも古く・もっとも大規模なグループになっていて、日本人組のブースを目当てに来場する人達も多いです。
@@ -70,7 +306,19 @@ noteの100均ガジェット分解の過去記事はマガジンにまとめて�
 https://note.com/tomorrow56/m/ma0073059b5ac
 3. 「中国半導体ビジネス・開発技術 最新情報レポート」のマガジンを始めました
 AIエージェントのManusを使って、ウィークリーでレポートを生成して登録していきます。
-...</p></div><footer class=entry-footer><span title='2025-12-01 00:00:00 +0000 UTC'>December 1, 2025</span>&nbsp;·&nbsp;<span>2 min</span></footer><a class=entry-link aria-label="post link to 国際ロボット展（ビッグサイト）で12月5,6と講演します。 ニコ技深センコミュニティ月次報告 2025年12月" href=https://takasumasakazu.github.io/teardown/12-5-6-2025-12/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>フィジカルAIの現在地とメイカーフェア深圳 ニコ技深センコミュニティ月次報告 2025年11月</h2></header><div class=entry-content><p>■フィジカルAIの現在地
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-12-01 00:00:00 +0000 UTC'>December 1, 2025</span>&nbsp;·&nbsp;<span>2 min</span></footer>
+  <a class="entry-link" aria-label="post link to 国際ロボット展（ビッグサイト）で12月5,6と講演します。 ニコ技深センコミュニティ月次報告 2025年12月" href="http://localhost:1313/teardown/12-5-6-2025-12/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">フィジカルAIの現在地とメイカーフェア深圳 ニコ技深センコミュニティ月次報告 2025年11月
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>■フィジカルAIの現在地
 ■フィジカルAIの現在地
 最近は自分でROSConのワークショップ講師を務めるなど、ロボティクス絡みの活動が増えています。
 先月も書いたように、IoTもAIも、ほとんどの技術とつながるコンピュータ技術ですが、ロボティクスもそうです。
@@ -116,7 +364,19 @@ https://www.facebook.com/groups/ntshenzhen
 各メンバーからのシェア：
 ■荒木大地 日本人のための深セン情報サイト( shenzhen-fan.com ) 深セン ファン
 1. 深圳湾万象城（第二期）オープン 大湾区の文化ランドマークに
-...</p></div><footer class=entry-footer><span title='2025-11-01 00:00:00 +0000 UTC'>November 1, 2025</span>&nbsp;·&nbsp;<span>2 min</span></footer><a class=entry-link aria-label="post link to フィジカルAIの現在地とメイカーフェア深圳 ニコ技深センコミュニティ月次報告 2025年11月" href=https://takasumasakazu.github.io/teardown/ai-2025-11/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>日中双方でロボット開発が加速 10/7に秋葉原でハンズオン ニコ技深センコミュニティ月次報告 2025年10月</h2></header><div class=entry-content><p>今週末10月4–5日、東京ビッグサイトにてメイカーフェア東京が行われます。僕もM5Stack, D-Robotis, Nestworksとともに会場、スイッチサイエンスブース周辺にいます。ぜひお会いしましょう。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-11-01 00:00:00 +0000 UTC'>November 1, 2025</span>&nbsp;·&nbsp;<span>2 min</span></footer>
+  <a class="entry-link" aria-label="post link to フィジカルAIの現在地とメイカーフェア深圳 ニコ技深センコミュニティ月次報告 2025年11月" href="http://localhost:1313/teardown/ai-2025-11/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">日中双方でロボット開発が加速 10/7に秋葉原でハンズオン ニコ技深センコミュニティ月次報告 2025年10月
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>今週末10月4–5日、東京ビッグサイトにてメイカーフェア東京が行われます。僕もM5Stack, D-Robotis, Nestworksとともに会場、スイッチサイエンスブース周辺にいます。ぜひお会いしましょう。
 今週末10月4–5日、東京ビッグサイトにてメイカーフェア東京が行われます。僕もM5Stack, D-Robotis, Nestworksとともに会場、スイッチサイエンスブース周辺にいます。ぜひお会いしましょう。
 ■参加募集中： 10月7日 18時半レアゾンHI研究所にてROS入門のワークショップ
 ROS開発の敷居を下げる、RDK StudioソフトとRDK X5開発ボードの紹介・ハンズオン 秋葉原
@@ -140,7 +400,19 @@ https://hs.classmethod.jp/251014-factory-creative-camp
 告知開始後共有します
 11月14–15日 メイカーフェア深圳
 11月16日 M5Stack User meetup 深圳
-...</p></div><footer class=entry-footer><span title='2025-10-01 00:00:00 +0000 UTC'>October 1, 2025</span>&nbsp;·&nbsp;<span>2 min</span></footer><a class=entry-link aria-label="post link to 日中双方でロボット開発が加速 10/7に秋葉原でハンズオン ニコ技深センコミュニティ月次報告 2025年10月" href=https://takasumasakazu.github.io/teardown/10-7-2025-10/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>中国の人型ロボットを見る視点 ニコ技深センコミュニティ月次報告 2025年07月</h2></header><div class=entry-content><p>オープンソースで世界をまたがって開発しているロボットのOS,
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-10-01 00:00:00 +0000 UTC'>October 1, 2025</span>&nbsp;·&nbsp;<span>2 min</span></footer>
+  <a class="entry-link" aria-label="post link to 日中双方でロボット開発が加速 10/7に秋葉原でハンズオン ニコ技深センコミュニティ月次報告 2025年10月" href="http://localhost:1313/teardown/10-7-2025-10/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">中国の人型ロボットを見る視点 ニコ技深センコミュニティ月次報告 2025年07月
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>オープンソースで世界をまたがって開発しているロボットのOS,
 オープンソースで世界をまたがって開発しているロボットのOS,
 ROSのイベント ROSCON Japanが9月に行われます。自分も中国のD-Robotics(ホライゾン・ロボティクス）の
 自動運転開発ボードRDK X5を用いた物体認識、ジェスチャー認識のデモをやります。
@@ -189,7 +461,22 @@ Spresenseの応用回路で人感センサと ESP8266を組み合わせた監視
 4. noteの「生成AIの呪文と文章をまとめておくマガジン」の追加記事
 生成AIのManus(https://manus.im/)が当日のみ有効のデイリークレジット(300)の付与を始めたので、毎日1つアプリを生成して記録をまとめています。{.markup–anchor .markup–p-anchor}
 https://note.com/tomorrow56/n/nccd8ea406300
-...</p></div><footer class=entry-footer><span title='2025-07-01 00:00:00 +0000 UTC'>July 1, 2025</span>&nbsp;·&nbsp;<span>2 min</span></footer><a class=entry-link aria-label="post link to 中国の人型ロボットを見る視点 ニコ技深センコミュニティ月次報告 2025年07月" href=https://takasumasakazu.github.io/teardown/2025-07/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://cdn-images-1.medium.com/max/800/0*EpVFoSZQcRexR1r6.png alt></figure><header class=entry-header><h2 class=entry-hint-parent>6月21--22日NT金沢で来日 ニコ技深センコミュニティ月次報告 2025年06月</h2></header><div class=entry-content><p>️深圳でのイベントカレンダーを公開中
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-07-01 00:00:00 +0000 UTC'>July 1, 2025</span>&nbsp;·&nbsp;<span>2 min</span></footer>
+  <a class="entry-link" aria-label="post link to 中国の人型ロボットを見る視点 ニコ技深センコミュニティ月次報告 2025年07月" href="http://localhost:1313/teardown/2025-07/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/0*EpVFoSZQcRexR1r6.png" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">6月21--22日NT金沢で来日 ニコ技深センコミュニティ月次報告 2025年06月
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>️深圳でのイベントカレンダーを公開中
 ️深圳でのイベントカレンダーを公開中
 Google Calender形式で、深圳に２か所あるコンベンションセンターのイベントを公開しています。
 nicotechshenzhen@gmail.com
@@ -222,7 +509,22 @@ Facebookグループで進捗をお知らせしていきます。
 https://www.facebook.com/groups/ntshenzhen
 各メンバーからのシェア：
 ■荒木大地 日本人のための深セン情報サイト( shenzhen-fan.com{.markup–anchor .markup–p-anchor} ) 深セン ファン
-...</p></div><footer class=entry-footer><span title='2025-05-31 00:00:00 +0000 UTC'>May 31, 2025</span>&nbsp;·&nbsp;<span>2 min</span></footer><a class=entry-link aria-label="post link to 6月21--22日NT金沢で来日 ニコ技深センコミュニティ月次報告 2025年06月" href=https://takasumasakazu.github.io/teardown/6-21-22-nt-2025-06/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://cdn-images-1.medium.com/max/800/1*8U7Kk9jZ-0WZ1RhbISJfMw.jpeg alt></figure><header class=entry-header><h2 class=entry-hint-parent>\#分解のススメ 20回 中華IC会社100リストを見ながらワイワイ</h2></header><div class=entry-content><p>中国IC設計の世界を深掘り！「分解のススメ」イベントでFabless 100ランキングから見えたもの
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-05-31 00:00:00 +0000 UTC'>May 31, 2025</span>&nbsp;·&nbsp;<span>2 min</span></footer>
+  <a class="entry-link" aria-label="post link to 6月21--22日NT金沢で来日 ニコ技深センコミュニティ月次報告 2025年06月" href="http://localhost:1313/teardown/6-21-22-nt-2025-06/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/1*8U7Kk9jZ-0WZ1RhbISJfMw.jpeg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">\#分解のススメ 20回 中華IC会社100リストを見ながらワイワイ
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>中国IC設計の世界を深掘り！「分解のススメ」イベントでFabless 100ランキングから見えたもの
 中国IC設計の世界を深掘り！「分解のススメ」イベントでFabless 100ランキングから見えたもの 第20回の今回では、「2024年中国IC設計Fabless 100排行榜」 をテーマに、参加者がリストを見ながら中国のIC設計企業の今について語り合いました。
 「分解のススメ」は、2020年のコロナ禍に始まったオンラインイベントで、「ブラックボックスにしない文化を作る」 ことを意識し、様々なものを分解・解析して知見を共有しています。今回のテーマは、物理的な「分解」ではなく、中国のIC設計業界という大きなテーマを、ランキングリストという形で「分解」し、掘り下げていくという、少し趣を変えた内容でした。
 イベントの導入では、「分解の進め」の成り立ちや、これまでに分解した中国製マイコン（特にSTM32互換品など）や製品（安価なTWSイヤホンなど）から見えてきた中国のハードウェアエコシステムの独特な構造について触れられました。例えば、小規模企業でも独自マイコンにアクセスしやすい構造や、デザインハウスが製品化までサポートする体制、比較的オープンな情報共有の文化 などが挙げられました。また、RISC-VのようなオープンISAによる設計が盛んであることや、Taobaoでチップ解析サービスが気軽に利用できる文化 も、中国のIC設計を特徴づける点として紹介されました。
@@ -247,7 +549,22 @@ AIチップ: Cambricon（寒武纪）、Intellifusion（云天励飞）、Axera�
 #分解のススメ 20回 中華ICメーカー100リストを見ながらワイワイ まとめ
 中華IC100リスト秋田先生リスト山崎さんリストposfie.com{.markup–anchor .markup–mixtapeEmbed-anchor}
 元になった資料 By TAKASU Masakazu/高須正和{.p-author .h-card} on May 12, 2025.
-...</p></div><footer class=entry-footer><span title='2025-05-12 00:00:00 +0000 UTC'>May 12, 2025</span>&nbsp;·&nbsp;<span>1 min</span></footer><a class=entry-link aria-label="post link to \#分解のススメ 20回 中華IC会社100リストを見ながらワイワイ" href=https://takasumasakazu.github.io/teardown/20-ic-100/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://cdn-images-1.medium.com/max/800/1*fg4fNQ4BRyMlWAUgAHsEaw.jpeg alt></figure><header class=entry-header><h2 class=entry-hint-parent>オープンなISAはコンピューターの用途を広げる RISC-Vが広がる中国</h2></header><div class=entry-content><p>2022/07/05 07:00
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-05-12 00:00:00 +0000 UTC'>May 12, 2025</span>&nbsp;·&nbsp;<span>1 min</span></footer>
+  <a class="entry-link" aria-label="post link to \#分解のススメ 20回 中華IC会社100リストを見ながらワイワイ" href="http://localhost:1313/teardown/20-ic-100/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/1*fg4fNQ4BRyMlWAUgAHsEaw.jpeg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">オープンなISAはコンピューターの用途を広げる RISC-Vが広がる中国
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>2022/07/05 07:00
 2022/07/05 07:00
 インテル、NVIDIAなどの大手チップメーカーが相次いでRISC-Vへの注力を表明するなど、オープンソースのISA（CPU命令セット）であるRISC-Vへの期待はますます高まっている。
 中国も例外ではないが、報道される姿と実際の用途はいささか異なる。
@@ -268,7 +585,23 @@ ISAとはプロセッサーが情報処理する方法をまとめたもので�
 RISC-Vの仕様はネットに公開されていて、オープンソースのライセンスで誰でも使用することができることで、世界中の注目を集めている。
 既存のソフトウェア資産を考慮しなくてよい新製品の開発分野ではハイエンド・ローエンドの分野両方で、RISC-Vの活用が進んでいる。新しいガジェットが次々登場し、それらを低価格化するイノベーションも進む中国を中心に、RISC-Vの活用事例はますます増えていくだろう。
 By TAKASU Masakazu/高須正和{.p-author .h-card} on March 26, 2025.
-Canonical link Exported from Medium on February 6, 2026.</p></div><footer class=entry-footer><span title='2025-03-26 00:00:00 +0000 UTC'>March 26, 2025</span>&nbsp;·&nbsp;<span>1 min</span></footer><a class=entry-link aria-label="post link to オープンなISAはコンピューターの用途を広げる RISC-Vが広がる中国" href=https://takasumasakazu.github.io/teardown/isa-risc-v/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://cdn-images-1.medium.com/max/800/1*yDn16lZYYEqgv8cUYtpOfg.jpeg alt></figure><header class=entry-header><h2 class=entry-hint-parent>IoTプロトタイプのための新たなスタンダードになりつつある「M5Stack」</h2></header><div class=entry-content><p>2020/10/02 07:30
+Canonical link Exported from Medium on February 6, 2026.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-03-26 00:00:00 +0000 UTC'>March 26, 2025</span>&nbsp;·&nbsp;<span>1 min</span></footer>
+  <a class="entry-link" aria-label="post link to オープンなISAはコンピューターの用途を広げる RISC-Vが広がる中国" href="http://localhost:1313/teardown/isa-risc-v/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/1*yDn16lZYYEqgv8cUYtpOfg.jpeg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">IoTプロトタイプのための新たなスタンダードになりつつある「M5Stack」
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>2020/10/02 07:30
 2020/10/02 07:30
 電子工作の代名詞となるような開発ボードといえば、いつもArduinoとRaspberry Piの名前が挙がる。その2つに迫る勢いで人気が急上昇している開発ボードが「M5Stack」だ。液晶ディスプレイ、ケース、バッテリーを備えたオールインワンの開発ボードとして、他社からもケース付きのボードが続々登場するほどのブームを起こしている。電子工作の新たなスタンダードになるかもしれない。これまでのM5Stackの魅力と他の開発ボードとの違いについて解説する。
 「使わないと分からない」M5Stackの魅力 M5Stackを開発したM5Stackは中国深圳のスタートアップだ。国際的なハードウェアスタートアップアクセラレータのHAXが、中国のスタートアップを対象にプログラムを始めたHAX Chinaの第一期生でもある。
@@ -299,44 +632,94 @@ M5Stackシリーズのヒットを受けてか、2019年以降になって、深
 こうした開発者向けビジネスは、ユーザーの関心が高くて口コミが広がりやすく、小ロットから勝負できるので、スタートアップに向いた市場でもある。新製品の魅力が他の製品を刺激することで、電子工作プラットフォームはこれからも楽しみな進化を続けるだろう。
 By TAKASU Masakazu/高須正和{.p-author .h-card} on March 25, 2025.
 Canonical link Exported from Medium on February 6, 2026.
-...</p></div><footer class=entry-footer><span title='2025-03-25 00:00:00 +0000 UTC'>March 25, 2025</span>&nbsp;·&nbsp;<span>1 min</span></footer><a class=entry-link aria-label="post link to IoTプロトタイプのための新たなスタンダードになりつつある「M5Stack」" href=https://takasumasakazu.github.io/teardown/iot-m5stack/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://cdn-images-1.medium.com/max/800/1*CJFh7S_G3KoEWZy4nrksgw.jpeg alt></figure><header class=entry-header><h2 class=entry-hint-parent>メイカーに人気のmyCobotは「デザインエンジニア」Joeyが考えたロボットアーム</h2></header><div class=entry-content><p>2021/04/02 07:30
-2021/04/02 07:30
-M5Stackシリーズをコントローラーに使用し、6軸、ROS（Robot Operating System）をサポートするなどの高機能なロボットアーム「myCobot」は、649ドル（約7万円）と機能のわりに安価なこともあり、海外の直販サイトで販売が始まると同時に日本のギークたちを惹きつけた。スイッチサイエンスを代理店とした国内での販売も近づいている。ロボットという製品の性質上、交換パーツが国内で販売されるようになるとさらにユーザーは増えるだろう。
-myCobot{.markup–anchor .markup–p-anchor}は単にコストパフォーマンスが良いだけでなく、これまでのロボット製品になかったコンセプトによって作られているロボットアームだ。CEOのJoey Song(ジョーイ)とマーケティング担当のHenry Lin(ヘンリー)に、myCobotとそのコンセプト「コラボラティブロボット」について聞いた。
-「人間がいる空間で、人間と協働するロボット」が僕らのゴールだ ヘンリー：僕らの会社Elephant Robotics（大象科技）は大きさの違う4つの産業用ロボットアーム、個人向けのmyCobot、今開発中のロボットペットキャット「MarsCat」シリーズの、6つの製品ラインアップがある。それらはどれも「コラボラティブロボット(Collaborative Robot)」という共通のコンセプトで作られている。
-今の主力商品である産業用ロボットアームと、初めてロボットアームを試すギークたちに人気のmyCobot。このロボットアームという製品カテゴリーは70年前からあり、世界で最初の商業用ロボットだが、人のいない空間で動作するために作られている。そこは、今のロボットアームも70年前と同じで、パワーや正確さ、動作速度が70年前も今も差別化要因になっている。
-Elephant Roboticsのロボットは「人間と同じ空間で、人間と協働する、人間を助ける」ために作られている。そのコンセプトは製品のすべてに影響する。
-安価なこと、危険でないこと、壊れづらいこと、自分で修理できること、つまり「安心して使えること」は、パワーや速度より優先される。
-「正確さを実現するため、多くのロボットは高価なモーターとハーモニックドライブを使うところを、我々は高精度だが安価なサーボとギアで実現するようにしている」 。それは安価なだけでなく、「人間が無理やり動かしたときも壊れづらい」という別のメリットも実現でき、どちらもコラボラティブロボットのためには重要だ。
-今の産業用ロボットは、純粋に作業のためのもので、人間の創造性を助けるようには作られていない。創造的な行為は人間のほうが得意だ。でも、コンピューターはそれを助けることができる。たとえば3Dのレンダリングソフトでパラメータを設定したら、コンピューターが残りの作業をしたり、DJのソフトで最初の曲を設定したら、コンピューターがその後を繋いでくれたりする。
-でも、今のロボットアームは「厳密に数値で動作を規定して、それ以外のことはしない」ように作られている。創造性支援の考え方をロボット製品に持ち込むことは可能なはずだ。
-2016年に共同創業者のKirin Wu(キリン)と二人で創業してから、ずっと二人で会社を運営していた。その後2018年にフランスの自動車メーカーに産業用ロボが大量採用され、続いて中国のVCからの資金調達に成功したことで、会社の急成長が始まった。今の社員は40名ほどで、半分以上がエンジニア。14名がハードウェアエンジニアで、電子回路が2名、メカニカルなエンジニアが4名、ほかテスター等を含めてチームを構成している。ソフトウェアエンジニアは12名で、世界でも標準的なロボット用のソフトウェアプラットフォームROSを用いた開発や、複数のロボットを協調させる僕らの独自の統合ロボット制御環境roboflow, myCobot向けの統合開発環境myStudio、それにmyCobotでは部品として使っているM5Stack上で動くArduino IDEのコードを開発している。
-エンジニアが多い会社であること、ロボットの会社にしてはソフトウェアエンジニアが多めなのは僕らの特徴だと思う。
-myCobotは「おもちゃ」ではなく、産業用ロボットを家庭用に落とし込んだMakerのためのもの マーケティング担当のヘンリーは、myCobot発売後の反応と、会社の変化についてこう語る。
-「myCobotは僕らの製品の中で一番安く、手軽な製品だ。ペイロードも250gと小さいし、産業用ロボットと違って24時間の連続稼働もサポートしていない。それでも６つの関節を備え、SシリーズやPシリーズといった主力の産業用ロボットと同じ制御アルゴリズム、制御ソフトで動く。RoboFlow※やROSにも対応している。
-主力の製品ラインと同じ制御ができ、それを個人でも可能にすることがmyCobotのコンセプトだ。個人で買うMakerだけでなく、産業用ロボットのトレーニングで企業や学校に買われることを想定している。
-※RoboFlow…Elephant Roboticsが開発する、複数のロボを共同させる環境
-myCobotは24時間／365日の連続稼働をサポートしていないなど、小さく安くするために犠牲にした機能もある。しかし、自分で補修や調整がしやすいことなど、『ロボットが家にあるのがあたりまえになる』というコンセプトは、むしろmyCobotのほうがより近いと思う」
-myCobotを制御するアプリmyStudioのリリース記念イベントで、製品のコンセプトを説明するヘンリー
-「実は、最初は『大きなロボットを使うための教育用』という用途をメインに想定していた。PシリーズやSシリーズを工場に入れた会社が、トレーニング用に使うイメージだ。だが実際はテクノロジーへの感度が高いMakerが、初めてのロボットアームとして買っていく。この事実は自分自身の市場に対する考えも変えたが、同時に『コラボラティブロボット』というコンセプトの正しさへの証明にもなっている。
-家に人間と共にいるというコンセプトには、ロボットを壊したときに、自分で治せる、調整できるという要素もとても大事だ。myCobotの補修部品は、すべて組み合わせると新しいmyCobotが組み立てられる、つまりどうなっても補修できるようにできている。特殊な工具もいらない。また、ソフトウェアもより機能を追加するだけでなく、修理のためのビデオを追加するなどのサポート情報を充実させていく。
-コラボラティブロボットの時代が来るときに、最初にロボットと共存したがるのはMakerだ。その視点はmyCobotを売り出したあと、市場の反応をみて気づき、我々が変わった部分だと思う」
-コラボラティブロボットというコンセプトのもと、進化する製品 CEOのジョーイは語る。
-「『コラボラティブロボット』というコンセプトは、大学時代に起業を感じ始めた頃にたどり着いたコンセプトだ。その時は20～30の製品カテゴリーで、自分たちの技術でできることと、競合や市場を考えた。たとえば『エレクトロニクス製品はすでにGEほかの大手企業がいるから難しい、CNCマシンは学生がやるには技術的に高度すぎる…』など。その中で『人間と協働するコラボラティブロボット』は、みんな関心があって市場が大きいが、競合が少ない。ボストンダイナミクスのロボットをみんなYouTubeで見るが、実際に買っている人は稀だ。それが『市場として魅力的だが、未開拓の分野』であることを証明している。
-近日中にmyCobotの強化版myCobot Proを準備中だが、そちらは産業用に寄せるのでそんなに手軽な価格にならないだろう。また、逆方向にもっとシンプルにするために、サーボを減らすなどの別のコンセプトでさらに手軽な製品を出すこともあるだろうが、『産業用ロボットと共通する関節や制御で手軽にする』分野では、myCobotが最も手軽な製品だ。
-今手掛けているロボットペットキャットMarsCat{.markup–anchor .markup–p-anchor}は、ロボットアームである今の製品たちとはぜんぜん違う製品カテゴリーだけど、目的は同じく『コラボラティブロボットというコンセプトの、製品への落とし込み』だ。
-このMarsCatも、『家に、人間とともにいるロボット』だ。コラボラティブロボットというコンセプトを見つけたときのように、ペット的に家にいるロボットを考えて、いくつもの動物をリストアップした。そのなかで動物に求められるものと、今の技術でできそうなことを考えた。たとえば『フリスビーを投げて取るとかは、高くなるしそういうロボットは危険になるから、犬はダメだな…』などの試行錯誤をした結果、猫にした。
-猫はシングルタスクで、動作というよりも感情的だ。いつも意味もなく家にいるものだ。それはコラボラティブロボットというコンセプトに合致しつつ、ロボットアームとは真逆の側面を多く持つ。
-それに、僕は家で猫を飼っているんだ。“点心"という名前のその猫は、もう7歳でだいぶ病気がちになっている。このMarsCatのサイズやしっぽの曲がった感じなどは、僕の猫をかたどったものだ。サーボや関節の設計など数点ではmyCobotと同じものを使っている」
-「この猫プロジェクトMarsCatは設計も製造も大変で、スケジュールはだいぶ遅れている。これまでのロボットアームよりもさらに冒険的な、今ない市場なので、販売はさらに大変だと思うけど、これをすすめることは弊社にとって大切だ。
-人間にはロジックをもとに予想するアプローチと経験から学ぶアプローチがあり、それは時に同じものの両面で、どちらも重要だ。中国では"陰陽"という。このロボットを作る、販売する、お客さんの声を聞くということは、コラボラティブロボットというコンセプトのために必要だと思っている」
-中国Makerの新時代 2015年に中国の「大衆創業 万衆創新」（大衆による創業を可能にする、社会全体でイノベーションを実現する）キャンペーンが始まってから、多くの大学が「アートとサイエンスの間、クリエイティブとエンジニアリングの間」に注目した学部や学科を作るようになった。MITメディアラボ、Ideoデザインスタジオ、日本ならSFCやKMD, IAMASのような学校※が当てはまる。
-2008年～2012年の間に西安建築科技大学に通っていたジョーイはさらに前の世代だが、建築というクリエイティブとエンジニアリングの間にある分野にいたことからか、それらが同居するセンスを感じる。手書きのスケッチからははっきりとした意図が感じられる。手の動かし方はクリエイター的だが、リストアップして取捨選択するコンセプトの煮詰め方はとてもエンジニア的だ。その姿は東京大学の山中俊治教授が提唱する「デザインエンジニアリング」を感じる。
-※SFC：慶應義塾大学湘南藤沢キャンパス、KDM：慶應義塾大学大学院メディアデザイン研究科、IAMAS：情報科学芸術大学院大学
-これからもそうした起業家が深圳でハードウェアスタートアップを起こしていくのが楽しみだ。
-By TAKASU Masakazu/高須正和{.p-author .h-card} on March 25, 2025.
-...</p></div><footer class=entry-footer><span title='2025-03-25 00:00:00 +0000 UTC'>March 25, 2025</span>&nbsp;·&nbsp;<span>1 min</span></footer><a class=entry-link aria-label="post link to メイカーに人気のmyCobotは「デザインエンジニア」Joeyが考えたロボットアーム" href=https://takasumasakazu.github.io/teardown/mycobot-joey/></a></article><footer class=page-footer><nav class=pagination><a class=next href=https://takasumasakazu.github.io/teardown/page/2/>Next&nbsp;&nbsp;»</a></nav></footer></main><footer class=footer><span>&copy; 2026 <a href=https://takasumasakazu.github.io/>ニコ技深セン / Nico-Tech Shenzhen website</a></span> ·
-<span>Powered by
-<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
-        <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
-</a><script>let menu=document.getElementById("menu");if(menu){const e=localStorage.getItem("menu-scroll-position");e&&(menu.scrollLeft=parseInt(e,10)),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}}document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{const e=document.querySelector("html");e.dataset.theme==="dark"?(e.dataset.theme="light",localStorage.setItem("pref-theme","light")):(e.dataset.theme="dark",localStorage.setItem("pref-theme","dark"))})</script></body></html>
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-03-25 00:00:00 +0000 UTC'>March 25, 2025</span>&nbsp;·&nbsp;<span>1 min</span></footer>
+  <a class="entry-link" aria-label="post link to IoTプロトタイプのための新たなスタンダードになりつつある「M5Stack」" href="http://localhost:1313/teardown/iot-m5stack/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="next" href="http://localhost:1313/teardown/page/2/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">ニコ技深セン / Nico-Tech Shenzhen website</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

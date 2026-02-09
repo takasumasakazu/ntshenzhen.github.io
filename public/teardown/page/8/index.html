@@ -1,5 +1,205 @@
-<!doctype html><html lang=en dir=auto data-theme=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Teardown | ニコ技深セン / Nico-Tech Shenzhen website</title>
-<meta name=keywords content><meta name=description content="Reverse engineering, teardowns, chip decap notes."><meta name=author content><link rel=canonical href=https://takasumasakazu.github.io/teardown/><link crossorigin=anonymous href=https://takasumasakazu.github.io/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css integrity="sha256-2jIR5e+Ge/K3X9WmUVz+1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as=style><link rel=icon href=https://takasumasakazu.github.io/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://takasumasakazu.github.io/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://takasumasakazu.github.io/favicon-32x32.png><link rel=apple-touch-icon href=https://takasumasakazu.github.io/apple-touch-icon.png><link rel=mask-icon href=https://takasumasakazu.github.io/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate type=application/rss+xml href=https://takasumasakazu.github.io/teardown/index.xml title=rss><link rel=alternate hreflang=en href=https://takasumasakazu.github.io/teardown/><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--code-block-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51);color-scheme:dark}.list{background:var(--theme)}.toc{background:var(--entry)}}@media(prefers-color-scheme:light){.list::-webkit-scrollbar-thumb{border-color:var(--code-bg)}}</style></noscript><script>localStorage.getItem("pref-theme")==="dark"?document.querySelector("html").dataset.theme="dark":localStorage.getItem("pref-theme")==="light"?document.querySelector("html").dataset.theme="light":window.matchMedia("(prefers-color-scheme: dark)").matches?document.querySelector("html").dataset.theme="dark":document.querySelector("html").dataset.theme="light"</script><meta property="og:url" content="https://takasumasakazu.github.io/teardown/"><meta property="og:site_name" content="ニコ技深セン / Nico-Tech Shenzhen website"><meta property="og:title" content="Teardown"><meta property="og:description" content="Reverse engineering, teardowns, chip decap notes."><meta property="og:locale" content="en"><meta property="og:type" content="website"><meta name=twitter:card content="summary"><meta name=twitter:title content="Teardown"><meta name=twitter:description content><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Teardown","item":"https://takasumasakazu.github.io/teardown/"}]}</script></head><body class=list id=top><header class=header><nav class=nav><div class=logo><a href=https://takasumasakazu.github.io/ accesskey=h title="ニコ技深セン / Nico-Tech Shenzhen website (Alt + H)">ニコ技深セン / Nico-Tech Shenzhen website</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)" aria-label="Toggle theme"><svg id="moon" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu><li><a href=https://takasumasakazu.github.io/teardown/ title=Teardown><span class=active>Teardown</span></a></li><li><a href=https://takasumasakazu.github.io/shenzhen/ title=Shenzhen><span>Shenzhen</span></a></li><li><a href=https://takasumasakazu.github.io/years/ title=Years><span>Years</span></a></li></ul></nav></header><main class=main><header class=page-header><div class=breadcrumbs><a href=https://takasumasakazu.github.io/>Home</a></div><h1>Teardown</h1></header><div class=post-content><p>Reverse engineering, teardowns, chip decap notes.</p></div><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://cdn-images-1.medium.com/max/800/1*bfqHx7AbZjX3y1NOC0f8hQ.jpeg alt></figure><header class=entry-header><h2 class=entry-hint-parent>ニコ技深圳コミュニティ＆高須の月次報告 2019年01月</h2></header><div class=entry-content><p>■ハードウェアハッカー ITビジネス本大賞候補に
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Teardown | ニコ技深セン / Nico-Tech Shenzhen website</title>
+<meta name="keywords" content="">
+<meta name="description" content="Reverse engineering, teardowns, chip decap notes.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/teardown/">
+<link crossorigin="anonymous" href="http://localhost:1313/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/teardown/index.xml" title="rss">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/teardown/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="http://localhost:1313/teardown/">
+  <meta property="og:site_name" content="ニコ技深セン / Nico-Tech Shenzhen website">
+  <meta property="og:title" content="Teardown">
+  <meta property="og:description" content="Reverse engineering, teardowns, chip decap notes.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Teardown">
+<meta name="twitter:description" content="">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Teardown",
+      "item": "http://localhost:1313/teardown/"
+    }
+  ]
+}
+</script>
+</head>
+<body class="list" id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="ニコ技深セン / Nico-Tech Shenzhen website (Alt + H)">ニコ技深セン / Nico-Tech Shenzhen website</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/teardown/" title="Teardown">
+                    <span class="active">Teardown</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/shenzhen/" title="Shenzhen">
+                    <span>Shenzhen</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/years/" title="Years">
+                    <span>Years</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header"><div class="breadcrumbs"><a href="http://localhost:1313/">Home</a></div>
+  <h1>
+    Teardown
+  </h1>
+</header>
+<div class="post-content"><p>Reverse engineering, teardowns, chip decap notes.</p>
+
+
+</div>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/1*mjADrNV22P8j-FDuQfWsYA.jpeg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">zGlue、カスタムSoCを安価で早く作るベンチャー企業
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>シリコンバレーの会社zGlue、上海,深圳にもオフィスあり、2019年1月のCESでブースを見かけて気になった。 まだローンチ前のサービスで、利用者のリテラシーも要求するので、とりあえず僕がwechatでユーザーグループを作っている。 グループで深圳オフィス訪問もした。
+シリコンバレーの会社zGlue、上海,深圳にもオフィスあり、2019年1月のCESでブースを見かけて気になった。
+まだローンチ前のサービスで、利用者のリテラシーも要求するので、とりあえず僕がwechatでユーザーグループを作っている。
+グループで深圳オフィス訪問もした。
+プレゼンされたzGlue概要
+コミュニティの中心秋田先生が、Facebookで解説{.markup–anchor .markup–p-anchor}を書いている。
+「カスタムSoCを1週間1000ドルで」というキャッチフレーズのzGlue ( zglue.com{.markup–anchor .markup–blockquote-anchor} )を先日訪問してきました。
+SoCとは、System on a Chipの略で、プロセッサとメモリ、無線通信などの、システムの構成要素（のほとんど）を一つのチップに載せてしまった半導体チップのことです。
+最近はスマホやタブレットの中心部品として多用されるだけでなく、RaspberryPiのプロセッサやESP8266/32もSoCです。
+一般にSoCは、その性格から、用途ごとのカスタム品になります。また半導体チップの性質として、設計のイニシャルコスト（時間と費用）が高額（ただし量産すればチップの単価はすごく安い）、という特徴あります。そのため、すでに流通しているSoCを製品開発に使うことは普通ですが、SoCを新規に（自分の目的のために）開発する、のは、あまりありません。多くのSoCは、大量生産が見込める製品向けに開発されることが多く、少ロットの製品、スタートアップ企業が成功の可否が確証できない製品のために、新規にSoCを設計することは、技術的には可能ですが商業的には現実的ではありません（またはリスクが大きすぎる）。
+zGlueは、SmartFabricと呼ぶチップがコア技術で、この上にChipletと呼ぶCSP/BGAパッケージのICを載せてカスタムSoCをつくります。その意味で、SoCというよりSiP (Silicon in Package)の一種のCoC (Chip on Chip)に近いといえます。
+SmartFabricは、表面に0.1mm間隔でChipletを載せるパッド(バンプ)が並んでいて、パッド間の配線をFPGAのように動的構成可能(プログラム可能)で、UARTやI2C等の汎用的な回路も載っている、それ自体がLSIです。いわば、FPGAの配線が上にも出ている、つまり、FPGA内の論理ブロックが、チップの外（Chiplet）にあり、そこへの配線端子が上に並んでいる、ような構造です。
+SmartFabric自体が一種のSoC、と考えることもできますが、SmartFabricは、zGlueで作るカスタムチップのどれでも使いますので、量産のコスト効果があります。一般にカスタムLSIはイニシャルコストが高く単価は安いので、このように同じチップをプログラムで機能を変えていろいろ使えるのは、コスト的なメリットが大きいのです。つまり、汎用品を組み合わせて少量多品種を実現する、P.ドラッカーの呼ぶ「新型の大量生産」をカスタムLSIで実現する方策と言えます。
+もちろん配線遅延はSoCよりも大きく、高速信号伝送はには向かないのですが、そこはSoCと明らかにコストとTTM (Time to Market)が違うので棲み分けはできます。なおSmartFabric内の配線ルートは、高速のデジタル系と、低抵抗のアナログ系の二系統あるそうです。
+SoCでは設計コストも大きいのですが、zGlueではChipBuilderというWebベースの設計ツールを提供しており、Chipletの配置は手動なので設計者のスキルがある程度もとめられるのですが、、配線は自動化されているので、設計の工数が抑えられます。使うマイコンにあわせたSDKもそこから生成され、ソフトウエア開発へシームレスにつながります。
+一言でまとめると、
+あ た ま い い
+CTOの話す技術詳細
+By TAKASU Masakazu/高須正和{.p-author .h-card} on March 16, 2019.
+Canonical link Exported from Medium on February 6, 2026.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2019-03-16 00:00:00 +0000 UTC'>March 16, 2019</span>&nbsp;·&nbsp;<span>1 min</span></footer>
+  <a class="entry-link" aria-label="post link to zGlue、カスタムSoCを安価で早く作るベンチャー企業" href="http://localhost:1313/teardown/zglue-soc/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/1*bfqHx7AbZjX3y1NOC0f8hQ.jpeg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">ニコ技深圳コミュニティ＆高須の月次報告 2019年01月
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>■ハードウェアハッカー ITビジネス本大賞候補に
 ■ハードウェアハッカー ITビジネス本大賞候補に
 候補に４０冊ある本のなかから「ハードウェアハッカー」を選んでクリックするだけで投票できます。1/14まで投票可能です。
 https://www.shoeisha.co.jp/campaign/award/2019/vote/
@@ -15,8 +215,23 @@ Log into Facebook | Facebook
 加賀市から企画依頼を受けて、シンガポールサイエンスセンターのDr.Tanを招き、スイッチエデュケーションの小室社長とJig.jpの福野社長を交えてトークセッションを行いました。非常に学びの多いイベントになりました。
 https://togetter.com/li/1298567
 — — -報告（ブログ書いた、記事書いた、本だしたなど。） — — — — — — — — — — — — — — — — — — — — — — 高須＠深圳コミュニティ
-...</p></div><footer class=entry-footer><span title='2018-12-31 00:00:00 +0000 UTC'>December 31, 2018</span>&nbsp;·&nbsp;<span>1 min</span></footer><a class=entry-link aria-label="post link to ニコ技深圳コミュニティ＆高須の月次報告 2019年01月" href=https://takasumasakazu.github.io/teardown/2019-01/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://cdn-images-1.medium.com/max/800/1*ynQrKi39tofe1JhjyheGyA.jpeg alt></figure><header class=entry-header><h2 class=entry-hint-parent>「広まらないオープンソース活動は、ないのとおなじ」セクシーサイボーグ様 COSCon\`18 (中国オープンソース会議）でのスピーチ</h2></header><div class=entry-content><p>セクシーサイボーグ様が、自分の活動についてCOSCon`18 (中国オープンソース会議）で話していた。前に彼女のMake:Magazineへの寄稿を訳したように、スピーチにも日本語の字幕をつけた。
-「広まらないオープンソース活動は、ないのとおなじ」セクシーサイボーグ様 COSCon`18 (中国オープンソース会議）での講演+日本語字幕 セクシーサイボーグ様が、自分の活動についてCOSCon`18 (中国オープンソース会議）で話していた。前に彼女のMake:Magazineへの寄稿を訳したように、スピーチにも日本語の字幕をつけた。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2018-12-31 00:00:00 +0000 UTC'>December 31, 2018</span>&nbsp;·&nbsp;<span>1 min</span></footer>
+  <a class="entry-link" aria-label="post link to ニコ技深圳コミュニティ＆高須の月次報告 2019年01月" href="http://localhost:1313/teardown/2019-01/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/1*ynQrKi39tofe1JhjyheGyA.jpeg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">「広まらないオープンソース活動は、ないのとおなじ」セクシーサイボーグ様 COSCon\`18 (中国オープンソース会議）でのスピーチ
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>セクシーサイボーグ様が、自分の活動についてCOSCon`18 (中国オープンソース会議）で話していた。前に彼女のMake:Magazineへの寄稿を訳したように、スピーチにも日本語の字幕をつけた。
+「広まらないオープンソース活動は、ないのとおなじ」セクシーサイボーグ様 COSCon`18 (中国オープンソース会議）での講演&#43;日本語字幕 セクシーサイボーグ様が、自分の活動についてCOSCon`18 (中国オープンソース会議）で話していた。前に彼女のMake:Magazineへの寄稿を訳したように、スピーチにも日本語の字幕をつけた。
 内容はオープンソース活動と、そのエンゲージメントについて語る彼女らしいもので、とても興味深い。プロジェクトそのものについては以下に詳しい。
 Make:Vol.61 「サイボーグとSINO:BIT」セクシーサイボーグ様寄稿
 *セクシーサイボーグとして知られる深センのメイカーNaomi Wuが語る、彼女の旅、インスピレーション、そして中国初の認定オープンソースハードウェアプロジェクト
@@ -29,7 +244,23 @@ Make:Vol.61 「サイボーグとSINO:BIT」セクシーサイボーグ様寄稿
 北京にいたら、欧米人フォロワーが13万人いる中国人youtuber、もっと不自由になりそう。
 直接会っても何話してるかよくわからないしあまりためにならないんだけど、会うと「ああ、深センだなあ。勢いあるなあ」感が強烈に盛り上がる縁起物として考えてます。 獅子舞みたいな。
 By TAKASU Masakazu/高須正和{.p-author .h-card} on December 6, 2018.
-Canonical link Exported from Medium on February 6, 2026.</p></div><footer class=entry-footer><span title='2018-12-06 00:00:00 +0000 UTC'>December 6, 2018</span>&nbsp;·&nbsp;<span>1 min</span></footer><a class=entry-link aria-label="post link to 「広まらないオープンソース活動は、ないのとおなじ」セクシーサイボーグ様 COSCon\`18 (中国オープンソース会議）でのスピーチ" href=https://takasumasakazu.github.io/teardown/coscon-18-631c4bcd305/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://cdn-images-1.medium.com/max/800/1*E2PM1rkXo-7MCY_oJw_eDg.jpeg alt></figure><header class=entry-header><h2 class=entry-hint-parent>明治大学 \#CE概論 オープンソースハードウェアについて講演 そしてコピーバンドの大事さ</h2></header><div class=entry-content><p>いつもお世話になっている宮下芳明教授のアレンジで、明治大学の授業CE概論（たぶんFMS,先端メディア学科の授業）で１時間ほど、ハードウェアハッカーの話をしてきた。
+Canonical link Exported from Medium on February 6, 2026.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2018-12-06 00:00:00 +0000 UTC'>December 6, 2018</span>&nbsp;·&nbsp;<span>1 min</span></footer>
+  <a class="entry-link" aria-label="post link to 「広まらないオープンソース活動は、ないのとおなじ」セクシーサイボーグ様 COSCon\`18 (中国オープンソース会議）でのスピーチ" href="http://localhost:1313/teardown/coscon-18-631c4bcd305/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/1*E2PM1rkXo-7MCY_oJw_eDg.jpeg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">明治大学 \#CE概論 オープンソースハードウェアについて講演 そしてコピーバンドの大事さ
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>いつもお世話になっている宮下芳明教授のアレンジで、明治大学の授業CE概論（たぶんFMS,先端メディア学科の授業）で１時間ほど、ハードウェアハッカーの話をしてきた。
 いつもお世話になっている宮下芳明教授のアレンジで、明治大学の授業CE概論（たぶんFMS,先端メディア学科の授業）で１時間ほど、ハードウェアハッカーの話をしてきた。
 明治大学 #CE概論 講演「オープンソースハードウェアという、個人や小規模イノベーター、ゲリラにとって合理的なやりかた」 動画
 明大FMSの学生はツイッターをよく使うので、まとめは良い感じのダイジェストになっている。
@@ -42,7 +273,23 @@ Canonical link Exported from Medium on February 6, 2026.</p></div><footer class=
 最近ペア読書{.markup–anchor .markup–p-anchor}というのが流行ってるみたい（やったことはない）だが、一部通じる試みかもしれない。
 ハードウェアハッカーについては、まだきちんとわかっていないことばかりだ。これからもいろんなところで話して、理解を深めていきたい。
 By TAKASU Masakazu/高須正和{.p-author .h-card} on December 5, 2018.
-Canonical link Exported from Medium on February 6, 2026.</p></div><footer class=entry-footer><span title='2018-12-05 00:00:00 +0000 UTC'>December 5, 2018</span>&nbsp;·&nbsp;<span>1 min</span></footer><a class=entry-link aria-label="post link to 明治大学 \#CE概論 オープンソースハードウェアについて講演 そしてコピーバンドの大事さ" href=https://takasumasakazu.github.io/teardown/ce/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://cdn-images-1.medium.com/max/800/1*4Ro3mHxHjfyyKMz0A36WXA.jpeg alt></figure><header class=entry-header><h2 class=entry-hint-parent>ハードウェアハッカーの世界(動画） 大垣ミニメイカーフェア 秋田純一 高須正和 \#OMMF2018</h2></header><div class=entry-content><p>今回の来日は5日間で3回ハードウェアハッカーのプレゼンをするが、全部時間もトーク内容も違う。今回の大垣ミニメイカーフェアでは、翻訳時に半導体、チップ製造まわりやムーアの法則についての確認・寄稿いただいた金沢大の秋田純一教授がハッキングの技、僕がバニーの製品やビジョンについてプレゼ…
+Canonical link Exported from Medium on February 6, 2026.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2018-12-05 00:00:00 +0000 UTC'>December 5, 2018</span>&nbsp;·&nbsp;<span>1 min</span></footer>
+  <a class="entry-link" aria-label="post link to 明治大学 \#CE概論 オープンソースハードウェアについて講演 そしてコピーバンドの大事さ" href="http://localhost:1313/teardown/ce/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/1*4Ro3mHxHjfyyKMz0A36WXA.jpeg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">ハードウェアハッカーの世界(動画） 大垣ミニメイカーフェア 秋田純一 高須正和 \#OMMF2018
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>今回の来日は5日間で3回ハードウェアハッカーのプレゼンをするが、全部時間もトーク内容も違う。今回の大垣ミニメイカーフェアでは、翻訳時に半導体、チップ製造まわりやムーアの法則についての確認・寄稿いただいた金沢大の秋田純一教授がハッキングの技、僕がバニーの製品やビジョンについてプレゼ…
 ハードウェアハッカー エントリー中 技術書・ビジネス書 大賞2019
 *「ITエンジニアに読んでほしい！技術書・ビジネス書 大賞 2019」今年も開催。ITエンジニアがみんなで選ぶ、今年のおすすめ本。*www.shoeisha.co.jp{.markup–anchor .markup–mixtapeEmbed-anchor} 今回の来日は5日間で3回ハードウェアハッカーのプレゼンをするが、全部時間もトーク内容も違う。今回の大垣ミニメイカーフェアでは、翻訳時に半導体、チップ製造まわりやムーアの法則についての確認・寄稿いただいた金沢大の秋田純一{.markup–anchor .markup–p-anchor}教授がハッキングの技、僕がバニーの製品やビジョンについてプレゼンする、技の１号・力の２号構成になった。今日はお互い10分ずつの20分だったが、12月15日のNT加賀{.markup–anchor .markup–p-anchor}ではお互い30分ずつのフルバージョンをお届けするつもりだ。
 大垣ミニメイカーフェアでのプレゼン
@@ -52,7 +299,23 @@ Canonical link Exported from Medium on February 6, 2026.</p></div><footer class=
 ハードウェアハッカー エントリー中技術書・ビジネス書 大賞2019
 *「ITエンジニアに読んでほしい！技術書・ビジネス書 大賞 2019」今年も開催。ITエンジニアがみんなで選ぶ、今年のおすすめ本。*www.shoeisha.co.jp{.markup–anchor .markup–mixtapeEmbed-anchor}
 By TAKASU Masakazu/高須正和{.p-author .h-card} on December 1, 2018.
-Canonical link Exported from Medium on February 6, 2026.</p></div><footer class=entry-footer><span title='2018-12-01 00:00:00 +0000 UTC'>December 1, 2018</span>&nbsp;·&nbsp;<span>1 min</span></footer><a class=entry-link aria-label="post link to ハードウェアハッカーの世界(動画） 大垣ミニメイカーフェア 秋田純一 高須正和 \#OMMF2018" href=https://takasumasakazu.github.io/teardown/ommf2018/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://cdn-images-1.medium.com/max/800/1*8UaM9anYgO26kl5iKnIp1w.jpeg alt></figure><header class=entry-header><h2 class=entry-hint-parent>「さいはての中国」「野心 テリーゴウ伝」 僕が自覚した関心の持ち方</h2></header><div class=entry-content><p>安田峰俊さんの著書と編著。どちらもレポートとしてめちゃめちゃ面白く、一気に最後まで読んだ。
+Canonical link Exported from Medium on February 6, 2026.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2018-12-01 00:00:00 +0000 UTC'>December 1, 2018</span>&nbsp;·&nbsp;<span>1 min</span></footer>
+  <a class="entry-link" aria-label="post link to ハードウェアハッカーの世界(動画） 大垣ミニメイカーフェア 秋田純一 高須正和 \#OMMF2018" href="http://localhost:1313/teardown/ommf2018/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/1*8UaM9anYgO26kl5iKnIp1w.jpeg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">「さいはての中国」「野心 テリーゴウ伝」 僕が自覚した関心の持ち方
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>安田峰俊さんの著書と編著。どちらもレポートとしてめちゃめちゃ面白く、一気に最後まで読んだ。
 安田峰俊さんの著書と編著。どちらもレポートとしてめちゃめちゃ面白く、一気に最後まで読んだ。
 さいはての中国 (小学館新書 や 13-1)
 *Amazonで安田 峰俊のさいはての中国 (小学館新書 や 13-1)。アマゾンならポイント還元本が多数。安田 峰俊作品ほか、お急ぎ便対象商品は当日お届けも可能。またさいはての中国 (小学館新書 や…*www.amazon.co.jp{.markup–anchor .markup–mixtapeEmbed-anchor} 野心 郭台銘伝
@@ -82,12 +345,27 @@ AIにいま現在何ができて、この次に来そうなのはどのブレイ
 まちがいなく中国の政府は色々悪いことをしてる。産業スパイも住民の監視もしている。けど、おそらく違うやり方ではないんじゃないか。
 こういう興味の持ち方は、技術オタク、エンジニアリング好きと言えるだろう。僕自身が、その中でどれぐらいきちんとエンジニアしてるかはともかく、友達もそういう気質の人が国籍を問わず多い。STEM教育分野の人には社会運動家っぽい人とエンジニアっぽい人がいるが、僕が仲良くなるのはたいてい後者である。最近訳したバニーのハードウェアハッカーでは、プロジェクトのほとんどがxobsという同僚と行われているが、200ページ近いその部分でxobsのパーソナリティに触れられたのは「ポニーテールで自分のペースをもっていてスコットランドのキルトを着てる」の2–3行だけだ。
 ハードウェアハッカー ~新しいモノをつくる破壊と創造の冒険
-*Amazonでアンドリュー"バニー"ファン, 山形 浩生, 高須 正和のハードウェアハッカー ~新しいモノをつくる破壊と創造の冒険。アマゾンならポイント還元本が多数。アンドリュー"バニー"ファン, 山形 浩生, 高須…*www.amazon.co.jp{.markup–anchor .markup–mixtapeEmbed-anchor} 一方で、今の中国に興味がある人のほとんどは人（歴史）かお金に興味がある。中国がテクノロジー好きの関心を引くようになったのは本当にここ4–5年ぐらいのものなので、それよりキャリアが長い人は別の面に惹かれててあたりまえだ。技術オタクで中国も好き、ガジェットの分解レポートを良く書くという書き手がもっと増えて欲しいなーと思うけど中国関係だとあまりいない。
+*Amazonでアンドリュー&#34;バニー&#34;ファン, 山形 浩生, 高須 正和のハードウェアハッカー ~新しいモノをつくる破壊と創造の冒険。アマゾンならポイント還元本が多数。アンドリュー&#34;バニー&#34;ファン, 山形 浩生, 高須…*www.amazon.co.jp{.markup–anchor .markup–mixtapeEmbed-anchor} 一方で、今の中国に興味がある人のほとんどは人（歴史）かお金に興味がある。中国がテクノロジー好きの関心を引くようになったのは本当にここ4–5年ぐらいのものなので、それよりキャリアが長い人は別の面に惹かれててあたりまえだ。技術オタクで中国も好き、ガジェットの分解レポートを良く書くという書き手がもっと増えて欲しいなーと思うけど中国関係だとあまりいない。
 釣ることやエバることが目的に書かれたと感じるような記事はどうも好きになれないが、中国の記事だとそういうのが多いように感じる。
 安田さんや山谷さん、高口さんなどの書く中国の話は、「もっと知りたい」という好奇心をコアに、その行為を仕事として成り立たせる実力もあって大好きなのでいつも楽しみにしている。
 By TAKASU Masakazu/高須正和{.p-author .h-card} on October 7, 2018.
 Canonical link Exported from Medium on February 6, 2026.
-...</p></div><footer class=entry-footer><span title='2018-10-07 00:00:00 +0000 UTC'>October 7, 2018</span>&nbsp;·&nbsp;<span>1 min</span></footer><a class=entry-link aria-label="post link to 「さいはての中国」「野心 テリーゴウ伝」 僕が自覚した関心の持ち方" href=https://takasumasakazu.github.io/teardown/post/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://cdn-images-1.medium.com/max/800/1*Ty1BG9WTJh4cKirQ7irKQw.jpeg alt></figure><header class=entry-header><h2 class=entry-hint-parent>8/4 AkiParty 8/5メイカーフェア東京で講演など ニコ技深圳コミュニティ＆高須の月次報告 2018年08月</h2></header><div class=entry-content><p>久々に深圳白石州にて、ニコ技深圳コミュニティにてbeer partyを行いました。深圳のメイカー、日本のメイカーが系30人ほども集まる楽しいイベントになりました。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2018-10-07 00:00:00 +0000 UTC'>October 7, 2018</span>&nbsp;·&nbsp;<span>1 min</span></footer>
+  <a class="entry-link" aria-label="post link to 「さいはての中国」「野心 テリーゴウ伝」 僕が自覚した関心の持ち方" href="http://localhost:1313/teardown/post/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/1*Ty1BG9WTJh4cKirQ7irKQw.jpeg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">8/4 AkiParty 8/5メイカーフェア東京で講演など ニコ技深圳コミュニティ＆高須の月次報告 2018年08月
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>久々に深圳白石州にて、ニコ技深圳コミュニティにてbeer partyを行いました。深圳のメイカー、日本のメイカーが系30人ほども集まる楽しいイベントになりました。
 久々に深圳白石州にて、ニコ技深圳コミュニティにてbeer partyを行いました。深圳のメイカー、日本のメイカーが系30人ほども集まる楽しいイベントになりました。
 今月は何より、秋葉原のライブハウスMograで、DIYの工作物とクラブミュージックが融合したイベントAkiPartyをやります。
 8月4日16:00–21:00 AkiParty
@@ -121,7 +399,22 @@ https://takasumasakazu.booth.pm/items/874821
 17–19/Aug Maker Faire Singapore
 22–23/Sep Maker Faire New York
 Maker Faire Taipei, New York,Paris, Shenzhen…..
-...</p></div><footer class=entry-footer><span title='2018-07-29 00:00:00 +0000 UTC'>July 29, 2018</span>&nbsp;·&nbsp;<span>1 min</span></footer><a class=entry-link aria-label="post link to 8/4 AkiParty 8/5メイカーフェア東京で講演など ニコ技深圳コミュニティ＆高須の月次報告 2018年08月" href=https://takasumasakazu.github.io/teardown/8-4-akiparty-8-5-2018-08/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://cdn-images-1.medium.com/max/800/1*hBzRCflwk1yt1cqxFxu1TA.jpeg alt></figure><header class=entry-header><h2 class=entry-hint-parent>第8回ニコ技深セン観察会 参加者名簿：感想まとめ</h2></header><div class=entry-content><p>ニコ技深圳観察会、3/18夕方–21深夜で予定している第8回、多くの応募ありがとうございました。感想は順次ここに上がっていきます。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2018-07-29 00:00:00 +0000 UTC'>July 29, 2018</span>&nbsp;·&nbsp;<span>1 min</span></footer>
+  <a class="entry-link" aria-label="post link to 8/4 AkiParty 8/5メイカーフェア東京で講演など ニコ技深圳コミュニティ＆高須の月次報告 2018年08月" href="http://localhost:1313/teardown/8-4-akiparty-8-5-2018-08/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/1*hBzRCflwk1yt1cqxFxu1TA.jpeg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">第8回ニコ技深セン観察会 参加者名簿：感想まとめ
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>ニコ技深圳観察会、3/18夕方–21深夜で予定している第8回、多くの応募ありがとうございました。感想は順次ここに上がっていきます。
 ニコ技深圳観察会{.markup–anchor .markup–p-anchor}、3/18夕方–21深夜で予定している第8回、多くの応募{.markup–anchor .markup–p-anchor}ありがとうございました。感想は順次ここに上がっていきます。
 2018 03 ニコ技深圳観察会 第8回Twitterまとめ
 参加者一覧と感想まとめニコ技深圳観察会とはtogetter.com{.markup–anchor .markup–mixtapeEmbed-anchor} ■参加者名簿（名字の英語読みのA-Z順）
@@ -146,7 +439,22 @@ Insta360のものづくりに感じる、深圳らしさ{.markup–anchor .marku
 ブログ： 「第８回ニコ技深圳観察会」に参加させて頂きました！ 竹迫良範（リクルートマーケティングパートナーズ） tanabe917 (リチウムイオンバッテリ会社antenna1st){.markup–anchor .markup–p-anchor}
 ブログ：ニコ技深圳観察会感想・まとめ1 Hirokazu Taniguchi（ a&amp;vein.Inc）{.markup–anchor .markup–p-anchor}
 ブログ：アジアのシリコンバレー深圳に行ってきました。（全9回） 戸田 拓（朝日新聞デジタル） 上村崇（フリーランスのITエンジニア） 山崎勇祐（ Hapbeat合同会社代表兼東工大博士課程1年）{.markup–anchor .markup–p-anchor} ブログ:大学発ベンチャー社長（）が見てきた深圳{.markup–anchor .markup–p-anchor} 初めての単独深圳会社＆工場訪問
-...</p></div><footer class=entry-footer><span title='2018-02-06 00:00:00 +0000 UTC'>February 6, 2018</span>&nbsp;·&nbsp;<span>1 min</span></footer><a class=entry-link aria-label="post link to 第8回ニコ技深セン観察会 参加者名簿：感想まとめ" href=https://takasumasakazu.github.io/teardown/8/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://cdn-images-1.medium.com/max/800/1*n1OXFXcS7_8yVj_Eeoq8Aw.jpeg alt></figure><header class=entry-header><h2 class=entry-hint-parent>北京ベンチャー訪問：中関村創業ストリート Inno way</h2></header><div class=entry-content><p>北京ベンチャー訪問全体のまとめはこちら
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2018-02-06 00:00:00 +0000 UTC'>February 6, 2018</span>&nbsp;·&nbsp;<span>1 min</span></footer>
+  <a class="entry-link" aria-label="post link to 第8回ニコ技深セン観察会 参加者名簿：感想まとめ" href="http://localhost:1313/teardown/8/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/1*n1OXFXcS7_8yVj_Eeoq8Aw.jpeg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">北京ベンチャー訪問：中関村創業ストリート Inno way
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>北京ベンチャー訪問全体のまとめはこちら
 北京ベンチャー訪問：中関村創業ストリート Inno way 北京ベンチャー訪問全体のまとめはこちら **中関村創業ストリートInno way
 **初日の午後は、中関村の創業ストリートと呼ばれるコワーキングスペースが集まっている一帯Inno wayを訪問しました。
 このストリートは、ちょっと前（おそらく2000年頃）には本屋などが集まっていた地域を、スタートアップ支援施設が集まる地域にリノベーションしたもので、ストリート両脇の路面はアクセラレータやインキュベータなどの支援施設で埋まっています。
@@ -156,7 +464,7 @@ Inno Way公式サイト：www.z-innoway.com/en/
 ・1Fがカフェ。イベントスペース併設
 ・2Fがコワーキングスペース。
 と、そっくり似たような構成になっているのが面白いところ。名前もギークxxとかスタートアップxxとかエンジェルxxなど、いかにも意識の高そうなものが続きます。コワーキングスペースに入居していて自前のオフィスを構えていないとのことで、午前中に見学した創業公社より{.markup–anchor .markup–p-anchor}さらに初期段階、企業準備中のSeeedステージのベンチャーを支援している組織が多そうです。
-入居しているインキュベーション施設の一つを見学しました。Inno WayはLenovo, IBM, Tencentなどの中国の大企業と連携し、500 StartupやPlug & Playなどの海外のインキュベータとも連携している施設です。2015年の5月には李克強首相も来訪したとか。政府系のインキュベータで、資金と場所は政府補助を受けています。北京の家賃相場から考えると安い金額でスタートアップを入居させられるのはその補助があるからとのこと。
+入居しているインキュベーション施設の一つを見学しました。Inno WayはLenovo, IBM, Tencentなどの中国の大企業と連携し、500 StartupやPlug &amp; Playなどの海外のインキュベータとも連携している施設です。2015年の5月には李克強首相も来訪したとか。政府系のインキュベータで、資金と場所は政府補助を受けています。北京の家賃相場から考えると安い金額でスタートアップを入居させられるのはその補助があるからとのこと。
 Innoway
 **高品質のPCB/PCBA製造 中国人がスイスで起業したSwie.io
 **ここ出身のスタートアップの一つ、中国人がスイスに渡って起業したSwie.ioのCTOがたまたま来ていて、話を聞けました。PCB制作やPCBアッセンブリ（以下PCBA）の会社です。PCBは電子回路そのものであるPrinted Circuit Board基板の製造サービス、PCBAはその基板にマイコンチップやセンサーなどの部品を組み付けしてくれて、完成品の基板が届くサービス。どちらもハードウェアのプロトタイプを仕事にするには不可欠なサービスです。
@@ -167,15 +475,28 @@ Innoway
 **午前中に見た創業公社のベンチャー達は巨大な中国市場を想定してBtoBに近い販売をするドメスティックな起業達が多かったのに対し、InnoWayは世界とのつながりを意識しているように見えました。フランスが仕掛けているFrenchTechと似たアプローチで、国内にとどまりがちなベンチャーを世界に出していくためのサポートを行うものです。Swie.ioはスイスで起業していることもあり、社内は欧米人のほうがはるかに多いとのこと。現在では小さいが未来には大きくなりそうなニーズを取りに行くサービスをするのであれば、グローバルに展開する方が可能性があります。InnoWayと提携しているPlug&amp;Playや500 Startupsのようなシリコンバレー発インキュベータはどちらもそのような考え方で、シリコンバレーの強さは「そこで出てきたサービスがグローバルで通用する」ことでもあります。
 インキュベータがどこも似たような店構えなのはついつい笑いたくなりますが、世界の流行りにきちんと乗っかろうとしている試みだと感じました。
 北京ベンチャー訪問全体のまとめはこちら By TAKASU Masakazu/高須正和{.p-author .h-card} on August 19, 2017.
-Canonical link Exported from Medium on February 6, 2026.</p></div><footer class=entry-footer><span title='2017-08-19 00:00:00 +0000 UTC'>August 19, 2017</span>&nbsp;·&nbsp;<span>1 min</span></footer><a class=entry-link aria-label="post link to 北京ベンチャー訪問：中関村創業ストリート Inno way" href=https://takasumasakazu.github.io/teardown/inno-way/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>成長市場でのベンチャーはイージーモード 北京のスタートアップたち（まとめ）</h2></header><div class=entry-content><p>Maker Faire Beijing 2017に関連して、8月9–10日の2日間、自身が北京のグリーンテック関連のスタートアップに勤務し、清華大学でMBAを学んだ佐野さん(Wechat…
+Canonical link Exported from Medium on February 6, 2026.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2017-08-19 00:00:00 +0000 UTC'>August 19, 2017</span>&nbsp;·&nbsp;<span>1 min</span></footer>
+  <a class="entry-link" aria-label="post link to 北京ベンチャー訪問：中関村創業ストリート Inno way" href="http://localhost:1313/teardown/inno-way/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">成長市場でのベンチャーはイージーモード 北京のスタートアップたち（まとめ）
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Maker Faire Beijing 2017に関連して、8月9–10日の2日間、自身が北京のグリーンテック関連のスタートアップに勤務し、清華大学でMBAを学んだ佐野さん(Wechat…
 Maker Faire Beijing 2017に関連して、8月9–10日の2日間、自身が北京のグリーンテック関連のスタートアップに勤務し、清華大学でMBAを学んだ佐野さん(Wechat ID:Sanonas)に案内していただいて、ニコ技深圳観察会{.markup–anchor .markup–p-anchor}で呼びかけた7人ほどと一緒に、北京・清華大関係のベンチャーを見てきました。
 佐野さんから「北京のスタートアップに注目してもらいたい」という意思でたくさんのアポイントとご案内をしていただいたので、内容をシェアします。ぜひ佐野さんに案内いただいて、北京のベンチャー達を見に行くといいかと。
 訪問先
-9日：北京市や北京の大企業が支援しているベンチャー地区2カ所(創業公社&中関村創業ストリート)と、そこに入居しているベンチャー3社
+9日：北京市や北京の大企業が支援しているベンチャー地区2カ所(創業公社&amp;中関村創業ストリート)と、そこに入居しているベンチャー3社
 創業公社 T-Sence VR (VR化した教育コンテンツ）
 Shelter (大学内の研究、特に化学の成果を市場化する会社）
 Populele 中関村創業ストリート
-Swie.io 10日：清華大学のベンチャー支援制度(授業+X-Lab)と、清華大学発のベンチャー支援企業TusStar、およびそこ出身のベンチャー
+Swie.io 10日：清華大学のベンチャー支援制度(授業&#43;X-Lab)と、清華大学発のベンチャー支援企業TusStar、およびそこ出身のベンチャー
 X-lab
 -ZhenRobot（Justin Liu氏）
 -NumsTM Ultra-thin Smart Keyboard
@@ -204,8 +525,95 @@ TusStar
 似たようなことをやってる多くのインキュベータがそれなりに商売が成り立ってそうに見えたのは、その「どう支援してもパイは大きくなる」という構造があるように思います。
 なので、北京からはこれからもハイクオリティな、深圳とは違ったタイプのベンチャーが登場してきそうだなあと感じました。
 実際に見てみる前後で、北京のベンチャーエコシステムへの印象は大きく変わりました。全行程をアテンドしてくれた佐野さん(Wechat ID:Sanonas)、本当にありがとうございました。
-...</p></div><footer class=entry-footer><span title='2017-08-18 00:00:00 +0000 UTC'>August 18, 2017</span>&nbsp;·&nbsp;<span>1 min</span></footer><a class=entry-link aria-label="post link to 成長市場でのベンチャーはイージーモード 北京のスタートアップたち（まとめ）" href=https://takasumasakazu.github.io/teardown/post/></a></article><footer class=page-footer><nav class=pagination><a class=prev href=https://takasumasakazu.github.io/teardown/page/7/>«&nbsp;Prev&nbsp;</a></nav></footer></main><footer class=footer><span>&copy; 2026 <a href=https://takasumasakazu.github.io/>ニコ技深セン / Nico-Tech Shenzhen website</a></span> ·
-<span>Powered by
-<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
-        <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
-</a><script>let menu=document.getElementById("menu");if(menu){const e=localStorage.getItem("menu-scroll-position");e&&(menu.scrollLeft=parseInt(e,10)),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}}document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{const e=document.querySelector("html");e.dataset.theme==="dark"?(e.dataset.theme="light",localStorage.setItem("pref-theme","light")):(e.dataset.theme="dark",localStorage.setItem("pref-theme","dark"))})</script></body></html>
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2017-08-18 00:00:00 +0000 UTC'>August 18, 2017</span>&nbsp;·&nbsp;<span>1 min</span></footer>
+  <a class="entry-link" aria-label="post link to 成長市場でのベンチャーはイージーモード 北京のスタートアップたち（まとめ）" href="http://localhost:1313/teardown/post/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="http://localhost:1313/teardown/page/7/">
+      «&nbsp;Prev&nbsp;
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">ニコ技深セン / Nico-Tech Shenzhen website</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

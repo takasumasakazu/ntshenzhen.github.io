@@ -1,5 +1,200 @@
-<!doctype html><html lang=en dir=auto data-theme=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Teardown | ニコ技深セン / Nico-Tech Shenzhen website</title>
-<meta name=keywords content><meta name=description content="Reverse engineering, teardowns, chip decap notes."><meta name=author content><link rel=canonical href=https://takasumasakazu.github.io/teardown/><link crossorigin=anonymous href=https://takasumasakazu.github.io/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css integrity="sha256-2jIR5e+Ge/K3X9WmUVz+1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as=style><link rel=icon href=https://takasumasakazu.github.io/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://takasumasakazu.github.io/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://takasumasakazu.github.io/favicon-32x32.png><link rel=apple-touch-icon href=https://takasumasakazu.github.io/apple-touch-icon.png><link rel=mask-icon href=https://takasumasakazu.github.io/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate type=application/rss+xml href=https://takasumasakazu.github.io/teardown/index.xml title=rss><link rel=alternate hreflang=en href=https://takasumasakazu.github.io/teardown/><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--code-block-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51);color-scheme:dark}.list{background:var(--theme)}.toc{background:var(--entry)}}@media(prefers-color-scheme:light){.list::-webkit-scrollbar-thumb{border-color:var(--code-bg)}}</style></noscript><script>localStorage.getItem("pref-theme")==="dark"?document.querySelector("html").dataset.theme="dark":localStorage.getItem("pref-theme")==="light"?document.querySelector("html").dataset.theme="light":window.matchMedia("(prefers-color-scheme: dark)").matches?document.querySelector("html").dataset.theme="dark":document.querySelector("html").dataset.theme="light"</script><meta property="og:url" content="https://takasumasakazu.github.io/teardown/"><meta property="og:site_name" content="ニコ技深セン / Nico-Tech Shenzhen website"><meta property="og:title" content="Teardown"><meta property="og:description" content="Reverse engineering, teardowns, chip decap notes."><meta property="og:locale" content="en"><meta property="og:type" content="website"><meta name=twitter:card content="summary"><meta name=twitter:title content="Teardown"><meta name=twitter:description content><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Teardown","item":"https://takasumasakazu.github.io/teardown/"}]}</script></head><body class=list id=top><header class=header><nav class=nav><div class=logo><a href=https://takasumasakazu.github.io/ accesskey=h title="ニコ技深セン / Nico-Tech Shenzhen website (Alt + H)">ニコ技深セン / Nico-Tech Shenzhen website</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)" aria-label="Toggle theme"><svg id="moon" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu><li><a href=https://takasumasakazu.github.io/teardown/ title=Teardown><span class=active>Teardown</span></a></li><li><a href=https://takasumasakazu.github.io/shenzhen/ title=Shenzhen><span>Shenzhen</span></a></li><li><a href=https://takasumasakazu.github.io/years/ title=Years><span>Years</span></a></li></ul></nav></header><main class=main><header class=page-header><div class=breadcrumbs><a href=https://takasumasakazu.github.io/>Home</a></div><h1>Teardown</h1></header><div class=post-content><p>Reverse engineering, teardowns, chip decap notes.</p></div><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://cdn-images-1.medium.com/max/800/0*G4y4NwaP6e538zmw alt></figure><header class=entry-header><h2 class=entry-hint-parent>1月4日にPodcast公開収録 ニコ技深センコミュニティ月次報告 2022年01月</h2></header><div class=entry-content><p>■1月4日にPodcast公開収録
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Teardown | ニコ技深セン / Nico-Tech Shenzhen website</title>
+<meta name="keywords" content="">
+<meta name="description" content="Reverse engineering, teardowns, chip decap notes.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/teardown/">
+<link crossorigin="anonymous" href="http://localhost:1313/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/teardown/index.xml" title="rss">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/teardown/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="http://localhost:1313/teardown/">
+  <meta property="og:site_name" content="ニコ技深セン / Nico-Tech Shenzhen website">
+  <meta property="og:title" content="Teardown">
+  <meta property="og:description" content="Reverse engineering, teardowns, chip decap notes.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Teardown">
+<meta name="twitter:description" content="">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Teardown",
+      "item": "http://localhost:1313/teardown/"
+    }
+  ]
+}
+</script>
+</head>
+<body class="list" id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="ニコ技深セン / Nico-Tech Shenzhen website (Alt + H)">ニコ技深セン / Nico-Tech Shenzhen website</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/teardown/" title="Teardown">
+                    <span class="active">Teardown</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/shenzhen/" title="Shenzhen">
+                    <span>Shenzhen</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/years/" title="Years">
+                    <span>Years</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header"><div class="breadcrumbs"><a href="http://localhost:1313/">Home</a></div>
+  <h1>
+    Teardown
+  </h1>
+</header>
+<div class="post-content"><p>Reverse engineering, teardowns, chip decap notes.</p>
+
+
+</div>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/1*VGWhAdRXrkJ8np24lLvPGg.jpeg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">\#分解のススメ 第14回アーカイブ ニセAirPods, おもちゃ分解、Oculus分解、TWSイヤホン分解からRISC-Vの活用や、中国半導体産業の深みを知る
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>分解のススメ全イベントアーカイブ 2020年6月から続けているイベントもこれで14回目、今回はニセAirpodsをきっかけに、中国半導体産業の深みがわかるイベントになった。
+分解のススメ全イベントアーカイブ{.markup–anchor .markup–p-anchor}
+2020年6月から続けているイベントもこれで14回目、今回はニセAirpodsをきっかけに、中国半導体産業の深みがわかるイベントになった。
+@GOROman @Shiratch Oculus Quest2発売日分解&amp;ライブ配信 Oculus Quest2を発売日にライブ分解した様子。今回の中継も全部ライブで、股間からiPhone13 Pro Maxを生やすバレーの白鳥の湖みたいなキットで配信していた。
+おもちゃ分解のススメ 小林竜太 @CH1H160 魔改造の夜などでも大活躍の小林さん。
+これまでの登壇者は電子回路関係が多いけど、メカ系の分解は面白い。小林さんの発表はメカ系の工夫がたくさん出ていて、スライドもとても見やすくておすすめ。
+書籍が8月に出るとのことで、ぜひイベント等で宣伝していきたい。
+怪しいスマホを分解する Ryota Suzuki(@JA1TYE) 鈴木さんの発表はニセiPhone,ニセHuaweiスマホなどの分解。コストを下げる工夫と、それっぽく見せる工夫は素晴らしい。
+ニセAirpodsこと「华强北4代」イヤホン分解・分析 @tks 僕の発表はニセAirpodsの分解。深圳のチップ解析屋に個別に依頼して、たった300元（6000円）でキレイなチップ写真を撮ったのは特色。
+テカナリエレポート{.markup–anchor .markup–p-anchor}517号に詳細な比較記事が載っていて、それを裏付けられる写真を撮れたのは面白い。
+テカナリエレポートは個人購読もできるので、ぜひみんな読むべきだと思う。
+ローエンド中BT Audio SoC @tomorrow56 山崎さんの発表は、100均ガジェット分解をずっと追いかけている山崎さんならではのチップメーカー比較で、最もバズったツイートとなった。
+資料もアップされているのがありがたい。
+ここでみられる、欧米系の中国人が香港で起業し、そこはローエンド品をきちんとIPを守りながら作っているのだけど、雇われた中国人のエンジニアたちがIP保護の怪しい昔の中国/深圳で起業してより過激なオープンイノベーションをし、結果として先進国のメーカーと比肩する実力をつける様子は、コピースマホほか色んなところで見られている。
+それが半導体産業でも見られるということがわかったことは、次の秋田先生の発表と並んで、半導体産業全体を考える上ですごく大きなテーマになる。
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-07-18 00:00:00 +0000 UTC'>July 18, 2022</span>&nbsp;·&nbsp;<span>1 min</span></footer>
+  <a class="entry-link" aria-label="post link to \#分解のススメ 第14回アーカイブ ニセAirPods, おもちゃ分解、Oculus分解、TWSイヤホン分解からRISC-Vの活用や、中国半導体産業の深みを知る" href="http://localhost:1313/teardown/14-airpods-oculus-tws-risc-v/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/0*G4y4NwaP6e538zmw" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">1月4日にPodcast公開収録 ニコ技深センコミュニティ月次報告 2022年01月
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>■1月4日にPodcast公開収録
 ■1月4日にPodcast公開収録
 プロトタイプシティ ラジオの公開収録イベントを行います
 今回のテーマ：最近の折りたたみスマホや電子ペーパースマホ
@@ -42,7 +237,19 @@ https://finders.me/articles.php?id=3169
 https://www.shenzhen-fan.com/news-2021-12-02-contactless-e-channel-service-has-start-in-hk/
 2.香港版健康コード「港康碼」12月10日スタート：クリスマス前に本土との往来が可能に？
 先日、香港版健康コード「港康碼」が発表されました。これにより広東省とマカオの健康コードとの相互承認が可能になります。「港康碼」の概要をお伝えします。
-...</p></div><footer class=entry-footer><span title='2022-05-02 00:00:00 +0000 UTC'>May 2, 2022</span>&nbsp;·&nbsp;<span>1 min</span></footer><a class=entry-link aria-label="post link to 1月4日にPodcast公開収録 ニコ技深センコミュニティ月次報告 2022年01月" href=https://takasumasakazu.github.io/teardown/1-4-podcast-2022-01/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>中国のオープンソースについて神戸大学現代中国研究拠点と合同イベント ニコ技深センコミュニティ月次報告 2022年03月</h2></header><div class=entry-content><p>■中国のオープンソースムーブメント：その現状と可能性 3月15日19時オンライン 山形浩生/八田真行/伊藤亜聖/牧兼充/梶谷懐/高須正和 主催：神戸大学現代中国研究拠点
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-05-02 00:00:00 +0000 UTC'>May 2, 2022</span>&nbsp;·&nbsp;<span>1 min</span></footer>
+  <a class="entry-link" aria-label="post link to 1月4日にPodcast公開収録 ニコ技深センコミュニティ月次報告 2022年01月" href="http://localhost:1313/teardown/1-4-podcast-2022-01/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">中国のオープンソースについて神戸大学現代中国研究拠点と合同イベント ニコ技深センコミュニティ月次報告 2022年03月
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>■中国のオープンソースムーブメント：その現状と可能性 3月15日19時オンライン 山形浩生/八田真行/伊藤亜聖/牧兼充/梶谷懐/高須正和 主催：神戸大学現代中国研究拠点
 ■中国のオープンソースムーブメント：その現状と可能性 3月15日19時オンライン 山形浩生/八田真行/伊藤亜聖/牧兼充/梶谷懐/高須正和 主催：神戸大学現代中国研究拠点
 ↓録画公開しました こちらをどうぞ
 録画 #中国オープンソース ムーブメント：その現状と可能性 山形浩生/八田真行/伊藤亜聖/牧兼充/梶谷懐/高須正和 主催：神戸大学現代中国研究拠点
@@ -83,7 +290,19 @@ https://www.php.co.jp/magazine/voice/?unique_issue_id=12531
 CISTECジャーナル| 安全保障貿易情報センター（CISTEC）
 https://www.cistec.or.jp/journal/page/2201index.html
 不人気のはずの北京五輪に中国人はなぜ熱狂するのか WEDGE Infinity(ウェッジ)
-...</p></div><footer class=entry-footer><span title='2022-05-02 00:00:00 +0000 UTC'>May 2, 2022</span>&nbsp;·&nbsp;<span>2 min</span></footer><a class=entry-link aria-label="post link to 中国のオープンソースについて神戸大学現代中国研究拠点と合同イベント ニコ技深センコミュニティ月次報告 2022年03月" href=https://takasumasakazu.github.io/teardown/2022-03/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>日本のGDPを上げるためにコミュニティの活用を ニコ技深センコミュニティ月次報告 2022年05月</h2></header><div class=entry-content><p>4月21日に出版された『遠くへ行きたければ、みんなで行け 「ビジネス」「ブランド」「チーム」を変革するコミュニティの原則』（ジョノ・ベーコン…
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-05-02 00:00:00 +0000 UTC'>May 2, 2022</span>&nbsp;·&nbsp;<span>2 min</span></footer>
+  <a class="entry-link" aria-label="post link to 中国のオープンソースについて神戸大学現代中国研究拠点と合同イベント ニコ技深センコミュニティ月次報告 2022年03月" href="http://localhost:1313/teardown/2022-03/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">日本のGDPを上げるためにコミュニティの活用を ニコ技深センコミュニティ月次報告 2022年05月
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>4月21日に出版された『遠くへ行きたければ、みんなで行け 「ビジネス」「ブランド」「チーム」を変革するコミュニティの原則』（ジョノ・ベーコン…
 4月21日に出版された『遠くへ行きたければ、みんなで行け 「ビジネス」「ブランド」「チーム」を変革するコミュニティの原則』（ジョノ・ベーコン 著、高須正和翻訳、山形浩生監訳、関治之解説）は、日本の大企業や組織に欠けているコミュニティ、ひいてはオープンイノベーションについて明確なガイドラインを提供しています。
 https://amzn.to/3kBMBhb
 先週の4月29日には、山形浩生/関治之/高須の3名で、Code for Japan他の日本でのコミュニティ活動を含めて語るオンラインイベントを行いました。
@@ -125,22 +344,65 @@ https://persol-tech-s.co.jp/i-engineer/product/earphonedisassembly
 [バックナンバー(noteのマガジン)] https://note.com/tomorrow56/m/ma0073059b5ac
 4. ITmediaの「エンジニアライフ」 のコラム更新
 「ThousanDIYの「ガジェット分解ライフ」」 ・第7回: 用途次第で十分使える。ダイソーの110円USB Hubを分解してみよう
-...</p></div><footer class=entry-footer><span title='2022-05-02 00:00:00 +0000 UTC'>May 2, 2022</span>&nbsp;·&nbsp;<span>1 min</span></footer><a class=entry-link aria-label="post link to 日本のGDPを上げるためにコミュニティの活用を ニコ技深センコミュニティ月次報告 2022年05月" href=https://takasumasakazu.github.io/teardown/gdp-2022-05/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>\#分解のススメ 13回 テカナリエ清水さん講演 広がり続けるダークシリコン</h2></header><div class=entry-content><p>開催した記録としてページ作成 アーカイブ動画公開はテカナリエのチャンネルで3月頃公開予定
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-05-02 00:00:00 +0000 UTC'>May 2, 2022</span>&nbsp;·&nbsp;<span>1 min</span></footer>
+  <a class="entry-link" aria-label="post link to 日本のGDPを上げるためにコミュニティの活用を ニコ技深センコミュニティ月次報告 2022年05月" href="http://localhost:1313/teardown/gdp-2022-05/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">\#分解のススメ 13回 テカナリエ清水さん講演 広がり続けるダークシリコン
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>開催した記録としてページ作成 アーカイブ動画公開はテカナリエのチャンネルで3月頃公開予定
 開催した記録としてページ作成 アーカイブ動画公開はテカナリエのチャンネルで3月頃公開予定
 [INTEL] [2021 CHINA] [1987年 35年前] [2021 日本製品] [2021 TESLAなど] [やっぱApple見ておかなきゃ] [今日お伝えしたいこと] #分解のススメ 13回 テカナリエ清水さん講演 広がり続けるダークシリコン
 *1.INTEL2.2021 CHINA3.1987年 35年前4.2021 日本製品5.2021 TESLAなど6.やっぱApple見ておかなきゃ7.今日お伝えしたいことテカナリエレポート個人購読..*togetter.com{.markup–anchor .markup–mixtapeEmbed-anchor} テカナリエレポート個人購読 #分解のススメ テカナリエレポートの個人購読が始まりました
 *一昨日6/13の#分解のススメ (オンライン）第2回 テカナリエ清水洋治代表 講演はすばらしいイベントでした。今も新たにYoutube動画の感想がSNSに上がりつづけています。*medium.com{.markup–anchor .markup–mixtapeEmbed-anchor} By TAKASU Masakazu/高須正和{.p-author .h-card} on February 6, 2022.
-Canonical link Exported from Medium on February 6, 2026.</p></div><footer class=entry-footer><span title='2022-02-06 00:00:00 +0000 UTC'>February 6, 2022</span>&nbsp;·&nbsp;<span>1 min</span></footer><a class=entry-link aria-label="post link to \#分解のススメ 13回 テカナリエ清水さん講演 広がり続けるダークシリコン" href=https://takasumasakazu.github.io/teardown/13/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://cdn-images-1.medium.com/max/800/1*FWnLypyIe-4j7vbPvakJgw.jpeg alt></figure><header class=entry-header><h2 class=entry-hint-parent>\#分解のススメ 12回 動画まとめ 100均分解 スイカ爆発 波平 正気に帰る前にやり遂げる 逆再生Lチカ とにかく数こなす</h2></header><div class=entry-content><p>イベントtwitterまとめ
+Canonical link Exported from Medium on February 6, 2026.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-02-06 00:00:00 +0000 UTC'>February 6, 2022</span>&nbsp;·&nbsp;<span>1 min</span></footer>
+  <a class="entry-link" aria-label="post link to \#分解のススメ 13回 テカナリエ清水さん講演 広がり続けるダークシリコン" href="http://localhost:1313/teardown/13/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/1*FWnLypyIe-4j7vbPvakJgw.jpeg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">\#分解のススメ 12回 動画まとめ 100均分解 スイカ爆発 波平 正気に帰る前にやり遂げる 逆再生Lチカ とにかく数こなす
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>イベントtwitterまとめ
 #分解のススメ 12回 動画まとめ 100均分解 スイカ爆発 波平 正気に帰る前にやり遂げる 逆再生Lチカ とにかく数こなす イベントtwitterまとめ #分解のススメ 12回 100均分解 スイカ爆発 波平 正気に帰る前にやり遂げる 逆再生Lチカ とにかく数こなす
 PJ動画山崎資料秋田資料ともん資料高須 書籍の資料togetter.com{.markup–anchor .markup–mixtapeEmbed-anchor}
 PJさん高電圧スイカ割り 秋田純一 @akita11 CH551/2/8/9を炙ってみた ともん @tomonnn1 スマホ充電器つけっぱなしでもリチウムイオン電池を長持ちさせる充電システムを作ってみた [**スマホ充電器つけっぱなしでも電池に優しい充電タイマーを手はんだで製造、コミケ等で頒布します～
 Qiita**
-*Why not register and get more from Qiita?*qiita.com](https://qiita.com/tomonnn1/items/3f25b935ad51b58580de “https://qiita.com/tomonnn1/items/3f25b935ad51b58580de"){.markup--anchor .markup–mixtapeEmbed-anchor} #分解のススメ 12回 電子部品の墓場・スワトウ贵屿鎮行ってきた2021 高須正和 @tks #分解のススメ 12回 ギャル電きょうこ ストリート(100均)電子工作の始め方 thousanDIY Tomorrow56 100均分解のススメ Part3 https://bunkai13.peatix.com/
+*Why not register and get more from Qiita?*qiita.com](https://qiita.com/tomonnn1/items/3f25b935ad51b58580de “https://qiita.com/tomonnn1/items/3f25b935ad51b58580de&#34;){.markup--anchor .markup–mixtapeEmbed-anchor} #分解のススメ 12回 電子部品の墓場・スワトウ贵屿鎮行ってきた2021 高須正和 @tks #分解のススメ 12回 ギャル電きょうこ ストリート(100均)電子工作の始め方 thousanDIY Tomorrow56 100均分解のススメ Part3 https://bunkai13.peatix.com/
 「分解のススメ」過去イベントまとめブログと録画はこちら！ https://medium.com/bunkai/ 分解への愛と楽しさをシェアするイベント、 #分解のススメ{.markup–anchor .markup–p-anchor} を1月29日(土）14:00-から行いました！
 2022年一発目にして第12回の今回は、「100均分解」がテーマ。 #分解のススメ コミュニティ{.markup–anchor .markup–p-anchor}では、2022年中に新しい書籍出版の計画も進行中です。
 更に翌週2月5日(土) 14:45-では、テカナリエ清水さん登壇の第13回{.markup–anchor .markup–p-anchor}を行います！
 By TAKASU Masakazu/高須正和{.p-author .h-card} on January 30, 2022.
-...</p></div><footer class=entry-footer><span title='2022-01-30 00:00:00 +0000 UTC'>January 30, 2022</span>&nbsp;·&nbsp;<span>1 min</span></footer><a class=entry-link aria-label="post link to \#分解のススメ 12回 動画まとめ 100均分解 スイカ爆発 波平 正気に帰る前にやり遂げる 逆再生Lチカ とにかく数こなす" href=https://takasumasakazu.github.io/teardown/12-100-l/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://cdn-images-1.medium.com/max/800/1*FcCItyjqT3s3m1TGyGHnbA.jpeg alt></figure><header class=entry-header><h2 class=entry-hint-parent>9月6日21:30に著名ITエンジニア/ブロガー「からあげ」さんとpodcast生収録 ニコ技深センコミュニティ月次報告 2021年09月</h2></header><div class=entry-content><p>【中国オープンソースについて、北京日本大使館にて垂大使に情報提供】
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-01-30 00:00:00 +0000 UTC'>January 30, 2022</span>&nbsp;·&nbsp;<span>1 min</span></footer>
+  <a class="entry-link" aria-label="post link to \#分解のススメ 12回 動画まとめ 100均分解 スイカ爆発 波平 正気に帰る前にやり遂げる 逆再生Lチカ とにかく数こなす" href="http://localhost:1313/teardown/12-100-l/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/1*FcCItyjqT3s3m1TGyGHnbA.jpeg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">9月6日21:30に著名ITエンジニア/ブロガー「からあげ」さんとpodcast生収録 ニコ技深センコミュニティ月次報告 2021年09月
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>【中国オープンソースについて、北京日本大使館にて垂大使に情報提供】
 【中国オープンソースについて、北京日本大使館にて垂大使に情報提供】
 米中貿易戦争と国内技術力の高まりから、2020年から中国政府はオープンソースへの社会的な注力を増しています。2020年以降はこれまでと大きく違った流れなので、注目すべきです。
 先日技術評論社からこれについて簡単に紹介するコラムを寄稿し、あわせて北京の垂大使とお会いした時に、こちらについて情報提供させていただきました。
@@ -185,7 +447,22 @@ https://www.shenzhen-fan.com/news-2021-08-05-new-announcement-from-gd-hk-macau/
 コロナ禍の現在でも、深セン蛇口から香港国際空港へ向かうフェリーは運航中で、香港国際空港発の便を利用して日本に戻ることは可能ですが、出港3時間前にはターミナルに到着し、各種手続きを必要とします。今回はフェリー利用時の手順や、利用可能なフライトを紹介します。
 https://www.shenzhen-fan.com/2021-08-06-new-information-of-shekou-to-hk-airport-ferry/
 4.【Maker Faire Shenzhen 2021】オンライン出展者募集開始！（-10/30）
-...</p></div><footer class=entry-footer><span title='2021-09-03 00:00:00 +0000 UTC'>September 3, 2021</span>&nbsp;·&nbsp;<span>2 min</span></footer><a class=entry-link aria-label="post link to 9月6日21:30に著名ITエンジニア/ブロガー「からあげ」さんとpodcast生収録 ニコ技深センコミュニティ月次報告 2021年09月" href=https://takasumasakazu.github.io/teardown/9-6-21-30-it-podcast-2021-09/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://cdn-images-1.medium.com/max/800/0*R0V5C2pOeOLgzESn.jpg alt></figure><header class=entry-header><h2 class=entry-hint-parent>世界の工場＝中国 の図式は簡単には終わらない（現代中国の産業集積 著：伊藤亜聖） 2016年10月4日記事</h2></header><div class=entry-content><p>現代中国の産業集積―「世界の工場」とボトムアップ型経済発展―
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-09-03 00:00:00 +0000 UTC'>September 3, 2021</span>&nbsp;·&nbsp;<span>2 min</span></footer>
+  <a class="entry-link" aria-label="post link to 9月6日21:30に著名ITエンジニア/ブロガー「からあげ」さんとpodcast生収録 ニコ技深センコミュニティ月次報告 2021年09月" href="http://localhost:1313/teardown/9-6-21-30-it-podcast-2021-09/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/0*R0V5C2pOeOLgzESn.jpg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">世界の工場＝中国 の図式は簡単には終わらない（現代中国の産業集積 著：伊藤亜聖） 2016年10月4日記事
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>現代中国の産業集積―「世界の工場」とボトムアップ型経済発展―
 現代中国の産業集積―「世界の工場」とボトムアップ型経済発展― 現代中国の産業集積―「世界の工場」とボトムアップ型経済発展― posted with amazlet{.markup–anchor .markup–p-anchor} at 16.10.04
 伊藤 亜聖
 名古屋大学出版会
@@ -207,7 +484,23 @@ Amazon.co.jpで詳細を見る 伊藤さんの研究室に伺った際に献本�
 インプレスR&amp;D (2016–03–28)
 売り上げランキング: 39,703
 Amazon.co.jpで詳細を見る By TAKASU Masakazu/高須正和{.p-author .h-card} on September 3, 2021.
-Canonical link Exported from Medium on February 6, 2026.</p></div><footer class=entry-footer><span title='2021-09-03 00:00:00 +0000 UTC'>September 3, 2021</span>&nbsp;·&nbsp;<span>1 min</span></footer><a class=entry-link aria-label="post link to 世界の工場＝中国 の図式は簡単には終わらない（現代中国の産業集積 著：伊藤亜聖） 2016年10月4日記事" href=https://takasumasakazu.github.io/teardown/2016-10-4/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://cdn-images-1.medium.com/max/800/0*Bnljt2at_QfgWs6x.jpg alt></figure><header class=entry-header><h2 class=entry-hint-parent>深セン、シンガポール、シリコンバレー、東京 (都市は人類最高の発明である 著：エドワード・グレイザー 訳：山形浩生) (2016年09月30日）</h2></header><div class=entry-content><p>結論：外国に出ることが一回でもあるなら、ぜひ読んだことが良いぐらい必須の知識や考え方が豊富な実例とともに実証されている本。
+Canonical link Exported from Medium on February 6, 2026.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-09-03 00:00:00 +0000 UTC'>September 3, 2021</span>&nbsp;·&nbsp;<span>1 min</span></footer>
+  <a class="entry-link" aria-label="post link to 世界の工場＝中国 の図式は簡単には終わらない（現代中国の産業集積 著：伊藤亜聖） 2016年10月4日記事" href="http://localhost:1313/teardown/2016-10-4/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/0*Bnljt2at_QfgWs6x.jpg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">深セン、シンガポール、シリコンバレー、東京 (都市は人類最高の発明である 著：エドワード・グレイザー 訳：山形浩生) (2016年09月30日）
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>結論：外国に出ることが一回でもあるなら、ぜひ読んだことが良いぐらい必須の知識や考え方が豊富な実例とともに実証されている本。
 結論：外国に出ることが一回でもあるなら、ぜひ読んだことが良いぐらい必須の知識や考え方が豊富な実例とともに実証されている本。
 都市は人類最高の発明である posted with amazlet{.markup–anchor .markup–p-anchor} at 16.09.30
 エドワード・グレイザー
@@ -259,7 +552,22 @@ Amazon.co.jpで詳細を見る 絶版なんだけど、このツイート{.marku
 日本は産業の新陳代謝がもともと早かった国だけど、ここ３０年ぐらいは遅くなっている。今大きい会社は１０年後も大きいままだろうし、トップ１００の顔ぶれはあまり変わらなさそうだ。ここ１０年ぐらいでどの都市もグローバル化の恩恵を受けているのだけど、東京はそこにそこまで乗り切れていない。そうすると階層が固定され、今主役の人たちがコケたとき（実際に、自動車以外の日本の産業はけっこういろいろヤバイ）に、かなりつまらない街にならないだろうか。日本人はそれでも東京以外に行かないと思うけど、一回斜陽になった街だと保護や権利ばかり主張する人がガンガン出てきて、結果としてより階層を固定化させ、ダイナミズムを生む人たちを追いやってしまう例は、本書にいくつも出てくる。（僕も、いま僕がやってることは、東京じゃない場所でやってる方が楽しい）
 ともあれ、いろいろな街の見方が変わるすごく良い本だった
 By TAKASU Masakazu/高須正和{.p-author .h-card} on September 3, 2021.
-...</p></div><footer class=entry-footer><span title='2021-09-03 00:00:00 +0000 UTC'>September 3, 2021</span>&nbsp;·&nbsp;<span>1 min</span></footer><a class=entry-link aria-label="post link to 深セン、シンガポール、シリコンバレー、東京 (都市は人類最高の発明である 著：エドワード・グレイザー 訳：山形浩生) (2016年09月30日）" href=https://takasumasakazu.github.io/teardown/2016-09-30/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://cdn-images-1.medium.com/max/800/0*3Krqp__ZuNkVLQ8j.jpg alt></figure><header class=entry-header><h2 class=entry-hint-parent>等身大の中国を見る目（なぜ、習近平は激怒したのか 人気漫画家が亡命した理由 高口康太） (2016年09月28日記事)</h2></header><div class=entry-content><p>なぜ、習近平は激怒したのか 人気漫画家が亡命した理由(祥伝社新書)
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-09-03 00:00:00 +0000 UTC'>September 3, 2021</span>&nbsp;·&nbsp;<span>1 min</span></footer>
+  <a class="entry-link" aria-label="post link to 深セン、シンガポール、シリコンバレー、東京 (都市は人類最高の発明である 著：エドワード・グレイザー 訳：山形浩生) (2016年09月30日）" href="http://localhost:1313/teardown/2016-09-30/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover">
+        <img loading="lazy" src="https://cdn-images-1.medium.com/max/800/0*3Krqp__ZuNkVLQ8j.jpg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">等身大の中国を見る目（なぜ、習近平は激怒したのか 人気漫画家が亡命した理由 高口康太） (2016年09月28日記事)
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>なぜ、習近平は激怒したのか 人気漫画家が亡命した理由(祥伝社新書)
 なぜ、習近平は激怒したのか 人気漫画家が亡命した理由(祥伝社新書) なぜ、習近平は激怒したのか 人気漫画家が亡命した理由(祥伝社新書) posted with amazlet{.markup–anchor .markup–p-anchor} at 16.09.27
 高口康太
 祥伝社
@@ -293,36 +601,97 @@ Shao{.markup–anchor .markup–p-anchor}さん(第4回に参加、その後も�
 「中国の士大夫に憧れがあるので、字が汚いのは恥ずかしいのだけど、、」といいながら、僕の本にはサインをしてもらった。
 明快な結論が出ているような本ではないが、都市や国といった巨大なものを一言で語ってわかった気になるような考え方に、僕は距離を置こうと思っている。メチャメチャ面白い本だった。
 中国のインターネット史 ワールドワイドウェブからの独立 (星海社新書) posted with amazlet{.markup–anchor .markup–p-anchor} at 16.09.27
-...</p></div><footer class=entry-footer><span title='2021-09-03 00:00:00 +0000 UTC'>September 3, 2021</span>&nbsp;·&nbsp;<span>1 min</span></footer><a class=entry-link aria-label="post link to 等身大の中国を見る目（なぜ、習近平は激怒したのか 人気漫画家が亡命した理由 高口康太） (2016年09月28日記事)" href=https://takasumasakazu.github.io/teardown/2016-09-28/></a></article><article class=post-entry><figure class=entry-cover><img loading=lazy src=https://cdn-images-1.medium.com/max/800/1*m5z7N09tbAdMQPYJ9QMuLg.jpeg alt></figure><header class=entry-header><h2 class=entry-hint-parent>\#分解のススメ 11回 ニセモノチップ解析編</h2></header><div class=entry-content><p>youtube録画、Togetterまとめ、資料公開をしています。
-youtube録画、Togetterまとめ、資料公開をしています。
-過去の動画まとめ
-#分解のススメ 録画アーカイブ
-*#分解のススメ 2020年から複数回行っている、リバースエンジニアリングの面白さと意義を共有しあうオンラインイベント。Facebookグループ…*medium.com{.markup–anchor .markup–mixtapeEmbed-anchor} 第11回の今回は、「ニセモノチップ解析」がテーマ。半導体不足による価格の高騰のせいで、偽造チップを掴まされる事例も増えています。
-ハードウェアハッカーに見るニセモノ解析 高須正和 @tks{.markup–anchor .markup–p-anchor}
-NT深圳コミュニティ共同創業者 メイカーフェアおじさん 中国深圳在住
-ハードウェアハッカー～新しいモノをつくる破壊と創造の冒険
-*Amazonでアンドリュー"バニー"ファン, 高須 正和, 山形…*amzn.to{.markup–anchor .markup–mixtapeEmbed-anchor}
-超低ドロップ電圧レギュレータANALOG DEVICES ADP3338 ThousanDIY @tomorrow56{.markup–anchor .markup–p-anchor}
-「ThousanDIY」(Thousand + DIY)の中身の電子回路設計エンジニア。 現在は某半導体設計会社で、機能評価と製品解析を担当。 趣味は"100 均巡り"と、Aliexpress でのガジェットあさり。
-https://note.com/tomorrow56/m/ma0073059b5ac
-ちっちゃいものくらぶ tomon01 tomon ともん @tomonnn1{.markup–anchor .markup–p-anchor}
-ちっちゃいものくらぶ tiisai.dip.jp{.markup–anchor .markup–p-anchor} 中の人 Scratchセンサーボード なのぼ〜ど{.markup–anchor .markup–p-anchor}設計・製造・販売
-世の趨勢に逆らいがちに道東の湖畔に小屋を建て日々を暮らす
-怪しい8ピンマイコンを炙る 鈴木涼太 JA1TYE/Ryota Suzuki @JA1TYE{.markup–anchor .markup–p-anchor}
-趣味はガジェットの製作・分解と世界の電気街巡り（一旦お休み中）。
-https://t-techlab.com/ の管理人。
-ニセモノチップをみてみた＆チップを流用する例をみてみた 秋田純一 秋田純一 @akita11{.markup–anchor .markup–p-anchor}
-本業は集積回路（特にイメージセンサ）、実装手段・可能性から考えるインタラクティブシステム。マイコン、半田付け。ライフワークはたぶん知覚。元未来大。数理の翼。NT金沢の中の人。MakeLSI:の人。無駄な抵抗コースターの人。「はじめて学ぶ電子回路15講」の人。好きな半田は共晶半田。好きなプロセスはCMOS0.35um
-揚げて炙ってわかるコンピュータのしくみ
-*この本はハードウェア分解・マイコンチップ開封の本でもあるけど、なによりもわかりやすいコンピュータサイエンスの本として書かれている。 ...*amzn.to{.markup–anchor .markup–mixtapeEmbed-anchor}
-イベントまとめは毎回ネットで公開中です イベントのtwitterまとめはこれです。
-#分解のススメ 11回 ニセモノチップ解析編
-更新日:7月18日22時21分togetter.com{.markup–anchor .markup–mixtapeEmbed-anchor} また、イベントまとめは毎回ブログにまとめています。
-#分解のススメ 録画アーカイブ
-*#分解のススメ 2020年から複数回行っている、リバースエンジニアリングの面白さと意義を共有しあうオンラインイベント。Facebookグループ…*medium.com{.markup–anchor .markup–mixtapeEmbed-anchor}
-...</p></div><footer class=entry-footer><span title='2021-07-19 00:00:00 +0000 UTC'>July 19, 2021</span>&nbsp;·&nbsp;<span>1 min</span></footer><a class=entry-link aria-label="post link to \#分解のススメ 11回 ニセモノチップ解析編" href=https://takasumasakazu.github.io/teardown/11/></a></article><footer class=page-footer><nav class=pagination><a class=prev href=https://takasumasakazu.github.io/teardown/page/3/>«&nbsp;Prev&nbsp;
-</a><a class=next href=https://takasumasakazu.github.io/teardown/page/5/>Next&nbsp;&nbsp;»</a></nav></footer></main><footer class=footer><span>&copy; 2026 <a href=https://takasumasakazu.github.io/>ニコ技深セン / Nico-Tech Shenzhen website</a></span> ·
-<span>Powered by
-<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
-        <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
-</a><script>let menu=document.getElementById("menu");if(menu){const e=localStorage.getItem("menu-scroll-position");e&&(menu.scrollLeft=parseInt(e,10)),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}}document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{const e=document.querySelector("html");e.dataset.theme==="dark"?(e.dataset.theme="light",localStorage.setItem("pref-theme","light")):(e.dataset.theme="dark",localStorage.setItem("pref-theme","dark"))})</script></body></html>
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-09-03 00:00:00 +0000 UTC'>September 3, 2021</span>&nbsp;·&nbsp;<span>1 min</span></footer>
+  <a class="entry-link" aria-label="post link to 等身大の中国を見る目（なぜ、習近平は激怒したのか 人気漫画家が亡命した理由 高口康太） (2016年09月28日記事)" href="http://localhost:1313/teardown/2016-09-28/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="http://localhost:1313/teardown/page/3/">
+      «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="http://localhost:1313/teardown/page/5/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">ニコ技深セン / Nico-Tech Shenzhen website</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

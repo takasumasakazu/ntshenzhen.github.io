@@ -1,9 +1,12 @@
-{{- /* layouts/index.html : override PaperMod home to respect params.mainSections */ -}}
+{{- /* layouts/index.html : Home shows latest 3 posts as first-view, then list */ -}}
 {{- define "main" -}}
+
+  {{- /* 1) Collect pages from mainSections */ -}}
   {{- $pages := where .Site.RegularPages "Section" "in" site.Params.mainSections -}}
   {{- $pages = where $pages "Params.hiddenInHomeList" "ne" true -}}
-  {{- $paginator := .Paginate ($pages.ByDate.Reverse) -}}
+  {{- $pages = $pages.ByDate.Reverse -}}
 
+  {{- /* Optional: PaperMod profile/home-info block */ -}}
   {{- if site.Params.profileMode -}}
     {{- partial "profile.html" . -}}
   {{- else -}}
@@ -12,10 +15,24 @@
     {{- end -}}
   {{- end -}}
 
+  {{- /* 2) First view: latest 3 posts */ -}}
+  {{- $top := first 3 $pages -}}
+  {{- if gt (len $top) 0 -}}
+    <div class="first-entry home-info">
+      {{- range $top -}}
+        {{- partial "post_entry.html" . -}}
+      {{- end -}}
+    </div>
+  {{- end -}}
+
+  {{- /* 3) List: the rest with pagination */ -}}
+  {{- $rest := after 3 $pages -}}
+  {{- $paginator := .Paginate $rest -}}
+
   {{- range $paginator.Pages -}}
-    {{- partial "post_meta.html" . -}}
     {{- partial "post_entry.html" . -}}
   {{- end -}}
 
   {{- partial "pagination.html" . -}}
+
 {{- end -}}

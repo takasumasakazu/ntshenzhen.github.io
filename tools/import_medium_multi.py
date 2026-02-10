@@ -217,46 +217,80 @@ def run_mediumexporter(url: str, out_dir: Path) -> bool:
 
 
 def add_tags_to_latest_md(out_dir: Path, tags: list[str], is_monthly: bool) -> None:
+    """
+    mediumexporter が吐いた最新 .md の frontmatter に tags を注入/置換する。
+    YAML (---) と TOML (+++) の両対応。
+    """
     mds = sorted(out_dir.glob("*.md"), key=lambda p: p.stat().st_mtime, reverse=True)
     if not mds:
         return
+
     p = mds[0]
     text = p.read_text(encoding="utf-8", errors="replace")
 
-    # merge tags
+    # merge tags (dedup)
     merged: list[str] = []
     for t in tags + ([MONTHLY_TAG] if is_monthly else []):
         t = norm_tag(t)
         if t and t not in merged:
             merged.append(t)
 
+    if not merged:
+        return
+
+    # f-string の式中にバックスラッシュを含めないように、先に作る
+    quoted = ", ".join(f'"{t}"' for t in merged)
+
     if text.startswith("---"):
-        # YAML: insert/replace tags: ["a","b"]
+        # YAML frontmatter
+        # 既存 tags を削除（配列1行形式 / リスト形式 両対応）
         text = re.sub(r'^\s*tags\s*:\s*\[(.*?)\]\s*$\n?', "", text, flags=re.M)
         text = re.sub(r'^\s*tags\s*:\s*\n((?:\s*-\s*.+\n)+)', "", text, flags=re.M)
 
-        # insert after title:
+        tags_line = f"tags: [{quoted}]\n"
+
+        # title行の直後に挿入（titleが無い場合は --- の直後に挿入）
         if re.search(r'^\s*title\s*:\s*.+$', text, re.M):
             text = re.sub(
                 r'^(\s*title\s*:\s*.+\n)',
-                r'\1' + f'tags: [{", ".join([f\'"{t}"\' for t in merged])}]\n',
-                text, flags=re.M
-            )
-
-    elif text.startswith("+++"):
-        # TOML: tags = ["a","b"]
-        if re.search(r'^\s*tags\s*=', text, re.M):
-            text = re.sub(
-                r'^\s*tags\s*=\s*\[(.*?)\]\s*$',
-                f'tags = [{", ".join([f\'"{t}"\' for t in merged])}]',
-                text, flags=re.M
+                lambda m: m.group(1) + tags_line,
+                text,
+                flags=re.M
             )
         else:
             text = re.sub(
-                r'^(\s*title\s*=\s*.+\n)',
-                r'\1' + f'tags = [{", ".join([f\'"{t}"\' for t in merged])}]\n',
-                text, flags=re.M
+                r'^(---\s*\n)',
+                lambda m: m.group(1) + tags_line,
+                text,
+                flags=re.M
             )
+
+    elif text.startswith("+++"):
+        # TOML frontmatter
+        tags_line = f"tags = [{quoted}]\n"
+
+        if re.search(r'^\s*tags\s*=', text, re.M):
+            text = re.sub(
+                r'^\s*tags\s*=\s*\[(.*?)\]\s*$',
+                f"tags = [{quoted}]",
+                text,
+                flags=re.M
+            )
+        else:
+            if re.search(r'^\s*title\s*=\s*.+$', text, re.M):
+                text = re.sub(
+                    r'^(\s*title\s*=\s*.+\n)',
+                    lambda m: m.group(1) + tags_line,
+                    text,
+                    flags=re.M
+                )
+            else:
+                text = re.sub(
+                    r'^(\+\+\+\s*\n)',
+                    lambda m: m.group(1) + tags_line,
+                    text,
+                    flags=re.M
+                )
 
     p.write_text(text, encoding="utf-8")
 
@@ -342,5 +376,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
-

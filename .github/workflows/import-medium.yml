@@ -33,6 +33,14 @@ jobs:
           # requirements が無い/未整備でも動くように最低限を入れる
           pip install feedparser beautifulsoup4 lxml requests python-frontmatter
 
+      - name: Debug - show files
+        run: |
+          pwd
+          git rev-parse HEAD
+          ls -la
+          ls -la tools || true
+
+
       - name: Run importer
         run: |
           python tools/import_medium_multi.py

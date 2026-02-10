@@ -48,6 +48,11 @@ buildFuture = false
     url = "/years/"
     weight = 30
 
+  [[menu.main]]
+    name = "Search"
+    url = "/search/"
+    weight = 35
+
 # PaperMod SEO設定
 [params.analytics.google]
   SiteVerificationTag = "qZ8Cu4n2HHEflyE7J4NOIcXHW3tpZUkV7QvZEjlGEWQ"
@@ -75,4 +80,8 @@ buildFuture = false
 
 # 検索結果用 summary 長さ
 summaryLength = 40
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
 

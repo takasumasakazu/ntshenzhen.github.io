@@ -49,6 +49,9 @@ buildFuture = false
     weight = 30
 
 # PaperMod SEO設定
+[params.analytics.google]
+  SiteVerificationTag = "qZ8Cu4n2HHEflyE7J4NOIcXHW3tpZUkV7QvZEjlGEWQ"
+
 [params]
   env = "production"
   mainSections = ["teardown", "shenzhen", "fabcross", "archive"]

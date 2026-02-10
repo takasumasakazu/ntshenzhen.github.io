@@ -1,0 +1,57 @@
+<!-- OVERRIDE_HOME_TEMPLATE_ENABLED -->
+{{- define "main" -}}
+
+  {{- /* Collect pages across sections (URL維持のため固定) */ -}}
+  {{- $pages := where .Site.RegularPages "Section" "in" (slice "teardown" "shenzhen" "fabcross" "archive") -}}
+  {{- $pages = where $pages "Params.hiddenInHomeList" "ne" true -}}
+  {{- $pages = $pages.ByDate.Reverse -}}
+
+  {{- /* First view: latest 3 posts */ -}}
+  {{- $top := first 3 $pages -}}
+  {{- if gt (len $top) 0 -}}
+    <div class="home-firstview">
+      {{- range $top -}}
+        <article class="post-entry">
+          <a class="entry-link" aria-label="{{ .Title }}" href="{{ .RelPermalink }}">
+            <header class="entry-header">
+              <h2>{{ .Title }}</h2>
+            </header>
+            {{- with .Summary -}}
+              <div class="entry-content">
+                <p>{{ . | plainify | truncate 160 }}</p>
+              </div>
+            {{- end -}}
+            <footer class="entry-footer">
+              {{ .Date.Format "January 2, 2006" }} · {{ .ReadingTime }} min
+            </footer>
+          </a>
+        </article>
+      {{- end -}}
+    </div>
+  {{- end -}}
+
+  {{- /* Rest: paginate */ -}}
+  {{- $rest := after 3 $pages -}}
+  {{- $paginator := .Paginate $rest -}}
+
+  {{- range $paginator.Pages -}}
+    <article class="post-entry">
+      <a class="entry-link" aria-label="{{ .Title }}" href="{{ .RelPermalink }}">
+        <header class="entry-header">
+          <h2>{{ .Title }}</h2>
+        </header>
+        {{- with .Summary -}}
+          <div class="entry-content">
+            <p>{{ . | plainify | truncate 160 }}</p>
+          </div>
+        {{- end -}}
+        <footer class="entry-footer">
+          {{ .Date.Format "January 2, 2006" }} · {{ .ReadingTime }} min
+        </footer>
+      </a>
+    </article>
+  {{- end -}}
+
+  {{- partial "pagination.html" . -}}
+
+{{- end -}}

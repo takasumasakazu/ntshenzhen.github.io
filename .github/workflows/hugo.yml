@@ -2,12 +2,10 @@
 name: Deploy Hugo site to GitHub Pages
 
 on:
-  # 普通の手動更新でも動く
   push:
     branches:
       - main
 
-  # Import workflow が “完了した” タイミングでも必ず動かす
   workflow_run:
     workflows:
       - Import Medium (ID-based dedup)
@@ -26,17 +24,6 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-      - name: Debug - confirm override template exists
-        run: |
-          echo "== git head =="
-          git rev-parse HEAD
-          echo "== layouts =="
-          ls -la layouts || true
-          echo "== home template =="
-          test -f layouts/home.html && echo "FOUND layouts/home.html" || echo "MISSING layouts/home.html"
-          echo "== marker check =="
-          grep -R "OVERRIDE_HOME_TEMPLATE_ENABLED" -n layouts || true
-
   build:
     # Import が失敗したときは build しない
     if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
@@ -48,6 +35,18 @@ jobs:
           submodules: recursive
           ref: main
           fetch-depth: 0
+
+      # ★ Debug は steps の中に入れる（ここが正しい）
+      - name: Debug - confirm override template exists
+        run: |
+          echo "== git head =="
+          git rev-parse HEAD
+          echo "== layouts =="
+          ls -la layouts || true
+          echo "== home template =="
+          test -f layouts/home.html && echo "FOUND layouts/home.html" || echo "MISSING layouts/home.html"
+          echo "== marker check =="
+          grep -R "OVERRIDE_HOME_TEMPLATE_ENABLED" -n layouts || true
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3

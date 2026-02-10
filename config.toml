@@ -5,7 +5,7 @@ publishDir = "public"
 
 # SEO 基本
 enableRobotsTXT = true
-canonifyURLs = true
+canonifyURLs = false
 buildFuture = false
 
 # Sitemap（Hugo標準）
@@ -24,6 +24,16 @@ buildFuture = false
 # メニュー
 [menu]
   [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 5
+
+  [[menu.main]]
+    name = "Monthly"
+    url = "/tags/monthly-report/"
+    weight = 6
+
+  [[menu.main]]
     name = "Teardown"
     url = "/teardown/"
     weight = 10
@@ -38,21 +48,11 @@ buildFuture = false
     url = "/years/"
     weight = 30
 
-[[menu.main]]
-name = "About"
-url = "/about/"
-weight = 5
-
-[[menu.main]]
-name = "Monthly"
-url = "/tags/monthly-report/"
-weight = 6
-
 # PaperMod SEO設定
 [params]
   env = "production"
   mainSections = ["teardown", "shenzhen", "fabcross", "archive"]
-
+  googleSiteVerification = "qZ8Cu4n2HHEflyE7J4NOIcXHW3tpZUkV7QvZEjlGEWQ"
   ShowReadingTime = true
   ShowShareButtons = true
   ShowBreadCrumbs = true
@@ -60,7 +60,6 @@ weight = 6
   ShowToc = true
   ShowPostCover = true
   disableSpecial1stPost = true
-  googleSiteVerification = "qZ8Cu4n2HHEflyE7J4NOIcXHW3tpZUkV7QvZEjlGEWQ"
 
 # Cover 表示
 [params.cover]

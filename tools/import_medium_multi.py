@@ -332,23 +332,32 @@ def main() -> int:
             print("Failed to fetch feed:", feed, e)
             continue
 
-        urls = parse_rss_links(rss)[:40]  # 新着側だけ
+        urls = parse_rss_links(rss)[:200]  # 新着側だけ
         for url in urls:
             url = normalize_url(url)
             if not url:
                 continue
 
-            pid = extract_post_id(url)
-            if pid and pid in imported_ids:
-                continue
-            if url in imported_urls:
-                continue
+pid = extract_post_id(url)
+
+if pid and pid in imported_ids:
+    # print(f"[skip] already imported id={pid} url={url}")
+    continue
+if url in imported_urls:
+    # print(f"[skip] already imported url={url}")
+    continue
 
             try:
                 html = fetch(url)
             except Exception as e:
                 print("Failed to fetch post:", url, e)
                 continue
+
+print(f"[feed] {feed}")
+print(f"[feed] items={len(parse_rss_links(rss))} (showing up to 5)")
+for u in parse_rss_links(rss)[:5]:
+    print("  -", normalize_url(u))
+
 
             title = extract_title(html)
             tags = extract_tags_from_html(html)

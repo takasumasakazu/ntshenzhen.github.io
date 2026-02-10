@@ -40,10 +40,13 @@ jobs:
           ls -la
           ls -la tools || true
 
-
       - name: Run importer
         run: |
           python tools/import_medium_multi.py
+
+      - name: Mark last run
+        run: |
+          date -u +"%Y-%m-%dT%H:%M:%SZ" > medium_last_run.txt
 
       - name: Commit & Push (only if changed)
         run: |

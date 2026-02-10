@@ -26,6 +26,17 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+      - name: Debug - confirm override template exists
+        run: |
+          echo "== git head =="
+          git rev-parse HEAD
+          echo "== layouts =="
+          ls -la layouts || true
+          echo "== home template =="
+          test -f layouts/home.html && echo "FOUND layouts/home.html" || echo "MISSING layouts/home.html"
+          echo "== marker check =="
+          grep -R "OVERRIDE_HOME_TEMPLATE_ENABLED" -n layouts || true
+
   build:
     # Import が失敗したときは build しない
     if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}

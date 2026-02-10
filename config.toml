@@ -52,6 +52,10 @@ buildFuture = false
 [params.analytics.google]
   SiteVerificationTag = "qZ8Cu4n2HHEflyE7J4NOIcXHW3tpZUkV7QvZEjlGEWQ"
 
+[services]
+  [services.googleAnalytics]
+    ID = "G-ZEC0V6RD6J"
+
 [params]
   env = "production"
   mainSections = ["teardown", "shenzhen", "fabcross", "archive"]

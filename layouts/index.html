@@ -1,8 +1,8 @@
-{{- /* layouts/index.html : Home shows latest 3 posts as first-view, then list */ -}}
+<!-- OVERRIDE_HOME_INDEX_ENABLED -->
 {{- define "main" -}}
 
-  {{- /* 1) Collect pages from mainSections */ -}}
-  {{- $pages := where .Site.RegularPages "Section" "in" site.Params.mainSections -}}
+  {{- /* Collect pages across these sections (URL維持のため固定) */ -}}
+  {{- $pages := where .Site.RegularPages "Section" "in" (slice "teardown" "shenzhen" "fabcross" "archive") -}}
   {{- $pages = where $pages "Params.hiddenInHomeList" "ne" true -}}
   {{- $pages = $pages.ByDate.Reverse -}}
 
@@ -10,12 +10,12 @@
   {{- if site.Params.profileMode -}}
     {{- partial "profile.html" . -}}
   {{- else -}}
-    {{- if site.Params.homeInfoParams -}}
-      {{- partial "home_info.html" . -}}
+    {{- with site.Params.homeInfoParams -}}
+      {{- partial "home_info.html" $ -}}
     {{- end -}}
   {{- end -}}
 
-  {{- /* 2) First view: latest 3 posts */ -}}
+  {{- /* First view: latest 3 posts */ -}}
   {{- $top := first 3 $pages -}}
   {{- if gt (len $top) 0 -}}
     <div class="first-entry home-info">
@@ -25,7 +25,7 @@
     </div>
   {{- end -}}
 
-  {{- /* 3) List: the rest with pagination */ -}}
+  {{- /* Rest with pagination */ -}}
   {{- $rest := after 3 $pages -}}
   {{- $paginator := .Paginate $rest -}}
 

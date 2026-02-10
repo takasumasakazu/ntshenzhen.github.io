@@ -52,7 +52,6 @@ buildFuture = false
 [params]
   env = "production"
   mainSections = ["teardown", "shenzhen", "fabcross", "archive"]
-  googleSiteVerification = "qZ8Cu4n2HHEflyE7J4NOIcXHW3tpZUkV7QvZEjlGEWQ"
   ShowReadingTime = true
   ShowShareButtons = true
   ShowBreadCrumbs = true

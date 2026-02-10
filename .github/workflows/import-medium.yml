@@ -1,2 +1,52 @@
+name: Import Medium (ID-based dedup)
+
 on:
   workflow_dispatch:
+  # JST 6:00 に毎日実行（UTC 21:00）
+  schedule:
+    - cron: "0 21 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: import-medium
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          # requirements が無い/未整備でも動くように最低限を入れる
+          pip install feedparser beautifulsoup4 lxml requests python-frontmatter
+
+      - name: Run importer
+        run: |
+          python tools/import_medium_multi.py
+
+      - name: Commit & Push (only if changed)
+        run: |
+          if git diff --quiet; then
+            echo "No changes. Nothing to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add -A
+          git commit -m "chore: import Medium updates"
+          git push

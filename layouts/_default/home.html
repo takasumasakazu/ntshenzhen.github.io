@@ -1,13 +1,50 @@
 {{ define "main" }}
 
+<!-- HOME_TEMPLATE_MARKER_20260210 -->
+
 <header class="page-header">
   <h1>{{ site.Title }}</h1>
 </header>
 
 {{ $sections := site.Params.mainSections | default (slice "teardown" "shenzhen" "fabcross" "archive") }}
 
+{{/* 横断で全ページを集めて、最新順に */}}
+{{ $all := where site.RegularPages "Section" "in" $sections }}
+{{ $all = where $all "Params.hiddenInHomeList" "ne" true }}
+{{ $all = $all.ByDate.Reverse }}
+
+{{/* First view: 最新3件 */}}
+{{ $top := first 3 $all }}
+{{ if gt (len $top) 0 }}
+  <div class="home-firstview" style="margin-top:1.5rem;">
+    {{ range $top }}
+      <article class="post-entry">
+        {{ if site.Params.ShowPostCover }}
+          {{ partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" false) }}
+        {{ end }}
+
+        <header class="entry-header">
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        </header>
+
+        <div class="entry-content">
+          {{ with .Summary }}<p>{{ . | plainify | htmlUnescape | truncate 220 }}</p>{{ end }}
+        </div>
+
+        <footer class="entry-footer">
+          {{ partial "post_meta.html" . }}
+        </footer>
+      </article>
+    {{ end }}
+  </div>
+{{ end }}
+
+{{/* セクション別表示（ただし firstview の3件は除外） */}}
 {{ range $sec := $sections }}
-  {{ $pages := (where site.RegularPages "Section" "eq" $sec).ByDate.Reverse }}
+  {{ $pages := (where site.RegularPages "Section" "eq" $sec) }}
+  {{ $pages = where $pages "Params.hiddenInHomeList" "ne" true }}
+  {{ $pages = $pages.ByDate.Reverse }}
+  {{ $pages = complement $top $pages }}
 
   <section style="margin-top:2rem;">
     <header class="page-header">

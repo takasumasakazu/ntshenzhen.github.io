@@ -1,0 +1,21 @@
+{{- /* layouts/index.html : override PaperMod home to respect params.mainSections */ -}}
+{{- define "main" -}}
+  {{- $pages := where .Site.RegularPages "Section" "in" site.Params.mainSections -}}
+  {{- $pages = where $pages "Params.hiddenInHomeList" "ne" true -}}
+  {{- $paginator := .Paginate ($pages.ByDate.Reverse) -}}
+
+  {{- if site.Params.profileMode -}}
+    {{- partial "profile.html" . -}}
+  {{- else -}}
+    {{- if site.Params.homeInfoParams -}}
+      {{- partial "home_info.html" . -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- range $paginator.Pages -}}
+    {{- partial "post_meta.html" . -}}
+    {{- partial "post_entry.html" . -}}
+  {{- end -}}
+
+  {{- partial "pagination.html" . -}}
+{{- end -}}

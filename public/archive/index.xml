@@ -9,6 +9,16 @@
     <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/archive/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>過去のmedium記事をGithub pagesに移行中 nico-tech-shenzhen.github.io</title>
+      <link>http://localhost:1313/archive/medium-github-pages-nico-tech-shenzhen-github-io-9ace82e922d5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/archive/medium-github-pages-nico-tech-shenzhen-github-io-9ace82e922d5/</guid>
+      <description>&lt;p&gt;medium記事が、googleのindexにほぼされなくなり、過去のfabcross記事を自分で参照したくなった時なども含めて困るようになりました。&lt;/p&gt;
+&lt;p&gt;github pagesに移行して、最終的には自分の様々な記事も含めて、まとめてそこで見れるようにしたいと考えています。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://nico-tech-shenzhen.github.io/&#34;&gt;ニコ技深セン / Nico-Tech Shenzhen website&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://nico-tech-shenzhen.github.io/&#34;&gt;https://nico-tech-shenzhen.github.io/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>ゲームの世界から飛び出そう --- --- 中国版学生ロボコン「RoboMaster」の狙い</title>
       <link>http://localhost:1313/archive/robomaster/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

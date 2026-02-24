@@ -72,6 +72,7 @@ buildFuture = false
   ShowPostCover = true
   disableSpecial1stPost = true
   author = "Masakazu Takasu"
+  description = "ニコ技深セン（Nico-Tech Shenzhen）は、深センのハードウェア産業、Makerエコシステム、スタートアップ、分解（Teardown）、ロボティクス、Physical AIを現地視点で記録するアーカイブ。Field archive of Shenzhen hardware startups, maker ecosystem, reverse engineering, chip teardown, robotics and Physical AI by Masakazu Takasu."
 
 # Cover 表示
 [params.cover]

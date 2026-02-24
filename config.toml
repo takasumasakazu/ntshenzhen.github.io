@@ -71,6 +71,7 @@ buildFuture = false
   ShowToc = true
   ShowPostCover = true
   disableSpecial1stPost = true
+  author = "Masakazu Takasu"
 
 # Cover 表示
 [params.cover]

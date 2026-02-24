@@ -59,7 +59,7 @@ buildFuture = false
 
 [services]
   [services.googleAnalytics]
-    ID = "G-ZEC0V6RD6J"
+    ID = "G-E0N88X4QBG"
 
 [params]
   env = "production"

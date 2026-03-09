@@ -1,0 +1,16 @@
+{{- $pages := site.RegularPages -}}
+{{- $pages = where $pages "Params.searchHidden" "ne" true -}}
+[
+{{- $first := true -}}
+{{- range $p := $pages -}}
+  {{- if not $first }},{{ end -}}
+  {
+    "title": {{ $p.Title | jsonify }},
+    "permalink": {{ $p.Permalink | jsonify }},
+    "section": {{ $p.Section | jsonify }},
+    "summary": {{ $p.Summary | plainify | htmlUnescape | jsonify }},
+    "content": {{ $p.Plain | htmlUnescape | jsonify }}
+  }
+  {{- $first = false -}}
+{{- end -}}
+]
